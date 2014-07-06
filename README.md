@@ -33,6 +33,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [Beego](http://beego.me/) - beego is an open-source, high-performance web framework for the Go programming language.
 * [traffic](https://github.com/pilu/traffic) - Sinatra inspired regexp/pattern mux and web framework for Go.
 * [httprouter](https://github.com/julienschmidt/httprouter) - A high performance router. Use this and the standard http handlers to form a very high performance web framework.
+* [gocraft/web](https://github.com/gocraft/web) - A mux and middleware package in Go. 
 
 
 ### Middlewares
@@ -48,7 +49,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [kasia.go](https://github.com/ziutek/kasia.go) - Templating system for HTML and other text documents - go implementation.
 * [gold](https://github.com/yosssi/gold) - Gold is a template engine for Go. This simplifies HTML coding in Go web application development. This is influenced by Slim and Jade.
 * [Razor](https://github.com/sipin/gorazor) - Razor view engine for Golang.
-
+* [Pongo](https://github.com/flosch/pongo) - A Django-like template engine for Go.
 
 ## Authentication and OAuth
 
