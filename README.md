@@ -20,6 +20,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Audio](#audio)
     - [Video](#video)
     - [DevOps Tools](#devops-tools)
+    - [Utilities](#utilities)
 - [Resources](#resources)
     - [Websites](#websites)
     - [(e)Books](#ebooks)
@@ -196,6 +197,11 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [juju](https://juju.ubuntu.com/) - Automate your cloud infrastructure
 * [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
 
+## Utilities
+
+*General utilities and tools to make you're life easier.*
+
+* [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
 
 ## Logging
 
