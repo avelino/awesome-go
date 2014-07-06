@@ -11,7 +11,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Imagery](#imagery)
 - [Resources](#resources)
     - [Websites](#websites)
-
+    - [(e)Books](#ebooks)
 
 ## Web Frameworks
 
@@ -69,3 +69,7 @@ Where to discover new Go libraries.
 
 * [r/Golang](http://www.reddit.com/r/golang) - News about Go.
 * [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
+
+## (e)Books
+
+* [golang-book](http://www.golang-book.com/)
