@@ -48,6 +48,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 *Databases implemented in Go.*
 
 * [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
+* [diskv](https://github.com/peterbourgon/diskv) - A home-grown disk-backed key-value store.
 
 
 # Resources
