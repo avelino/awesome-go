@@ -151,6 +151,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 * [Docker](http://www.docker.com/) - An open platform for distributed applications for developers and sysadmins.
 * [juju](https://juju.ubuntu.com/) - Automate your cloud infrastructure
+* [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
 
 
 # Resources
