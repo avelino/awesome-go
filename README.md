@@ -46,6 +46,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 *Libraries for implementing authentications schemes.*
 
 * [goauth](http://alloy-d.net/goauth/) - A Go library for doing header-based OAuth over HTTP or HTTPS. Mostly created for working with Twitter.
+* [httpauth](https://github.com/goji/httpauth) - HTTP Authentication middlewares.
 
 
 ## Database
