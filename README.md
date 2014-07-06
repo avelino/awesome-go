@@ -280,6 +280,8 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 * [glog](https://github.com/golang/glog) - Leveled execution logs for Go.
 * [go-log](https://github.com/siddontang/go-log) - Log lib supports level and multi handlers.
+* [logrus](https://github.com/sirupsen/logrus) - Structured, pluggable logging
+  for Go.
 
 
 ## Code Analysis and Linter
