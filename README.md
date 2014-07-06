@@ -126,6 +126,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     * [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - This package reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.
     * [blackfriday](https://github.com/russross/blackfriday) - Markdown
       processor in Go
+    * [bluemonday](https://github.com/microcosm-cc/bluemonday) - HTML Sanitizer
 
 
 ## Testing
