@@ -10,6 +10,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Authentication and OAuth](#authentication-and-oauth)
     - [Database](#database)
     - [Database Drivers](#database-drivers)
+    - [ORM](#orm)
     - [Imagery](#imagery)
     - [Text Processing](#text-processing)
     - [Testing](#testing)
@@ -82,6 +83,19 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     * [Neo4j-GO](https://github.com/davemeehan/Neo4j-GO) - Neo4j REST Client in golang.
     * [gocouch](https://github.com/hoisie/gocouch) - Couchdb client for Go.
     * [gomemcache](https://github.com/bradfitz/gomemcache/) - memcache client library for the Go programming language.
+
+
+## ORM
+
+*Libraries that implement Object-Relational Mapping or datamapping techniques.*
+
+* [BeeDB](https://github.com/astaxie/beedb) - go ORM,support database/sql interface，pq/mysql/sqlite.
+* [GORM](https://github.com/jinzhu/gorm) - The fantastic ORM library for Golang, aims to be developer friendly.
+* [gorp](https://github.com/coopernurse/gorp) - Go Relational Persistence, ORM-ish library for Go.
+* [hood](https://github.com/eaigner/hood) - Database agnostic ORM for Go.
+* [QBS](https://github.com/coocood/qbs) - Stands for Query By Struct. A Go ORM.
+* [Xorm](https://github.com/go-xorm/xorm) - Simple and powerful ORM for Go.
+* [upper.io/db](https://upper.io/db) - Single interface for interacting with different data sources through the use of adapters that wrap mature database drivers.
 
 
 ## Imagery
