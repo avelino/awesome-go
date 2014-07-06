@@ -189,7 +189,10 @@ Where to discover new Go libraries.
 ## (e)Books
 
 * [golang-book](http://www.golang-book.com/)
-
+* [golangbootcamp](http://golangbootcamp.com)
+* [network-programming](http://jan.newmarch.name/go/)
+* [learning-go](http://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
+* [build-applications-web](https://docs.google.com/file/d/0B2GBHFyTK2N8TzM4dEtIWjBJdEk/edit?pli=1)
 
 # Contributing
 
