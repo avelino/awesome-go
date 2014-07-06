@@ -16,6 +16,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Imagery](#imagery)
     - [Text Processing](#text-processing)
     - [Natural Language Processing](#natural-language-processing)
+    - [Science and Data Analysis](#science-and-data-analysis)
     - [Machine Learning](#machine-learning)
     - [Testing](#testing)
     - [Audio](#audio)
@@ -161,6 +162,22 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [MMSEGO](https://github.com/awsong/MMSEGO) - This is a GO implementation of [MMSEG](http://technology.chtsai.org/mmseg/) which a Chinese word splitting algorithm.
 * [gounidecode](https://github.com/fiam/gounidecode) - Unicode transliterator (also known as unidecode) for Go
 * [go-nlp](https://github.com/nuance/go-nlp) - Utilities for working with discrete probability distributions and other tools useful for doing NLP work.
+
+
+## Science and Data Analysis
+
+*Libraries for scientific computing and data analyzing.*
+
+* [go.matrix](https://github.com/skelterjohn/go.matrix) - linear algebra for go
+* [gocomplex](https://code.google.com/p/gocomplex/) - A complex number library for the Go programming language.
+* [mudlark-go](https://code.google.com/p/mudlark-go-pkgs/) - A collection of packages providing (hopefully) useful code for use in software using Google's Go programming language.
+* [gostat](https://code.google.com/p/gostat/) - A statistics library for the go language
+* [gofrac](https://github.com/anschelsc/gofrac) - A (goinstallable) fractions library for go with support for basic arithmetic.
+* [geom](https://github.com/skelterjohn/geom) - 2D geometry for golang
+* [blas](https://github.com/ziutek/blas) - Implementation of BLAS (Basic Linear Algebra Subprograms)
+* [go-fn](https://code.google.com/p/go-fn/) - Mathematical functions written in Go language, that are not covered by math pkg
+* [go-gt](https://code.google.com/p/go-gt/) - Graph theory algorithms written in "Go" language
+* [vectormath](https://github.com/spate/vectormath) - Vectormath for Go, an adaptation of the scalar C functions from Sony's Vector Math library, as found in the Bullet-2.79 source code.
 
 
 ## Machine Learning
