@@ -35,6 +35,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [mustache](https://github.com/hoisie/mustache) - A Go implementation of the Mustache template language.
 * [kasia.go](https://github.com/ziutek/kasia.go) - Templating system for HTML and other text documents - go implementation.
 * [gold](https://github.com/yosssi/gold) - Gold is a template engine for Go. This simplifies HTML coding in Go web application development. This is influenced by Slim and Jade.
+* [Razor](https://github.com/sipin/gorazor) - Razor view engine for Golang.
 
 
 ## Authentication and OAuth
