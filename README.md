@@ -52,6 +52,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 * [negroni](https://github.com/codegangsta/negroni) - Idiomatic HTTP Middleware for Golang
 * [alice](https://github.com/justinas/alice) - Painless middleware chaining for Go
+* [muxchain](https://github.com/stephens2424/muxchain) - Lightweight middleware for net/http
 
 ## Template Engine
 
