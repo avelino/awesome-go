@@ -110,6 +110,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 *Libraries that implement email creation and sending*
 
 * [email](https://github.com/jordan-wright/email) - A robust and flexible email library for Go.
+* [Go-MailHog](https://github.com/ian-kent/Go-MailHog) - Catches mail and serves it through a dream. Inspired by MailCatcher, easier to install.
 
 ## ORM
 
