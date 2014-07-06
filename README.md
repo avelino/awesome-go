@@ -258,6 +258,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [juju](https://juju.ubuntu.com/) - Automate your cloud infrastructure
 * [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
 * [Gogs](http://gogs.io/) - A Self Hosted Git Service in the Go Programming Language 
+* [Circuit](https://github.com/gocircuit/circuit) - Circuit is a programmable platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS), for management, discovery, synchronization and orchestration of services and hosts comprising cloud applications. 
 
 
 ## Utilities
