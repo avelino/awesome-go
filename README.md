@@ -17,6 +17,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Text Processing](#text-processing)
     - [Testing](#testing)
     - [Audio](#audio)
+    - [Video](#video)
     - [DevOps Tools](#devops-tools)
 - [Resources](#resources)
     - [Websites](#websites)
@@ -160,6 +161,13 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [PortAudio](https://code.google.com/p/portaudio-go/) - Go bindings for the PortAudio audio I/O library.
 * [gosndfile](https://github.com/mkb218/gosndfile) - Go bindings for libsndfile.
 * [go-sox](https://github.com/krig/go-sox) - libsox bindings for go.
+
+
+## Video
+*Libraries for manipulating video.*
+* [gmf](https://github.com/3d0c/gmf) - Go bindings for FFmpeg av* libraries.
+* [gst](https://github.com/ziutek/gst) - Go bindings for GStreamer.
+* [aac/h264](https://github.com/go-av/codec) - Golang aac/h264 encoder and decoder.
 
 
 ## DevOps Tools
