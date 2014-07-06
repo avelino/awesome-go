@@ -267,6 +267,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 *General utilities and tools to make you're life easier.*
 
 * [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
+* [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data
 
 
 ## Logging
