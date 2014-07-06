@@ -98,7 +98,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [assert](https://github.com/bmizerany/assert) - Asserts to Go testing
 * [Hamcrest](https://github.com/rdrdr/hamcrest) - fluent framework for declarative Matcher objects that, when applied to input values, produce self-describing results.
 * [restit](https://github.com/yookoala/restit) - A Go micro framework to help writing RESTful API integration test.
-* [ginkgo](http://onsi.github.io/ginkgo/) - BDD Testing Framework for Go
+
 
 # Resources
 
@@ -109,6 +109,7 @@ Where to discover new Go libraries.
 * [r/Golang](http://www.reddit.com/r/golang) - News about Go.
 * [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
 * [Flipboard - Go Magazine](https://flipboard.com/section/the-golang-magazine-bVP7nS) - A collection of Go articles and tutorials.
+* [@golang_news](https://twitter.com/golang_news)
 
 ## (e)Books
 
