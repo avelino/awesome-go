@@ -86,6 +86,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [diskv](https://github.com/peterbourgon/diskv) - A home-grown disk-backed key-value store.
 * [bolt](https://github.com/boltdb/bolt) - A low-level key/value database for Go.
 * [go-cache](https://github.com/pmylund/go-cache) - An in-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications.
+* [goleveldb](https://github.com/syndtr/goleveldb) - An implementation of the [LevelDB](https://code.google.com/p/leveldb/) key/value database in the Go.
 
 ## Database Drivers
 
