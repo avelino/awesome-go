@@ -119,3 +119,8 @@ Where to discover new Go libraries.
 ## (e)Books
 
 * [golang-book](http://www.golang-book.com/)
+
+
+# Contributing
+
+Your contributions are always welcome!
