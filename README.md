@@ -7,6 +7,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Web Frameworks](#web-frameworks)
         - [Middlewares](#middlewares) 
     - [Template Engine](#template-engine)
+    - [Forms](#forms)
     - [Authentication and OAuth](#authentication-and-oauth)
     - [Database](#database)
     - [Database Drivers](#database-drivers)
@@ -54,6 +55,14 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [Razor](https://github.com/sipin/gorazor) - Razor view engine for Golang.
 * [Pongo](https://github.com/flosch/pongo) - A Django-like template engine for Go.
 * [Soy](https://github.com/robfig/soy) - Closure templates (aka Soy templates) for Go, following the [official spec](https://developers.google.com/closure/templates/)
+
+
+## Forms
+
+*Libraries for working with forms.*
+
+* [nosurf](https://github.com/justinas/nosurf) - A CSRF protection middleware for Go.
+
 
 ## Authentication and OAuth
 
