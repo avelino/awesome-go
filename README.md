@@ -97,6 +97,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [mockhttp.go](https://github.com/tv42/mockhttp.go) - Mock object for Go http.ResponseWriter
 * [assert](https://github.com/bmizerany/assert) - Asserts to Go testing
 * [Hamcrest](https://github.com/rdrdr/hamcrest) - fluent framework for declarative Matcher objects that, when applied to input values, produce self-describing results.
+* [restit](https://github.com/yookoala/restit) - A Go micro framework to help writing RESTful API integration test.
 
 
 # Resources
