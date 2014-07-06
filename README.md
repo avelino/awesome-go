@@ -15,6 +15,9 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Text Processing](#text-processing)
     - [Testing](#testing)
     - [Audio](#audio)
+- [Go Tools](#tools)
+    - [Editor](#editors)
+    - [Tools](#develpment-tools)
 - [Resources](#resources)
     - [Websites](#websites)
     - [(e)Books](#ebooks)
@@ -143,6 +146,18 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [gosndfile](https://github.com/mkb218/gosndfile) - Go bindings for libsndfile.
 * [go-sox](https://github.com/krig/go-sox) - libsox bindings for go.
 
+# Tools
+
+Development tools and editor plugins.
+
+## Editor Plugins
+
+* [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim
+* [GoSublime](https://github.com/DisposaBoy/GoSublime) - A Golang plugin collection for the text editor SublimeText 2 providing code completion and other IDE-like features.
+
+## Development Tools
+
+* [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application
 
 # Resources
 
