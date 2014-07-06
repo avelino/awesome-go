@@ -7,6 +7,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Web Frameworks](#web-frameworks)
     - [Template Engine](#template-engine)
     - [Authentication and OAuth](#authentication-and-oauth)
+    - [Database](#database)
 - [Resources](#resources)
     - [Websites](#websites)
 
@@ -40,6 +41,12 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 *Libraries for implementing authentications schemes.*
 
 * [goauth](http://alloy-d.net/goauth/) - A Go library for doing header-based OAuth over HTTP or HTTPS. Mostly created for working with Twitter.
+
+
+## Database
+
+*Databases implemented in Go.*
+
 
 
 # Resources
