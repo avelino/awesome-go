@@ -34,6 +34,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [traffic](https://github.com/pilu/traffic) - Sinatra inspired regexp/pattern mux and web framework for Go.
 * [httprouter](https://github.com/julienschmidt/httprouter) - A high performance router. Use this and the standard http handlers to form a very high performance web framework.
 * [gocraft/web](https://github.com/gocraft/web) - A mux and middleware package in Go. 
+* [mango](https://github.com/paulbellamy/mango) - Mango is a modular web-application framework for Go, inspired by Rack, and PEP333.
 
 
 ### Middlewares
@@ -81,6 +82,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * NoSQL Databases
     * [mgo](http://labix.org/mgo) - MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
     * [redis](https://github.com/hoisie/redis) - A simple, powerful Redis client for Go.
+    * [redigo](https://github.com/garyburd/redigo) - Redigo is a Go client for the Redis database.
     * [Neo4j-GO](https://github.com/davemeehan/Neo4j-GO) - Neo4j REST Client in golang.
     * [gocouch](https://github.com/hoisie/gocouch) - Couchdb client for Go.
     * [gomemcache](https://github.com/bradfitz/gomemcache/) - memcache client library for the Go programming language.
