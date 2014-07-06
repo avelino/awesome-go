@@ -8,6 +8,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Template Engine](#template-engine)
     - [Authentication and OAuth](#authentication-and-oauth)
     - [Database](#database)
+    - [Database Drivers](#database-drivers)
     - [Imagery](#imagery)
     - [Parsers](#parsers)
     - [Testing](#testing)
@@ -53,6 +54,21 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 * [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
 * [diskv](https://github.com/peterbourgon/diskv) - A home-grown disk-backed key-value store.
+
+
+## Database Drivers
+
+*Libraties for connecting and operating databases.*
+
+* Relational Databases
+    * [pq](https://github.com/lib/pq) - Pure Go Postgres driver for database/sql.
+    * [go-pgsql](https://github.com/lxn/go-pgsql) - A PostgreSQL client package for the Go Programming Language.
+    * [GoMySQL](https://github.com/Philio/GoMySQL) - A quite complete threadsafe MySQL client library written in Go.
+* NoSQL Databases
+    * [mgo](http://labix.org/mgo) - MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
+    * [redis](https://github.com/hoisie/redis) - A simple, powerful Redis client for Go.
+    * [Neo4j-GO](https://github.com/davemeehan/Neo4j-GO) - Neo4j REST Client in golang.
+    * [gocouch](https://github.com/hoisie/gocouch) - Couchdb client for Go
 
 
 ## Imagery
