@@ -47,6 +47,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 *Databases implemented in Go.*
 
+* [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
 
 
 # Resources
