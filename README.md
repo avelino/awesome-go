@@ -9,6 +9,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Authentication and OAuth](#authentication-and-oauth)
     - [Database](#database)
     - [Imagery](#imagery)
+    - [Parsers](#parsers)
 - [Resources](#resources)
     - [Websites](#websites)
 
@@ -58,8 +59,11 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 *Libraries for manipulating images.*
 
 * [img](https://github.com/hawx/img) - A selection of image manipulation tools.
-* [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
 
+## Parsers
+
+* [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx) - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.
+* [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - This package reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.
 
 # Resources
 
