@@ -149,7 +149,8 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 *Software and libraries for DevOps.*
 
-
+* [Docker](http://www.docker.com/) - An open platform for distributed applications for developers and sysadmins.
+* [juju](https://juju.ubuntu.com/) - Automate your cloud infrastructure
 
 
 # Resources
