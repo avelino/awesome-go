@@ -21,6 +21,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Testing](#testing)
     - [Audio](#audio)
     - [Video](#video)
+    - [Game Development](#game-development)
     - [DevOps Tools](#devops-tools)
     - [Utilities](#utilities)
 - [Resources](#resources)
@@ -223,10 +224,24 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 
 ## Video
+
 *Libraries for manipulating video.*
-* [gmf](https://github.com/3d0c/gmf) - Go bindings for FFmpeg av* libraries.
+
+* [gmf](https://github.com/3d0c/gmf) - Go bindings for FFmpeg av\* libraries.
 * [gst](https://github.com/ziutek/gst) - Go bindings for GStreamer.
 * [aac/h264](https://github.com/go-av/codec) - Golang aac/h264 encoder and decoder.
+
+
+## Game Development
+
+*Awesome game development libraries.*
+
+* [GarageEngine](https://github.com/vova616/GarageEngine) - 2d game engine written in Go working on OpenGL.
+* [fungo](https://github.com/beoran/fungo) - Fun Unified Game library for te gO Programming language.
+* [go-rpg](https://github.com/viking/go-rpg) - Go package for creating role playing games
+* [terrago](https://github.com/sarenji/terrago) - Fractal terrain generator in Go.
+* [rog](https://github.com/ajhager/rog/) - A roguelike game library written in go
+* [glop](https://github.com/runningwild/glop) - Glop (Game Library Of Power) is a fairly simple cross-platform game library.
 
 
 ## DevOps Tools
