@@ -24,6 +24,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Game Development](#game-development)
     - [DevOps Tools](#devops-tools)
     - [Utilities](#utilities)
+    - [Code Analysis and Linter](#code-analysis-and-linter)
 - [Resources](#resources)
     - [Websites](#websites)
     - [(e)Books](#ebooks)
@@ -272,9 +273,10 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [glog](https://github.com/golang/glog) - Leveled execution logs for Go.
 * [go-log](https://github.com/siddontang/go-log) - Log lib supports level and multi handlers.
 
-## QA tools
 
-*Software and libraries for QA.*
+## Code Analysis and Linter
+
+*Libraries and tools for analysing, parsing and manipulation codebases.*
 
 * [GoLint](https://github.com/golang/lint) - Golint is a linter for Go source code.
 
