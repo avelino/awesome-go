@@ -5,7 +5,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 - [Awesome Go](#awesome-go)
     - [Web Frameworks](#web-frameworks)
-        - [Middlewares](#middlewares) 
+        - [Middlewares](#middlewares)
     - [Template Engine](#template-engine)
     - [Forms](#forms)
     - [Authentication and OAuth](#authentication-and-oauth)
@@ -44,7 +44,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [Beego](http://beego.me/) - beego is an open-source, high-performance web framework for the Go programming language.
 * [traffic](https://github.com/pilu/traffic) - Sinatra inspired regexp/pattern mux and web framework for Go.
 * [httprouter](https://github.com/julienschmidt/httprouter) - A high performance router. Use this and the standard http handlers to form a very high performance web framework.
-* [gocraft/web](https://github.com/gocraft/web) - A mux and middleware package in Go. 
+* [gocraft/web](https://github.com/gocraft/web) - A mux and middleware package in Go.
 * [mango](https://github.com/paulbellamy/mango) - Mango is a modular web-application framework for Go, inspired by Rack, and PEP333.
 
 
@@ -78,7 +78,8 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 * [goauth](http://alloy-d.net/goauth/) - A Go library for doing header-based OAuth over HTTP or HTTPS. Mostly created for working with Twitter.
 * [httpauth](https://github.com/goji/httpauth) - HTTP Authentication middlewares.
-
+* [osin](https://github.com/RangelReale/osin) - Golang OAuth2 server library.
+* [jwt-go](https://github.com/dgrijalva/jwt-go) - Golang implementation of JSON Web Tokens (JWT).
 
 ## Database
 
@@ -257,10 +258,12 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [Docker](http://www.docker.com/) - An open platform for distributed applications for developers and sysadmins.
 * [juju](https://juju.ubuntu.com/) - Automate your cloud infrastructure
 * [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
-* [Gogs](http://gogs.io/) - A Self Hosted Git Service in the Go Programming Language 
+* [Gogs](http://gogs.io/) - A Self Hosted Git Service in the Go Programming Language.
 * [Circuit](https://github.com/gocircuit/circuit) - Circuit is a programmable platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS), for management, discovery, synchronization and orchestration of services and hosts comprising cloud applications.
 * [gaudi](http://gaudi.io/) - Gaudi automates the setup of isolated and decoupled dev environments.
-
+* [fleet](https://github.com/coreos/fleet) - A Distributed init System.
+* [confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul.
+* [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
 
 ## Utilities
 
