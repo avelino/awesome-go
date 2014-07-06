@@ -15,6 +15,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Text Processing](#text-processing)
     - [Testing](#testing)
     - [Audio](#audio)
+    - [DevOps Tools](#devops-tools)
 - [Resources](#resources)
     - [Websites](#websites)
     - [(e)Books](#ebooks)
@@ -142,6 +143,13 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [PortAudio](https://code.google.com/p/portaudio-go/) - Go bindings for the PortAudio audio I/O library.
 * [gosndfile](https://github.com/mkb218/gosndfile) - Go bindings for libsndfile.
 * [go-sox](https://github.com/krig/go-sox) - libsox bindings for go.
+
+
+## DevOps Tools
+
+*Software and libraries for DevOps.*
+
+
 
 
 # Resources
