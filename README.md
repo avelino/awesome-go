@@ -15,6 +15,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [ORM](#orm)
     - [Imagery](#imagery)
     - [Text Processing](#text-processing)
+    - [Natural Language Processing](#natural-language-processing)
     - [Machine Learning](#machine-learning)
     - [Testing](#testing)
     - [Audio](#audio)
@@ -137,6 +138,28 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     * [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - This package reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.
     * [blackfriday](https://github.com/russross/blackfriday) - Markdown processor in Go
     * [bluemonday](https://github.com/microcosm-cc/bluemonday) - HTML Sanitizer
+
+
+## Natural Language Processing
+
+*Libraries for working with human languages.*
+
+* [go-stem](https://github.com/agonopol/go-stem) - Implementation of the porter stemming algorithm.
+* [snowball](https://github.com/goodsign/snowball) - Snowball stemmer port (cgo wrapper) for Go. Provides word stem extraction functionality.
+* [paicehusk](https://github.com/Rookii/paicehusk) - Golang implementation of the Paice/Husk Stemming Algorithm
+* [go-porterstemmer](https://github.com/reiver/go-porterstemmer) - A native Go clean room implementation of the Porter Stemming algorithm.
+* [stemmer](https://github.com/dchest/stemmer) - Stemmer packages for Go programming language. Includes English and German stemmers.
+* [snowball](https://github.com/kljensen/snowball) - Go implementation of the Snowball stemmers
+* [porter](https://github.com/a2800276/porter) - This is a fairly straighforward port of Martin Porter's C implementation of the Porter stemming algorithm. 
+* [golibstemmer](https://github.com/rjohnsondev/golibstemmer) - Go bindings for the snowball libstemmer library including porter 2
+* [snowball](https://github.com/tebeka/snowball) - Snowball Stemmer for Go [Snowball native](http://snowball.tartarus.org/)
+* [icu](https://github.com/goodsign/icu) - Cgo binding for icu4c C library detection and conversion functions. Guaranteed compatibility with version 50.1.
+* [libtextcat](https://github.com/goodsign/libtextcat) - Cgo binding for libtextcat C library. Guaranteed compatibility with version 2.2.
+* [textcat](https://github.com/pebbe/textcat) - A Go package for n-gram based text categorization, with support for utf-8 and raw text
+* [go-eco](https://code.google.com/p/go-eco/) - Similarity, dissimilarity and distance matrices; diversity, equitability and inequality measures; species richness estimators; coenocline models.
+* [MMSEGO](https://github.com/awsong/MMSEGO) - This is a GO implementation of [MMSEG](http://technology.chtsai.org/mmseg/) which a Chinese word splitting algorithm.
+* [gounidecode](https://github.com/fiam/gounidecode) - Unicode transliterator (also known as unidecode) for Go
+* [go-nlp](https://github.com/nuance/go-nlp) - Utilities for working with discrete probability distributions and other tools useful for doing NLP work.
 
 
 ## Machine Learning
