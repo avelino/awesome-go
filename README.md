@@ -113,6 +113,8 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     * [yaml](https://bitbucket.org/zombiezen/yaml) - Implements a YAML 1.2 parser in Go.
     * [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx) - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.
     * [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - This package reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.
+    * [blackfriday](https://github.com/russross/blackfriday) - Markdown
+      processor in Go
 
 
 ## Testing
@@ -148,6 +150,15 @@ Where to discover new Go libraries.
 * [r/Golang](http://www.reddit.com/r/golang) - News about Go.
 * [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
 * [Flipboard - Go Magazine](https://flipboard.com/section/the-golang-magazine-bVP7nS) - A collection of Go articles and tutorials.
+
+### Tutorials
+
+* [A Tour of Go](http://tour.golang.org/) - Interactive tour of Go
+* [An Introduction to Programming in Go](http://www.golang-book.com/) - A
+  beginner's introduction to programming which uses the Go language
+* [Working with Go](https://github.com/mkaz/working-with-go) - An intro to go for experienced programmers
+* [Go By Example](https://gobyexample.com/) - A hands-on introduction to Go using annotated example programs
+
 
 ## Twitter
 
