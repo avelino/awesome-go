@@ -23,6 +23,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [pat](https://github.com/bmizerany/pat) - Sinatra style pattern muxer for Go’s net/http library, by the author of Sinatra.
 * [Revel](http://revel.github.io/) - A high-productivity web framework for the Go language.
 * [Beego](http://beego.me/) - beego is an open-source, high-performance web framework for the Go programming language.
+* [traffic](https://github.com/pilu/traffic) - Sinatra inspired regexp/pattern mux and web framework for Go.
 
 
 ## Template Engine
