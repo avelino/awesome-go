@@ -10,6 +10,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Database](#database)
     - [Imagery](#imagery)
     - [Parsers](#parsers)
+    - [Testing](#testing)
 - [Resources](#resources)
     - [Websites](#websites)
     - [(e)Books](#ebooks)
@@ -67,6 +68,17 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 * [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx) - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.
 * [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - This package reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.
+
+
+## Testing
+
+* [gocheck](http://labix.org/gocheck) - A more advanced testing framework alternative to gotest.
+* [GoSpec](https://github.com/orfjackal/gospec) - BDD-style testing framework for the Go programming language.
+* [gospecify](https://github.com/stesla/gospecify) - This provides a BDD syntax for testing your Go code. It should be familiar to anybody who has used libraries such as rspec.
+* [gomock](https://code.google.com/p/gomock/) - Mocking framework for the Go programming language.
+* [mockhttp.go](https://github.com/tv42/mockhttp.go) - Mock object for Go http.ResponseWriter
+* [assert](https://github.com/bmizerany/assert) - Asserts to Go testing
+* [Hamcrest](https://github.com/rdrdr/hamcrest) - fluent framework for declarative Matcher objects that, when applied to input values, produce self-describing results.
 
 
 # Resources
