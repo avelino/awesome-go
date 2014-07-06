@@ -171,6 +171,14 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
 
 
+## Logging
+
+*Libraries for generating and working with log files.*
+
+* [glog](https://github.com/golang/glog) - Leveled execution logs for Go.
+* [go-log](https://github.com/siddontang/go-log) - Log lib supports level and multi handlers.
+
+
 # Resources
 
 Where to discover new Go libraries.
