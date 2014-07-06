@@ -8,6 +8,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Template Engine](#template-engine)
     - [Authentication and OAuth](#authentication-and-oauth)
     - [Database](#database)
+    - [Imagery](#imagery)
 - [Resources](#resources)
     - [Websites](#websites)
 
@@ -49,6 +50,12 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 * [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
 * [diskv](https://github.com/peterbourgon/diskv) - A home-grown disk-backed key-value store.
+
+
+## Imagery
+
+*Libraries for manipulating images.*
+
 
 
 # Resources
