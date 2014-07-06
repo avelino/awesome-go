@@ -10,6 +10,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Authentication and OAuth](#authentication-and-oauth)
     - [Database](#database)
     - [Database Drivers](#database-drivers)
+    - [Email](#email)
     - [ORM](#orm)
     - [Imagery](#imagery)
     - [Text Processing](#text-processing)
@@ -88,6 +89,11 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     * [gocouch](https://github.com/hoisie/gocouch) - Couchdb client for Go.
     * [gomemcache](https://github.com/bradfitz/gomemcache/) - memcache client library for the Go programming language.
 
+## Email
+
+*Libraries that implement email creation and sending*
+
+* [email](https://github.com/jordan-wright/email) - A robust and flexible email library for Go.
 
 ## ORM
 
