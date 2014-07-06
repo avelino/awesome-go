@@ -143,6 +143,16 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 *Libraries for Machine Learning.*
 
 * [CloudForest](https://github.com/ryanbressler/CloudForest) - Fast, flexible, multi-threaded ensembles of decision trees for machine learning in pure Go.
+* [mlgo](https://code.google.com/p/mlgo/) - This project aims to provide minimalistic machine learning algorithms in Go.
+* [go-fann](https://github.com/white-pony/go-fann) - Go bindings for Fast Artificial Neural Networks(FANN) library.
+* [neural-go](https://github.com/schuyler/neural-go) - A multilayer perceptron network implemented in Go, with training via backpropagation.
+* [bayesian](https://github.com/jbrukh/bayesian) - Naive Bayesian Classification for Golang.
+* [shield](https://github.com/eaigner/shield) - Bayesian text classifier with flexible tokenizers and storage backends for Go
+* [probab](https://code.google.com/p/probab/) - Probability distribution functions. Bayesian inference. Written in pure Go.
+* [libsvm](https://github.com/datastream/libsvm) - libsvm golang version derived work based on LIBSVM 3.14.
+* [golinear](https://github.com/danieldk/golinear) - liblinear bindings for Go
+* [go-pr](https://github.com/daviddengcn/go-pr) - Pattern recognition package in Go lang.
+* [go-galib](https://github.com/thoj/go-galib) - Genetic Algorithms library written in Go / golang
 
 
 ## Testing
