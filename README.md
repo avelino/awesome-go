@@ -149,6 +149,7 @@ Where to discover new Go libraries.
 * [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
 * [Flipboard - Go Magazine](https://flipboard.com/section/the-golang-magazine-bVP7nS) - A collection of Go articles and tutorials.
 * [A Tour of Go](http://tour.golang.org/#1) - Example based walkthrough of Go's features 
+* [Go By Example](https://gobyexample.com/) - Hands-on introduction to Go using annotated example programs
 
 ## Twitter
 
