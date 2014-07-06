@@ -137,6 +137,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 * Specific Formats
     * [yaml](https://bitbucket.org/zombiezen/yaml) - Implements a YAML 1.2 parser in Go.
+    * [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
     * [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx) - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.
     * [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - This package reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.
     * [blackfriday](https://github.com/russross/blackfriday) - Markdown processor in Go
