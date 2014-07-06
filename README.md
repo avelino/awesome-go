@@ -59,7 +59,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [kasia.go](https://github.com/ziutek/kasia.go) - Templating system for HTML and other text documents - go implementation.
 * [gold](https://github.com/yosssi/gold) - Gold is a template engine for Go. This simplifies HTML coding in Go web application development. This is influenced by Slim and Jade.
 * [Razor](https://github.com/sipin/gorazor) - Razor view engine for Golang.
-* [Pongo](https://github.com/flosch/pongo) - A Django-like template engine for Go.
+* [pongo2](https://github.com/flosch/pongo2) - A Django-like template-engine for Go.
 * [Soy](https://github.com/robfig/soy) - Closure templates (aka Soy templates) for Go, following the [official spec](https://developers.google.com/closure/templates/)
 
 
