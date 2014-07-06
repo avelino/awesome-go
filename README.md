@@ -11,7 +11,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Database](#database)
     - [Database Drivers](#database-drivers)
     - [Imagery](#imagery)
-    - [Parsers](#parsers)
+    - [Text Processing](#text-processing)
     - [Testing](#testing)
     - [Audio](#audio)
 - [Resources](#resources)
@@ -91,13 +91,17 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [resize](https://github.com/nfnt/resize) - Image resizing for the Go with common interpolation methods.
 
 
-## Parsers
+## Text Processing
 
-* [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx) - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.
-* [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - This package reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.
+* Specific Formats
+    * [yaml](https://bitbucket.org/zombiezen/yaml) - Implements a YAML 1.2 parser in Go.
+    * [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx) - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.
+    * [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - This package reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.
 
 
 ## Testing
+
+*Libraries for testing codebases and generating test data.*
 
 * [gocheck](http://labix.org/gocheck) - A more advanced testing framework alternative to gotest.
 * [GoSpec](https://github.com/orfjackal/gospec) - BDD-style testing framework for the Go programming language.
