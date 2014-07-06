@@ -31,6 +31,8 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [Revel](http://revel.github.io/) - A high-productivity web framework for the Go language.
 * [Beego](http://beego.me/) - beego is an open-source, high-performance web framework for the Go programming language.
 * [traffic](https://github.com/pilu/traffic) - Sinatra inspired regexp/pattern mux and web framework for Go.
+* [httprouter](https://github.com/julienschmidt/httprouter) - A high performance router. Use this and the standard http handlers to form a very high performance web framework.
+
 
 ### Middlewares
 
