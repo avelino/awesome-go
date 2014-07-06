@@ -86,6 +86,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [diskv](https://github.com/peterbourgon/diskv) - A home-grown disk-backed key-value store.
 * [bolt](https://github.com/boltdb/bolt) - A low-level key/value database for Go.
 * [go-cache](https://github.com/pmylund/go-cache) - An in-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications.
+* [groupcache](https://github.com/golang/groupcache) - Groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
 
 ## Database Drivers
 
