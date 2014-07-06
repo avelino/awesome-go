@@ -24,6 +24,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Game Development](#game-development)
     - [DevOps Tools](#devops-tools)
     - [Utilities](#utilities)
+    - [Logging](#logging)
     - [Code Analysis and Linter](#code-analysis-and-linter)
 - [Resources](#resources)
     - [Websites](#websites)
