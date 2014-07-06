@@ -56,6 +56,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 *Libraries for manipulating images.*
 
+* [img](https://github.com/hawx/img) - A selection of image manipulation tools.
 
 
 # Resources
