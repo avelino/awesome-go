@@ -133,7 +133,6 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 *Libraries for testing codebases and generating test data.*
 
 * [gocheck](http://labix.org/gocheck) - A more advanced testing framework alternative to gotest.
-* [GoConvey](http://goconvey.co/) - BDD-ish, rspec inspirated testing framework, automatic testing, coverage report and web UI
 * [GoSpec](https://github.com/orfjackal/gospec) - BDD-style testing framework for the Go programming language.
 * [gospecify](https://github.com/stesla/gospecify) - This provides a BDD syntax for testing your Go code. It should be familiar to anybody who has used libraries such as rspec.
 * [gomock](https://code.google.com/p/gomock/) - Mocking framework for the Go programming language.
@@ -184,6 +183,7 @@ Where to discover new Go libraries.
 ## Twitter
 
 * [@golang_news](https://twitter.com/golang_news)
+* [@golangweekly](https://twitter.com/golangweekly)
 
 ## (e)Books
 
