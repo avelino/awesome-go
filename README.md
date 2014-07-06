@@ -5,6 +5,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 - [Awesome Go](#awesome-go)
     - [Web Frameworks](#web-frameworks)
+        - [Middlewares](#middlewares) 
     - [Template Engine](#template-engine)
     - [Authentication and OAuth](#authentication-and-oauth)
     - [Database](#database)
@@ -30,6 +31,10 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [Beego](http://beego.me/) - beego is an open-source, high-performance web framework for the Go programming language.
 * [traffic](https://github.com/pilu/traffic) - Sinatra inspired regexp/pattern mux and web framework for Go.
 
+### Middlewares
+
+* [negroni](https://github.com/codegangsta/negroni) - Idiomatic HTTP Middleware for Golang
+* [alice](https://github.com/justinas/alice) - Painless middleware chaining for Go
 
 ## Template Engine
 
