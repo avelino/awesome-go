@@ -13,6 +13,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Imagery](#imagery)
     - [Parsers](#parsers)
     - [Testing](#testing)
+    - [Audio](#audio)
 - [Resources](#resources)
     - [Websites](#websites)
     - [(e)Books](#ebooks)
@@ -107,6 +108,16 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [Hamcrest](https://github.com/rdrdr/hamcrest) - fluent framework for declarative Matcher objects that, when applied to input values, produce self-describing results.
 * [restit](https://github.com/yookoala/restit) - A Go micro framework to help writing RESTful API integration test.
 * [ginkgo](http://onsi.github.io/ginkgo/) - BDD Testing Framework for Go
+
+
+## Audio
+
+*Libraries for manipulating audio.*
+
+* [PortAudio](https://code.google.com/p/portaudio-go/) - Go bindings for the PortAudio audio I/O library.
+* [gosndfile](https://github.com/mkb218/gosndfile) - Go bindings for libsndfile.
+* [go-sox](https://github.com/krig/go-sox) - libsox bindings for go.
+
 
 # Resources
 
