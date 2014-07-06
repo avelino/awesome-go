@@ -219,12 +219,15 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [Docker](http://www.docker.com/) - An open platform for distributed applications for developers and sysadmins.
 * [juju](https://juju.ubuntu.com/) - Automate your cloud infrastructure
 * [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
+* [Gogs](http://gogs.io/) - A Self Hosted Git Service in the Go Programming Language 
+
 
 ## Utilities
 
 *General utilities and tools to make you're life easier.*
 
 * [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
+
 
 ## Logging
 
