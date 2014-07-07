@@ -282,6 +282,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go.
 * [go-gtk](http://mattn.github.io/go-gtk/) - Go bindings for GTK
 * [go-qml](https://github.com/go-qml/qml) - QML support for the Go language
+* [gotk3](https://github.com/conformal/gotk3) - Go bindings for GTK3.
 
 ## OpenGL
 
