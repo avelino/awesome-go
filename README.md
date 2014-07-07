@@ -254,7 +254,9 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 ## Editor Plugins
 
-* [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim
+*Awesome plugins for editors.*
+
+* [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim.
 * [GoSublime](https://github.com/DisposaBoy/GoSublime) - A Golang plugin collection for the text editor SublimeText 2 providing code completion and other IDE-like features.
 
 ## DevOps Tools
@@ -279,7 +281,6 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data
 * [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
 * [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application
-
 
 ## Logging
 
