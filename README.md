@@ -6,6 +6,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 Please take a quick gander at the [contribution guidelines](https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md) first. Thanks to all [contributors](https://github.com/avelino/awesome-go/graphs/contributors); you rock!
 
+### Contents
 
 - [Awesome Go](#awesome-go)
     - [Web Frameworks](#web-frameworks)
@@ -43,56 +44,56 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Full stack web frameworks.*
 
-* [Martini](http://martini.codegangsta.io/) - Martini is a powerful package for quickly writing modular web applications/services in Golang.
-* [Gorilla](http://www.gorillatoolkit.org/) - Gorilla is a web toolkit for the Go programming language.
+* [Beego](http://beego.me/) - beego is an open-source, high-performance web framework for the Go programming language.
 * [Gin](http://gin-gonic.github.io/gin/) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity.
+* [gocraft/web](https://github.com/gocraft/web) - A mux and middleware package in Go.
 * [Goji](https://goji.io) - Goji is a minimalistic web framework for Golang that's high in antioxidants.
-* [web.go](http://webgo.io/) - A simple framework to write webapps in Go.
+* [Gorilla](http://www.gorillatoolkit.org/) - Gorilla is a web toolkit for the Go programming language.
+* [httprouter](https://github.com/julienschmidt/httprouter) - A high performance router. Use this and the standard http handlers to form a very high performance web framework.
+* [mango](https://github.com/paulbellamy/mango) - Mango is a modular web-application framework for Go, inspired by Rack, and PEP333.
+* [Martini](http://martini.codegangsta.io/) - Martini is a powerful package for quickly writing modular web applications/services in Golang.
 * [pat](https://github.com/bmizerany/pat) - Sinatra style pattern muxer for Go’s net/http library, by the author of Sinatra.
 * [Revel](http://revel.github.io/) - A high-productivity web framework for the Go language.
-* [Beego](http://beego.me/) - beego is an open-source, high-performance web framework for the Go programming language.
-* [traffic](https://github.com/pilu/traffic) - Sinatra inspired regexp/pattern mux and web framework for Go.
-* [httprouter](https://github.com/julienschmidt/httprouter) - A high performance router. Use this and the standard http handlers to form a very high performance web framework.
-* [gocraft/web](https://github.com/gocraft/web) - A mux and middleware package in Go.
-* [mango](https://github.com/paulbellamy/mango) - Mango is a modular web-application framework for Go, inspired by Rack, and PEP333.
 * [tigertonic](https://github.com/rcrowley/go-tigertonic) - A Go framework for building JSON web services inspired by Dropwizard
+* [traffic](https://github.com/pilu/traffic) - Sinatra inspired regexp/pattern mux and web framework for Go.
+* [web.go](http://webgo.io/) - A simple framework to write webapps in Go.
 
 
 ### Middlewares
 
-* [negroni](https://github.com/codegangsta/negroni) - Idiomatic HTTP Middleware for Golang
 * [alice](https://github.com/justinas/alice) - Painless middleware chaining for Go
 * [muxchain](https://github.com/stephens2424/muxchain) - Lightweight middleware for net/http
+* [negroni](https://github.com/codegangsta/negroni) - Idiomatic HTTP Middleware for Golang
 
-## Template Engine
+## Template Engines
 
 *Libraries and tools for templating and lexing.*
 
-* [mustache](https://github.com/hoisie/mustache) - A Go implementation of the Mustache template language.
-* [kasia.go](https://github.com/ziutek/kasia.go) - Templating system for HTML and other text documents - go implementation.
-* [gold](https://github.com/yosssi/gold) - Gold is a template engine for Go. This simplifies HTML coding in Go web application development. This is influenced by Slim and Jade.
-* [Razor](https://github.com/sipin/gorazor) - Razor view engine for Golang.
-* [pongo2](https://github.com/flosch/pongo2) - A Django-like template-engine for Go.
-* [Soy](https://github.com/robfig/soy) - Closure templates (aka Soy templates) for Go, following the [official spec](https://developers.google.com/closure/templates/)
 * [amber](https://github.com/eknkc/amber) - Amber is an elegant templating engine for Go Programming Language It is inspired from HAML and Jade.
+* [gold](https://github.com/yosssi/gold) - Gold is a template engine for Go. This simplifies HTML coding in Go web application development. This is influenced by Slim and Jade.
+* [kasia.go](https://github.com/ziutek/kasia.go) - Templating system for HTML and other text documents - go implementation.
+* [mustache](https://github.com/hoisie/mustache) - A Go implementation of the Mustache template language.
+* [pongo2](https://github.com/flosch/pongo2) - A Django-like template-engine for Go.
+* [Razor](https://github.com/sipin/gorazor) - Razor view engine for Golang.
+* [Soy](https://github.com/robfig/soy) - Closure templates (aka Soy templates) for Go, following the [official spec](https://developers.google.com/closure/templates/)
 
 
 ## Forms
 
 *Libraries for working with forms.*
 
-* [nosurf](https://github.com/justinas/nosurf) - A CSRF protection middleware for Go.
 * [binding](https://mholt.github.io/binding) - Binds form and JSON data from net/http Request to struct.
+* [nosurf](https://github.com/justinas/nosurf) - A CSRF protection middleware for Go.
 
 
-## Authentication and OAuth
+## Authentication & OAuth
 
 *Libraries for implementing authentications schemes.*
 
 * [goauth](http://alloy-d.net/goauth/) - A Go library for doing header-based OAuth over HTTP or HTTPS. Mostly created for working with Twitter.
-* [httpauth](https://github.com/goji/httpauth) - HTTP Authentication middlewares.
-* [osin](https://github.com/RangelReale/osin) - Golang OAuth2 server library.
+* [httpauth](https://github.com/goji/httpauth) - HTTP Authentication middlewa
 * [jwt-go](https://github.com/dgrijalva/jwt-go) - Golang implementation of JSON Web Tokens (JWT).
+* [osin](https://github.com/RangelReale/osin) - Golang OAuth2 server library.
 
 ## Database
 
