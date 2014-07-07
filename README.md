@@ -128,9 +128,9 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 ## Messaging
 
-*Libraries that implement messaging system*
+*Libraries that implement messaging systems*
 
-* [Uniqush-Push](https://github.com/uniqush/uniqush-push) - A redis backed unified push service for server-side notification to mobile devices
+* [Uniqush-Push](https://github.com/uniqush/uniqush-push) - A redis backed unified push service for server-side notifications to mobile devices
 
 ## ORM
 
