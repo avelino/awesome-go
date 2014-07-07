@@ -27,6 +27,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Testing](#testing)
     - [Audio](#audio)
     - [Video](#video)
+    - [Date & Time](#date--time)
     - [Game Development](#game-development)
     - [GUI](#gui)
     - [OpenGL](#opengl)
@@ -264,6 +265,11 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gst](https://github.com/ziutek/gst) - Go bindings for GStreamer.
 * [aac/h264](https://github.com/go-av/codec) - Golang aac/h264 encoder and decoder.
 
+## Date & Time
+
+*Libraries for working with dates and times.*
+
+* [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
 
 ## Game Development
 
