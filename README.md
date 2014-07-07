@@ -26,6 +26,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Utilities](#utilities)
     - [Logging](#logging)
     - [Code Analysis and Linter](#code-analysis-and-linter)
+    - [Code generation & ‘generics’](#codegen)
 - [Resources](#resources)
     - [Websites](#websites)
     - [(e)Books](#ebooks)
@@ -294,6 +295,15 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 *Libraries and tools for analysing, parsing and manipulation codebases.*
 
 * [GoLint](https://github.com/golang/lint) - Golint is a linter for Go source code.
+
+
+## Code generation & ‘generics’
+
+*Tools for brining generics-like functionality to Go via code generation*
+
+* [gen](https://github.com/clipperhouse/gen) - Code generation tool for ‘generics’-like functionality.
+* [go-linq](https://github.com/ahmetalpbalkan/go-linq) - .NET LINQ-like query methods for Go.
+* [go generate](https://docs.google.com/document/d/1V03LUfjSADDooDMhe-_K59EgpTEm3V8uvQRuNMAEnjg/edit) - A proposed code generation syntax from Rob Pike.
 
 
 # Resources
