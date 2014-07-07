@@ -23,6 +23,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Video](#video)
     - [Game Development](#game-development)
     - [GUI](#gui)
+    - [OpenGL](#opengl)
     - [Editor Plugins](#editor-plugins)
     - [DevOps Tools](#devops-tools)
     - [Utilities](#utilities)
@@ -274,6 +275,15 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go.
 * [go-gtk](http://mattn.github.io/go-gtk/) - Go bindings for GTK
 * [go-qml](https://github.com/go-qml/qml) - QML support for the Go language
+
+## OpenGL
+
+*Libraries for using OpenGL in Go.*
+
+* [glfw3](https://github.com/go-gl/glfw3) - Go bindings for GLFW 3.
+* [gl](https://github.com/go-gl/gl) - Go bindings for OpenGL. Requires an external dependency GLEW.
+* [glow](https://github.com/errcw/glow) - Go binding generator and bindings for OpenGL.
+* [mathgl](https://github.com/go-gl/mathgl) - Pure Go math package specialized for 3D math, with inspiration from GLM.
 
 ## DevOps Tools
 
