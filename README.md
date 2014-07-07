@@ -28,7 +28,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Utilities](#utilities)
     - [Logging](#logging)
     - [Code Analysis and Linter](#code-analysis-and-linter)
-    - [Code generation & ‘generics’](#codegen)
+    - [Code generation & ‘generics’](#code-generation--generics)
 - [Resources](#resources)
     - [Websites](#websites)
     - [(e)Books](#ebooks)
@@ -301,6 +301,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
 * [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update
 * [gox](https://github.com/mitchellh/gox) - A dead simple, no frills Go cross compile tool.
+* [goxc](https://github.com/laher/goxc) - build tool for Go, with a focus on cross-compiling and packaging.
 
 ## Logging
 
