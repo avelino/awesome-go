@@ -23,6 +23,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Video](#video)
     - [Game Development](#game-development)
     - [GUI](#gui)
+    - [Editor Plugins](#editor-plugins)
     - [DevOps Tools](#devops-tools)
     - [Utilities](#utilities)
     - [Logging](#logging)
@@ -259,6 +260,13 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [rog](https://github.com/ajhager/rog/) - A roguelike game library written in go
 * [glop](https://github.com/runningwild/glop) - Glop (Game Library Of Power) is a fairly simple cross-platform game library.
 
+## Editor Plugins
+
+*Awesome plugins for editors.*
+
+* [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim.
+* [GoSublime](https://github.com/DisposaBoy/GoSublime) - A Golang plugin collection for the text editor SublimeText 2 providing code completion and other IDE-like features.
+
 ## GUI
 
 *Libraries for building GUI Applications*
@@ -289,6 +297,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
 * [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data
 * [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
+* [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application
 * [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
 * [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update
 * [gox](https://github.com/mitchellh/gox) - A dead simple, no frills Go cross compile tool.
