@@ -274,6 +274,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
 * [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data
 * [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
+* [peco](https://github.com/peco/peco) - Simplistic interactive filtering tool.
 
 ## Logging
 
