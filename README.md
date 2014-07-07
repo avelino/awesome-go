@@ -47,19 +47,19 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Full stack web frameworks.*
 
-* [Beego](http://beego.me/) - beego is an open-source, high-performance web framework for the Go programming language.
-* [Gin](http://gin-gonic.github.io/gin/) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity.
+* [Beego](https://github.com/astaxie/beego) - beego is an open-source, high-performance web framework for the Go programming language.
+* [Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity.
 * [gocraft/web](https://github.com/gocraft/web) - A mux and middleware package in Go.
-* [Goji](https://goji.io) - Goji is a minimalistic web framework for Golang that's high in antioxidants.
-* [Gorilla](http://www.gorillatoolkit.org/) - Gorilla is a web toolkit for the Go programming language.
+* [Goji](https://github.com/zenazn/goji) - Goji is a minimalistic web framework for Golang that's high in antioxidants.
+* [Gorilla](https://github.com/gorilla/) - Gorilla is a web toolkit for the Go programming language.
 * [httprouter](https://github.com/julienschmidt/httprouter) - A high performance router. Use this and the standard http handlers to form a very high performance web framework.
 * [mango](https://github.com/paulbellamy/mango) - Mango is a modular web-application framework for Go, inspired by Rack, and PEP333.
-* [Martini](http://martini.codegangsta.io/) - Martini is a powerful package for quickly writing modular web applications/services in Golang.
+* [Martini](https://github.com/go-martini/martini) - Martini is a powerful package for quickly writing modular web applications/services in Golang.
 * [pat](https://github.com/bmizerany/pat) - Sinatra style pattern muxer for Go’s net/http library, by the author of Sinatra.
-* [Revel](http://revel.github.io/) - A high-productivity web framework for the Go language.
+* [Revel](https://github.com/revel/revel) - A high-productivity web framework for the Go language.
 * [tigertonic](https://github.com/rcrowley/go-tigertonic) - A Go framework for building JSON web services inspired by Dropwizard
 * [traffic](https://github.com/pilu/traffic) - Sinatra inspired regexp/pattern mux and web framework for Go.
-* [web.go](http://webgo.io/) - A simple framework to write webapps in Go.
+* [web.go](https://github.com/hoisie/web) - A simple framework to write webapps in Go.
 
 
 ### Middlewares
@@ -85,7 +85,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for working with forms.*
 
-* [binding](https://mholt.github.io/binding) - Binds form and JSON data from net/http Request to struct.
+* [binding](https://github.com/mholt/binding) - Binds form and JSON data from net/http Request to struct.
 * [nosurf](https://github.com/justinas/nosurf) - A CSRF protection middleware for Go.
 
 
@@ -93,7 +93,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for implementing authentications schemes.*
 
-* [goauth](http://alloy-d.net/goauth/) - A Go library for doing header-based OAuth over HTTP or HTTPS. Mostly created for working with Twitter.
+* [goauth](https://github.com/alloy-d/goauth) - A Go library for doing header-based OAuth over HTTP or HTTPS. Mostly created for working with Twitter.
 * [httpauth](https://github.com/goji/httpauth) - HTTP Authentication middlewa
 * [jwt-go](https://github.com/dgrijalva/jwt-go) - Golang implementation of JSON Web Tokens (JWT).
 * [osin](https://github.com/RangelReale/osin) - Golang OAuth2 server library.
@@ -107,7 +107,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-cache](https://github.com/pmylund/go-cache) - An in-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications.
 * [goleveldb](https://github.com/syndtr/goleveldb) - An implementation of the [LevelDB](https://code.google.com/p/leveldb/) key/value database in the Go.
 * [groupcache](https://github.com/golang/groupcache) - Groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
-* [skydb.io](http://skydb.io/) - Sky is an open source database used for flexible, high performance analysis of behavioral data.
+* [skydb.io](https://github.com/skydb/sky) - Sky is an open source database used for flexible, high performance analysis of behavioral data.
 * [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
 
 ## Database Drivers
@@ -124,7 +124,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * NoSQL Databases
     * [gocouch](https://github.com/hoisie/gocouch) - Couchdb client for Go.
     * [gomemcache](https://github.com/bradfitz/gomemcache/) - memcache client library for the Go programming language.
-    * [mgo](http://labix.org/mgo) - MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
+    * [mgo](http://godoc.org/labix.org/v2/mgo) - MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
     * [Neo4j-GO](https://github.com/davemeehan/Neo4j-GO) - Neo4j REST Client in golang.
     * [redigo](https://github.com/garyburd/redigo) - Redigo is a Go client for the Redis database.
     * [redis](https://github.com/hoisie/redis) - A simple, powerful Redis client for Go.
@@ -154,7 +154,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [hood](https://github.com/eaigner/hood) - Database agnostic ORM for Go.
 * [QBS](https://github.com/coocood/qbs) - Stands for Query By Struct. A Go ORM.
 * [Xorm](https://github.com/go-xorm/xorm) - Simple and powerful ORM for Go.
-* [upper.io/db](https://upper.io/db) - Single interface for interacting with different data sources through the use of adapters that wrap mature database drivers.
+* [upper.io/db](https://github.com/upper/db) - Single interface for interacting with different data sources through the use of adapters that wrap mature database drivers.
 
 
 ## Imagery
@@ -241,7 +241,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [assert](https://github.com/bmizerany/assert) - Asserts to Go testing
     * [ginkgo](http://onsi.github.io/ginkgo/) - BDD Testing Framework for Go
     * [gocheck](http://labix.org/gocheck) - A more advanced testing framework alternative to gotest.
-    * [GoConvey](http://goconvey.co/) - BDD-ish, rspec inspirated testing framework, automatic testing, coverage report and web UI
+    * [GoConvey](https://github.com/smartystreets/goconvey/) - BDD-ish, rspec inspirated testing framework, automatic testing, coverage report and web UI
     * [GoSpec](https://github.com/orfjackal/gospec) - BDD-style testing framework for the Go programming language.
     * [gospecify](https://github.com/stesla/gospecify) - This provides a BDD syntax for testing your Go code. It should be familiar to anybody who has used libraries such as rspec.
     * [Hamcrest](https://github.com/rdrdr/hamcrest) - fluent framework for declarative Matcher objects that, when applied to input values, produce self-describing results.
