@@ -140,6 +140,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries that implement messaging systems*
 
+* [NATS](https://github.com/apcera/nats) - A lightweight and highly performant publish-subscribe and distributed queueing messaging system.
 * [Uniqush-Push](https://github.com/uniqush/uniqush-push) - A redis backed unified push service for server-side notifications to mobile devices
 
 ## ORM
@@ -235,20 +236,18 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for testing codebases and generating test data.*
 
-    * Testing Frameworks
-        * [assert](https://github.com/bmizerany/assert) - Asserts to Go testing
-        * [ginkgo](http://onsi.github.io/ginkgo/) - BDD Testing Framework for Go
-        * [gocheck](http://labix.org/gocheck) - A more advanced testing framework alternative to gotest.
-        * [GoConvey](http://goconvey.co/) - BDD-ish, rspec inspirated testing framework, automatic testing, coverage report and web UI
-        * [GoSpec](https://github.com/orfjackal/gospec) - BDD-style testing framework for the Go programming language.
-        * [gospecify](https://github.com/stesla/gospecify) - This provides a BDD syntax for testing your Go code. It should be familiar to anybody who has used libraries such as rspec.
-        * [Hamcrest](https://github.com/rdrdr/hamcrest) - fluent framework for declarative Matcher objects that, when applied to input values, produce self-describing results.
-        * [restit](https://github.com/yookoala/restit) - A Go micro framework to help writing RESTful API integration test.
-        * [Testify](https://github.com/stretchr/testify) - A sacred extension to the standard go testing package.
+* [gocheck](http://labix.org/gocheck) - A more advanced testing framework alternative to gotest.
+* [GoConvey](http://goconvey.co/) - BDD-ish, rspec inspirated testing framework, automatic testing, coverage report and web UI
+* [GoSpec](https://github.com/orfjackal/gospec) - BDD-style testing framework for the Go programming language.
+* [gospecify](https://github.com/stesla/gospecify) - This provides a BDD syntax for testing your Go code. It should be familiar to anybody who has used libraries such as rspec.
+* [gomock](https://code.google.com/p/gomock/) - Mocking framework for the Go programming language.
+* [mockhttp.go](https://github.com/tv42/mockhttp.go) - Mock object for Go http.ResponseWriter
+* [assert](https://github.com/bmizerany/assert) - Asserts to Go testing
+* [Hamcrest](https://github.com/rdrdr/hamcrest) - fluent framework for declarative Matcher objects that, when applied to input values, produce self-describing results.
+* [restit](https://github.com/yookoala/restit) - A Go micro framework to help writing RESTful API integration test.
+* [ginkgo](http://onsi.github.io/ginkgo/) - BDD Testing Framework for Go
+* [Testify](https://github.com/stretchr/testify) - A sacred extension to the standard go testing package.
 
-    * Mock
-        * [gomock](https://code.google.com/p/gomock/) - Mocking framework for the Go programming language.
-        * [mockhttp.go](https://github.com/tv42/mockhttp.go) - Mock object for Go http.ResponseWriter
 
 ## Audio
 
@@ -314,8 +313,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for accessing third party APIs.*
 
 * [github](https://github.com/google/go-github) - Go library for accessing the GitHub API
-* [hipchat](https://github.com/andybons/hipchat) - This project implements a golang client library for the Hipchat API.
-* [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP
 
 ## DevOps Tools
 
