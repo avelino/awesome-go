@@ -13,7 +13,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
         - [Middlewares](#middlewares)
     - [Template Engine](#template-engine)
     - [Forms](#forms)
-    - [Authentication and OAuth](#authentication-and-oauth)
+    - [Authentication & OAuth](#authentication--oauth)
     - [Database](#database)
     - [Database Drivers](#database-drivers)
     - [Email](#email)
