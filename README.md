@@ -312,6 +312,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for accessing third party APIs.*
 
 * [github](https://github.com/google/go-github) - Go library for accessing the GitHub API
+* [hipchat](https://github.com/andybons/hipchat) - This project implements a golang client library for the Hipchat API.
+* [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP
 
 ## DevOps Tools
 
