@@ -155,6 +155,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [resize](https://github.com/nfnt/resize) - Image resizing for the Go with common interpolation methods.
 * [rez](https://github.com/bamiaux/rez) - Image resizing, functionality similar to resize
 * [imaging](https://github.com/disintegration/imaging) - Simple Go image processing package.
+* [go-webcolors](https://github.com/jyotiska/go-webcolors) - Port of webcolors library from Python to Go.
 
 ## Text Processing
 
