@@ -22,6 +22,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Audio](#audio)
     - [Video](#video)
     - [Game Development](#game-development)
+    - [GUI](#gui)
     - [DevOps Tools](#devops-tools)
     - [Utilities](#utilities)
     - [Logging](#logging)
@@ -255,6 +256,13 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [rog](https://github.com/ajhager/rog/) - A roguelike game library written in go
 * [glop](https://github.com/runningwild/glop) - Glop (Game Library Of Power) is a fairly simple cross-platform game library.
 
+## GUI
+
+*Libraries for building GUI Applications*
+
+* [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go.
+* [go-gtk](http://mattn.github.io/go-gtk/) - Go bindings for GTK
+* [go-qml](https://github.com/go-qml/qml) - QML support for the Go language
 
 ## DevOps Tools
 
