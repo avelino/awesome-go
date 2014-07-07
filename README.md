@@ -53,6 +53,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 * [negroni](https://github.com/codegangsta/negroni) - Idiomatic HTTP Middleware for Golang
 * [alice](https://github.com/justinas/alice) - Painless middleware chaining for Go
+* [muxchain](https://github.com/stephens2424/muxchain) - Lightweight middleware for net/http
 
 ## Template Engine
 
@@ -92,6 +93,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [go-cache](https://github.com/pmylund/go-cache) - An in-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications.
 * [goleveldb](https://github.com/syndtr/goleveldb) - An implementation of the [LevelDB](https://code.google.com/p/leveldb/) key/value database in the Go.
 * [groupcache](https://github.com/golang/groupcache) - Groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
+* [skydb.io](http://skydb.io/) - Sky is an open source database used for flexible, high performance analysis of behavioral data.
 
 ## Database Drivers
 
