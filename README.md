@@ -112,7 +112,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 ## Database Drivers
 
-*Libraties for connecting and operating databases.*
+*Libraries for connecting and operating databases.*
 
 * Relational Databases
     * [go-db](https://github.com/phf/go-db) - Generic database API for Go.
@@ -141,6 +141,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries that implement messaging systems*
 
+* [NATS](https://github.com/apcera/nats) - A lightweight and highly performant publish-subscribe and distributed queueing messaging system.
 * [Uniqush-Push](https://github.com/uniqush/uniqush-push) - A redis backed unified push service for server-side notifications to mobile devices
 
 ## ORM
@@ -314,8 +315,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for accessing third party APIs.*
 
 * [github](https://github.com/google/go-github) - Go library for accessing the GitHub API
-* [hipchat](https://github.com/andybons/hipchat) - This project implements a golang client library for the Hipchat API.
-* [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP
 
 ## Package Management
 
