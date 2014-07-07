@@ -31,6 +31,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [GUI](#gui)
     - [OpenGL](#opengl)
     - [Editor Plugins](#editor-plugins)
+    - [Third-party APIs](#third-party-apis)
     - [DevOps Tools](#devops-tools)
     - [Utilities](#utilities)
     - [Logging](#logging)
@@ -299,6 +300,10 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gl](https://github.com/go-gl/gl) - Go bindings for OpenGL. Requires an external dependency GLEW.
 * [glow](https://github.com/errcw/glow) - Go binding generator and bindings for OpenGL.
 * [mathgl](https://github.com/go-gl/mathgl) - Pure Go math package specialized for 3D math, with inspiration from GLM.
+
+## Third-party APIs
+
+* [github](https://github.com/google/go-github) - Go library for accessing the GitHub API
 
 ## DevOps Tools
 
