@@ -380,6 +380,16 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go generate](https://docs.google.com/document/d/1V03LUfjSADDooDMhe-_K59EgpTEm3V8uvQRuNMAEnjg/edit) - A proposed code generation syntax from Rob Pike.
 
 
+## Embeddable Scripting Languages
+
+*Embedding other languages inside your go code*
+
+* [golua](https://github.com/aarzilli/golua) - Go bindings for Lua C API
+* [go-python](https://github.com/sbinet/go-python) - naive go bindings to the CPython C-API
+* [otto](https://github.com/robertkrimen/otto) - A JavaScript interpreter written in Go
+* [v8-go](https://github.com/idada/v8.go/) - V8 JavaScript engine bindings for Go
+
+
 # Resources
 
 Where to discover new Go libraries.
