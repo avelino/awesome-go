@@ -12,6 +12,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Database](#database)
     - [Database Drivers](#database-drivers)
     - [Email](#email)
+    - [Messaging](#messaging)
     - [ORM](#orm)
     - [Imagery](#imagery)
     - [Text Processing](#text-processing)
@@ -124,6 +125,12 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [email](https://github.com/jordan-wright/email) - A robust and flexible email library for Go.
 * [Go-MailHog](https://github.com/ian-kent/Go-MailHog) - Catches mail and serves it through a dream. Inspired by MailCatcher, easier to install.
 * [mp](https://github.com/sanbornm/mp) - A simple cli email parser. It currently takes stdin and outputs JSON.
+
+## Messaging
+
+*Libraries that implement messaging system*
+
+* [Uniqush-Push](https://github.com/uniqush/uniqush-push) - A redis backed unified push service for server-side notification to mobile devices
 
 ## ORM
 
