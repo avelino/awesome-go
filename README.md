@@ -335,15 +335,15 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *General utilities and tools to make your life easier.*
 
-* [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
-* [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data
-* [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
-* [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application
 * [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
 * [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update
+* [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application
 * [gox](https://github.com/mitchellh/gox) - A dead simple, no frills Go cross compile tool.
 * [goxc](https://github.com/laher/goxc) - build tool for Go, with a focus on cross-compiling and packaging.
+* [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
+* [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data
 * [mp](https://github.com/sanbornm/mp) - A simple cli email parser. It currently takes stdin and outputs JSON.
+* [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
 
 ## Logging
 
