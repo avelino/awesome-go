@@ -22,7 +22,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Audio](#audio)
     - [Video](#video)
     - [Game Development](#game-development)
-    - [Editor Plugins](#editors)
+    - [Editor Plugins](#editor-plugins)
     - [DevOps Tools](#devops-tools)
     - [Utilities](#utilities)
     - [Logging](#logging)
