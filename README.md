@@ -70,6 +70,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [Razor](https://github.com/sipin/gorazor) - Razor view engine for Golang.
 * [pongo2](https://github.com/flosch/pongo2) - A Django-like template-engine for Go.
 * [Soy](https://github.com/robfig/soy) - Closure templates (aka Soy templates) for Go, following the [official spec](https://developers.google.com/closure/templates/)
+* [amber](https://github.com/eknkc/amber) - Amber is an elegant templating engine for Go Programming Language It is inspired from HAML and Jade.
 
 
 ## Forms
