@@ -39,6 +39,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Logging](#logging)
     - [Code Analysis and Linter](#code-analysis-and-linter)
     - [Code generation & ‘generics’](#code-generation--generics)
+    - [Embeddable Scripting Languages](#embeddable-scripting-languages)
 - [Resources](#resources)
     - [Websites](#websites)
     - [(e)Books](#ebooks)
@@ -389,7 +390,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [otto](https://github.com/robertkrimen/otto) - A JavaScript interpreter written in Go
 * [v8-go](https://github.com/idada/v8.go/) - V8 JavaScript engine bindings for Go
 
-
+
 # Resources
 
 Where to discover new Go libraries.
