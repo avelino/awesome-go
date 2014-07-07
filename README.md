@@ -118,6 +118,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 * [email](https://github.com/jordan-wright/email) - A robust and flexible email library for Go.
 * [Go-MailHog](https://github.com/ian-kent/Go-MailHog) - Catches mail and serves it through a dream. Inspired by MailCatcher, easier to install.
+* [mp](https://github.com/sanbornm/mp) - A simple cli email parser. It currently takes stdin and outputs JSON.
 
 ## ORM
 
@@ -276,6 +277,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data
 * [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
 * [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
+* [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update
 
 ## Logging
 
