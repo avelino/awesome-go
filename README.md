@@ -141,6 +141,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
 * [resize](https://github.com/nfnt/resize) - Image resizing for the Go with common interpolation methods.
 * [rez](https://github.com/bamiaux/rez) - Image resizing, functionality similar to resize
+* [imaging](https://github.com/disintegration/imaging) - Simple Go image processing package.
 
 ## Text Processing
 
