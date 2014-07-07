@@ -306,6 +306,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [fleet](https://github.com/coreos/fleet) - A Distributed init System.
 * [confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul.
 * [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
+* [aptly](https://github.com/smira/aptly) - Debian repository management tool.
 
 ## Utilities
 
