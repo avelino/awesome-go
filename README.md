@@ -13,7 +13,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
         - [Middlewares](#middlewares)
     - [Template Engine](#template-engine)
     - [Forms](#forms)
-    - [Authentication & OAuth](#authentication--oauth)
+    - [Authentication and OAuth](#authentication-and-oauth)
     - [Database](#database)
     - [Database Drivers](#database-drivers)
     - [Email](#email)
@@ -99,39 +99,41 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Databases implemented in Go.*
 
-* [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
-* [diskv](https://github.com/peterbourgon/diskv) - A home-grown disk-backed key-value store.
 * [bolt](https://github.com/boltdb/bolt) - A low-level key/value database for Go.
+* [diskv](https://github.com/peterbourgon/diskv) - A home-grown disk-backed key-value store.
 * [go-cache](https://github.com/pmylund/go-cache) - An in-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications.
 * [goleveldb](https://github.com/syndtr/goleveldb) - An implementation of the [LevelDB](https://code.google.com/p/leveldb/) key/value database in the Go.
 * [groupcache](https://github.com/golang/groupcache) - Groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
 * [skydb.io](http://skydb.io/) - Sky is an open source database used for flexible, high performance analysis of behavioral data.
+* [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
+
 
 ## Database Drivers
 
 *Libraties for connecting and operating databases.*
 
 * Relational Databases
-    * [pq](https://github.com/lib/pq) - Pure Go Postgres driver for database/sql.
+    * [go-db](https://github.com/phf/go-db) - Generic database API for Go.
     * [go-pgsql](https://github.com/lxn/go-pgsql) - A PostgreSQL client package for the Go Programming Language.
     * [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) - MySQL driver for Go.
     * [go-sqlite3](https://github.com/mattn/go-sqlite3) - SQLite3 driver for go that using database/sql.
-    * [go-db](https://github.com/phf/go-db) - Generic database API for Go.
+    * [pq](https://github.com/lib/pq) - Pure Go Postgres driver for database/sql.   
+
 * NoSQL Databases
-    * [mgo](http://labix.org/mgo) - MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
-    * [redis](https://github.com/hoisie/redis) - A simple, powerful Redis client for Go.
-    * [redigo](https://github.com/garyburd/redigo) - Redigo is a Go client for the Redis database.
-    * [Neo4j-GO](https://github.com/davemeehan/Neo4j-GO) - Neo4j REST Client in golang.
     * [gocouch](https://github.com/hoisie/gocouch) - Couchdb client for Go.
     * [gomemcache](https://github.com/bradfitz/gomemcache/) - memcache client library for the Go programming language.
+    * [mgo](http://labix.org/mgo) - MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
+    * [Neo4j-GO](https://github.com/davemeehan/Neo4j-GO) - Neo4j REST Client in golang.
+    * [redigo](https://github.com/garyburd/redigo) - Redigo is a Go client for the Redis database.
+    * [redis](https://github.com/hoisie/redis) - A simple, powerful Redis client for Go.
 
 ## Email
 
 *Libraries that implement email creation and sending*
 
 * [email](https://github.com/jordan-wright/email) - A robust and flexible email library for Go.
-* [gomail](https://github.com/alexcesaro/mail) - Gomail provides a very simple API to send emails. It supports attachments, multipart emails and encoding of non-ASCII characters.
 * [Go-MailHog](https://github.com/ian-kent/Go-MailHog) - Catches mail and serves it through a dream. Inspired by MailCatcher, easier to install.
+* [gomail](https://github.com/alexcesaro/mail) - Gomail provides a very simple API to send emails. It supports attachments, multipart emails and encoding of non-ASCII characters.
 * [mp](https://github.com/sanbornm/mp) - A simple cli email parser. It currently takes stdin and outputs JSON.
 
 ## Messaging
@@ -157,25 +159,25 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for manipulating images.*
 
+* [go-webcolors](https://github.com/jyotiska/go-webcolors) - Port of webcolors library from Python to Go.
 * [img](https://github.com/hawx/img) - A selection of image manipulation tools.
-* [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
+* [imagick](https://github.com/gographics/imagick) - Go binding to ImageMagick's MagickWand C API.
+* [imaging](https://github.com/disintegration/imaging) - Simple Go image processing package.
 * [resize](https://github.com/nfnt/resize) - Image resizing for the Go with common interpolation methods.
 * [rez](https://github.com/bamiaux/rez) - Image resizing, functionality similar to resize
-* [imaging](https://github.com/disintegration/imaging) - Simple Go image processing package.
-* [go-webcolors](https://github.com/jyotiska/go-webcolors) - Port of webcolors library from Python to Go.
-* [imagick](https://github.com/gographics/imagick) - Go binding to ImageMagick's MagickWand C API.
+* [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
+
 
 ## Text Processing
 
 * Specific Formats
-    * [yaml](https://bitbucket.org/zombiezen/yaml) - Implements a YAML 1.2 parser in Go.
-    * [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
-    * [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx) - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.
-    * [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - This package reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.
     * [blackfriday](https://github.com/russross/blackfriday) - Markdown processor in Go
         * [github_flavored_markdown](http://godoc.org/github.com/shurcooL/go/github_flavored_markdown) - GitHub Flavored Markdown renderer in Go.
     * [bluemonday](https://github.com/microcosm-cc/bluemonday) - HTML Sanitizer
-
+    * [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - This package reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.
+    * [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx) - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.
+    * [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
+    * [yaml](https://bitbucket.org/zombiezen/yaml) - Implements a YAML 1.2 parser in Go.
 
 ## Natural Language Processing
 
@@ -318,7 +320,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 ## Utilities
 
-*General utilities and tools to make your life easier.*
+*General utilities and tools to make youre life easier.*
 
 * [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
 * [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data
