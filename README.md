@@ -281,7 +281,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [fungo](https://github.com/beoran/fungo) - Fun Unified Game library for te gO Programming language.
 * [go-rpg](https://github.com/viking/go-rpg) - Go package for creating role playing games
 * [terrago](https://github.com/sarenji/terrago) - Fractal terrain generator in Go.
-* [rog](https://github.com/ajhager/rog/) - A roguelike game library written in go
 * [glop](https://github.com/runningwild/glop) - Glop (Game Library Of Power) is a fairly simple cross-platform game library.
 
 ## Editor Plugins
