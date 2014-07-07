@@ -235,6 +235,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for testing codebases and generating test data.*
 
+* [goautotest](https://github.com/ryanslade/goautotest) - Simple tool to automatically run "go test" when a change is made to .go files.
 * [gocheck](http://labix.org/gocheck) - A more advanced testing framework alternative to gotest.
 * [GoConvey](http://goconvey.co/) - BDD-ish, rspec inspirated testing framework, automatic testing, coverage report and web UI
 * [GoSpec](https://github.com/orfjackal/gospec) - BDD-style testing framework for the Go programming language.
