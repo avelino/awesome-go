@@ -13,7 +13,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
         - [Middlewares](#middlewares)
     - [Template Engine](#template-engine)
     - [Forms](#forms)
-    - [Authentication and OAuth](#authentication-and-oauth)
+    - [Authentication & OAuth](#authentication--oauth)
     - [Database](#database)
     - [Database Drivers](#database-drivers)
     - [Email](#email)
@@ -107,7 +107,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [skydb.io](http://skydb.io/) - Sky is an open source database used for flexible, high performance analysis of behavioral data.
 * [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
 
-
 ## Database Drivers
 
 *Libraties for connecting and operating databases.*
@@ -166,7 +165,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [resize](https://github.com/nfnt/resize) - Image resizing for the Go with common interpolation methods.
 * [rez](https://github.com/bamiaux/rez) - Image resizing, functionality similar to resize
 * [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
-
 
 ## Text Processing
 
@@ -320,7 +318,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 ## Utilities
 
-*General utilities and tools to make youre life easier.*
+*General utilities and tools to make your life easier.*
 
 * [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
 * [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data
