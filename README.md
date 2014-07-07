@@ -236,6 +236,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [Hamcrest](https://github.com/rdrdr/hamcrest) - fluent framework for declarative Matcher objects that, when applied to input values, produce self-describing results.
 * [restit](https://github.com/yookoala/restit) - A Go micro framework to help writing RESTful API integration test.
 * [ginkgo](http://onsi.github.io/ginkgo/) - BDD Testing Framework for Go
+* [Testify](https://github.com/stretchr/testify) - A sacred extension to the standard go testing package.
 
 
 ## Audio
