@@ -125,6 +125,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 *Libraries that implement email creation and sending*
 
 * [email](https://github.com/jordan-wright/email) - A robust and flexible email library for Go.
+* [gomail](https://github.com/alexcesaro/mail) - Gomail provides a very simple API to send emails. It supports attachments, multipart emails and encoding of non-ASCII characters.
 * [Go-MailHog](https://github.com/ian-kent/Go-MailHog) - Catches mail and serves it through a dream. Inspired by MailCatcher, easier to install.
 * [mp](https://github.com/sanbornm/mp) - A simple cli email parser. It currently takes stdin and outputs JSON.
 
@@ -330,6 +331,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [go-log](https://github.com/siddontang/go-log) - Log lib supports level and multi handlers.
 * [logrus](https://github.com/sirupsen/logrus) - Structured, pluggable logging for Go.
 * [seelog](https://github.com/cihub/seelog) -   logging functionality with flexible dispatching, filtering, and formatting.
+* [stdlog](https://github.com/alexcesaro/log) - Stdlog is an object-oriented library providing leveled logging. It is very useful for cron jobs.
 
 
 ## Code Analysis and Linter
