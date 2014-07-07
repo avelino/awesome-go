@@ -290,6 +290,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
 * [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
 * [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update
+* [gox](https://github.com/mitchellh/gox) - A dead simple, no frills Go cross compile tool.
 
 ## Logging
 
