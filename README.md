@@ -33,6 +33,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [OpenGL](#opengl)
     - [Editor Plugins](#editor-plugins)
     - [Third-party APIs](#third-party-apis)
+    - [Package Management](#package-management)
     - [DevOps Tools](#devops-tools)
     - [Utilities](#utilities)
     - [Logging](#logging)
@@ -315,6 +316,12 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [github](https://github.com/google/go-github) - Go library for accessing the GitHub API
 * [hipchat](https://github.com/andybons/hipchat) - This project implements a golang client library for the Hipchat API.
 * [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP
+
+## Package Management
+
+*Libraries for package and dependency management.*
+
+* [godep](https://github.com/tools/godep) - dependency tool for go, godep helps build packages reproducibly by fixing their dependencies.
 
 ## DevOps Tools
 
