@@ -318,7 +318,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 ## Utilities
 
-*General utilities and tools to make you're life easier.*
+*General utilities and tools to make your life easier.*
 
 * [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
 * [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data
