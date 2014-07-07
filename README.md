@@ -141,8 +141,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries that implement messaging systems*
 
-* [Uniqush-Push](https://github.com/uniqush/uniqush-push) - A redis backed unified push service for server-side notifications to mobile devices
 * [dbus](https://github.com/godbus/dbus) - Native Go bindings for D-Bus
+* [Uniqush-Push](https://github.com/uniqush/uniqush-push) - A redis backed unified push service for server-side notifications to mobile devices
 
 ## ORM
 
