@@ -144,6 +144,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
 * [resize](https://github.com/nfnt/resize) - Image resizing for the Go with common interpolation methods.
 * [rez](https://github.com/bamiaux/rez) - Image resizing, functionality similar to resize
+* [imaging](https://github.com/disintegration/imaging) - Simple Go image processing package.
 
 ## Text Processing
 
@@ -296,8 +297,8 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 * [glog](https://github.com/golang/glog) - Leveled execution logs for Go.
 * [go-log](https://github.com/siddontang/go-log) - Log lib supports level and multi handlers.
-* [logrus](https://github.com/sirupsen/logrus) - Structured, pluggable logging
-  for Go.
+* [logrus](https://github.com/sirupsen/logrus) - Structured, pluggable logging for Go.
+* [seelog](https://github.com/cihub/seelog) -   logging functionality with flexible dispatching, filtering, and formatting.
 
 
 ## Code Analysis and Linter
