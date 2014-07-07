@@ -2,6 +2,10 @@
 
 A curated list of awesome Go frameworks, libraries and software. Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
+### Contributing
+
+Please take a quick gander at the [contribution guidelines](https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md) first. Thanks to all [contributors](https://github.com/avelino/awesome-go/graphs/contributors); you rock!
+
 
 - [Awesome Go](#awesome-go)
     - [Web Frameworks](#web-frameworks)
@@ -381,7 +385,3 @@ Where to discover new Go libraries.
 * [network-programming](http://jan.newmarch.name/go/)
 * [learning-go](http://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
 * [build-applications-web](https://docs.google.com/file/d/0B2GBHFyTK2N8TzM4dEtIWjBJdEk/edit?pli=1)
-
-# Contributing
-
-Your contributions are always welcome!
