@@ -163,6 +163,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [rez](https://github.com/bamiaux/rez) - Image resizing, functionality similar to resize
 * [imaging](https://github.com/disintegration/imaging) - Simple Go image processing package.
 * [go-webcolors](https://github.com/jyotiska/go-webcolors) - Port of webcolors library from Python to Go.
+* [imagick](https://github.com/gographics/imagick) - Go binding to ImageMagick's MagickWand C API.
 
 ## Text Processing
 
