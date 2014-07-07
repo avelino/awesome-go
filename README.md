@@ -303,6 +303,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 ## Third-party APIs
 
+*Libraries for accessing third party APIs.*
+
 * [github](https://github.com/google/go-github) - Go library for accessing the GitHub API
 
 ## DevOps Tools
