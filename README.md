@@ -22,11 +22,13 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
     - [Audio](#audio)
     - [Video](#video)
     - [Game Development](#game-development)
+    - [GUI](#gui)
     - [Editor Plugins](#editor-plugins)
     - [DevOps Tools](#devops-tools)
     - [Utilities](#utilities)
     - [Logging](#logging)
     - [Code Analysis and Linter](#code-analysis-and-linter)
+    - [Code generation & ‘generics’](#codegen)
 - [Resources](#resources)
     - [Websites](#websites)
     - [(e)Books](#ebooks)
@@ -72,6 +74,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 *Libraries for working with forms.*
 
 * [nosurf](https://github.com/justinas/nosurf) - A CSRF protection middleware for Go.
+* [binding](https://mholt.github.io/binding) - Binds form and JSON data from net/http Request to struct.
 
 
 ## Authentication and OAuth
@@ -142,6 +145,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
 * [resize](https://github.com/nfnt/resize) - Image resizing for the Go with common interpolation methods.
 * [rez](https://github.com/bamiaux/rez) - Image resizing, functionality similar to resize
+* [imaging](https://github.com/disintegration/imaging) - Simple Go image processing package.
 
 ## Text Processing
 
@@ -262,12 +266,21 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim.
 * [GoSublime](https://github.com/DisposaBoy/GoSublime) - A Golang plugin collection for the text editor SublimeText 2 providing code completion and other IDE-like features.
 
+## GUI
+
+*Libraries for building GUI Applications*
+
+* [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go.
+* [go-gtk](http://mattn.github.io/go-gtk/) - Go bindings for GTK
+* [go-qml](https://github.com/go-qml/qml) - QML support for the Go language
+
 ## DevOps Tools
 
 *Software and libraries for DevOps.*
 
 * [Docker](http://www.docker.com/) - An open platform for distributed applications for developers and sysadmins.
 * [juju](https://juju.ubuntu.com/) - Automate your cloud infrastructure
+* [Go-AWS-Auth](https://github.com/smartystreets/go-aws-auth) - AWS (Amazon Web Services) request signing library
 * [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
 * [Gogs](http://gogs.io/) - A Self Hosted Git Service in the Go Programming Language.
 * [Circuit](https://github.com/gocircuit/circuit) - Circuit is a programmable platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS), for management, discovery, synchronization and orchestration of services and hosts comprising cloud applications.
@@ -286,6 +299,7 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 * [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application
 * [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
 * [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update
+* [gox](https://github.com/mitchellh/gox) - A dead simple, no frills Go cross compile tool.
 
 ## Logging
 
@@ -293,8 +307,8 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 * [glog](https://github.com/golang/glog) - Leveled execution logs for Go.
 * [go-log](https://github.com/siddontang/go-log) - Log lib supports level and multi handlers.
-* [logrus](https://github.com/sirupsen/logrus) - Structured, pluggable logging
-  for Go.
+* [logrus](https://github.com/sirupsen/logrus) - Structured, pluggable logging for Go.
+* [seelog](https://github.com/cihub/seelog) -   logging functionality with flexible dispatching, filtering, and formatting.
 
 
 ## Code Analysis and Linter
@@ -302,6 +316,15 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 *Libraries and tools for analysing, parsing and manipulation codebases.*
 
 * [GoLint](https://github.com/golang/lint) - Golint is a linter for Go source code.
+
+
+## Code generation & ‘generics’
+
+*Tools for brining generics-like functionality to Go via code generation*
+
+* [gen](https://github.com/clipperhouse/gen) - Code generation tool for ‘generics’-like functionality.
+* [go-linq](https://github.com/ahmetalpbalkan/go-linq) - .NET LINQ-like query methods for Go.
+* [go generate](https://docs.google.com/document/d/1V03LUfjSADDooDMhe-_K59EgpTEm3V8uvQRuNMAEnjg/edit) - A proposed code generation syntax from Rob Pike.
 
 
 # Resources
