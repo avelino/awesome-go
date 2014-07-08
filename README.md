@@ -374,11 +374,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 # Tools
 
-*Go software and plugins*
+Go software and plugins.
 
 ## Code Analysis
-
-*Tools for analysing, parsing and manipulation of go code.*
 
 * [GoLint](https://github.com/golang/lint) - Golint is a linter for Go source code.
 * [doc](http://godoc.org/code.google.com/p/rspace.cmd/doc) - Go documentation tool that produces an alternative doc format.
@@ -387,8 +385,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 
 ## Editor Plugins
-
-*Awesome plugins for editors.*
 
 * [GoSublime](https://github.com/DisposaBoy/GoSublime) - A Golang plugin collection for the text editor SublimeText 2 providing code completion and other IDE-like features.
 * [go-lang-idea-plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) Go plugin for IntelliJ IDEA.
@@ -399,8 +395,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Software written in Go*
 
 ### DevOps Tools
-
-*Go tools for your development cycle.*
 
 * [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
 * [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
@@ -414,8 +408,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [hk] (https://github.com/heroku/hk) - Heroku command-line interface in Go.
 
 ### Other Software
-
-*Software written in Go.*
 
 * [Circuit](https://github.com/gocircuit/circuit) - Circuit is a programmable platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS), for management, discovery, synchronization and orchestration of services and hosts comprising cloud applications.
 * [Docker](http://www.docker.com/) - An open platform for distributed applications for developers and sysadmins.
