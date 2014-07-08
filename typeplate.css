@@ -1,0 +1,528 @@
+/*!
+TYPEPLATE
+URL ........... http://typeplate.com
+VERSION ....... 1.1.4
+Github ........ https://github.com/typeplate/bower
+AUTHORS ....... Dennis Gaebel (@gryghostvisuals) & Zachary Kain (@zakkain)
+LICENSE ....... Creative Commmons Attribution 3.0 (http://creativecommons.org/licenses/by/3.0)
+LICENSE URL ... https://github.com/typeplate/bower/blob/master/license.txt
+*/
+
+
+/**
+ *
+ * =======================================================================
+   Unicode Ampersand
+ * =======================================================================
+ */
+
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
+  unicode-range: U+0026;
+}
+
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia");
+  unicode-range: U+270C;
+}
+
+
+/**
+ *
+ * Extend this class on any element of your
+ * choice for ampersands.
+ *
+ * For example:
+
+  <h6 class="ampersand">Dewey Cheat 'em & Howe</h6>
+
+ */
+.ampersand {
+  font-family: Ampersand, Verdana, sans-serif;
+}
+
+
+/**
+ *
+ * =======================================================================
+   Word Wrap
+ * =======================================================================
+ */
+
+.breakword {
+  word-wrap: break-word;
+}
+
+.normal-wrap {
+  word-wrap: normal;
+}
+
+.inherit-wrap {
+  word-wrap: auto;
+}
+
+
+/**
+ *
+ * =======================================================================
+ * Drop Capitals:
+ * Extend this object into your markup.
+
+   <p class="drop-cap">What a wonderful day it is out there wouldn't you'd say?</p>
+
+  * =======================================================================
+ */
+
+.drop-cap:first-letter {
+  float: left;
+  margin: auto .25em auto auto;
+  padding: inherit;
+  font-size: 4em;
+  font-family: inherit;
+  line-height: 1;
+  text-indent: 0;
+  background: transparent;
+  color: inherit;
+}
+
+p + .drop-cap {
+  text-indent: 0;
+  margin-top: 0;
+}
+
+
+/**
+ *
+ * =======================================================================
+   Base Type
+ * =======================================================================
+ *
+ */
+
+html {
+  font: normal 112.5%/1.65 serif; /* base font size 18px with 1.65 line-height */
+}
+
+body {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+  color: #444444;
+}
+
+
+/**
+ *
+ * =======================================================================
+   Fine Print
+ * =======================================================================
+ */
+
+small {
+  font-size: 65%;
+}
+
+
+/**
+ *
+ * =======================================================================
+   Headings
+ * =======================================================================
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+  margin-top: 0;
+  text-rendering: optimizeLegibility; /*  voodoo to enable ligatures and kerning | https://developer.mozilla.org/en-US/docs/CSS/text-rendering */
+  color: #222222;
+}
+
+
+/**
+* Extend included classes on any element of your
+* choosing for adjusting type based on the scale
+* provided.
+
+* For example:
+
+ <h6 class="giga">Awesome Headline</h6>
+ <p class="tera">a story about a dude</p>
+
+* Our Type Scale is as follows with px fallbacks
+* for IE 6-8 as they do not understand REM units.
+*
+* 18, 21, 24, 36, 48, 60, 72, 90, 117
+*
+*
+* Explanation:
+* margin-bottom = ( base font-size * base line-height ) / current font-size
+*
+* Makes sure that there's always one unit of measure's worth of space between shit
+* for headings. This is better than spacing using line-height because of the wrapping issue where we have
+* wrapping onto 2 lines with a high line-height.
+ */
+
+.tera {
+  font-size: 117px;
+  font-size: 6.5rem; /* 117 / 18 = 6.5 */
+  margin-bottom: 4.56923px;
+  margin-bottom: 0.25385rem;
+}
+
+.giga {
+  font-size: 90px;
+  font-size: 5rem; /* 90 / 18 = 5 */
+  margin-bottom: 5.94px;
+  margin-bottom: 0.33rem;
+}
+
+.mega {
+  font-size: 72px;
+  font-size: 4rem; /* 72 / 18 = 4 */
+  margin-bottom: 7.425px;
+  margin-bottom: 0.4125rem;
+}
+
+h1,
+.alpha {
+  font-size: 60px;
+  font-size: 3.33333rem; /* 60 / 18 = 3.3333 */
+  margin-bottom: 8.91px;
+  margin-bottom: 0.495rem;
+}
+
+h2,
+.beta {
+  font-size: 48px;
+  font-size: 2.6667rem; /* 48 / 18 = 2.6667 */
+  margin-bottom: 11.1375px;
+  margin-bottom: 0.61875rem;
+}
+
+h3,
+.gamma {
+  font-size: 36px;
+  font-size: 2rem; /* 36 / 18 = 2 */
+  margin-bottom: 14.85px;
+  margin-bottom: 0.825rem;
+}
+
+h4,
+.delta {
+  font-size: 24px;
+  font-size: 1.3333333333333333rem; /* 24 / 18 = 1.3333 */
+  margin-bottom: 22.275px;
+  margin-bottom: 1.2375rem;
+}
+
+h5,
+.epsilon {
+  font-size: 21px;
+  font-size: 1.16667rem; /* 21 / 18 = 1.1667 */
+  margin-bottom: 25.45714px;
+  margin-bottom: 1.41429rem;
+}
+
+h6,
+.zeta {
+  font-size: 18px;
+  font-size: 1rem; /* 18 = 18 × 1 */
+  margin-bottom: 29.7px;
+  margin-bottom: 1.65rem;
+}
+
+
+/**
+ *
+ * =======================================================================
+   Paragraphs and Indentation
+ * =======================================================================
+ */
+
+p {
+  margin: auto auto 1.5em; /* bottom margin for paragraphs */
+}
+
+p + p {
+  text-indent: 1.5em; /* indent subsequent paragraphs */
+  margin-top: -1.5em; /* no top margin on subsequent paragraphs */
+}
+
+
+/**
+ *
+ * =======================================================================
+   Hyphens
+ * =======================================================================
+ */
+
+abbr,
+acronym,
+blockquote,
+code,
+dir,
+kbd,
+listing,
+plaintext,
+q,
+samp,
+tt,
+var,
+xmp {
+  /* Accepted values: [ none | manual | auto ] */ /* http://meyerweb.com/eric/thoughts/2012/12/17/where-to-avoid-css-hyphenation */
+  -webkit-hyphens: none; /* Safari 5.1 thru 6, iOS 4.2 thru 6 */
+  -moz-hyphens: none; /* Firefox 16 thru 20 */
+  -ms-hyphens: none; /* IE10 */
+  -o-hyphens: none; /* PRESTO...haha LOL */
+  hyphens: none;   /* W3C standard */
+}
+
+
+/**
+ *
+ * =======================================================================
+   Code Blocks
+ * =======================================================================
+ */
+
+pre code {
+  word-wrap: normal;
+  white-space: -moz-pre-wrap;
+  white-space: pre-wrap; /* http://css-tricks.com/almanac/properties/w/whitespace */
+}
+
+pre {
+  white-space: pre;
+}
+
+code {
+  white-space: pre;
+  font-family: monospace;
+}
+
+
+/**
+ *
+ * =======================================================================
+ * Abbreviations Markup
+ * Extend this object into your markup
+
+  <abbr title="hyper text markup language">HMTL</abbr>
+
+ * Extend this object into your markup.
+ * =======================================================================
+ */
+
+abbr {
+  font-variant: small-caps; /* https://developer.mozilla.org/en-US/docs/CSS/font-variant */
+  font-weight: 600;
+  text-transform: lowercase;
+  color: #808080;
+}
+
+abbr[title]:hover {
+  cursor: help; /* cursor changed to a question mark when it has a title */
+}
+
+
+/**
+ *
+ * =======================================================================
+   Definition Lists
+ * =======================================================================
+ */
+
+/**
+ * Lining Definition Style Markup
+ *
+  <dl class="lining">
+    <dt><b></b></dt>
+    <dd></dd>
+  </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+.lining dt,
+.lining dd {
+  display: inline;
+  margin: 0;
+}
+.lining dt + dt:before,
+.lining dd + dt:before {
+  content: "\A";
+  white-space: pre;
+}
+.lining dd + dd:before {
+  content: ", ";
+}
+.lining dd:before {
+  content: ": ";
+  margin-left: -0.2em;
+}
+
+
+/**
+ * Dictionary Definition Style Markup
+ *
+  <dl class="dictionary-style">
+    <dt><b></b></dt>
+      <dd></dd>
+  </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+.dictionary-style dt {
+  display: inline;
+  counter-reset: definitions;
+}
+.dictionary-style dt + dt:before {
+  content: ", ";
+  margin-left: -0.2em;
+}
+.dictionary-style dd {
+  display: block;
+  counter-increment: definitions;
+}
+.dictionary-style dd:before {
+  content: counter(definitions, decimal) ". ";
+}
+
+
+/**
+ *
+ * =======================================================================
+   Blockquotes
+ * =======================================================================
+ */
+
+/**
+ * Blockquote Markup
+ *
+  <figure>
+    <blockquote class="blockquote" cite="">
+      <p></p>
+    </blockquote>
+    <figcaption>
+      <cite>
+        <small><a href=""></a></small>
+      </cite>
+    </figcaption>
+  </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+
+.blockquote p:last-of-type {
+  margin-bottom: -0.825em;
+}
+
+.blockquote + figcaption {
+  display: block;
+  font-size: inherit;
+  text-align: right;
+}
+
+.blockquote + figcaption:before {
+  content: "-"; /* "-" is your citation flourish */
+}
+
+
+/**
+ *
+ * =======================================================================
+   Pull Quotes
+ * =======================================================================
+ */
+
+/**
+ * Pull Quotes Markup
+ *
+  <aside class="pull-quote">
+    <blockquote>
+      <p></p>
+    </blockquote>
+  </aside>
+ *
+ * Extend this object into your custom stylesheet.
+ *
+ */
+.pull-quote {
+  position: relative;
+  padding: 1em;
+}
+.pull-quote:before,
+.pull-quote:after {
+  height: 1em;
+  opacity: 0.15;
+  position: absolute;
+  font-size: 4em;
+  color: #dc976e;
+}
+.pull-quote:before {
+  content: '“';
+  top: 0;
+  left: 0;
+}
+.pull-quote:after {
+  content: '”';
+  bottom: 0;
+  right: 0;
+}
+
+
+/**
+ *
+ * =======================================================================
+   Figures
+ * =======================================================================
+ */
+
+/**
+ * Figures Markup
+ *
+  <figure>
+    <figcaption>
+      <strong>Fig. 4.2 | </strong>Type Anatomy, an excerpt from Mark Boulton's book<cite title="http://designingfortheweb.co.uk/book/part3/part3_chapter11.php">"Designing for the Web"</cite>
+    </figcaption>
+  </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+
+
+/**
+ *
+ * =======================================================================
+   Foot Notes
+ * =======================================================================
+ */
+
+/**
+ * Footnote Markup : Replace 'X' with your unique number for each footnote
+ *
+  <article>
+    <p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p>
+    <footer>
+      <ol class="foot-notes">
+        <li id="fn-itemX"><a href="#fn-returnX">↩</a></li>
+      </ol>
+    </footer>
+  </article>
+ *
+ * Extend this object into your markup.
+ *
+ */
