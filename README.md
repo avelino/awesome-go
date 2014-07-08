@@ -127,6 +127,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * NoSQL Databases
     * [gocouch](https://github.com/hoisie/gocouch) - Couchdb client for Go.
+    * [gorethink](https://github.com/dancannon/gorethink) - Go language driver for RethinkDB
     * [gomemcache](https://github.com/bradfitz/gomemcache/) - memcache client library for the Go programming language.
     * [mgo](http://godoc.org/labix.org/v2/mgo) - MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
     * [Neo4j-GO](https://github.com/davemeehan/Neo4j-GO) - Neo4j REST Client in golang.
