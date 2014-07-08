@@ -11,7 +11,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 - [Awesome Go](#awesome-go)
     - [Web Frameworks](#web-frameworks)
         - [Middlewares](#middlewares)
-    - [Template Engine](#template-engine)
+    - [Template Engines](#template-engines)
     - [Forms](#forms)
     - [Authentication & OAuth](#authentication--oauth)
     - [Database](#database)
