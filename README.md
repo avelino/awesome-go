@@ -37,11 +37,12 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Logging](#logging)
     - [Code generation & ‘generics’](#code-generation--generics)
     - [Embeddable Scripting Languages](#embeddable-scripting-languages)
-- [Go Tools](#go-tools)
+- [Tools](#tools)
     - [Code Analysis](#code-analysis)
-    - [Development Tools](#development-tools)
     - [Editor Plugins](#editor-plugins)
-    - [Software](#software)
+    - [Software Packages](#software-packages)
+        - [DevOps Tools](#devops-tools)
+        - [Other Software](#other-software)
 - [Resources](#resources)
     - [Websites](#websites)
     - [(e)Books](#ebooks)
@@ -98,6 +99,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for implementing authentications schemes.*
 
+* [Go-AWS-Auth](https://github.com/smartystreets/go-aws-auth) - AWS (Amazon Web Services) request signing library.
 * [goauth](https://github.com/alloy-d/goauth) - A Go library for doing header-based OAuth over HTTP or HTTPS. Mostly created for working with Twitter.
 * [httpauth](https://github.com/goji/httpauth) - HTTP Authentication middleware.
 * [jwt-go](https://github.com/dgrijalva/jwt-go) - Golang implementation of JSON Web Tokens (JWT).
@@ -370,7 +372,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [otto](https://github.com/robertkrimen/otto) - A JavaScript interpreter written in Go
 * [v8-go](https://github.com/idada/v8.go/) - V8 JavaScript engine bindings for Go
 
-# Go Tools
+# Tools
 
 *Go software and plugins*
 
@@ -383,21 +385,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [goast-viewer](https://github.com/yuroyoro/goast-viewer) - Web based Golang AST visualizer.
 * [goimports](https://github.com/bradfitz/goimports) - Tool to fix (add, remove) your Go imports automatically.
 
-## Development Tools
-
-*Go tools for your development cycle.*
-
-* [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
-* [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
-* [Go-AWS-Auth](https://github.com/smartystreets/go-aws-auth) - AWS (Amazon Web Services) request signing library.
-* [Gogs](http://gogs.io/) - A Self Hosted Git Service in the Go Programming Language.
-* [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data.
-* [gaudi](http://gaudi.io/) - Gaudi automates the setup of isolated and decoupled dev environments.
-* [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update.
-* [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application.
-* [gox](https://github.com/mitchellh/gox) - A dead simple, no frills Go cross compile tool.
-* [goxc](https://github.com/laher/goxc) - build tool for Go, with a focus on cross-compiling and packaging.
-* [hk] (https://github.com/heroku/hk) - Heroku command-line interface in Go.
 
 ## Editor Plugins
 
@@ -407,7 +394,26 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-lang-idea-plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) Go plugin for IntelliJ IDEA.
 * [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim, combines many of the Vim go plugins.
 
-## Software
+## Software Packages
+
+*Software written in Go*
+
+### DevOps Tools
+
+*Go tools for your development cycle.*
+
+* [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
+* [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
+* [Gogs](http://gogs.io/) - A Self Hosted Git Service in the Go Programming Language.
+* [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data.
+* [gaudi](http://gaudi.io/) - Gaudi automates the setup of isolated and decoupled dev environments.
+* [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update.
+* [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application.
+* [gox](https://github.com/mitchellh/gox) - A dead simple, no frills Go cross compile tool.
+* [goxc](https://github.com/laher/goxc) - build tool for Go, with a focus on cross-compiling and packaging.
+* [hk] (https://github.com/heroku/hk) - Heroku command-line interface in Go.
+
+### Other Software
 
 *Software written in Go.*
 
