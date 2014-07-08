@@ -150,8 +150,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries that implement messaging systems*
 
 * [dbus](https://github.com/godbus/dbus) - Native Go bindings for D-Bus.
-* [Uniqush-Push](https://github.com/uniqush/uniqush-push) - A redis backed unified push service for server-side notifications to mobile devices.
 * [gopush-cluster](https://github.com/Terry-Mao/gopush-cluster) - gopush-cluster is a go push server cluster.
+* [Uniqush-Push](https://github.com/uniqush/uniqush-push) - A redis backed unified push service for server-side notifications to mobile devices.
 
 ## ORM
 
@@ -162,8 +162,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gorp](https://github.com/coopernurse/gorp) - Go Relational Persistence, ORM-ish library for Go.
 * [hood](https://github.com/eaigner/hood) - Database agnostic ORM for Go.
 * [QBS](https://github.com/coocood/qbs) - Stands for Query By Struct. A Go ORM.
-* [Xorm](https://github.com/go-xorm/xorm) - Simple and powerful ORM for Go.
 * [upper.io/db](https://github.com/upper/db) - Single interface for interacting with different data sources through the use of adapters that wrap mature database drivers.
+* [Xorm](https://github.com/go-xorm/xorm) - Simple and powerful ORM for Go.
 
 
 ## Imagery
@@ -185,23 +185,23 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [blackfriday](https://github.com/russross/blackfriday) - Markdown processor in Go
         * [github_flavored_markdown](http://godoc.org/github.com/shurcooL/go/github_flavored_markdown) - GitHub Flavored Markdown renderer in Go.
     * [bluemonday](https://github.com/microcosm-cc/bluemonday) - HTML Sanitizer
+    * [go-humanize](https://github.com/dustin/go-humanize) - Formatters for time, numbers, and memory size to human readable format.
     * [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - This package reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.
     * [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx) - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.
+    * [slug](https://github.com/gosimple/slug) - URL-friendly slugify with multiple languages support.
     * [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
     * [yaml](https://bitbucket.org/zombiezen/yaml) - Implements a YAML 1.2 parser in Go.
 * Utility
-    * [go-humanize](https://github.com/dustin/go-humanize) - Formatters for time, numbers, and memory size to human readable format.
-    * [slug](https://github.com/gosimple/slug) - URL-friendly slugify with multiple languages support.
 
 ## Natural Language Processing
 
 *Libraries for working with human languages.*
 
 * [go-eco](https://code.google.com/p/go-eco/) - Similarity, dissimilarity and distance matrices; diversity, equitability and inequality measures; species richness estimators; coenocline models.
+* [golibstemmer](https://github.com/rjohnsondev/golibstemmer) - Go bindings for the snowball libstemmer library including porter 2
 * [go-nlp](https://github.com/nuance/go-nlp) - Utilities for working with discrete probability distributions and other tools useful for doing NLP work.
 * [go-porterstemmer](https://github.com/reiver/go-porterstemmer) - A native Go clean room implementation of the Porter Stemming algorithm.
 * [go-stem](https://github.com/agonopol/go-stem) - Implementation of the porter stemming algorithm.
-* [golibstemmer](https://github.com/rjohnsondev/golibstemmer) - Go bindings for the snowball libstemmer library including porter 2
 * [gounidecode](https://github.com/fiam/gounidecode) - Unicode transliterator (also known as unidecode) for Go
 * [icu](https://github.com/goodsign/icu) - Cgo binding for icu4c C library detection and conversion functions. Guaranteed compatibility with version 50.1.
 * [libtextcat](https://github.com/goodsign/libtextcat) - Cgo binding for libtextcat C library. Guaranteed compatibility with version 2.2.
@@ -217,15 +217,15 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for scientific computing and data analyzing.*
 
-* [go.matrix](https://github.com/skelterjohn/go.matrix) - linear algebra for go
-* [gocomplex](https://code.google.com/p/gocomplex/) - A complex number library for the Go programming language.
-* [mudlark-go](https://code.google.com/p/mudlark-go-pkgs/) - A collection of packages providing (hopefully) useful code for use in software using Google's Go programming language.
-* [gostat](https://code.google.com/p/gostat/) - A statistics library for the go language
-* [gofrac](https://github.com/anschelsc/gofrac) - A (goinstallable) fractions library for go with support for basic arithmetic.
-* [geom](https://github.com/skelterjohn/geom) - 2D geometry for golang
 * [blas](https://github.com/ziutek/blas) - Implementation of BLAS (Basic Linear Algebra Subprograms)
+* [geom](https://github.com/skelterjohn/geom) - 2D geometry for golang
+* [gocomplex](https://code.google.com/p/gocomplex/) - A complex number library for the Go programming language.
 * [go-fn](https://code.google.com/p/go-fn/) - Mathematical functions written in Go language, that are not covered by math pkg
+* [gofrac](https://github.com/anschelsc/gofrac) - A (goinstallable) fractions library for go with support for basic arithmetic.
 * [go-gt](https://code.google.com/p/go-gt/) - Graph theory algorithms written in "Go" language
+* [go.matrix](https://github.com/skelterjohn/go.matrix) - linear algebra for go
+* [gostat](https://code.google.com/p/gostat/) - A statistics library for the go language
+* [mudlark-go](https://code.google.com/p/mudlark-go-pkgs/) - A collection of packages providing (hopefully) useful code for use in software using Google's Go programming language.
 * [vectormath](https://github.com/spate/vectormath) - Vectormath for Go, an adaptation of the scalar C functions from Sony's Vector Math library, as found in the Bullet-2.79 source code.
 
 
@@ -233,17 +233,17 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for Machine Learning.*
 
-* [CloudForest](https://github.com/ryanbressler/CloudForest) - Fast, flexible, multi-threaded ensembles of decision trees for machine learning in pure Go.
-* [mlgo](https://code.google.com/p/mlgo/) - This project aims to provide minimalistic machine learning algorithms in Go.
-* [go-fann](https://github.com/white-pony/go-fann) - Go bindings for Fast Artificial Neural Networks(FANN) library.
-* [neural-go](https://github.com/schuyler/neural-go) - A multilayer perceptron network implemented in Go, with training via backpropagation.
 * [bayesian](https://github.com/jbrukh/bayesian) - Naive Bayesian Classification for Golang.
-* [shield](https://github.com/eaigner/shield) - Bayesian text classifier with flexible tokenizers and storage backends for Go
-* [probab](https://code.google.com/p/probab/) - Probability distribution functions. Bayesian inference. Written in pure Go.
-* [libsvm](https://github.com/datastream/libsvm) - libsvm golang version derived work based on LIBSVM 3.14.
+* [CloudForest](https://github.com/ryanbressler/CloudForest) - Fast, flexible, multi-threaded ensembles of decision trees for machine learning in pure Go.
+* [go-fann](https://github.com/white-pony/go-fann) - Go bindings for Fast Artificial Neural Networks(FANN) library.
+* [go-galib](https://github.com/thoj/go-galib) - Genetic Algorithms library written in Go / golang
 * [golinear](https://github.com/danieldk/golinear) - liblinear bindings for Go
 * [go-pr](https://github.com/daviddengcn/go-pr) - Pattern recognition package in Go lang.
-* [go-galib](https://github.com/thoj/go-galib) - Genetic Algorithms library written in Go / golang
+* [libsvm](https://github.com/datastream/libsvm) - libsvm golang version derived work based on LIBSVM 3.14.
+* [mlgo](https://code.google.com/p/mlgo/) - This project aims to provide minimalistic machine learning algorithms in Go.
+* [neural-go](https://github.com/schuyler/neural-go) - A multilayer perceptron network implemented in Go, with training via backpropagation.
+* [probab](https://code.google.com/p/probab/) - Probability distribution functions. Bayesian inference. Written in pure Go.
+* [shield](https://github.com/eaigner/shield) - Bayesian text classifier with flexible tokenizers and storage backends for Go
 
 
 ## Testing
@@ -269,18 +269,18 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for manipulating audio.*
 
-* [PortAudio](https://code.google.com/p/portaudio-go/) - Go bindings for the PortAudio audio I/O library.
 * [gosndfile](https://github.com/mkb218/gosndfile) - Go bindings for libsndfile.
 * [go-sox](https://github.com/krig/go-sox) - libsox bindings for go.
+* [PortAudio](https://code.google.com/p/portaudio-go/) - Go bindings for the PortAudio audio I/O library.
 
 
 ## Video
 
 *Libraries for manipulating video.*
 
+* [aac/h264](https://github.com/go-av/codec) - Golang aac/h264 encoder and decoder.
 * [gmf](https://github.com/3d0c/gmf) - Go bindings for FFmpeg av\* libraries.
 * [gst](https://github.com/ziutek/gst) - Go bindings for GStreamer.
-* [aac/h264](https://github.com/go-av/codec) - Golang aac/h264 encoder and decoder.
 
 ## Date & Time
 
@@ -292,27 +292,27 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Awesome game development libraries.*
 
-* [GarageEngine](https://github.com/vova616/GarageEngine) - 2d game engine written in Go working on OpenGL.
 * [fungo](https://github.com/beoran/fungo) - Fun Unified Game library for te gO Programming language.
+* [GarageEngine](https://github.com/vova616/GarageEngine) - 2d game engine written in Go working on OpenGL.
+* [glop](https://github.com/runningwild/glop) - Glop (Game Library Of Power) is a fairly simple cross-platform game library.
 * [go-rpg](https://github.com/viking/go-rpg) - Go package for creating role playing games
 * [terrago](https://github.com/sarenji/terrago) - Fractal terrain generator in Go.
-* [glop](https://github.com/runningwild/glop) - Glop (Game Library Of Power) is a fairly simple cross-platform game library.
 
 ## GUI
 
 *Libraries for building GUI Applications*
 
-* [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go.
 * [go-gtk](http://mattn.github.io/go-gtk/) - Go bindings for GTK
-* [go-qml](https://github.com/go-qml/qml) - QML support for the Go language
 * [gotk3](https://github.com/conformal/gotk3) - Go bindings for GTK3.
+* [go-qml](https://github.com/go-qml/qml) - QML support for the Go language
+* [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go.
 
 ## OpenGL
 
 *Libraries for using OpenGL in Go.*
 
-* [glfw3](https://github.com/go-gl/glfw3) - Go bindings for GLFW 3.
 * [gl](https://github.com/go-gl/gl) - Go bindings for OpenGL. Requires an external dependency GLEW.
+* [glfw3](https://github.com/go-gl/glfw3) - Go bindings for GLFW 3.
 * [glow](https://github.com/errcw/glow) - Go binding generator and bindings for OpenGL.
 * [mathgl](https://github.com/go-gl/mathgl) - Pure Go math package specialized for 3D math, with inspiration from GLM.
 
@@ -329,7 +329,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for package and dependency management.*
 
 * [godep](https://github.com/tools/godep) - dependency tool for go, godep helps build packages reproducibly by fixing their dependencies.
-
+* [gom](https://github.com/mattn/gom) - Go Manager - bundle for go.
+* [goop](https://github.com/nitrous-io/goop) - A simple dependency manager for Go (golang), inspired by Bundler.
+* [gpm](https://github.com/pote/gpm) - Barebones dependency manager for Go.
 
 ## Utilities
 
@@ -354,8 +356,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Tools for brining generics-like functionality to Go via code generation*
 
 * [gen](https://github.com/clipperhouse/gen) - Code generation tool for ‘generics’-like functionality.
-* [go-linq](https://github.com/ahmetalpbalkan/go-linq) - .NET LINQ-like query methods for Go.
 * [go generate](https://docs.google.com/document/d/1V03LUfjSADDooDMhe-_K59EgpTEm3V8uvQRuNMAEnjg/edit) - A proposed code generation syntax from Rob Pike.
+* [go-linq](https://github.com/ahmetalpbalkan/go-linq) - .NET LINQ-like query methods for Go.
 
 
 ## Embeddable Scripting Languages
@@ -424,17 +426,17 @@ Where to discover new Go libraries.
 
 ## Websites
 
-* [Go Projects](https://code.google.com/p/go-wiki/wiki/Projects) - List of projects on the Go community wiki
+* [Flipboard - Go Magazine](https://flipboard.com/section/the-golang-magazine-bVP7nS) - A collection of Go articles and tutorials.
 * [godoc.org](http://godoc.org/) - Documentation for open source Go packages.
+* [Go Projects](https://code.google.com/p/go-wiki/wiki/Projects) - List of projects on the Go community wiki
 * [r/Golang](http://www.reddit.com/r/golang) - News about Go.
 * [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
-* [Flipboard - Go Magazine](https://flipboard.com/section/the-golang-magazine-bVP7nS) - A collection of Go articles and tutorials.
 
 ### Tutorials
 
 * [A Tour of Go](http://tour.golang.org/) - Interactive tour of Go
-* [Working with Go](https://github.com/mkaz/working-with-go) - An intro to go for experienced programmers
 * [Go By Example](https://gobyexample.com/) - A hands-on introduction to Go using annotated example programs
+* [Working with Go](https://github.com/mkaz/working-with-go) - An intro to go for experienced programmers
 
 
 ## Twitter
