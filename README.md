@@ -385,6 +385,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Embedding other languages inside your go code*
 
+* [anko](https://github.com/mattn/anko) - Scriptable interpreter written in Go
 * [golua](https://github.com/aarzilli/golua) - Go bindings for Lua C API
 * [go-python](https://github.com/sbinet/go-python) - naive go bindings to the CPython C-API
 * [otto](https://github.com/robertkrimen/otto) - A JavaScript interpreter written in Go
