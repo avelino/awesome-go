@@ -31,15 +31,16 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Game Development](#game-development)
     - [GUI](#gui)
     - [OpenGL](#opengl)
-    - [Editor Plugins](#editor-plugins)
     - [Third-party APIs](#third-party-apis)
     - [Package Management](#package-management)
-    - [DevOps Tools](#devops-tools)
     - [Utilities](#utilities)
     - [Logging](#logging)
-    - [Code Analysis and Linter](#code-analysis-and-linter)
     - [Code generation & ‘generics’](#code-generation--generics)
     - [Embeddable Scripting Languages](#embeddable-scripting-languages)
+- [Go Tools](#go-tools)
+    - [Code Analysis and Linter](#code-analysis)
+    - [Development Tools](#development-tools)
+    - [Editor Plugins](#editor-plugins)
 - [Resources](#resources)
     - [Websites](#websites)
     - [(e)Books](#ebooks)
@@ -296,14 +297,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [terrago](https://github.com/sarenji/terrago) - Fractal terrain generator in Go.
 * [glop](https://github.com/runningwild/glop) - Glop (Game Library Of Power) is a fairly simple cross-platform game library.
 
-## Editor Plugins
-
-*Awesome plugins for editors.*
-
-* [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim.
-* [GoSublime](https://github.com/DisposaBoy/GoSublime) - A Golang plugin collection for the text editor SublimeText 2 providing code completion and other IDE-like features.
-* [go-lang-idea-plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) Go-lang plugin for Intellij IDEA.
-
 ## GUI
 
 *Libraries for building GUI Applications*
@@ -336,37 +329,14 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [godep](https://github.com/tools/godep) - dependency tool for go, godep helps build packages reproducibly by fixing their dependencies.
 
-## DevOps Tools
-
-*Software and libraries for DevOps.*
-
-* [Circuit](https://github.com/gocircuit/circuit) - Circuit is a programmable platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS), for management, discovery, synchronization and orchestration of services and hosts comprising cloud applications.
-* [Docker](http://www.docker.com/) - An open platform for distributed applications for developers and sysadmins.
-* [Go-AWS-Auth](https://github.com/smartystreets/go-aws-auth) - AWS (Amazon Web Services) request signing library
-* [Gogs](http://gogs.io/) - A Self Hosted Git Service in the Go Programming Language.
-* [confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul.
-* [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
-* [fleet](https://github.com/coreos/fleet) - A Distributed init System.
-* [gaudi](http://gaudi.io/) - Gaudi automates the setup of isolated and decoupled dev environments.
-* [hk] (https://github.com/heroku/hk) - Heroku command-line interface in Go
-* [juju](https://juju.ubuntu.com/) - Automate your cloud infrastructure
-* [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
 
 ## Utilities
 
 *General utilities and tools to make your life easier.*
 
-* [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
 * [cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go
 * [coop](https://github.com/rakyll/coop) - Cheat sheet for some of the common concurrent flows in Go
-* [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update
-* [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application
-* [gox](https://github.com/mitchellh/gox) - A dead simple, no frills Go cross compile tool.
-* [goxc](https://github.com/laher/goxc) - build tool for Go, with a focus on cross-compiling and packaging.
-* [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
-* [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data
 * [mp](https://github.com/sanbornm/mp) - A simple cli email parser. It currently takes stdin and outputs JSON.
-* [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
 
 ## Logging
 
@@ -377,14 +347,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [logrus](https://github.com/sirupsen/logrus) - Structured, pluggable logging for Go.
 * [seelog](https://github.com/cihub/seelog) -   logging functionality with flexible dispatching, filtering, and formatting.
 * [stdlog](https://github.com/alexcesaro/log) - Stdlog is an object-oriented library providing leveled logging. It is very useful for cron jobs.
-
-
-## Code Analysis and Linter
-
-*Libraries and tools for analysing, parsing and manipulation codebases.*
-
-* [GoLint](https://github.com/golang/lint) - Golint is a linter for Go source code.
-
 
 ## Code generation & ‘generics’
 
@@ -405,6 +367,50 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [otto](https://github.com/robertkrimen/otto) - A JavaScript interpreter written in Go
 * [v8-go](https://github.com/idada/v8.go/) - V8 JavaScript engine bindings for Go
 
+# Go Tools
+
+*Development software and plugins*
+
+## Code Analysis
+
+*Tools for analysing, parsing and manipulation of go code.*
+
+* [GoLint](https://github.com/golang/lint) - Golint is a linter for Go source code.
+* [doc](http://godoc.org/code.google.com/p/rspace.cmd/doc) - Go documenation tool that produces an alternative doc format.
+* [goast-viewer](https://github.com/yuroyoro/goast-viewer) - Web based Golang AST visualizer.
+* [goimports](https://github.com/bradfitz/goimports) - Tool to fix (add, remove) your Go imports automatically.
+
+## Development Tools
+
+*Go tools for your development cycle*
+
+* [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
+* [Circuit](https://github.com/gocircuit/circuit) - Circuit is a programmable platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS), for management, discovery, synchronization and orchestration of services and hosts comprising cloud applications.
+* [Docker](http://www.docker.com/) - An open platform for distributed applications for developers and sysadmins.
+* [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
+* [Go-AWS-Auth](https://github.com/smartystreets/go-aws-auth) - AWS (Amazon Web Services) request signing library
+* [Gogs](http://gogs.io/) - A Self Hosted Git Service in the Go Programming Language.
+* [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data
+* [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
+* [confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul.
+* [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
+* [fleet](https://github.com/coreos/fleet) - A Distributed init System.
+* [gaudi](http://gaudi.io/) - Gaudi automates the setup of isolated and decoupled dev environments.
+* [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update
+* [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application
+* [gox](https://github.com/mitchellh/gox) - A dead simple, no frills Go cross compile tool.
+* [goxc](https://github.com/laher/goxc) - build tool for Go, with a focus on cross-compiling and packaging.
+* [hk] (https://github.com/heroku/hk) - Heroku command-line interface in Go
+* [juju](https://juju.ubuntu.com/) - Automate your cloud infrastructure
+* [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
+
+## Editor Plugins
+
+*Awesome plugins for editors.*
+
+* [GoSublime](https://github.com/DisposaBoy/GoSublime) - A Golang plugin collection for the text editor SublimeText 2 providing code completion and other IDE-like features.
+* [go-lang-idea-plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) Go plugin for IntelliJ IDEA.
+* [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim, combines many of the vim go plugins.
 
 # Resources
 
