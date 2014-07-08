@@ -187,6 +187,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [yaml](https://bitbucket.org/zombiezen/yaml) - Implements a YAML 1.2 parser in Go.
 * Utility
     * [go-humanize](https://github.com/dustin/go-humanize) - Formatters for time, numbers, and memory size to human readable format.
+    * [slug](https://github.com/gosimple/slug) - URL-friendly slugify with multiple languages support.
 
 ## Natural Language Processing
 
