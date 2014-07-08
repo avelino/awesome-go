@@ -407,7 +407,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-python](https://github.com/sbinet/go-python) - naive go bindings to the CPython C-API
 * [otto](https://github.com/robertkrimen/otto) - A JavaScript interpreter written in Go
 * [v8-go](https://github.com/idada/v8.go/) - V8 JavaScript engine bindings for Go
-
+* [gooby](https://github.com/vic/gooby) - A Rubinius (Ruby) interpreter written in Go
 
 # Resources
 
