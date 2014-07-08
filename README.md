@@ -41,6 +41,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Code Analysis and Linter](#code-analysis)
     - [Development Tools](#development-tools)
     - [Editor Plugins](#editor-plugins)
+    - [Software](#software)
 - [Resources](#resources)
     - [Websites](#websites)
     - [(e)Books](#ebooks)
@@ -369,7 +370,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 # Go Tools
 
-*Development software and plugins*
+*Go software and plugins*
 
 ## Code Analysis
 
@@ -385,24 +386,16 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Go tools for your development cycle*
 
 * [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
-* [Circuit](https://github.com/gocircuit/circuit) - Circuit is a programmable platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS), for management, discovery, synchronization and orchestration of services and hosts comprising cloud applications.
-* [Docker](http://www.docker.com/) - An open platform for distributed applications for developers and sysadmins.
 * [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
 * [Go-AWS-Auth](https://github.com/smartystreets/go-aws-auth) - AWS (Amazon Web Services) request signing library
 * [Gogs](http://gogs.io/) - A Self Hosted Git Service in the Go Programming Language.
 * [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data
-* [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
-* [confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul.
-* [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
-* [fleet](https://github.com/coreos/fleet) - A Distributed init System.
 * [gaudi](http://gaudi.io/) - Gaudi automates the setup of isolated and decoupled dev environments.
 * [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update
 * [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application
 * [gox](https://github.com/mitchellh/gox) - A dead simple, no frills Go cross compile tool.
 * [goxc](https://github.com/laher/goxc) - build tool for Go, with a focus on cross-compiling and packaging.
 * [hk] (https://github.com/heroku/hk) - Heroku command-line interface in Go
-* [juju](https://juju.ubuntu.com/) - Automate your cloud infrastructure
-* [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
 
 ## Editor Plugins
 
@@ -411,6 +404,19 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [GoSublime](https://github.com/DisposaBoy/GoSublime) - A Golang plugin collection for the text editor SublimeText 2 providing code completion and other IDE-like features.
 * [go-lang-idea-plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) Go plugin for IntelliJ IDEA.
 * [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim, combines many of the vim go plugins.
+
+## Software
+
+*Software written in Go*
+
+* [Circuit](https://github.com/gocircuit/circuit) - Circuit is a programmable platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS), for management, discovery, synchronization and orchestration of services and hosts comprising cloud applications.
+* [Docker](http://www.docker.com/) - An open platform for distributed applications for developers and sysadmins.
+* [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
+* [confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul.
+* [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
+* [fleet](https://github.com/coreos/fleet) - A Distributed init System.
+* [juju](https://juju.ubuntu.com/) - Automate your cloud infrastructure
+* [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
 
 # Resources
 
