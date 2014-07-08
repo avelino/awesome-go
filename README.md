@@ -334,6 +334,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for package and dependency management.*
 
 * [godep](https://github.com/tools/godep) - dependency tool for go, godep helps build packages reproducibly by fixing their dependencies.
+* [gpm](https://github.com/pote/gpm) - Barebones dependency manager for Go.
 
 ## DevOps Tools
 
