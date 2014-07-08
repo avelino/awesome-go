@@ -52,6 +52,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gocraft/web](https://github.com/gocraft/web) - A mux and middleware package in Go.
 * [Goji](https://goji.io) - Goji is a minimalistic web framework for Golang that's high in antioxidants.
 * [Gorilla](http://www.gorillatoolkit.org/) - Gorilla is a web toolkit for the Go programming language.
+* [go-rest](https://github.com/ungerik/go-rest) - A small and evil REST framework for Go
 * [httprouter](https://github.com/julienschmidt/httprouter) - A high performance router. Use this and the standard http handlers to form a very high performance web framework.
 * [mango](https://github.com/paulbellamy/mango) - Mango is a modular web-application framework for Go, inspired by Rack, and PEP333.
 * [Martini](http://martini.codegangsta.io/) - Martini is a powerful package for quickly writing modular web applications/services in Golang.
