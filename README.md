@@ -184,7 +184,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
     * [yaml](https://bitbucket.org/zombiezen/yaml) - Implements a YAML 1.2 parser in Go.
 * Utility
-    * [go-humaize](https://github.com/dustin/go-humanize) - Formatters for time, numbers, and memory size to human readable format.
+    * [go-humanize](https://github.com/dustin/go-humanize) - Formatters for time, numbers, and memory size to human readable format.
 
 ## Natural Language Processing
 
