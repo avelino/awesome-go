@@ -162,6 +162,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for manipulating images.*
 
+* [go-nude](https://github.com/koyachi/go-nude) - Nudity detection with Go.
 * [go-webcolors](https://github.com/jyotiska/go-webcolors) - Port of webcolors library from Python to Go.
 * [img](https://github.com/hawx/img) - A selection of image manipulation tools.
 * [imagick](https://github.com/gographics/imagick) - Go binding to ImageMagick's MagickWand C API.
