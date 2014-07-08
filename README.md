@@ -352,6 +352,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *General utilities and tools to make your life easier.*
 
 * [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
+* [cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go
 * [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update
 * [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application
 * [gox](https://github.com/mitchellh/gox) - A dead simple, no frills Go cross compile tool.
