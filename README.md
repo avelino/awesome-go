@@ -68,6 +68,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [alice](https://github.com/justinas/alice) - Painless middleware chaining for Go
 * [muxchain](https://github.com/stephens2424/muxchain) - Lightweight middleware for net/http
 * [negroni](https://github.com/codegangsta/negroni) - Idiomatic HTTP Middleware for Golang
+* [render](https://github.com/unrolled/render) - Go package for easily rendering JSON, XML, and HTML template responses.
+
 
 ## Template Engines
 
