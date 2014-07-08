@@ -392,7 +392,7 @@ Go software and plugins.
 
 ## Software Packages
 
-*Software written in Go*
+Software written in Go.
 
 ### DevOps Tools
 
