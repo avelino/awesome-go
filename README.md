@@ -132,6 +132,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [Neo4j-GO](https://github.com/davemeehan/Neo4j-GO) - Neo4j REST Client in golang.
     * [redigo](https://github.com/garyburd/redigo) - Redigo is a Go client for the Redis database.
     * [redis](https://github.com/hoisie/redis) - A simple, powerful Redis client for Go.
+    * [gorethink](https://github.com/dancannon/gorethink) - Go language driver for RethinkDB
 
 ## Email
 
