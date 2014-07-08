@@ -65,9 +65,11 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 ### Middlewares
 
-* [alice](https://github.com/justinas/alice) - Painless middleware chaining for Go
-* [muxchain](https://github.com/stephens2424/muxchain) - Lightweight middleware for net/http
-* [negroni](https://github.com/codegangsta/negroni) - Idiomatic HTTP Middleware for Golang
+* [alice](https://github.com/justinas/alice) - Painless middleware chaining for Go.
+* [muxchain](https://github.com/stephens2424/muxchain) - Lightweight middleware for net/http.
+* [negroni](https://github.com/codegangsta/negroni) - Idiomatic HTTP Middleware for Golang.
+* [render](https://github.com/unrolled/render) - Go package for easily rendering JSON, XML, and HTML template responses.
+
 
 ## Template Engines
 
@@ -95,7 +97,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for implementing authentications schemes.*
 
 * [goauth](https://github.com/alloy-d/goauth) - A Go library for doing header-based OAuth over HTTP or HTTPS. Mostly created for working with Twitter.
-* [httpauth](https://github.com/goji/httpauth) - HTTP Authentication middlewa
+* [httpauth](https://github.com/goji/httpauth) - HTTP Authentication middleware.
 * [jwt-go](https://github.com/dgrijalva/jwt-go) - Golang implementation of JSON Web Tokens (JWT).
 * [osin](https://github.com/RangelReale/osin) - Golang OAuth2 server library.
 
