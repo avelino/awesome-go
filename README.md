@@ -281,6 +281,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [GarageEngine](https://github.com/vova616/GarageEngine) - 2d game engine written in Go working on OpenGL.
 * [fungo](https://github.com/beoran/fungo) - Fun Unified Game library for te gO Programming language.
+* [go3d](https://github.com/ungerik/go3d) - A performance oriented 2D/3D math package for Go
 * [go-rpg](https://github.com/viking/go-rpg) - Go package for creating role playing games
 * [terrago](https://github.com/sarenji/terrago) - Fractal terrain generator in Go.
 * [glop](https://github.com/runningwild/glop) - Glop (Game Library Of Power) is a fairly simple cross-platform game library.
