@@ -144,8 +144,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries that implement messaging systems*
 
-* [dbus](https://github.com/godbus/dbus) - Native Go bindings for D-Bus
-* [Uniqush-Push](https://github.com/uniqush/uniqush-push) - A redis backed unified push service for server-side notifications to mobile devices
+* [dbus](https://github.com/godbus/dbus) - Native Go bindings for D-Bus.
+* [Uniqush-Push](https://github.com/uniqush/uniqush-push) - A redis backed unified push service for server-side notifications to mobile devices.
+* [gopush-cluster](https://github.com/Terry-Mao/gopush-cluster) - gopush-cluster is a go push server cluster.
 
 ## ORM
 
