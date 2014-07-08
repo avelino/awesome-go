@@ -126,6 +126,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [pq](https://github.com/lib/pq) - Pure Go Postgres driver for database/sql.
 
 * NoSQL Databases
+    * [cayley](https://github.com/google/cayley) - A graph database with support for multiple backends.
     * [gocouch](https://github.com/hoisie/gocouch) - Couchdb client for Go.
     * [gorethink](https://github.com/dancannon/gorethink) - Go language driver for RethinkDB
     * [gomemcache](https://github.com/bradfitz/gomemcache/) - memcache client library for the Go programming language.
