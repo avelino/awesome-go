@@ -336,6 +336,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [godep](https://github.com/tools/godep) - dependency tool for go, godep helps build packages reproducibly by fixing their dependencies.
 * [gom](https://github.com/mattn/gom) - Go Manager - bundle for go.
+* [goop](https://github.com/nitrous-io/goop) - A simple dependency manager for Go (golang), inspired by Bundler.
 * [gpm](https://github.com/pote/gpm) - Barebones dependency manager for Go.
 
 ## DevOps Tools
