@@ -183,6 +183,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx) - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.
     * [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
     * [yaml](https://bitbucket.org/zombiezen/yaml) - Implements a YAML 1.2 parser in Go.
+* Utility
+    * [go-humaize](https://github.com/dustin/go-humanize) - Formatters for time, numbers, and memory size to human readable format.
 
 ## Natural Language Processing
 
@@ -332,16 +334,17 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Software and libraries for DevOps.*
 
-* [Docker](http://www.docker.com/) - An open platform for distributed applications for developers and sysadmins.
-* [juju](https://juju.ubuntu.com/) - Automate your cloud infrastructure
-* [Go-AWS-Auth](https://github.com/smartystreets/go-aws-auth) - AWS (Amazon Web Services) request signing library
-* [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
-* [Gogs](http://gogs.io/) - A Self Hosted Git Service in the Go Programming Language.
 * [Circuit](https://github.com/gocircuit/circuit) - Circuit is a programmable platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS), for management, discovery, synchronization and orchestration of services and hosts comprising cloud applications.
-* [gaudi](http://gaudi.io/) - Gaudi automates the setup of isolated and decoupled dev environments.
-* [fleet](https://github.com/coreos/fleet) - A Distributed init System.
+* [Docker](http://www.docker.com/) - An open platform for distributed applications for developers and sysadmins.
+* [Go-AWS-Auth](https://github.com/smartystreets/go-aws-auth) - AWS (Amazon Web Services) request signing library
+* [Gogs](http://gogs.io/) - A Self Hosted Git Service in the Go Programming Language.
 * [confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul.
 * [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
+* [fleet](https://github.com/coreos/fleet) - A Distributed init System.
+* [gaudi](http://gaudi.io/) - Gaudi automates the setup of isolated and decoupled dev environments.
+* [hk] (https://github.com/heroku/hk) - Heroku command-line interface in Go
+* [juju](https://juju.ubuntu.com/) - Automate your cloud infrastructure
+* [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
 
 ## Utilities
 
