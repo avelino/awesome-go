@@ -348,6 +348,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 ## Text Processing
 
+*Libraries for parsing and manipulating texts.*
+
 * Specific Formats
     * [blackfriday](https://github.com/russross/blackfriday) - Markdown processor in Go
         * [github_flavored_markdown](http://godoc.org/github.com/shurcooL/go/github_flavored_markdown) - GitHub Flavored Markdown renderer in Go.
@@ -409,6 +411,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 
 ### Middlewares
+
+*Libraries for creating HTTP middlewares.*
 
 * [alice](https://github.com/justinas/alice) - Painless middleware chaining for Go.
 * [muxchain](https://github.com/stephens2424/muxchain) - Lightweight middleware for net/http.
