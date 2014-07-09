@@ -182,7 +182,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for building CUI Applications*
 
-* [termbox-go](https://github.com/nsf/termbox-go) - termbox is a library for creating cross-platform text-based interfaces.
+* [go-colortext](https://github.com/daviddengcn/go-colortext) - Go library for color output in terminals.
+* [termbox-go](https://github.com/nsf/termbox-go) - Termbox is a library for creating cross-platform text-based interfaces.
 
 
 ## Images
