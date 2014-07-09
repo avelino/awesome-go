@@ -9,7 +9,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 ### Contents
 
 - [Awesome Go](#awesome-go)
-    - [Audio](#audiomusic)
+    - [Audio & Music](#audiomusic)
     - [Authentication & OAuth](#authentication--oauth)
     - [CUI](#cui)
     - [Database](#database)
@@ -58,7 +58,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for manipulating audio.*
 
-* [gosndfile](https://github.com/mkb218/gosndfile) - Go bindings for libsndfile.
 * [go-sox](https://github.com/krig/go-sox) - libsox bindings for go.
 * [PortAudio](https://code.google.com/p/portaudio-go/) - Go bindings for the PortAudio audio I/O library.
 * [portmidi](https://github.com/rakyll/portmidi) - Go bindings for PortMidi.
@@ -70,7 +69,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for implementing authentications schemes.*
 
 * [Go-AWS-Auth](https://github.com/smartystreets/go-aws-auth) - AWS (Amazon Web Services) request signing library.
-* [goauth](https://github.com/alloy-d/goauth) - A Go library for doing header-based OAuth over HTTP or HTTPS. Mostly created for working with Twitter.
 * [httpauth](https://github.com/goji/httpauth) - HTTP Authentication middleware.
 * [jwt-go](https://github.com/dgrijalva/jwt-go) - Golang implementation of JSON Web Tokens (JWT).
 * [oauth2](https://github.com/golang/oauth2) - Successor of goauth2. Generic OAuth 2.0 package that comes with JWT, Google APIs, Compute Engine and App Engine support.
@@ -104,7 +102,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraties for connecting and operating databases.*
 
 * Relational Databases
-    * [go-db](https://github.com/phf/go-db) - Generic database API for Go.
     * [go-pgsql](https://github.com/lxn/go-pgsql) - A PostgreSQL client package for the Go Programming Language.
     * [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) - MySQL driver for Go.
     * [go-sqlite3](https://github.com/mattn/go-sqlite3) - SQLite3 driver for go that using database/sql.
@@ -112,7 +109,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * NoSQL Databases
     * [cayley](https://github.com/google/cayley) - A graph database with support for multiple backends.
-    * [gocouch](https://github.com/hoisie/gocouch) - Couchdb client for Go.
     * [gorethink](https://github.com/dancannon/gorethink) - Go language driver for RethinkDB
     * [gomemcache](https://github.com/bradfitz/gomemcache/) - memcache client library for the Go programming language.
     * [mgo](http://godoc.org/labix.org/v2/mgo) - MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
@@ -161,12 +157,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Awesome game development libraries.*
 
-* [fungo](https://github.com/beoran/fungo) - Fun Unified Game library for te gO Programming language.
 * [GarageEngine](https://github.com/vova616/GarageEngine) - 2d game engine written in Go working on OpenGL.
 * [glop](https://github.com/runningwild/glop) - Glop (Game Library Of Power) is a fairly simple cross-platform game library.
-* [go-rpg](https://github.com/viking/go-rpg) - Go package for creating role playing games
 * [go3d](https://github.com/ungerik/go3d) - A performance oriented 2D/3D math package for Go
-* [terrago](https://github.com/sarenji/terrago) - Fractal terrain generator in Go.
 
 
 ## Generation & ‘generics’
@@ -174,7 +167,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Tools for brining generics-like functionality to Go via code generation*
 
 * [gen](https://github.com/clipperhouse/gen) - Code generation tool for ‘generics’-like functionality.
-* [go generate](https://docs.google.com/document/d/1V03LUfjSADDooDMhe-_K59EgpTEm3V8uvQRuNMAEnjg/edit) - A proposed code generation syntax from Rob Pike.
 * [go-linq](https://github.com/ahmetalpbalkan/go-linq) - .NET LINQ-like query methods for Go.
 
 
@@ -517,6 +509,7 @@ Where to discover new Go libraries.
 * [Go Projects](https://code.google.com/p/go-wiki/wiki/Projects) - List of projects on the Go community wiki
 * [r/Golang](http://www.reddit.com/r/golang) - News about Go.
 * [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
+* [go generate](https://docs.google.com/document/d/1V03LUfjSADDooDMhe-_K59EgpTEm3V8uvQRuNMAEnjg/edit) - A proposed code generation syntax from Rob Pike.
 
 ### Tutorials
 
