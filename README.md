@@ -238,6 +238,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [dbus](https://github.com/godbus/dbus) - Native Go bindings for D-Bus.
 * [gopush-cluster](https://github.com/Terry-Mao/gopush-cluster) - gopush-cluster is a go push server cluster.
+* [NATS](https://github.com/apcera/nats) - A lightweight and highly performant publish-subscribe and distributed queueing messaging system.
 * [Uniqush-Push](https://github.com/uniqush/uniqush-push) - A redis backed unified push service for server-side notifications to mobile devices.
 
 
