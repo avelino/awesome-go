@@ -112,6 +112,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [gorethink](https://github.com/dancannon/gorethink) - Go language driver for RethinkDB
     * [gomemcache](https://github.com/bradfitz/gomemcache/) - memcache client library for the Go programming language.
     * [mgo](http://godoc.org/labix.org/v2/mgo) - MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
+    * [neo4j](https://github.com/cihangir/neo4j) - Neo4j Rest API Bindings for Golang
     * [Neo4j-GO](https://github.com/davemeehan/Neo4j-GO) - Neo4j REST Client in golang.
     * [redigo](https://github.com/garyburd/redigo) - Redigo is a Go client for the Redis database.
     * [redis](https://github.com/hoisie/redis) - A simple, powerful Redis client for Go.
