@@ -9,7 +9,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 ### Contents
 
 - [Awesome Go](#awesome-go)
-    - [Audio](#audio)
+    - [Audio](#audiomusic)
     - [Authentication & OAuth](#authentication--oauth)
     - [CUI](#cui)
     - [Database](#database)
