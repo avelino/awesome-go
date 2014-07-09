@@ -20,6 +20,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Game Development](#game-development)
     - [Generation & ‘generics’](#generation--generics)
     - [GUI](#gui)
+    - [CUI](#cui)
     - [Images](#images)
     - [Logging](#logging)
     - [Machine Learning](#machine-learning)
@@ -176,6 +177,12 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-qml](https://github.com/go-qml/qml) - QML support for the Go language
 * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go.
 
+
+## CUI
+
+*Libraries for building CUI Applications*
+
+* [termbox-go](https://github.com/nsf/termbox-go) - termbox is a library for creating cross-platform text-based interfaces.
 
 
 ## Images
