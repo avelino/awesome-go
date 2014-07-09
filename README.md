@@ -448,6 +448,7 @@ Software written in Go.
 
 ### DevOps Tools
 
+* [aptly](https://github.com/smira/aptly) - aptly is a Debian repository management tool
 * [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
 * [gaudi](http://gaudi.io/) - Gaudi automates the setup of isolated and decoupled dev environments.
 * [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application.
