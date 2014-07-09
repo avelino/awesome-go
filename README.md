@@ -165,6 +165,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [GarageEngine](https://github.com/vova616/GarageEngine) - 2d game engine written in Go working on OpenGL.
 * [glop](https://github.com/runningwild/glop) - Glop (Game Library Of Power) is a fairly simple cross-platform game library.
 * [go-rpg](https://github.com/viking/go-rpg) - Go package for creating role playing games
+* [go3d](https://github.com/ungerik/go3d) - A performance oriented 2D/3D math package for Go
 * [terrago](https://github.com/sarenji/terrago) - Fractal terrain generator in Go.
 
 
@@ -396,6 +397,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gocraft/web](https://github.com/gocraft/web) - A mux and middleware package in Go.
 * [Goji](https://github.com/zenazn/goji) - Goji is a minimalistic web framework for Golang that's high in antioxidants.
 * [Gorilla](https://github.com/gorilla/) - Gorilla is a web toolkit for the Go programming language.
+* [go-rest](https://github.com/ungerik/go-rest) - A small and evil REST framework for Go
 * [httprouter](https://github.com/julienschmidt/httprouter) - A high performance router. Use this and the standard http handlers to form a very high performance web framework.
 * [mango](https://github.com/paulbellamy/mango) - Mango is a modular web-application framework for Go, inspired by Rack, and PEP333.
 * [Martini](https://github.com/go-martini/martini) - Martini is a powerful package for quickly writing modular web applications/services in Golang.
