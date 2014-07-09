@@ -237,6 +237,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries that implement messaging systems*
 
 * [dbus](https://github.com/godbus/dbus) - Native Go bindings for D-Bus.
+* [go-nsq](https://github.com/bitly/go-nsq) - the official Go package for NSQ
 * [gopush-cluster](https://github.com/Terry-Mao/gopush-cluster) - gopush-cluster is a go push server cluster.
 * [NATS](https://github.com/apcera/nats) - A lightweight and highly performant publish-subscribe and distributed queueing messaging system.
 * [Uniqush-Push](https://github.com/uniqush/uniqush-push) - A redis backed unified push service for server-side notifications to mobile devices.
@@ -474,6 +475,7 @@ Software written in Go.
 * [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
 * [fleet](https://github.com/coreos/fleet) - A Distributed init System.
 * [juju](https://juju.ubuntu.com/) - Configure, deploy, manage and monitor Openstack infrastructure.
+* [nsq](http://nsq.io/) - A realtime distributed messaging platform
 * [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
 * [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
 
