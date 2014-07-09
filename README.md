@@ -19,7 +19,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Embeddable Scripting Languages](#embeddable-scripting-languages)
     - [Forms](#forms)
     - [Game Development](#game-development)
-    - [Generation & ‘generics’](#generation--generics)
+    - [Generation & Generics](#generation--generics)
     - [GUI](#gui)
     - [Images](#images)
     - [Logging](#logging)
@@ -99,7 +99,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 ## Database Drivers
 
-*Libraties for connecting and operating databases.*
+*Libraries for connecting and operating databases. (see [Testing](#testing) for mock drivers)*
 
 * Relational Databases
     * [go-pgsql](https://github.com/lxn/go-pgsql) - A PostgreSQL client package for the Go Programming Language.
@@ -162,9 +162,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go3d](https://github.com/ungerik/go3d) - A performance oriented 2D/3D math package for Go
 
 
-## Generation & ‘generics’
+## Generation & Generics
 
-*Tools for brining generics-like functionality to Go via code generation*
+*Tools for bringing generics-like functionality to Go via code generation*
 
 * [gen](https://github.com/clipperhouse/gen) - Code generation tool for ‘generics’-like functionality.
 * [go-linq](https://github.com/ahmetalpbalkan/go-linq) - .NET LINQ-like query methods for Go.
@@ -338,6 +338,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * Mock
     * [gomock](https://code.google.com/p/gomock/) - Mocking framework for the Go programming language.
     * [mockhttp.go](https://github.com/tv42/mockhttp.go) - Mock object for Go http.ResponseWriter
+    * [go-sqlmock](github.com/DATA-DOG/go-sqlmock) - Mock SQL driver for testing database transactions
 
 
 ## Text Processing
