@@ -222,6 +222,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-fann](https://github.com/white-pony/go-fann) - Go bindings for Fast Artificial Neural Networks(FANN) library.
 * [go-galib](https://github.com/thoj/go-galib) - Genetic Algorithms library written in Go / golang
 * [golinear](https://github.com/danieldk/golinear) - liblinear bindings for Go
+* [GoLearn](https://github.com/sjwhitworth/golearn) - General Machine Learning library for Go.
 * [go-pr](https://github.com/daviddengcn/go-pr) - Pattern recognition package in Go lang.
 * [libsvm](https://github.com/datastream/libsvm) - libsvm golang version derived work based on LIBSVM 3.14.
 * [mlgo](https://code.google.com/p/mlgo/) - This project aims to provide minimalistic machine learning algorithms in Go.
