@@ -47,6 +47,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
         - [Other Software](#other-software)
 
 - [Resources](#resources)
+    - [Benchmarks](#benchmarks)
     - [E-Books](#e-books)
     - [Twitter](#twitter)
     - [Websites](#websites)
