@@ -72,6 +72,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [goauth](https://github.com/alloy-d/goauth) - A Go library for doing header-based OAuth over HTTP or HTTPS. Mostly created for working with Twitter.
 * [httpauth](https://github.com/goji/httpauth) - HTTP Authentication middleware.
 * [jwt-go](https://github.com/dgrijalva/jwt-go) - Golang implementation of JSON Web Tokens (JWT).
+* [oauth2](https://github.com/golang/oauth2) - Successor of goauth2. Generic OAuth 2.0 package that comes with JWT, Google APIs, Compute Engine and App Engine support.
 * [osin](https://github.com/RangelReale/osin) - Golang OAuth2 server library.
 
 
