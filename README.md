@@ -11,6 +11,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 - [Awesome Go](#awesome-go)
     - [Audio](#audio)
     - [Authentication & OAuth](#authentication--oauth)
+    - [CUI](#cui)
     - [Database](#database)
     - [Database Drivers](#database-drivers)
     - [Date & Time](#date--time)
@@ -20,7 +21,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Game Development](#game-development)
     - [Generation & ‘generics’](#generation--generics)
     - [GUI](#gui)
-    - [CUI](#cui)
     - [Images](#images)
     - [Logging](#logging)
     - [Machine Learning](#machine-learning)
@@ -74,6 +74,13 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [jwt-go](https://github.com/dgrijalva/jwt-go) - Golang implementation of JSON Web Tokens (JWT).
 * [osin](https://github.com/RangelReale/osin) - Golang OAuth2 server library.
 
+
+## CUI
+
+*Libraries for building CUI Applications*
+
+* [go-colortext](https://github.com/daviddengcn/go-colortext) - Go library for color output in terminals.
+* [termbox-go](https://github.com/nsf/termbox-go) - Termbox is a library for creating cross-platform text-based interfaces.
 
 
 ## Database
@@ -176,14 +183,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gotk3](https://github.com/conformal/gotk3) - Go bindings for GTK3.
 * [go-qml](https://github.com/go-qml/qml) - QML support for the Go language
 * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go.
-
-
-## CUI
-
-*Libraries for building CUI Applications*
-
-* [go-colortext](https://github.com/daviddengcn/go-colortext) - Go library for color output in terminals.
-* [termbox-go](https://github.com/nsf/termbox-go) - Termbox is a library for creating cross-platform text-based interfaces.
 
 
 ## Images
