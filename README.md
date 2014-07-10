@@ -166,10 +166,11 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 ## Generation & Generics
 
-*Tools for bringing generics-like functionality to Go via code generation*
+*Tools to enhance the language with features like generics via code generation*
 
 * [gen](https://github.com/clipperhouse/gen) - Code generation tool for ‘generics’-like functionality.
 * [go-linq](https://github.com/ahmetalpbalkan/go-linq) - .NET LINQ-like query methods for Go.
+* [pkgreflect](https://github.com/ungerik/pkgreflect) - A Go preprocessor for package scoped reflection.
 
 
 ## GUI
@@ -186,6 +187,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for manipulating images.*
 
+* [go-cairo](https://github.com/ungerik/go-cairo) - Go binding for the cairo graphics library.
 * [go-nude](https://github.com/koyachi/go-nude) - Nudity detection with Go.
 * [go-opencv](https://github.com/lazywei/go-opencv) - Go bindings for OpenCV.
 * [go-webcolors](https://github.com/jyotiska/go-webcolors) - Port of webcolors library from Python to Go.
@@ -364,17 +366,18 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for accessing third party APIs.*
 
-* [github](https://github.com/google/go-github) - Go library for accessing the GitHub API
+* [github](https://github.com/google/go-github) - Go library for accessing the GitHub API.
 * [hipchat](https://github.com/andybons/hipchat) - This project implements a golang client library for the Hipchat API.
-* [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP
+* [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP.
 
 
 ## Utilities
 
 *General utilities and tools to make your life easier.*
 
-* [cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go
-* [coop](https://github.com/rakyll/coop) - Cheat sheet for some of the common concurrent flows in Go
+* [cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go.
+* [coop](https://github.com/rakyll/coop) - Cheat sheet for some of the common concurrent flows in Go.
+* [go-dry](https://github.com/ungerik/go-dry) - DRY (don't repeat yourself) package for Go.
 * [mp](https://github.com/sanbornm/mp) - A simple cli email parser. It currently takes stdin and outputs JSON.
 
 
