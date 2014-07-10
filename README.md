@@ -515,6 +515,7 @@ Where to discover new Go libraries.
 
 ## Websites
 
+* [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) - List of other amazingly awesome lists.
 * [Flipboard - Go Magazine](https://flipboard.com/section/the-golang-magazine-bVP7nS) - A collection of Go articles and tutorials.
 * [godoc.org](http://godoc.org/) - Documentation for open source Go packages.
 * [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - Go mailing list
