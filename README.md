@@ -9,7 +9,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 ### Contents
 
 - [Awesome Go](#awesome-go)
-    - [API Libraries](#api-libraries)
     - [Audio & Music](#audiomusic)
     - [Authentication & OAuth](#authentication--oauth)
     - [CUI](#cui)
@@ -54,13 +53,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Websites](#websites)
         - [Tutorials](#tutorials)
 
-
-
-## API Libraries
-
-*Libraries for APIs.*
-
-* [facebook](https://github.com/huandu/facebook) - Go Library that supports the Facebook Graph API
 
 
 ## Audio/Music
@@ -378,6 +370,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [github](https://github.com/google/go-github) - Go library for accessing the GitHub API.
 * [hipchat](https://github.com/andybons/hipchat) - This project implements a golang client library for the Hipchat API.
 * [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP.
+* [facebook](https://github.com/huandu/facebook) - Go Library that supports the Facebook Graph API
 
 
 ## Utilities
