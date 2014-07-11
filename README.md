@@ -59,9 +59,11 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for manipulating audio.*
 
+* [flac](https://github.com/eaburns/flac) - A native Go FLAC decoder.
 * [go-sox](https://github.com/krig/go-sox) - libsox bindings for go.
 * [PortAudio](https://code.google.com/p/portaudio-go/) - Go bindings for the PortAudio audio I/O library.
 * [portmidi](https://github.com/rakyll/portmidi) - Go bindings for PortMidi.
+* [vorbis](https://github.com/mccoyst/vorbis) - A "native" Go Vorbis decoder (uses CGO, but has no dependencies).
 
 
 
@@ -440,6 +442,7 @@ Go software and plugins.
 * [goast-viewer](https://github.com/yuroyoro/goast-viewer) - Web based Golang AST visualizer.
 * [goimports](http://godoc.org/code.google.com/p/go.tools/cmd/goimports) - Tool to fix (add, remove) your Go imports automatically.
 * [GoLint](https://github.com/golang/lint) - Golint is a linter for Go source code.
+* [validate](https://github.com/mccoyst/validate) - Automatically validates struct fields with tags.
 
 
 ## Editor Plugins
@@ -447,8 +450,10 @@ Go software and plugins.
 * [go-lang-idea-plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) Go plugin for IntelliJ IDEA.
 * [gocode](https://github.com/nsf/gocode) - An autocompletion daemon for the Go programming language
 * [GoSublime](https://github.com/DisposaBoy/GoSublime) - A Golang plugin collection for the text editor SublimeText 2 providing code completion and other IDE-like features.
+* [velour](https://github.com/velour/velour) - An IRC client for the acme editor.
 * [vim-compiler-go](https://github.com/rjohnsondev/vim-compiler-go) - A Vim plugin to highlight syntax errors on save.
 * [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim.
+* [Watch](https://github.com/eaburns/Watch) - Runs a command in an acme win on file changes.
 
 ## Software Packages
 
