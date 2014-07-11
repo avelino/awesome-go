@@ -81,6 +81,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for building CUI Applications*
 
 * [go-colortext](https://github.com/daviddengcn/go-colortext) - Go library for color output in terminals.
+* [color](https://github.com/fatih/color) Versatile package for colored terminal output.
 * [termbox-go](https://github.com/nsf/termbox-go) - Termbox is a library for creating cross-platform text-based interfaces.
 
 
