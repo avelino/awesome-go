@@ -374,6 +374,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [github](https://github.com/google/go-github) - Go library for accessing the GitHub API.
 * [hipchat](https://github.com/andybons/hipchat) - This project implements a golang client library for the Hipchat API.
 * [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP.
+* [mixpanel](https://github.com/dukex/mixpanel) - Mixpanel is a library for tracking events and sending Mixpanel profile updates to Mixpanel from your go applications.
 
 
 ## Utilities
