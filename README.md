@@ -437,7 +437,7 @@ Go software and plugins.
 
 * [doc](http://godoc.org/code.google.com/p/rspace.cmd/doc) - Go documentation tool that produces an alternative doc format.
 * [goast-viewer](https://github.com/yuroyoro/goast-viewer) - Web based Golang AST visualizer.
-* [goimports](https://github.com/bradfitz/goimports) - Tool to fix (add, remove) your Go imports automatically.
+* [goimports](http://godoc.org/code.google.com/p/go.tools/cmd/goimports) - Tool to fix (add, remove) your Go imports automatically.
 * [GoLint](https://github.com/golang/lint) - Golint is a linter for Go source code.
 
 
