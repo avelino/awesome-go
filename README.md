@@ -9,6 +9,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 ### Contents
 
 - [Awesome Go](#awesome-go)
+    - [API Libraries](#api-libraries)
     - [Audio & Music](#audiomusic)
     - [Authentication & OAuth](#authentication--oauth)
     - [CUI](#cui)
@@ -30,7 +31,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [ORM](#orm)
     - [Package Management](#package-management)
     - [Science and Data Analysis](#science-and-data-analysis)
-    - [Social Network](#social-network)
     - [Template Engines](#template-engines)
     - [Testing](#testing)
     - [Text Processing](#text-processing)
@@ -54,6 +54,13 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Websites](#websites)
         - [Tutorials](#tutorials)
 
+
+
+## API Libraries
+
+*Libraries for APIs.*
+
+* [facebook](https://github.com/huandu/facebook) - Go Library that supports the Facebook Graph API
 
 
 ## Audio/Music
@@ -312,12 +319,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [plotinum](https://code.google.com/p/plotinum/) - Plotinum provides an API for building and drawing plots in Go.
 * [streamtools](https://github.com/nytlabs/streamtools) - general purpose, graphical tool for dealing with streams of data.
 * [vectormath](https://github.com/spate/vectormath) - Vectormath for Go, an adaptation of the scalar C functions from Sony's Vector Math library, as found in the Bullet-2.79 source code.
-
-## Social Network
-
-*Libraries for social network APIs.*
-
-* [facebook](https://github.com/huandu/facebook) - Go Library that supports the Facebook Graph API
 
 ## Template Engines
 
