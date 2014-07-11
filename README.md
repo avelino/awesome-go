@@ -458,6 +458,7 @@ Software written in Go.
 * [aptly](https://github.com/smira/aptly) - aptly is a Debian repository management tool
 * [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
 * [gaudi](http://gaudi.io/) - Gaudi automates the setup of isolated and decoupled dev environments.
+* [gobrew](https://github.com/cryptojuice/gobrew) - gobrew lets you easily switch between multiple versions of go.
 * [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application.
 * [Gogs](http://gogs.io/) - A Self Hosted Git Service in the Go Programming Language.
 * [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update.
