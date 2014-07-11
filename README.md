@@ -312,7 +312,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [streamtools](https://github.com/nytlabs/streamtools) - general purpose, graphical tool for dealing with streams of data.
 * [vectormath](https://github.com/spate/vectormath) - Vectormath for Go, an adaptation of the scalar C functions from Sony's Vector Math library, as found in the Bullet-2.79 source code.
 
-
 ## Template Engines
 
 *Libraries and tools for templating and lexing.*
@@ -368,6 +367,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for accessing third party APIs.*
 
+* [facebook](https://github.com/huandu/facebook) - Go Library that supports the Facebook Graph API
 * [github](https://github.com/google/go-github) - Go library for accessing the GitHub API.
 * [hipchat](https://github.com/andybons/hipchat) - This project implements a golang client library for the Hipchat API.
 * [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP.
