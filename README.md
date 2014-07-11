@@ -367,10 +367,10 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for accessing third party APIs.*
 
+* [facebook](https://github.com/huandu/facebook) - Go Library that supports the Facebook Graph API
 * [github](https://github.com/google/go-github) - Go library for accessing the GitHub API.
 * [hipchat](https://github.com/andybons/hipchat) - This project implements a golang client library for the Hipchat API.
 * [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP.
-* [facebook](https://github.com/huandu/facebook) - Go Library that supports the Facebook Graph API
 
 
 ## Utilities
