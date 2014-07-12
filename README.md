@@ -485,6 +485,7 @@ Software written in Go.
 * [juju](https://juju.ubuntu.com/) - Configure, deploy, manage and monitor Openstack infrastructure.
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform
 * [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
+* [syncthing](http://www.syncthing.net/) - An open, decentralized file synchronization tool and protocol.
 * [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
 
 
