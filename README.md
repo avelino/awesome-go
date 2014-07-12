@@ -344,6 +344,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [Testify](https://github.com/stretchr/testify) - A sacred extension to the standard go testing package.
 
 * Mock
+    * [counterfeiter](https://github.com/maxbrunsfeld/counterfeiter) - Tool for generating self-contained mock objects
     * [gomock](https://code.google.com/p/gomock/) - Mocking framework for the Go programming language.
     * [mockhttp.go](https://github.com/tv42/mockhttp.go) - Mock object for Go http.ResponseWriter
     * [go-sqlmock](github.com/DATA-DOG/go-sqlmock) - Mock SQL driver for testing database transactions
