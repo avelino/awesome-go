@@ -359,6 +359,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * Specific Formats
     * [blackfriday](https://github.com/russross/blackfriday) - Markdown processor in Go
         * [github_flavored_markdown](http://godoc.org/github.com/shurcooL/go/github_flavored_markdown) - GitHub Flavored Markdown renderer in Go.
+    * [GoQuery](https://github.com/PuerkitoBio/goquery) - GoQuery brings a syntax and a set of features similar to jQuery to the Go language. 
     * [bluemonday](https://github.com/microcosm-cc/bluemonday) - HTML Sanitizer
     * [go-humanize](https://github.com/dustin/go-humanize) - Formatters for time, numbers, and memory size to human readable format.
     * [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - This package reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.
