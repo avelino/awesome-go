@@ -385,6 +385,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go.
 * [coop](https://github.com/rakyll/coop) - Cheat sheet for some of the common concurrent flows in Go.
+* [gopencils](https://github.com/bndr/gopencils) - Small and simple package to easily consume REST APIs.
 * [go-dry](https://github.com/ungerik/go-dry) - DRY (don't repeat yourself) package for Go.
 * [mp](https://github.com/sanbornm/mp) - A simple cli email parser. It currently takes stdin and outputs JSON.
 
