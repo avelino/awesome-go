@@ -38,6 +38,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Video](#video)
     - [Web Frameworks](#web-frameworks)
         - [Middlewares](#middlewares)
+    - [Windows](#windows)
 
 - [Tools](#tools)
     - [Code Analysis](#code-analysis)
@@ -543,6 +544,10 @@ Where to discover new Go libraries.
 * [r/Golang](http://www.reddit.com/r/golang) - News about Go.
 * [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
 * [go generate](https://docs.google.com/document/d/1V03LUfjSADDooDMhe-_K59EgpTEm3V8uvQRuNMAEnjg/edit) - A proposed code generation syntax from Rob Pike.
+
+## Windows
+
+* [go-ole](https://github.com/mattn/go-ole) - Win32 OLE implementation for golang
 
 ### Tutorials
 
