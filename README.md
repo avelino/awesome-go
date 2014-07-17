@@ -385,6 +385,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [github](https://github.com/google/go-github) - Go library for accessing the GitHub API.
 * [hipchat](https://github.com/andybons/hipchat) - This project implements a golang client library for the Hipchat API.
 * [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP.
+* [smite](https://github.com/sergiotapia/smitego) - Go package to wraps access to the Smite game API.
 
 
 ## Utilities
