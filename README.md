@@ -342,6 +342,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * Testing Frameworks
     * [assert](https://github.com/bmizerany/assert) - Asserts to Go testing
     * [ginkgo](http://onsi.github.io/ginkgo/) - BDD Testing Framework for Go
+    * [goblin](https://github.com/franela/goblin) - Mocha like testing framework fo Go
     * [gocheck](http://labix.org/gocheck) - A more advanced testing framework alternative to gotest.
     * [GoConvey](https://github.com/smartystreets/goconvey/) - BDD-style framework with web UI and live reload
     * [GoSpec](https://github.com/orfjackal/gospec) - BDD-style testing framework for the Go programming language.
@@ -393,6 +394,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go.
 * [cli-init](https://github.com/tcnksm/cli-init) - The easy way to start building Golang command-line application. 
 * [coop](https://github.com/rakyll/coop) - Cheat sheet for some of the common concurrent flows in Go.
+* [goreq](https://github.com/franela/goreq) - Minimal and simple request library for Go language.
 * [gopencils](https://github.com/bndr/gopencils) - Small and simple package to easily consume REST APIs.
 * [go-dry](https://github.com/ungerik/go-dry) - DRY (don't repeat yourself) package for Go.
 * [lrserver](https://github.com/jaschaephraim/lrserver) - LiveReload server for Go
