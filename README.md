@@ -375,6 +375,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
     * [yaml](https://bitbucket.org/zombiezen/yaml) - Implements a YAML 1.2 parser in Go.
 * Utility
+    * [govalidator](https://github.com/asaskevich/govalidator) - package of string validators and sanitizers for Go lang.
 
 
 ## Third-party APIs
