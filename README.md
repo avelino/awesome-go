@@ -554,7 +554,7 @@ Where to discover new Go libraries.
 ## Conferences
 
 * [dotGo](http://www.dotgo.io)
-* [GopherCon](http://http://www.gophercon.com/)
+* [GopherCon](http://www.gophercon.com/)
 
 ## Websites
 
