@@ -51,6 +51,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Benchmarks](#benchmarks)
     - [E-Books](#e-books)
     - [Twitter](#twitter)
+    - [Conferences](#conferences)
     - [Websites](#websites)
         - [Tutorials](#tutorials)
 
@@ -550,6 +551,10 @@ Where to discover new Go libraries.
 * [@golang_news](https://twitter.com/golang_news)
 * [@golangweekly](https://twitter.com/golangweekly)
 
+## Conferences
+
+* [dotGo](http://www.dotgo.io)
+* [GopherCon](http://http://www.gophercon.com/)
 
 ## Websites
 
