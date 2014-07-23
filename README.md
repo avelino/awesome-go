@@ -49,9 +49,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 - [Resources](#resources)
     - [Benchmarks](#benchmarks)
+    - [Conferences](#conferences)
     - [E-Books](#e-books)
     - [Twitter](#twitter)
-    - [Conferences](#conferences)
     - [Websites](#websites)
         - [Tutorials](#tutorials)
 
@@ -537,6 +537,11 @@ Where to discover new Go libraries.
 * [kvbench](https://github.com/jimrobinson/kvbench) - Key/Value database benchmark.
 * [speedtest-resize](https://github.com/fawick/speedtest-resize) - Compare various Image resize algorithms for the Go language.
 
+## Conferences
+
+* [dotGo](http://www.dotgo.io)
+* [GopherCon](http://www.gophercon.com/)
+
 ## E-Books
 
 * [build-applications-web](https://docs.google.com/file/d/0B2GBHFyTK2N8TzM4dEtIWjBJdEk/edit?pli=1)
@@ -550,11 +555,6 @@ Where to discover new Go libraries.
 * [@golang](https://twitter.com/golang)
 * [@golang_news](https://twitter.com/golang_news)
 * [@golangweekly](https://twitter.com/golangweekly)
-
-## Conferences
-
-* [dotGo](http://www.dotgo.io)
-* [GopherCon](http://www.gophercon.com/)
 
 ## Websites
 
