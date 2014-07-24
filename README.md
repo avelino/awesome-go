@@ -543,6 +543,7 @@ Where to discover new Go libraries.
 
 * [dotGo](http://www.dotgo.io)
 * [GopherCon](http://www.gophercon.com/)
+* [GopherCon India](http://www.gophercon.in/)
 
 ## E-Books
 
