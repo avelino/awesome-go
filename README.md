@@ -510,7 +510,7 @@ Software written in Go.
 * [Docker](http://www.docker.com/) - An open platform for distributed applications for developers and sysadmins.
 * [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
 * [fleet](https://github.com/coreos/fleet) - A Distributed init System.
-* [juju](https://juju.ubuntu.com/) - Configure, deploy, manage and monitor Openstack infrastructure.
+* [Juju](https://juju.ubuntu.com/) - Cloud-agnostic service deployment and orchestraton - supports EC2, Azure, Openstack, MAAS and more.
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform
 * [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
 * [syncthing](http://www.syncthing.net/) - An open, decentralized file synchronization tool and protocol.
