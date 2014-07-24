@@ -26,6 +26,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Machine Learning](#machine-learning)
     - [Messaging](#messaging)
     - [Natural Language Processing](#natural-language-processing)
+    - [Networking](#networking)
     - [OpenGL](#opengl)
     - [ORM](#orm)
     - [Package Management](#package-management)
@@ -273,6 +274,14 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [stemmer](https://github.com/dchest/stemmer) - Stemmer packages for Go programming language. Includes English and German stemmers.
 * [textcat](https://github.com/pebbe/textcat) - A Go package for n-gram based text categorization, with support for utf-8 and raw text
 
+## Networking
+
+*Libraries for working with various layers of the network*
+
+* [dns](https://github.com/miekg/dns) - Go library for working with DNS
+* [gopacket](https://code.google.com/p/gopacket) - A Go library for packet processing with libpacp bindings
+* [gopcap](https://github.com/akrennmair/gopcap) - A Go wrapper for libpcap
+* [gosnmp](https://github.com/soniah/gosnmp) - Native Go library for performing SNMP actions
 
 ## OpenGL
 
