@@ -329,8 +329,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries and tools for templating and lexing.*
 
-* [amber](https://github.com/eknkc/amber) - Amber is an elegant templating engine for Go Programming Language It is inspired from HAML and Jade.
 * [ace](https://github.com/yosssi/ace) - Ace is an HTML template engine for Go, inspired by Slim and Jade. Ace is a refinement of Gold.
+* [amber](https://github.com/eknkc/amber) - Amber is an elegant templating engine for Go Programming Language It is inspired from HAML and Jade.
 * [kasia.go](https://github.com/ziutek/kasia.go) - Templating system for HTML and other text documents - go implementation.
 * [mustache](https://github.com/hoisie/mustache) - A Go implementation of the Mustache template language.
 * [pongo2](https://github.com/flosch/pongo2) - A Django-like template-engine for Go.
