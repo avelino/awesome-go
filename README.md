@@ -237,6 +237,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [golinear](https://github.com/danieldk/golinear) - liblinear bindings for Go
 * [GoLearn](https://github.com/sjwhitworth/golearn) - General Machine Learning library for Go.
 * [go-pr](https://github.com/daviddengcn/go-pr) - Pattern recognition package in Go lang.
+* [goRecommend](https://github.com/timkaye11/goRecommend) - Recommendation Algorithms library written in Go. 
 * [libsvm](https://github.com/datastream/libsvm) - libsvm golang version derived work based on LIBSVM 3.14.
 * [mlgo](https://code.google.com/p/mlgo/) - This project aims to provide minimalistic machine learning algorithms in Go.
 * [neural-go](https://github.com/schuyler/neural-go) - A multilayer perceptron network implemented in Go, with training via backpropagation.
