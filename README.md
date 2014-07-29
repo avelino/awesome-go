@@ -230,6 +230,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [bayesian](https://github.com/jbrukh/bayesian) - Naive Bayesian Classification for Golang.
 * [CloudForest](https://github.com/ryanbressler/CloudForest) - Fast, flexible, multi-threaded ensembles of decision trees for machine learning in pure Go.
+* [gobrain](https://github.com/goml/gobrain) - Neural Networks written in go
 * [go-fann](https://github.com/white-pony/go-fann) - Go bindings for Fast Artificial Neural Networks(FANN) library.
 * [go-galib](https://github.com/thoj/go-galib) - Genetic Algorithms library written in Go / golang
 * [golinear](https://github.com/danieldk/golinear) - liblinear bindings for Go
