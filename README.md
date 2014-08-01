@@ -237,7 +237,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [golinear](https://github.com/danieldk/golinear) - liblinear bindings for Go
 * [GoLearn](https://github.com/sjwhitworth/golearn) - General Machine Learning library for Go.
 * [go-pr](https://github.com/daviddengcn/go-pr) - Pattern recognition package in Go lang.
-* [goRecommend](https://github.com/timkaye11/goRecommend) - Recommendation Algorithms library written in Go. 
+* [goRecommend](https://github.com/timkaye11/goRecommend) - Recommendation Algorithms library written in Go.
 * [libsvm](https://github.com/datastream/libsvm) - libsvm golang version derived work based on LIBSVM 3.14.
 * [mlgo](https://code.google.com/p/mlgo/) - This project aims to provide minimalistic machine learning algorithms in Go.
 * [neural-go](https://github.com/schuyler/neural-go) - A multilayer perceptron network implemented in Go, with training via backpropagation.
@@ -410,7 +410,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *General utilities and tools to make your life easier.*
 
 * [cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go.
-* [cli-init](https://github.com/tcnksm/cli-init) - The easy way to start building Golang command-line application. 
+* [cli-init](https://github.com/tcnksm/cli-init) - The easy way to start building Golang command-line application.
 * [coop](https://github.com/rakyll/coop) - Cheat sheet for some of the common concurrent flows in Go.
 * [goreq](https://github.com/franela/goreq) - Minimal and simple request library for Go language.
 * [gorequest](https://github.com/parnurzeal/gorequest) - Simplified HTTP client with rich features for Go.
@@ -435,6 +435,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [Beego](https://github.com/astaxie/beego) - beego is an open-source, high-performance web framework for the Go programming language.
 * [Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity.
+* [Goat](https://github.com/bahlo/goat) - A minimalistic REST API server in Go
 * [gocraft/web](https://github.com/gocraft/web) - A mux and middleware package in Go.
 * [Goji](https://github.com/zenazn/goji) - Goji is a minimalistic web framework for Golang that's high in antioxidants.
 * [Gorilla](https://github.com/gorilla/) - Gorilla is a web toolkit for the Go programming language.
@@ -481,7 +482,7 @@ Go software and plugins.
 * [GoCover.io](http://gocover.io/) - GoCover.io offers the code coverage of any golang package as a service.
 * [goimports](http://godoc.org/code.google.com/p/go.tools/cmd/goimports) - Tool to fix (add, remove) your Go imports automatically.
 * [GoLint](https://github.com/golang/lint) - Golint is a linter for Go source code.
-* [Golint online](http://go-lint.appspot.com/) - Lints online Go source files on GitHub, Bitbucket and Google Project Hosting using the golint package. 
+* [Golint online](http://go-lint.appspot.com/) - Lints online Go source files on GitHub, Bitbucket and Google Project Hosting using the golint package.
 * [validate](https://github.com/mccoyst/validate) - Automatically validates struct fields with tags.
 
 
