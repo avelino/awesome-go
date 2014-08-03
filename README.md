@@ -516,6 +516,7 @@ Software written in Go.
 * [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
 * [hk](https://github.com/heroku/hk) - Heroku command-line interface in Go.
 * [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data.
+* [Rodent](https://github.com/alouche/rodent) - Rodent helps you manage Go versions, projects and track dependencies.
 
 ### Other Software
 
