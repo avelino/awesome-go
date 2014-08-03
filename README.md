@@ -291,7 +291,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [gl](https://github.com/go-gl/gl) - Go bindings for OpenGL. Requires an external dependency GLEW.
 * [glfw3](https://github.com/go-gl/glfw3) - Go bindings for GLFW 3.
-* [glow](https://github.com/errcw/glow) - Go binding generator and bindings for OpenGL.
+* [glow](https://github.com/go-gl/glow) - Go binding generator and bindings for OpenGL.
 * [mathgl](https://github.com/go-gl/mathgl) - Pure Go math package specialized for 3D math, with inspiration from GLM.
 
 
