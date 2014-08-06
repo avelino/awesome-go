@@ -212,6 +212,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [resize](https://github.com/nfnt/resize) - Image resizing for the Go with common interpolation methods.
 * [rez](https://github.com/bamiaux/rez) - Image resizing, functionality similar to resize
 * [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
+* [go-gd](https://github.com/bolknote/go-gd) - Go binding for GD library
 
 
 ## Logging
