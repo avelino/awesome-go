@@ -31,6 +31,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [ORM](#orm)
     - [Package Management](#package-management)
     - [Science and Data Analysis](#science-and-data-analysis)
+    - [Serialization](#serialization)
     - [Template Engines](#template-engines)
     - [Testing](#testing)
     - [Text Processing](#text-processing)
@@ -287,6 +288,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gopcap](https://github.com/akrennmair/gopcap) - A Go wrapper for libpcap
 * [gosnmp](https://github.com/soniah/gosnmp) - Native Go library for performing SNMP actions
 
+
 ## OpenGL
 
 *Libraries for using OpenGL in Go.*
@@ -339,6 +341,15 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [streamtools](https://github.com/nytlabs/streamtools) - general purpose, graphical tool for dealing with streams of data.
 * [vectormath](https://github.com/spate/vectormath) - Vectormath for Go, an adaptation of the scalar C functions from Sony's Vector Math library, as found in the Bullet-2.79 source code.
 
+
+## Serialization
+
+*Libraries and tools for binary serialization*
+
+* [gogoprotobuf](https://code.google.com/p/gogoprotobuf) - Protocol Buffers for Go with Gadgets
+* [goprotobuf](https://code.google.com/p/goprotobuf) - Go support, in the form of a library and protocol compiler plugin, for Google's protocol buffers.
+
+
 ## Template Engines
 
 *Libraries and tools for templating and lexing.*
@@ -383,6 +394,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [blackfriday](https://github.com/russross/blackfriday) - Markdown processor in Go
         * [github_flavored_markdown](http://godoc.org/github.com/shurcooL/go/github_flavored_markdown) - GitHub Flavored Markdown renderer in Go.
     * [bluemonday](https://github.com/microcosm-cc/bluemonday) - HTML Sanitizer
+    * [gographviz](https://code.google.com/p/gographviz) - Parses the Graphviz DOT language.
     * [go-humanize](https://github.com/dustin/go-humanize) - Formatters for time, numbers, and memory size to human readable format.
     * [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - This package reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.
     * [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx) - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.
@@ -401,6 +413,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [facebook](https://github.com/huandu/facebook) - Go Library that supports the Facebook Graph API
 * [github](https://github.com/google/go-github) - Go library for accessing the GitHub API.
+* [gostorm](https://github.com/jsgilmore/gostorm) - GoStorm is a Go library that implements the communications protocol required to write Storm spouts and Bolts in Go that communicate with the Storm shells.
 * [hipchat](https://github.com/andybons/hipchat) - This project implements a golang client library for the Hipchat API.
 * [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP.
 * [mixpanel](https://github.com/dukex/mixpanel) - Mixpanel is a library for tracking events and sending Mixpanel profile updates to Mixpanel from your go applications.
@@ -527,8 +540,10 @@ Software written in Go.
 * [Docker](http://www.docker.com/) - An open platform for distributed applications for developers and sysadmins.
 * [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
 * [fleet](https://github.com/coreos/fleet) - A Distributed init System.
+* [gocc](https://code.google.com/p/gocc) - Gocc is a compiler kit for Go written in Go.
 * [Juju](https://juju.ubuntu.com/) - Cloud-agnostic service deployment and orchestraton - supports EC2, Azure, Openstack, MAAS and more.
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform
+* [peg](https://github.com/pointlander/peg) - Peg, Parsing Expression Grammar, is an implementation of a Packrat parser generator.
 * [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
 * [syncthing](http://www.syncthing.net/) - An open, decentralized file synchronization tool and protocol.
 * [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
