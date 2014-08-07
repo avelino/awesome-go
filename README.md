@@ -558,8 +558,6 @@ Software written in Go.
 
 
 
-
-
 # Resources
 
 Where to discover new Go libraries.
