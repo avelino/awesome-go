@@ -167,6 +167,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [binding](https://github.com/mholt/binding) - Binds form and JSON data from net/http Request to struct.
 * [nosurf](https://github.com/justinas/nosurf) - A CSRF protection middleware for Go.
+* [bind](https://github.com/robfig/bind)  - Bind form data to any Go values
 
 
 
