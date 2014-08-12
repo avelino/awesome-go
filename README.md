@@ -428,9 +428,10 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go.
 * [cli-init](https://github.com/tcnksm/cli-init) - The easy way to start building Golang command-line application.
 * [coop](https://github.com/rakyll/coop) - Cheat sheet for some of the common concurrent flows in Go.
+* [gopencils](https://github.com/bndr/gopencils) - Small and simple package to easily consume REST APIs.
 * [goreq](https://github.com/franela/goreq) - Minimal and simple request library for Go language.
 * [gorequest](https://github.com/parnurzeal/gorequest) - Simplified HTTP client with rich features for Go.
-* [gopencils](https://github.com/bndr/gopencils) - Small and simple package to easily consume REST APIs.
+* [gotenv](https://github.com/subosito/gotenv) - Load environment variables from `.env` or any `io.Reader` in Go
 * [go-dry](https://github.com/ungerik/go-dry) - DRY (don't repeat yourself) package for Go.
 * [go-underscore](https://github.com/tobyhede/go-underscore) - A useful collection of helpfully functional Go collection utilities. 
 * [lrserver](https://github.com/jaschaephraim/lrserver) - LiveReload server for Go
