@@ -384,7 +384,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [counterfeiter](https://github.com/maxbrunsfeld/counterfeiter) - Tool for generating self-contained mock objects
     * [gomock](https://code.google.com/p/gomock/) - Mocking framework for the Go programming language.
     * [mockhttp.go](https://github.com/tv42/mockhttp.go) - Mock object for Go http.ResponseWriter
-    * [go-sqlmock](github.com/DATA-DOG/go-sqlmock) - Mock SQL driver for testing database transactions
+    * [go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) - Mock SQL driver for testing database interactions
 
 
 ## Text Processing
@@ -433,7 +433,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gorequest](https://github.com/parnurzeal/gorequest) - Simplified HTTP client with rich features for Go.
 * [gotenv](https://github.com/subosito/gotenv) - Load environment variables from `.env` or any `io.Reader` in Go
 * [go-dry](https://github.com/ungerik/go-dry) - DRY (don't repeat yourself) package for Go.
-* [go-underscore](https://github.com/tobyhede/go-underscore) - A useful collection of helpfully functional Go collection utilities. 
+* [go-underscore](https://github.com/tobyhede/go-underscore) - A useful collection of helpfully functional Go collection utilities.
 * [lrserver](https://github.com/jaschaephraim/lrserver) - LiveReload server for Go
 * [mp](https://github.com/sanbornm/mp) - A simple cli email parser. It currently takes stdin and outputs JSON.
 
