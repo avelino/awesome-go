@@ -549,6 +549,7 @@ Software written in Go.
 * [peg](https://github.com/pointlander/peg) - Peg, Parsing Expression Grammar, is an implementation of a Packrat parser generator.
 * [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
 * [syncthing](http://www.syncthing.net/) - An open, decentralized file synchronization tool and protocol.
+* [Tenyks](https://github.com/kyleterry/tenyks) - Service oriented IRC bot using Redis and JSON for messaging.
 * [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
 
 
