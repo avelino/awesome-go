@@ -347,6 +347,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries and tools for binary serialization*
 
+* [cbor](https://github.com/2tvenom/cbor) - Golang library for working with cbor binary format
 * [gogoprotobuf](https://code.google.com/p/gogoprotobuf) - Protocol Buffers for Go with Gadgets
 * [goprotobuf](https://code.google.com/p/goprotobuf) - Go support, in the form of a library and protocol compiler plugin, for Google's protocol buffers.
 
@@ -432,10 +433,13 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [goreq](https://github.com/franela/goreq) - Minimal and simple request library for Go language.
 * [gorequest](https://github.com/parnurzeal/gorequest) - Simplified HTTP client with rich features for Go.
 * [gotenv](https://github.com/subosito/gotenv) - Load environment variables from `.env` or any `io.Reader` in Go
+* [go-debug](https://github.com/visionmedia/go-debug) - Conditional debug logging for Golang libraries & applications
 * [go-dry](https://github.com/ungerik/go-dry) - DRY (don't repeat yourself) package for Go.
 * [go-underscore](https://github.com/tobyhede/go-underscore) - A useful collection of helpfully functional Go collection utilities.
 * [lrserver](https://github.com/jaschaephraim/lrserver) - LiveReload server for Go
 * [mp](https://github.com/sanbornm/mp) - A simple cli email parser. It currently takes stdin and outputs JSON.
+* [profile](https://github.com/davecheney/profile) - Simple profiling support package for Go
+* [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package
 
 
 ## Video
