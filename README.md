@@ -469,6 +469,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [Martini](https://github.com/go-martini/martini) - Martini is a powerful package for quickly writing modular web applications/services in Golang.
 * [pat](https://github.com/bmizerany/pat) - Sinatra style pattern muxer for Go’s net/http library, by the author of Sinatra.
 * [Revel](https://github.com/revel/revel) - A high-productivity web framework for the Go language.
+* [sawsij](http://sawsij.com/) - lightweight, open-source web framework for building high-performance, data-driven web applications.
 * [tigertonic](https://github.com/rcrowley/go-tigertonic) - A Go framework for building JSON web services inspired by Dropwizard
 * [traffic](https://github.com/pilu/traffic) - Sinatra inspired regexp/pattern mux and web framework for Go.
 * [web.go](https://github.com/hoisie/web) - A simple framework to write webapps in Go.
