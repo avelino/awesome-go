@@ -559,6 +559,7 @@ Software written in Go.
 * [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
 * [fleet](https://github.com/coreos/fleet) - A Distributed init System.
 * [gocc](https://code.google.com/p/gocc) - Gocc is a compiler kit for Go written in Go.
+* [Gor] (https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time. 
 * [Juju](https://juju.ubuntu.com/) - Cloud-agnostic service deployment and orchestration - supports EC2, Azure, Openstack, MAAS and more.
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform
 * [peg](https://github.com/pointlander/peg) - Peg, Parsing Expression Grammar, is an implementation of a Packrat parser generator.
