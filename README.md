@@ -95,6 +95,12 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 ## Database
 
+*Generic data structures and algorithms for databases in Go.*
+
+* [bitset](https://github.com/willf/bitset) - Go package implementing bitsets.
+* [bloom](https://github.com/dataence/bloom) - Bloom filters implemented in Go.
+* [encoding](https://github.com/dataence/encoding) - Integer Compression Libraries for Go.
+
 *Databases implemented in Go.*
 
 * [bolt](https://github.com/boltdb/bolt) - A low-level key/value database for Go.
