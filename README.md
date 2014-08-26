@@ -444,7 +444,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-underscore](https://github.com/tobyhede/go-underscore) - A useful collection of helpfully functional Go collection utilities.
 * [lrserver](https://github.com/jaschaephraim/lrserver) - LiveReload server for Go
 * [mp](https://github.com/sanbornm/mp) - A simple cli email parser. It currently takes stdin and outputs JSON.
-* [ngrok](https://github.com/inconshreveable/ngrok) Introspected tunnels to localhost.
+* [ngrok](https://github.com/inconshreveable/ngrok) - Introspected tunnels to localhost.
+* [peco](https://github.com/peco/peco) - Simplistic interactive filtering tool
 * [profile](https://github.com/davecheney/profile) - Simple profiling support package for Go
 * [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package
 * [xlsx](https://github.com/tealeg/xlsx) - Library to simplify reading the XML format used by recent version of Microsoft Excel in Go programs.
