@@ -355,7 +355,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [cbor](https://github.com/2tvenom/cbor) - Golang library for working with cbor binary format
 * [gogoprotobuf](https://code.google.com/p/gogoprotobuf) - Protocol Buffers for Go with Gadgets
 * [goprotobuf](https://code.google.com/p/goprotobuf) - Go support, in the form of a library and protocol compiler plugin, for Google's protocol buffers.
-
+* [php_session_decoder](https://github.com/yvasiyarov/php_session_decoder) - GoLang library for working with PHP session format and PHP Serialize/Unserialize functions
 
 ## Template Engines
 
