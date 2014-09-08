@@ -15,6 +15,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Database](#database)
     - [Database Drivers](#database-drivers)
     - [Date & Time](#date--time)
+    - [Distributed Systems](#distributed-systems)
     - [Email](#email)
     - [Embeddable Scripting Languages](#embeddable-scripting-languages)
     - [Forms](#forms)
@@ -142,6 +143,13 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for working with dates and times.*
 
 * [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
+
+## Distributed Systems
+
+*Packages that help with building Distributed Systems.*
+
+* [goraft](https://github.com/goraft/raft) - A Go implementation of the Raft distributed consensus protocol.
+* [raft](https://github.com/hashicorp/raft) - Golang implementation of the Raft consensus protocol, by HashiCorp.
 
 
 ## Email
