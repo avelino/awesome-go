@@ -425,6 +425,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP.
 * [mixpanel](https://github.com/dukex/mixpanel) - Mixpanel is a library for tracking events and sending Mixpanel profile updates to Mixpanel from your go applications.
 * [smite](https://github.com/sergiotapia/smitego) - Go package to wraps access to the Smite game API.
+* [snapchat](https://github.com/jamieomatthews/gosnap) - Go wrapper for the snapchat API
 
 
 ## Utilities
