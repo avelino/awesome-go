@@ -120,6 +120,10 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [ledisdb](https://github.com/siddontang/ledisdb) - Ledisdb is a high performance NoSQL like Redis based on LevelDB.
 * [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
 
+*Database tools.*
+
+* [vitess](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
+
 ## Database Drivers
 
 *Libraries for connecting and operating databases. (see [Testing](#testing) for mock drivers)*
@@ -443,6 +447,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go.
 * [cli-init](https://github.com/tcnksm/cli-init) - The easy way to start building Golang command-line application.
 * [coop](https://github.com/rakyll/coop) - Cheat sheet for some of the common concurrent flows in Go.
+* [godropbox](https://github.com/dropbox/godropbox) - Common libraries for writing Go services/applications from Dropbox.
 * [gopencils](https://github.com/bndr/gopencils) - Small and simple package to easily consume REST APIs.
 * [goreq](https://github.com/franela/goreq) - Minimal and simple request library for Go language.
 * [gorequest](https://github.com/parnurzeal/gorequest) - Simplified HTTP client with rich features for Go.
@@ -568,6 +573,7 @@ Software written in Go.
 * [fleet](https://github.com/coreos/fleet) - A Distributed init System.
 * [gocc](https://code.google.com/p/gocc) - Gocc is a compiler kit for Go written in Go.
 * [Gor] (https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time. 
+* [heka] (https://github.com/mozilla-services/heka) - universal tool for data processing from Mozilla. Large collection of built-in plugins. Extendable via Go and Lua plugin API.
 * [Juju](https://juju.ubuntu.com/) - Cloud-agnostic service deployment and orchestration - supports EC2, Azure, Openstack, MAAS and more.
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform
 * [peg](https://github.com/pointlander/peg) - Peg, Parsing Expression Grammar, is an implementation of a Packrat parser generator.
