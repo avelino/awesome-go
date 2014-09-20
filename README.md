@@ -431,6 +431,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [slug](https://github.com/gosimple/slug) - URL-friendly slugify with multiple languages support.
     * [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
 * Utility
+    * [gotabulate](https://github.com/bndr/gotabulate) - Easily pretty-print your tabular data with Go.
     * [govalidator](https://github.com/asaskevich/govalidator) - package of string validators and sanitizers for Go lang.
 
 
