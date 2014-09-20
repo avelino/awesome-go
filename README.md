@@ -27,6 +27,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Logging](#logging)
     - [Machine Learning](#machine-learning)
     - [Messaging](#messaging)
+    - [Miscellaneous](#miscellaneous)
     - [Natural Language Processing](#natural-language-processing)
     - [Networking](#networking)
     - [OpenGL](#opengl)
@@ -284,6 +285,12 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [NATS](https://github.com/apcera/nats) - A lightweight and highly performant publish-subscribe and distributed queueing messaging system.
 * [Uniqush-Push](https://github.com/uniqush/uniqush-push) - A redis backed unified push service for server-side notifications to mobile devices.
 
+
+## Miscellaneous
+
+*These libraries were placed here because none of the other categories seemed to fit*
+
+* [browscap_go](https://github.com/fromYukki/browscap_go) - GoLang Library for [Browser Capabilities Project](http://browscap.org/).
 
 
 ## Natural Language Processing
