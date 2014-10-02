@@ -655,3 +655,4 @@ Where to discover new Go libraries.
 * [A Tour of Go](http://tour.golang.org/) - Interactive tour of Go
 * [Go By Example](https://gobyexample.com/) - A hands-on introduction to Go using annotated example programs
 * [Working with Go](https://github.com/mkaz/working-with-go) - An intro to go for experienced programmers
+* [Intro to Programming in Go](http://www.golang-book.com/) - An Introduction to Programming in Go
