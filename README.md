@@ -534,6 +534,7 @@ Go software and plugins.
 
 * [doc](http://godoc.org/code.google.com/p/rspace.cmd/doc) - Go documentation tool that produces an alternative doc format.
 * [errcheck](https://github.com/kisielk/errcheck) - Errcheck is a program for checking for unchecked errors in Go programs.
+* [gcvis](https://github.com/davecheney/gcvis) - Visualise Go program GC trace data in real time.
 * [goast-viewer](https://github.com/yuroyoro/goast-viewer) - Web based Golang AST visualizer.
 * [GoCover.io](http://gocover.io/) - GoCover.io offers the code coverage of any golang package as a service.
 * [goimports](http://godoc.org/code.google.com/p/go.tools/cmd/goimports) - Tool to fix (add, remove) your Go imports automatically.
