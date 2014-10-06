@@ -468,6 +468,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [lrserver](https://github.com/jaschaephraim/lrserver) - LiveReload server for Go
 * [mp](https://github.com/sanbornm/mp) - A simple cli email parser. It currently takes stdin and outputs JSON.
 * [ngrok](https://github.com/inconshreveable/ngrok) - Introspected tunnels to localhost.
+* [okrun](https://github.com/xta/okrun) - go run error steamroller
 * [peco](https://github.com/peco/peco) - Simplistic interactive filtering tool
 * [profile](https://github.com/davecheney/profile) - Simple profiling support package for Go
 * [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package
