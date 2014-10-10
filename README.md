@@ -252,6 +252,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [logrus](https://github.com/sirupsen/logrus) - Structured, pluggable logging for Go.
 * [seelog](https://github.com/cihub/seelog) -   logging functionality with flexible dispatching, filtering, and formatting.
 * [stdlog](https://github.com/alexcesaro/log) - Stdlog is an object-oriented library providing leveled logging. It is very useful for cron jobs.
+* [gologex](https://github.com/chzyer/gologex) - An golang log lib, supports tracking and level, wrap by standard log lib
 
 
 ## Machine Learning
