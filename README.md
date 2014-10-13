@@ -630,6 +630,7 @@ Where to discover new Go libraries.
 * [golangbootcamp](http://golangbootcamp.com)
 * [learning-go](http://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
 * [network-programming](http://jan.newmarch.name/go/)
+* [Building Web Apps with Go](http://codegangsta.gitbooks.io/building-web-apps-with-go/)
 
 ## Twitter
 
