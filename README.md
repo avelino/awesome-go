@@ -391,7 +391,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *General utilities and tools to make your life easier.*
 
 * [cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go.
-* [cli-init](https://github.com/tcnksm/cli-init) - The easy way to start building Golang command-line application. 
+* [cli-init](https://github.com/tcnksm/cli-init) - The easy way to start building Golang command-line application.
 * [coop](https://github.com/rakyll/coop) - Cheat sheet for some of the common concurrent flows in Go.
 * [gopencils](https://github.com/bndr/gopencils) - Small and simple package to easily consume REST APIs.
 * [go-dry](https://github.com/ungerik/go-dry) - DRY (don't repeat yourself) package for Go.
@@ -530,6 +530,7 @@ Where to discover new Go libraries.
 * [golangbootcamp](http://golangbootcamp.com)
 * [learning-go](http://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
 * [network-programming](http://jan.newmarch.name/go/)
+* [Building Web Apps with Go](http://codegangsta.gitbooks.io/building-web-apps-with-go/)
 
 ## Twitter
 
