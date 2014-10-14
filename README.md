@@ -251,6 +251,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [glog](https://github.com/golang/glog) - Leveled execution logs for Go.
 * [go-log](https://github.com/siddontang/go-log) - Log lib supports level and multi handlers.
 * [logrus](https://github.com/sirupsen/logrus) - Structured, pluggable logging for Go.
+* [lumberjack](https://github.com/natefinch/lumberjack) - Simple rolling logger, implements io.WriteCloser.
 * [seelog](https://github.com/cihub/seelog) -   logging functionality with flexible dispatching, filtering, and formatting.
 * [stdlog](https://github.com/alexcesaro/log) - Stdlog is an object-oriented library providing leveled logging. It is very useful for cron jobs.
 
