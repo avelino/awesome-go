@@ -171,7 +171,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [email](https://github.com/jordan-wright/email) - A robust and flexible email library for Go.
 * [Go-MailHog](https://github.com/ian-kent/Go-MailHog) - Catches mail and serves it through a dream. Inspired by MailCatcher, easier to install.
-* [gomail](https://github.com/alexcesaro/mail) - Gomail provides a very simple API to send emails. It supports attachments, multipart emails and encoding of non-ASCII characters.
+* [Gomail](https://github.com/go-gomail/gomail/) - Gomail is a very simple and powerful package to send emails.
 
 
 ## Embeddable Scripting Languages
