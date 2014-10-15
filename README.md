@@ -249,6 +249,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for generating and working with log files.*
 
 * [glog](https://github.com/golang/glog) - Leveled execution logs for Go.
+* [gologex](https://github.com/chzyer/gologex) - An golang log lib, supports tracking and level, wrap by standard log lib
 * [go-log](https://github.com/siddontang/go-log) - Log lib supports level and multi handlers.
 * [logrus](https://github.com/sirupsen/logrus) - Structured, pluggable logging for Go.
 * [lumberjack](https://github.com/natefinch/lumberjack) - Simple rolling logger, implements io.WriteCloser.
