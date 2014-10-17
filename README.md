@@ -457,6 +457,10 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [rrdaclient](https://github.com/Omie/rrdaclient) - Go Library to access statdns.com API, which is in turn RRDA API. DNS Queries over HTTP.
 * [smite](https://github.com/sergiotapia/smitego) - Go package to wraps access to the Smite game API.
 * [snapchat](https://github.com/jamieomatthews/gosnap) - Go wrapper for the snapchat API
+* [m2x-go](https://github.com/jsgoecke/m2x-go) - Go library for [AT&T's M2X API](https://m2x.att.com/) cloud-based data storage service and management toolset customized for the internet of things.
+* [attspeech](https://github.com/jsgoecke/attspeech) - Golang library for the [AT&T Speech API](http://developer.att.com/apis/speech).
+* [go-wit](https://github.com/jsgoecke/go-wit) - A Go library for the [Wit.ai](http://wit.ai/) API for Natural Language Processing.
+* [nest](https://github.com/jsgoecke/nest) - A Go library for the [Nest API](http://developer.nest.com/) for Nest devices. This is early work and only supports querying the devices object as well as the REST Streaming API for devices.
 
 
 ## Utilities
@@ -593,7 +597,7 @@ Software written in Go.
 * [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
 * [fleet](https://github.com/coreos/fleet) - A Distributed init System.
 * [gocc](https://code.google.com/p/gocc) - Gocc is a compiler kit for Go written in Go.
-* [Gor] (https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time. 
+* [Gor] (https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time.
 * [heka] (https://github.com/mozilla-services/heka) - universal tool for data processing from Mozilla. Large collection of built-in plugins. Extendable via Go and Lua plugin API.
 * [Juju](https://juju.ubuntu.com/) - Cloud-agnostic service deployment and orchestration - supports EC2, Azure, Openstack, MAAS and more.
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform
