@@ -11,6 +11,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 - [Awesome Go](#awesome-go)
     - [Audio & Music](#audiomusic)
     - [Authentication & OAuth](#authentication--oauth)
+    - [Continuous Integration](#continuous-integration)
     - [CSS Preprocessors](#css-preprocessors)
     - [CUI](#cui)
     - [Database](#database)
@@ -84,6 +85,14 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [jwt-go](https://github.com/dgrijalva/jwt-go) - Golang implementation of JSON Web Tokens (JWT).
 * [oauth2](https://github.com/golang/oauth2) - Successor of goauth2. Generic OAuth 2.0 package that comes with JWT, Google APIs, Compute Engine and App Engine support.
 * [osin](https://github.com/RangelReale/osin) - Golang OAuth2 server library.
+
+
+## Continuous integration
+
+*Continuous integration libraries*
+
+* [drone](https://github.com/drone/drone) - Continuous Integration platform built on Docker, written in Go.
+* [gojenkins](https://github.com/bndr/gojenkins) - Jenkins CI API Client
 
 
 ## CSS Preprocessors
