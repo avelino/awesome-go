@@ -504,6 +504,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [Goat](https://github.com/bahlo/goat) - A minimalistic REST API server in Go
 * [gocraft/web](https://github.com/gocraft/web) - A mux and middleware package in Go.
 * [Goji](https://github.com/zenazn/goji) - Goji is a minimalistic web framework for Golang that's high in antioxidants.
+* [Gondola](https://github.com/rainycape/gondola) - The web framework for writing faster sites, faster
 * [Gorilla](https://github.com/gorilla/) - Gorilla is a web toolkit for the Go programming language.
 * [go-relax](https://github.com/codehack/go-relax) - A framework of pluggable components to build RESTful API's
 * [go-rest](https://github.com/ungerik/go-rest) - A small and evil REST framework for Go
