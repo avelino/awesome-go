@@ -71,6 +71,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [PortAudio](https://code.google.com/p/portaudio-go/) - Go bindings for the PortAudio audio I/O library.
 * [portmidi](https://github.com/rakyll/portmidi) - Go bindings for PortMidi.
 * [vorbis](https://github.com/mccoyst/vorbis) - A "native" Go Vorbis decoder (uses CGO, but has no dependencies).
+* [waveform](https://github.com/mdlayher/waveform) - Go package capable of generating waveform images from audio streams.
 
 
 
@@ -455,10 +456,10 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP.
 * [mixpanel](https://github.com/dukex/mixpanel) - Mixpanel is a library for tracking events and sending Mixpanel profile updates to Mixpanel from your go applications.
 * [rrdaclient](https://github.com/Omie/rrdaclient) - Go Library to access statdns.com API, which is in turn RRDA API. DNS Queries over HTTP.
-* [shopify](https://github.com/rapito/go-shopify) - Go Library to make CRUD request to the Shopify API. 
+* [shopify](https://github.com/rapito/go-shopify) - Go Library to make CRUD request to the Shopify API.
 * [smite](https://github.com/sergiotapia/smitego) - Go package to wraps access to the Smite game API.
 * [snapchat](https://github.com/jamieomatthews/gosnap) - Go wrapper for the snapchat API
-* [spotify](https://github.com/rapito/go-spotify) - Go Library to access Spotify WEB API. 
+* [spotify](https://github.com/rapito/go-spotify) - Go Library to access Spotify WEB API.
 
 
 ## Utilities
@@ -596,7 +597,7 @@ Software written in Go.
 * [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
 * [fleet](https://github.com/coreos/fleet) - A Distributed init System.
 * [gocc](https://code.google.com/p/gocc) - Gocc is a compiler kit for Go written in Go.
-* [Gor] (https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time. 
+* [Gor] (https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time.
 * [heka] (https://github.com/mozilla-services/heka) - universal tool for data processing from Mozilla. Large collection of built-in plugins. Extendable via Go and Lua plugin API.
 * [Juju](https://juju.ubuntu.com/) - Cloud-agnostic service deployment and orchestration - supports EC2, Azure, Openstack, MAAS and more.
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform
