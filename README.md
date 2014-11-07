@@ -357,6 +357,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gom](https://github.com/mattn/gom) - Go Manager - bundle for go.
 * [goop](https://github.com/nitrous-io/goop) - A simple dependency manager for Go (golang), inspired by Bundler.
 * [gpm](https://github.com/pote/gpm) - Barebones dependency manager for Go.
+* [gopm](https://github.com/gpmgo/gopm) - Go Package Manager
 
 
 ## Science and Data Analysis
@@ -512,6 +513,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [httprouter](https://github.com/julienschmidt/httprouter) - A high performance router. Use this and the standard http handlers to form a very high performance web framework.
 * [mango](https://github.com/paulbellamy/mango) - Mango is a modular web-application framework for Go, inspired by Rack, and PEP333.
 * [Martini](https://github.com/go-martini/martini) - Martini is a powerful package for quickly writing modular web applications/services in Golang.
+* [Macaron](https://github.com/Unknwon/macaron) - Macaron is a high productive and modular design web framework in Go.
 * [pat](https://github.com/bmizerany/pat) - Sinatra style pattern muxer for Go’s net/http library, by the author of Sinatra.
 * [Revel](https://github.com/revel/revel) - A high-productivity web framework for the Go language.
 * [sawsij](http://sawsij.com/) - lightweight, open-source web framework for building high-performance, data-driven web applications.
