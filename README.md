@@ -356,6 +356,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [godep](https://github.com/tools/godep) - dependency tool for go, godep helps build packages reproducibly by fixing their dependencies.
 * [gom](https://github.com/mattn/gom) - Go Manager - bundle for go.
 * [goop](https://github.com/nitrous-io/goop) - A simple dependency manager for Go (golang), inspired by Bundler.
+* [gopm](https://github.com/gpmgo/gopm) - Go Package Manager
 * [gpm](https://github.com/pote/gpm) - Barebones dependency manager for Go.
 
 
@@ -510,6 +511,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-relax](https://github.com/codehack/go-relax) - A framework of pluggable components to build RESTful API's
 * [go-rest](https://github.com/ungerik/go-rest) - A small and evil REST framework for Go
 * [httprouter](https://github.com/julienschmidt/httprouter) - A high performance router. Use this and the standard http handlers to form a very high performance web framework.
+* [Macaron](https://github.com/Unknwon/macaron) - Macaron is a high productive and modular design web framework in Go.
 * [mango](https://github.com/paulbellamy/mango) - Mango is a modular web-application framework for Go, inspired by Rack, and PEP333.
 * [Martini](https://github.com/go-martini/martini) - Martini is a powerful package for quickly writing modular web applications/services in Golang.
 * [pat](https://github.com/bmizerany/pat) - Sinatra style pattern muxer for Go’s net/http library, by the author of Sinatra.
@@ -658,6 +660,7 @@ Where to discover new Go libraries.
 * [Flipboard - Go Magazine](https://flipboard.com/section/the-golang-magazine-bVP7nS) - A collection of Go articles and tutorials.
 * [godoc.org](http://godoc.org/) - Documentation for open source Go packages.
 * [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - Go mailing list
+* [gowalker.org](https://gowalker.org) - Go Project API documentation.
 * [Go Projects](https://code.google.com/p/go-wiki/wiki/Projects) - List of projects on the Go community wiki
 * [r/Golang](http://www.reddit.com/r/golang) - News about Go.
 * [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
