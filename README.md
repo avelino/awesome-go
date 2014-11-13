@@ -112,6 +112,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [bloom](https://github.com/dataence/bloom) - Bloom filters implemented in Go.
 * [encoding](https://github.com/dataence/encoding) - Integer Compression Libraries for Go.
 * [mafsa](https://github.com/smartystreets/mafsa) - MA-FSA implementation with Minimal Perfect Hashing
+* [trie](https://github.com/derekparker/trie) - Trie implementation in Go
 
 *Databases implemented in Go.*
 
