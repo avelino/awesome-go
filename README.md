@@ -525,6 +525,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [tigertonic](https://github.com/rcrowley/go-tigertonic) - A Go framework for building JSON web services inspired by Dropwizard
 * [traffic](https://github.com/pilu/traffic) - Sinatra inspired regexp/pattern mux and web framework for Go.
 * [web.go](https://github.com/hoisie/web) - A simple framework to write webapps in Go.
+* [zeus](https://github.com/daryl/zeus) - A very simple and fast HTTP router for Go.
 
 
 ### Middlewares
