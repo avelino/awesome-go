@@ -111,6 +111,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [bitset](https://github.com/willf/bitset) - Go package implementing bitsets.
 * [bloom](https://github.com/dataence/bloom) - Bloom filters implemented in Go.
 * [encoding](https://github.com/dataence/encoding) - Integer Compression Libraries for Go.
+* [skiplist](https://github.com/gansidui/skiplist) - Skiplist implementation in Go.
 * [mafsa](https://github.com/smartystreets/mafsa) - MA-FSA implementation with Minimal Perfect Hashing
 * [trie](https://github.com/derekparker/trie) - Trie implementation in Go
 
@@ -327,6 +328,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gopacket](https://code.google.com/p/gopacket) - A Go library for packet processing with libpacp bindings
 * [gopcap](https://github.com/akrennmair/gopcap) - A Go wrapper for libpcap
 * [gosnmp](https://github.com/soniah/gosnmp) - Native Go library for performing SNMP actions
+* [gotcp](https://github.com/gansidui/gotcp) - A convenient package for quickly writing tcp applications in golang.
 
 
 ## OpenGL
