@@ -233,9 +233,10 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 ## Images
 
 *Libraries for manipulating images.*
-
+* [geo_pattern](https://github.com/pravj/geo_pattern) - Create beautiful generative image patterns from a string.
 * [gift](https://github.com/disintegration/gift) - Package of image processing filters.
 * [go-cairo](https://github.com/ungerik/go-cairo) - Go binding for the cairo graphics library.
+* [go-gd](https://github.com/bolknote/go-gd) - Go binding for GD library
 * [go-nude](https://github.com/koyachi/go-nude) - Nudity detection with Go.
 * [go-opencv](https://github.com/lazywei/go-opencv) - Go bindings for OpenCV.
 * [go-webcolors](https://github.com/jyotiska/go-webcolors) - Port of webcolors library from Python to Go.
@@ -245,7 +246,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [resize](https://github.com/nfnt/resize) - Image resizing for the Go with common interpolation methods.
 * [rez](https://github.com/bamiaux/rez) - Image resizing, functionality similar to resize
 * [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
-* [go-gd](https://github.com/bolknote/go-gd) - Go binding for GD library
 
 
 ## Logging
