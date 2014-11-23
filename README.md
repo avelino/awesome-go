@@ -486,6 +486,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-debug](https://github.com/visionmedia/go-debug) - Conditional debug logging for Golang libraries & applications
 * [go-dry](https://github.com/ungerik/go-dry) - DRY (don't repeat yourself) package for Go.
 * [go-underscore](https://github.com/tobyhede/go-underscore) - A useful collection of helpfully functional Go collection utilities.
+* [linecount](https://github.com/myearwood/linecount) - COunts the lines of Go code in your /src directory.
 * [lrserver](https://github.com/jaschaephraim/lrserver) - LiveReload server for Go
 * [mp](https://github.com/sanbornm/mp) - A simple cli email parser. It currently takes stdin and outputs JSON.
 * [ngrok](https://github.com/inconshreveable/ngrok) - Introspected tunnels to localhost.
