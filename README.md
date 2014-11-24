@@ -197,6 +197,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [bind](https://github.com/robfig/bind)  - Bind form data to any Go values
 * [binding](https://github.com/mholt/binding) - Binds form and JSON data from net/http Request to struct.
+* [formam](https://github.com/monoculum/formam) - decode form's values into a struct.
 * [nosurf](https://github.com/justinas/nosurf) - A CSRF protection middleware for Go.
 
 
