@@ -154,6 +154,10 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [redigo](https://github.com/garyburd/redigo) - Redigo is a Go client for the Redis database.
     * [redis](https://github.com/hoisie/redis) - A simple, powerful Redis client for Go.
 
+* Search and Analytic Databases
+    * [elastic](github.com/olivere/elastic) - Elasticsearch client for Google Go.
+    * [elastigo](github.com/mattbaird/elastigo) - A Elasticsearch client library.
+    * [goes](github.com/belogik/goes) - A library to interact with Elasticsearch.
 
 ## Date & Time
 
