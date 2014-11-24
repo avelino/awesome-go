@@ -79,6 +79,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for implementing authentications schemes.*
 
+* [gorbac](github.com/mikespook/gorbac) - provides a lightweight role-based access control (RBAC) implementation in Golang.
 * [Go-AWS-Auth](https://github.com/smartystreets/go-aws-auth) - AWS (Amazon Web Services) request signing library.
 * [go.auth](https://github.com/bradrydzewski/go.auth) - Authentication API for Go web applications.
 * [httpauth](https://github.com/goji/httpauth) - HTTP Authentication middleware.
