@@ -234,6 +234,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 ## Images
 
 *Libraries for manipulating images.*
+
 * [geo_pattern](https://github.com/pravj/geo_pattern) - Create beautiful generative image patterns from a string.
 * [gift](https://github.com/disintegration/gift) - Package of image processing filters.
 * [go-cairo](https://github.com/ungerik/go-cairo) - Go binding for the cairo graphics library.
