@@ -245,7 +245,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [imagick](https://github.com/gographics/imagick) - Go binding to ImageMagick's MagickWand C API.
 * [imaging](https://github.com/disintegration/imaging) - Simple Go image processing package.
 * [resize](https://github.com/nfnt/resize) - Image resizing for the Go with common interpolation methods.
-* [rez](https://github.com/bamiaux/rez) - Image resizing, functionality similar to resize
+* [rez](https://github.com/bamiaux/rez) - Image resizing in pure Go and SIMD.
 * [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
 
 
