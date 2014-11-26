@@ -461,6 +461,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [facebook](https://github.com/huandu/facebook) - Go Library that supports the Facebook Graph API
 * [github](https://github.com/google/go-github) - Go library for accessing the GitHub API.
+* [GoMusicBrainz](https://github.com/michiwend/gomusicbrainz) - a Go MusicBrainz WS2 client library
 * [gostorm](https://github.com/jsgilmore/gostorm) - GoStorm is a Go library that implements the communications protocol required to write Storm spouts and Bolts in Go that communicate with the Storm shells.
 * [hipchat](https://github.com/andybons/hipchat) - This project implements a golang client library for the Hipchat API.
 * [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP.
@@ -482,6 +483,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [delve](https://github.com/derekparker/delve) - Go debugger.
 * [godropbox](https://github.com/dropbox/godropbox) - Common libraries for writing Go services/applications from Dropbox.
 * [gopencils](https://github.com/bndr/gopencils) - Small and simple package to easily consume REST APIs.
+* [goplaceholder](https://github.com/michiwend/goplaceholder) - a small golang lib to generate placeholder images
 * [goreq](https://github.com/franela/goreq) - Minimal and simple request library for Go language.
 * [gorequest](https://github.com/parnurzeal/gorequest) - Simplified HTTP client with rich features for Go.
 * [gotenv](https://github.com/subosito/gotenv) - Load environment variables from `.env` or any `io.Reader` in Go
