@@ -482,8 +482,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [coop](https://github.com/rakyll/coop) - Cheat sheet for some of the common concurrent flows in Go.
 * [delve](https://github.com/derekparker/delve) - Go debugger.
 * [godropbox](https://github.com/dropbox/godropbox) - Common libraries for writing Go services/applications from Dropbox.
-* [goplaceholder](https://github.com/michiwend/goplaceholder) - a small golang lib to generate placeholder images
 * [gopencils](https://github.com/bndr/gopencils) - Small and simple package to easily consume REST APIs.
+* [goplaceholder](https://github.com/michiwend/goplaceholder) - a small golang lib to generate placeholder images
 * [goreq](https://github.com/franela/goreq) - Minimal and simple request library for Go language.
 * [gorequest](https://github.com/parnurzeal/gorequest) - Simplified HTTP client with rich features for Go.
 * [gotenv](https://github.com/subosito/gotenv) - Load environment variables from `.env` or any `io.Reader` in Go
