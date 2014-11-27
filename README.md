@@ -157,9 +157,10 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [redis](https://github.com/hoisie/redis) - A simple, powerful Redis client for Go.
 
 * Search and Analytic Databases
-    * [elastic](github.com/olivere/elastic) - Elasticsearch client for Google Go.
-    * [elastigo](github.com/mattbaird/elastigo) - A Elasticsearch client library.
-    * [goes](github.com/belogik/goes) - A library to interact with Elasticsearch.
+    * [bleve](https://github.com/blevesearch/bleve) - A modern text indexing library for go.
+    * [elastic](https://github.com/olivere/elastic) - Elasticsearch client for Google Go.
+    * [elastigo](https://github.com/mattbaird/elastigo) - A Elasticsearch client library.
+    * [goes](https://github.com/belogik/goes) - A library to interact with Elasticsearch.
 
 ## Date & Time
 
