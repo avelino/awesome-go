@@ -629,7 +629,7 @@ Software written in Go.
 * [syncthing](http://www.syncthing.net/) - An open, decentralized file synchronization tool and protocol.
 * [Tenyks](https://github.com/kyleterry/tenyks) - Service oriented IRC bot using Redis and JSON for messaging.
 * [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
-
+* [hugo](http://gohugo.io/) - A Fast and Modern Static Website Engine
 
 
 
