@@ -236,7 +236,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gotk3](https://github.com/conformal/gotk3) - Go bindings for GTK3.
 * [go-qml](https://github.com/go-qml/qml) - QML support for the Go language
 * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go.
-
+* [walk](https://github.com/lxn/walk) - Windows application library kit for Go.
 
 ## Images
 
