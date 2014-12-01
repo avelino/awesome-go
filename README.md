@@ -621,6 +621,7 @@ Software written in Go.
 * [gocc](https://code.google.com/p/gocc) - Gocc is a compiler kit for Go written in Go.
 * [Gor] (https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time.
 * [heka] (https://github.com/mozilla-services/heka) - universal tool for data processing from Mozilla. Large collection of built-in plugins. Extendable via Go and Lua plugin API.
+* [hugo](http://gohugo.io/) - A Fast and Modern Static Website Engine
 * [Juju](https://juju.ubuntu.com/) - Cloud-agnostic service deployment and orchestration - supports EC2, Azure, Openstack, MAAS and more.
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform
 * [orange-cat](https://github.com/noraesae/orange-cat) - A Markdown previewer written in Go.
