@@ -119,6 +119,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Databases implemented in Go.*
 
 * [bolt](https://github.com/boltdb/bolt) - A low-level key/value database for Go.
+* [cache2go](https://github.com/muesli/cache2go) - An in-memory key:value cache which supports automatic invalidation based on timeouts.
 * [diskv](https://github.com/peterbourgon/diskv) - A home-grown disk-backed key-value store.
 * [forestdb](https://github.com/couchbaselabs/goforestdb) - Go bindings for ForestDB.
 * [go-cache](https://github.com/pmylund/go-cache) - An in-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications.
@@ -254,6 +255,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [imaging](https://github.com/disintegration/imaging) - Simple Go image processing package.
 * [resize](https://github.com/nfnt/resize) - Image resizing for the Go with common interpolation methods.
 * [rez](https://github.com/bamiaux/rez) - Image resizing in pure Go and SIMD.
+* [smartcrop](https://github.com/muesli/smartcrop) - Finds good crops for arbitrary images and crop sizes
 * [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
 
 
@@ -288,6 +290,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [mlgo](https://code.google.com/p/mlgo/) - This project aims to provide minimalistic machine learning algorithms in Go.
 * [neural-go](https://github.com/schuyler/neural-go) - A multilayer perceptron network implemented in Go, with training via backpropagation.
 * [probab](https://code.google.com/p/probab/) - Probability distribution functions. Bayesian inference. Written in pure Go.
+* [regommend](https://github.com/muesli/regommend) - Recommendation & collaborative filtering engine
 * [shield](https://github.com/eaigner/shield) - Bayesian text classifier with flexible tokenizers and storage backends for Go
 
 
