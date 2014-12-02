@@ -147,6 +147,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [pq](https://github.com/lib/pq) - Pure Go Postgres driver for database/sql.
 
 * NoSQL Databases
+    * [aerospike-client-go](https://github.com/aerospike/aerospike-client-go) - Aerospike client in Go language.
     * [cayley](https://github.com/google/cayley) - A graph database with support for multiple backends.
     * [go-couchbase](https://github.com/couchbaselabs/go-couchbase) - Couchbase client in Go
     * [gorethink](https://github.com/dancannon/gorethink) - Go language driver for RethinkDB
