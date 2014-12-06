@@ -131,6 +131,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Database tools.*
 
+* [pgweb](https://github.com/sosedoff/pgweb) - A web-based PostgreSQL database browser
 * [vitess](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
 
 ## Database Drivers
