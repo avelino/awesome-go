@@ -667,6 +667,7 @@ Where to discover new Go libraries.
 
 ## E-Books
 
+* [A Go Developer's Notebook](https://leanpub.com/GoNotebook/read)
 * [build-applications-web](https://docs.google.com/file/d/0B2GBHFyTK2N8TzM4dEtIWjBJdEk/edit?pli=1)
 * [golang-book](http://www.golang-book.com/)
 * [golangbootcamp](http://golangbootcamp.com)
