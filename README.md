@@ -602,6 +602,7 @@ Software written in Go.
 
 * [aptly](https://github.com/smira/aptly) - aptly is a Debian repository management tool
 * [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
+* [dogo](https://github.com/liudng/dogo) - Monitoring changes in the source file and automatically compile and run (restart).
 * [gaudi](http://gaudi.io/) - Gaudi automates the setup of isolated and decoupled dev environments.
 * [gobrew](https://github.com/cryptojuice/gobrew) - gobrew lets you easily switch between multiple versions of go.
 * [GoBuild](http://gobuild.io/) - Online compile Go projects to Windows, Linux and MacOSX.
