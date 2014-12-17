@@ -455,6 +455,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [blackfriday](https://github.com/russross/blackfriday) - Markdown processor in Go
         * [github_flavored_markdown](http://godoc.org/github.com/shurcooL/go/github_flavored_markdown) - GitHub Flavored Markdown renderer in Go.
     * [bluemonday](https://github.com/microcosm-cc/bluemonday) - HTML Sanitizer
+    * [enca](https://github.com/endeveit/enca) - Minimal cgo bindings for [libenca](http://cihar.com/software/enca/).
     * [gographviz](https://code.google.com/p/gographviz) - Parses the Graphviz DOT language.
     * [go-humanize](https://github.com/dustin/go-humanize) - Formatters for time, numbers, and memory size to human readable format.
     * [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - This package reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.
