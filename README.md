@@ -356,7 +356,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [mathgl](https://github.com/go-gl/mathgl) - Pure Go math package specialized for 3D math, with inspiration from GLM.
 
 
-
 ## ORM
 
 *Libraries that implement Object-Relational Mapping or datamapping techniques.*
@@ -368,6 +367,14 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [QBS](https://github.com/coocood/qbs) - Stands for Query By Struct. A Go ORM.
 * [upper.io/db](https://github.com/upper/db) - Single interface for interacting with different data sources through the use of adapters that wrap mature database drivers.
 * [Xorm](https://github.com/go-xorm/xorm) - Simple and powerful ORM for Go.
+
+
+## SQL Query Builder
+
+*Libraries for building and using SQL.*
+
+* [Squirrel](https://github.com/lann/squirrel) - Go library that helps you build SQL queries.
+* [Dotsql](https://github.com/gchaincl/dotsql) - Go library that helps you keep sql files in one place and use it with ease.
 
 
 ## Package Management
