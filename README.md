@@ -301,7 +301,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries that implement messaging systems*
 
 * [dbus](https://github.com/godbus/dbus) - Native Go bindings for D-Bus.
-* [EventBus](https://github.com/asaskevich/EventBus) - The lightweight event bus.
+* [EventBus](https://github.com/asaskevich/EventBus) - The lightweight event bus with async compatibility.
 * [go-nsq](https://github.com/bitly/go-nsq) - the official Go package for NSQ
 * [gopush-cluster](https://github.com/Terry-Mao/gopush-cluster) - gopush-cluster is a go push server cluster.
 * [NATS](https://github.com/apcera/nats) - A lightweight and highly performant publish-subscribe and distributed queueing messaging system.
