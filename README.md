@@ -674,12 +674,12 @@ Where to discover new Go libraries.
 ## E-Books
 
 * [A Go Developer's Notebook](https://leanpub.com/GoNotebook/read)
-* [build-applications-web](https://docs.google.com/file/d/0B2GBHFyTK2N8TzM4dEtIWjBJdEk/edit?pli=1)
-* [golang-book](http://www.golang-book.com/)
-* [golangbootcamp](http://golangbootcamp.com)
-* [learning-go](http://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
-* [network-programming](http://jan.newmarch.name/go/)
-* [Building Web Apps with Go](http://codegangsta.gitbooks.io/building-web-apps-with-go/)
+* [An Introduction to Programming in Go](http://www.golang-book.com/)
+* [Build Web Application with Golang](https://docs.google.com/file/d/0B2GBHFyTK2N8TzM4dEtIWjBJdEk/edit?pli=1)
+* [Building Web Apps With Go](http://codegangsta.gitbooks.io/building-web-apps-with-go/)
+* [Go Bootcamp](http://golangbootcamp.com)
+* [Learning Go](http://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
+* [Network Programming With Go](http://jan.newmarch.name/go/)
 
 ## Twitter
 
@@ -708,4 +708,3 @@ Where to discover new Go libraries.
 * [A Tour of Go](http://tour.golang.org/) - Interactive tour of Go
 * [Go By Example](https://gobyexample.com/) - A hands-on introduction to Go using annotated example programs
 * [Working with Go](https://github.com/mkaz/working-with-go) - An intro to go for experienced programmers
-* [Intro to Programming in Go](http://www.golang-book.com/) - An Introduction to Programming in Go
