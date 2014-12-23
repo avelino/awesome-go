@@ -620,6 +620,7 @@ Software written in Go.
 * [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
 * [hk](https://github.com/heroku/hk) - Heroku command-line interface in Go.
 * [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data.
+* [ostent](https://github.com/ostrost/ostent) - collects and displays system metrics and optionally relays to Graphite and/or InfluxDB
 * [Packer](https://github.com/mitchellh/packer) - Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.
 * [Rodent](https://github.com/alouche/rodent) - Rodent helps you manage Go versions, projects and track dependencies.
 
