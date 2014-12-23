@@ -345,6 +345,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gopcap](https://github.com/akrennmair/gopcap) - A Go wrapper for libpcap
 * [gosnmp](https://github.com/soniah/gosnmp) - Native Go library for performing SNMP actions
 * [gotcp](https://github.com/gansidui/gotcp) - A Go package for quickly writing tcp applications
+* [portproxy](https://github.com/aybabtme/portproxy) - Simple TCP proxy which adds CORS support to API's which don't support it.
 * [tcp_server](https://github.com/firstrow/tcp_server) - A Go library for building tcp servers faster
 
 ## OpenGL
@@ -512,6 +513,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [okrun](https://github.com/xta/okrun) - go run error steamroller
 * [peco](https://github.com/peco/peco) - Simplistic interactive filtering tool
 * [profile](https://github.com/davecheney/profile) - Simple profiling support package for Go
+* [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
 * [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package
 * [xlsx](https://github.com/tealeg/xlsx) - Library to simplify reading the XML format used by recent version of Microsoft Excel in Go programs.
 
@@ -618,6 +620,7 @@ Software written in Go.
 * [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
 * [hk](https://github.com/heroku/hk) - Heroku command-line interface in Go.
 * [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data.
+* [ostent](https://github.com/ostrost/ostent) - collects and displays system metrics and optionally relays to Graphite and/or InfluxDB
 * [Packer](https://github.com/mitchellh/packer) - Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.
 * [Rodent](https://github.com/alouche/rodent) - Rodent helps you manage Go versions, projects and track dependencies.
 
