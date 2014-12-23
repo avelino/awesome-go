@@ -345,6 +345,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gopcap](https://github.com/akrennmair/gopcap) - A Go wrapper for libpcap
 * [gosnmp](https://github.com/soniah/gosnmp) - Native Go library for performing SNMP actions
 * [gotcp](https://github.com/gansidui/gotcp) - A Go package for quickly writing tcp applications
+* [portproxy](https://github.com/aybabtme/portproxy) - Simple TCP proxy which adds CORS support to API's which don't support it.
 * [tcp_server](https://github.com/firstrow/tcp_server) - A Go library for building tcp servers faster
 
 ## OpenGL
