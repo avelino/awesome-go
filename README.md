@@ -131,7 +131,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Database tools.*
 
-* [go-mysql](https://github.com/siddontang/go-msqy) - A go toolset to handle MySQL protocol and replication. 
+* [go-mysql](https://github.com/siddontang/go-mysql) - A go toolset to handle MySQL protocol and replication. 
 * [pgweb](https://github.com/sosedoff/pgweb) - A web-based PostgreSQL database browser
 * [vitess](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
 
