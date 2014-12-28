@@ -47,6 +47,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 - [Tools](#tools)
     - [Code Analysis](#code-analysis)
+    - [Editor](#editor)
     - [Editor Plugins](#editor-plugins)
     - [Software Packages](#software-packages)
         - [DevOps Tools](#devops-tools)
@@ -588,6 +589,8 @@ Go software and plugins.
 * [Golint online](http://go-lint.appspot.com/) - Lints online Go source files on GitHub, Bitbucket and Google Project Hosting using the golint package.
 * [validate](https://github.com/mccoyst/validate) - Automatically validates struct fields with tags.
 
+## Editor
+* [limetext](http://limetext.org/) Lime Text is a powerful and elegant text editor primarily developed in Go that aims to be a Free and open-source software successor to Sublime Text.
 
 ## Editor Plugins
 
