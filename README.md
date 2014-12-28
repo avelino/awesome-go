@@ -185,9 +185,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries that implement email creation and sending*
 
 * [email](https://github.com/jordan-wright/email) - A robust and flexible email library for Go.
-* [Go-MailHog](https://github.com/ian-kent/Go-MailHog) - Catches mail and serves it through a dream. Inspired by MailCatcher, easier to install.
 * [Gomail](https://github.com/go-gomail/gomail/) - Gomail is a very simple and powerful package to send emails.
-
+* [MailHog](https://github.com/mailhog/MailHog) - Email and SMTP testing with web and API interface
+* [smtp](https://github.com/mailhog/smtp) - SMTP server protocol state machine
 
 ## Embeddable Scripting Languages
 
@@ -200,7 +200,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-python](https://github.com/sbinet/go-python) - naive go bindings to the CPython C-API
 * [otto](https://github.com/robertkrimen/otto) - A JavaScript interpreter written in Go
 * [v8-go](https://github.com/idada/v8.go/) - V8 JavaScript engine bindings for Go
-
+* [purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go
 
 ## Forms
 
@@ -269,6 +269,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [glog](https://github.com/golang/glog) - Leveled execution logs for Go.
 * [gologex](https://github.com/chzyer/gologex) - An golang log lib, supports tracking and level, wrap by standard log lib
 * [go-log](https://github.com/siddontang/go-log) - Log lib supports level and multi handlers.
+* [go-log](https://github.com/ian-kent/go-log) - A log4j implementation in Go.
 * [go-logger](https://github.com/apsdehal/go-logger) - Simple logger of Go Programs, with level handlers.
 * [logrus](https://github.com/sirupsen/logrus) - Structured, pluggable logging for Go.
 * [lumberjack](https://github.com/natefinch/lumberjack) - Simple rolling logger, implements io.WriteCloser.
@@ -316,7 +317,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *These libraries were placed here because none of the other categories seemed to fit*
 
 * [browscap_go](https://github.com/fromYukki/browscap_go) - GoLang Library for [Browser Capabilities Project](http://browscap.org/).
-
+* [envconf](https://github.com/ian-kent/envconf) - Configuration from environment
+* [gofigure](https://github.com/ian-kent/gofigure) - Go application configuration made easy
 
 ## Natural Language Processing
 
@@ -346,6 +348,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gopcap](https://github.com/akrennmair/gopcap) - A Go wrapper for libpcap
 * [gosnmp](https://github.com/soniah/gosnmp) - Native Go library for performing SNMP actions
 * [gotcp](https://github.com/gansidui/gotcp) - A Go package for quickly writing tcp applications
+* [linkio](https://github.com/ian-kent/linkio) - Network link speed simulation for Reader/Writer interfaces
 * [portproxy](https://github.com/aybabtme/portproxy) - Simple TCP proxy which adds CORS support to API's which don't support it.
 * [tcp_server](https://github.com/firstrow/tcp_server) - A Go library for building tcp servers faster
 
@@ -535,6 +538,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [Beego](https://github.com/astaxie/beego) - beego is an open-source, high-performance web framework for the Go programming language.
 * [Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity.
 * [Goat](https://github.com/bahlo/goat) - A minimalistic REST API server in Go
+* [goose](https://github.com/ian-kent/goose) - Server Sent Events in Go
 * [gocraft/web](https://github.com/gocraft/web) - A mux and middleware package in Go.
 * [Goji](https://github.com/zenazn/goji) - Goji is a minimalistic web framework for Golang that's high in antioxidants.
 * [Gondola](https://github.com/rainycape/gondola) - The web framework for writing faster sites, faster
@@ -645,6 +649,7 @@ Software written in Go.
 * [syncthing](http://www.syncthing.net/) - An open, decentralized file synchronization tool and protocol.
 * [Tenyks](https://github.com/kyleterry/tenyks) - Service oriented IRC bot using Redis and JSON for messaging.
 * [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
+* [websysd](http://github.com/ian-kent/websysd) - Web based process manager (like Marathon or Upstart)
 
 
 
