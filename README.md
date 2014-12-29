@@ -47,7 +47,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 - [Tools](#tools)
     - [Code Analysis](#code-analysis)
-    - [Editor](#editor)
     - [Editor Plugins](#editor-plugins)
     - [Software Packages](#software-packages)
         - [DevOps Tools](#devops-tools)
@@ -589,9 +588,6 @@ Go software and plugins.
 * [Golint online](http://go-lint.appspot.com/) - Lints online Go source files on GitHub, Bitbucket and Google Project Hosting using the golint package.
 * [validate](https://github.com/mccoyst/validate) - Automatically validates struct fields with tags.
 
-## Editor
-* [limetext](http://limetext.org/) Lime Text is a powerful and elegant text editor primarily developed in Go that aims to be a Free and open-source software successor to Sublime Text.
-
 ## Editor Plugins
 
 * [go-lang-idea-plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) Go plugin for IntelliJ IDEA.
@@ -639,6 +635,7 @@ Software written in Go.
 * [heka] (https://github.com/mozilla-services/heka) - universal tool for data processing from Mozilla. Large collection of built-in plugins. Extendable via Go and Lua plugin API.
 * [hugo](http://gohugo.io/) - A Fast and Modern Static Website Engine
 * [Juju](https://juju.ubuntu.com/) - Cloud-agnostic service deployment and orchestration - supports EC2, Azure, Openstack, MAAS and more.
+* [limetext](http://limetext.org/) Lime Text is a powerful and elegant text editor primarily developed in Go that aims to be a Free and open-source software successor to Sublime Text.
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform
 * [orange-cat](https://github.com/noraesae/orange-cat) - A Markdown previewer written in Go.
 * [peg](https://github.com/pointlander/peg) - Peg, Parsing Expression Grammar, is an implementation of a Packrat parser generator.
