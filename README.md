@@ -136,8 +136,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *SQL query builder, libraries for building and using SQL.*
 
-* [Squirrel](https://github.com/lann/squirrel) - Go library that helps you build SQL queries.
 * [Dotsql](https://github.com/gchaincl/dotsql) - Go library that helps you keep sql files in one place and use it with ease.
+* [Squirrel](https://github.com/lann/squirrel) - Go library that helps you build SQL queries.
 
 ## Database Drivers
 
