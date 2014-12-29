@@ -135,6 +135,11 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [pgweb](https://github.com/sosedoff/pgweb) - A web-based PostgreSQL database browser
 * [vitess](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
 
+*SQL query builder, libraries for building and using SQL.*
+
+* [Dotsql](https://github.com/gchaincl/dotsql) - Go library that helps you keep sql files in one place and use it with ease.
+* [Squirrel](https://github.com/lann/squirrel) - Go library that helps you build SQL queries.
+
 ## Database Drivers
 
 *Libraries for connecting and operating databases. (see [Testing](#testing) for mock drivers)*
@@ -360,7 +365,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [glfw3](https://github.com/go-gl/glfw3) - Go bindings for GLFW 3.
 * [glow](https://github.com/go-gl/glow) - Go binding generator and bindings for OpenGL.
 * [mathgl](https://github.com/go-gl/mathgl) - Pure Go math package specialized for 3D math, with inspiration from GLM.
-
 
 
 ## ORM
