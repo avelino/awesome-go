@@ -134,6 +134,11 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [pgweb](https://github.com/sosedoff/pgweb) - A web-based PostgreSQL database browser
 * [vitess](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
 
+*SQL query builder, libraries for building and using SQL.*
+
+* [Squirrel](https://github.com/lann/squirrel) - Go library that helps you build SQL queries.
+* [Dotsql](https://github.com/gchaincl/dotsql) - Go library that helps you keep sql files in one place and use it with ease.
+
 ## Database Drivers
 
 *Libraries for connecting and operating databases. (see [Testing](#testing) for mock drivers)*
@@ -367,14 +372,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [QBS](https://github.com/coocood/qbs) - Stands for Query By Struct. A Go ORM.
 * [upper.io/db](https://github.com/upper/db) - Single interface for interacting with different data sources through the use of adapters that wrap mature database drivers.
 * [Xorm](https://github.com/go-xorm/xorm) - Simple and powerful ORM for Go.
-
-
-## SQL Query Builder
-
-*Libraries for building and using SQL.*
-
-* [Squirrel](https://github.com/lann/squirrel) - Go library that helps you build SQL queries.
-* [Dotsql](https://github.com/gchaincl/dotsql) - Go library that helps you keep sql files in one place and use it with ease.
 
 
 ## Package Management
