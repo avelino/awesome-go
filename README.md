@@ -486,6 +486,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for accessing third party APIs.*
 
+* [aws-go](https://github.com/stripe/aws-go) - An incredibly experimental, automatically generated set of AWS clients in Go.
 * [facebook](https://github.com/huandu/facebook) - Go Library that supports the Facebook Graph API
 * [github](https://github.com/google/go-github) - Go library for accessing the GitHub API.
 * [GoMusicBrainz](https://github.com/michiwend/gomusicbrainz) - a Go MusicBrainz WS2 client library
