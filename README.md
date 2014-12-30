@@ -714,13 +714,14 @@ Where to discover new Go libraries.
 
 * [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) - List of other amazingly awesome lists.
 * [Flipboard - Go Magazine](https://flipboard.com/section/the-golang-magazine-bVP7nS) - A collection of Go articles and tutorials.
+* [Go Blog](http://blog.golang.org) - The official Go blog
 * [godoc.org](http://godoc.org/) - Documentation for open source Go packages.
+* [golang-graphics](https://github.com/mholt/golang-graphics) - A collection of Go images, graphics, and art
 * [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - Go mailing list
-* [gowalker.org](https://gowalker.org) - Go Project API documentation.
 * [Go Projects](https://code.google.com/p/go-wiki/wiki/Projects) - List of projects on the Go community wiki
+* [gowalker.org](https://gowalker.org) - Go Project API documentation.
 * [r/Golang](http://www.reddit.com/r/golang) - News about Go.
 * [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
-* [go generate](https://docs.google.com/document/d/1V03LUfjSADDooDMhe-_K59EgpTEm3V8uvQRuNMAEnjg/edit) - A proposed code generation syntax from Rob Pike.
 
 ## Windows
 
