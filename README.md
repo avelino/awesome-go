@@ -276,11 +276,13 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-log](https://github.com/siddontang/go-log) - Log lib supports level and multi handlers.
 * [go-log](https://github.com/ian-kent/go-log) - A log4j implementation in Go.
 * [go-logger](https://github.com/apsdehal/go-logger) - Simple logger of Go Programs, with level handlers.
+* [hiprus](https://github.com/nubo/hiprus) - [logrus](https://github.com/sirupsen/logrus) plug-in to send errors to a channel in [Hipchat](https://hipchat.com).
 * [logrus](https://github.com/sirupsen/logrus) - Structured, pluggable logging for Go.
+* [logrusly](https://github.com/sebest/logrusly) - [logrus](https://github.com/sirupsen/logrus) plug-in to send errors to a [Loggly](https://www.loggly.com/).
 * [lumberjack](https://github.com/natefinch/lumberjack) - Simple rolling logger, implements io.WriteCloser.
 * [seelog](https://github.com/cihub/seelog) -   logging functionality with flexible dispatching, filtering, and formatting.
+* [slackrus](https://github.com/johntdyer/slackrus) - [logrus](https://github.com/sirupsen/logrus) plug-in to send errors to a channel in [Slack](https://slack.com).
 * [stdlog](https://github.com/alexcesaro/log) - Stdlog is an object-oriented library providing leveled logging. It is very useful for cron jobs.
-
 
 ## Machine Learning
 
