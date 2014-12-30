@@ -23,6 +23,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Game Development](#game-development)
     - [Generation & Generics](#generation--generics)
     - [GUI](#gui)
+    - [Hardware](#hardware)
     - [Images](#images)
     - [Logging](#logging)
     - [Machine Learning](#machine-learning)
@@ -246,6 +247,12 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-qml](https://github.com/go-qml/qml) - QML support for the Go language
 * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go.
 * [walk](https://github.com/lxn/walk) - Windows application library kit for Go.
+
+## Hardware
+
+*Libraries for interacting with hardware.*
+
+* [gobot](https://github.com/hybridgroup/gobot) - Framework for robotics, physical computing, and the Internet of Things
 
 ## Images
 
