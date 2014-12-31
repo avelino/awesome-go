@@ -463,6 +463,10 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [mockhttp.go](https://github.com/tv42/mockhttp.go) - Mock object for Go http.ResponseWriter
     * [go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) - Mock SQL driver for testing database interactions
 
+* Fuzzing and delta-debugging/reducing/shrinking
+    * [gofuzz](https://github.com/google/gofuzz) - A library for populating go objects with random values
+    * [gogenerate](https://github.com/arschles/gogenerate) - A Scalacheck-like library for Go
+    * [Tavor](https://github.com/zimmski/tavor) - A generic fuzzing and delta-debugging framework
 
 ## Text Processing
 
