@@ -227,6 +227,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [glop](https://github.com/runningwild/glop) - Glop (Game Library Of Power) is a fairly simple cross-platform game library.
 * [go3d](https://github.com/ungerik/go3d) - A performance oriented 2D/3D math package for Go
 * [go-astar](https://github.com/beefsack/go-astar) - Go implementation of the A* path finding algorithm
+* [gonet](https://github.com/xtaci/gonet) - A game server skeleton implemented with golang
 
 
 ## Generation & Generics
