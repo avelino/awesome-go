@@ -82,6 +82,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [Go-AWS-Auth](https://github.com/smartystreets/go-aws-auth) - AWS (Amazon Web Services) request signing library.
 * [go.auth](https://github.com/bradrydzewski/go.auth) - Authentication API for Go web applications.
+* [go-jose](https://github.com/square/go-jose) - A fairly complete implementation of the JOSE working group's JSON Web Token, JSON Web Signatures, and JSON Web Encryption specs.
 * [gorbac](https://github.com/mikespook/gorbac) - provides a lightweight role-based access control (RBAC) implementation in Golang.
 * [httpauth](https://github.com/goji/httpauth) - HTTP Authentication middleware.
 * [jwt-go](https://github.com/dgrijalva/jwt-go) - Golang implementation of JSON Web Tokens (JWT).
