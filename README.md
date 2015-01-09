@@ -490,6 +490,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - This package reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.
     * [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx) - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.
     * [GoQuery](https://github.com/PuerkitoBio/goquery) - GoQuery brings a syntax and a set of features similar to jQuery to the Go language.
+    * [goregen](https://github.com/zach-klippenstein/goregen) - A library for generating random strings from regular expressions.
     * [go-runewidth](https://github.com/mattn/go-runewidth) - Functions to get fixed width of the character or string.
     * [guesslanguage](https://github.com/endeveit/guesslanguage) - Functions to determine the natural language of a unicode text.
     * [slug](https://github.com/gosimple/slug) - URL-friendly slugify with multiple languages support.
