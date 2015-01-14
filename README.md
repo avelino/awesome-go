@@ -41,6 +41,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Text Processing](#text-processing)
     - [Third-party APIs](#third-party-apis)
     - [Utilities](#utilities)
+    - [Version Control](#version-control)
     - [Video](#video)
     - [Web Frameworks](#web-frameworks)
         - [Middlewares](#middlewares)
@@ -549,6 +550,15 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
 * [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package
 * [xlsx](https://github.com/tealeg/xlsx) - Library to simplify reading the XML format used by recent version of Microsoft Excel in Go programs.
+
+
+## Version Control
+
+*Libraries for version control.*
+
+* [git2go](https://github.com/libgit2/git2go) - Go bindings for libgit2.
+* [go-vcs](https://github.com/sourcegraph/go-vcs) - manipulate and inspect VCS repositories in Go.
+* [hgo](https://github.com/beyang/hgo) - Hgo is a collection of Go packages providing read-access to local Mercurial repositories.
 
 
 ## Video
