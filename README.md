@@ -11,6 +11,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 - [Awesome Go](#awesome-go)
     - [Audio & Music](#audiomusic)
     - [Authentication & OAuth](#authentication--oauth)
+    - [Compression](#compression)
     - [CSS Preprocessors](#css-preprocessors)
     - [CUI](#cui)
     - [Database](#database)
@@ -89,6 +90,13 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [jwt-go](https://github.com/dgrijalva/jwt-go) - Golang implementation of JSON Web Tokens (JWT).
 * [oauth2](https://github.com/golang/oauth2) - Successor of goauth2. Generic OAuth 2.0 package that comes with JWT, Google APIs, Compute Engine and App Engine support.
 * [osin](https://github.com/RangelReale/osin) - Golang OAuth2 server library.
+
+
+## Compression
+
+*Libraries and tools for data compression.*
+
+* [fastlz](https://github.com/fromYukki/fastlz) - Wrap over FastLz for GoLang.
 
 
 ## CSS Preprocessors
