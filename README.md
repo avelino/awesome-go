@@ -594,6 +594,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [Martini](https://github.com/go-martini/martini) - Martini is a powerful package for quickly writing modular web applications/services in Golang.
 * [medeina](https://github.com/imdario/medeina) - Medeina is a HTTP routing tree based on HttpRouter, inspired by Roda and Cuba.
 * [pat](https://github.com/bmizerany/pat) - Sinatra style pattern muxer for Go’s net/http library, by the author of Sinatra.
+* [Resoursea](https://github.com/resoursea/api) - A REST framework for quickly writing resource based services.
 * [Revel](https://github.com/revel/revel) - A high-productivity web framework for the Go language.
 * [sawsij](http://sawsij.com/) - lightweight, open-source web framework for building high-performance, data-driven web applications.
 * [tigertonic](https://github.com/rcrowley/go-tigertonic) - A Go framework for building JSON web services inspired by Dropwizard
