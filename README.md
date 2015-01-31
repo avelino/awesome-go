@@ -208,6 +208,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [anko](https://github.com/mattn/anko) - Scriptable interpreter written in Go
 * [gisp](https://github.com/jcla1/gisp) - Simple LISP in Go
 * [golua](https://github.com/aarzilli/golua) - Go bindings for Lua C API
+* [go-duktape](https://github.com/olebedev/go-duktape) - Duktape JavaScript engine bindings for Go
 * [go-python](https://github.com/sbinet/go-python) - naive go bindings to the CPython C-API
 * [otto](https://github.com/robertkrimen/otto) - A JavaScript interpreter written in Go
 * [v8-go](https://github.com/idada/v8.go/) - V8 JavaScript engine bindings for Go
