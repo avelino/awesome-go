@@ -340,6 +340,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [autoflags](https://github.com/artyom/autoflags) - Go package to automatically define command line flags from struct fields
 * [browscap_go](https://github.com/fromYukki/browscap_go) - GoLang Library for [Browser Capabilities Project](http://browscap.org/).
+* [envcfg](https://github.com/tomazk/envcfg) - Un-marshaling environment variables to Go structs.
 * [envconf](https://github.com/ian-kent/envconf) - Configuration from environment
 * [gofigure](https://github.com/ian-kent/gofigure) - Go application configuration made easy
 * [xstrings](https://github.com/huandu/xstrings) - A collection of useful string functions ported from other languages.
