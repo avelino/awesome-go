@@ -1,4 +1,5 @@
-# Awesome Go 
+# Awesome Go
+
 A curated list of awesome Go frameworks, libraries and software. Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
 ### Contributing
