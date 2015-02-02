@@ -211,7 +211,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-duktape](https://github.com/olebedev/go-duktape) - Duktape JavaScript engine bindings for Go
 * [go-python](https://github.com/sbinet/go-python) - naive go bindings to the CPython C-API
 * [otto](https://github.com/robertkrimen/otto) - A JavaScript interpreter written in Go
-* [v8-go](https://github.com/idada/v8.go/) - V8 JavaScript engine bindings for Go
 * [purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go
 
 ## Forms
