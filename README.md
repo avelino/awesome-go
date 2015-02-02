@@ -343,6 +343,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [envcfg](https://github.com/tomazk/envcfg) - Un-marshaling environment variables to Go structs.
 * [envconf](https://github.com/ian-kent/envconf) - Configuration from environment
 * [gofigure](https://github.com/ian-kent/gofigure) - Go application configuration made easy
+* [viper](https://github.com/spf13/viper) - Go configuration with fangs
 * [xstrings](https://github.com/huandu/xstrings) - A collection of useful string functions ported from other languages.
 
 ## Natural Language Processing
