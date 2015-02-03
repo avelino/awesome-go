@@ -162,6 +162,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [aerospike-client-go](https://github.com/aerospike/aerospike-client-go) - Aerospike client in Go language.
     * [cayley](https://github.com/google/cayley) - A graph database with support for multiple backends.
     * [go-couchbase](https://github.com/couchbaselabs/go-couchbase) - Couchbase client in Go
+    * [gocql](http://gocql.github.io) - A Go language driver for Apache Cassandra.
     * [gorethink](https://github.com/dancannon/gorethink) - Go language driver for RethinkDB
     * [gomemcache](https://github.com/bradfitz/gomemcache/) - memcache client library for the Go programming language.
     * [mgo](http://godoc.org/labix.org/v2/mgo) - MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
