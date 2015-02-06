@@ -678,6 +678,7 @@ Software written in Go.
 * [Packer](https://github.com/mitchellh/packer) - Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.
 * [Rodent](https://github.com/alouche/rodent) - Rodent helps you manage Go versions, projects and track dependencies.
 * [Wide](https://wide.b3log.org) - A Web-based IDE for Teams using Golang.
+* [EasySSH](https://github.com/hypersleep/easyssh) - Golang package for easy remote execution through SSH and SCP downloading.
  
 ### Other Software
 
