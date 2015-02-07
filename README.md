@@ -515,6 +515,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [aws-go](https://github.com/stripe/aws-go) - An incredibly experimental, automatically generated set of AWS clients in Go.
 * [facebook](https://github.com/huandu/facebook) - Go Library that supports the Facebook Graph API
+* [gami](https://github.com/bit4bit/gami) - Go library for Asterisk Manager Interface.
 * [github](https://github.com/google/go-github) - Go library for accessing the GitHub API.
 * [goamz](https://github.com/mitchellh/goamz) - Popular fork of [goamz](https://launchpad.net/goamz) which adds some missing API calls to certain packages.
 * [GoMusicBrainz](https://github.com/michiwend/gomusicbrainz) - a Go MusicBrainz WS2 client library
