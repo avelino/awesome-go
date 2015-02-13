@@ -528,7 +528,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [smite](https://github.com/sergiotapia/smitego) - Go package to wraps access to the Smite game API.
 * [snapchat](https://github.com/jamieomatthews/gosnap) - Go wrapper for the snapchat API
 * [spotify](https://github.com/rapito/go-spotify) - Go Library to access Spotify WEB API.
-
+* [geo-golang](https://github.com/codingsince1985/geo-golang) - Go Library to access [Google Maps](https://developers.google.com/maps/documentation/geocoding/), [MapQuest](http://open.mapquestapi.com/geocoding/), [Nominatim](http://open.mapquestapi.com/nominatim/), [OpenCage](http://geocoder.opencagedata.com/api.html) and [HERE](https://developer.here.com/rest-apis/documentation/geocoder) geocoding / reverse geocoding APIs.
 
 ## Utilities
 
