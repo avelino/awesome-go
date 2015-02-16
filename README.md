@@ -520,6 +520,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [github](https://github.com/google/go-github) - Go library for accessing the GitHub API.
 * [goamz](https://github.com/mitchellh/goamz) - Popular fork of [goamz](https://launchpad.net/goamz) which adds some missing API calls to certain packages.
 * [GoMusicBrainz](https://github.com/michiwend/gomusicbrainz) - a Go MusicBrainz WS2 client library
+* [google](https://github.com/google/google-api-go-client) - Auto-generated Google APIs for Go
+* [google-cloud](https://github.com/GoogleCloudPlatform/gcloud-golang) - Google Cloud APIs Go Client Library
 * [gostorm](https://github.com/jsgilmore/gostorm) - GoStorm is a Go library that implements the communications protocol required to write Storm spouts and Bolts in Go that communicate with the Storm shells.
 * [hipchat](https://github.com/andybons/hipchat) - This project implements a golang client library for the Hipchat API.
 * [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP.
