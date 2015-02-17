@@ -1,5 +1,8 @@
 This resource was made by the Go community and wouldn't be possible without you! We appreciate and recognize [all contributors](https://github.com/avelino/awesome-go/graphs/contributors).
 
+Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freenode.net/?channels=awesome-go)
+
+
 # Contribution Guidelines
 
 - **To add to the list:** Submit a pull request
