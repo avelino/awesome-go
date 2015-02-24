@@ -433,7 +433,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [plotinum](https://code.google.com/p/plotinum/) - Plotinum provides an API for building and drawing plots in Go.
 * [streamtools](https://github.com/nytlabs/streamtools) - general purpose, graphical tool for dealing with streams of data.
 * [vectormath](https://github.com/spate/vectormath) - Vectormath for Go, an adaptation of the scalar C functions from Sony's Vector Math library, as found in the Bullet-2.79 source code. (currently inactive)
-* [gonum/mat64](https://github.com/gonum/matrix) - The general purpose package for matrix computation. Package mat64 provides basic linear algebra operations for float64 matrices. (currently active)
+* [gonum/mat64](https://github.com/gonum/matrix) - The general purpose package for matrix computation. Package mat64 provides basic linear algebra operations for float64 matrices.
 
 
 ## Serialization
