@@ -686,6 +686,7 @@ Software written in Go.
 * [Packer](https://github.com/mitchellh/packer) - Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.
 * [Rodent](https://github.com/alouche/rodent) - Rodent helps you manage Go versions, projects and track dependencies.
 * [Wide](https://wide.b3log.org) - A Web-based IDE for Teams using Golang.
+* [Go Metrics](https://github.com/rcrowley/go-metrics) - Go port of Coda Hale's Metrics library: https://github.com/codahale/metrics.
  
 ### Other Software
 
