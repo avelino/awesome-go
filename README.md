@@ -14,6 +14,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     - [Audio & Music](#audiomusic)
     - [Authentication & OAuth](#authentication--oauth)
     - [CSS Preprocessors](#css-preprocessors)
+    - [Configuration](#configuration)
     - [CUI](#cui)
     - [Database](#database)
     - [Database Drivers](#database-drivers)
@@ -98,6 +99,16 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 *Libraries for preprocessing CSS files*
 
 * [gcss](https://github.com/yosssi/gcss) - Pure Go CSS Preprocessor.
+
+
+## Configuration
+
+*Libraries for configuration parsing*
+
+* [envcfg](https://github.com/tomazk/envcfg) - Un-marshaling environment variables to Go structs.
+* [envconf](https://github.com/ian-kent/envconf) - Configuration from environment
+* [gofigure](https://github.com/ian-kent/gofigure) - Go application configuration made easy
+* [viper](https://github.com/spf13/viper) - Go configuration with fangs
 
 
 ## CUI
@@ -343,10 +354,6 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 * [autoflags](https://github.com/artyom/autoflags) - Go package to automatically define command line flags from struct fields
 * [browscap_go](https://github.com/fromYukki/browscap_go) - GoLang Library for [Browser Capabilities Project](http://browscap.org/).
-* [envcfg](https://github.com/tomazk/envcfg) - Un-marshaling environment variables to Go structs.
-* [envconf](https://github.com/ian-kent/envconf) - Configuration from environment
-* [gofigure](https://github.com/ian-kent/gofigure) - Go application configuration made easy
-* [viper](https://github.com/spf13/viper) - Go configuration with fangs
 * [xstrings](https://github.com/huandu/xstrings) - A collection of useful string functions ported from other languages.
 
 ## Natural Language Processing
