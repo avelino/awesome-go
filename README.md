@@ -675,6 +675,7 @@ Software written in Go.
 * [GoBuild](http://gobuild.io/) - Online compile Go projects to Windows, Linux and MacOSX.
 * [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application.
 * [Gogs](http://gogs.io/) - A Self Hosted Git Service in the Go Programming Language.
+* [Go Metrics](https://github.com/rcrowley/go-metrics) - Go port of Coda Hale's Metrics library: https://github.com/codahale/metrics.
 * [gonative](https://github.com/inconshreveable/gonative) - Tool which creates a build of Go that can cross compile to all platforms while still using the Cgo-enabled versions of the stdlib packages.
 * [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update.
 * [gox](https://github.com/mitchellh/gox) - A dead simple, no frills Go cross compile tool.
