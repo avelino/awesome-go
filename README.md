@@ -51,6 +51,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     - [Windows](#windows)
 
 - [Tools](#tools)
+    - [Build Tools](#build-tools)
     - [Code Analysis](#code-analysis)
     - [Editor Plugins](#editor-plugins)
     - [Software Packages](#software-packages)
@@ -155,8 +156,10 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 *SQL query builder, libraries for building and using SQL.*
 
+* [Dat](https://github.com/mgutz/dat) - Fast, intuitive Postgres query builder with interpolation (speeds up database/sql)
 * [Dotsql](https://github.com/gchaincl/dotsql) - Go library that helps you keep sql files in one place and use it with ease.
 * [Squirrel](https://github.com/lann/squirrel) - Go library that helps you build SQL queries.
+
 
 ## Database Drivers
 
@@ -515,6 +518,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     * [slug](https://github.com/gosimple/slug) - URL-friendly slugify with multiple languages support.
     * [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
 * Utility
+    * [ansi](https://github.com/mgutz/ansi) - Small, fast ANSI colors code library
     * [gotabulate](https://github.com/bndr/gotabulate) - Easily pretty-print your tabular data with Go.
     * [govalidator](https://github.com/asaskevich/govalidator) - package of string validators and sanitizers for Go lang.
 
@@ -646,6 +650,14 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 Go software and plugins.
 
+## Build Tools
+
+* [dogo](https://github.com/liudng/dogo) - Monitoring changes in the source file and automatically compile and run (restart).
+* [godo](https://github.com/mgutz/godo) - Task runner and file watcher with extended glob patterns like Gulp.
+* [gonative](https://github.com/inconshreveable/gonative) - Tool which creates a build of Go that can cross compile to all platforms while still using the Cgo-enabled versions of the stdlib packages.
+* [gox](https://github.com/mitchellh/gox) - A dead simple, no frills Go cross compile tool.
+* [goxc](https://github.com/laher/goxc) - build tool for Go, with a focus on cross-compiling and packaging.
+
 ## Code Analysis
 
 * [doc](http://godoc.org/code.google.com/p/rspace.cmd/doc) - Go documentation tool that produces an alternative doc format.
@@ -676,7 +688,6 @@ Software written in Go.
 
 * [aptly](https://github.com/smira/aptly) - aptly is a Debian repository management tool
 * [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
-* [dogo](https://github.com/liudng/dogo) - Monitoring changes in the source file and automatically compile and run (restart).
 * [EasySSH](https://github.com/hypersleep/easyssh) - Golang package for easy remote execution through SSH and SCP downloading.
 * [gaudi](http://gaudi.io/) - Gaudi automates the setup of isolated and decoupled dev environments.
 * [gobrew](https://github.com/cryptojuice/gobrew) - gobrew lets you easily switch between multiple versions of go.
@@ -684,10 +695,7 @@ Software written in Go.
 * [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application.
 * [Gogs](http://gogs.io/) - A Self Hosted Git Service in the Go Programming Language.
 * [Go Metrics](https://github.com/rcrowley/go-metrics) - Go port of Coda Hale's Metrics library: https://github.com/codahale/metrics.
-* [gonative](https://github.com/inconshreveable/gonative) - Tool which creates a build of Go that can cross compile to all platforms while still using the Cgo-enabled versions of the stdlib packages.
 * [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update.
-* [gox](https://github.com/mitchellh/gox) - A dead simple, no frills Go cross compile tool.
-* [goxc](https://github.com/laher/goxc) - build tool for Go, with a focus on cross-compiling and packaging.
 * [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
 * [hk](https://github.com/heroku/hk) - Heroku command-line interface in Go.
 * [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data.
