@@ -44,6 +44,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     - [Text Processing](#text-processing)
     - [Third-party APIs](#third-party-apis)
     - [Utilities](#utilities)
+    - [Validation](#validation)
     - [Version Control](#version-control)
     - [Video](#video)
     - [Web Frameworks](#web-frameworks)
@@ -576,6 +577,13 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
 * [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package
 * [xlsx](https://github.com/tealeg/xlsx) - Library to simplify reading the XML format used by recent version of Microsoft Excel in Go programs.
+
+
+## Validation
+
+*Libraries for validation.*
+
+* [go-validate-yourself](https://github.com/joeybloggs/go-validate-yourself) - Go Struct and Field validation
 
 
 ## Version Control
