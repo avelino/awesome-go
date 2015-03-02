@@ -15,7 +15,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     - [Authentication & OAuth](#authentication--oauth)
     - [CSS Preprocessors](#css-preprocessors)
     - [Configuration](#configuration)
-    - [CUI](#cui)
+    - [Command Line](#command-line)
     - [Database](#database)
     - [Database Drivers](#database-drivers)
     - [Date & Time](#date--time)
@@ -113,9 +113,18 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [viper](https://github.com/spf13/viper) - Go configuration with fangs
 
 
-## CUI
+## Command Line
 
-*Libraries for building CUI Applications*
+### Standard CLI
+
+*Libraries for building standard or basic Command Line applications*
+
+* [cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go.
+* [cli-init](https://github.com/tcnksm/cli-init) - The easy way to start building Golang command line application.
+
+### Advanced Console UIs
+
+*Libraries for building Console Applications and Console User Interfaces*
 
 * [chalk](https://github.com/ttacon/chalk) - Intuitive package for prettifying terminal/console output.
 * [color](https://github.com/fatih/color) - Versatile package for colored terminal output.
@@ -553,8 +562,6 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 *General utilities and tools to make your life easier.*
 
-* [cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go.
-* [cli-init](https://github.com/tcnksm/cli-init) - The easy way to start building Golang command-line application.
 * [coop](https://github.com/rakyll/coop) - Cheat sheet for some of the common concurrent flows in Go.
 * [delve](https://github.com/derekparker/delve) - Go debugger.
 * [fastlz](https://github.com/fromYukki/fastlz) - Wrap over [FastLz](http://fastlz.org/) (free, open-source, portable real-time compression library) for GoLang.
