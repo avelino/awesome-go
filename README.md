@@ -436,13 +436,14 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [go-fn](https://code.google.com/p/go-fn/) - Mathematical functions written in Go language, that are not covered by math pkg
 * [gofrac](https://github.com/anschelsc/gofrac) - A (goinstallable) fractions library for go with support for basic arithmetic.
 * [go-gt](https://code.google.com/p/go-gt/) - Graph theory algorithms written in "Go" language
-* [go.matrix](https://github.com/skelterjohn/go.matrix) - linear algebra for go
+* [go.matrix](https://github.com/skelterjohn/go.matrix) - linear algebra for go (has been stalled)
 * [gostat](https://code.google.com/p/gostat/) - A statistics library for the go language
 * [goraph](https://github.com/gyuho/goraph) - A pure Go graph theory library(data structure, algorith visualization)
 * [mudlark-go](https://code.google.com/p/mudlark-go-pkgs/) - A collection of packages providing (hopefully) useful code for use in software using Google's Go programming language.
 * [plotinum](https://code.google.com/p/plotinum/) - Plotinum provides an API for building and drawing plots in Go.
 * [streamtools](https://github.com/nytlabs/streamtools) - general purpose, graphical tool for dealing with streams of data.
-* [vectormath](https://github.com/spate/vectormath) - Vectormath for Go, an adaptation of the scalar C functions from Sony's Vector Math library, as found in the Bullet-2.79 source code.
+* [vectormath](https://github.com/spate/vectormath) - Vectormath for Go, an adaptation of the scalar C functions from Sony's Vector Math library, as found in the Bullet-2.79 source code. (currently inactive)
+* [gonum/mat64](https://github.com/gonum/matrix) - The general purpose package for matrix computation. Package mat64 provides basic linear algebra operations for float64 matrices.
 
 
 ## Serialization
