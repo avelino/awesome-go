@@ -22,6 +22,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     - [Distributed Systems](#distributed-systems)
     - [Email](#email)
     - [Embeddable Scripting Languages](#embeddable-scripting-languages)
+    - [Financial](#financial)
     - [Forms](#forms)
     - [Game Development](#game-development)
     - [Generation & Generics](#generation--generics)
@@ -239,6 +240,12 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [go-python](https://github.com/sbinet/go-python) - naive go bindings to the CPython C-API
 * [otto](https://github.com/robertkrimen/otto) - A JavaScript interpreter written in Go
 * [purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go
+
+## Financial
+
+*Packages for accounting and finance*
+
+* [decimal](https://github.com/shopspring/decimal) - Arbitrary-precision fixed-point decimal numbers
 
 ## Forms
 
