@@ -293,16 +293,16 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 *Libraries for manipulating images.*
 
-* [geo_pattern](https://github.com/pravj/geo_pattern) - Create beautiful generative image patterns from a string.
+* [geopattern](https://github.com/pravj/geopattern) - Create beautiful generative image patterns from a string.
 * [gift](https://github.com/disintegration/gift) - Package of image processing filters.
 * [go-cairo](https://github.com/ungerik/go-cairo) - Go binding for the cairo graphics library.
 * [go-gd](https://github.com/bolknote/go-gd) - Go binding for GD library
 * [go-nude](https://github.com/koyachi/go-nude) - Nudity detection with Go.
 * [go-opencv](https://github.com/lazywei/go-opencv) - Go bindings for OpenCV.
 * [go-webcolors](https://github.com/jyotiska/go-webcolors) - Port of webcolors library from Python to Go.
-* [img](https://github.com/hawx/img) - A selection of image manipulation tools.
 * [imagick](https://github.com/gographics/imagick) - Go binding to ImageMagick's MagickWand C API.
 * [imaging](https://github.com/disintegration/imaging) - Simple Go image processing package.
+* [img](https://github.com/hawx/img) - A selection of image manipulation tools.
 * [resize](https://github.com/nfnt/resize) - Image resizing for the Go with common interpolation methods.
 * [rez](https://github.com/bamiaux/rez) - Image resizing in pure Go and SIMD.
 * [smartcrop](https://github.com/muesli/smartcrop) - Finds good crops for arbitrary images and crop sizes
