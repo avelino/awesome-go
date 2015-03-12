@@ -159,7 +159,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 *Database tools.*
 
-* [go-mysql](https://github.com/siddontang/go-mysql) - A go toolset to handle MySQL protocol and replication. 
+* [go-mysql](https://github.com/siddontang/go-mysql) - A go toolset to handle MySQL protocol and replication.
 * [go-mysql-elasticsearch](https://github.com/siddontang/go-mysql-elasticsearch) - Sync your MySQL data into Elasticsearch automatically.
 * [myreplication](https://github.com/2tvenom/myreplication) - MySql binary log replication listener. Support statement and row based replication.
 * [pgweb](https://github.com/sosedoff/pgweb) - A web-based PostgreSQL database browser
@@ -636,6 +636,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [Goji](https://github.com/zenazn/goji) - Goji is a minimalistic web framework for Golang that's high in antioxidants.
 * [Gondola](https://github.com/rainycape/gondola) - The web framework for writing faster sites, faster
 * [Gorilla](https://github.com/gorilla/) - Gorilla is a web toolkit for the Go programming language.
+* [go-json-rest](https://github.com/ant0ine/go-json-rest) - A quick and easy way to setup a RESTful JSON API
 * [go-relax](https://github.com/codehack/go-relax) - A framework of pluggable components to build RESTful API's
 * [go-rest](https://github.com/ungerik/go-rest) - A small and evil REST framework for Go
 * [httprouter](https://github.com/julienschmidt/httprouter) - A high performance router. Use this and the standard http handlers to form a very high performance web framework.
@@ -726,7 +727,7 @@ Software written in Go.
 * [Packer](https://github.com/mitchellh/packer) - Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.
 * [Rodent](https://github.com/alouche/rodent) - Rodent helps you manage Go versions, projects and track dependencies.
 * [Wide](https://wide.b3log.org) - A Web-based IDE for Teams using Golang.
- 
+
 ### Other Software
 
 * [Circuit](https://github.com/gocircuit/circuit) - Circuit is a programmable platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS), for management, discovery, synchronization and orchestration of services and hosts comprising cloud applications.
