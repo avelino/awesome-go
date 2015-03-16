@@ -445,6 +445,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [goop](https://github.com/nitrous-io/goop) - A simple dependency manager for Go (golang), inspired by Bundler.
 * [gopm](https://github.com/gpmgo/gopm) - Go Package Manager
 * [gpm](https://github.com/pote/gpm) - Barebones dependency manager for Go.
+* [nut](https://github.com/jingweno/nut) - Vendor Go dependencies
 * [VenGO](https://github.com/DamnWidget/VenGO) - create and manage exportable isolated go virtual environments
 
 
