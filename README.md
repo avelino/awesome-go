@@ -51,6 +51,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     - [Web Frameworks](#web-frameworks)
         - [Middlewares](#middlewares)
     - [Windows](#windows)
+    - [Resource Embedding](#embed-resources)
 
 - [Tools](#tools)
     - [Code Analysis](#code-analysis)
@@ -731,6 +732,12 @@ Software written in Go.
 * [Rodent](https://github.com/alouche/rodent) - Rodent helps you manage Go versions, projects and track dependencies.
 * [webhook](https://github.com/adnanh/webhook) - Tool which allows user to create HTTP endpoints (hooks) that execute commands on the server
 * [Wide](https://wide.b3log.org) - A Web-based IDE for Teams using Golang.
+
+## Resource Embedding
+
+* [go.rice](https://github.com/GeertJohan/go.rice)
+* [bindata](https://github.com/jteeuwen/go-bindata)
+* [go-resources](https://github.com/omeid/go-resources)
 
 ### Other Software
 
