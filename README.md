@@ -51,7 +51,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     - [Web Frameworks](#web-frameworks)
         - [Middlewares](#middlewares)
     - [Windows](#windows)
-    - [Resource Embedding](#embed-resources)
+    - [Resource Embedding](#resource-embedding)
 
 - [Tools](#tools)
     - [Code Analysis](#code-analysis)
