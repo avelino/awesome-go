@@ -38,6 +38,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     - [OpenGL](#opengl)
     - [ORM](#orm)
     - [Package Management](#package-management)
+    - [Resource Embedding](#resource-embedding)
     - [Science and Data Analysis](#science-and-data-analysis)
     - [Serialization](#serialization)
     - [Template Engines](#template-engines)
@@ -51,7 +52,6 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     - [Web Frameworks](#web-frameworks)
         - [Middlewares](#middlewares)
     - [Windows](#windows)
-    - [Resource Embedding](#resource-embedding)
 
 - [Tools](#tools)
     - [Code Analysis](#code-analysis)
