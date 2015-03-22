@@ -735,9 +735,9 @@ Software written in Go.
 
 ## Resource Embedding
 
-* [go.rice](https://github.com/GeertJohan/go.rice)
-* [bindata](https://github.com/jteeuwen/go-bindata)
-* [go-resources](https://github.com/omeid/go-resources)
+* [go.rice](https://github.com/GeertJohan/go.rice) - go.rice is a Go package that makes working with resources such as html,js,css,images and templates very easy. 
+* [bindata](https://github.com/jteeuwen/go-bindata) - Package that converts any file into managable Go source code. 
+* [go-resources](https://github.com/omeid/go-resources) - Unfancy resources embedding with Go.
 
 ### Other Software
 
