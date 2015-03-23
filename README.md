@@ -40,6 +40,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     - [OpenGL](#opengl)
     - [ORM](#orm)
     - [Package Management](#package-management)
+    - [Resource Embedding](#resource-embedding)
     - [Science and Data Analysis](#science-and-data-analysis)
     - [Serialization](#serialization)
     - [Template Engines](#template-engines)
@@ -451,6 +452,13 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [VenGO](https://github.com/DamnWidget/VenGO) - create and manage exportable isolated go virtual environments
 
 
+## Resource Embedding
+
+* [go-bindata](https://github.com/jteeuwen/go-bindata) - Package that converts any file into managable Go source code.
+* [go-resources](https://github.com/omeid/go-resources) - Unfancy resources embedding with Go.
+* [go.rice](https://github.com/GeertJohan/go.rice) - go.rice is a Go package that makes working with resources such as html,js,css,images and templates very easy. 
+
+
 ## Science and Data Analysis
 
 *Libraries for scientific computing and data analyzing.*
@@ -733,6 +741,7 @@ Software written in Go.
 * [Rodent](https://github.com/alouche/rodent) - Rodent helps you manage Go versions, projects and track dependencies.
 * [webhook](https://github.com/adnanh/webhook) - Tool which allows user to create HTTP endpoints (hooks) that execute commands on the server
 * [Wide](https://wide.b3log.org) - A Web-based IDE for Teams using Golang.
+
 
 ### Other Software
 
