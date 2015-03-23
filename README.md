@@ -6,7 +6,9 @@ A curated list of awesome Go frameworks, libraries and software. Inspired by [aw
 
 Please take a quick gander at the [contribution guidelines](https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md) first. Thanks to all [contributors](https://github.com/avelino/awesome-go/graphs/contributors); you rock!
 
-Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freenode.net/?channels=awesome-go)
+Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freenode.net/?channels=awesome-go).
+
+#### *If you see a package or project here that is no longer maintained or is not a good fit, please improve the list by opening an issue about it. Thank you!*
 
 ### Contents
 
