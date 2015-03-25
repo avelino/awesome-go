@@ -365,6 +365,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 * [dbus](https://github.com/godbus/dbus) - Native Go bindings for D-Bus.
 * [EventBus](https://github.com/asaskevich/EventBus) - The lightweight event bus with async compatibility.
+* [go-notify](https://github.com/TheCreeper/go-notify) - Native implementation of the freedesktop notification spec.
 * [go-nsq](https://github.com/bitly/go-nsq) - the official Go package for NSQ
 * [gopush-cluster](https://github.com/Terry-Mao/gopush-cluster) - gopush-cluster is a go push server cluster.
 * [NATS](https://github.com/apcera/nats) - A lightweight and highly performant publish-subscribe and distributed queueing messaging system.
@@ -456,7 +457,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 * [go-bindata](https://github.com/jteeuwen/go-bindata) - Package that converts any file into managable Go source code.
 * [go-resources](https://github.com/omeid/go-resources) - Unfancy resources embedding with Go.
-* [go.rice](https://github.com/GeertJohan/go.rice) - go.rice is a Go package that makes working with resources such as html,js,css,images and templates very easy. 
+* [go.rice](https://github.com/GeertJohan/go.rice) - go.rice is a Go package that makes working with resources such as html,js,css,images and templates very easy.
 
 
 ## Science and Data Analysis
