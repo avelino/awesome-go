@@ -8,7 +8,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freenode.net/?channels=awesome-go).
 
-#### *If you see a package or project here that is no longer maintained or is not a good fit, please improve the list by opening an issue about it. Thank you!*
+#### *If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!*
 
 ### Contents
 
