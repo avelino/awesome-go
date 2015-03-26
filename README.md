@@ -751,6 +751,7 @@ Software written in Go.
 ### Other Software
 
 * [Circuit](https://github.com/gocircuit/circuit) - Circuit is a programmable platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS), for management, discovery, synchronization and orchestration of services and hosts comprising cloud applications.
+* [Comcast](https://github.com/tylertreat/Comcast) - Simulate bad network connections
 * [confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul.
 * [Docker](http://www.docker.com/) - An open platform for distributed applications for developers and sysadmins.
 * [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
