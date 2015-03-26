@@ -377,8 +377,9 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 *These libraries were placed here because none of the other categories seemed to fit*
 
-* [autoflags](https://github.com/artyom/autoflags) - Go package to automatically define command line flags from struct fields
+* [autoflags](https://github.com/artyom/autoflags) - Go package to automatically define command line flags from struct fields.
 * [browscap_go](https://github.com/fromYukki/browscap_go) - GoLang Library for [Browser Capabilities Project](http://browscap.org/).
+* [notify](https://github.com/rjeczalik/notify) - File system event notification library with simple API, similar to os/signal.
 * [gopsutil](https://github.com/shirou/gopsutil) - A cross-platform library for retrieving process and system utilization(CPU, Memory, Disks, etc).
 * [xstrings](https://github.com/huandu/xstrings) - A collection of useful string functions ported from other languages.
 
