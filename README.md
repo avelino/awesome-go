@@ -233,7 +233,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [smtp](https://github.com/mailhog/smtp) - SMTP server protocol state machine
 
 ## Embeddable Scripting Languages
-
+h
 *Embedding other languages inside your go code*
 
 * [agora](https://github.com/PuerkitoBio/agora) - Dynamically typed, embeddable programming language in Go
@@ -298,6 +298,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 *Libraries for interacting with hardware.*
 
+* [embd](https://github.com/kidoman/embd) - Embedded Programming Framework supporting Raspberry Pi, Beaglebone Black, etc.
 * [gobot](https://github.com/hybridgroup/gobot) - Framework for robotics, physical computing, and the Internet of Things
 
 ## Images
