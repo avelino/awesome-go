@@ -581,6 +581,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [smite](https://github.com/sergiotapia/smitego) - Go package to wraps access to the Smite game API.
 * [snapchat](https://github.com/jamieomatthews/gosnap) - Go wrapper for the snapchat API
 * [spotify](https://github.com/rapito/go-spotify) - Go Library to access Spotify WEB API.
+* [steam](https://github.com/sostronk/go-steam) - Go Library to interact with Steam game servers.
 * [stripe](https://github.com/stripe/stripe-go) - Go client for the Stripe API
 
 
