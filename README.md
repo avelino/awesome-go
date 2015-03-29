@@ -130,6 +130,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [chalk](https://github.com/ttacon/chalk) - Intuitive package for prettifying terminal/console output.
 * [color](https://github.com/fatih/color) - Versatile package for colored terminal output.
 * [go-colortext](https://github.com/daviddengcn/go-colortext) - Go library for color output in terminals.
+* [gommon/color](https://github.com/labstack/gommon/tree/master/color) - Color and format terminal text.
 * [termbox-go](https://github.com/nsf/termbox-go) - Termbox is a library for creating cross-platform text-based interfaces.
 * [termui](https://github.com/gizak/termui) - Go terminal dashboard based on [termbox-go](https://github.com/nsf/termbox-go) and inspired by [blessed-contrib](https://github.com/yaronn/blessed-contrib).
 
