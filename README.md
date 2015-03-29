@@ -233,7 +233,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [smtp](https://github.com/mailhog/smtp) - SMTP server protocol state machine
 
 ## Embeddable Scripting Languages
-h
+
 *Embedding other languages inside your go code*
 
 * [agora](https://github.com/PuerkitoBio/agora) - Dynamically typed, embeddable programming language in Go
