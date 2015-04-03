@@ -612,7 +612,6 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [profile](https://github.com/davecheney/profile) - Simple profiling support package for Go
 * [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
 * [scheduler](https://github.com/carlescere/scheduler) - Cronjobs scheduling made easy.
-* [shell2http](https://github.com/msoap/shell2http) - Executing shell commands via http server (for prototyping or remote control)
 * [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
 * [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package
 * [xlsx](https://github.com/tealeg/xlsx) - Library to simplify reading the XML format used by recent version of Microsoft Excel in Go programs.
@@ -772,6 +771,7 @@ Software written in Go.
 * [peg](https://github.com/pointlander/peg) - Peg, Parsing Expression Grammar, is an implementation of a Packrat parser generator.
 * [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
 * [Seaweed File System](https://github.com/chrislusf/weed-fs) - Fast, Simple and Scalable Distributed File System with O(1) disk seek.
+* [shell2http](https://github.com/msoap/shell2http) - Executing shell commands via http server (for prototyping or remote control)
 * [syncthing](http://www.syncthing.net/) - An open, decentralized file synchronization tool and protocol.
 * [Tenyks](https://github.com/kyleterry/tenyks) - Service oriented IRC bot using Redis and JSON for messaging.
 * [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
