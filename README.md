@@ -336,6 +336,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [logrus](https://github.com/sirupsen/logrus) - Structured, pluggable logging for Go.
 * [logrusly](https://github.com/sebest/logrusly) - [logrus](https://github.com/sirupsen/logrus) plug-in to send errors to a [Loggly](https://www.loggly.com/).
 * [logxi](https://github.com/mgutz/logxi) - A 12-factor app logger that is fast and makes you happy.
+* [log-voyage](https://github.com/firstrow/logvoyage) - Full-featured logging saas writen in golang.
 * [lumberjack](https://github.com/natefinch/lumberjack) - Simple rolling logger, implements io.WriteCloser.
 * [seelog](https://github.com/cihub/seelog) -   logging functionality with flexible dispatching, filtering, and formatting.
 * [slackrus](https://github.com/johntdyer/slackrus) - [logrus](https://github.com/sirupsen/logrus) plug-in to send errors to a channel in [Slack](https://slack.com).
