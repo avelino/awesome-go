@@ -97,6 +97,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [jwt-go](https://github.com/dgrijalva/jwt-go) - Golang implementation of JSON Web Tokens (JWT).
 * [oauth2](https://github.com/golang/oauth2) - Successor of goauth2. Generic OAuth 2.0 package that comes with JWT, Google APIs, Compute Engine and App Engine support.
 * [osin](https://github.com/RangelReale/osin) - Golang OAuth2 server library.
+* [permissions2](https://github.com/xyproto/permissions2) - Library for keeping track of users, login states and permissions. Uses secure cookies and bcrypt.
 
 
 ## CSS Preprocessors
@@ -695,9 +696,11 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 
 
+
 # Tools
 
 Go software and plugins.
+
 
 ## Code Analysis
 
@@ -712,6 +715,7 @@ Go software and plugins.
 * [Go Metalinter](https://github.com/alecthomas/gometalinter) - Metalinter is a tool to automatically apply all static analysis tool and report their output in normalized form.
 * [validate](https://github.com/mccoyst/validate) - Automatically validates struct fields with tags.
 
+
 ## Editor Plugins
 
 * [go-lang-idea-plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) Go plugin for IntelliJ IDEA.
@@ -722,9 +726,11 @@ Go software and plugins.
 * [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim.
 * [Watch](https://github.com/eaburns/Watch) - Runs a command in an acme win on file changes.
 
+
 ## Software Packages
 
 Software written in Go.
+
 
 ### DevOps Tools
 
@@ -758,7 +764,6 @@ Software written in Go.
 * [Comcast](https://github.com/tylertreat/Comcast) - Simulate bad network connections
 * [confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul.
 * [Docker](http://www.docker.com/) - An open platform for distributed applications for developers and sysadmins.
-* [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
 * [fleet](https://github.com/coreos/fleet) - A Distributed init System.
 * [gocc](https://code.google.com/p/gocc) - Gocc is a compiler kit for Go written in Go.
 * [Gor] (https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time.
@@ -766,7 +771,6 @@ Software written in Go.
 * [hugo](http://gohugo.io/) - A Fast and Modern Static Website Engine
 * [Juju](https://juju.ubuntu.com/) - Cloud-agnostic service deployment and orchestration - supports EC2, Azure, Openstack, MAAS and more.
 * [limetext](http://limetext.org/) Lime Text is a powerful and elegant text editor primarily developed in Go that aims to be a Free and open-source software successor to Sublime Text.
-* [nsq](http://nsq.io/) - A realtime distributed messaging platform
 * [orange-cat](https://github.com/noraesae/orange-cat) - A Markdown previewer written in Go.
 * [peg](https://github.com/pointlander/peg) - Peg, Parsing Expression Grammar, is an implementation of a Packrat parser generator.
 * [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
@@ -775,6 +779,14 @@ Software written in Go.
 * [Tenyks](https://github.com/kyleterry/tenyks) - Service oriented IRC bot using Redis and JSON for messaging.
 * [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
 * [websysd](http://github.com/ian-kent/websysd) - Web based process manager (like Marathon or Upstart)
+
+
+### Server Applications
+
+* [algernon](https://github.com/xyproto/algernon) - HTTP/2 web server with built-in support for Lua, Markdown, GCSS and Amber.
+* [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
+* [nsq](http://nsq.io/) - A realtime distributed messaging platform
+
 
 
 
