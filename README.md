@@ -115,6 +115,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [envconf](https://github.com/ian-kent/envconf) - Configuration from environment
 * [gofigure](https://github.com/ian-kent/gofigure) - Go application configuration made easy
 * [viper](https://github.com/spf13/viper) - Go configuration with fangs
+* [mini](https://github.com/FogCreek/mini) - A golang package for parsing ini-style configuration files
 
 
 ## Command Line
