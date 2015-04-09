@@ -296,6 +296,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [go-gtk](http://mattn.github.io/go-gtk/) - Go bindings for GTK
 * [gotk3](https://github.com/conformal/gotk3) - Go bindings for GTK3.
 * [go-qml](https://github.com/go-qml/qml) - QML support for the Go language
+* [gxui](https://github.com/google/gxui) - A Go cross platform UI library.
 * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go.
 * [walk](https://github.com/lxn/walk) - Windows application library kit for Go.
 
