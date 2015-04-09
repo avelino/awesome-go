@@ -298,6 +298,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [go-qml](https://github.com/go-qml/qml) - QML support for the Go language
 * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go.
 * [walk](https://github.com/lxn/walk) - Windows application library kit for Go.
+* [gxui](https://github.com/google/gxui) - An experimental Go cross platform UI library.
 
 ## Hardware
 
