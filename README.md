@@ -80,6 +80,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [go-sox](https://github.com/krig/go-sox) - libsox bindings for go.
 * [PortAudio](https://code.google.com/p/portaudio-go/) - Go bindings for the PortAudio audio I/O library.
 * [portmidi](https://github.com/rakyll/portmidi) - Go bindings for PortMidi.
+* [taglib](https://github.com/wtolson/go-taglib) - Go bindings for taglib.
 * [vorbis](https://github.com/mccoyst/vorbis) - A "native" Go Vorbis decoder (uses CGO, but has no dependencies).
 * [waveform](https://github.com/mdlayher/waveform) - Go package capable of generating waveform images from audio streams.
 
