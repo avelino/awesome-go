@@ -626,7 +626,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 *Libraries for validation.*
 
-* [go-validate-yourself](https://github.com/joeybloggs/go-validate-yourself) - Go Struct and Field validation
+* [validator](https://github.com/bluesuncorp/validator) - Go Struct and Field validation supporting Cross Field and Cross Struct validation
 
 
 ## Version Control
