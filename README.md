@@ -2,6 +2,7 @@
 
 A curated list of awesome Go frameworks, libraries and software. Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
+
 ### Contributing
 
 Please take a quick gander at the [contribution guidelines](https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md) first. Thanks to all [contributors](https://github.com/avelino/awesome-go/graphs/contributors); you rock!
@@ -9,6 +10,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freenode.net/?channels=awesome-go).
 
 #### *If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!*
+
 
 ### Contents
 
@@ -71,6 +73,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     - [Twitter](#twitter)
     - [Websites](#websites)
         - [Tutorials](#tutorials)
+    - [Windows](#windows)
 
 
 ## Audio/Music
@@ -122,12 +125,14 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 ## Command Line
 
+
 ### Standard CLI
 
 *Libraries for building standard or basic Command Line applications*
 
 * [cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go.
 * [cli-init](https://github.com/tcnksm/cli-init) - The easy way to start building Golang command line application.
+
 
 ### Advanced Console UIs
 
@@ -505,6 +510,13 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [php_session_decoder](https://github.com/yvasiyarov/php_session_decoder) - GoLang library for working with PHP session format and PHP Serialize/Unserialize functions
 
 
+## Server Applications
+
+* [algernon](https://github.com/xyproto/algernon) - HTTP/2 web server with built-in support for Lua, Markdown, GCSS and Amber.
+* [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
+* [nsq](http://nsq.io/) - A realtime distributed messaging platform
+
+
 ## Template Engines
 
 *Libraries and tools for templating and lexing.*
@@ -795,22 +807,10 @@ Software written in Go.
 
 
 
-# Server Applications
-
-* [algernon](https://github.com/xyproto/algernon) - HTTP/2 web server with built-in support for Lua, Markdown, GCSS and Amber.
-* [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
-* [nsq](http://nsq.io/) - A realtime distributed messaging platform
-
-
-
-
-
-
-
-
 # Resources
 
 Where to discover new Go libraries.
+
 
 ## Benchmarks
 
@@ -824,11 +824,13 @@ Where to discover new Go libraries.
 * [kvbench](https://github.com/jimrobinson/kvbench) - Key/Value database benchmark.
 * [speedtest-resize](https://github.com/fawick/speedtest-resize) - Compare various Image resize algorithms for the Go language.
 
+
 ## Conferences
 
 * [dotGo](http://www.dotgo.io)
 * [GopherCon](http://www.gophercon.com/)
 * [GopherCon India](http://www.gophercon.in/)
+
 
 ## E-Books
 
@@ -840,11 +842,13 @@ Where to discover new Go libraries.
 * [Learning Go](http://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
 * [Network Programming With Go](http://jan.newmarch.name/go/)
 
+
 ## Twitter
 
 * [@golang](https://twitter.com/golang)
 * [@golang_news](https://twitter.com/golang_news)
 * [@golangweekly](https://twitter.com/golangweekly)
+
 
 ## Websites
 
@@ -860,12 +864,16 @@ Where to discover new Go libraries.
 * [r/Golang](http://www.reddit.com/r/golang) - News about Go.
 * [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
 
-## Windows
-
-* [go-ole](https://github.com/mattn/go-ole) - Win32 OLE implementation for golang
 
 ### Tutorials
 
 * [A Tour of Go](http://tour.golang.org/) - Interactive tour of Go
 * [Go By Example](https://gobyexample.com/) - A hands-on introduction to Go using annotated example programs
 * [Working with Go](https://github.com/mkaz/working-with-go) - An intro to go for experienced programmers
+
+
+## Windows
+
+* [go-ole](https://github.com/mattn/go-ole) - Win32 OLE implementation for golang
+
+
