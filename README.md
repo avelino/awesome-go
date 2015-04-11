@@ -62,6 +62,8 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
         - [DevOps Tools](#devops-tools)
         - [Other Software](#other-software)
 
+- [Server Applications](#server-applications)
+
 - [Resources](#resources)
     - [Benchmarks](#benchmarks)
     - [Conferences](#conferences)
@@ -69,7 +71,6 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     - [Twitter](#twitter)
     - [Websites](#websites)
         - [Tutorials](#tutorials)
-
 
 
 ## Audio/Music
@@ -83,7 +84,6 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [taglib](https://github.com/wtolson/go-taglib) - Go bindings for taglib.
 * [vorbis](https://github.com/mccoyst/vorbis) - A "native" Go Vorbis decoder (uses CGO, but has no dependencies).
 * [waveform](https://github.com/mdlayher/waveform) - Go package capable of generating waveform images from audio streams.
-
 
 
 ## Authentication & OAuth
@@ -181,6 +181,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [goqu](https://github.com/doug-martin/goqu) - An idiomatic SQL builder and query library.
 * [Squirrel](https://github.com/lann/squirrel) - Go library that helps you build SQL queries.
 
+
 ## Database Drivers
 
 *Libraries for connecting and operating databases. (see [Testing](#testing) for mock drivers)*
@@ -215,11 +216,13 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     * [elastigo](https://github.com/mattbaird/elastigo) - A Elasticsearch client library.
     * [goes](https://github.com/belogik/goes) - A library to interact with Elasticsearch.
 
+
 ## Date & Time
 
 *Libraries for working with dates and times.*
 
 * [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
+
 
 ## Distributed Systems
 
@@ -238,6 +241,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [MailHog](https://github.com/mailhog/MailHog) - Email and SMTP testing with web and API interface
 * [smtp](https://github.com/mailhog/smtp) - SMTP server protocol state machine
 
+
 ## Embeddable Scripting Languages
 
 *Embedding other languages inside your go code*
@@ -251,11 +255,13 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [otto](https://github.com/robertkrimen/otto) - A JavaScript interpreter written in Go
 * [purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go
 
+
 ## Financial
 
 *Packages for accounting and finance*
 
 * [decimal](https://github.com/shopspring/decimal) - Arbitrary-precision fixed-point decimal numbers
+
 
 ## Forms
 
@@ -265,7 +271,6 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [binding](https://github.com/mholt/binding) - Binds form and JSON data from net/http Request to struct.
 * [formam](https://github.com/monoculum/formam) - decode form's values into a struct.
 * [nosurf](https://github.com/justinas/nosurf) - A CSRF protection middleware for Go.
-
 
 
 ## Game Development
@@ -700,8 +705,6 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 
 
-
-
 # Tools
 
 Go software and plugins.
@@ -786,15 +789,17 @@ Software written in Go.
 * [websysd](http://github.com/ian-kent/websysd) - Web based process manager (like Marathon or Upstart)
 
 
-### Server Applications
+
+
+
+
+
+
+# Server Applications
 
 * [algernon](https://github.com/xyproto/algernon) - HTTP/2 web server with built-in support for Lua, Markdown, GCSS and Amber.
 * [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform
-
-
-
-
 
 
 
