@@ -795,6 +795,7 @@ Software written in Go.
 * [limetext](http://limetext.org/) Lime Text is a powerful and elegant text editor primarily developed in Go that aims to be a Free and open-source software successor to Sublime Text.
 * [orange-cat](https://github.com/noraesae/orange-cat) - A Markdown previewer written in Go.
 * [peg](https://github.com/pointlander/peg) - Peg, Parsing Expression Grammar, is an implementation of a Packrat parser generator.
+* [plubi](https://github.com/norwack/plubi) - A Golang Plugin Based IRC Bot.
 * [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
 * [Seaweed File System](https://github.com/chrislusf/weed-fs) - Fast, Simple and Scalable Distributed File System with O(1) disk seek.
 * [syncthing](http://www.syncthing.net/) - An open, decentralized file synchronization tool and protocol.
