@@ -430,12 +430,15 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 *Libraries for working with various layers of the network*
 
 * [dns](https://github.com/miekg/dns) - Go library for working with DNS
+* [ftp](https://github.com/jlaffaye/ftp) - Package ftp implements a FTP client as described in [RFC 959](http://tools.ietf.org/html/rfc959).
 * [gopacket](https://code.google.com/p/gopacket) - A Go library for packet processing with libpacp bindings
 * [gopcap](https://github.com/akrennmair/gopcap) - A Go wrapper for libpcap
 * [gosnmp](https://github.com/soniah/gosnmp) - Native Go library for performing SNMP actions
 * [gotcp](https://github.com/gansidui/gotcp) - A Go package for quickly writing tcp applications
+* [graval](https://github.com/koofr/graval) - An experimental FTP server framework.
 * [linkio](https://github.com/ian-kent/linkio) - Network link speed simulation for Reader/Writer interfaces
 * [portproxy](https://github.com/aybabtme/portproxy) - Simple TCP proxy which adds CORS support to API's which don't support it.
+* [sftp](https://github.com/pkg/sftp) - Package sftp implements the SSH File Transfer Protocol as described in https://filezilla-project.org/specs/draft-ietf-secsh-filexfer-02.txt.
 * [tcp_server](https://github.com/firstrow/tcp_server) - A Go library for building tcp servers faster
 
 ## OpenGL
