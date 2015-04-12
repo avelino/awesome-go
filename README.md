@@ -363,6 +363,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [bayesian](https://github.com/jbrukh/bayesian) - Naive Bayesian Classification for Golang.
 * [CloudForest](https://github.com/ryanbressler/CloudForest) - Fast, flexible, multi-threaded ensembles of decision trees for machine learning in pure Go.
 * [gobrain](https://github.com/goml/gobrain) - Neural Networks written in go
+* [godist](https://github.com/e-dard/godist) - Various probability distributions, and associated methods.
 * [go-fann](https://github.com/white-pony/go-fann) - Go bindings for Fast Artificial Neural Networks(FANN) library.
 * [go-galib](https://github.com/thoj/go-galib) - Genetic Algorithms library written in Go / golang
 * [golinear](https://github.com/danieldk/golinear) - liblinear bindings for Go
@@ -629,6 +630,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [go-underscore](https://github.com/tobyhede/go-underscore) - A useful collection of helpfully functional Go collection utilities.
 * [lrserver](https://github.com/jaschaephraim/lrserver) - LiveReload server for Go
 * [mp](https://github.com/sanbornm/mp) - A simple cli email parser. It currently takes stdin and outputs JSON.
+* [netbug](https://github.com/e-dard/netbug) - Easy remote profiling of your services.
 * [ngrok](https://github.com/inconshreveable/ngrok) - Introspected tunnels to localhost.
 * [okrun](https://github.com/xta/okrun) - go run error steamroller
 * [peco](https://github.com/peco/peco) - Simplistic interactive filtering tool
