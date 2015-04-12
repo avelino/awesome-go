@@ -798,6 +798,7 @@ Software written in Go.
 * [plubi](https://github.com/norwack/plubi) - A Golang Plugin Based IRC Bot.
 * [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
 * [Seaweed File System](https://github.com/chrislusf/weed-fs) - Fast, Simple and Scalable Distributed File System with O(1) disk seek.
+* [shell2http](https://github.com/msoap/shell2http) - Executing shell commands via http server (for prototyping or remote control)
 * [syncthing](http://www.syncthing.net/) - An open, decentralized file synchronization tool and protocol.
 * [Tenyks](https://github.com/kyleterry/tenyks) - Service oriented IRC bot using Redis and JSON for messaging.
 * [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
