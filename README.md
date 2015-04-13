@@ -356,6 +356,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [seelog](https://github.com/cihub/seelog) -   logging functionality with flexible dispatching, filtering, and formatting.
 * [slackrus](https://github.com/johntdyer/slackrus) - [logrus](https://github.com/sirupsen/logrus) plug-in to send errors to a channel in [Slack](https://slack.com).
 * [stdlog](https://github.com/alexcesaro/log) - Stdlog is an object-oriented library providing leveled logging. It is very useful for cron jobs.
+* [tail](https://github.com/ActiveState/tail) - A Go package striving to emulate the features of the BSD tail program.
 
 ## Machine Learning
 
