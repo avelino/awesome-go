@@ -862,7 +862,7 @@ Where to discover new Go libraries.
 * [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) - List of other amazingly awesome lists.
 * [Flipboard - Go Magazine](https://flipboard.com/section/the-golang-magazine-bVP7nS) - A collection of Go articles and tutorials.
 * [Go Blog](http://blog.golang.org) - The official Go blog
-* [Go Projects](https://code.google.com/p/go-wiki/wiki/Projects) - List of projects on the Go community wiki
+* [Go Projects](https://github.com/golang/go/wiki/Projects) - List of projects on the Go community wiki
 * [godoc.org](http://godoc.org/) - Documentation for open source Go packages.
 * [golang-graphics](https://github.com/mholt/golang-graphics) - A collection of Go images, graphics, and art
 * [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - Go mailing list
