@@ -29,7 +29,10 @@ func testList(t *testing.T, list *goquery.Selection) {
 }
 
 func readme() []byte {
-	input, _ := ioutil.ReadFile("./README.md")
+	input, err := ioutil.ReadFile("./README.md")
+	if err != nil {
+		panic(err)
+	}
 	html := append([]byte("<body>"), blackfriday.MarkdownCommon(input)...)
 	html = append(html, []byte("</body>")...)
 	return html
@@ -37,7 +40,10 @@ func readme() []byte {
 
 func startQuery() *goquery.Document {
 	buf := bytes.NewBuffer(readme())
-	query, _ := goquery.NewDocumentFromReader(buf)
+	query, err := goquery.NewDocumentFromReader(buf)
+	if err != nil {
+		panic(err)
+	}
 
 	return query
 }
