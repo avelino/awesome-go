@@ -1,7 +1,7 @@
 language: go
 
 go:
-  - 1.3
+  - 1.4
 
 install:
   - go get github.com/russross/blackfriday
