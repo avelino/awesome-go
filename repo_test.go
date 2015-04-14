@@ -52,9 +52,9 @@ func checkAlphabeticOrder(t *testing.T, s *goquery.Selection) {
 	sort.Strings(sorted)
 
 	for k, item := range items {
-		log.Println("Current: ", item, "=> ", sorted[k])
 		if item != sorted[k] {
-			t.Fatalf("expected '%s' but actual is '%s'", sorted[k], item)
+			log.Printf("expected '%s' but actual is '%s'", sorted[k], item)
+			t.Fail()
 		}
 	}
 }
