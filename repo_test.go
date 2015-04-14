@@ -4,7 +4,6 @@ import (
 	"bytes"
 	"io/ioutil"
 	"log"
-	"os"
 	"sort"
 	"strings"
 	"testing"
@@ -37,8 +36,6 @@ func readme() []byte {
 }
 
 func startQuery() *goquery.Document {
-	ioutil.WriteFile("z.html", readme(), os.ModePerm)
-
 	buf := bytes.NewBuffer(readme())
 	query, _ := goquery.NewDocumentFromReader(buf)
 
