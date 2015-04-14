@@ -289,7 +289,6 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [go-collada](https://github.com/GlenKelley/go-collada) - Go package for working with the Collada file format.
 * [gonet](https://github.com/xtaci/gonet) - A game server skeleton implemented with golang
 * [Leaf](https://github.com/name5566/leaf) - A lightweight game server framework
-* [nes](https://github.com/fogleman/nes) - A Nintendo Entertainment System (NES) emulator written in Go.
 
 
 ## Generation & Generics
@@ -810,7 +809,7 @@ Software written in Go.
 * [Tenyks](https://github.com/kyleterry/tenyks) - Service oriented IRC bot using Redis and JSON for messaging.
 * [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
 * [websysd](http://github.com/ian-kent/websysd) - Web based process manager (like Marathon or Upstart)
-
+* [nes](https://github.com/fogleman/nes) - A Nintendo Entertainment System (NES) emulator written in Go.
 
 
 
