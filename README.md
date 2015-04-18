@@ -432,7 +432,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 * [dns](https://github.com/miekg/dns) - Go library for working with DNS
 * [ftp](https://github.com/jlaffaye/ftp) - Package ftp implements a FTP client as described in [RFC 959](http://tools.ietf.org/html/rfc959).
-* [gopacket](https://code.google.com/p/gopacket) - A Go library for packet processing with libpacp bindings
+* [gopacket](https://github.com/google/gopacket) - A Go library for packet processing with libpacp bindings
 * [gopcap](https://github.com/akrennmair/gopcap) - A Go wrapper for libpcap
 * [gosnmp](https://github.com/soniah/gosnmp) - Native Go library for performing SNMP actions
 * [gotcp](https://github.com/gansidui/gotcp) - A Go package for quickly writing tcp applications
@@ -579,7 +579,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     * [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - This package reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.
     * [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx) - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.
     * [go-runewidth](https://github.com/mattn/go-runewidth) - Functions to get fixed width of the character or string.
-    * [gographviz](https://code.google.com/p/gographviz) - Parses the Graphviz DOT language.
+    * [gographviz](https://github.com/awalterschulze/gographviz) - Parses the Graphviz DOT language.
     * [GoQuery](https://github.com/PuerkitoBio/goquery) - GoQuery brings a syntax and a set of features similar to jQuery to the Go language.
     * [goregen](https://github.com/zach-klippenstein/goregen) - A library for generating random strings from regular expressions.
     * [guesslanguage](https://github.com/endeveit/guesslanguage) - Functions to determine the natural language of a unicode text.
