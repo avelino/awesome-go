@@ -702,11 +702,11 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [Resoursea](https://github.com/resoursea/api) - A REST framework for quickly writing resource based services.
 * [Revel](https://github.com/revel/revel) - A high-productivity web framework for the Go language.
 * [sawsij](http://sawsij.com/) - lightweight, open-source web framework for building high-performance, data-driven web applications.
+* [tango](https://github.com/lunny/tango) - Micro & pluggable web framework for Go.
 * [tigertonic](https://github.com/rcrowley/go-tigertonic) - A Go framework for building JSON web services inspired by Dropwizard
 * [traffic](https://github.com/pilu/traffic) - Sinatra inspired regexp/pattern mux and web framework for Go.
 * [web.go](https://github.com/hoisie/web) - A simple framework to write webapps in Go.
 * [zeus](https://github.com/daryl/zeus) - A very simple and fast HTTP router for Go.
-* [tango](https://github.com/lunny/tango) - Micro & pluggable web framework for Go.
 
 
 ### Middlewares
