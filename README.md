@@ -252,6 +252,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 *Embedding other languages inside your go code*
 
+* [go-lua](https://github.com/Shopify/go-lua) - A port of the Lua 5.2 VM to pure Go
 * [agora](https://github.com/PuerkitoBio/agora) - Dynamically typed, embeddable programming language in Go
 * [anko](https://github.com/mattn/anko) - Scriptable interpreter written in Go
 * [gisp](https://github.com/jcla1/gisp) - Simple LISP in Go
