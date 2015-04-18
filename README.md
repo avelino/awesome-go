@@ -256,6 +256,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [anko](https://github.com/mattn/anko) - Scriptable interpreter written in Go
 * [gisp](https://github.com/jcla1/gisp) - Simple LISP in Go
 * [go-duktape](https://github.com/olebedev/go-duktape) - Duktape JavaScript engine bindings for Go
+* [go-lua](https://github.com/Shopify/go-lua) - A port of the Lua 5.2 VM to pure Go
 * [go-python](https://github.com/sbinet/go-python) - naive go bindings to the CPython C-API
 * [golua](https://github.com/aarzilli/golua) - Go bindings for Lua C API
 * [otto](https://github.com/robertkrimen/otto) - A JavaScript interpreter written in Go
