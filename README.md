@@ -278,6 +278,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [bind](https://github.com/robfig/bind)  - Bind form data to any Go values
 * [binding](https://github.com/mholt/binding) - Binds form and JSON data from net/http Request to struct.
 * [formam](https://github.com/monoculum/formam) - decode form's values into a struct.
+* [forms](https://github.com/albrow/forms) - A framework-agnostic library for parsing and validating form/JSON data which supports multipart forms and files.
 * [nosurf](https://github.com/justinas/nosurf) - A CSRF protection middleware for Go.
 
 
