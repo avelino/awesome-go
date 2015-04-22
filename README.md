@@ -731,7 +731,8 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 *Actual middlewares.*
 
 * [CORS](https://github.com/rs/cors) - Easily add CORS capabilities to your API
-* [XFF](https://github.com/sebest/xff) - Handle `X-Forwarded-For` header and friends 
+* [formjson](https://github.com/rs/formjson) - Transparently handle JSON input as a standard form POST
+* [XFF](https://github.com/sebest/xff) - Handle `X-Forwarded-For` header and friends
 
 # Tools
 
