@@ -90,8 +90,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [waveform](https://github.com/mdlayher/waveform) - Go package capable of generating waveform images from audio streams.
 
 
-## Authentication & OAuth
-
+Da
 *Libraries for implementing authentications schemes.*
 
 * [Go-AWS-Auth](https://github.com/smartystreets/go-aws-auth) - AWS (Amazon Web Services) request signing library.
@@ -175,13 +174,14 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 *Database tools.*
 
 * [go-mysql](https://github.com/siddontang/go-mysql) - A go toolset to handle MySQL protocol and replication.
+* [dbtogo](github.com/kdar/dbtogo) - A go toolkit to generate GO language definitions for structions right out of your database schema.
 * [go-mysql-elasticsearch](https://github.com/siddontang/go-mysql-elasticsearch) - Sync your MySQL data into Elasticsearch automatically.
 * [goose](https://bitbucket.org/liamstask/goose) - Database migration tool. You can manage your database's evolution by creating incremental SQL or Go scripts.
 * [myreplication](https://github.com/2tvenom/myreplication) - MySql binary log replication listener. Support statement and row based replication.
 * [pgweb](https://github.com/sosedoff/pgweb) - A web-based PostgreSQL database browser
 * [pravasan](https://github.com/pravasan/pravasan) - Simple Migration tool - currently for MySQL but planning to support soon for Postgres, SQLite, MongoDB, etc.,
 * [vitess](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
-
+ 
 *SQL query builder, libraries for building and using SQL.*
 
 * [Dotsql](https://github.com/gchaincl/dotsql) - Go library that helps you keep sql files in one place and use it with ease.
@@ -202,6 +202,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     * [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) - MySQL driver for Go.
     * [go-sqlite3](https://github.com/mattn/go-sqlite3) - SQLite3 driver for go that using database/sql.
     * [pq](https://github.com/lib/pq) - Pure Go Postgres driver for database/sql.
+    * [upper.io/db](https://upper.io/db) - alternative database interface layer that uses existing drivers
 
 * NoSQL Databases
     * [aerospike-client-go](https://github.com/aerospike/aerospike-client-go) - Aerospike client in Go language.
