@@ -728,8 +728,10 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [negroni](https://github.com/codegangsta/negroni) - Idiomatic HTTP middleware for Golang.
 * [render](https://github.com/unrolled/render) - Go package for easily rendering JSON, XML, and HTML template responses.
 
+*Actual middlewares.*
 
-
+* [CORS](https://github.com/rs/cors) - Easily add CORS capabilities to your API
+* [XFF](https://github.com/sebest/xff) - Handle `X-Forwarded-For` header and friends 
 
 # Tools
 
