@@ -20,6 +20,27 @@ func TestAlpha(t *testing.T) {
 	})
 }
 
+func TestDuplicatedLinks(t *testing.T) {
+	query := startQuery()
+	links := make(map[string]bool, 0)
+
+	query.Find("body  a").Each(func(_ int, s *goquery.Selection) {
+		href, ok := s.Attr("href")
+		if !ok {
+			log.Printf("expected '%s' href", s)
+			t.Fail()
+		}
+
+		if links[href] {
+			log.Printf("duplicated link '%s'", href)
+			t.Fail()
+			return
+		}
+
+		links[href] = true
+	})
+}
+
 func testList(t *testing.T, list *goquery.Selection) {
 	list.Find("ul").Each(func(_ int, items *goquery.Selection) {
 		testList(t, items)
