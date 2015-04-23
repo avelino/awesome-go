@@ -23,6 +23,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     - [CSS Preprocessors](#css-preprocessors)
     - [Database](#database)
     - [Database Drivers](#database-drivers)
+    - [Data Structures](#data-structures)
     - [Date & Time](#date--time)
     - [Distributed Systems](#distributed-systems)
     - [Email](#email)
@@ -223,6 +224,11 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     * [elastigo](https://github.com/mattbaird/elastigo) - A Elasticsearch client library.
     * [goes](https://github.com/belogik/goes) - A library to interact with Elasticsearch.
 
+## Data Structures
+
+*Libraries that provide general and specialized data structures.*
+
+* [golang-set](https://github.com/deckarep/golang-set) - Thread-Safe and Non-Thread-Safe high-performance sets for Go.
 
 ## Date & Time
 
