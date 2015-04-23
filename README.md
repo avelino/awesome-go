@@ -336,6 +336,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [imagick](https://github.com/gographics/imagick) - Go binding to ImageMagick's MagickWand C API.
 * [imaging](https://github.com/disintegration/imaging) - Simple Go image processing package.
 * [img](https://github.com/hawx/img) - A selection of image manipulation tools.
+* [picfit](https://github.com/thoas/picfit) - An image resizing server written in Go
 * [resize](https://github.com/nfnt/resize) - Image resizing for the Go with common interpolation methods.
 * [rez](https://github.com/bamiaux/rez) - Image resizing in pure Go and SIMD.
 * [smartcrop](https://github.com/muesli/smartcrop) - Finds good crops for arbitrary images and crop sizes
@@ -729,6 +730,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [muxchain](https://github.com/stephens2424/muxchain) - Lightweight middleware for net/http.
 * [negroni](https://github.com/codegangsta/negroni) - Idiomatic HTTP middleware for Golang.
 * [render](https://github.com/unrolled/render) - Go package for easily rendering JSON, XML, and HTML template responses.
+* [stats](https://github.com/thoas/stats) - A Go middleware that stores various information about your web application.
 
 
 
