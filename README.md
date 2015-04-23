@@ -74,7 +74,6 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     - [Twitter](#twitter)
     - [Websites](#websites)
         - [Tutorials](#tutorials)
-    - [Windows](#windows)
 
 
 ## Audio/Music
@@ -126,7 +125,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [gocui](https://github.com/jroimartin/gocui) - Minimalist Go library aimed at creating Console User Interfaces.
 * [gommon/color](https://github.com/labstack/gommon/tree/master/color) - Style terminal text.
 * [termbox-go](https://github.com/nsf/termbox-go) - Termbox is a library for creating cross-platform text-based interfaces.
-* [termui](https://github.com/gizak/termui) - Go terminal dashboard based on [termbox-go](https://github.com/nsf/termbox-go) and inspired by [blessed-contrib](https://github.com/yaronn/blessed-contrib).
+* [termui](https://github.com/gizak/termui) - Go terminal dashboard based on **termbox-go** and inspired by [blessed-contrib](https://github.com/yaronn/blessed-contrib).
 
 
 ## Configuration
@@ -191,7 +190,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 ## Database Drivers
 
-*Libraries for connecting and operating databases. (see [Testing](#testing) for mock drivers)*
+*Libraries for connecting and operating databases.
 
 * Relational Databases
     * [go-adodb](https://github.com/mattn/go-adodb) - Microsoft ActiveX Object DataBase driver for go that using database/sql.
@@ -352,14 +351,11 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [go-log](https://github.com/ian-kent/go-log) - A log4j implementation in Go.
 * [go-logger](https://github.com/apsdehal/go-logger) - Simple logger of Go Programs, with level handlers.
 * [gologex](https://github.com/chzyer/gologex) - An golang log lib, supports tracking and level, wrap by standard log lib
-* [hiprus](https://github.com/nubo/hiprus) - [logrus](https://github.com/sirupsen/logrus) plug-in to send errors to a channel in [Hipchat](https://hipchat.com).
 * [log-voyage](https://github.com/firstrow/logvoyage) - Full-featured logging saas writen in golang.
-* [logrus](https://github.com/sirupsen/logrus) - Structured, pluggable logging for Go.
 * [logrusly](https://github.com/sebest/logrusly) - [logrus](https://github.com/sirupsen/logrus) plug-in to send errors to a [Loggly](https://www.loggly.com/).
 * [logxi](https://github.com/mgutz/logxi) - A 12-factor app logger that is fast and makes you happy.
 * [lumberjack](https://github.com/natefinch/lumberjack) - Simple rolling logger, implements io.WriteCloser.
 * [seelog](https://github.com/cihub/seelog) -   logging functionality with flexible dispatching, filtering, and formatting.
-* [slackrus](https://github.com/johntdyer/slackrus) - [logrus](https://github.com/sirupsen/logrus) plug-in to send errors to a channel in [Slack](https://slack.com).
 * [stdlog](https://github.com/alexcesaro/log) - Stdlog is an object-oriented library providing leveled logging. It is very useful for cron jobs.
 * [tail](https://github.com/ActiveState/tail) - A Go package striving to emulate the features of the BSD tail program.
 
