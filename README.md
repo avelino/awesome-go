@@ -126,6 +126,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [gommon/color](https://github.com/labstack/gommon/tree/master/color) - Style terminal text.
 * [termbox-go](https://github.com/nsf/termbox-go) - Termbox is a library for creating cross-platform text-based interfaces.
 * [termui](https://github.com/gizak/termui) - Go terminal dashboard based on **termbox-go** and inspired by [blessed-contrib](https://github.com/yaronn/blessed-contrib).
+* [ini](https://github.com/go-ini/ini) - Go package for read and write INI files
 
 
 ## Configuration
@@ -138,6 +139,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [gofigure](https://github.com/ian-kent/gofigure) - Go application configuration made easy
 * [mini](https://github.com/FogCreek/mini) - A golang package for parsing ini-style configuration files
 * [viper](https://github.com/spf13/viper) - Go configuration with fangs
+
 
 ## CSS Preprocessors
 
