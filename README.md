@@ -138,6 +138,8 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [gofigure](https://github.com/ian-kent/gofigure) - Go application configuration made easy
 * [mini](https://github.com/FogCreek/mini) - A golang package for parsing ini-style configuration files
 * [viper](https://github.com/spf13/viper) - Go configuration with fangs
+* [ini](https://github.com/go-ini/ini) - Go package for read and write INI files
+
 
 ## CSS Preprocessors
 
