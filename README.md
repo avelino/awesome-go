@@ -206,6 +206,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     * [aerospike-client-go](https://github.com/aerospike/aerospike-client-go) - Aerospike client in Go language.
     * [cayley](https://github.com/google/cayley) - A graph database with support for multiple backends.
     * [go-couchbase](https://github.com/couchbaselabs/go-couchbase) - Couchbase client in Go
+    * [go-couchdb](https://github.com/fjl/go-couchdb) - Yet another CouchDB HTTP API wrapper for Go
     * [gocql](http://gocql.github.io) - A Go language driver for Apache Cassandra.
     * [gomemcache](https://github.com/bradfitz/gomemcache/) - memcache client library for the Go programming language.
     * [gorethink](https://github.com/dancannon/gorethink) - Go language driver for RethinkDB
@@ -514,7 +515,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 * [cbor](https://github.com/2tvenom/cbor) - Golang library for working with cbor binary format
 * [go-capnproto](https://github.com/glycerine/go-capnproto) - Cap'n Proto library and parser for go
-  * [bambam](https://github.com/glycerine/bambam) - generator for Cap'n Proto schemas from go. 
+  * [bambam](https://github.com/glycerine/bambam) - generator for Cap'n Proto schemas from go.
 * [gogoprotobuf](https://github.com/gogo/protobuf) - Protocol Buffers for Go with Gadgets
 * [goprotobuf](https://github.com/golang/protobuf) - Go support, in the form of a library and protocol compiler plugin, for Google's protocol buffers.
 * [mapstructure](https://github.com/mitchellh/mapstructure) - Go library for decoding generic map values into native Go structures.
@@ -892,5 +893,3 @@ Where to discover new Go libraries.
 ## Windows
 
 * [go-ole](https://github.com/mattn/go-ole) - Win32 OLE implementation for golang
-
-
