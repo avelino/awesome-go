@@ -641,6 +641,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [goreq](https://github.com/franela/goreq) - Minimal and simple request library for Go language.
 * [gorequest](https://github.com/parnurzeal/gorequest) - Simplified HTTP client with rich features for Go.
 * [gotenv](https://github.com/subosito/gotenv) - Load environment variables from `.env` or any `io.Reader` in Go
+* [hystrix-go](https://github.com/afex/hystrix-go) - Imprements Hystrix patterns of programmer-defined fallbacks aka circuit breaker.
 * [lrserver](https://github.com/jaschaephraim/lrserver) - LiveReload server for Go
 * [mp](https://github.com/sanbornm/mp) - A simple cli email parser. It currently takes stdin and outputs JSON.
 * [netbug](https://github.com/e-dard/netbug) - Easy remote profiling of your services.
