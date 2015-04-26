@@ -352,8 +352,8 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [go-log](https://github.com/siddontang/go-log) - Log lib supports level and multi handlers.
 * [go-log](https://github.com/ian-kent/go-log) - A log4j implementation in Go.
 * [go-logger](https://github.com/apsdehal/go-logger) - Simple logger of Go Programs, with level handlers.
-* [gologex](https://github.com/go-logex/logex) - An golang log lib, supports tracking and level, wrap by standard log lib
 * [log-voyage](https://github.com/firstrow/logvoyage) - Full-featured logging saas writen in golang.
+* [logex](https://github.com/go-logex/logex) - An golang log lib, supports tracking and level, wrap by standard log lib
 * [logrusly](https://github.com/sebest/logrusly) - [logrus](https://github.com/sirupsen/logrus) plug-in to send errors to a [Loggly](https://www.loggly.com/).
 * [logxi](https://github.com/mgutz/logxi) - A 12-factor app logger that is fast and makes you happy.
 * [lumberjack](https://github.com/natefinch/lumberjack) - Simple rolling logger, implements io.WriteCloser.
@@ -452,7 +452,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 *Libraries for using OpenGL in Go.*
 
 * [gl](https://github.com/go-gl/gl) - Go bindings for OpenGL. Requires an external dependency GLEW.
-* [glfw3](https://github.com/go-gl/glfw) - Go bindings for GLFW 3.
+* [glfw](https://github.com/go-gl/glfw) - Go bindings for GLFW 3.
 * [glow](https://github.com/go-gl/glow) - Go binding generator and bindings for OpenGL.
 * [mathgl](https://github.com/go-gl/mathgl) - Pure Go math package specialized for 3D math, with inspiration from GLM.
 
@@ -566,7 +566,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     * [counterfeiter](https://github.com/maxbrunsfeld/counterfeiter) - Tool for generating self-contained mock objects
     * [go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) - Mock SQL driver for testing database interactions
     * [gomock](https://code.google.com/p/gomock/) - Mocking framework for the Go programming language.
-    * [mockhttp.go](https://github.com/tv42/mockhttp) - Mock object for Go http.ResponseWriter
+    * [mockhttp](https://github.com/tv42/mockhttp) - Mock object for Go http.ResponseWriter
 
 * Fuzzing and delta-debugging/reducing/shrinking
     * [gofuzz](https://github.com/google/gofuzz) - A library for populating go objects with random values
