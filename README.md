@@ -190,7 +190,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 ## Database Drivers
 
-*Libraries for connecting and operating databases.
+*Libraries for connecting and operating databases.*
 
 * Relational Databases
     * [go-adodb](https://github.com/mattn/go-adodb) - Microsoft ActiveX Object DataBase driver for go that using database/sql.
