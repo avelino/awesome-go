@@ -21,6 +21,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     - [Command Line](#command-line)
     - [Configuration](#configuration)
     - [CSS Preprocessors](#css-preprocessors)
+    - [Data Structures](#data-structures)
     - [Database](#database)
     - [Database Drivers](#database-drivers)
     - [Date & Time](#date--time)
@@ -147,17 +148,19 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 * [gcss](https://github.com/yosssi/gcss) - Pure Go CSS Preprocessor.
 
+## Data Structures
 
-## Database
-
-*Generic data structures and algorithms for databases in Go.*
+*Generic datastructures and algorithms in Go.*
 
 * [bitset](https://github.com/willf/bitset) - Go package implementing bitsets.
 * [bloom](https://github.com/surge/bloom) - Bloom filters implemented in Go.
 * [encoding](https://github.com/surge/encoding) - Integer Compression Libraries for Go.
+* [golang-set](https://github.com/deckarep/golang-set) - Thread-Safe and Non-Thread-Safe high-performance sets for Go.
 * [mafsa](https://github.com/smartystreets/mafsa) - MA-FSA implementation with Minimal Perfect Hashing
 * [skiplist](https://github.com/gansidui/skiplist) - Skiplist implementation in Go
 * [trie](https://github.com/derekparker/trie) - Trie implementation in Go
+
+## Database
 
 *Databases implemented in Go.*
 
@@ -225,7 +228,6 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     * [elastic](https://github.com/olivere/elastic) - Elasticsearch client for Google Go.
     * [elastigo](https://github.com/mattbaird/elastigo) - A Elasticsearch client library.
     * [goes](https://github.com/belogik/goes) - A library to interact with Elasticsearch.
-
 
 ## Date & Time
 
