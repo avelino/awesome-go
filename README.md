@@ -161,8 +161,6 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 ## Database
 
-*Generic data structures and algorithms for databases in Go.*
-
 *Databases implemented in Go.*
 
 * [bolt](https://github.com/boltdb/bolt) - A low-level key/value database for Go.
