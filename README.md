@@ -56,6 +56,8 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     - [Video](#video)
     - [Web Frameworks](#web-frameworks)
         - [Middlewares](#middlewares)
+            - [Libraries for creating HTTP middlewares](#libraries-for-creating-http-middlewares)
+            - [Actual middlewares](#actual-middlewares)
     - [Windows](#windows)
 
 - [Tools](#tools)
@@ -719,7 +721,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 ### Middlewares
 
-*Libraries for creating HTTP middlewares.*
+#### Libraries for creating HTTP middlewares
 
 * [alice](https://github.com/justinas/alice) - Painless middleware chaining for Go.
 * [go-wrap](https://github.com/go-on/wrap) - Small middlewares package for net/http.
@@ -728,7 +730,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [negroni](https://github.com/codegangsta/negroni) - Idiomatic HTTP middleware for Golang.
 * [render](https://github.com/unrolled/render) - Go package for easily rendering JSON, XML, and HTML template responses.
 
-*Actual middlewares.*
+#### Actual middlewares
 
 * [CORS](https://github.com/rs/cors) - Easily add CORS capabilities to your API
 * [formjson](https://github.com/rs/formjson) - Transparently handle JSON input as a standard form POST
