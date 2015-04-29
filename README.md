@@ -347,7 +347,8 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [rez](https://github.com/bamiaux/rez) - Image resizing in pure Go and SIMD.
 * [smartcrop](https://github.com/muesli/smartcrop) - Finds good crops for arbitrary images and crop sizes
 * [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
-
+* [bimg](https://github.com/h2non/bimg) - Small package for fast and efficient image processing using libvips
+* [imaginary](https://github.com/h2non/imaginary) - Fast and simple HTTP microservice for image resizing
 
 ## Logging
 
