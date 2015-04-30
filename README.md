@@ -332,6 +332,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 *Libraries for manipulating images.*
 
+* [bimg](https://github.com/h2non/bimg) - Small package for fast and efficient image processing using libvips
 * [geopattern](https://github.com/pravj/geopattern) - Create beautiful generative image patterns from a string.
 * [gift](https://github.com/disintegration/gift) - Package of image processing filters.
 * [go-cairo](https://github.com/ungerik/go-cairo) - Go binding for the cairo graphics library.
@@ -340,6 +341,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [go-opencv](https://github.com/lazywei/go-opencv) - Go bindings for OpenCV.
 * [go-webcolors](https://github.com/jyotiska/go-webcolors) - Port of webcolors library from Python to Go.
 * [imagick](https://github.com/gographics/imagick) - Go binding to ImageMagick's MagickWand C API.
+* [imaginary](https://github.com/h2non/imaginary) - Fast and simple HTTP microservice for image resizing
 * [imaging](https://github.com/disintegration/imaging) - Simple Go image processing package.
 * [img](https://github.com/hawx/img) - A selection of image manipulation tools.
 * [picfit](https://github.com/thoas/picfit) - An image resizing server written in Go
@@ -347,7 +349,6 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [rez](https://github.com/bamiaux/rez) - Image resizing in pure Go and SIMD.
 * [smartcrop](https://github.com/muesli/smartcrop) - Finds good crops for arbitrary images and crop sizes
 * [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
-
 
 ## Logging
 
