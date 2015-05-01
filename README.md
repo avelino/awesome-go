@@ -482,6 +482,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 *Libraries for package and dependency management.*
 
+* [gigo](https://github.com/LyricalSecurity/gigo) - PIP-like dependency tool for golang, with support for private repositories and hashes.
 * [godep](https://github.com/tools/godep) - dependency tool for go, godep helps build packages reproducibly by fixing their dependencies.
 * [gom](https://github.com/mattn/gom) - Go Manager - bundle for go.
 * [goop](https://github.com/nitrous-io/goop) - A simple dependency manager for Go (golang), inspired by Bundler.
