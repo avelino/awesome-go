@@ -405,6 +405,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [sarama](https://github.com/Shopify/sarama) - A Go library for Apache Kafka.
 * [Uniqush-Push](https://github.com/uniqush/uniqush-push) - A redis backed unified push service for server-side notifications to mobile devices.
 * [zmq4](https://github.com/pebbe/zmq4) - A Go interface to ZeroMQ version 4. Also available for [version 3](https://github.com/pebbe/zmq3) and [version 2](https://github.com/pebbe/zmq2).
+* [pubsub](https://github.com/tuxychandru/pubsub) - A simple pubsub package for go.
 
 
 ## Miscellaneous
