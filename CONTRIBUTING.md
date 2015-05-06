@@ -8,7 +8,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 - **To add to the list:** Submit a pull request
 - **To remove from the list:** Open an issue
 
-To set this list apart from and compliment the excellent [Go wiki Projects page](https://code.google.com/p/go-wiki/wiki/Projects), awesome-go is a specially curated list for high-quality, actively maintained Go packages and resources.
+To set this list apart from and compliment the excellent [Go wiki Projects page](https://github.com/golang/go/wiki/Projects), awesome-go is a specially curated list for high-quality, actively maintained Go packages and resources.
 
 - List items should be sorted *alphabetically*.
 - Each item should be limited to one link
