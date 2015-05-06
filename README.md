@@ -753,7 +753,7 @@ Go software and plugins.
 
 ## Code Analysis
 
-* [doc](http://godoc.org/code.google.com/p/rspace.cmd/doc) - Go documentation tool that produces an alternative doc format.
+* [doc](http://godoc.org/robpike.io/cmd/doc) - Go documentation tool that produces an alternative doc format.
 * [errcheck](https://github.com/kisielk/errcheck) - Errcheck is a program for checking for unchecked errors in Go programs.
 * [gcvis](https://github.com/davecheney/gcvis) - Visualise Go program GC trace data in real time.
 * [Go Metalinter](https://github.com/alecthomas/gometalinter) - Metalinter is a tool to automatically apply all static analysis tool and report their output in normalized form.
