@@ -150,6 +150,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 *Libraries for preprocessing CSS files*
 
 * [gcss](https://github.com/yosssi/gcss) - Pure Go CSS Preprocessor.
+* [c6](https://github.com/c9s/c6) - High performance SASS compatible-implementation compiler written in Go
 
 ## Data Structures
 
