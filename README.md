@@ -112,9 +112,9 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 *Libraries for building standard or basic Command Line applications*
 
+* [cli-init](https://github.com/tcnksm/cli-init) - The easy way to start building Golang command line application.
 * [codegangsta/cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go.
 * [mitchellh/cli](https://github.com/mitchellh/cli) - A Go library for implementing command-line interfaces.
-* [cli-init](https://github.com/tcnksm/cli-init) - The easy way to start building Golang command line application.
 
 
 ### Advanced Console UIs
