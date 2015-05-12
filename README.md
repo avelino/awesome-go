@@ -614,6 +614,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     * [gotabulate](https://github.com/bndr/gotabulate) - Easily pretty-print your tabular data with Go.
     * [govalidator](https://github.com/asaskevich/govalidator) - package of string validators and sanitizers for Go lang.
     * [xurls](https://github.com/mvdan/xurls) - Extract urls from text
+    * [genex](https://github.com/alixaxel/genex) - Count and expand Regular Expressions into all matching Strings
 
 
 ## Third-party APIs
