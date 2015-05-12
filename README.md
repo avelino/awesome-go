@@ -582,6 +582,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [fastlz](https://github.com/fromYukki/fastlz) - Wrap over [FastLz](http://fastlz.org/) (free, open-source, portable real-time compression library) for GoLang.
 * [goback](https://github.com/carlescere/goback) - Go simple exponential backoff package.
 * [godropbox](https://github.com/dropbox/godropbox) - Common libraries for writing Go services/applications from Dropbox.
+* [gommon/bytes](https://github.com/labstack/gommon/tree/master/bytes) - Format bytes into string.
 * [gopencils](https://github.com/bndr/gopencils) - Small and simple package to easily consume REST APIs.
 * [goplaceholder](https://github.com/michiwend/goplaceholder) - a small golang lib to generate placeholder images
 * [goreq](https://github.com/franela/goreq) - Minimal and simple request library for Go language.
@@ -633,7 +634,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 * [Beego](https://github.com/astaxie/beego) - beego is an open-source, high-performance web framework for the Go programming language.
 * [Bone](https://github.com/squiidz/bone) - Lightning Fast HTTP Multiplexer.
-* [Echo](https://github.com/labstack/echo) - A fast HTTP router (zero memory allocation) + micro web framework in Go.
+* [Echo](https://github.com/labstack/echo) - A fast HTTP router (zero memory allocation) and micro web framework in Go.
 * [Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity.
 * [Goat](https://github.com/bahlo/goat) - A minimalistic REST API server in Go
 * [goose](https://github.com/ian-kent/goose) - Server Sent Events in Go
