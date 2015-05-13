@@ -46,6 +46,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     - [Package Management](#package-management)
     - [Resource Embedding](#resource-embedding)
     - [Science and Data Analysis](#science-and-data-analysis)
+    - [Security](#security)
     - [Serialization](#serialization)
     - [Template Engines](#template-engines)
     - [Testing](#testing)
@@ -525,6 +526,13 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [mudlark-go](https://code.google.com/p/mudlark-go-pkgs/) - A collection of packages providing (hopefully) useful code for use in software using Google's Go programming language.
 * [streamtools](https://github.com/nytlabs/streamtools) - general purpose, graphical tool for dealing with streams of data.
 * [vectormath](https://github.com/spate/vectormath) - Vectormath for Go, an adaptation of the scalar C functions from Sony's Vector Math library, as found in the Bullet-2.79 source code. (currently inactive)
+
+
+## Security
+
+*Libraries that are used to help make your application more secure.*
+
+* [BadActor](https://github.com/jaredfolkins/badactor) - An in-memory, application-driven jailer built in the spirit of fail2ban
 
 ## Serialization
 
