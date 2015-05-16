@@ -852,6 +852,7 @@ Software written in Go.
 * [shell2http](https://github.com/msoap/shell2http) - Executing shell commands via http server (for prototyping or remote control)
 * [syncthing](http://www.syncthing.net/) - An open, decentralized file synchronization tool and protocol.
 * [Tenyks](https://github.com/kyleterry/tenyks) - Service oriented IRC bot using Redis and JSON for messaging.
+* [toxiproxy](https://github.com/shopify/toxiproxy) - Proxy to simulate network and system conditions for automated tests.
 * [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
 * [websysd](http://github.com/ian-kent/websysd) - Web based process manager (like Marathon or Upstart)
 
