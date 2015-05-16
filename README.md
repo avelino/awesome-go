@@ -721,7 +721,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 * [Beego](https://github.com/astaxie/beego) - beego is an open-source, high-performance web framework for the Go programming language.
 * [Bone](https://github.com/go-zoo/bone) - Lightning Fast HTTP Multiplexer.
-* [Echo](https://github.com/labstack/echo) - A fast HTTP router (zero memory allocation) + micro web framework in Go.
+* [Echo](https://github.com/labstack/echo) - A fast HTTP router (zero memory allocation) and micro web framework in Go.
 * [Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity.
 * [go-json-rest](https://github.com/ant0ine/go-json-rest) - A quick and easy way to setup a RESTful JSON API
 * [go-relax](https://github.com/codehack/go-relax) - A framework of pluggable components to build RESTful API's
