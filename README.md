@@ -258,9 +258,9 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 * [email](https://github.com/jordan-wright/email) - A robust and flexible email library for Go.
 * [go-dkim](https://github.com/toorop/go-dkim) - A DKIM library, to sign & verify email.
+* [go-pop3](https://github.com/TheCreeper/go-pop3) - Implementation of RFC1939 (POP3) for Go.
 * [Gomail](https://github.com/go-gomail/gomail/) - Gomail is a very simple and powerful package to send emails.
 * [MailHog](https://github.com/mailhog/MailHog) - Email and SMTP testing with web and API interface
-* [go-pop3](https://github.com/TheCreeper/go-pop3) - Implementation of RFC1939 (POP3) for Go.
 * [smtp](https://github.com/mailhog/smtp) - SMTP server protocol state machine
 
 
