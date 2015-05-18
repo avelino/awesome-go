@@ -635,6 +635,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for accessing third party APIs.*
 
 * [aws-sdk-go](https://github.com/awslabs/aws-sdk-go) - The official AWS SDK for the Go programming language. Caution: The SDK is currently in the process of being developed, and not everything may be working fully yet.
+* [brewerydb](https://github.com/naegelejd/brewerydb) - Go library for accessing the BreweryDB API.
 * [facebook](https://github.com/huandu/facebook) - Go Library that supports the Facebook Graph API
 * [gami](https://github.com/bit4bit/gami) - Go library for Asterisk Manager Interface.
 * [geo-golang](https://github.com/codingsince1985/geo-golang) - Go Library to access [Google Maps](https://developers.google.com/maps/documentation/geocoding/), [MapQuest](http://open.mapquestapi.com/geocoding/), [Nominatim](http://open.mapquestapi.com/nominatim/), [OpenCage](http://geocoder.opencagedata.com/api.html), [HERE](https://developer.here.com/rest-apis/documentation/geocoder) and [Bing](https://msdn.microsoft.com/en-us/library/ff701715.aspx) geocoding / reverse geocoding APIs.
