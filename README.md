@@ -221,6 +221,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [cayley](https://github.com/google/cayley) - A graph database with support for multiple backends.
     * [go-couchbase](https://github.com/couchbase/go-couchbase) - Couchbase client in Go
     * [go-couchdb](https://github.com/fjl/go-couchdb) - Yet another CouchDB HTTP API wrapper for Go
+    * [gocb](https://github.com/couchbaselabs/gocb) - Official Couchbase Go SDK
     * [gocql](http://gocql.github.io) - A Go language driver for Apache Cassandra.
     * [gomemcache](https://github.com/bradfitz/gomemcache/) - memcache client library for the Go programming language.
     * [gorethink](https://github.com/dancannon/gorethink) - Go language driver for RethinkDB
