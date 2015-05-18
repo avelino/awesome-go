@@ -163,9 +163,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [bloom](https://github.com/surge/bloom) - Bloom filters implemented in Go.
 * [encoding](https://github.com/surge/encoding) - Integer Compression Libraries for Go.
 * [golang-set](https://github.com/deckarep/golang-set) - Thread-Safe and Non-Thread-Safe high-performance sets for Go.
+* [goskiplist](https://github.com/ryszard/goskiplist) - A skip list implementation in Go.
 * [mafsa](https://github.com/smartystreets/mafsa) - MA-FSA implementation with Minimal Perfect Hashing
 * [skiplist](https://github.com/gansidui/skiplist) - Skiplist implementation in Go
-* [goskiplist](https://github.com/ryszard/goskiplist) - A skip list implementation in Go
 * [trie](https://github.com/derekparker/trie) - Trie implementation in Go
 
 ## Database
