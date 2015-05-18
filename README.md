@@ -333,10 +333,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 ## Hardware
 
-*Libraries for interacting with hardware.*
+*Libraries, tools, and tutorials for interacting with hardware.*
 
-* [embd](https://github.com/kidoman/embd) - Embedded Programming Framework supporting Raspberry Pi, Beaglebone Black, etc.
-* [gobot](https://github.com/hybridgroup/gobot) - Framework for robotics, physical computing, and the Internet of Things
+See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive list.
 
 ## Images
 
