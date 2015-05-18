@@ -161,12 +161,12 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [bitset](https://github.com/willf/bitset) - Go package implementing bitsets.
 * [bloom](https://github.com/surge/bloom) - Bloom filters implemented in Go.
-* [willf/bloom](https://github.com/willf/bloom) - Another implemenation of Bloom filters.
 * [encoding](https://github.com/surge/encoding) - Integer Compression Libraries for Go.
 * [golang-set](https://github.com/deckarep/golang-set) - Thread-Safe and Non-Thread-Safe high-performance sets for Go.
 * [mafsa](https://github.com/smartystreets/mafsa) - MA-FSA implementation with Minimal Perfect Hashing
 * [skiplist](https://github.com/gansidui/skiplist) - Skiplist implementation in Go
 * [trie](https://github.com/derekparker/trie) - Trie implementation in Go
+* [willf/bloom](https://github.com/willf/bloom) - Go package implementing Bloom filters.
 
 ## Database
 
