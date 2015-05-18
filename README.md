@@ -489,6 +489,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [QBS](https://github.com/coocood/qbs) - Stands for Query By Struct. A Go ORM.
 * [upper.io/db](https://github.com/upper/db) - Single interface for interacting with different data sources through the use of adapters that wrap mature database drivers.
 * [Xorm](https://github.com/go-xorm/xorm) - Simple and powerful ORM for Go.
+* [Zoom](https://github.com/albrow/zoom) - A blazing-fast datastore and querying engine built on Redis.
 
 
 ## Package Management
