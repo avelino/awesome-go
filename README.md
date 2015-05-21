@@ -618,6 +618,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx) - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.
     * [go-runewidth](https://github.com/mattn/go-runewidth) - Functions to get fixed width of the character or string.
     * [gographviz](https://github.com/awalterschulze/gographviz) - Parses the Graphviz DOT language.
+    * [gonameparts](https://github.com/polera/gonameparts) - Parses human names into individual name parts
     * [GoQuery](https://github.com/PuerkitoBio/goquery) - GoQuery brings a syntax and a set of features similar to jQuery to the Go language.
     * [goregen](https://github.com/zach-klippenstein/goregen) - A library for generating random strings from regular expressions.
     * [guesslanguage](https://github.com/endeveit/guesslanguage) - Functions to determine the natural language of a unicode text.
