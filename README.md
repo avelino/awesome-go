@@ -166,6 +166,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [mafsa](https://github.com/smartystreets/mafsa) - MA-FSA implementation with Minimal Perfect Hashing
 * [skiplist](https://github.com/gansidui/skiplist) - Skiplist implementation in Go
 * [trie](https://github.com/derekparker/trie) - Trie implementation in Go
+* [willf/bloom](https://github.com/willf/bloom) - Go package implementing Bloom filters.
 
 ## Database
 
