@@ -333,10 +333,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 ## Hardware
 
-*Libraries for interacting with hardware.*
+*Libraries, tools, and tutorials for interacting with hardware.*
 
-* [embd](https://github.com/kidoman/embd) - Embedded Programming Framework supporting Raspberry Pi, Beaglebone Black, etc.
-* [gobot](https://github.com/hybridgroup/gobot) - Framework for robotics, physical computing, and the Internet of Things
+See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive list.
 
 ## Images
 
@@ -375,6 +374,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [logutils](https://github.com/hashicorp/logutils) - Utilities for slightly better logging in Go (Golang) extending the standard logger.
 * [logxi](https://github.com/mgutz/logxi) - A 12-factor app logger that is fast and makes you happy.
 * [lumberjack](https://github.com/natefinch/lumberjack) - Simple rolling logger, implements io.WriteCloser.
+* [mlog](https://github.com/jbrodriguez/mlog) - A simple logging module for go, with 5 levels, an optional rotating logfile feature and stdout/stderr output.
 * [seelog](https://github.com/cihub/seelog) -   logging functionality with flexible dispatching, filtering, and formatting.
 * [stdlog](https://github.com/alexcesaro/log) - Stdlog is an object-oriented library providing leveled logging. It is very useful for cron jobs.
 * [tail](https://github.com/ActiveState/tail) - A Go package striving to emulate the features of the BSD tail program.
@@ -618,7 +618,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx) - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.
     * [go-runewidth](https://github.com/mattn/go-runewidth) - Functions to get fixed width of the character or string.
     * [gographviz](https://github.com/awalterschulze/gographviz) - Parses the Graphviz DOT language.
-    * [gonameparts](https://github.com/polera/gonameparts) - Parses human names into individual name parts
+    * [gommon/gytes](https://github.com/labstack/gommon/tree/master/gytes) - Format bytes to string.
     * [GoQuery](https://github.com/PuerkitoBio/goquery) - GoQuery brings a syntax and a set of features similar to jQuery to the Go language.
     * [goregen](https://github.com/zach-klippenstein/goregen) - A library for generating random strings from regular expressions.
     * [guesslanguage](https://github.com/endeveit/guesslanguage) - Functions to determine the natural language of a unicode text.
@@ -636,6 +636,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for accessing third party APIs.*
 
 * [aws-sdk-go](https://github.com/awslabs/aws-sdk-go) - The official AWS SDK for the Go programming language. Caution: The SDK is currently in the process of being developed, and not everything may be working fully yet.
+* [brewerydb](https://github.com/naegelejd/brewerydb) - Go library for accessing the BreweryDB API.
 * [facebook](https://github.com/huandu/facebook) - Go Library that supports the Facebook Graph API
 * [gami](https://github.com/bit4bit/gami) - Go library for Asterisk Manager Interface.
 * [geo-golang](https://github.com/codingsince1985/geo-golang) - Go Library to access [Google Maps](https://developers.google.com/maps/documentation/geocoding/), [MapQuest](http://open.mapquestapi.com/geocoding/), [Nominatim](http://open.mapquestapi.com/nominatim/), [OpenCage](http://geocoder.opencagedata.com/api.html), [HERE](https://developer.here.com/rest-apis/documentation/geocoder) and [Bing](https://msdn.microsoft.com/en-us/library/ff701715.aspx) geocoding / reverse geocoding APIs.
@@ -669,6 +670,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-dry](https://github.com/ungerik/go-dry) - DRY (don't repeat yourself) package for Go.
 * [go-underscore](https://github.com/tobyhede/go-underscore) - A useful collection of helpfully functional Go collection utilities.
 * [goback](https://github.com/carlescere/goback) - Go simple exponential backoff package.
+* [godotenv](https://github.com/joho/godotenv) - A Go port of Ruby's dotenv library (Loads environment variables from `.env`.)
 * [godropbox](https://github.com/dropbox/godropbox) - Common libraries for writing Go services/applications from Dropbox.
 * [gohper](https://github.com/cosiner/gohper) - Various tools/modules help for development.
 * [gopencils](https://github.com/bndr/gopencils) - Small and simple package to easily consume REST APIs.
@@ -723,7 +725,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [Beego](https://github.com/astaxie/beego) - beego is an open-source, high-performance web framework for the Go programming language.
 * [Bone](https://github.com/go-zoo/bone) - Lightning Fast HTTP Multiplexer.
-* [Echo](https://github.com/labstack/echo) - A fast HTTP router (zero memory allocation) + micro web framework in Go.
+* [Echo](https://github.com/labstack/echo) - A fast HTTP router (zero memory allocation) and micro web framework in Go.
 * [Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity.
 * [go-json-rest](https://github.com/ant0ine/go-json-rest) - A quick and easy way to setup a RESTful JSON API
 * [go-relax](https://github.com/codehack/go-relax) - A framework of pluggable components to build RESTful API's
@@ -834,7 +836,7 @@ Software written in Go.
 
 
 ### Other Software
-
+* [boxed](https://github.com/tejo/boxed) - Dropbox based blog engine
 * [Circuit](https://github.com/gocircuit/circuit) - Circuit is a programmable platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS), for management, discovery, synchronization and orchestration of services and hosts comprising cloud applications.
 * [Comcast](https://github.com/tylertreat/Comcast) - Simulate bad network connections
 * [confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul.
