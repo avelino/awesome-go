@@ -346,6 +346,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries for manipulating images.*
 
 * [bimg](https://github.com/h2non/bimg) - Small package for fast and efficient image processing using libvips
+* [draw2d](https://github.com/llgcode/draw2d) - 2d vector package. 
 * [geopattern](https://github.com/pravj/geopattern) - Create beautiful generative image patterns from a string.
 * [gift](https://github.com/disintegration/gift) - Package of image processing filters.
 * [go-cairo](https://github.com/ungerik/go-cairo) - Go binding for the cairo graphics library.
