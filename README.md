@@ -721,6 +721,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * [aac/h264](https://github.com/nareix/codec) - Golang aac/h264 encoder and decoder.
 * [gmf](https://github.com/3d0c/gmf) - Go bindings for FFmpeg av\* libraries.
+* [goav](https://github.com/giorgisio/goav) - Comphrensive Go bindings for FFmpeg.
 * [gst](https://github.com/ziutek/gst) - Go bindings for GStreamer.
 
 
