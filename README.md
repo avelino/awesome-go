@@ -362,6 +362,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [rez](https://github.com/bamiaux/rez) - Image resizing in pure Go and SIMD.
 * [smartcrop](https://github.com/muesli/smartcrop) - Finds good crops for arbitrary images and crop sizes
 * [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
+* [tga](https://github.com/ftrvxmtrx/tga) - Package tga is a TARGA image format decoder/encoder.
 
 ## Logging
 
