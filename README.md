@@ -265,6 +265,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [Gomail](https://github.com/go-gomail/gomail/) - Gomail is a very simple and powerful package to send emails.
 * [MailHog](https://github.com/mailhog/MailHog) - Email and SMTP testing with web and API interface
 * [smtp](https://github.com/mailhog/smtp) - SMTP server protocol state machine
+* [SendGrid] (https://github.com/sendgrid/sendgrid-go) - SendGrid's Go library
 
 
 ## Embeddable Scripting Languages
