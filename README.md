@@ -808,6 +808,7 @@ Go software and plugins.
 ## Editor Plugins
 
 * [go-lang-idea-plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) Go plugin for IntelliJ IDEA.
+* [go-plus](https://github.com/joefitzgerald/go-plus) - Go (Golang) Package For Atom That Adds Autocomplete, Formatting, Syntax Checking, Linting and Vetting
 * [gocode](https://github.com/nsf/gocode) - An autocompletion daemon for the Go programming language
 * [GoSublime](https://github.com/DisposaBoy/GoSublime) - A Golang plugin collection for the text editor SublimeText 2 providing code completion and other IDE-like features.
 * [velour](https://github.com/velour/velour) - An IRC client for the acme editor.
