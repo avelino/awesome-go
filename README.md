@@ -814,6 +814,7 @@ Go software and plugins.
 * [vim-compiler-go](https://github.com/rjohnsondev/vim-compiler-go) - A Vim plugin to highlight syntax errors on save.
 * [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim.
 * [Watch](https://github.com/eaburns/Watch) - Runs a command in an acme win on file changes.
+* [go-plus](https://github.com/joefitzgerald/go-plus) - Go (Golang) Package For Atom That Adds Autocomplete, Formatting, Syntax Checking, Linting and Vetting
 
 
 ## Software Packages
