@@ -120,6 +120,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [cli-init](https://github.com/tcnksm/cli-init) - The easy way to start building Golang command line application.
 * [codegangsta/cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go.
 * [mitchellh/cli](https://github.com/mitchellh/cli) - A Go library for implementing command-line interfaces.
+* [peterh/liner](https://github.com/peterh/liner) - A Go readline-like library for command-line interfaces.
 
 
 ### Advanced Console UIs
@@ -867,6 +868,7 @@ Software written in Go.
 * [hugo](http://gohugo.io/) - A Fast and Modern Static Website Engine
 * [Juju](https://juju.ubuntu.com/) - Cloud-agnostic service deployment and orchestration - supports EC2, Azure, Openstack, MAAS and more.
 * [limetext](http://limetext.org/) Lime Text is a powerful and elegant text editor primarily developed in Go that aims to be a Free and open-source software successor to Sublime Text.
+* [naclpipe](http://github.com/unix4fun/naclpipe) - A simple NaCL EC25519 based crypto pipe tool written in Go.
 * [nes](https://github.com/fogleman/nes) - A Nintendo Entertainment System (NES) emulator written in Go.
 * [orange-cat](https://github.com/noraesae/orange-cat) - A Markdown previewer written in Go.
 * [peg](https://github.com/pointlander/peg) - Peg, Parsing Expression Grammar, is an implementation of a Packrat parser generator.
