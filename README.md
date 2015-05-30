@@ -440,6 +440,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gopsutil](https://github.com/shirou/gopsutil) - A cross-platform library for retrieving process and system utilization(CPU, Memory, Disks, etc).
 * [jobs](https://github.com/albrow/jobs) - A persistent and flexible background jobs library.
 * [notify](https://github.com/rjeczalik/notify) - File system event notification library with simple API, similar to os/signal.
+* [xkg](https://github.com/go-xkg/xkg) - X Keyboard Grabber
 * [xstrings](https://github.com/huandu/xstrings) - A collection of useful string functions ported from other languages.
 
 ## Natural Language Processing
