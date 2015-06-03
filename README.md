@@ -650,7 +650,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries for accessing third party APIs.*
 
-* [aws-sdk-go](https://github.com/awslabs/aws-sdk-go) - The official AWS SDK for the Go programming language. Caution: The SDK is currently in the process of being developed, and not everything may be working fully yet.
+* [aws-sdk-go](https://github.com/aws/aws-sdk-go) - The official AWS SDK for the Go programming language. Caution: The SDK is currently in the process of being developed, and not everything may be working fully yet.
 * [brewerydb](https://github.com/naegelejd/brewerydb) - Go library for accessing the BreweryDB API.
 * [facebook](https://github.com/huandu/facebook) - Go Library that supports the Facebook Graph API
 * [gami](https://github.com/bit4bit/gami) - Go library for Asterisk Manager Interface.
