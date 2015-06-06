@@ -119,6 +119,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [cli-init](https://github.com/tcnksm/cli-init) - The easy way to start building Golang command line application.
 * [codegangsta/cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go.
+* [kingpin](https://github.com/alecthomas/kingpin) - A command line and flag parser supporting sub commands.
 * [liner](https://github.com/peterh/liner) - A Go readline-like library for command-line interfaces.
 * [mitchellh/cli](https://github.com/mitchellh/cli) - A Go library for implementing command-line interfaces.
 
