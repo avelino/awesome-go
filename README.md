@@ -586,6 +586,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [mustache](https://github.com/hoisie/mustache) - A Go implementation of the Mustache template language.
 * [pongo2](https://github.com/flosch/pongo2) - A Django-like template-engine for Go.
 * [Razor](https://github.com/sipin/gorazor) - Razor view engine for Golang.
+* [raymond](https://github.com/aymerick/raymond) - A complete handlebars implementation in Go.
 * [Soy](https://github.com/robfig/soy) - Closure templates (aka Soy templates) for Go, following the [official spec](https://developers.google.com/closure/templates/)
 
 
