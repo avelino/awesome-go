@@ -927,6 +927,7 @@ Where to discover new Go libraries.
 ## Conferences
 
 * [dotGo](http://www.dotgo.io)
+* [GolangUK](http://www.golanguk.com/)
 * [GopherCon](http://www.gophercon.com/)
 * [GopherCon India](http://www.gophercon.in/)
 
