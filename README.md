@@ -273,7 +273,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-dkim](https://github.com/toorop/go-dkim) - A DKIM library, to sign & verify email.
 * [Gomail](https://github.com/go-gomail/gomail/) - Gomail is a very simple and powerful package to send emails.
 * [MailHog](https://github.com/mailhog/MailHog) - Email and SMTP testing with web and API interface
-* [SendGrid] (https://github.com/sendgrid/sendgrid-go) - SendGrid's Go library for sending email
+* [SendGrid](https://github.com/sendgrid/sendgrid-go) - SendGrid's Go library for sending email
 * [smtp](https://github.com/mailhog/smtp) - SMTP server protocol state machine
 
 
@@ -881,8 +881,8 @@ Software written in Go.
 * [Docker](http://www.docker.com/) - An open platform for distributed applications for developers and sysadmins.
 * [fleet](https://github.com/coreos/fleet) - A Distributed init System.
 * [gocc](https://code.google.com/p/gocc) - Gocc is a compiler kit for Go written in Go.
-* [Gor] (https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time.
-* [heka] (https://github.com/mozilla-services/heka) - universal tool for data processing from Mozilla. Large collection of built-in plugins. Extendable via Go and Lua plugin API.
+* [Gor](https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time.
+* [heka](https://github.com/mozilla-services/heka) - universal tool for data processing from Mozilla. Large collection of built-in plugins. Extendable via Go and Lua plugin API.
 * [hugo](http://gohugo.io/) - A Fast and Modern Static Website Engine
 * [Juju](https://juju.ubuntu.com/) - Cloud-agnostic service deployment and orchestration - supports EC2, Azure, Openstack, MAAS and more.
 * [limetext](http://limetext.org/) Lime Text is a powerful and elegant text editor primarily developed in Go that aims to be a Free and open-source software successor to Sublime Text.
