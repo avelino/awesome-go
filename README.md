@@ -880,6 +880,7 @@ Software written in Go.
 * [confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul.
 * [Docker](http://www.docker.com/) - An open platform for distributed applications for developers and sysadmins.
 * [fleet](https://github.com/coreos/fleet) - A Distributed init System.
+* [Go Package Store](https://github.com/shurcooL/Go-Package-Store#go-package-store-) - An app that displays updates for the Go packages in your GOPATH.
 * [gocc](https://code.google.com/p/gocc) - Gocc is a compiler kit for Go written in Go.
 * [Gor](https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time.
 * [heka](https://github.com/mozilla-services/heka) - universal tool for data processing from Mozilla. Large collection of built-in plugins. Extendable via Go and Lua plugin API.
