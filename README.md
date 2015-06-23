@@ -725,6 +725,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
 * [robustly](https://github.com/VividCortex/robustly) - Runs functions resiliently, catching and restarting panics
 * [scheduler](https://github.com/carlescere/scheduler) - Cronjobs scheduling made easy.
+* [sling](https://github.com/dghubble/sling) - Go HTTP requests builder for API clients.
 * [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
 * [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package
 * [xlsx](https://github.com/tealeg/xlsx) - Library to simplify reading the XML format used by recent version of Microsoft Excel in Go programs.
