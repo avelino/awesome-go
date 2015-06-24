@@ -540,7 +540,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries for scientific computing and data analyzing.*
 
 * [blas](https://github.com/ziutek/blas) - Implementation of BLAS (Basic Linear Algebra Subprograms)
-* [chart](https://github.com/vdobler/chart) - Simple Chart Plotting library for Go. Supports many graphs types. 
+* [chart](https://github.com/vdobler/chart) - Simple Chart Plotting library for Go. Supports many graphs types.
 * [ewma](https://github.com/VividCortex/ewma) - Exponentially-weighted moving averages
 * [geom](https://github.com/skelterjohn/geom) - 2D geometry for golang
 * [go-fn](https://code.google.com/p/go-fn/) - Mathematical functions written in Go language, that are not covered by math pkg
@@ -613,6 +613,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [goblin](https://github.com/franela/goblin) - Mocha like testing framework fo Go
     * [gocheck](http://labix.org/gocheck) - A more advanced testing framework alternative to gotest.
     * [GoConvey](https://github.com/smartystreets/goconvey/) - BDD-style framework with web UI and live reload
+    * [godog](https://github.com/DATA-DOG/godog) - Cucumber or Behat like BDD framework for Go.
     * [GoSpec](https://github.com/orfjackal/gospec) - BDD-style testing framework for the Go programming language.
     * [gospecify](https://github.com/stesla/gospecify) - This provides a BDD syntax for testing your Go code. It should be familiar to anybody who has used libraries such as rspec.
     * [Hamcrest](https://github.com/rdrdr/hamcrest) - fluent framework for declarative Matcher objects that, when applied to input values, produce self-describing results.
