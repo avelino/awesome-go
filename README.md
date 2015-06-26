@@ -532,6 +532,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-bindata](https://github.com/jteeuwen/go-bindata) - Package that converts any file into managable Go source code.
 * [go-resources](https://github.com/omeid/go-resources) - Unfancy resources embedding with Go.
 * [go.rice](https://github.com/GeertJohan/go.rice) - go.rice is a Go package that makes working with resources such as html,js,css,images and templates very easy.
+* [vfsgen](https://github.com/shurcooL/vfsgen) - Generates a vfsdata.go file that statically implements the given virtual filesystem.
 
 
 ## Science and Data Analysis
@@ -539,6 +540,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries for scientific computing and data analyzing.*
 
 * [blas](https://github.com/ziutek/blas) - Implementation of BLAS (Basic Linear Algebra Subprograms)
+* [chart](https://github.com/vdobler/chart) - Simple Chart Plotting library for Go. Supports many graphs types.
 * [ewma](https://github.com/VividCortex/ewma) - Exponentially-weighted moving averages
 * [geom](https://github.com/skelterjohn/geom) - 2D geometry for golang
 * [go-fn](https://code.google.com/p/go-fn/) - Mathematical functions written in Go language, that are not covered by math pkg
@@ -611,6 +613,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [goblin](https://github.com/franela/goblin) - Mocha like testing framework fo Go
     * [gocheck](http://labix.org/gocheck) - A more advanced testing framework alternative to gotest.
     * [GoConvey](https://github.com/smartystreets/goconvey/) - BDD-style framework with web UI and live reload
+    * [godog](https://github.com/DATA-DOG/godog) - Cucumber or Behat like BDD framework for Go.
     * [GoSpec](https://github.com/orfjackal/gospec) - BDD-style testing framework for the Go programming language.
     * [gospecify](https://github.com/stesla/gospecify) - This provides a BDD syntax for testing your Go code. It should be familiar to anybody who has used libraries such as rspec.
     * [Hamcrest](https://github.com/rdrdr/hamcrest) - fluent framework for declarative Matcher objects that, when applied to input values, produce self-describing results.
@@ -724,6 +727,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
 * [robustly](https://github.com/VividCortex/robustly) - Runs functions resiliently, catching and restarting panics
 * [scheduler](https://github.com/carlescere/scheduler) - Cronjobs scheduling made easy.
+* [sling](https://github.com/dghubble/sling) - Go HTTP requests builder for API clients.
 * [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
 * [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package
 * [xlsx](https://github.com/tealeg/xlsx) - Library to simplify reading the XML format used by recent version of Microsoft Excel in Go programs.
