@@ -262,6 +262,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Packages that help with building Distributed Systems.*
 
 * [goraft](https://github.com/goraft/raft) - A Go implementation of the Raft distributed consensus protocol.
+* [gorpc](https://github.com/valyala/gorpc) - Simple, fast and scalable RPC library for high load.
 * [raft](https://github.com/hashicorp/raft) - Golang implementation of the Raft consensus protocol, by HashiCorp.
 
 
