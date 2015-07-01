@@ -740,6 +740,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries for validation.*
 
+* [gojsonschema](https://github.com/xeipuuv/gojsonschema) - An implementation of JSON Schema, draft v4
 * [validator](https://github.com/bluesuncorp/validator) - Go Struct and Field validation supporting Cross Field and Cross Struct validation
 
 
