@@ -26,6 +26,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Database Drivers](#database-drivers)
     - [Date & Time](#date--time)
     - [Distributed Systems](#distributed-systems)
+    - [Documents](#documents)
     - [Email](#email)
     - [Embeddable Scripting Languages](#embeddable-scripting-languages)
     - [Financial](#financial)
@@ -265,6 +266,11 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gorpc](https://github.com/valyala/gorpc) - Simple, fast and scalable RPC library for high load.
 * [raft](https://github.com/hashicorp/raft) - Golang implementation of the Raft consensus protocol, by HashiCorp.
 
+## Documents
+
+*Libraries that read or write documents*
+
+* [gofpdf](https://github.com/jung-kurt/gofpdf) - A PDF document generator with high level support for text, drawing and images.
 
 ## Email
 
