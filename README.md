@@ -699,6 +699,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *General utilities and tools to make your life easier.*
 
 * [coop](https://github.com/rakyll/coop) - Cheat sheet for some of the common concurrent flows in Go.
+* [delta](https://github.com/jasonmoo/delta) - CLI tool for delta encoding/decoding.
 * [delve](https://github.com/derekparker/delve) - Go debugger.
 * [fastlz](https://github.com/fromYukki/fastlz) - Wrap over [FastLz](http://fastlz.org/) (free, open-source, portable real-time compression library) for GoLang.
 * [go-cron](https://github.com/rk/go-cron) - A simple Cron library for go that can execute closures or functions at varying intervals, from once a second to once a year on a specific date and time. Primarily for web applications and long running daemons.
