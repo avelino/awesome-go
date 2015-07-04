@@ -167,6 +167,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [bitset](https://github.com/willf/bitset) - Go package implementing bitsets.
 * [bloom](https://github.com/surge/bloom) - Bloom filters implemented in Go.
 * [encoding](https://github.com/surge/encoding) - Integer Compression Libraries for Go.
+* [eq](https://github.com/jasonmoo/eq) - A simple queue that expands via container/list and uses channels for `Enqueue` and `Dequeue` actions.
 * [golang-set](https://github.com/deckarep/golang-set) - Thread-Safe and Non-Thread-Safe high-performance sets for Go.
 * [goskiplist](https://github.com/ryszard/goskiplist) - A skip list implementation in Go.
 * [mafsa](https://github.com/smartystreets/mafsa) - MA-FSA implementation with Minimal Perfect Hashing
