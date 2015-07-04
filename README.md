@@ -629,6 +629,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [mockhttp](https://github.com/tv42/mockhttp) - Mock object for Go http.ResponseWriter
 
 * Fuzzing and delta-debugging/reducing/shrinking
+    * [delts](https://github.com/jasonmoo/delts) - Track delta changes in streams
     * [go-fuzz](https://github.com/dvyukov/go-fuzz) - A randomized testing system
     * [gofuzz](https://github.com/google/gofuzz) - A library for populating go objects with random values
     * [gogenerate](https://github.com/arschles/gogenerate) - A Scalacheck-like library for Go
