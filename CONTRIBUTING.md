@@ -22,12 +22,12 @@ Please contribute links to packages/projects you have used or are familiar with.
 
 To be on the list, project repositories should adhere to these quality standards:
 
-- Working
+- Code is functional
 - Generally useful to the wider community of Go programmers
 - Actively maintained
   - Regular, recent commits
-  - For finished projects, issues and pull requests are responded to
-- Stableor progressing toward stable
+  - Or, for finished projects, issues and pull requests are responded to
+- Stable or progressing toward stable
 - Thoroughly documented (README, godoc comments, etc.)
 - Tests, where practical
 
