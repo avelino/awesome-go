@@ -724,6 +724,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [netbug](https://github.com/e-dard/netbug) - Easy remote profiling of your services.
 * [ngrok](https://github.com/inconshreveable/ngrok) - Introspected tunnels to localhost.
 * [okrun](https://github.com/xta/okrun) - go run error steamroller
+* [panicparse](https://github.com/maruel/panicparse) - Groups similar goroutines and colorizes stack dump.
 * [peco](https://github.com/peco/peco) - Simplistic interactive filtering tool
 * [pester](https://github.com/sethgrid/pester) - Go HTTP client calls with retries, backoff, and concurrency
 * [pm](https://github.com/VividCortex/pm) - Process (i.e. goroutine) manager with an HTTP API
