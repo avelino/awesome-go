@@ -428,6 +428,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-notify](https://github.com/TheCreeper/go-notify) - Native implementation of the freedesktop notification spec.
 * [go-nsq](https://github.com/bitly/go-nsq) - the official Go package for NSQ
 * [gopush-cluster](https://github.com/Terry-Mao/gopush-cluster) - gopush-cluster is a go push server cluster.
+* [machinery](https://github.com/RichardKnop/machinery) - An asynchronous task queue/job queue based on distributed message passing.
 * [NATS](https://github.com/apcera/nats) - A lightweight and highly performant publish-subscribe and distributed queueing messaging system.
 * [oplog](https://github.com/dailymotion/oplog) - A generic oplog/replication system for REST APIs
 * [pubsub](https://github.com/tuxychandru/pubsub) - A simple pubsub package for go.
