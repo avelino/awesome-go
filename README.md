@@ -942,11 +942,12 @@ Where to discover new Go libraries.
 
 ## Conferences
 
-* [dotGo](http://www.dotgo.io)
-* [GolangUK](http://www.golanguk.com/)
-* [GopherCon](http://www.gophercon.com/)
-* [GopherCon India](http://www.gophercon.in/)
-
+* [dotGo](http://www.dotgo.io) - Paris, France
+* [GoCon](http://gocon.connpass.com/) - Tokyo, Japan
+* [GolangUK](http://www.golanguk.com/) - London, UK
+* [GopherCon](http://www.gophercon.com/) - Denver, USA
+* [GopherCon India](http://www.gophercon.in/) - Bengaluru, India
+* [GothamGo](http://gothamgo.com/) - New York City, USA
 
 ## E-Books
 
