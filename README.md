@@ -147,6 +147,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [config](https://github.com/olebedev/config) - JSON or YAML configuration wrapper with environment variables and flags parsing.
 * [envcfg](https://github.com/tomazk/envcfg) - Un-marshaling environment variables to Go structs.
 * [envconf](https://github.com/ian-kent/envconf) - Configuration from environment
+* [envconfig](https://github.com/vrischmann/envconfig) - Read your configuration from environment variables.
 * [gofigure](https://github.com/ian-kent/gofigure) - Go application configuration made easy
 * [ini](https://github.com/go-ini/ini) - Go package for read and write INI files
 * [mini](https://github.com/FogCreek/mini) - A golang package for parsing ini-style configuration files
