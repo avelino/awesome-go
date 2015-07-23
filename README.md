@@ -48,6 +48,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Science and Data Analysis](#science-and-data-analysis)
     - [Security](#security)
     - [Serialization](#serialization)
+    - [Translate](#translate)
     - [Template Engines](#template-engines)
     - [Testing](#testing)
     - [Text Processing](#text-processing)
@@ -591,6 +592,10 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform
 
+
+## Translate
+
+* [translate](https://github.com/poorny/translate) - Go online translation package
 
 ## Template Engines
 
