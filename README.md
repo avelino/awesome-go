@@ -613,6 +613,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries for testing codebases and generating test data.*
 
 * Testing Frameworks
+    * [assert](https://github.com/bluesuncorp/assert) - Basic Assertion Library used along side native go testing, with building blocks for custom assertions
     * [assert](https://github.com/bmizerany/assert) - Asserts to Go testing
     * [ginkgo](http://onsi.github.io/ginkgo/) - BDD Testing Framework for Go
     * [go-mutesting](https://github.com/zimmski/go-mutesting) - Mutation testing for Go source code
