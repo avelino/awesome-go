@@ -665,7 +665,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
 * Utility
     * [gotabulate](https://github.com/bndr/gotabulate) - Easily pretty-print your tabular data with Go.
-    * [govalidator](https://github.com/asaskevich/govalidator) - package of string validators and sanitizers for Go lang.
     * [xurls](https://github.com/mvdan/xurls) - Extract urls from text
 
 
@@ -748,6 +747,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries for validation.*
 
+* [govalidator](https://github.com/asaskevich/govalidator) - Validators and sanitizers for strings, numerics, slices and structs
 * [validator](https://github.com/bluesuncorp/validator) - Go Struct and Field validation supporting Cross Field and Cross Struct validation
 
 
