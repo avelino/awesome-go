@@ -202,6 +202,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-mysql](https://github.com/siddontang/go-mysql) - A go toolset to handle MySQL protocol and replication.
 * [go-mysql-elasticsearch](https://github.com/siddontang/go-mysql-elasticsearch) - Sync your MySQL data into Elasticsearch automatically.
 * [goose](https://bitbucket.org/liamstask/goose) - Database migration tool. You can manage your database's evolution by creating incremental SQL or Go scripts.
+* [kingshard](https://github.com/flike/kingshard) - kingshard is a high performance proxy for MySQL powered by Golang.
 * [myreplication](https://github.com/2tvenom/myreplication) - MySql binary log replication listener. Support statement and row based replication.
 * [orchestrator](https://github.com/outbrain/orchestrator) - MySQL replication topology manager & visualizer
 * [pgweb](https://github.com/sosedoff/pgweb) - A web-based PostgreSQL database browser
