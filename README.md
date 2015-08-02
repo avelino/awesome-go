@@ -65,6 +65,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 - [Tools](#tools)
     - [Code Analysis](#code-analysis)
     - [Editor Plugins](#editor-plugins)
+    - [Go Tools](#go-tools)
     - [Software Packages](#software-packages)
         - [DevOps Tools](#devops-tools)
         - [Other Software](#other-software)
@@ -867,6 +868,9 @@ Go software and plugins.
 * [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim.
 * [Watch](https://github.com/eaburns/Watch) - Runs a command in an acme win on file changes.
 
+## Go Tools
+
+* [colorgo](https://github.com/songgao/colorgo) - A wrapper around `go` command for colorized `go build` output.
 
 ## Software Packages
 
