@@ -20,6 +20,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Authentication & OAuth](#authentication--oauth)
     - [Command Line](#command-line)
     - [Configuration](#configuration)
+    - [Continuous Integration](#continuous-integration)
     - [CSS Preprocessors](#css-preprocessors)
     - [Data Structures](#data-structures)
     - [Database](#database)
@@ -154,6 +155,12 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [mini](https://github.com/FogCreek/mini) - A golang package for parsing ini-style configuration files
 * [viper](https://github.com/spf13/viper) - Go configuration with fangs
 
+## Continuous Integration
+
+*Tools for help with continuous integration*
+
+* [goveralls](https://github.com/mattn/goveralls) - Go integration for Coveralls.io continuous code coverage tracking system.
+* [overalls](https://github.com/bluesuncorp/overalls) - Multi-Package go project coverprofile for tools like goveralls
 
 ## CSS Preprocessors
 
