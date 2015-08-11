@@ -614,6 +614,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * Testing Frameworks
     * [assert](https://github.com/bmizerany/assert) - Asserts to Go testing
+    * [bro](https://github.com/marioidival/bro) - Watch files in directory and run tests for them 
     * [ginkgo](http://onsi.github.io/ginkgo/) - BDD Testing Framework for Go
     * [go-mutesting](https://github.com/zimmski/go-mutesting) - Mutation testing for Go source code
     * [goblin](https://github.com/franela/goblin) - Mocha like testing framework fo Go
