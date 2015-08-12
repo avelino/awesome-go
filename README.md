@@ -268,6 +268,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for working with dates and times.*
 
+* [date](https://github.com/fxtlabs/date) - A package for working with dates.
 * [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
 * [timeutil](https://github.com/leekchan/timeutil) - Useful extensions (Timedelta, Strftime, ...) to the golang's time package.
 
