@@ -154,6 +154,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gofigure](https://github.com/ian-kent/gofigure) - Go application configuration made easy
 * [ini](https://github.com/go-ini/ini) - Go package for read and write INI files
 * [mini](https://github.com/FogCreek/mini) - A golang package for parsing ini-style configuration files
+* [onion](https://github.com/fzerorubigd/onion) - Layer based, pluggable config manager for golang
 * [viper](https://github.com/spf13/viper) - Go configuration with fangs
 
 ## Continuous Integration
