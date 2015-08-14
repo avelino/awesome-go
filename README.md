@@ -509,6 +509,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [raw](https://github.com/mdlayher/raw) - Package raw enables reading and writing data at the device driver level for a network interface.
 * [sftp](https://github.com/pkg/sftp) - Package sftp implements the SSH File Transfer Protocol as described in https://filezilla-project.org/specs/draft-ietf-secsh-filexfer-02.txt.
 * [tcp_server](https://github.com/firstrow/tcp_server) - A Go library for building tcp servers faster
+* [wol](https://github.com/mdlayher/wol) - Package wol implements a Wake-on-LAN client.
 
 ## OpenGL
 
