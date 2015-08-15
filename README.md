@@ -492,6 +492,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries for working with various layers of the network*
 
 * [arp](https://github.com/mdlayher/arp) - Package arp implements the ARP protocol, as described in RFC 826.
+* [betwixt](https://github.com/zubairhamed/betwixt) - Betwixt implements the OMA Lightweight M2M (LWM2M) protocol for Device Management and Monitoring
 * [buffstreams](https://github.com/stabbycutyou/buffstreams) - Streaming protocolbuffer data over TCP made easy
 * [canopus](https://github.com/zubairhamed/canopus) - CoAP Client/Server implementation (RFC 7252)
 * [dhcp6](https://github.com/mdlayher/dhcp6) - Package dhcp6 implements a DHCPv6 server, as described in RFC 3315.
