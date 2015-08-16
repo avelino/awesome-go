@@ -276,10 +276,11 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Packages that help with building Distributed Systems.*
 
+* [dht](https://github.com/anacrolix/torrent/dht) - BitTorrent Kademlia DHT implementation.
 * [go-jump](https://github.com/dgryski/go-jump) - A port of Google's "Jump" Consistent Hash function.
 * [gorpc](https://github.com/valyala/gorpc) - Simple, fast and scalable RPC library for high load.
 * [raft](https://github.com/hashicorp/raft) - Golang implementation of the Raft consensus protocol, by HashiCorp.
-
+* [torrent](https://github.com/anacrolix/torrent) - BitTorrent client package.
 
 ## Email
 
@@ -509,7 +510,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [portproxy](https://github.com/aybabtme/portproxy) - Simple TCP proxy which adds CORS support to API's which don't support it.
 * [raw](https://github.com/mdlayher/raw) - Package raw enables reading and writing data at the device driver level for a network interface.
 * [sftp](https://github.com/pkg/sftp) - Package sftp implements the SSH File Transfer Protocol as described in https://filezilla-project.org/specs/draft-ietf-secsh-filexfer-02.txt.
-* [tcp_server](https://github.com/firstrow/tcp_server) - A Go library for building tcp servers faster
+* [tcp_server](https://github.com/firstrow/tcp_server) - A Go library for building tcp servers faster.
+* [utp](https://github.com/anacrolix/utp) - Go uTP micro transport protocol implementation.
 
 ## OpenGL
 
