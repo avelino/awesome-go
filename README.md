@@ -95,7 +95,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [waveform](https://github.com/mdlayher/waveform) - Go package capable of generating waveform images from audio streams.
 
 
-## Authentication & OAuth
+## <a name="authentication--oauth"></a>Authentication & OAuth
 
 *Libraries for implementing authentications schemes.*
 
