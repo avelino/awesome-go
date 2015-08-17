@@ -280,7 +280,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gorpc](https://github.com/valyala/gorpc) - Simple, fast and scalable RPC library for high load.
 * [grpc-go](https://github.com/grpc/grpc-go) - The Go language implementation of gRPC. HTTP/2 based RPC.
 * [raft](https://github.com/hashicorp/raft) - Golang implementation of the Raft consensus protocol, by HashiCorp.
-
+* [torrent](https://github.com/anacrolix/torrent) - BitTorrent client package.
+    * [dht](https://godoc.org/github.com/anacrolix/torrent/dht) - BitTorrent Kademlia DHT implementation.
 
 ## Email
 
@@ -510,7 +511,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [portproxy](https://github.com/aybabtme/portproxy) - Simple TCP proxy which adds CORS support to API's which don't support it.
 * [raw](https://github.com/mdlayher/raw) - Package raw enables reading and writing data at the device driver level for a network interface.
 * [sftp](https://github.com/pkg/sftp) - Package sftp implements the SSH File Transfer Protocol as described in https://filezilla-project.org/specs/draft-ietf-secsh-filexfer-02.txt.
-* [tcp_server](https://github.com/firstrow/tcp_server) - A Go library for building tcp servers faster
+* [tcp_server](https://github.com/firstrow/tcp_server) - A Go library for building tcp servers faster.
+* [utp](https://github.com/anacrolix/utp) - Go uTP micro transport protocol implementation.
 
 ## OpenGL
 
