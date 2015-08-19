@@ -247,7 +247,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [cayley](https://github.com/google/cayley) - A graph database with support for multiple backends.
     * [go-couchbase](https://github.com/couchbase/go-couchbase) - Couchbase client in Go
     * [go-couchdb](https://github.com/fjl/go-couchdb) - Yet another CouchDB HTTP API wrapper for Go
-    * [go-redis](https://github.com/go-redis/redis) - Redis client for Golang
     * [gocb](https://github.com/couchbaselabs/gocb) - Official Couchbase Go SDK
     * [gocql](http://gocql.github.io) - A Go language driver for Apache Cassandra.
     * [gomemcache](https://github.com/bradfitz/gomemcache/) - memcache client library for the Go programming language.
@@ -257,6 +256,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [Neo4j-GO](https://github.com/davemeehan/Neo4j-GO) - Neo4j REST Client in golang.
     * [neoism](https://github.com/jmcvetta/neoism) - Neo4j client for Golang
     * [redigo](https://github.com/garyburd/redigo) - Redigo is a Go client for the Redis database.
+    * [redis](https://github.com/go-redis/redis) - Redis client for Golang
     * [redis](https://github.com/hoisie/redis) - A simple, powerful Redis client for Go.
 
 * Search and Analytic Databases
