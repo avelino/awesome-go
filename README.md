@@ -256,6 +256,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [Neo4j-GO](https://github.com/davemeehan/Neo4j-GO) - Neo4j REST Client in golang.
     * [neoism](https://github.com/jmcvetta/neoism) - Neo4j client for Golang
     * [redigo](https://github.com/garyburd/redigo) - Redigo is a Go client for the Redis database.
+    * [redis](https://github.com/go-redis/redis) - Redis client for Golang
     * [redis](https://github.com/hoisie/redis) - A simple, powerful Redis client for Go.
 
 * Search and Analytic Databases
