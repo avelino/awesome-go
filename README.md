@@ -765,6 +765,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [panicparse](https://github.com/maruel/panicparse) - Groups similar goroutines and colorizes stack dump.
 * [peco](https://github.com/peco/peco) - Simplistic interactive filtering tool
 * [pester](https://github.com/sethgrid/pester) - Go HTTP client calls with retries, backoff, and concurrency
+* [pipeline](https://github.com/interactiv/pipeline) - Functional programming library inspired by lodash, underscore
 * [pm](https://github.com/VividCortex/pm) - Process (i.e. goroutine) manager with an HTTP API
 * [profile](https://github.com/davecheney/profile) - Simple profiling support package for Go
 * [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
