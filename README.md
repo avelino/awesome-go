@@ -681,6 +681,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [chidley](https://github.com/gnewton/chidley) - Convert XML to Go structs; also generates equivalent Java/JAXB
     * [enca](https://github.com/endeveit/enca) - Minimal cgo bindings for [libenca](http://cihar.com/software/enca/).
     * [genex](https://github.com/alixaxel/genex) - Count and expand Regular Expressions into all matching Strings
+    * [g0fleece](https://github.com/gnewton/gofleece) - Command line json validator that handles also huge files
     * [go-humanize](https://github.com/dustin/go-humanize) - Formatters for time, numbers, and memory size to human readable format.
     * [go-nmea](https://github.com/adrianmo/go-nmea) - NMEA parser library for the Go language.
     * [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - This package reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.
