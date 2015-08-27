@@ -430,6 +430,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [godist](https://github.com/e-dard/godist) - Various probability distributions, and associated methods.
 * [GoLearn](https://github.com/sjwhitworth/golearn) - General Machine Learning library for Go.
 * [golinear](https://github.com/danieldk/golinear) - liblinear bindings for Go
+* [goml](https://github.com/cdipaolo/goml) - On-line Machine Learning in Go
 * [goRecommend](https://github.com/timkaye11/goRecommend) - Recommendation Algorithms library written in Go.
 * [libsvm](https://github.com/datastream/libsvm) - libsvm golang version derived work based on LIBSVM 3.14.
 * [mlgo](https://code.google.com/p/mlgo/) - This project aims to provide minimalistic machine learning algorithms in Go.
