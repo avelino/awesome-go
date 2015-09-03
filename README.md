@@ -505,7 +505,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [ethernet](https://github.com/mdlayher/ethernet) - Package ethernet implements marshaling and unmarshaling of IEEE 802.3 Ethernet II frames and IEEE 802.1Q VLAN tags.
 * [ftp](https://github.com/jlaffaye/ftp) - Package ftp implements a FTP client as described in [RFC 959](http://tools.ietf.org/html/rfc959).
 * [go-stun](https://github.com/ccding/go-stun) - A go implementation of the STUN client (RFC 3489 and RFC 5389).
-* [gopacket](https://github.com/google/gopacket) - A Go library for packet processing with libpacp bindings
+* [gopacket](https://github.com/google/gopacket) - A Go library for packet processing with libpcap bindings
 * [gopcap](https://github.com/akrennmair/gopcap) - A Go wrapper for libpcap
 * [gosnmp](https://github.com/soniah/gosnmp) - Native Go library for performing SNMP actions
 * [gotcp](https://github.com/gansidui/gotcp) - A Go package for quickly writing tcp applications
