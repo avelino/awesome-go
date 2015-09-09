@@ -49,6 +49,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Science and Data Analysis](#science-and-data-analysis)
     - [Security](#security)
     - [Serialization](#serialization)
+    - [Storage Management](#storage-management)
     - [Template Engines](#template-engines)
     - [Testing](#testing)
     - [Text Processing](#text-processing)
@@ -623,6 +624,9 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform
 * [yakvs](https://github.com/sci4me/yakvs) - A small, networked, in-memory key-value store.
 
+## Storage Management
+
+* [REX-Ray](https://github.com/emccode/rexray) - A CLI/Daemon/API/Library providing external storage platform management for the lifecycle of remote volumes.
 
 ## Template Engines
 
