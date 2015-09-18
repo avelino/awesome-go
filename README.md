@@ -44,8 +44,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Networking](#networking)
     - [OpenGL](#opengl)
     - [ORM](#orm)
-    - [Query Language](#query-language)
     - [Package Management](#package-management)
+    - [Query Language](#query-language)
     - [Resource Embedding](#resource-embedding)
     - [Science and Data Analysis](#science-and-data-analysis)
     - [Security](#security)
@@ -546,10 +546,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Xorm](https://github.com/go-xorm/xorm) - Simple and powerful ORM for Go.
 * [Zoom](https://github.com/albrow/zoom) - A blazing-fast datastore and querying engine built on Redis.
 
-## Query Language
-
-* [graphql-go](https://github.com/chris-ramon/graphql-go) - An implementation of GraphQL for Go.
-
 
 ## Package Management
 
@@ -564,6 +560,11 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [johnny-deps](https://github.com/VividCortex/johnny-deps) - Minimal dependency version using Git
 * [nut](https://github.com/jingweno/nut) - Vendor Go dependencies
 * [VenGO](https://github.com/DamnWidget/VenGO) - create and manage exportable isolated go virtual environments
+
+
+## Query Language
+
+* [graphql-go](https://github.com/chris-ramon/graphql-go) - An implementation of GraphQL for Go.
 
 
 ## Resource Embedding
