@@ -44,6 +44,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Networking](#networking)
     - [OpenGL](#opengl)
     - [ORM](#orm)
+    - [Query Language](#query-language)
     - [Package Management](#package-management)
     - [Resource Embedding](#resource-embedding)
     - [Science and Data Analysis](#science-and-data-analysis)
@@ -544,6 +545,10 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [upper.io/db](https://github.com/upper/db) - Single interface for interacting with different data sources through the use of adapters that wrap mature database drivers.
 * [Xorm](https://github.com/go-xorm/xorm) - Simple and powerful ORM for Go.
 * [Zoom](https://github.com/albrow/zoom) - A blazing-fast datastore and querying engine built on Redis.
+
+## Query Language
+
+* [graphql-go](https://github.com/chris-ramon/graphql-go) - An implementation of GraphQL for Go.
 
 
 ## Package Management
