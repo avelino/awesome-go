@@ -972,7 +972,7 @@ Software written in Go.
 
 # Resources
 
-Where to discover new Go libraries.
+* [GitHub Trending](https://github.com/trending?l=go) - Find what repositories the GitHub community is most excited about today.
 
 
 ## Benchmarks
