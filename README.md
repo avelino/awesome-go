@@ -650,6 +650,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [assert](https://github.com/bluesuncorp/assert) - Basic Assertion Library used along side native go testing, with building blocks for custom assertions
     * [assert](https://github.com/bmizerany/assert) - Asserts to Go testing
     * [bro](https://github.com/marioidival/bro) - Watch files in directory and run tests for them
+    * [frisby](https://github.com/verdverm/frisby) - a REST API testing framework
     * [ginkgo](http://onsi.github.io/ginkgo/) - BDD Testing Framework for Go
     * [go-mutesting](https://github.com/zimmski/go-mutesting) - Mutation testing for Go source code
     * [goblin](https://github.com/franela/goblin) - Mocha like testing framework fo Go
