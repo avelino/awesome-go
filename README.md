@@ -700,6 +700,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
 * Utility
     * [gotabulate](https://github.com/bndr/gotabulate) - Easily pretty-print your tabular data with Go.
+    * [kace](https://github.com/codemodus/kace) - Common case conversions covering common initialisms.
+    * [parth](https://github.com/codemodus/parth) - URL path segmentation parsing.
     * [xurls](https://github.com/mvdan/xurls) - Extract urls from text
 
 
@@ -861,6 +863,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 #### Libraries for creating HTTP middlewares
 
 * [alice](https://github.com/justinas/alice) - Painless middleware chaining for Go.
+* [catena](https://github.com/codemodus/catena) - http.Handler wrapper catenation (same API as "chain").
+* [chain](https://github.com/codemodus/chain) - Handler wrapper chaining with scoped data (net/context-based "middleware").
 * [go-wrap](https://github.com/go-on/wrap) - Small middlewares package for net/http.
 * [interpose](https://github.com/carbocation/interpose) - Minimalist net/http middleware for golang
 * [muxchain](https://github.com/stephens2424/muxchain) - Lightweight middleware for net/http.
@@ -903,6 +907,7 @@ Go software and plugins.
 ## Go Tools
 
 * [colorgo](https://github.com/songgao/colorgo) - A wrapper around `go` command for colorized `go build` output.
+* [go-pkg-complete](https://github.com/skelterjohn/go-pkg-complete) - Bash completion for go and wgo.
 
 ## Software Packages
 
