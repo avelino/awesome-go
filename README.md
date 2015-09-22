@@ -861,6 +861,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 #### Libraries for creating HTTP middlewares
 
 * [alice](https://github.com/justinas/alice) - Painless middleware chaining for Go.
+* [catena](https://github.com/codemodus/catena) - http.Handler wrapper catenation (same API as "chain").
 * [chain](https://github.com/codemodus/chain) - Handler wrapper chaining with scoped data (net/context-based "middleware").
 * [go-wrap](https://github.com/go-on/wrap) - Small middlewares package for net/http.
 * [interpose](https://github.com/carbocation/interpose) - Minimalist net/http middleware for golang
