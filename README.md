@@ -564,7 +564,10 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 ## Query Language
 
+* [graphql](https://github.com/tmc/graphql) - graphql parser + utilities.
+* [graphql](https://github.com/sevki/graphql) - GraphQL implementation in go.
 * [graphql-go](https://github.com/chris-ramon/graphql-go) - An implementation of GraphQL for Go.
+
 
 
 ## Resource Embedding
