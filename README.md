@@ -124,8 +124,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [codegangsta/cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go.
 * [kingpin](https://github.com/alecthomas/kingpin) - A command line and flag parser supporting sub commands.
 * [liner](https://github.com/peterh/liner) - A Go readline-like library for command-line interfaces.
-* [readline](https://github.com/chzyer/readline) - A pure golang implementation that provide most of features in GNU-Readline under MIT license.
 * [mitchellh/cli](https://github.com/mitchellh/cli) - A Go library for implementing command-line interfaces.
+* [readline](https://github.com/chzyer/readline) - A pure golang implementation that provide most of features in GNU-Readline under MIT license.
 * [ukautz/clif](https://github.com/ukautz/clif) - A small command line interface framework.
 
 
