@@ -624,8 +624,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Caddy](https://github.com/mholt/caddy) - Caddy is an alternative, HTTP/2 web server that's easy to configure and use.
 * [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform
-* [yakvs](https://github.com/sci4me/yakvs) - A small, networked, in-memory key-value store.
 * [Træfɪk](http://traefik.github.io/) - Automated reverse proxy and load-balancer for Docker, Mesos, Consul, Etcd...
+* [yakvs](https://github.com/sci4me/yakvs) - A small, networked, in-memory key-value store.
 
 
 ## Template Engines
