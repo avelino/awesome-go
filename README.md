@@ -977,6 +977,7 @@ Software written in Go.
 * [restic](https://github.com/restic/restic) - De-duplicating backup program.
 * [Seaweed File System](https://github.com/chrislusf/seaweedfs) - Fast, Simple and Scalable Distributed File System with O(1) disk seek.
 * [shell2http](https://github.com/msoap/shell2http) - Executing shell commands via http server (for prototyping or remote control)
+* [shell2telegram](https://github.com/msoap/shell2telegram) - Create Telegram bot from command-line
 * [syncthing](http://www.syncthing.net/) - An open, decentralized file synchronization tool and protocol.
 * [Tenyks](https://github.com/kyleterry/tenyks) - Service oriented IRC bot using Redis and JSON for messaging.
 * [toxiproxy](https://github.com/shopify/toxiproxy) - Proxy to simulate network and system conditions for automated tests.
