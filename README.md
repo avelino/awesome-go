@@ -180,6 +180,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [cuckoofilter](https://github.com/seiflotfy/cuckoofilter) - Cuckoo filter: a good alternative to a counting bloom filter implemented in Go.
 * [encoding](https://github.com/surge/encoding) - Integer Compression Libraries for Go.
 * [go-datastructures](https://github.com/Workiva/go-datastructures) - a collection of useful, performant, and thread-safe data structures
+* [go-geoindex](https://github.com/hailocab/go-geoindex) - In-memory geo index.
 * [golang-set](https://github.com/deckarep/golang-set) - Thread-Safe and Non-Thread-Safe high-performance sets for Go.
 * [goskiplist](https://github.com/ryszard/goskiplist) - A skip list implementation in Go.
 * [mafsa](https://github.com/smartystreets/mafsa) - MA-FSA implementation with Minimal Perfect Hashing
@@ -187,7 +188,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [trie](https://github.com/derekparker/trie) - Trie implementation in Go
 * [ttlcache](https://github.com/diegobernardes/ttlcache) - An in-memory LRU string-interface{} map with expiration for golang
 * [willf/bloom](https://github.com/willf/bloom) - Go package implementing Bloom filters.
-* [go-geoindex](https://github.com/hailocab/go-geoindex) - In-memory geo index.
 
 ## Database
 
