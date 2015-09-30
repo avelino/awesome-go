@@ -521,6 +521,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [sftp](https://github.com/pkg/sftp) - Package sftp implements the SSH File Transfer Protocol as described in https://filezilla-project.org/specs/draft-ietf-secsh-filexfer-02.txt.
 * [tcp_server](https://github.com/firstrow/tcp_server) - A Go library for building tcp servers faster.
 * [utp](https://github.com/anacrolix/utp) - Go uTP micro transport protocol implementation.
+* [link](https://github.com/funny/link) - A Go library for building high-performance tcp servers.
 
 ## OpenGL
 
