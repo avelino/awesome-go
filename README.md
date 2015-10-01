@@ -163,7 +163,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Tools for help with continuous integration*
 
 * [goveralls](https://github.com/mattn/goveralls) - Go integration for Coveralls.io continuous code coverage tracking system.
-* [overalls](https://github.com/bluesuncorp/overalls) - Multi-Package go project coverprofile for tools like goveralls
+* [overalls](https://github.com/go-playground/overalls) - Multi-Package go project coverprofile for tools like goveralls
 
 ## CSS Preprocessors
 
@@ -649,7 +649,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries for testing codebases and generating test data.*
 
 * Testing Frameworks
-    * [assert](https://github.com/bluesuncorp/assert) - Basic Assertion Library used along side native go testing, with building blocks for custom assertions
+    * [assert](https://github.com/go-playground/assert) - Basic Assertion Library used along side native go testing, with building blocks for custom assertions
     * [assert](https://github.com/bmizerany/assert) - Asserts to Go testing
     * [bro](https://github.com/marioidival/bro) - Watch files in directory and run tests for them
     * [frisby](https://github.com/verdverm/frisby) - a REST API testing framework
@@ -801,7 +801,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries for validation.*
 
 * [govalidator](https://github.com/asaskevich/govalidator) - Validators and sanitizers for strings, numerics, slices and structs
-* [validator](https://github.com/bluesuncorp/validator) - Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving
+* [validator](https://github.com/go-playground/validator) - Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving
 
 
 ## Version Control
