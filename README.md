@@ -49,6 +49,11 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Science and Data Analysis](#science-and-data-analysis)
     - [Security](#security)
     - [Serialization](#serialization)
+    - [Software Design Patterns](#software-design-patterns)
+        - [Creational patterns](#creational-patterns)
+        - [Structural patterns](#structural-patterns)
+        - [Behavioral patterns](#behavioral-patterns)
+        - [Concurrency patterns](#concurrency-patterns)
     - [Template Engines](#template-engines)
     - [Testing](#testing)
     - [Text Processing](#text-processing)
@@ -274,7 +279,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
 * [timeutil](https://github.com/leekchan/timeutil) - Useful extensions (Timedelta, Strftime, ...) to the golang's time package.
-
 
 ## Distributed Systems
 
@@ -627,6 +631,19 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform
 * [yakvs](https://github.com/sci4me/yakvs) - A small, networked, in-memory key-value store.
 
+## Software Design Patterns
+
+*Packages that implements software design patterns in golang code. [Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern), [dofactory.com](http://www.dofactory.com/net/design-patterns), [google search](https://www.google.co.za/search?q=software+design+patterns).*
+
+### Creational patterns
+
+### Structural patterns
+
+### Behavioral patterns
+
+* [Visitor pattern](https://gist.github.com/francoishill/f0624e7760aacdc96b42)
+
+### Concurrency patterns
 
 ## Template Engines
 
