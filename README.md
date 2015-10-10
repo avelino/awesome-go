@@ -678,6 +678,9 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [gogenerate](https://github.com/arschles/gogenerate) - A Scalacheck-like library for Go
     * [Tavor](https://github.com/zimmski/tavor) - A generic fuzzing and delta-debugging framework
 
+* Object Factories
+    * [factory-go](https://github.com/bluele/factory-go) - A test fixtures replacement for Go.
+
 ## Text Processing
 
 *Libraries for parsing and manipulating texts.*
