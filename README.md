@@ -149,7 +149,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for configuration parsing*
 
 * [config](https://github.com/olebedev/config) - JSON or YAML configuration wrapper with environment variables and flags parsing.
-* [config](https://github.com/go-ozzo/config) - Configuration parsing (JSON, YAML, TOML supported), accessing, and object configuring.
 * [env](https://github.com/caarlos0/env) - Parse environment variables to Go structs (with defaults).
 * [envcfg](https://github.com/tomazk/envcfg) - Un-marshaling environment variables to Go structs.
 * [envconf](https://github.com/ian-kent/envconf) - Configuration from environment
@@ -157,6 +156,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gofigure](https://github.com/ian-kent/gofigure) - Go application configuration made easy
 * [ini](https://github.com/go-ini/ini) - Go package for read and write INI files
 * [mini](https://github.com/FogCreek/mini) - A golang package for parsing ini-style configuration files
+* [ozzo-config](https://github.com/go-ozzo/ozzo-config) - Configuration parsing (JSON, YAML, TOML supported), accessing, and object configuring.
 * [viper](https://github.com/spf13/viper) - Go configuration with fangs
 
 ## Continuous Integration
