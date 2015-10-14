@@ -886,6 +886,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [negroni](https://github.com/codegangsta/negroni) - Idiomatic HTTP middleware for Golang.
 * [render](https://github.com/unrolled/render) - Go package for easily rendering JSON, XML, and HTML template responses.
 * [stats](https://github.com/thoas/stats) - A Go middleware that stores various information about your web application.
+* [xhandler](https://github.com/rs/xhandler) - A bridge between `net/context` and `http.Handler`
 
 # Tools
 
