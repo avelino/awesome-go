@@ -936,7 +936,6 @@ Software written in Go.
 * [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
 * [dogo](https://github.com/liudng/dogo) - Monitoring changes in the source file and automatically compile and run (restart).
 * [EasySSH](https://github.com/hypersleep/easyssh) - Golang package for easy remote execution through SSH and SCP downloading.
-* [gaudi](http://gaudi.io/) - Gaudi automates the setup of isolated and decoupled dev environments.
 * [Go Metrics](https://github.com/rcrowley/go-metrics) - Go port of Coda Hale's Metrics library: https://github.com/codahale/metrics.
 * [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update.
 * [gobrew](https://github.com/cryptojuice/gobrew) - gobrew lets you easily switch between multiple versions of go.
