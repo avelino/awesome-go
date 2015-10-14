@@ -196,6 +196,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [bolt](https://github.com/boltdb/bolt) - A low-level key/value database for Go.
 * [cache2go](https://github.com/muesli/cache2go) - An in-memory key:value cache which supports automatic invalidation based on timeouts.
+* [cockroach](https://github.com/cockroachdb/cockroach) - A Scalable, Geo-Replicated, Transactional Datastore
 * [couchcache](https://github.com/codingsince1985/couchcache) - A RESTful caching micro-service backed by Couchbase server.
 * [diskv](https://github.com/peterbourgon/diskv) - A home-grown disk-backed key-value store.
 * [forestdb](https://github.com/couchbase/goforestdb) - Go bindings for ForestDB.
