@@ -282,6 +282,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Packages that help with building Distributed Systems.*
 
+* [celeriac](https://github.com/svcavallar/celeriac.v1) - A library for adding support for interacting and monitoring Celery workers, tasks and events in Go
 * [flowgraph](https://github.com/vectaport/flowgraph) - MPI-style ready-send coordination layer.
 * [go-jump](https://github.com/dgryski/go-jump) - A port of Google's "Jump" Consistent Hash function.
 * [gorpc](https://github.com/valyala/gorpc) - Simple, fast and scalable RPC library for high load.
