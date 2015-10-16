@@ -371,9 +371,10 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gosx-notifier](https://github.com/deckarep/gosx-notifier) - OSX Desktop Notifications library for Go.
 * [gotk3](https://github.com/conformal/gotk3) - Go bindings for GTK3.
 * [gxui](https://github.com/google/gxui) - A Go cross platform UI library.
+* [sciter](https://github.com/oskca/sciter) - Go bindings for Sciter: the Embeddable HTML/CSS/script engine for modern desktop UI development.
 * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go.
 * [walk](https://github.com/lxn/walk) - Windows application library kit for Go.
-* [sciter](https://github.com/oskca/sciter) - Go bindings for Sciter: the Embeddable HTML/CSS/script engine for modern desktop UI development.
+
 
 ## Hardware
 
