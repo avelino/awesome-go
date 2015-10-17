@@ -412,6 +412,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-log](https://github.com/ian-kent/go-log) - A log4j implementation in Go.
 * [go-logger](https://github.com/apsdehal/go-logger) - Simple logger of Go Programs, with level handlers.
 * [log-voyage](https://github.com/firstrow/logvoyage) - Full-featured logging saas written in golang.
+* [log15](https://github.com/inconshreveable/log15) - Simple, powerful logging for Go
 * [logex](https://github.com/chzyer/logex) - An golang log lib, supports tracking and level, wrap by standard log lib
 * [logger](http://github.com/azer/logger) - Minimalistic logging library for Go.
 * [logrus](https://github.com/Sirupsen/logrus) - a structured logger for Go.
