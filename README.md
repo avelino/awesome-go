@@ -865,6 +865,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [web.go](https://github.com/hoisie/web) - A simple framework to write webapps in Go.
 * [Zerver](https://github.com/cosiner/zerver) - Zerver is a expressive, modular, feature completed RESTful framework.
 * [zeus](https://github.com/daryl/zeus) - A very simple and fast HTTP router for Go.
+* [go-swagger](https://github.com/go-swagger/go-swagger) - A toolkit for working with swagger 2.0 in go web applications (framework agnostic)
 
 
 ### Middlewares
