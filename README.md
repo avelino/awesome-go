@@ -587,6 +587,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [evaler](https://github.com/soniah/evaler) - A simple floating point arithmetic expression evaluator
 * [ewma](https://github.com/VividCortex/ewma) - Exponentially-weighted moving averages
 * [geom](https://github.com/skelterjohn/geom) - 2D geometry for golang
+* [go-dsp](https://github.com/mjibson/go-dsp) - Digital Signal Processing for Go
 * [go-fn](https://code.google.com/p/go-fn/) - Mathematical functions written in Go language, that are not covered by math pkg
 * [go-gt](https://code.google.com/p/go-gt/) - Graph theory algorithms written in "Go" language
 * [go.matrix](https://github.com/skelterjohn/go.matrix) - linear algebra for go (has been stalled)
