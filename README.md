@@ -284,14 +284,18 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Packages that help with building Distributed Systems.*
 
-* [celeriac](https://github.com/svcavallar/celeriac.v1) - A library for adding support for interacting and monitoring Celery workers, tasks and events in Go
-* [flowgraph](https://github.com/vectaport/flowgraph) - MPI-style ready-send coordination layer.
-* [go-jump](https://github.com/dgryski/go-jump) - A port of Google's "Jump" Consistent Hash function.
-* [gorpc](https://github.com/valyala/gorpc) - Simple, fast and scalable RPC library for high load.
-* [grpc-go](https://github.com/grpc/grpc-go) - The Go language implementation of gRPC. HTTP/2 based RPC.
-* [raft](https://github.com/hashicorp/raft) - Golang implementation of the Raft consensus protocol, by HashiCorp.
-* [torrent](https://github.com/anacrolix/torrent) - BitTorrent client package.
-    * [dht](https://godoc.org/github.com/anacrolix/torrent/dht) - BitTorrent Kademlia DHT implementation.
+* Distributed Systems
+    * [glow](https://github.com/chrislusf/glow) - An easy-to-use distributed computation system written in Go, an alternative to Hadoop Map Reduce, Spark, Flint, etc. 
+
+* Libraries
+    * [celeriac](https://github.com/svcavallar/celeriac.v1) - A library for adding support for interacting and monitoring Celery workers, tasks and events in Go
+    * [flowgraph](https://github.com/vectaport/flowgraph) - MPI-style ready-send coordination layer.
+    * [go-jump](https://github.com/dgryski/go-jump) - A port of Google's "Jump" Consistent Hash function.
+    * [gorpc](https://github.com/valyala/gorpc) - Simple, fast and scalable RPC library for high load.
+    * [grpc-go](https://github.com/grpc/grpc-go) - The Go language implementation of gRPC. HTTP/2 based RPC.
+    * [raft](https://github.com/hashicorp/raft) - Golang implementation of the Raft consensus protocol, by HashiCorp.
+    * [torrent](https://github.com/anacrolix/torrent) - BitTorrent client package.
+        * [dht](https://godoc.org/github.com/anacrolix/torrent/dht) - BitTorrent Kademlia DHT implementation.
 
 ## Email
 
