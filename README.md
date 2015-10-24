@@ -618,9 +618,9 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 ## Serialization
 
-*Libraries and tools for binary serialization*
+*Libraries and tools for binary or text serialization*
 
-* [cbor](https://github.com/2tvenom/cbor) - Golang library for working with cbor binary format
+* [go-codec](https://github.com/ugorji/go) - High Performance, feature-Rich, idiomatic encode, decode and rpc library for msgpack, cbor and json, with runtime-based OR code-generation support
 * [go-capnproto](https://github.com/glycerine/go-capnproto) - Cap'n Proto library and parser for go
   * [bambam](https://github.com/glycerine/bambam) - generator for Cap'n Proto schemas from go.
 * [gogoprotobuf](https://github.com/gogo/protobuf) - Protocol Buffers for Go with Gadgets
