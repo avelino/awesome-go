@@ -153,6 +153,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [envcfg](https://github.com/tomazk/envcfg) - Un-marshaling environment variables to Go structs.
 * [envconf](https://github.com/ian-kent/envconf) - Configuration from environment
 * [envconfig](https://github.com/vrischmann/envconfig) - Read your configuration from environment variables.
+* [gcfg](https://github.com/go-gcfg/gcfg) - read INI-style configuration files into Go structs; supports user-defined types and subsections
 * [gofigure](https://github.com/ian-kent/gofigure) - Go application configuration made easy
 * [ini](https://github.com/go-ini/ini) - Go package for read and write INI files
 * [mini](https://github.com/FogCreek/mini) - A golang package for parsing ini-style configuration files
@@ -217,6 +218,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-mysql-elasticsearch](https://github.com/siddontang/go-mysql-elasticsearch) - Sync your MySQL data into Elasticsearch automatically.
 * [goose](https://bitbucket.org/liamstask/goose) - Database migration tool. You can manage your database's evolution by creating incremental SQL or Go scripts.
 * [kingshard](https://github.com/flike/kingshard) - kingshard is a high performance proxy for MySQL powered by Golang.
+* [migrate](https://github.com/mattes/migrate) - Database migration handling in Golang support MySQL,PostgreSQL,Cassandra and SQLite.
 * [myreplication](https://github.com/2tvenom/myreplication) - MySql binary log replication listener. Support statement and row based replication.
 * [orchestrator](https://github.com/outbrain/orchestrator) - MySQL replication topology manager & visualizer
 * [pgweb](https://github.com/sosedoff/pgweb) - A web-based PostgreSQL database browser
@@ -849,6 +851,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [goose](https://github.com/ian-kent/goose) - Server Sent Events in Go
 * [Gorilla](https://github.com/gorilla/) - Gorilla is a web toolkit for the Go programming language.
 * [httprouter](https://github.com/julienschmidt/httprouter) - A high performance router. Use this and the standard http handlers to form a very high performance web framework.
+* [httptreemux](https://github.com/dimfeld/httptreemux) - High-speed, flexible tree-based HTTP router for Go.Inspiration from httprouter
 * [Macaron](https://github.com/Unknwon/macaron) - Macaron is a high productive and modular design web framework in Go.
 * [mango](https://github.com/paulbellamy/mango) - Mango is a modular web-application framework for Go, inspired by Rack, and PEP333.
 * [Martini](https://github.com/go-martini/martini) - Martini is a powerful package for quickly writing modular web applications/services in Golang.
