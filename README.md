@@ -443,6 +443,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-pr](https://github.com/daviddengcn/go-pr) - Pattern recognition package in Go lang.
 * [gobrain](https://github.com/goml/gobrain) - Neural Networks written in go
 * [godist](https://github.com/e-dard/godist) - Various probability distributions, and associated methods.
+* [goga](https://github.com/tomcraven/goga) - Genetic algorithm library for Go.
 * [GoLearn](https://github.com/sjwhitworth/golearn) - General Machine Learning library for Go.
 * [golinear](https://github.com/danieldk/golinear) - liblinear bindings for Go
 * [goml](https://github.com/cdipaolo/goml) - On-line Machine Learning in Go
