@@ -937,6 +937,7 @@ Go software and plugins.
 ## Go Tools
 
 * [colorgo](https://github.com/songgao/colorgo) - A wrapper around `go` command for colorized `go build` output.
+* [gb](https://getgb.io/) - An easy to use project based build tool for the Go programming language.
 * [go-pkg-complete](https://github.com/skelterjohn/go-pkg-complete) - Bash completion for go and wgo.
 
 ## Software Packages
