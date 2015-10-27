@@ -375,7 +375,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-gtk](http://mattn.github.io/go-gtk/) - Go bindings for GTK
 * [go-qml](https://github.com/go-qml/qml) - QML support for the Go language
 * [gosx-notifier](https://github.com/deckarep/gosx-notifier) - OSX Desktop Notifications library for Go.
-* [gotk3](https://github.com/conformal/gotk3) - Go bindings for GTK3.
+* [gotk3](https://github.com/gotk3/gotk3) - Go bindings for GTK3.
 * [gxui](https://github.com/google/gxui) - A Go cross platform UI library.
 * [sciter](https://github.com/oskca/sciter) - Go bindings for Sciter: the Embeddable HTML/CSS/script engine for modern desktop UI development.
 * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go.
