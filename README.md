@@ -774,6 +774,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-debug](https://github.com/tj/go-debug) - Conditional debug logging for Golang libraries & applications
 * [go-dry](https://github.com/ungerik/go-dry) - DRY (don't repeat yourself) package for Go.
 * [go-rate](https://github.com/beefsack/go-rate) -  A timed rate limiter for Go
+* [go-trigger](https://github.com/sadlil/go-trigger) - Go-lang global event triggerer, Register Events with a id and trigger the event from anywhere from your project.
 * [go-underscore](https://github.com/tobyhede/go-underscore) - A useful collection of helpfully functional Go collection utilities.
 * [goback](https://github.com/carlescere/goback) - Go simple exponential backoff package.
 * [godaemon](https://github.com/VividCortex/godaemon) - Utility to write daemons
