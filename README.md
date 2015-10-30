@@ -606,7 +606,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gohistogram](https://github.com/VividCortex/gohistogram) - Approximate histograms for data streams
 * [gonum/mat64](https://github.com/gonum/matrix) - The general purpose package for matrix computation. Package mat64 provides basic linear algebra operations for float64 matrices.
 * [gonum/plot](https://github.com/gonum/plot) - gonum/plot provides an API for building and drawing plots in Go.
-* [goraph](https://github.com/gyuho/goraph) - A pure Go graph theory library(data structure, algorith visualization)
+* [goraph](https://github.com/gyuho/goraph) - Package goraph implements graph, tree data structures and algorithms.
 * [gostat](https://code.google.com/p/gostat/) - A statistics library for the go language
 * [mudlark-go](https://code.google.com/p/mudlark-go-pkgs/) - A collection of packages providing (hopefully) useful code for use in software using Google's Go programming language.
 * [pagerank](https://github.com/alixaxel/pagerank) - Weighted PageRank algorithm implemented in Go
@@ -1046,6 +1046,7 @@ Where to discover new Go libraries.
 * [Building Web Apps With Go](http://codegangsta.gitbooks.io/building-web-apps-with-go/)
 * [Go Bootcamp](http://golangbootcamp.com)
 * [GoBooks](https://github.com/dariubs/GoBooks) - A curated list of Go books
+* [Learn computer science with Go](https://github.com/gyuho/learn)
 * [Learning Go](http://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
 * [Network Programming With Go](http://jan.newmarch.name/go/)
 
