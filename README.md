@@ -834,6 +834,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [git2go](https://github.com/libgit2/git2go) - Go bindings for libgit2.
 * [go-vcs](https://github.com/sourcegraph/go-vcs) - manipulate and inspect VCS repositories in Go.
 * [hgo](https://github.com/beyang/hgo) - Hgo is a collection of Go packages providing read-access to local Mercurial repositories.
+* [webhooks](https://github.com/go-playground/webhooks) - Webhook reciever for GitHub.. more services to come
 
 
 ## Video
