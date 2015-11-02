@@ -766,6 +766,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [TheMovieDb](https://github.com/jbrodriguez/go-tmdb) - A simple golang package to communicate with [themoviedb.org](https://themoviedb.org)
 * [translate](https://github.com/poorny/translate) - Go online translation package
 * [tumblr](https://github.com/mattcunningham/gumblr) - Go wrapper for the Tumblr v2 API.
+* [webhooks](https://github.com/go-playground/webhooks) - Webhook reciever for GitHub.. more services to come
 
 ## Utilities
 
@@ -834,7 +835,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [git2go](https://github.com/libgit2/git2go) - Go bindings for libgit2.
 * [go-vcs](https://github.com/sourcegraph/go-vcs) - manipulate and inspect VCS repositories in Go.
 * [hgo](https://github.com/beyang/hgo) - Hgo is a collection of Go packages providing read-access to local Mercurial repositories.
-* [webhooks](https://github.com/go-playground/webhooks) - Webhook reciever for GitHub.. more services to come
 
 
 ## Video
