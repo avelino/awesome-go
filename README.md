@@ -987,6 +987,7 @@ Software written in Go.
 * [gocc](https://github.com/goccmack/gocc) - Gocc is a compiler kit for Go written in Go.
 * [Gor](https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time.
 * [heka](https://github.com/mozilla-services/heka) - universal tool for data processing from Mozilla. Large collection of built-in plugins. Extendable via Go and Lua plugin API.
+* [hsync](http://ambrevar.bitbucket.org/hsync/) - A filesystem hierarchy synchronizer
 * [hugo](http://gohugo.io/) - A Fast and Modern Static Website Engine
 * [Juju](https://juju.ubuntu.com/) - Cloud-agnostic service deployment and orchestration - supports EC2, Azure, Openstack, MAAS and more.
 * [limetext](http://limetext.org/) Lime Text is a powerful and elegant text editor primarily developed in Go that aims to be a Free and open-source software successor to Sublime Text.
