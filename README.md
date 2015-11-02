@@ -526,6 +526,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-stun](https://github.com/ccding/go-stun) - A go implementation of the STUN client (RFC 3489 and RFC 5389).
 * [gopacket](https://github.com/google/gopacket) - A Go library for packet processing with libpcap bindings
 * [gopcap](https://github.com/akrennmair/gopcap) - A Go wrapper for libpcap
+* [goshark](https://github.com/sunwxg/goshark) - Package goshark use tshark to decode IP packet and create data struct to analyse packet.
 * [gosnmp](https://github.com/soniah/gosnmp) - Native Go library for performing SNMP actions
 * [gotcp](https://github.com/gansidui/gotcp) - A Go package for quickly writing tcp applications
 * [graval](https://github.com/koofr/graval) - An experimental FTP server framework.
