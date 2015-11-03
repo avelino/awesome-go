@@ -173,6 +173,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [c6](https://github.com/c9s/c6) - High performance SASS compatible-implementation compiler written in Go
 * [gcss](https://github.com/yosssi/gcss) - Pure Go CSS Preprocessor.
+* [go-libsass](https://github.com/wellington/go-libsass) - Go wrapper to the 100% Sass compatible libsass project.
 
 ## Data Structures
 
@@ -1009,6 +1010,7 @@ Software written in Go.
 * [toxiproxy](https://github.com/shopify/toxiproxy) - Proxy to simulate network and system conditions for automated tests.
 * [tsuru](http://www.tsuru.io/) - An extensible and open source Platform as a Service software.
 * [websysd](https://github.com/ian-kent/websysd) - Web based process manager (like Marathon or Upstart)
+* [wellington](https://github.com/wellington/wellington) - Sass project management tool, extends the language with sprite functions (like Compass)
 
 
 
