@@ -230,6 +230,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *SQL query builder, libraries for building and using SQL.*
 
+* [dat](https://github.com/mgutz/dat) - Go Postgres Data Access Toolkit
 * [Dotsql](https://github.com/gchaincl/dotsql) - Go library that helps you keep sql files in one place and use it with ease.
 * [goqu](https://github.com/doug-martin/goqu) - An idiomatic SQL builder and query library.
 * [scaneo](https://github.com/variadico/scaneo) - Generate Go code to convert database rows into arbitrary structs.
