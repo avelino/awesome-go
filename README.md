@@ -33,6 +33,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Forms](#forms)
     - [Game Development](#game-development)
     - [Generation & Generics](#generation--generics)
+    - [Go Compilers](#go-compilers)
     - [GUI](#gui)
     - [Hardware](#hardware)
     - [Images](#images)
@@ -373,6 +374,15 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gen](https://github.com/clipperhouse/gen) - Code generation tool for ‘generics’-like functionality.
 * [go-linq](https://github.com/ahmetalpbalkan/go-linq) - .NET LINQ-like query methods for Go.
 * [pkgreflect](https://github.com/ungerik/pkgreflect) - A Go preprocessor for package scoped reflection.
+
+
+## Go Compilers
+
+*Tools for compiling Go to other languages*
+
+* [gopherjs](https://github.com/gopherjs/gopherjs) - A compiler from Go to JavaScript.
+* [llgo](https://github.com/go-llvm/llgo) - LLVM-based compiler for Go.
+* [tardisgo](https://github.com/tardisgo/tardisgo) - Golang to Haxe to CPP/CSharp/Java/JavaScript transpiler.
 
 
 ## GUI
