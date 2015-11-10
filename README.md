@@ -770,7 +770,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [shopify](https://github.com/rapito/go-shopify) - Go Library to make CRUD request to the Shopify API.
 * [slack](https://github.com/nlopes/slack) - Slack API in Go.
 * [smite](https://github.com/sergiotapia/smitego) - Go package to wraps access to the Smite game API.
-* [snapchat](https://github.com/jamieomatthews/gosnap) - Go wrapper for the snapchat API
+* [snapchat](https://github.com/neuegram/ghost) - Go Library for the Snapchat API.
 * [spotify](https://github.com/rapito/go-spotify) - Go Library to access Spotify WEB API.
 * [steam](https://github.com/sostronk/go-steam) - Go Library to interact with Steam game servers.
 * [stripe](https://github.com/stripe/stripe-go) - Go client for the Stripe API
