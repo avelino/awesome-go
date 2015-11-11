@@ -180,6 +180,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Generic datastructures and algorithms in Go.*
 
+* [BinSearch](https://github.com/AlasdairF/BinSearch) - Super-efficient, in-memory key/value data store, including serialization.
 * [bitset](https://github.com/willf/bitset) - Go package implementing bitsets.
 * [bloom](https://github.com/surge/bloom) - Bloom filters implemented in Go.
 * [boomfilters](https://github.com/tylertreat/BoomFilters) - probabilistic data structures for processing continuous, unbounded streams
@@ -455,6 +456,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries for Machine Learning.*
 
 * [bayesian](https://github.com/jbrukh/bayesian) - Naive Bayesian Classification for Golang.
+* [Classifier](https://github.com/AlasdairF/Classifier) - Text classifier for Go, aka document categorization.
 * [CloudForest](https://github.com/ryanbressler/CloudForest) - Fast, flexible, multi-threaded ensembles of decision trees for machine learning in pure Go.
 * [go-fann](https://github.com/white-pony/go-fann) - Go bindings for Fast Artificial Neural Networks(FANN) library.
 * [go-galib](https://github.com/thoj/go-galib) - Genetic Algorithms library written in Go / golang
@@ -501,6 +503,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-multierror](https://github.com/hashicorp/go-multierror) - A Go (golang) package for representing a list of errors as a single error.
 * [gopsutil](https://github.com/shirou/gopsutil) - A cross-platform library for retrieving process and system utilization(CPU, Memory, Disks, etc).
 * [gosms](https://github.com/haxpax/gosms) - Your own local SMS gateway in Go that can be used to send SMS
+* [Hash](https://github.com/AlasdairF/Hash) - Fastest 32-bit & 64-bit hashing functions using optimized Fnv-1a algorithm.
 * [jobs](https://github.com/albrow/jobs) - A persistent and flexible background jobs library.
 * [notify](https://github.com/rjeczalik/notify) - File system event notification library with simple API, similar to os/signal.
 * [xkg](https://github.com/go-xkg/xkg) - X Keyboard Grabber
@@ -510,6 +513,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries for working with human languages.*
 
+* [Deaccent](https://github.com/AlasdairF/Deaccent) - Normalizes and removes accents from UTF8 text.
 * [go-eco](https://code.google.com/p/go-eco/) - Similarity, dissimilarity and distance matrices; diversity, equitability and inequality measures; species richness estimators; coenocline models.
 * [go-nlp](https://github.com/nuance/go-nlp) - Utilities for working with discrete probability distributions and other tools useful for doing NLP work.
 * [go-stem](https://github.com/agonopol/go-stem) - Implementation of the porter stemming algorithm.
@@ -518,6 +522,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [icu](https://github.com/goodsign/icu) - Cgo binding for icu4c C library detection and conversion functions. Guaranteed compatibility with version 50.1.
 * [libtextcat](https://github.com/goodsign/libtextcat) - Cgo binding for libtextcat C library. Guaranteed compatibility with version 2.2.
 * [MMSEGO](https://github.com/awsong/MMSEGO) - This is a GO implementation of [MMSEG](http://technology.chtsai.org/mmseg/) which a Chinese word splitting algorithm.
+* [NormalizeText](https://github.com/AlasdairF/NormalizeText) - Normalizes casing, spacing & punctuation in a paragraph of text.
 * [paicehusk](https://github.com/rookii/paicehusk) - Golang implementation of the Paice/Husk Stemming Algorithm
 * [porter](https://github.com/a2800276/porter) - This is a fairly straighforward port of Martin Porter's C implementation of the Porter stemming algorithm.
 * [porter2](https://github.com/surge/porter2) - Really fast Porter 2 stemmer.
@@ -525,6 +530,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [snowball](https://github.com/goodsign/snowball) - Snowball stemmer port (cgo wrapper) for Go. Provides word stem extraction functionality [Snowball native](http://snowball.tartarus.org/).
 * [stemmer](https://github.com/dchest/stemmer) - Stemmer packages for Go programming language. Includes English and German stemmers.
 * [textcat](https://github.com/pebbe/textcat) - A Go package for n-gram based text categorization, with support for utf-8 and raw text
+* [Titlecase](https://github.com/AlasdairF/Titlecase) - Unicode, multi-language, production-quality capitalization.
+* [Tokenize](https://github.com/AlasdairF/Tokenize) - All-in-one text tokenizer for Go. Super-fast. Lots of features.
 
 ## Networking
 
@@ -608,6 +615,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries for scientific computing and data analyzing.*
 
+* [Average](https://github.com/AlasdairF/Average) - Optimized functions for: mean, median, mode, min, max, standard deviation, etc.
 * [blas](https://github.com/ziutek/blas) - Implementation of BLAS (Basic Linear Algebra Subprograms)
 * [chart](https://github.com/vdobler/chart) - Simple Chart Plotting library for Go. Supports many graphs types.
 * [evaler](https://github.com/soniah/evaler) - A simple floating point arithmetic expression evaluator
@@ -642,8 +650,9 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries and tools for binary serialization*
 
+* [Custom](https://github.com/AlasdairF/Custom) - Super-efficient custom file format for encoding and decoding Go structures.
 * [go-capnproto](https://github.com/glycerine/go-capnproto) - Cap'n Proto library and parser for go
-  * [bambam](https://github.com/glycerine/bambam) - generator for Cap'n Proto schemas from go.
+* [bambam](https://github.com/glycerine/bambam) - generator for Cap'n Proto schemas from go.
 * [go-codec](https://github.com/ugorji/go) - High Performance, feature-Rich, idiomatic encode, decode and rpc library for msgpack, cbor and json, with runtime-based OR code-generation support
 * [gogoprotobuf](https://github.com/gogo/protobuf) - Protocol Buffers for Go with Gadgets
 * [goprotobuf](https://github.com/golang/protobuf) - Go support, in the form of a library and protocol compiler plugin, for Google's protocol buffers.
@@ -717,7 +726,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * Specific Formats
     * [blackfriday](https://github.com/russross/blackfriday) - Markdown processor in Go
-        * [github_flavored_markdown](https://godoc.org/github.com/shurcooL/github_flavored_markdown) - GitHub Flavored Markdown renderer with fenced code block highlighting, clickable header anchor links.
+    * [github_flavored_markdown](https://godoc.org/github.com/shurcooL/github_flavored_markdown) - GitHub Flavored Markdown renderer with fenced code block highlighting, clickable header anchor links.
     * [bluemonday](https://github.com/microcosm-cc/bluemonday) - HTML Sanitizer
     * [enca](https://github.com/endeveit/enca) - Minimal cgo bindings for [libenca](http://cihar.com/software/enca/).
     * [genex](https://github.com/alixaxel/genex) - Count and expand Regular Expressions into all matching Strings
@@ -824,6 +833,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [profile](https://github.com/davecheney/profile) - Simple profiling support package for Go
 * [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
 * [robustly](https://github.com/VividCortex/robustly) - Runs functions resiliently, catching and restarting panics
+* [Sort](https://github.com/AlasdairF/Sort) - Optimized sorting algorithms, including for key/val pairs, 3x faster than native sort package.
 * [scheduler](https://github.com/carlescere/scheduler) - Cronjobs scheduling made easy.
 * [sling](https://github.com/dghubble/sling) - Go HTTP requests builder for API clients.
 * [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
