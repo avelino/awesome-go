@@ -809,6 +809,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [htcat](https://github.com/htcat/htcat) - Parallel and Pipelined HTTP GET Utility
 * [httpcontrol](https://github.com/facebookgo/httpcontrol) - Package httpcontrol allows for HTTP transport level control around timeouts and retries.
 * [hystrix-go](https://github.com/afex/hystrix-go) - Imprements Hystrix patterns of programmer-defined fallbacks aka circuit breaker.
+* [JobRunner](https://github.com/bamzi/jobrunner) - Smart and featureful cron job scheduler with job queuing and live monitoring built in.
 * [jsonf](https://github.com/miolini/jsonf) - Console tool for highlighted formatting and struct query fetching JSON.
 * [jsongo](https://github.com/ricardolonga/jsongo) - Fluent API to make it easier to create Json objects.
 * [lrserver](https://github.com/jaschaephraim/lrserver) - LiveReload server for Go
