@@ -876,6 +876,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Goat](https://github.com/bahlo/goat) - A minimalistic REST API server in Go
 * [gocraft/web](https://github.com/gocraft/web) - A mux and middleware package in Go.
 * [Goji](https://github.com/zenazn/goji) - Goji is a minimalistic web framework for Golang that's high in antioxidants.
+* [golongpoll](https://github.com/jcuga/golongpoll) - HTTP longpoll server library that makes web pub-sub simple.
 * [Gondola](https://github.com/rainycape/gondola) - The web framework for writing faster sites, faster
 * [goose](https://github.com/ian-kent/goose) - Server Sent Events in Go
 * [Gorilla](https://github.com/gorilla/) - Gorilla is a web toolkit for the Go programming language.
