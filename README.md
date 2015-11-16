@@ -637,6 +637,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * [BadActor](https://github.com/jaredfolkins/badactor) - An in-memory, application-driven jailer built in the spirit of fail2ban
 * [go-yara](https://github.com/hillu/go-yara) - Go Bindings for [YARA](https://github.com/plusvic/yara), the "pattern matching swiss knife for malware researchers (and everyone else)"
+* [libsecurity-go](https://github.com/ibm-security-innovation/libsecurity-go) - Add a security layer of permissions (User/Group/Resource), Account Management, One Time Password (OTP), Account Control List (ACL), OATH Challenge-Response Algorithm (OCRA), Password management and Secure Storage as well as RESTful API
 
 ## Serialization
 
