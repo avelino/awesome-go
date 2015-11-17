@@ -34,6 +34,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Game Development](#game-development)
     - [Generation & Generics](#generation--generics)
     - [Go Compilers](#go-compilers)
+    - [Goroutines](#goroutines)
     - [GUI](#gui)
     - [Hardware](#hardware)
     - [Images](#images)
@@ -385,6 +386,15 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [tardisgo](https://github.com/tardisgo/tardisgo) - Golang to Haxe to CPP/CSharp/Java/JavaScript transpiler.
 
 
+## Goroutines
+
+*Tools for managing and working with Goroutines*
+
+* [grpool](https://github.com/ivpusic/grpool) - Lightweight Goroutine pool.
+* [pool](https://github.com/go-playground/pool) - Go consumer goroutine pool for easy goroutine handling + time saving.
+* [tunny](https://github.com/Jeffail/tunny) - A goroutine pool for golang.
+
+
 ## GUI
 
 *Libraries for building GUI Applications*
@@ -504,6 +514,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gosms](https://github.com/haxpax/gosms) - Your own local SMS gateway in Go that can be used to send SMS
 * [jobs](https://github.com/albrow/jobs) - A persistent and flexible background jobs library.
 * [notify](https://github.com/rjeczalik/notify) - File system event notification library with simple API, similar to os/signal.
+* [stats](https://github.com/go-playground/stats) - Monitors Go MemStats + System stats such as Memory, Swap and CPU and sends via UDP anywhere you want for logging etc...
 * [xkg](https://github.com/go-xkg/xkg) - X Keyboard Grabber
 * [xstrings](https://github.com/huandu/xstrings) - A collection of useful string functions ported from other languages.
 
@@ -603,6 +614,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-bindata](https://github.com/jteeuwen/go-bindata) - Package that converts any file into managable Go source code.
 * [go-resources](https://github.com/omeid/go-resources) - Unfancy resources embedding with Go.
 * [go.rice](https://github.com/GeertJohan/go.rice) - go.rice is a Go package that makes working with resources such as html,js,css,images and templates very easy.
+* [statics](https://github.com/go-playground/statics) - Embeds static resources into go files for single binary compilation + works with http.FileSystem + symlinks.
 * [vfsgen](https://github.com/shurcooL/vfsgen) - Generates a vfsdata.go file that statically implements the given virtual filesystem.
 
 
@@ -790,6 +802,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [delve](https://github.com/derekparker/delve) - Go debugger.
 * [fastlz](https://github.com/fromYukki/fastlz) - Wrap over [FastLz](http://fastlz.org/) (free, open-source, portable real-time compression library) for GoLang.
 * [filetype](https://github.com/h2non/filetype) - Small package to infer the file type checking the magic numbers signature.
+* [generate](https://github.com/go-playground/generate) - runs go generate recursively on a specified path or environment variable and can filter by regex.
 * [go-cron](https://github.com/rk/go-cron) - A simple Cron library for go that can execute closures or functions at varying intervals, from once a second to once a year on a specific date and time. Primarily for web applications and long running daemons.
 * [go-debug](https://github.com/tj/go-debug) - Conditional debug logging for Golang libraries & applications
 * [go-dry](https://github.com/ungerik/go-dry) - DRY (don't repeat yourself) package for Go.
