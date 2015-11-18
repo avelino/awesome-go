@@ -122,6 +122,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for building standard or basic Command Line applications*
 
 * [cli-init](https://github.com/tcnksm/gcli) - The easy way to start building Golang command line application.
+* [climax](http://github.com/tucnak/climax) - An alternative CLI with "human face", in spirit of Go command
 * [cobra](https://github.com/spf13/cobra) - A Commander for modern Go CLI interactions
 * [codegangsta/cli](https://github.com/codegangsta/cli) - A small package for building command line apps in Go.
 * [go-flags](https://github.com/jessevdk/go-flags) - go command line option parser
@@ -159,6 +160,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gofigure](https://github.com/ian-kent/gofigure) - Go application configuration made easy
 * [ini](https://github.com/go-ini/ini) - Go package for read and write INI files
 * [mini](https://github.com/FogCreek/mini) - A golang package for parsing ini-style configuration files
+* [store](https://github.com/tucnak/store) - A lightweight configuration manager for Go
 * [viper](https://github.com/spf13/viper) - Go configuration with fangs
 
 ## Continuous Integration
