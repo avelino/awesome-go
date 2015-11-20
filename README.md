@@ -920,7 +920,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [web.go](https://github.com/hoisie/web) - A simple framework to write webapps in Go.
 * [Zerver](https://github.com/cosiner/zerver) - Zerver is a expressive, modular, feature completed RESTful framework.
 * [zeus](https://github.com/daryl/zeus) - A very simple and fast HTTP router for Go.
-* [Ozzo](https://github.com/go-ozzo) - A simple web toolkit written by author of legenary yii framwork.
+* [Ozzo](https://github.com/go-ozzo) - A simple web toolkit written by author of legenary yii PHP framwork.
 
 
 ### Middlewares
