@@ -907,6 +907,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [medeina](https://github.com/imdario/medeina) - Medeina is a HTTP routing tree based on HttpRouter, inspired by Roda and Cuba.
 * [mux](https://github.com/gorilla/mux) - A powerful URL router and dispatcher for golang.
 * [neo](https://github.com/ivpusic/neo) - Neo is minimal and fast Go Web Framework with extremely simple API.
+* [Ozzo](https://github.com/go-ozzo) - A simple Go web toolkit written by author of legenary yii PHP framwork.
 * [pat](https://github.com/bmizerany/pat) - Sinatra style pattern muxer for Go’s net/http library, by the author of Sinatra.
 * [Resoursea](https://github.com/resoursea/api) - A REST framework for quickly writing resource based services.
 * [Revel](https://github.com/revel/revel) - A high-productivity web framework for the Go language.
@@ -920,8 +921,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [web.go](https://github.com/hoisie/web) - A simple framework to write webapps in Go.
 * [Zerver](https://github.com/cosiner/zerver) - Zerver is a expressive, modular, feature completed RESTful framework.
 * [zeus](https://github.com/daryl/zeus) - A very simple and fast HTTP router for Go.
-* [Ozzo](https://github.com/go-ozzo) - A simple web toolkit written by author of legenary yii PHP framwork.
-
 
 ### Middlewares
 
