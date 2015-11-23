@@ -886,6 +886,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * [Beego](https://github.com/astaxie/beego) - beego is an open-source, high-performance web framework for the Go programming language.
 * [Bone](https://github.com/go-zoo/bone) - Lightning Fast HTTP Multiplexer.
+* [chi](https://github.com/pressly/chi) - Small, fast and expressive HTTP router built on net/context.
 * [Echo](https://github.com/labstack/echo) - A fast HTTP router (zero memory allocation) and micro web framework in Go.
 * [Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity.
 * [Glue](https://github.com/desertbit/glue) - Robust Go and Javascript Socket Library (Alternative to Socket.io)
