@@ -1092,7 +1092,7 @@ Where to discover new Go libraries.
 * [GoBooks](https://github.com/dariubs/GoBooks) - A curated list of Go books
 * [Learning Go](https://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
 * [Network Programming With Go](https://jan.newmarch.name/go/)
-
+* [The Go Programming Language](http://www.gopl.io/)
 
 ## Twitter
 
