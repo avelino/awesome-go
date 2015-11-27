@@ -1039,6 +1039,7 @@ Software written in Go.
 * [peg](https://github.com/pointlander/peg) - Peg, Parsing Expression Grammar, is an implementation of a Packrat parser generator.
 * [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
 * [restic](https://github.com/restic/restic) - De-duplicating backup program.
+* [rkt](https://github.com/coreos/rkt) - An App Container runtime that integrates with init systems, is compatible with other container formats like Docker, and supports alternative execution engines like KVM.
 * [Seaweed File System](https://github.com/chrislusf/seaweedfs) - Fast, Simple and Scalable Distributed File System with O(1) disk seek.
 * [shell2http](https://github.com/msoap/shell2http) - Executing shell commands via http server (for prototyping or remote control)
 * [syncthing](https://syncthing.net/) - An open, decentralized file synchronization tool and protocol.
