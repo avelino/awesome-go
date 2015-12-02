@@ -328,6 +328,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [agora](https://github.com/PuerkitoBio/agora) - Dynamically typed, embeddable programming language in Go
 * [anko](https://github.com/mattn/anko) - Scriptable interpreter written in Go
+* [exprel](https://github.com/layeh/exprel) - An Excel-like formula/expression evaluator.
 * [gisp](https://github.com/jcla1/gisp) - Simple LISP in Go
 * [go-duktape](https://github.com/olebedev/go-duktape) - Duktape JavaScript engine bindings for Go
 * [go-lua](https://github.com/Shopify/go-lua) - A port of the Lua 5.2 VM to pure Go
