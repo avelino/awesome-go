@@ -409,7 +409,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-qml](https://github.com/go-qml/qml) - QML support for the Go language
 * [gosx-notifier](https://github.com/deckarep/gosx-notifier) - OSX Desktop Notifications library for Go.
 * [gotk3](https://github.com/gotk3/gotk3) - Go bindings for GTK3.
-* [gxui](https://github.com/google/gxui) - A Go cross platform UI library.
 * [sciter](https://github.com/oskca/sciter) - Go bindings for Sciter: the Embeddable HTML/CSS/script engine for modern desktop UI development.
 * [trayhost](https://github.com/shurcooL/trayhost) - Cross-platform Go library to place an icon in the host operating system's taskbar.
 * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go.
