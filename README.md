@@ -47,6 +47,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [OpenGL](#opengl)
     - [ORM](#orm)
     - [Package Management](#package-management)
+    - [Query Language](#query-language)
     - [Resource Embedding](#resource-embedding)
     - [Science and Data Analysis](#science-and-data-analysis)
     - [Security](#security)
@@ -621,6 +622,14 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [johnny-deps](https://github.com/VividCortex/johnny-deps) - Minimal dependency version using Git
 * [nut](https://github.com/jingweno/nut) - Vendor Go dependencies
 * [VenGO](https://github.com/DamnWidget/VenGO) - create and manage exportable isolated go virtual environments
+
+
+## Query Language
+
+* [graphql](https://github.com/tmc/graphql) - graphql parser + utilities.
+* [graphql](https://github.com/sevki/graphql) - GraphQL implementation in go.
+* [graphql-go](https://github.com/chris-ramon/graphql-go) - An implementation of GraphQL for Go.
+
 
 
 ## Resource Embedding
