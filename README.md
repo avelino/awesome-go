@@ -172,7 +172,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 ## Continuous Integration
 
-*Continuous integrations platforms implemented in Go*
+*Continuous integration platforms implemented in Go*
 
 * [drone](https://github.com/drone/drone) - Drone is a Continuous Integration platform built on Docker, written in Go
 
