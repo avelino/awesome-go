@@ -172,9 +172,12 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 ## Continuous Integration
 
-*Tools for help with continuous integration*
+*Continuous integrations platforms implemented in Go*
 
 * [drone](https://github.com/drone/drone) - Drone is a Continuous Integration platform built on Docker, written in Go
+
+*Tools for help with continuous integration*
+
 * [goveralls](https://github.com/mattn/goveralls) - Go integration for Coveralls.io continuous code coverage tracking system.
 * [overalls](https://github.com/go-playground/overalls) - Multi-Package go project coverprofile for tools like goveralls
 
