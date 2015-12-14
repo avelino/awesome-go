@@ -524,6 +524,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * [autoflags](https://github.com/artyom/autoflags) - Go package to automatically define command line flags from struct fields.
 * [browscap_go](https://github.com/fromYukki/browscap_go) - GoLang Library for [Browser Capabilities Project](http://browscap.org/).
+* [go-chat-bot](https://github.com/go-chat-bot/bot) - IRC, Slack & Telegram bot written in Go.
 * [go-multierror](https://github.com/hashicorp/go-multierror) - A Go (golang) package for representing a list of errors as a single error.
 * [gopsutil](https://github.com/shirou/gopsutil) - A cross-platform library for retrieving process and system utilization(CPU, Memory, Disks, etc).
 * [gosms](https://github.com/haxpax/gosms) - Your own local SMS gateway in Go that can be used to send SMS
@@ -812,7 +813,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gostorm](https://github.com/jsgilmore/gostorm) - GoStorm is a Go library that implements the communications protocol required to write Storm spouts and Bolts in Go that communicate with the Storm shells.
 * [hipchat](https://github.com/andybons/hipchat) - This project implements a golang client library for the Hipchat API.
 * [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP.
-* [Medium](https://github.com/Medium/medium-sdk-go) - A Golang SDK for Medium's OAuth2 API 
+* [Medium](https://github.com/Medium/medium-sdk-go) - A Golang SDK for Medium's OAuth2 API
 * [mixpanel](https://github.com/dukex/mixpanel) - Mixpanel is a library for tracking events and sending Mixpanel profile updates to Mixpanel from your go applications.
 * [pushover](https://github.com/gregdel/pushover) - Go wrapper for the Pushover API.
 * [rrdaclient](https://github.com/Omie/rrdaclient) - Go Library to access statdns.com API, which is in turn RRDA API. DNS Queries over HTTP.
