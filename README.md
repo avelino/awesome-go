@@ -247,6 +247,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [goqu](https://github.com/doug-martin/goqu) - An idiomatic SQL builder and query library.
 * [scaneo](https://github.com/variadico/scaneo) - Generate Go code to convert database rows into arbitrary structs.
 * [Squirrel](https://github.com/Masterminds/squirrel) - Go library that helps you build SQL queries.
+* [pqcomp](https://github.com/piotrkowalczuk/pqcomp) - Postgres query composer, simple library that helps to build complex queries with optional parameters.
 
 
 ## Database Drivers
