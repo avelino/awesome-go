@@ -142,6 +142,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [chalk](https://github.com/ttacon/chalk) - Intuitive package for prettifying terminal/console output.
 * [color](https://github.com/fatih/color) - Versatile package for colored terminal output.
+* [colourize](https://github.com/TreyBastian/colourize) - Go library for ANSI colour text in terminals.
 * [go-colortext](https://github.com/daviddengcn/go-colortext) - Go library for color output in terminals.
 * [gocui](https://github.com/jroimartin/gocui) - Minimalist Go library aimed at creating Console User Interfaces.
 * [gommon/color](https://github.com/labstack/gommon/tree/master/color) - Style terminal text.
