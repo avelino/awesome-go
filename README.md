@@ -703,6 +703,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform
 * [yakvs](https://github.com/sci4me/yakvs) - A small, networked, in-memory key-value store.
+* [goproxy](https://github.com/elazarl/goproxy) - An HTTP proxy library for Go
 
 
 ## Template Engines
