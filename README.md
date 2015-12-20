@@ -522,7 +522,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries that help to implement micro-services*
 
-*[Kite](https://github.com/koding/kite) - Kite is a framework for developing micro-services.
+* [Kite](https://github.com/koding/kite) - Kite is a framework for developing micro-services.
 
 ## Miscellaneous
 
