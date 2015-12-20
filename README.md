@@ -41,6 +41,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Logging](#logging)
     - [Machine Learning](#machine-learning)
     - [Messaging](#messaging)
+	- [Micro-service](#micro-service)
     - [Miscellaneous](#miscellaneous)
     - [Natural Language Processing](#natural-language-processing)
     - [Networking](#networking)
@@ -517,6 +518,11 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Uniqush-Push](https://github.com/uniqush/uniqush-push) - A redis backed unified push service for server-side notifications to mobile devices.
 * [zmq4](https://github.com/pebbe/zmq4) - A Go interface to ZeroMQ version 4. Also available for [version 3](https://github.com/pebbe/zmq3) and [version 2](https://github.com/pebbe/zmq2).
 
+## Micro-service
+
+*Libraries that help to implement micro-services*
+
+*[Kite](https://github.com/koding/kite) - Kite is a framework for developing micro-services.
 
 ## Miscellaneous
 
