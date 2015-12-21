@@ -835,6 +835,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *General utilities and tools to make your life easier.*
 
+* [abutil](https://github.com/bahlo/abutil) - A collection of often-used Golang helpers
 * [coop](https://github.com/rakyll/coop) - Cheat sheet for some of the common concurrent flows in Go.
 * [Deepcopier](https://github.com/ulule/deepcopier) - Simple struct copying for Go
 * [delve](https://github.com/derekparker/delve) - Go debugger.
