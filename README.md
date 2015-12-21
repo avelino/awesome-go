@@ -72,7 +72,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Go Tools](#go-tools)
     - [Software Packages](#software-packages)
         - [DevOps Tools](#devops-tools)
-        - [Other Software](#other-software)re
+        - [Other Software](#other-software)
 
 - [Server Applications](#server-applications)
 
@@ -646,6 +646,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go.rice](https://github.com/GeertJohan/go.rice) - go.rice is a Go package that makes working with resources such as html,js,css,images and templates very easy.
 * [statics](https://github.com/go-playground/statics) - Embeds static resources into go files for single binary compilation + works with http.FileSystem + symlinks.
 * [vfsgen](https://github.com/shurcooL/vfsgen) - Generates a vfsdata.go file that statically implements the given virtual filesystem.
+
 
 ## Science and Data Analysis
 
