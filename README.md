@@ -834,6 +834,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *General utilities and tools to make your life easier.*
 
 * [coop](https://github.com/rakyll/coop) - Cheat sheet for some of the common concurrent flows in Go.
+* [Deepcopier](https://github.com/ulule/deepcopier) - Simple struct copying for Go
 * [delve](https://github.com/derekparker/delve) - Go debugger.
 * [fastlz](https://github.com/fromYukki/fastlz) - Wrap over [FastLz](http://fastlz.org/) (free, open-source, portable real-time compression library) for GoLang.
 * [filetype](https://github.com/h2non/filetype) - Small package to infer the file type checking the magic numbers signature.
@@ -963,6 +964,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * [CORS](https://github.com/rs/cors) - Easily add CORS capabilities to your API
 * [formjson](https://github.com/rs/formjson) - Transparently handle JSON input as a standard form POST
+* [Limiter](https://github.com/ulule/limiter) - Dead simple rate limit middleware for Go
 * [Tollbooth](https://github.com/didip/tollbooth) - Rate limit HTTP request handler
 * [XFF](https://github.com/sebest/xff) - Handle `X-Forwarded-For` header and friends
 
