@@ -89,7 +89,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for manipulating audio.*
 
-* [flac](https://github.com/eaburns/flac) - A native Go FLAC decoder.\
+* [flac](https://github.com/eaburns/flac) - A native Go FLAC decoder.
 * [go_mediainfo](https://github.com/zhulik/go_mediainfo) - libmediainfo bindings for go.
 * [go-sox](https://github.com/krig/go-sox) - libsox bindings for go.
 * [PortAudio](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library.
