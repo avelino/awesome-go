@@ -836,6 +836,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *General utilities and tools to make your life easier.*
 
+* [apm](https://github.com/topfreegames/apm) - A process manager for Golang applications with an HTTP API.
 * [boilr](https://github.com/tmrts/boilr) - A blazingly fast CLI tool for creating projects from boilerplate templates.
 * [coop](https://github.com/rakyll/coop) - Cheat sheet for some of the common concurrent flows in Go.
 * [Deepcopier](https://github.com/ulule/deepcopier) - Simple struct copying for Go
