@@ -89,7 +89,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for manipulating audio.*
 
-* [flac](https://github.com/eaburns/flac) - A native Go FLAC decoder.
+* [flac](https://github.com/eaburns/flac) - A native Go FLAC decoder.\
+* [go_mediainfo](https://github.com/zhulik/go_mediainfo) - libmediainfo bindings for go.
 * [go-sox](https://github.com/krig/go-sox) - libsox bindings for go.
 * [PortAudio](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library.
 * [portmidi](https://github.com/rakyll/portmidi) - Go bindings for PortMidi.
@@ -530,6 +531,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gopsutil](https://github.com/shirou/gopsutil) - A cross-platform library for retrieving process and system utilization(CPU, Memory, Disks, etc).
 * [gosms](https://github.com/haxpax/gosms) - Your own local SMS gateway in Go that can be used to send SMS
 * [jobs](https://github.com/albrow/jobs) - A persistent and flexible background jobs library.
+* [margelet](https://github.com/zhulik/margelet) - A framework for building Telegram bots.
 * [notify](https://github.com/rjeczalik/notify) - File system event notification library with simple API, similar to os/signal.
 * [stats](https://github.com/go-playground/stats) - Monitors Go MemStats + System stats such as Memory, Swap and CPU and sends via UDP anywhere you want for logging etc...
 * [xkg](https://github.com/go-xkg/xkg) - X Keyboard Grabber
