@@ -291,6 +291,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [elastic](https://github.com/olivere/elastic) - Elasticsearch client for Google Go.
     * [elastigo](https://github.com/mattbaird/elastigo) - A Elasticsearch client library.
     * [goes](https://github.com/belogik/goes) - A library to interact with Elasticsearch.
+    * [skizze](https://github.com/seiflotfy/skizze) - A probabilistic data-structures service and storage.
 
 ## Date & Time
 
