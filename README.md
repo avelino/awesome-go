@@ -247,6 +247,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [goqu](https://github.com/doug-martin/goqu) - An idiomatic SQL builder and query library.
 * [ozzo-dbx](https://github.com/go-ozzo/ozzo-dbx) - Powerful data retrieval methods as well as DB-agnostic query building capabilities.
 * [scaneo](https://github.com/variadico/scaneo) - Generate Go code to convert database rows into arbitrary structs.
+* [sqrl](https://github.com/elgris/sqrl) - SQL query builder, fork of Squirrel with improved performance.
 * [Squirrel](https://github.com/Masterminds/squirrel) - Go library that helps you build SQL queries.
 
 
