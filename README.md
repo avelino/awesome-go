@@ -836,8 +836,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [stripe](https://github.com/stripe/stripe-go) - Go client for the Stripe API
 * [telebot](https://github.com/tucnak/telebot) - Telegram bot framework written in Go.
 * [telegram-bot-api](https://github.com/Syfaro/telegram-bot-api) - Simple and clean Telegram bot client.
-* [tokbox](https://github.com/pjebs/tokbox) - Tokbox Server SDK.
 * [TheMovieDb](https://github.com/jbrodriguez/go-tmdb) - A simple golang package to communicate with [themoviedb.org](https://themoviedb.org)
+* [tokbox](https://github.com/pjebs/tokbox) - Tokbox Server SDK.
 * [translate](https://github.com/poorny/translate) - Go online translation package
 * [tumblr](https://github.com/mattcunningham/gumblr) - Go wrapper for the Tumblr v2 API.
 * [webhooks](https://github.com/go-playground/webhooks) - Webhook receiver for GitHub.. more services to come
