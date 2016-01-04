@@ -767,6 +767,9 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [gogenerate](https://github.com/arschles/gogenerate) - A Scalacheck-like library for Go
     * [Tavor](https://github.com/zimmski/tavor) - A generic fuzzing and delta-debugging framework
 
+* Service Virtualization
+    * [Hoverfly](https://github.com/SpectoLabs/hoverfly) - capture/modify/synthesize HTTP APIs. Enables E2E testing and makes development easier when your app relies on 3rd party services. 
+
 ## Text Processing
 
 *Libraries for parsing and manipulating texts.*
