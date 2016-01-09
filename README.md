@@ -544,9 +544,11 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries for working with human languages.*
 
+* [dpar](https://github.com/danieldk/dpar/) - Transition-based statistical dependency parser.
 * [go-eco](https://code.google.com/p/go-eco/) - Similarity, dissimilarity and distance matrices; diversity, equitability and inequality measures; species richness estimators; coenocline models.
 * [go-nlp](https://github.com/nuance/go-nlp) - Utilities for working with discrete probability distributions and other tools useful for doing NLP work.
 * [go-stem](https://github.com/agonopol/go-stem) - Implementation of the porter stemming algorithm.
+* [go2vec](https://github.com/danieldk/go2vec) - Reader and utility functions for word2vec embeddings.
 * [golibstemmer](https://github.com/rjohnsondev/golibstemmer) - Go bindings for the snowball libstemmer library including porter 2
 * [gounidecode](https://github.com/fiam/gounidecode) - Unicode transliterator (also known as unidecode) for Go
 * [icu](https://github.com/goodsign/icu) - Cgo binding for icu4c C library detection and conversion functions. Guaranteed compatibility with version 50.1.
