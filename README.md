@@ -465,6 +465,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [glog](https://github.com/golang/glog) - Leveled execution logs for Go.
 * [go-log](https://github.com/siddontang/go-log) - Log lib supports level and multi handlers.
 * [go-log](https://github.com/ian-kent/go-log) - A log4j implementation in Go.
+* [go-log-interface](https://github.com/ventu-io/go-log-interface) - A generic leveled log interface to adopt any logging framework and a default facade for Go stdlib log.Logger.
 * [go-logger](https://github.com/apsdehal/go-logger) - Simple logger of Go Programs, with level handlers.
 * [gologger](https://github.com/sadlil/gologger) - Simple easy to use log lib for go, logs in Colored Cosole, Simple Console, File or Elasticsearch.
 * [log-voyage](https://github.com/firstrow/logvoyage) - Full-featured logging saas written in golang.
@@ -512,6 +513,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * [dbus](https://github.com/godbus/dbus) - Native Go bindings for D-Bus.
 * [EventBus](https://github.com/asaskevich/EventBus) - The lightweight event bus with async compatibility.
+* [go-longpoll](https://github.com/ventu-io/go-longpoll) - PubSub with long polling.
 * [go-notify](https://github.com/TheCreeper/go-notify) - Native implementation of the freedesktop notification spec.
 * [go-nsq](https://github.com/nsqio/go-nsq) - the official Go package for NSQ
 * [gopush-cluster](https://github.com/Terry-Mao/gopush-cluster) - gopush-cluster is a go push server cluster.
@@ -533,6 +535,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [datacounter](https://github.com/miolini/datacounter) - Go counters for readers/writer/http.ResponseWriter.
 * [go-chat-bot](https://github.com/go-chat-bot/bot) - IRC, Slack & Telegram bot written in Go.
 * [go-multierror](https://github.com/hashicorp/go-multierror) - A Go (golang) package for representing a list of errors as a single error.
+* [go-shortid](https://github.com/ventu-io/go-shortid) - Distributed generation of super short, unique, non-sequential, URL friendly IDs.
 * [gopsutil](https://github.com/shirou/gopsutil) - A cross-platform library for retrieving process and system utilization(CPU, Memory, Disks, etc).
 * [gosms](https://github.com/haxpax/gosms) - Your own local SMS gateway in Go that can be used to send SMS
 * [jobs](https://github.com/albrow/jobs) - A persistent and flexible background jobs library.
