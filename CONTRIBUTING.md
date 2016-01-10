@@ -20,7 +20,7 @@ Please contribute links to packages/projects you have used or are familiar with.
 
 ## Quality standard
 
-To be on the list, project repositories should adhere to these quality standards:
+To be on the list, project repositories should adhere to these quality standards (http://goreportcard.com/report/<github_user>/<github_user>):
 
 - Code functions as documented and expected
 - Generally useful to the wider community of Go programmers
