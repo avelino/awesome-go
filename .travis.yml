@@ -1,11 +1,11 @@
 language: go
 
 go:
-  - 1.4
-  
+  - 1.5
+
 sudo: false
 
 install:
   - go get github.com/russross/blackfriday
   - go get github.com/PuerkitoBio/goquery
-
+  - go get github.com/parnurzeal/gorequest
