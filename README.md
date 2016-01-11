@@ -875,6 +875,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [godropbox](https://github.com/dropbox/godropbox) - Common libraries for writing Go services/applications from Dropbox.
 * [gohper](https://github.com/cosiner/gohper) - Various tools/modules help for development.
 * [golarm](https://github.com/msempere/golarm) - Fire alarms with system events.
+* [golog](https://github.com/mlimaloureiro/golog) - Easy and lightweight CLI tool to time track your tasks.
 * [gopencils](https://github.com/bndr/gopencils) - Small and simple package to easily consume REST APIs.
 * [goplaceholder](https://github.com/michiwend/goplaceholder) - a small golang lib to generate placeholder images
 * [goreq](https://github.com/franela/goreq) - Minimal and simple request library for Go language.
