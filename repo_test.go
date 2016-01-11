@@ -2,13 +2,17 @@ package repo
 
 import (
 	"bytes"
+	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"log"
+	"regexp"
 	"sort"
 	"strings"
 	"testing"
 
 	"github.com/PuerkitoBio/goquery"
+	"github.com/parnurzeal/gorequest"
 	"github.com/russross/blackfriday"
 )
 
@@ -37,6 +41,7 @@ func TestDuplicatedLinks(t *testing.T) {
 			return
 		}
 
+		checkGoreportcard(t, href)
 		links[href] = true
 	})
 }
@@ -81,6 +86,50 @@ func checkAlphabeticOrder(t *testing.T, s *goquery.Selection) {
 	for k, item := range items {
 		if item != sorted[k] {
 			log.Printf("expected '%s' but actual is '%s'", sorted[k], item)
+			t.Fail()
+		}
+	}
+}
+
+type Card struct {
+	Checks []struct {
+		Description   string        `json:"description"`
+		FileSummaries []interface{} `json:"file_summaries"`
+		Name          string        `json:"name"`
+		Percentage    float64       `json:"percentage"`
+		Weight        float64       `json:"weight"`
+	} `json:"checks"`
+	Files       int    `json:"files"`
+	Grade       string `json:"grade"`
+	Issues      int    `json:"issues"`
+	LastRefresh string `json:"last_refresh"`
+	Repo        string `json:"repo"`
+}
+
+func checkGoreportcard(t *testing.T, href string) {
+	if !strings.Contains(string(href), string("github.com")) {
+		return
+	}
+
+	r, _ := regexp.Compile(`https?:\/\/[^\/]*\/([^\/]*)\/([^\/]*).*`)
+	_r := r.FindStringSubmatch(href)
+	repo := fmt.Sprintf("%s/%s", _r[1], _r[2])
+
+	request := gorequest.New()
+	_, body, _ := request.Post("http://goreportcard.com/checks").
+		Type("form").
+		Send(`{"repo":"` + repo + `"}`).
+		End()
+
+	var card Card
+	err := json.Unmarshal([]byte(body), &card)
+	if err != nil {
+		log.Fatal(err)
+	}
+	for _, v := range card.Checks {
+		if v.Percentage != 1 {
+			fmt.Println("Percentage", v.Percentage)
+			log.Printf("'%s' not 100% in goreportcard.com", string(href))
 			t.Fail()
 		}
 	}
