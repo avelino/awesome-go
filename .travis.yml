@@ -9,3 +9,7 @@ install:
   - go get github.com/russross/blackfriday
   - go get github.com/PuerkitoBio/goquery
   - go get github.com/parnurzeal/gorequest
+
+test:
+  post:
+    - curl --data "repo=avelino/awesome-go" http://goreportcard.com/checks
