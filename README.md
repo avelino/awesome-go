@@ -719,6 +719,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [consul](https://www.consul.io/) - Consul is a tool for service discovery, monitoring and configuration.
 * [devd](https://github.com/cortesi/devd) - A local webserver for developers
 * [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
+* [minio](https://github.com/minio/minio) - Minio is a cloud storage server for Micro Services.
+* [minio-xl](https://github.com/minio/minio-xl) - Minio XL is a cloud storage server for Petascale Storage.
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform
 * [yakvs](https://github.com/sci4me/yakvs) - A small, networked, in-memory key-value store.
 
@@ -831,8 +833,9 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [hipchat](https://github.com/andybons/hipchat) - This project implements a golang client library for the Hipchat API.
 * [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP.
 * [Medium](https://github.com/Medium/medium-sdk-go) - A Golang SDK for Medium's OAuth2 API
+* [minio-go](https://github.com/minio/minio-go) - Minio Go Library for Amazon S3 compatible cloud storage.
 * [mixpanel](https://github.com/dukex/mixpanel) - Mixpanel is a library for tracking events and sending Mixpanel profile updates to Mixpanel from your go applications.
-* [paypal] (https://github.com/logpacker/paypalsdk) - Wrapper for PayPal payment API
+* [paypal](https://github.com/logpacker/paypalsdk) - Wrapper for PayPal payment API
 * [playlyfe](https://github.com/playlyfe/playlyfe-go-sdk) - The Playlyfe Rest API Go SDK
 * [pushover](https://github.com/gregdel/pushover) - Go wrapper for the Pushover API.
 * [rrdaclient](https://github.com/Omie/rrdaclient) - Go Library to access statdns.com API, which is in turn RRDA API. DNS Queries over HTTP.
@@ -890,6 +893,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [jsonf](https://github.com/miolini/jsonf) - Console tool for highlighted formatting and struct query fetching JSON.
 * [jsongo](https://github.com/ricardolonga/jsongo) - Fluent API to make it easier to create Json objects.
 * [lrserver](https://github.com/jaschaephraim/lrserver) - LiveReload server for Go
+* [mc](https://github.com/minio/mc) - Minio Client provides minimal tools to work with Amazon S3 compatible cloud storage and filesystems.
 * [mp](https://github.com/sanbornm/mp) - A simple cli email parser. It currently takes stdin and outputs JSON.
 * [multitick](https://github.com/VividCortex/multitick) - Multiplexor for aligned tickers
 * [netbug](https://github.com/e-dard/netbug) - Easy remote profiling of your services.
