@@ -651,7 +651,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [graphql](https://github.com/tmc/graphql) - graphql parser + utilities.
 * [graphql](https://github.com/sevki/graphql) - GraphQL implementation in go.
 * [graphql-go](https://github.com/chris-ramon/graphql-go) - An implementation of GraphQL for Go.
-
+* [jsonql](https://github.com/elgs/jsonql) - JSON query expression library in Golang.
 
 
 ## Resource Embedding
@@ -881,6 +881,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [godotenv](https://github.com/joho/godotenv) - A Go port of Ruby's dotenv library (Loads environment variables from `.env`.)
 * [godropbox](https://github.com/dropbox/godropbox) - Common libraries for writing Go services/applications from Dropbox.
 * [gohper](https://github.com/cosiner/gohper) - Various tools/modules help for development.
+* [gojq](https://github.com/elgs/gojq) - JSON query in Golang.
 * [golarm](https://github.com/msempere/golarm) - Fire alarms with system events.
 * [golog](https://github.com/mlimaloureiro/golog) - Easy and lightweight CLI tool to time track your tasks.
 * [gopencils](https://github.com/bndr/gopencils) - Small and simple package to easily consume REST APIs.
