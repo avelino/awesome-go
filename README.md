@@ -378,7 +378,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [engi](https://github.com/paked/engi) - A cross-platform game engine following the Entity Component System design pattern
 * [GarageEngine](https://github.com/vova616/GarageEngine) - 2d game engine written in Go working on OpenGL.
 * [glop](https://github.com/runningwild/glop) - Glop (Game Library Of Power) is a fairly simple cross-platform game library.
-* [go-astar](https://github.com/beefsack/go-astar) - Go implementation of the A* path finding algorithm
+* [go-astar](https://github.com/beefsack/go-astar) - Go implementation of the A\* path finding algorithm
 * [go-collada](https://github.com/GlenKelley/go-collada) - Go package for working with the Collada file format.
 * [go-sdl2](https://github.com/veandco/go-sdl2) - Go bindings for the [Simple DirectMedia Layer](https://www.libsdl.org/).
 * [go3d](https://github.com/ungerik/go3d) - A performance oriented 2D/3D math package for Go
@@ -393,6 +393,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [gen](https://github.com/clipperhouse/gen) - Code generation tool for ‘generics’-like functionality.
 * [go-linq](https://github.com/ahmetalpbalkan/go-linq) - .NET LINQ-like query methods for Go.
+* [interfaces](https://github.com/rjeczalik/interfaces) - Command line tool for generating interface definitions.
 * [pkgreflect](https://github.com/ungerik/pkgreflect) - A Go preprocessor for package scoped reflection.
 
 
