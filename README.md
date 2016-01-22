@@ -90,6 +90,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [flac](https://github.com/eaburns/flac) - A native Go FLAC decoder.
 * [go-sox](https://github.com/krig/go-sox) - libsox bindings for go.
 * [go_mediainfo](https://github.com/zhulik/go_mediainfo) - libmediainfo bindings for go.
+* [mp3](https://github.com/tcolgate/mp3) - A native Go MP# decoder.
 * [PortAudio](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library.
 * [portmidi](https://github.com/rakyll/portmidi) - Go bindings for PortMidi.
 * [taglib](https://github.com/wtolson/go-taglib) - Go bindings for taglib.
@@ -453,6 +454,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [imaginary](https://github.com/h2non/imaginary) - Fast and simple HTTP microservice for image resizing
 * [imaging](https://github.com/disintegration/imaging) - Simple Go image processing package.
 * [img](https://github.com/hawx/img) - A selection of image manipulation tools.
+* [mpo](https://github.com/donatj/mpo) - A decoder and conversion tool for MPO 3D Photos.
 * [picfit](https://github.com/thoas/picfit) - An image resizing server written in Go
 * [resize](https://github.com/nfnt/resize) - Image resizing for the Go with common interpolation methods.
 * [rez](https://github.com/bamiaux/rez) - Image resizing in pure Go and SIMD.
