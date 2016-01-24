@@ -1043,7 +1043,7 @@ Go software and plugins.
 * [gostatus](https://github.com/shurcooL/gostatus) - A command line tool, shows the status of repositories that contain Go packages.
 * [interfacer](https://github.com/mvdan/interfacer) - A linter that suggests interface types.
 * [validate](https://github.com/mccoyst/validate) - Automatically validates struct fields with tags.
-
+* [go-checkstyle](https://github.com/qiniu/checkstyle) checkstyle is a style check tool like java checkstyle. This tool inspired by [java checkstyle](https://github.com/checkstyle/checkstyle), [golint] (https://github.com/golang/lint). The style refered to some points in [Go Code Review Comments](https://code.google.com/p/go-wiki/wiki/CodeReviewComments).
 
 ## Editor Plugins
 
