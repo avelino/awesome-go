@@ -543,6 +543,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-chat-bot](https://github.com/go-chat-bot/bot) - IRC, Slack & Telegram bot written in Go.
 * [go-multierror](https://github.com/hashicorp/go-multierror) - A Go (golang) package for representing a list of errors as a single error.
 * [go-shortid](https://github.com/ventu-io/go-shortid) - Distributed generation of super short, unique, non-sequential, URL friendly IDs.
+* [golang-kardianos-service](https://github.com/ayufan/golang-kardianos-service) - Run go programs as a service on major platforms (this is used in the gitlab-ci-multi-runner app - https://gitlab.com/gitlab-org/gitlab-ci-multi-runner)
 * [gopsutil](https://github.com/shirou/gopsutil) - A cross-platform library for retrieving process and system utilization(CPU, Memory, Disks, etc).
 * [gosms](https://github.com/haxpax/gosms) - Your own local SMS gateway in Go that can be used to send SMS
 * [jobs](https://github.com/albrow/jobs) - A persistent and flexible background jobs library.
