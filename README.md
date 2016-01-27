@@ -517,6 +517,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries that implement messaging systems*
 
+* [amqp] (https://github.com/streadway/amqp) - A generic AMQP client for Go.
 * [dbus](https://github.com/godbus/dbus) - Native Go bindings for D-Bus.
 * [emitter](https://github.com/olebedev/emitter) - Emits events using Go way, with wildcard, predicates, cancellation possibilities and many other good wins.
 * [EventBus](https://github.com/asaskevich/EventBus) - The lightweight event bus with async compatibility.
