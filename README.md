@@ -661,6 +661,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 ## Resource Embedding
 
+* [fileb0x](https://github.com/UnnoTed/fileb0x) - Simple tool to embed files in go with focus on "customization" and ease to use.
 * [go-bindata](https://github.com/jteeuwen/go-bindata) - Package that converts any file into managable Go source code.
 * [go-embed](https://github.com/pyros2097/go-embed) - Generates go code to embed resource files into your library or executable
 * [go-resources](https://github.com/omeid/go-resources) - Unfancy resources embedding with Go.
