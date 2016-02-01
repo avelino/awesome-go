@@ -986,6 +986,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [medeina](https://github.com/imdario/medeina) - Medeina is a HTTP routing tree based on HttpRouter, inspired by Roda and Cuba.
 * [mux](https://github.com/gorilla/mux) - A powerful URL router and dispatcher for golang.
 * [neo](https://github.com/ivpusic/neo) - Neo is minimal and fast Go Web Framework with extremely simple API.
+* [ozzo-routing](https://github.com/go-ozzo/ozzo-routing) - A high-performance HTTP router and Web framework supporting routes with regular expressions. Comes with full support for quickly building a RESTful API application.
 * [pat](https://github.com/bmizerany/pat) - Sinatra style pattern muxer for Go’s net/http library, by the author of Sinatra.
 * [Resoursea](https://github.com/resoursea/api) - A REST framework for quickly writing resource based services.
 * [Revel](https://github.com/revel/revel) - A high-productivity web framework for the Go language.
