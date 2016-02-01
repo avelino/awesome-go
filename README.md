@@ -1075,6 +1075,7 @@ Software written in Go.
 
 * [aptly](https://github.com/smira/aptly) - aptly is a Debian repository management tool
 * [awsenv](https://github.com/soniah/awsenv) - a small binary that loads Amazon (AWS) environment variables for a profile
+* [Banshee](https://github.com/eleme/banshee) - Anomalies detection system for periodic metrics.
 * [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
 * [bosun](https://github.com/bosun-monitor/bosun) - Time Series Alerting Framework
 * [dogo](https://github.com/liudng/dogo) - Monitoring changes in the source file and automatically compile and run (restart).
