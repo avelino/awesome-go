@@ -170,6 +170,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gofigure](https://github.com/ian-kent/gofigure) - Go application configuration made easy
 * [ini](https://github.com/go-ini/ini) - Go package for read and write INI files
 * [mini](https://github.com/FogCreek/mini) - A golang package for parsing ini-style configuration files
+* [ozzo-config](https://github.com/go-ozzo/ozzo-config) - Configuration parsing (JSON, YAML, TOML supported), accessing, and object configuring.
 * [store](https://github.com/tucnak/store) - A lightweight configuration manager for Go
 * [viper](https://github.com/spf13/viper) - Go configuration with fangs
 
@@ -986,6 +987,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [medeina](https://github.com/imdario/medeina) - Medeina is a HTTP routing tree based on HttpRouter, inspired by Roda and Cuba.
 * [mux](https://github.com/gorilla/mux) - A powerful URL router and dispatcher for golang.
 * [neo](https://github.com/ivpusic/neo) - Neo is minimal and fast Go Web Framework with extremely simple API.
+* [ozzo-routing](https://github.com/go-ozzo/ozzo-routing) - A high-performance HTTP router supporting routes with regular expressions. Comes with full support for building RESTful API services.
 * [pat](https://github.com/bmizerany/pat) - Sinatra style pattern muxer for Go’s net/http library, by the author of Sinatra.
 * [Resoursea](https://github.com/resoursea/api) - A REST framework for quickly writing resource based services.
 * [Revel](https://github.com/revel/revel) - A high-productivity web framework for the Go language.
