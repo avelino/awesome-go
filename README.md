@@ -1204,6 +1204,7 @@ Where to discover new Go libraries.
 * [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) - List of other amazingly awesome lists.
 * [Flipboard - Go Magazine](https://flipboard.com/section/the-golang-magazine-bVP7nS) - A collection of Go articles and tutorials.
 * [Go Blog](http://blog.golang.org) - The official Go blog
+* [Go Forum](https://forum.golangbridge.org) - Forum to discuss Go
 * [Go Projects](https://github.com/golang/go/wiki/Projects) - List of projects on the Go community wiki
 * [godoc.org](https://godoc.org/) - Documentation for open source Go packages.
 * [golang-graphics](https://github.com/mholt/golang-graphics) - A collection of Go images, graphics, and art
