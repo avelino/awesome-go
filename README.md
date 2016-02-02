@@ -1040,6 +1040,7 @@ Go software and plugins.
 * [gcvis](https://github.com/davecheney/gcvis) - Visualise Go program GC trace data in real time.
 * [Go Metalinter](https://github.com/alecthomas/gometalinter) - Metalinter is a tool to automatically apply all static analysis tool and report their output in normalized form.
 * [go-checkstyle](https://github.com/qiniu/checkstyle) checkstyle is a style check tool like java checkstyle. This tool inspired by java checkstyle, golint. The style refered to some points in Go Code Review Comments.
+* [go-outdated](https://github.com/firstrow/go-outdated) - Console application that displays outdated packages.
 * [goast-viewer](https://github.com/yuroyoro/goast-viewer) - Web based Golang AST visualizer.
 * [GoCover.io](http://gocover.io/) - GoCover.io offers the code coverage of any golang package as a service.
 * [goimports](https://godoc.org/golang.org/x/tools/cmd/goimports) - Tool to fix (add, remove) your Go imports automatically.
