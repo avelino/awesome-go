@@ -529,6 +529,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-nsq](https://github.com/nsqio/go-nsq) - the official Go package for NSQ
 * [gopush-cluster](https://github.com/Terry-Mao/gopush-cluster) - gopush-cluster is a go push server cluster.
 * [machinery](https://github.com/RichardKnop/machinery) - An asynchronous task queue/job queue based on distributed message passing.
+* [mangos](https://github.com/go-mangos/mangos) - Pure go implementation of the Nanomsg ("Scalable Protocols") with transport interoperability.
 * [NATS](https://github.com/nats-io/nats) - A lightweight and highly performant publish-subscribe and distributed queueing messaging system.
 * [oplog](https://github.com/dailymotion/oplog) - A generic oplog/replication system for REST APIs
 * [pubsub](https://github.com/tuxychandru/pubsub) - A simple pubsub package for go.
