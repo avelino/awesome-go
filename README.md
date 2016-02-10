@@ -601,6 +601,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [goshark](https://github.com/sunwxg/goshark) - Package goshark use tshark to decode IP packet and create data struct to analyse packet.
 * [gosnmp](https://github.com/soniah/gosnmp) - Native Go library for performing SNMP actions
 * [gotcp](https://github.com/gansidui/gotcp) - A Go package for quickly writing tcp applications
+* [grab](https://github.com/cavaliercoder/grab) - Go package for managing file downloads
 * [graval](https://github.com/koofr/graval) - An experimental FTP server framework.
 * [linkio](https://github.com/ian-kent/linkio) - Network link speed simulation for Reader/Writer interfaces
 * [mdns](https://github.com/hashicorp/mdns) - Simple mDNS (Multicast DNS) client/server library in Golang
