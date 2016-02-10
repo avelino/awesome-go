@@ -78,6 +78,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Benchmarks](#benchmarks)
     - [Conferences](#conferences)
     - [E-Books](#e-books)
+    - [Social](#social)
     - [Twitter](#twitter)
     - [Websites](#websites)
         - [Tutorials](#tutorials)
@@ -1194,6 +1195,10 @@ Where to discover new Go libraries.
 * [Learning Go](https://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
 * [Network Programming With Go](https://jan.newmarch.name/go/)
 * [The Go Programming Language](http://www.gopl.io/)
+
+## Social
+
+* [Google Plus Community](https://plus.google.com/communities/114112804251407510571) - The Google+ community for #golang enthusiasts.
 
 ## Twitter
 
