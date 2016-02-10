@@ -367,6 +367,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 * [go-log](https://github.com/siddontang/go-log) - Log lib supports level and multi handlers.
 * [go-log](https://github.com/ian-kent/go-log) - A log4j implementation in Go.
 * [go-logger](https://github.com/apsdehal/go-logger) - Simple logger of Go Programs, with level handlers.
+* [gommon/log](https://github.com/labstack/gommon/tree/master/log) - Simple logging.
 * [log-voyage](https://github.com/firstrow/logvoyage) - Full-featured logging saas writen in golang.
 * [logex](https://github.com/go-logex/logex) - An golang log lib, supports tracking and level, wrap by standard log lib
 * [logrus](https://github.com/Sirupsen/logrus) - a structured logger for Go.
@@ -616,7 +617,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
     * [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx) - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.
     * [go-runewidth](https://github.com/mattn/go-runewidth) - Functions to get fixed width of the character or string.
     * [gographviz](https://github.com/awalterschulze/gographviz) - Parses the Graphviz DOT language.
-    * [gommon/gytes](https://github.com/labstack/gommon/tree/master/gytes) - Format bytes to string.
+    * [gommon/bytes](https://github.com/labstack/gommon/tree/master/bytes) - Format bytes to string.
     * [GoQuery](https://github.com/PuerkitoBio/goquery) - GoQuery brings a syntax and a set of features similar to jQuery to the Go language.
     * [goregen](https://github.com/zach-klippenstein/goregen) - A library for generating random strings from regular expressions.
     * [guesslanguage](https://github.com/endeveit/guesslanguage) - Functions to determine the natural language of a unicode text.
@@ -721,7 +722,7 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 * [Beego](https://github.com/astaxie/beego) - beego is an open-source, high-performance web framework for the Go programming language.
 * [Bone](https://github.com/go-zoo/bone) - Lightning Fast HTTP Multiplexer.
-* [Echo](https://github.com/labstack/echo) - A fast HTTP router (zero memory allocation) and micro web framework in Go.
+* [Echo](https://github.com/labstack/echo) - A fast and unfancy micro web framework for Go.
 * [Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity.
 * [go-json-rest](https://github.com/ant0ine/go-json-rest) - A quick and easy way to setup a RESTful JSON API
 * [go-relax](https://github.com/codehack/go-relax) - A framework of pluggable components to build RESTful API's
