@@ -771,6 +771,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [frisby](https://github.com/verdverm/frisby) - a REST API testing framework
     * [ginkgo](http://onsi.github.io/ginkgo/) - BDD Testing Framework for Go
     * [go-mutesting](https://github.com/zimmski/go-mutesting) - Mutation testing for Go source code
+    * [go-vcr](https://github.com/dnaeon/go-vcr) - Record and replay your HTTP interactions for fast, deterministic and accurate tests
     * [goblin](https://github.com/franela/goblin) - Mocha like testing framework fo Go
     * [gocheck](http://labix.org/gocheck) - A more advanced testing framework alternative to gotest.
     * [GoConvey](https://github.com/smartystreets/goconvey/) - BDD-style framework with web UI and live reload
