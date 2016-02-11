@@ -804,6 +804,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [blackfriday](https://github.com/russross/blackfriday) - Markdown processor in Go
         * [github_flavored_markdown](https://godoc.org/github.com/shurcooL/github_flavored_markdown) - GitHub Flavored Markdown renderer with fenced code block highlighting, clickable header anchor links.
     * [bluemonday](https://github.com/microcosm-cc/bluemonday) - HTML Sanitizer
+    * [dsv](https://github.com/shuLhan/dsv) - A library for working with delimited separated value (DSV).
     * [enca](https://github.com/endeveit/enca) - Minimal cgo bindings for [libenca](http://cihar.com/software/enca/).
     * [genex](https://github.com/alixaxel/genex) - Count and expand Regular Expressions into all matching Strings
     * [go-humanize](https://github.com/dustin/go-humanize) - Formatters for time, numbers, and memory size to human readable format.
@@ -825,6 +826,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [gotabulate](https://github.com/bndr/gotabulate) - Easily pretty-print your tabular data with Go.
     * [kace](https://github.com/codemodus/kace) - Common case conversions covering common initialisms.
     * [parth](https://github.com/codemodus/parth) - URL path segmentation parsing.
+    * [tekstus](https://github.com/shuLhan/tekstus) - Additional library for working with text, string, slice of string, and bytes.
     * [xurls](https://github.com/mvdan/xurls) - Extract urls from text
 
 
