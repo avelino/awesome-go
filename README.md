@@ -1093,6 +1093,7 @@ Software written in Go.
 * [bosun](https://github.com/bosun-monitor/bosun) - Time Series Alerting Framework
 * [dogo](https://github.com/liudng/dogo) - Monitoring changes in the source file and automatically compile and run (restart).
 * [Dropship](https://github.com/chrismckenzie/dropship) - A tool for deploying code via cdn.
+* [Dry](https://github.com/moncho/dry) - Docker containers manager for the terminal.
 * [EasySSH](https://github.com/hypersleep/easyssh) - Golang package for easy remote execution through SSH and SCP downloading.
 * [Go Metrics](https://github.com/rcrowley/go-metrics) - Go port of Coda Hale's Metrics library: https://github.com/codahale/metrics.
 * [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update.
