@@ -218,6 +218,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [cache2go](https://github.com/muesli/cache2go) - An in-memory key:value cache which supports automatic invalidation based on timeouts.
 * [cockroach](https://github.com/cockroachdb/cockroach) - A Scalable, Geo-Replicated, Transactional Datastore
 * [couchcache](https://github.com/codingsince1985/couchcache) - A RESTful caching micro-service backed by Couchbase server.
+* [dgraph](https://github.com/dgraph-io/dgraph) - Scalable, Distributed, Low Latency, High Throughput Graph Database.
 * [diskv](https://github.com/peterbourgon/diskv) - A home-grown disk-backed key-value store.
 * [forestdb](https://github.com/couchbase/goforestdb) - Go bindings for ForestDB.
 * [GCache](https://github.com/bluele/gcache) - Cache library with support for expirable Cache, LFU, LRU and ARC.
