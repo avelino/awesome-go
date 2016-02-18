@@ -1432,6 +1432,7 @@ Software written in Go.
 * [hugo](http://gohugo.io/) - A Fast and Modern Static Website Engine.
 * [ipe](https://github.com/dimiro1/ipe) - An open source Pusher server implementation compatible with Pusher client libraries written in GO.
 * [Juju](https://jujucharms.com/) - Cloud-agnostic service deployment and orchestration - supports EC2, Azure, Openstack, MAAS and more.
+* [jump](https://github.com/gsamokovarov/jump) - A quick and fuzzy directory jumper. Think [autojump] (https://github.com/wting/autojump) or [z](https://github.com/rupa/z), but fuzzy and easy to integrate with the shell.
 * [limetext](http://limetext.org/) Lime Text is a powerful and elegant text editor primarily developed in Go that aims to be a Free and open-source software successor to Sublime Text.
 * [LiteIDE](https://github.com/visualfc/liteide) LiteIDE is a simple, open source, cross-platform Go IDE.
 * [mockingjay](https://github.com/quii/mockingjay-server) Fake HTTP servers and consumer driven contracts from one configuration file. You can also make the server randomly misbehave to help do more realistic performance tests.
