@@ -515,7 +515,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [libsvm](https://github.com/datastream/libsvm) - libsvm golang version derived work based on LIBSVM 3.14.
 * [mlgo](https://code.google.com/p/mlgo/) - This project aims to provide minimalistic machine learning algorithms in Go.
 * [neural-go](https://github.com/schuyler/neural-go) - A multilayer perceptron network implemented in Go, with training via backpropagation.
-* [probab](https://code.google.com/p/probab/) - Probability distribution functions. Bayesian inference. Written in pure Go.
+* [probab](https://github.com/ThePaw/probab) - Probability distribution functions. Bayesian inference. Written in pure Go.
 * [regommend](https://github.com/muesli/regommend) - Recommendation & collaborative filtering engine
 * [shield](https://github.com/eaigner/shield) - Bayesian text classifier with flexible tokenizers and storage backends for Go
 
@@ -567,7 +567,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries for working with human languages.*
 
 * [dpar](https://github.com/danieldk/dpar/) - Transition-based statistical dependency parser.
-* [go-eco](https://code.google.com/p/go-eco/) - Similarity, dissimilarity and distance matrices; diversity, equitability and inequality measures; species richness estimators; coenocline models.
+* [go-eco](https://github.com/ThePaw/go-eco) - Similarity, dissimilarity and distance matrices; diversity, equitability and inequality measures; species richness estimators; coenocline models.
 * [go-i18n](https://github.com/nicksnyder/go-i18n/) - A package and an accompanying tool to work with localized text.
 * [go-nlp](https://github.com/nuance/go-nlp) - Utilities for working with discrete probability distributions and other tools useful for doing NLP work.
 * [go-stem](https://github.com/agonopol/go-stem) - Implementation of the porter stemming algorithm.
@@ -691,7 +691,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [geom](https://github.com/skelterjohn/geom) - 2D geometry for golang
 * [go-dsp](https://github.com/mjibson/go-dsp) - Digital Signal Processing for Go
 * [go-fn](https://code.google.com/p/go-fn/) - Mathematical functions written in Go language, that are not covered by math pkg
-* [go-gt](https://code.google.com/p/go-gt/) - Graph theory algorithms written in "Go" language
+* [go-gt](https://github.com/ThePaw/go-gt) - Graph theory algorithms written in "Go" language
 * [go.matrix](https://github.com/skelterjohn/go.matrix) - linear algebra for go (has been stalled)
 * [gocomplex](https://code.google.com/p/gocomplex/) - A complex number library for the Go programming language.
 * [gofrac](https://github.com/anschelsc/gofrac) - A (goinstallable) fractions library for go with support for basic arithmetic.
