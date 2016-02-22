@@ -929,6 +929,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [pester](https://github.com/sethgrid/pester) - Go HTTP client calls with retries, backoff, and concurrency
 * [pm](https://github.com/VividCortex/pm) - Process (i.e. goroutine) manager with an HTTP API
 * [profile](https://github.com/davecheney/profile) - Simple profiling support package for Go
+* [ran](https://github.com/m3ng9i/ran) - a simple static web server written in Go
 * [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
 * [rerun](https://github.com/ivpusic/rerun) - Recompiling and rerunning go apps when source changes
 * [resty](https://github.com/go-resty/resty) - Simple HTTP and REST client for Go inspired by Ruby rest-client
