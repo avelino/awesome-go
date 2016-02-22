@@ -78,7 +78,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Benchmarks](#benchmarks)
     - [Conferences](#conferences)
     - [E-Books](#e-books)
-    - [Social](#social)
     - [Twitter](#twitter)
     - [Websites](#websites)
         - [Tutorials](#tutorials)
@@ -1196,10 +1195,6 @@ Where to discover new Go libraries.
 * [Network Programming With Go](https://jan.newmarch.name/go/)
 * [The Go Programming Language](http://www.gopl.io/)
 
-## Social
-
-* [Google Plus Community](https://plus.google.com/communities/114112804251407510571) - The Google+ community for #golang enthusiasts.
-
 ## Twitter
 
 * [@golang](https://twitter.com/golang)
@@ -1218,6 +1213,7 @@ Where to discover new Go libraries.
 * [godoc.org](https://godoc.org/) - Documentation for open source Go packages.
 * [golang-graphics](https://github.com/mholt/golang-graphics) - A collection of Go images, graphics, and art
 * [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - Go mailing list
+* [Google Plus Community](https://plus.google.com/communities/114112804251407510571) - The Google+ community for #golang enthusiasts.
 * [gowalker.org](https://gowalker.org) - Go Project API documentation.
 * [r/Golang](https://www.reddit.com/r/golang) - News about Go.
 * [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
