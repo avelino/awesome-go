@@ -617,6 +617,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [sslb](https://github.com/eduardonunesp/sslb) - It's a Super Simples Load Balancer, just a little project to achieve some kind of performance.
 * [tcp_server](https://github.com/firstrow/tcp_server) - A Go library for building tcp servers faster.
 * [utp](https://github.com/anacrolix/utp) - Go uTP micro transport protocol implementation.
+* [llb](https://github.com/kirillDanshin/llb) - It's a very simple but quick backend for proxy servers. Can be useful for fast redirection to predefined domain with zero memory allocation and fast response.
 
 ## OpenGL
 
