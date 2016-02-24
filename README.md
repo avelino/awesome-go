@@ -595,6 +595,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [canopus](https://github.com/zubairhamed/canopus) - CoAP Client/Server implementation (RFC 7252)
 * [dhcp6](https://github.com/mdlayher/dhcp6) - Package dhcp6 implements a DHCPv6 server, as described in RFC 3315.
 * [dns](https://github.com/miekg/dns) - Go library for working with DNS
+* [ether](https://github.com/songgao/ether) - A cross-platform Go package for sending and receiving ethernet frames.
 * [ethernet](https://github.com/mdlayher/ethernet) - Package ethernet implements marshaling and unmarshaling of IEEE 802.3 Ethernet II frames and IEEE 802.1Q VLAN tags.
 * [fasthttp](https://github.com/valyala/fasthttp) - Package fasthttp is a fast HTTP implementation for Go, up to 10 times faster than net/http
 * [ftp](https://github.com/jlaffaye/ftp) - Package ftp implements a FTP client as described in [RFC 959](http://tools.ietf.org/html/rfc959).
