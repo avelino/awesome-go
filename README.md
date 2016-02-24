@@ -824,6 +824,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * Utility
     * [gotabulate](https://github.com/bndr/gotabulate) - Easily pretty-print your tabular data with Go.
     * [kace](https://github.com/codemodus/kace) - Common case conversions covering common initialisms.
+    * [parseargs-go](https://github.com/nproc/parseargs-go) - A string argument parser that understands quotes and backslashes
     * [parth](https://github.com/codemodus/parth) - URL path segmentation parsing.
     * [xurls](https://github.com/mvdan/xurls) - Extract urls from text
 
