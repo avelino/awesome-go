@@ -92,7 +92,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-sox](https://github.com/krig/go-sox) - libsox bindings for go.
 * [go_mediainfo](https://github.com/zhulik/go_mediainfo) - libmediainfo bindings for go.
 * [mp3](https://github.com/tcolgate/mp3) - A native Go MP# decoder.
-* [ontomix](https://github.com/outrightmental/ontomix) - Sequence-based Go-native audio mixer for Music apps.
+* [ontomix](https://github.com/go-ontomix/ontomix) - Sequence-based Go-native audio mixer for Music apps.
 * [PortAudio](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library.
 * [portmidi](https://github.com/rakyll/portmidi) - Go bindings for PortMidi.
 * [taglib](https://github.com/wtolson/go-taglib) - Go bindings for taglib.
