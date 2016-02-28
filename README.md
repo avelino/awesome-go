@@ -137,6 +137,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [mow.cli](https://github.com/jawher/mow.cli) - A Go library for building CLI applications with sophisticated flag and argument parsing and validation.
 * [readline](https://github.com/chzyer/readline) - A pure golang implementation that provide most of features in GNU-Readline under MIT license.
 * [ukautz/clif](https://github.com/ukautz/clif) - A small command line interface framework.
+* [mkideal/cli] (https://github.com/mkideal/cli) - A feature-rich and easy to use command-line package based on golang tag
 
 
 ### Advanced Console UIs
