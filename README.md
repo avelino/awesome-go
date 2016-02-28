@@ -885,6 +885,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [apm](https://github.com/topfreegames/apm) - A process manager for Golang applications with an HTTP API.
 * [boilr](https://github.com/tmrts/boilr) - A blazingly fast CLI tool for creating projects from boilerplate templates.
 * [coop](https://github.com/rakyll/coop) - Cheat sheet for some of the common concurrent flows in Go.
+* [Death](https://github.com/vrecan/death) - Managing go application shutdown with signals.
 * [Deepcopier](https://github.com/ulule/deepcopier) - Simple struct copying for Go
 * [delve](https://github.com/derekparker/delve) - Go debugger.
 * [fastlz](https://github.com/digitalcrab/fastlz) - Wrap over [FastLz](http://fastlz.org/) (free, open-source, portable real-time compression library) for GoLang.
