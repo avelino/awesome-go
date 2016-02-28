@@ -125,6 +125,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for building standard or basic Command Line applications*
 
+* [cli] (https://github.com/mkideal/cli) - A feature-rich and easy to use command-line package based on golang tag
 * [cli-init](https://github.com/tcnksm/gcli) - The easy way to start building Golang command line application.
 * [climax](http://github.com/tucnak/climax) - An alternative CLI with "human face", in spirit of Go command
 * [cobra](https://github.com/spf13/cobra) - A Commander for modern Go CLI interactions
