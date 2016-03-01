@@ -116,6 +116,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [osin](https://github.com/RangelReale/osin) - Golang OAuth2 server library.
 * [permissions2](https://github.com/xyproto/permissions2) - Library for keeping track of users, login states and permissions. Uses secure cookies and bcrypt.
 * [yubigo](https://github.com/GeertJohan/yubigo) - a Yubikey client package that provides a simple API to integrate the Yubico Yubikey into a go application.
+* [LogPacker](https://logpacker.com) - a log management / analytics / aggregation service written in Go to collect logs from servers / websites / mobile platforms.
 
 
 ## Command Line
