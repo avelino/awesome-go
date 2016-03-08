@@ -1166,6 +1166,7 @@ Software written in Go.
 * [rkt](https://github.com/coreos/rkt) - An App Container runtime that integrates with init systems, is compatible with other container formats like Docker, and supports alternative execution engines like KVM.
 * [Seaweed File System](https://github.com/chrislusf/seaweedfs) - Fast, Simple and Scalable Distributed File System with O(1) disk seek.
 * [shell2http](https://github.com/msoap/shell2http) - Executing shell commands via http server (for prototyping or remote control)
+* [shell2telegram](https://github.com/msoap/shell2telegram) - Create Telegram bot from command-line
 * [snap](https://github.com/intelsdi-x/snap) - A powerful telemetry framework
 * [Stack Up](https://github.com/pressly/sup) - Stack Up, a super simple deployment tool - just Unix - think of it like 'make' for a network of servers.
 * [syncthing](https://syncthing.net/) - An open, decentralized file synchronization tool and protocol.
