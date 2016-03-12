@@ -169,6 +169,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [envconf](https://github.com/ian-kent/envconf) - Configuration from environment
 * [envconfig](https://github.com/vrischmann/envconfig) - Read your configuration from environment variables.
 * [gcfg](https://github.com/go-gcfg/gcfg) - read INI-style configuration files into Go structs; supports user-defined types and subsections
+* [godotenv](https://github.com/joho/godotenv) - A Go port of Ruby's dotenv library (Loads environment variables from `.env`.)
 * [gofigure](https://github.com/ian-kent/gofigure) - Go application configuration made easy
 * [ini](https://github.com/go-ini/ini) - Go package for read and write INI files
 * [mini](https://github.com/FogCreek/mini) - A golang package for parsing ini-style configuration files
