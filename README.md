@@ -796,6 +796,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [gospecify](https://github.com/stesla/gospecify) - This provides a BDD syntax for testing your Go code. It should be familiar to anybody who has used libraries such as rspec.
     * [Hamcrest](https://github.com/rdrdr/hamcrest) - fluent framework for declarative Matcher objects that, when applied to input values, produce self-describing results.
     * [restit](https://github.com/yookoala/restit) - A Go micro framework to help writing RESTful API integration test.
+    * [testfixtures](https://github.com/go-testfixtures/testfixtures) - A helper for Rails' like test fixtures to test database applications.
     * [Testify](https://github.com/stretchr/testify) - A sacred extension to the standard go testing package.
 
 * Mock
