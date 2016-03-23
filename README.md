@@ -232,6 +232,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [levigo](https://github.com/jmhodges/levigo) - Levigo is a Go wrapper for LevelDB.
 * [prometheus](https://github.com/prometheus/prometheus) -  Monitoring system and time series database.
 * [rqlite](https://github.com/otoolep/rqlite) - Replicated SQLite, using Raft consensus.
+* [storm](https://github.com/asdine/storm) - Simple ORM and wrapper around BoltDB.
 * [tidb](https://github.com/pingcap/tidb) - TiDB is a distributed SQL database. Inspired by the design of Google F1.
 * [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
 
