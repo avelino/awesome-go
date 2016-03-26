@@ -552,6 +552,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *These libraries were placed here because none of the other categories seemed to fit*
 
 * [autoflags](https://github.com/artyom/autoflags) - Go package to automatically define command line flags from struct fields.
+* [afero](https://github.com/spf13/afero) - A FileSystem Abstraction System for Go.
 * [browscap_go](https://github.com/digitalcrab/browscap_go) - GoLang Library for [Browser Capabilities Project](http://browscap.org/).
 * [datacounter](https://github.com/miolini/datacounter) - Go counters for readers/writer/http.ResponseWriter.
 * [go-chat-bot](https://github.com/go-chat-bot/bot) - IRC, Slack & Telegram bot written in Go.
