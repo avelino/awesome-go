@@ -93,6 +93,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go_mediainfo](https://github.com/zhulik/go_mediainfo) - libmediainfo bindings for go.
 * [mix](https://github.com/go-mix/mix) - Sequence-based Go-native audio mixer for music apps.
 * [mp3](https://github.com/tcolgate/mp3) - A native Go MP# decoder.
+* [music-theory](https://github.com/go-music-theory/music-theory) - Music theory models in Go.
 * [PortAudio](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library.
 * [portmidi](https://github.com/rakyll/portmidi) - Go bindings for PortMidi.
 * [taglib](https://github.com/wtolson/go-taglib) - Go bindings for taglib.
