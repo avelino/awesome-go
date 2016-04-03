@@ -234,6 +234,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [rqlite](https://github.com/otoolep/rqlite) - Replicated SQLite, using Raft consensus.
 * [tidb](https://github.com/pingcap/tidb) - TiDB is a distributed SQL database. Inspired by the design of Google F1.
 * [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
+* [Tile38](https://github.com/tidwall/tile38) - A geolocation DB with spatial index and realtime geofencing.
 
 *Database tools.*
 
