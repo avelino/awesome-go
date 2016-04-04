@@ -499,7 +499,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [ozzo-log](https://github.com/go-ozzo/ozzo-log) - High performance logging supporting log severity, categorization, and filtering. Can send filtered log messages to various targets (e.g. console, network, mail).
 * [seelog](https://github.com/cihub/seelog) -   logging functionality with flexible dispatching, filtering, and formatting.
 * [slf](https://github.com/ventu-io/slf) - The Structured Logging Facade (SLF) for Go (like SLF4J but structured and for Go)
-* [slog](https://github.com/ventu-io/slog) - The reference implementation of the Structured Logging Facade (SLF) for Go 
+* [slog](https://github.com/ventu-io/slog) - The reference implementation of the Structured Logging Facade (SLF) for Go
 * [stdlog](https://github.com/alexcesaro/log) - Stdlog is an object-oriented library providing leveled logging. It is very useful for cron jobs.
 * [tail](https://github.com/hpcloud/tail) - A Go package striving to emulate the features of the BSD tail program.
 * [xlog](https://github.com/rs/xlog) - A structured logger for `net/context` aware HTTP handlers with flexible dispatching.
@@ -622,7 +622,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [grab](https://github.com/cavaliercoder/grab) - Go package for managing file downloads
 * [graval](https://github.com/koofr/graval) - An experimental FTP server framework.
 * [linkio](https://github.com/ian-kent/linkio) - Network link speed simulation for Reader/Writer interfaces
-* [llb](https://github.com/kirillDanshin/llb) - It's a very simple but quick backend for proxy servers. Can be useful for fast redirection to predefined domain with zero memory allocation and fast response. 
+* [llb](https://github.com/kirillDanshin/llb) - It's a very simple but quick backend for proxy servers. Can be useful for fast redirection to predefined domain with zero memory allocation and fast response.
 * [mdns](https://github.com/hashicorp/mdns) - Simple mDNS (Multicast DNS) client/server library in Golang
 * [mqttPaho](https://eclipse.org/paho/clients/golang/) - The Paho Go Client provides an MQTT client library for connection to MQTT brokers via TCP, TLS or WebSockets.
 * [portproxy](https://github.com/aybabtme/portproxy) - Simple TCP proxy which adds CORS support to API's which don't support it.
@@ -795,6 +795,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [gocheck](http://labix.org/gocheck) - A more advanced testing framework alternative to gotest.
     * [GoConvey](https://github.com/smartystreets/goconvey/) - BDD-style framework with web UI and live reload
     * [godog](https://github.com/DATA-DOG/godog) - Cucumber or Behat like BDD framework for Go.
+    * [gofight](https://github.com/appleboy/gofight) - API Handler Testing for Golang Router framework.
     * [gomega](http://onsi.github.io/gomega/) - Rspec like matcher/assertion library.
     * [GoSpec](https://github.com/orfjackal/gospec) - BDD-style testing framework for the Go programming language.
     * [gospecify](https://github.com/stesla/gospecify) - This provides a BDD syntax for testing your Go code. It should be familiar to anybody who has used libraries such as rspec.
