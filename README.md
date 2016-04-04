@@ -96,6 +96,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [music-theory](https://github.com/go-music-theory/music-theory) - Music theory models in Go.
 * [PortAudio](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library.
 * [portmidi](https://github.com/rakyll/portmidi) - Go bindings for PortMidi.
+* [SuperCollider](https://github.com/scgolang) - Go client for [SuperCollider](http://supercollider.github.io/).
 * [taglib](https://github.com/wtolson/go-taglib) - Go bindings for taglib.
 * [vorbis](https://github.com/mccoyst/vorbis) - A "native" Go Vorbis decoder (uses CGO, but has no dependencies).
 * [waveform](https://github.com/mdlayher/waveform) - Go package capable of generating waveform images from audio streams.
