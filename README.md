@@ -808,11 +808,16 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * Mock
     * [counterfeiter](https://github.com/maxbrunsfeld/counterfeiter) - Tool for generating self-contained mock objects
+    * [fake](https://github.com/icrowley/fake) - Fake data generator for Go
+    * [faker](https://godoc.org/github.com/manveru/faker) - faker generates fake data in various languages.
+    * [fako](https://github.com/wawandco/fako) - Struct Faker for Go
+    * [go-randomdata](https://github.com/Pallinder/go-randomdata) - A tiny generator of random data for golang
     * [go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) - Mock SQL driver for testing database interactions
     * [go-txdb](https://github.com/DATA-DOG/go-txdb) - Single transaction based database driver mainly for testing purposes.
     * [gock](https://github.com/h2non/gock) - Versatile HTTP mocking made easy.
     * [gomock](https://github.com/golang/mock) - Mocking framework for the Go programming language.
     * [mockhttp](https://github.com/tv42/mockhttp) - Mock object for Go http.ResponseWriter
+    * [phony](https://github.com/yields/phony) - tiny command line fake data generator
 
 * Fuzzing and delta-debugging/reducing/shrinking
     * [go-fuzz](https://github.com/dvyukov/go-fuzz) - A randomized testing system
