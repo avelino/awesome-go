@@ -616,6 +616,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gotcp](https://github.com/gansidui/gotcp) - A Go package for quickly writing tcp applications
 * [grab](https://github.com/cavaliercoder/grab) - Go package for managing file downloads
 * [graval](https://github.com/koofr/graval) - An experimental FTP server framework.
+* [kcp-go](https://github.com/xtaci/kcp-go) - KCP - A Fast and Reliable ARQ Protocol.
 * [linkio](https://github.com/ian-kent/linkio) - Network link speed simulation for Reader/Writer interfaces
 * [llb](https://github.com/kirillDanshin/llb) - It's a very simple but quick backend for proxy servers. Can be useful for fast redirection to predefined domain with zero memory allocation and fast response. 
 * [mdns](https://github.com/hashicorp/mdns) - Simple mDNS (Multicast DNS) client/server library in Golang
@@ -626,7 +627,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [sslb](https://github.com/eduardonunesp/sslb) - It's a Super Simples Load Balancer, just a little project to achieve some kind of performance.
 * [tcp_server](https://github.com/firstrow/tcp_server) - A Go library for building tcp servers faster.
 * [utp](https://github.com/anacrolix/utp) - Go uTP micro transport protocol implementation.
-* [kcp-go](https://github.com/xtaci/kcp-go) - KCP - A Fast and Reliable ARQ Protocol.
 
 
 ## OpenGL
