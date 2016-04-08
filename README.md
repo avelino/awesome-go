@@ -209,6 +209,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [golang-set](https://github.com/deckarep/golang-set) - Thread-Safe and Non-Thread-Safe high-performance sets for Go.
 * [goskiplist](https://github.com/ryszard/goskiplist) - A skip list implementation in Go.
 * [mafsa](https://github.com/smartystreets/mafsa) - MA-FSA implementation with Minimal Perfect Hashing
+* [roaring](https://github.com/RoaringBitmap/roaring) - Go package implementing compressed bitsets.
 * [skiplist](https://github.com/gansidui/skiplist) - Skiplist implementation in Go
 * [trie](https://github.com/derekparker/trie) - Trie implementation in Go
 * [ttlcache](https://github.com/diegobernardes/ttlcache) - An in-memory LRU string-interface{} map with expiration for golang
@@ -1181,7 +1182,7 @@ Software written in Go.
 * [Juju](https://jujucharms.com/) - Cloud-agnostic service deployment and orchestration - supports EC2, Azure, Openstack, MAAS and more.
 * [limetext](http://limetext.org/) Lime Text is a powerful and elegant text editor primarily developed in Go that aims to be a Free and open-source software successor to Sublime Text.
 * [LiteIDE](https://github.com/visualfc/liteide) LiteIDE is a simple, open source, cross-platform Go IDE.
-* [mockingjay](https://github.com/quii/mockingjay-server) Fake HTTP servers and consumer driven contracts from one configuration file. You can also make the server randomly misbehave to help do more realistic performance tests. 
+* [mockingjay](https://github.com/quii/mockingjay-server) Fake HTTP servers and consumer driven contracts from one configuration file. You can also make the server randomly misbehave to help do more realistic performance tests.
 * [naclpipe](https://github.com/unix4fun/naclpipe) - A simple NaCL EC25519 based crypto pipe tool written in Go.
 * [nes](https://github.com/fogleman/nes) - A Nintendo Entertainment System (NES) emulator written in Go.
 * [orange-cat](https://github.com/noraesae/orange-cat) - A Markdown previewer written in Go.
