@@ -232,6 +232,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [influxdb](https://github.com/influxdb/influxdb) - Scalable datastore for metrics, events, and real-time analytics
 * [ledisdb](https://github.com/siddontang/ledisdb) - Ledisdb is a high performance NoSQL like Redis based on LevelDB.
 * [levigo](https://github.com/jmhodges/levigo) - Levigo is a Go wrapper for LevelDB.
+* [onecache](https://github.com/dadgar/onecache) - OneCache is a best-effort, replicated KV store accessible via the memcached protocol.
 * [prometheus](https://github.com/prometheus/prometheus) -  Monitoring system and time series database.
 * [rqlite](https://github.com/otoolep/rqlite) - Replicated SQLite, using Raft consensus.
 * [tidb](https://github.com/pingcap/tidb) - TiDB is a distributed SQL database. Inspired by the design of Google F1.
@@ -747,6 +748,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gogoprotobuf](https://github.com/gogo/protobuf) - Protocol Buffers for Go with Gadgets
 * [goprotobuf](https://github.com/golang/protobuf) - Go support, in the form of a library and protocol compiler plugin, for Google's protocol buffers.
 * [mapstructure](https://github.com/mitchellh/mapstructure) - Go library for decoding generic map values into native Go structures.
+* [msgp](https://github.com/tinylib/msgp) - A Go code generator for MessagePack / msgpack.org[Go]
 * [php_session_decoder](https://github.com/yvasiyarov/php_session_decoder) - GoLang library for working with PHP session format and PHP Serialize/Unserialize functions
 * [structomap](https://github.com/tuvistavie/structomap) - Library to easily and dynamically generate maps from static structures.
 
@@ -853,6 +855,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [kace](https://github.com/codemodus/kace) - Common case conversions covering common initialisms.
     * [parseargs-go](https://github.com/nproc/parseargs-go) - A string argument parser that understands quotes and backslashes
     * [parth](https://github.com/codemodus/parth) - URL path segmentation parsing.
+    * [pp](https://github.com/k0kubun/pp) - Colored pretty printer for Go language.
     * [xurls](https://github.com/mvdan/xurls) - Extract urls from text
 
 
@@ -931,12 +934,14 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-sitemap-generator](https://github.com/ikeikeikeike/go-sitemap-generator) - XML Sitemap generator written in Go.
 * [go-trigger](https://github.com/sadlil/go-trigger) - Go-lang global event triggerer, Register Events with an id and trigger the event from anywhere from your project.
 * [go-underscore](https://github.com/tobyhede/go-underscore) - A useful collection of helpfully functional Go collection utilities.
+* [go_design_pattern](https://github.com/monochromegane/go_design_pattern) - Design patterns in Golang.
 * [goback](https://github.com/carlescere/goback) - Go simple exponential backoff package.
 * [godaemon](https://github.com/VividCortex/godaemon) - Utility to write daemons.
 * [godotenv](https://github.com/joho/godotenv) - A Go port of Ruby's dotenv library (Loads environment variables from `.env`.)
 * [godropbox](https://github.com/dropbox/godropbox) - Common libraries for writing Go services/applications from Dropbox.
 * [gohper](https://github.com/cosiner/gohper) - Various tools/modules help for development.
 * [gojq](https://github.com/elgs/gojq) - JSON query in Golang.
+* [golang-web-dry](https://github.com/francoishill/golang-web-dry) - Some modular code that you will probably use in every web-based project (backend or frontend).
 * [golarm](https://github.com/msempere/golarm) - Fire alarms with system events.
 * [golog](https://github.com/mlimaloureiro/golog) - Easy and lightweight CLI tool to time track your tasks.
 * [gopencils](https://github.com/bndr/gopencils) - Small and simple package to easily consume REST APIs.
