@@ -204,6 +204,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [count-min-log](https://github.com/seiflotfy/count-min-log) - A Go implementation Count-Min-Log sketch: Approximately counting with approximate counters (Like Count-Min sketch but using less memory).
 * [cuckoofilter](https://github.com/seiflotfy/cuckoofilter) - Cuckoo filter: a good alternative to a counting bloom filter implemented in Go.
 * [encoding](https://github.com/zhenjl/encoding) - Integer Compression Libraries for Go.
+* [go-adaptive-radix-tree](https://github.com/plar/go-adaptive-radix-tree) - A Go implementation of Adaptive Radix Tree.
 * [go-datastructures](https://github.com/Workiva/go-datastructures) - a collection of useful, performant, and thread-safe data structures
 * [go-geoindex](https://github.com/hailocab/go-geoindex) - In-memory geo index.
 * [golang-set](https://github.com/deckarep/golang-set) - Thread-Safe and Non-Thread-Safe high-performance sets for Go.
