@@ -777,6 +777,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [damsel](https://github.com/dskinner/damsel) - Markup language featuring html outlining via css-selectors, extensible via pkg html/template and others.
 * [ego](https://github.com/benbjohnson/ego) - A lightweight templating language that lets you write templates in Go. Templates are translated into Go and compiled.
 * [fasttemplate](https://github.com/valyala/fasttemplate) - Simple and fast template engine. Substitutes template placeholders up to 10x faster than [text/template](http://golang.org/pkg/text/template/).
+* [gofpdf](https://github.com/jung-kurt/gofpdf) - A PDF document generator with high level support for text, drawing and images.
 * [kasia.go](https://github.com/ziutek/kasia.go) - Templating system for HTML and other text documents - go implementation.
 * [mustache](https://github.com/hoisie/mustache) - A Go implementation of the Mustache template language.
 * [pongo2](https://github.com/flosch/pongo2) - A Django-like template-engine for Go.
