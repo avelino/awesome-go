@@ -1054,6 +1054,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [ozzo-routing](https://github.com/go-ozzo/ozzo-routing) - A high-performance HTTP router and Web framework supporting routes with regular expressions. Comes with full support for quickly building a RESTful API application.
 * [pat](https://github.com/bmizerany/pat) - Sinatra style pattern muxer for Go’s net/http library, by the author of Sinatra.
 * [Resoursea](https://github.com/resoursea/api) - A REST framework for quickly writing resource based services.
+* [REST Layer](http://rest-layer.io) - A framework to build REST/GraphQL API on top of databases with mostly configuration over code.
 * [Revel](https://github.com/revel/revel) - A high-productivity web framework for the Go language.
 * [rex](https://github.com/goanywhere/rex) - Rex is a library for modular development built upon gorilla/mux, fully compatible with `net/http`.
 * [sawsij](http://sawsij.com/) - lightweight, open-source web framework for building high-performance, data-driven web applications.
