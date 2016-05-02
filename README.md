@@ -1301,4 +1301,5 @@ Where to discover new Go libraries.
 
 ## Windows
 
+* [d3d9](https://github.com/gonutz/d3d9) - Go bindings for Direct3D9
 * [go-ole](https://github.com/go-ole/go-ole) - Win32 OLE implementation for golang.
