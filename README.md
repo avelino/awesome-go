@@ -857,6 +857,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [goregen](https://github.com/zach-klippenstein/goregen) - A library for generating random strings from regular expressions.
     * [guesslanguage](https://github.com/endeveit/guesslanguage) - Functions to determine the natural language of a unicode text.
     * [mxj](https://github.com/clbanning/mxj) - Encode / decode XML as JSON or map[string]interface{}; extract values with dot-notation paths and wildcards. Replaces x2j and j2x packages.
+    * [mahonia](https://github.com/axgle/mahonia) - character-set conversion library implemented in Go.
     * [slug](https://github.com/gosimple/slug) - URL-friendly slugify with multiple languages support.
     * [Slugify](https://github.com/avelino/slugify) - A Go slugify application that handles string.
     * [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
