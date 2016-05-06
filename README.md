@@ -352,6 +352,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [MailHog](https://github.com/mailhog/MailHog) - Email and SMTP testing with web and API interface
 * [SendGrid](https://github.com/sendgrid/sendgrid-go) - SendGrid's Go library for sending email
 * [smtp](https://github.com/mailhog/smtp) - SMTP server protocol state machine
+* [xmail](https://github.com/txthinking/xmail) - A SMTP/Mailgun/etc mail library, allow to set a fake from address.
 
 
 
