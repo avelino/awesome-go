@@ -576,6 +576,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-shortid](https://github.com/ventu-io/go-shortid) - Distributed generation of super short, unique, non-sequential, URL friendly IDs.
 * [gopsutil](https://github.com/shirou/gopsutil) - A cross-platform library for retrieving process and system utilization(CPU, Memory, Disks, etc).
 * [gosms](https://github.com/haxpax/gosms) - Your own local SMS gateway in Go that can be used to send SMS
+* [gostr](https://github.com/sijad/gostr) - Useful string functions for Golang.
 * [gountries](https://github.com/pariz/gountries) - A package that exposes country and subdivision data.
 * [health](https://github.com/dimiro1/health) - A Easy to use, extensible health check library.
 * [jobs](https://github.com/albrow/jobs) - A persistent and flexible background jobs library.
