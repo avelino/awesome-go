@@ -1069,7 +1069,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [VarHandler](https://github.com/azr/generators/tree/master/varhandler) - Generate boilerplate http input and ouput handling.
 * [vestigo](https://github.com/husobee/vestigo) -  A performant, stand-alone, HTTP compliant URL Router for go web applications.
 * [Volatile](https://github.com/volatile/core) - Minimalist middleware stack promoting flexibility, good practices and clean code.
-* [web.go](https://github.com/hoisie/web) - A simple framework to write webapps in Go.
 * [xmux](https://github.com/rs/xmux) - A high performance muxer based on `httprouter` with `net/context` support.
 * [Zerver](https://github.com/cosiner/zerver) - Zerver is an expressive, modular, feature completed RESTful framework.
 * [zeus](https://github.com/daryl/zeus) - A very simple and fast HTTP router for Go.
