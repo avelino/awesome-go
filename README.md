@@ -291,6 +291,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [arangolite](https://github.com/solher/arangolite) - Lightweight golang driver for ArangoDB.
     * [cayley](https://github.com/google/cayley) - A graph database with support for multiple backends.
     * [dynago](https://github.com/underarmour/dynago) - Dynago is a principle of least surprise client for DynamoDB
+    * [gremgo](https://github.com/qasaur/gremgo) - Fast, efficient, and easy-to-use client for the TinkerPop graph database stack
     * [go-couchbase](https://github.com/couchbase/go-couchbase) - Couchbase client in Go
     * [go-couchdb](https://github.com/fjl/go-couchdb) - Yet another CouchDB HTTP API wrapper for Go
     * [gocb](https://github.com/couchbase/gocb) - Official Couchbase Go SDK
