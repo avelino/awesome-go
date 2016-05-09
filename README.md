@@ -291,13 +291,13 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [arangolite](https://github.com/solher/arangolite) - Lightweight golang driver for ArangoDB.
     * [cayley](https://github.com/google/cayley) - A graph database with support for multiple backends.
     * [dynago](https://github.com/underarmour/dynago) - Dynago is a principle of least surprise client for DynamoDB
-    * [gremgo](https://github.com/qasaur/gremgo) - Fast, efficient, and easy-to-use client for the TinkerPop graph database stack
     * [go-couchbase](https://github.com/couchbase/go-couchbase) - Couchbase client in Go
     * [go-couchdb](https://github.com/fjl/go-couchdb) - Yet another CouchDB HTTP API wrapper for Go
     * [gocb](https://github.com/couchbase/gocb) - Official Couchbase Go SDK
     * [gocql](http://gocql.github.io) - A Go language driver for Apache Cassandra.
     * [gomemcache](https://github.com/bradfitz/gomemcache/) - memcache client library for the Go programming language.
     * [gorethink](https://github.com/dancannon/gorethink) - Go language driver for RethinkDB
+    * [gremgo](https://github.com/qasaur/gremgo) - Fast, efficient, and easy-to-use client for the TinkerPop graph database stack
     * [mgo](https://godoc.org/labix.org/v2/mgo) - MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
     * [neo4j](https://github.com/cihangir/neo4j) - Neo4j Rest API Bindings for Golang
     * [Neo4j-GO](https://github.com/davemeehan/Neo4j-GO) - Neo4j REST Client in golang.
