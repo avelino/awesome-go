@@ -317,6 +317,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for working with dates and times.*
 
+* [durafmt](https://github.com/hako/durafmt) - A time duration formatting library for Go.
 * [go-persian-calendar](https://github.com/yaa110/go-persian-calendar) - The implementation of the Persian (Solar Hijri) Calendar in Go (golang).
 * [goweek](https://github.com/grsmv/goweek) - Library for working with week entity in golang.
 * [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
