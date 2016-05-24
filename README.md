@@ -1169,7 +1169,6 @@ Software written in Go.
 * [gox](https://github.com/mitchellh/gox) - A dead simple, no frills Go cross compile tool.
 * [goxc](https://github.com/laher/goxc) - build tool for Go, with a focus on cross-compiling and packaging.
 * [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
-* [hk](https://github.com/heroku/hk) - Heroku command-line interface in Go.
 * [kala](https://github.com/ajvb/kala) - Simplistic, modern, and performant job scheduler.
 * [kubernetes](https://github.com/kubernetes/kubernetes) - Container Cluster Manager from Google.
 * [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data.
