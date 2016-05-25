@@ -648,7 +648,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [sslb](https://github.com/eduardonunesp/sslb) - It's a Super Simples Load Balancer, just a little project to achieve some kind of performance.
 * [tcp_server](https://github.com/firstrow/tcp_server) - A Go library for building tcp servers faster.
 * [utp](https://github.com/anacrolix/utp) - Go uTP micro transport protocol implementation.
-
+* [winrm](https://github.com/masterzen/winrm) - A Go WinRM client to remotely execute commands on Windows machines
 
 ## OpenGL
 
@@ -1180,7 +1180,7 @@ Software written in Go.
 * [Vegeta] (https://github.com/tsenart/vegeta) - HTTP load testing tool and library. It's over 9000!
 * [webhook](https://github.com/adnanh/webhook) - Tool which allows user to create HTTP endpoints (hooks) that execute commands on the server.
 * [Wide](https://wide.b3log.org/login) - A Web-based IDE for Teams using Golang.
-
+* [winrm-cli](https://github.com/masterzen/winrm-cli) - A cli tool to remotely execute commands on Windows machines
 
 ### Other Software
 * [boxed](https://github.com/tejo/boxed) - Dropbox based blog engine
