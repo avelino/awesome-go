@@ -218,6 +218,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [trie](https://github.com/derekparker/trie) - Trie implementation in Go
 * [ttlcache](https://github.com/diegobernardes/ttlcache) - An in-memory LRU string-interface{} map with expiration for golang
 * [willf/bloom](https://github.com/willf/bloom) - Go package implementing Bloom filters.
+* [sortedset](https://github.com/wangjia184/sortedset) - Go package implements sorted set inspired by the one from Redis. Allows access by key or order.
 
 ## Database
 
