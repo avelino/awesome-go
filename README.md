@@ -1184,6 +1184,7 @@ Software written in Go.
 
 ### Other Software
 * [boxed](https://github.com/tejo/boxed) - Dropbox based blog engine
+* [caretakerd](https://github.com/echocat/caretakerd) - A minimal process supervisor. There are no external dependencies and is optimized for containerization (such as Docker) with a simple configuration.
 * [Cherry](https://github.com/rafael-santiago/cherry) - A tiny webchat server in Go.
 * [Circuit](https://github.com/gocircuit/circuit) - Circuit is a programmable platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS), for management, discovery, synchronization and orchestration of services and hosts comprising cloud applications.
 * [Comcast](https://github.com/tylertreat/Comcast) - Simulate bad network connections.
