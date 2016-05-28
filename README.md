@@ -212,6 +212,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-geoindex](https://github.com/hailocab/go-geoindex) - In-memory geo index.
 * [golang-set](https://github.com/deckarep/golang-set) - Thread-Safe and Non-Thread-Safe high-performance sets for Go.
 * [goskiplist](https://github.com/ryszard/goskiplist) - A skip list implementation in Go.
+* [levenshtein](https://github.com/agnivade/levenshtein) - Implmentation to calculate levenshtein distance in Go.
 * [mafsa](https://github.com/smartystreets/mafsa) - MA-FSA implementation with Minimal Perfect Hashing
 * [roaring](https://github.com/RoaringBitmap/roaring) - Go package implementing compressed bitsets.
 * [skiplist](https://github.com/gansidui/skiplist) - Skiplist implementation in Go
