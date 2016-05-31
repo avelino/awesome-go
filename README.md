@@ -399,6 +399,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Awesome game development libraries.*
 
+* [Ebiten](https://github.com/hajimehoshi/ebiten) - A simple SNES-like 2D game library in Go
 * [engo](https://github.com/EngoEngine/engo) - Engo is an open-source 2D game engine written in Go. It follows the Entity-Component-System paradigm.
 * [GarageEngine](https://github.com/vova616/GarageEngine) - 2d game engine written in Go working on OpenGL.
 * [glop](https://github.com/runningwild/glop) - Glop (Game Library Of Power) is a fairly simple cross-platform game library.
