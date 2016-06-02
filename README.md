@@ -402,7 +402,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [Ebiten](https://github.com/hajimehoshi/ebiten) - A simple SNES-like 2D game library in Go
 * [engo](https://github.com/EngoEngine/engo) - Engo is an open-source 2D game engine written in Go. It follows the Entity-Component-System paradigm.
 * [GarageEngine](https://github.com/vova616/GarageEngine) - 2d game engine written in Go working on OpenGL.
-* [glm](https://github.com/luxengine/math) - A performance oriented vector, matrix, geometry library.
+* [glm](https://github.com/luxengine/glm) - A performance oriented vector, matrix, geometry library.
 * [glop](https://github.com/runningwild/glop) - Glop (Game Library Of Power) is a fairly simple cross-platform game library.
 * [go-astar](https://github.com/beefsack/go-astar) - Go implementation of the A\* path finding algorithm
 * [go-collada](https://github.com/GlenKelley/go-collada) - Go package for working with the Collada file format.
