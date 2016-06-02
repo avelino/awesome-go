@@ -944,6 +944,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [generate](https://github.com/go-playground/generate) - runs go generate recursively on a specified path or environment variable and can filter by regex.
 * [gentleman](https://github.com/h2non/gentleman) - Full-featured plugin-driven HTTP client library.
 * [go-cron](https://github.com/rk/go-cron) - A simple Cron library for go that can execute closures or functions at varying intervals, from once a second to once a year on a specific date and time. Primarily for web applications and long running daemons.
+* [go-develop](https://github.com/mehcode/go-develop) - Replacement for `go get` for use in development (allows private repositories)
 * [go-debug](https://github.com/tj/go-debug) - Conditional debug logging for Golang libraries & applications.
 * [go-dry](https://github.com/ungerik/go-dry) - DRY (don't repeat yourself) package for Go.
 * [go-rate](https://github.com/beefsack/go-rate) -  A timed rate limiter for Go.
