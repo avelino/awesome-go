@@ -585,6 +585,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [werr](https://github.com/txgruppi/werr) - Error Wrapper creates an wrapper for the error type in Go which captures the File, Line and Stack of where it was called.
 * [xkg](https://github.com/go-xkg/xkg) - X Keyboard Grabber
 * [xstrings](https://github.com/huandu/xstrings) - A collection of useful string functions ported from other languages.
+* [gobot](https://github.com/desertbit/glue) - Next generation robotics framework with support for 18 different platforms.
 
 ## Natural Language Processing
 
