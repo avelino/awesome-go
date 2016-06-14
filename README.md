@@ -779,6 +779,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [consul](https://www.consul.io/) - Consul is a tool for service discovery, monitoring and configuration.
 * [devd](https://github.com/cortesi/devd) - A local webserver for developers
 * [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
+* [grimd](https://github.com/looterz/grimd) - A small, fast dns proxy server for blocking ads and malware.
 * [minio](https://github.com/minio/minio) - Minio is a distributed object storage server.
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform
 * [yakvs](https://github.com/sci4me/yakvs) - A small, networked, in-memory key-value store.
