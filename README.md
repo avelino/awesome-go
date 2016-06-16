@@ -441,7 +441,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Tools for managing and working with Goroutines*
 
 * [grpool](https://github.com/ivpusic/grpool) - Lightweight Goroutine pool.
-* [pool](https://github.com/go-playground/pool) - Go consumer goroutine pool for easy goroutine handling + time saving.
+* [pool](https://github.com/go-playground/pool) - a limited consumer goroutine or unlimited goroutine pool for easier goroutine handling and cancellation.
 * [tunny](https://github.com/Jeffail/tunny) - A goroutine pool for golang.
 
 
