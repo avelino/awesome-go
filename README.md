@@ -91,6 +91,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [flac](https://github.com/mewkiz/flac) - A native Go FLAC decoder.
 * [go-sox](https://github.com/krig/go-sox) - libsox bindings for go.
 * [go_mediainfo](https://github.com/zhulik/go_mediainfo) - libmediainfo bindings for go.
+* [goav](https://github.com/giorgisio/goav) - Golang bindings for FFmpeg
 * [mix](https://github.com/go-mix/mix) - Sequence-based Go-native audio mixer for music apps.
 * [mp3](https://github.com/tcolgate/mp3) - A native Go MP# decoder.
 * [music-theory](https://github.com/go-music-theory/music-theory) - Music theory models in Go.
