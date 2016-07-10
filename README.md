@@ -161,6 +161,14 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [uiprogress](https://github.com/gosuri/uiprogress) - A flexible library to render progress bars in terminal applications.
 * [uitable](https://github.com/gosuri/uitable) - A library to improve readability in terminal apps using tabular data.
 
+### Background Jobs
+
+*Libraries for background job processing*
+
+* [gocraft/work](https://www.github.com/gocraft/work) -  Process background jobs in Go.
+* [go-workers](https://github.com/jrallison/go-workers) -  Sidekiq compatible background workers in golang.
+* [goworker](https://github.com/benmanns/goworker) - Resque-compatible, Go-based background worker.
+* [jobs](https://github.com/albrow/jobs) - A persistent and flexible background jobs library.
 
 ## Configuration
 
@@ -586,7 +594,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gosms](https://github.com/haxpax/gosms) - Your own local SMS gateway in Go that can be used to send SMS
 * [gountries](https://github.com/pariz/gountries) - A package that exposes country and subdivision data.
 * [health](https://github.com/dimiro1/health) - A Easy to use, extensible health check library.
-* [jobs](https://github.com/albrow/jobs) - A persistent and flexible background jobs library.
 * [margelet](https://github.com/zhulik/margelet) - A framework for building Telegram bots.
 * [notify](https://github.com/rjeczalik/notify) - File system event notification library with simple API, similar to os/signal.
 * [secdl](https://github.com/xor-gate/secdl) - Lighttpd ModSecDownload algorithm ported to go to secure download urls.
