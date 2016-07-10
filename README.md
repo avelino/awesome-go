@@ -165,8 +165,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for background job processing*
 
-* [gocraft/work](https://www.github.com/gocraft/work) -  Process background jobs in Go.
-* [go-workers](https://github.com/jrallison/go-workers) -  Sidekiq compatible background workers in golang.
+* [go-workers](https://github.com/jrallison/go-workers) - Sidekiq compatible background workers in golang.
+* [gocraft/work](https://github.com/gocraft/work) - Process background jobs in Go.
 * [goworker](https://github.com/benmanns/goworker) - Resque-compatible, Go-based background worker.
 * [jobs](https://github.com/albrow/jobs) - A persistent and flexible background jobs library.
 
