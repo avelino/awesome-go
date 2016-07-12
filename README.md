@@ -950,6 +950,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [boilr](https://github.com/tmrts/boilr) - A blazingly fast CLI tool for creating projects from boilerplate templates.
 * [command](https://github.com/txgruppi/command) - Command pattern for Go with thread safe serial and parallel dispatcher
 * [coop](https://github.com/rakyll/coop) - Cheat sheet for some of the common concurrent flows in Go.
+* [crypto](https://github.com/xigang/crypto) - Go supplementary cryptography libraries.
 * [Death](https://github.com/vrecan/death) - Managing go application shutdown with signals.
 * [Deepcopier](https://github.com/ulule/deepcopier) - Simple struct copying for Go.
 * [delve](https://github.com/derekparker/delve) - Go debugger.
