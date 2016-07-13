@@ -89,6 +89,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [flac](https://github.com/eaburns/flac) - A native Go FLAC decoder.
 * [flac](https://github.com/mewkiz/flac) - A native Go FLAC decoder.
+* [gaad](https://github.com/Comcast/gaad) - A native Go AAC bitstream parser
 * [go-sox](https://github.com/krig/go-sox) - libsox bindings for go.
 * [go_mediainfo](https://github.com/zhulik/go_mediainfo) - libmediainfo bindings for go.
 * [mix](https://github.com/go-mix/mix) - Sequence-based Go-native audio mixer for music apps.
