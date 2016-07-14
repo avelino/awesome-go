@@ -625,6 +625,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries for working with various layers of the network*
 
+* [Apache Thrift](https://github.com/apache/thrift) - Efficient cross-language IPC/RPC, works between Go, C++, Java, Python, PHP, C#, and many more other languages. Originally developed by Facebook.
 * [arp](https://github.com/mdlayher/arp) - Package arp implements the ARP protocol, as described in RFC 826.
 * [buffstreams](https://github.com/stabbycutyou/buffstreams) - Streaming protocolbuffer data over TCP made easy
 * [canopus](https://github.com/zubairhamed/canopus) - CoAP Client/Server implementation (RFC 7252)
