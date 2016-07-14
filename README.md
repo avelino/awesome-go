@@ -862,6 +862,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [blackfriday](https://github.com/russross/blackfriday) - Markdown processor in Go
         * [github_flavored_markdown](https://godoc.org/github.com/shurcooL/github_flavored_markdown) - GitHub Flavored Markdown renderer with fenced code block highlighting, clickable header anchor links.
     * [bluemonday](https://github.com/microcosm-cc/bluemonday) - HTML Sanitizer
+    * [editorconfig-core-go](https://github.com/editorconfig/editorconfig-core-go) - Editorconfig file parser and manipulator for Go
     * [enca](https://github.com/endeveit/enca) - Minimal cgo bindings for [libenca](http://cihar.com/software/enca/).
     * [genex](https://github.com/alixaxel/genex) - Count and expand Regular Expressions into all matching Strings
     * [go-humanize](https://github.com/dustin/go-humanize) - Formatters for time, numbers, and memory size to human readable format.
