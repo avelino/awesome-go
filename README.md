@@ -1258,6 +1258,7 @@ Where to discover new Go libraries.
 ## Benchmarks
 
 * [autobench](https://github.com/davecheney/autobench) - Framework to compare the performance between different Go versions.
+* [fperf](https://github.com/shafreeck/fperf) - A framework which allows you to develop your own benchmark tools never been easier..
 * [go-benchmarks](https://github.com/tylertreat/go-benchmarks) - A few miscellaneous Go microbenchmarks. Compare some language features to alternative aproaches.
 * [go-http-routing-benchmark](https://github.com/julienschmidt/go-http-routing-benchmark) - Go HTTP request router benchmark and comparison.
 * [go-type-assertion-benchmark](https://github.com/hgfischer/go-type-assertion-benchmark) - Naive performance test of two ways to do type assertion in Go.
