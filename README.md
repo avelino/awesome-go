@@ -522,6 +522,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [tail](https://github.com/hpcloud/tail) - A Go package striving to emulate the features of the BSD tail program.
 * [xlog](https://github.com/rs/xlog) - A structured logger for `net/context` aware HTTP handlers with flexible dispatching.
 * [zap](https://github.com/uber-go/zap) - Fast, structured, leveled logging in Go.
+* [BLog4go](https://github.com/YoungPioneers/blog4go) - Efficient logger with levels, rotating, hook and supports for file, socket and stdout.
 
 ## Machine Learning
 
