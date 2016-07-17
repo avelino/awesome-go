@@ -336,6 +336,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [flowgraph](https://github.com/vectaport/flowgraph) - MPI-style ready-send coordination layer.
 * [glow](https://github.com/chrislusf/glow) - Easy-to-Use scalable distributed big data processing, Map-Reduce, DAG execution, all in pure Go.
 * [go-jump](https://github.com/dgryski/go-jump) - A port of Google's "Jump" Consistent Hash function.
+* [gocelery](https://github.com/shicky/gocelery) - Go client/worker for Celery distributed task queue
 * [gorpc](https://github.com/valyala/gorpc) - Simple, fast and scalable RPC library for high load.
 * [grpc-go](https://github.com/grpc/grpc-go) - The Go language implementation of gRPC. HTTP/2 based RPC.
 * [micro](https://github.com/micro/micro) - A pluggable microservice toolkit and distributed systems platform.
