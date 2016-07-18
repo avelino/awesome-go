@@ -1168,6 +1168,7 @@ Go software and plugins.
 * [gb](https://getgb.io/) - An easy to use project based build tool for the Go programming language.
 * [go-pkg-complete](https://github.com/skelterjohn/go-pkg-complete) - Bash completion for go and wgo.
 * [rts](https://github.com/galeone/rts) - RTS: response to struct. Generates Go structs from server responses.
+* [go-swagger](https://github.com/go-swagger/go-swagger) - [Swagger 2.0 implementation for go](https://goswagger.io/). Swagger is a simple yet powerful representation of your RESTful API.
 
 ## Software Packages
 
