@@ -820,7 +820,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * Testing Frameworks
     * [assert](https://github.com/go-playground/assert) - Basic Assertion Library used along side native go testing, with building blocks for custom assertions
-    * [assert](https://github.com/bmizerany/assert) - Asserts to Go testing
     * [badio](https://github.com/cavaliercoder/badio) - Extensions to Go's `testing/iotest` package
     * [baloo](https://github.com/h2non/baloo) - Expressive and versatile end-to-end HTTP API testing made easy.
     * [bro](https://github.com/marioidival/bro) - Watch files in directory and run tests for them
