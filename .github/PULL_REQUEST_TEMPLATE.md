@@ -3,7 +3,7 @@ Please check if what you want to add to `awesome-go` list meets [quality standar
 **Please provide package links to:**
 - godoc.org: 
 - goreportcard.com: 
-- gocover.io or coveralls: 
+- coverage service link (gocover, coveralls etc.): 
 
 
 Note, that new categories can be added only when there are 3 packages or more.
