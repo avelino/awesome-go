@@ -1311,8 +1311,8 @@ Where to discover new Go libraries.
 * [Go Blog](http://blog.golang.org) - The official Go blog.
 * [Go Forum](https://forum.golangbridge.org) - Forum to discuss Go.
 * [Go Projects](https://github.com/golang/go/wiki/Projects) - List of projects on the Go community wiki.
-* [godoc.org](https://godoc.org/) - Documentation for open source Go packages.
 * [gocryforhelp](https://github.com/ninedraft/gocryforhelp) - A collection of Go projects that needs help. Good place to start your open-source way in Go.
+* [godoc.org](https://godoc.org/) - Documentation for open source Go packages.
 * [golang-graphics](https://github.com/mholt/golang-graphics) - A collection of Go images, graphics, and art.
 * [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - Go mailing list.
 * [Google Plus Community](https://plus.google.com/communities/114112804251407510571) - The Google+ community for #golang enthusiasts.
