@@ -395,7 +395,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [bind](https://github.com/robfig/bind)  - Bind form data to any Go values
 * [binding](https://github.com/mholt/binding) - Binds form and JSON data from net/http Request to struct.
 * [conform](https://github.com/leebenson/conform) - Keeps user input in check. Trims, sanitizes & scrubs data based on struct tags.
-* [form](https://github.com/go-playground/form) - Decodes url.Values into struct values and Encodes struct values into url.Values. Dual Array and Full map support.
+* [form](https://github.com/go-playground/form) - Decodes url.Values into Go value(s) and Encodes Go value(s) into url.Values. Dual Array and Full map support.
 * [formam](https://github.com/monoculum/formam) - decode form's values into a struct.
 * [forms](https://github.com/albrow/forms) - A framework-agnostic library for parsing and validating form/JSON data which supports multipart forms and files.
 * [gorilla/csrf](https://github.com/gorilla/csrf) - CSRF protection for Go web applications & services.
