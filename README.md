@@ -133,6 +133,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [climax](http://github.com/tucnak/climax) - An alternative CLI with "human face", in spirit of Go command
 * [cobra](https://github.com/spf13/cobra) - A Commander for modern Go CLI interactions
 * [docopt.go](https://github.com/docopt/docopt.go) - A command-line arguments parser that will make you smile.
+* [go-arg](https://github.com/alexflint/go-arg) - Struct-based argument parsing in Go
 * [go-flags](https://github.com/jessevdk/go-flags) - go command line option parser
 * [kingpin](https://github.com/alecthomas/kingpin) - A command line and flag parser supporting sub commands.
 * [liner](https://github.com/peterh/liner) - A Go readline-like library for command-line interfaces.
