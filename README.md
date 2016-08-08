@@ -378,6 +378,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [golua](https://github.com/aarzilli/golua) - Go bindings for Lua C API
 * [gopher-lua](https://github.com/yuin/gopher-lua) - a Lua 5.1 VM and compiler written in Go
 * [otto](https://github.com/robertkrimen/otto) - A JavaScript interpreter written in Go
+* [ps](https://github.com/llgcode/ps) - Postscript interpreter written in Go.
 * [purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go
 
 
@@ -476,6 +477,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries for manipulating images.*
 
 * [bimg](https://github.com/h2non/bimg) - Small package for fast and efficient image processing using libvips
+* [draw2d](https://github.com/llgcode/draw2d) - 2d vector package. 
 * [geopattern](https://github.com/pravj/geopattern) - Create beautiful generative image patterns from a string.
 * [gift](https://github.com/disintegration/gift) - Package of image processing filters.
 * [go-cairo](https://github.com/ungerik/go-cairo) - Go binding for the cairo graphics library.
