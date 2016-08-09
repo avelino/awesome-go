@@ -475,6 +475,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries for manipulating images.*
 
+* [bild](https://github.com/anthonynsimon/bild) - A collection of common image processing functions in Go.
 * [bimg](https://github.com/h2non/bimg) - Small package for fast and efficient image processing using libvips
 * [geopattern](https://github.com/pravj/geopattern) - Create beautiful generative image patterns from a string.
 * [gift](https://github.com/disintegration/gift) - Package of image processing filters.
