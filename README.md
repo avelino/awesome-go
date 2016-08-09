@@ -1187,6 +1187,7 @@ Software written in Go.
 * [Banshee](https://github.com/eleme/banshee) - Anomalies detection system for periodic metrics.
 * [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
 * [bosun](https://github.com/bosun-monitor/bosun) - Time Series Alerting Framework.
+* [Boxfuse](https://boxfuse.com) - Boxfuse is a tool based on immutable infrastructure, minimal images and blue/green deployments for deploying Go applications to AWS and provisioning all necessary infrastructure with a single command.
 * [dogo](https://github.com/liudng/dogo) - Monitoring changes in the source file and automatically compile and run (restart).
 * [Dropship](https://github.com/chrismckenzie/dropship) - A tool for deploying code via cdn.
 * [EasySSH](https://github.com/hypersleep/easyssh) - Golang package for easy remote execution through SSH and SCP downloading.
