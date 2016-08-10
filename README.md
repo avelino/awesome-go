@@ -883,6 +883,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [gonameparts](https://github.com/polera/gonameparts) - Parses human names into individual name parts
     * [GoQuery](https://github.com/PuerkitoBio/goquery) - GoQuery brings a syntax and a set of features similar to jQuery to the Go language.
     * [goregen](https://github.com/zach-klippenstein/goregen) - A library for generating random strings from regular expressions.
+    * [gotext](https://github.com/leonelquinteros/gotext) - GNU gettext utilities for Go.
     * [guesslanguage](https://github.com/endeveit/guesslanguage) - Functions to determine the natural language of a unicode text.
     * [mxj](https://github.com/clbanning/mxj) - Encode / decode XML as JSON or map[string]interface{}; extract values with dot-notation paths and wildcards. Replaces x2j and j2x packages.
     * [sh](https://github.com/mvdan/sh) - A shell parser and formatter
@@ -1104,6 +1105,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [vestigo](https://github.com/husobee/vestigo) -  A performant, stand-alone, HTTP compliant URL Router for go web applications.
 * [Volatile](https://github.com/volatile/core) - Minimalist middleware stack promoting flexibility, good practices and clean code.
 * [xmux](https://github.com/rs/xmux) - A high performance muxer based on `httprouter` with `net/context` support.
+* [YARF](https://github.com/yarf-framework/yarf) - Fast micro-framework designed to build REST APIs and web services in a fast and simple way.
 * [Zerver](https://github.com/cosiner/zerver) - Zerver is an expressive, modular, feature completed RESTful framework.
 * [zeus](https://github.com/daryl/zeus) - A very simple and fast HTTP router for Go.
 
