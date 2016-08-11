@@ -475,23 +475,26 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries for manipulating images.*
 
-* [bimg](https://github.com/h2non/bimg) - Small package for fast and efficient image processing using libvips
+* [bimg](https://github.com/h2non/bimg) - Small package for fast and efficient image processing using libvips.
 * [geopattern](https://github.com/pravj/geopattern) - Create beautiful generative image patterns from a string.
+* [gg](https://github.com/fogleman/gg) - 2D rendering in pure Go.
 * [gift](https://github.com/disintegration/gift) - Package of image processing filters.
 * [go-cairo](https://github.com/ungerik/go-cairo) - Go binding for the cairo graphics library.
-* [go-gd](https://github.com/bolknote/go-gd) - Go binding for GD library
+* [go-gd](https://github.com/bolknote/go-gd) - Go binding for GD library.
 * [go-nude](https://github.com/koyachi/go-nude) - Nudity detection with Go.
 * [go-opencv](https://github.com/lazywei/go-opencv) - Go bindings for OpenCV.
 * [go-webcolors](https://github.com/jyotiska/go-webcolors) - Port of webcolors library from Python to Go.
 * [imagick](https://github.com/gographics/imagick) - Go binding to ImageMagick's MagickWand C API.
-* [imaginary](https://github.com/h2non/imaginary) - Fast and simple HTTP microservice for image resizing
+* [imaginary](https://github.com/h2non/imaginary) - Fast and simple HTTP microservice for image resizing.
 * [imaging](https://github.com/disintegration/imaging) - Simple Go image processing package.
 * [img](https://github.com/hawx/img) - A selection of image manipulation tools.
+* [ln](https://github.com/fogleman/ln) - 3D line art rendering in Go.
 * [mpo](https://github.com/donatj/mpo) - A decoder and conversion tool for MPO 3D Photos.
-* [picfit](https://github.com/thoas/picfit) - An image resizing server written in Go
+* [picfit](https://github.com/thoas/picfit) - An image resizing server written in Go.
+* [pt](https://github.com/fogleman/pt) - A path tracing engine written in Go.
 * [resize](https://github.com/nfnt/resize) - Image resizing for the Go with common interpolation methods.
 * [rez](https://github.com/bamiaux/rez) - Image resizing in pure Go and SIMD.
-* [smartcrop](https://github.com/muesli/smartcrop) - Finds good crops for arbitrary images and crop sizes
+* [smartcrop](https://github.com/muesli/smartcrop) - Finds good crops for arbitrary images and crop sizes.
 * [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
 * [tga](https://github.com/ftrvxmtrx/tga) - Package tga is a TARGA image format decoder/encoder.
 
