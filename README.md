@@ -92,6 +92,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gaad](https://github.com/Comcast/gaad) - A native Go AAC bitstream parser
 * [go-sox](https://github.com/krig/go-sox) - libsox bindings for go.
 * [go_mediainfo](https://github.com/zhulik/go_mediainfo) - libmediainfo bindings for go.
+* [id3v2](https://github.com/bogem/id3v2) - Fast and stable ID3 writing library for Go
 * [mix](https://github.com/go-mix/mix) - Sequence-based Go-native audio mixer for music apps.
 * [mp3](https://github.com/tcolgate/mp3) - A native Go MP# decoder.
 * [music-theory](https://github.com/go-music-theory/music-theory) - Music theory models in Go.
