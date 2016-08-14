@@ -596,6 +596,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gountries](https://github.com/pariz/gountries) - A package that exposes country and subdivision data.
 * [health](https://github.com/dimiro1/health) - A Easy to use, extensible health check library.
 * [jobs](https://github.com/albrow/jobs) - A persistent and flexible background jobs library.
+* [juju/errors] (https://github.com/juju/errors) - Provides an easy way to annotate errors without losing the orginal error context.
 * [margelet](https://github.com/zhulik/margelet) - A framework for building Telegram bots.
 * [notify](https://github.com/rjeczalik/notify) - File system event notification library with simple API, similar to os/signal.
 * [secdl](https://github.com/xor-gate/secdl) - Lighttpd ModSecDownload algorithm ported to go to secure download urls.
