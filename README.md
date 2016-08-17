@@ -1340,7 +1340,7 @@ Where to discover new Go libraries.
 * [Go By Example](https://gobyexample.com/) - A hands-on introduction to Go using annotated example programs.
 * [Go database/sql tutorial](http://go-database-sql.org/) - Introduction to database/sql.
 * [Working with Go](https://github.com/mkaz/working-with-go) - An intro to go for experienced programmers.
-
+* [Go Koans](https://github.com/cdarwin/go-koans) - A walk through the path to Golang enlightenment.
 
 ## Windows
 
