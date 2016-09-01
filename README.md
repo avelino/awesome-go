@@ -297,9 +297,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [pq](https://github.com/lib/pq) - Pure Go Postgres driver for database/sql.
 
 * NoSQL Databases
-    * [asc](https://github.com/viant/asc) - Datastore Connectivity for Aerospike for go.
     * [aerospike-client-go](https://github.com/aerospike/aerospike-client-go) - Aerospike client in Go language.
     * [arangolite](https://github.com/solher/arangolite) - Lightweight golang driver for ArangoDB.
+    * [asc](https://github.com/viant/asc) - Datastore Connectivity for Aerospike for go.
     * [cayley](https://github.com/google/cayley) - A graph database with support for multiple backends.
     * [dsc](https://github.com/viant/dsc) - Datastore connectivity for SQL, NoSQL, structured files.
     * [dynago](https://github.com/underarmour/dynago) - Dynago is a principle of least surprise client for DynamoDB
@@ -857,7 +857,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [restit](https://github.com/yookoala/restit) - A Go micro framework to help writing RESTful API integration test.
     * [testfixtures](https://github.com/go-testfixtures/testfixtures) - A helper for Rails' like test fixtures to test database applications.
     * [Testify](https://github.com/stretchr/testify) - A sacred extension to the standard go testing package.
-    
+
 * Mock
     * [counterfeiter](https://github.com/maxbrunsfeld/counterfeiter) - Tool for generating self-contained mock objects
     * [go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) - Mock SQL driver for testing database interactions
