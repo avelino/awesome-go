@@ -593,6 +593,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gopsutil](https://github.com/shirou/gopsutil) - A cross-platform library for retrieving process and system utilization(CPU, Memory, Disks, etc).
 * [gosms](https://github.com/haxpax/gosms) - Your own local SMS gateway in Go that can be used to send SMS
 * [gountries](https://github.com/pariz/gountries) - A package that exposes country and subdivision data.
+* [go-openapi](https://github.com/go-openapi) - A collection of packages to parse and utilize open-api schemas
 * [health](https://github.com/dimiro1/health) - A Easy to use, extensible health check library.
 * [jobs](https://github.com/albrow/jobs) - A persistent and flexible background jobs library.
 * [margelet](https://github.com/zhulik/margelet) - A framework for building Telegram bots.
