@@ -1216,6 +1216,7 @@ Software written in Go.
 * [govvv](https://github.com/ahmetalpbalkan/govvv) - A “go build” wrapper to easily add version information into Go binaries
 * [gox](https://github.com/mitchellh/gox) - A dead simple, no frills Go cross compile tool.
 * [goxc](https://github.com/laher/goxc) - build tool for Go, with a focus on cross-compiling and packaging.
+* [grapes](https://github.com/yaronsumel/grapes) -  lightweight tool designed to distribute commands over ssh with ease.
 * [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
 * [kala](https://github.com/ajvb/kala) - Simplistic, modern, and performant job scheduler.
 * [kubernetes](https://github.com/kubernetes/kubernetes) - Container Cluster Manager from Google.
