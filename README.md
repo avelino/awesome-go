@@ -1078,6 +1078,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Bone](https://github.com/go-zoo/bone) - Lightning Fast HTTP Multiplexer.
 * [Bxog](https://github.com/claygod/Bxog) - Simple and fast HTTP router for Go. It works with routes of varying difficulty, length and nesting. And he knows how to create a URL from the received parameters.
 * [chi](https://github.com/pressly/chi) - Small, fast and expressive HTTP router built on net/context.
+* [CleverGo](https://github.com/headwindfly/clevergo) - CleverGo is a simple, easy to use and high performance web framework for Go.
 * [Echo](https://github.com/labstack/echo) - A fast and unfancy micro web framework for Go.
 * [Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity.
 * [Gizmo](https://github.com/NYTimes/gizmo) - Microservice toolkit used by the New York Times.
