@@ -570,6 +570,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [dbus](https://github.com/godbus/dbus) - Native Go bindings for D-Bus.
 * [emitter](https://github.com/olebedev/emitter) - Emits events using Go way, with wildcard, predicates, cancellation possibilities and many other good wins.
 * [EventBus](https://github.com/asaskevich/EventBus) - The lightweight event bus with async compatibility.
+* [go-events](https://github.com/kataras/go-events) - Simple Nodejs-style EventEmmiter for Go.
 * [go-longpoll](https://github.com/ventu-io/go-longpoll) - PubSub with long polling.
 * [go-notify](https://github.com/TheCreeper/go-notify) - Native implementation of the freedesktop notification spec.
 * [go-nsq](https://github.com/nsqio/go-nsq) - the official Go package for NSQ
@@ -700,6 +701,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gorp](https://github.com/go-gorp/gorp) - Go Relational Persistence, ORM-ish library for Go.
 * [QBS](https://github.com/coocood/qbs) - Stands for Query By Struct. A Go ORM.
 * [reform](https://github.com/go-reform/reform) - A better ORM for Go, based on non-empty interfaces and code generation.
+* [SQLBoiler](https://github.com/vattle/sqlboiler) - An ORM generator. Generate a featureful and blazing-fast ORM tailored to your database schema.
 * [Storm](https://github.com/asdine/storm) - Simple and powerful ORM for BoltDB.
 * [upper.io/db](https://github.com/upper/db) - Single interface for interacting with different data sources through the use of adapters that wrap mature database drivers.
 * [Xorm](https://github.com/go-xorm/xorm) - Simple and powerful ORM for Go.
@@ -1079,6 +1081,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Bone](https://github.com/go-zoo/bone) - Lightning Fast HTTP Multiplexer.
 * [Bxog](https://github.com/claygod/Bxog) - Simple and fast HTTP router for Go. It works with routes of varying difficulty, length and nesting. And he knows how to create a URL from the received parameters.
 * [chi](https://github.com/pressly/chi) - Small, fast and expressive HTTP router built on net/context.
+* [CleverGo](https://github.com/headwindfly/clevergo) - CleverGo is a simple, easy to use and high performance web framework for Go.
 * [Echo](https://github.com/labstack/echo) - A fast and unfancy micro web framework for Go.
 * [Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity.
 * [Gizmo](https://github.com/NYTimes/gizmo) - Microservice toolkit used by the New York Times.
@@ -1340,6 +1343,7 @@ Where to discover new Go libraries.
 * [Go Blog](http://blog.golang.org) - The official Go blog.
 * [Go Forum](https://forum.golangbridge.org) - Forum to discuss Go.
 * [Go Projects](https://github.com/golang/go/wiki/Projects) - List of projects on the Go community wiki.
+* [gocryforhelp](https://github.com/ninedraft/gocryforhelp) - A collection of Go projects that needs help. Good place to start your open-source way in Go.
 * [godoc.org](https://godoc.org/) - Documentation for open source Go packages.
 * [golang-graphics](https://github.com/mholt/golang-graphics) - A collection of Go images, graphics, and art.
 * [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - Go mailing list.
