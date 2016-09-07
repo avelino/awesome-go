@@ -1101,6 +1101,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gongular](https://github.com/mustafaakin/gongular) - A fast Go web framework with input mapping/validation and (DI) Dependency Injection
 * [goose](https://github.com/ian-kent/goose) - Server Sent Events in Go
 * [Gorilla](https://github.com/gorilla/) - Gorilla is a web toolkit for the Go programming language.
+* [Gowut](https://github.com/icza/gowut) - Go Web UI Toolkit, a full-featured, easy to use, platform independent Web UI Toolkit written in pure Go.
 * [httprouter](https://github.com/julienschmidt/httprouter) - A high performance router. Use this and the standard http handlers to form a very high performance web framework.
 * [httptreemux](https://github.com/dimfeld/httptreemux) - High-speed, flexible tree-based HTTP router for Go. Inspiration from httprouter.
 * [Iris](https://github.com/kataras/iris) - A very minimal but flexible and high-performance golang web application framework, providing a robust set of features for building web applications.
