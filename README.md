@@ -1355,6 +1355,7 @@ Where to discover new Go libraries.
 * [gowalker.org](https://gowalker.org) - Go Project API documentation.
 * [r/Golang](https://www.reddit.com/r/golang) - News about Go.
 * [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
+* [Go In 5 Minutes](https://www.goin5minutes.com/) - 5 minute screencasts focused on getting one thing done
 
 
 ### Tutorials
