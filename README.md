@@ -1346,6 +1346,7 @@ Where to discover new Go libraries.
 * [Flipboard - Go Magazine](https://flipboard.com/section/the-golang-magazine-bVP7nS) - A collection of Go articles and tutorials.
 * [Go Blog](http://blog.golang.org) - The official Go blog.
 * [Go Forum](https://forum.golangbridge.org) - Forum to discuss Go.
+* [Go In 5 Minutes](https://www.goin5minutes.com/) - 5 minute screencasts focused on getting one thing done.
 * [Go Projects](https://github.com/golang/go/wiki/Projects) - List of projects on the Go community wiki.
 * [gocryforhelp](https://github.com/ninedraft/gocryforhelp) - A collection of Go projects that needs help. Good place to start your open-source way in Go.
 * [godoc.org](https://godoc.org/) - Documentation for open source Go packages.
