@@ -138,7 +138,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-flags](https://github.com/jessevdk/go-flags) - go command line option parser
 * [kingpin](https://github.com/alecthomas/kingpin) - A command line and flag parser supporting sub commands.
 * [liner](https://github.com/peterh/liner) - A Go readline-like library for command-line interfaces.
-* [Minio Client](https://github.com/minio/mc) - Minio Client (mc) provides a modern alternative to UNIX commands like ls, cat, cp, mirror, diff etc. It supports filesystems and Amazon S3 compatible cloud storage service (AWS Signature v2 and v4). 
 * [mitchellh/cli](https://github.com/mitchellh/cli) - A Go library for implementing command-line interfaces.
 * [mow.cli](https://github.com/jawher/mow.cli) - A Go library for building CLI applications with sophisticated flag and argument parsing and validation.
 * [readline](https://github.com/chzyer/readline) - A pure golang implementation that provide most of features in GNU-Readline under MIT license.
