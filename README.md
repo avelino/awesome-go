@@ -138,6 +138,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-flags](https://github.com/jessevdk/go-flags) - go command line option parser
 * [kingpin](https://github.com/alecthomas/kingpin) - A command line and flag parser supporting sub commands.
 * [liner](https://github.com/peterh/liner) - A Go readline-like library for command-line interfaces.
+* [Minio Client](https://github.com/minio/mc) - Minio Client (mc) provides a modern alternative to UNIX commands like ls, cat, cp, mirror, diff etc. It supports filesystems and Amazon S3 compatible cloud storage service (AWS Signature v2 and v4). 
 * [mitchellh/cli](https://github.com/mitchellh/cli) - A Go library for implementing command-line interfaces.
 * [mow.cli](https://github.com/jawher/mow.cli) - A Go library for building CLI applications with sophisticated flag and argument parsing and validation.
 * [readline](https://github.com/chzyer/readline) - A pure golang implementation that provide most of features in GNU-Readline under MIT license.
@@ -1198,6 +1199,7 @@ Go software and plugins.
 ## Go Tools
 
 * [colorgo](https://github.com/songgao/colorgo) - A wrapper around `go` command for colorized `go build` output.
+* [Concert](https://github.com/minio/concert) - Concert is a console based certificate generation tool for Let’s Encrypt.
 * [gb](https://getgb.io/) - An easy to use project based build tool for the Go programming language.
 * [go-pkg-complete](https://github.com/skelterjohn/go-pkg-complete) - Bash completion for go and wgo.
 * [rts](https://github.com/galeone/rts) - RTS: response to struct. Generates Go structs from server responses.
@@ -1303,6 +1305,7 @@ Where to discover new Go libraries.
 * [golang-sql-benchmark](https://github.com/tyler-smith/golang-sql-benchmark) - A collection of benchmarks for popular Go database/SQL utilities.
 * [gospeed](https://github.com/feyeleanor/GoSpeed) - Go micro-benchmarks for calculating the speed of language constructs.
 * [kvbench](https://github.com/jimrobinson/kvbench) - Key/Value database benchmark.
+* [s3verify](https://github.com/minio/s3verify) - A tool to test for Amazon S3 V4 Signature API Compatibility. 
 * [skynet](https://github.com/atemerev/skynet) - Skynet 1M threads microbenchmark.
 * [speedtest-resize](https://github.com/fawick/speedtest-resize) - Compare various Image resize algorithms for the Go language.
 
