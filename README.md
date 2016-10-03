@@ -1097,6 +1097,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [chi](https://github.com/pressly/chi) - Small, fast and expressive HTTP router built on net/context.
 * [CleverGo](https://github.com/headwindfly/clevergo) - CleverGo is a simple, easy to use and high performance web framework for Go.
 * [Echo](https://github.com/labstack/echo) - A fast and unfancy micro web framework for Go.
+* [Fireball](https://github.com/zpatrick/fireball) - A more "natural" feeling web framework.
 * [Florest](https://github.com/jabong/florest-core) - High-performance workflow based REST API framework
 * [Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity.
 * [Gizmo](https://github.com/NYTimes/gizmo) - Microservice toolkit used by the New York Times.
