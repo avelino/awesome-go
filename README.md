@@ -354,6 +354,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [NATS](https://github.com/nats-io/gnatsd) - A lightweight, high performance messaging system for microservices, IoT, and cloud native systems.
 * [raft](https://github.com/hashicorp/raft) - Golang implementation of the Raft consensus protocol, by HashiCorp.
 * [raft](https://github.com/coreos/etcd/tree/master/raft#readme) - Go implementation of the Raft consensus protocol, by CoreOS.
+* [rpcx](https://github.com/smallnest/rpcx) - A distributed pluggable RPC service framework like alibaba Dubbo.
 * [sleuth](https://github.com/ursiform/sleuth) - A library for master-less p2p auto-discovery and RPC between HTTP services (using [ZeroMQ](https://github.com/zeromq/libzmq)).
 * [torrent](https://github.com/anacrolix/torrent) - BitTorrent client package.
     * [dht](https://godoc.org/github.com/anacrolix/torrent/dht) - BitTorrent Kademlia DHT implementation.
