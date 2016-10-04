@@ -1340,6 +1340,7 @@ Where to discover new Go libraries.
 * [Building Web Apps With Go](https://www.gitbook.com/book/codegangsta/building-web-apps-with-go/details)
 * [Go Bootcamp](http://golangbootcamp.com)
 * [GoBooks](https://github.com/dariubs/GoBooks) - A curated list of Go books
+* [How Do I Write And Deploy Simple Web Apps With Go?](https://leanpub.com/howdoibuildawebappwithgo/)
 * [Learning Go](https://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
 * [Network Programming With Go](https://jan.newmarch.name/go/)
 * [The Go Programming Language](http://www.gopl.io/)
