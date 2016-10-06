@@ -182,6 +182,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [ingo](https://github.com/schachmat/ingo) - Flags persisted in an ini-like config file
 * [ini](https://github.com/go-ini/ini) - Go package for read and write INI files
 * [mini](https://github.com/FogCreek/mini) - A golang package for parsing ini-style configuration files
+* [ozzo-config](https://github.com/go-ozzo/ozzo-config) - Configuration parsing (JSON, YAML, TOML supported), accessing, and object configuring.
 * [store](https://github.com/tucnak/store) - A lightweight configuration manager for Go
 * [viper](https://github.com/spf13/viper) - Go configuration with fangs
 
