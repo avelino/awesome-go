@@ -1254,6 +1254,7 @@ Software written in Go.
 * [winrm-cli](https://github.com/masterzen/winrm-cli) - A cli tool to remotely execute commands on Windows machines
 
 ### Other Software
+* [borg](https://github.com/crufter/borg) - A terminal based search engine for bash snippets
 * [boxed](https://github.com/tejo/boxed) - Dropbox based blog engine
 * [Cherry](https://github.com/rafael-santiago/cherry) - A tiny webchat server in Go.
 * [Circuit](https://github.com/gocircuit/circuit) - Circuit is a programmable platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS), for management, discovery, synchronization and orchestration of services and hosts comprising cloud applications.
