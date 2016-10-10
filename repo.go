@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"net/http"
 	"os"
+	"os/exec"
 	"text/template"
 )
 
@@ -14,6 +15,10 @@ type Content struct {
 }
 
 func GenerateHtml() {
+	// Update repo
+	_, _ = exec.Command("git", "checkout", "-f").Output()
+	_, _ = exec.Command("git", "pull").Output()
+
 	input, _ := ioutil.ReadFile("./README.md")
 	body := string(blackfriday.MarkdownCommon([]byte(string(input))))
 	c := &Content{Body: body}
