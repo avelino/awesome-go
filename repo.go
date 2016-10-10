@@ -1,13 +1,14 @@
 package main
 
 import (
-	"github.com/gorilla/mux"
-	"github.com/russross/blackfriday"
 	"io/ioutil"
 	"net/http"
 	"os"
 	"os/exec"
 	"text/template"
+
+	"github.com/gorilla/mux"
+	"github.com/russross/blackfriday"
 )
 
 type Content struct {
@@ -16,8 +17,8 @@ type Content struct {
 
 func GenerateHtml() {
 	// Update repo
-	_, _ = exec.Command("git", "checkout", "-f").Output()
-	_, _ = exec.Command("git", "pull").Output()
+	exec.Command("git", "checkout", "-f").Output()
+	exec.Command("git", "pull").Output()
 
 	input, _ := ioutil.ReadFile("./README.md")
 	body := string(blackfriday.MarkdownCommon([]byte(string(input))))
