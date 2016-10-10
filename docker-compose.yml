@@ -6,7 +6,7 @@ services:
     volumes:
       - ./tmpl:/srv
     ports:
-      - 2015:2015
+      - 80:2015
   webhook:
     build: ./
     volumes:
