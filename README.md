@@ -461,7 +461,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 ## Goroutines
 
 *Tools for managing and working with Goroutines*
-
+* [goworker](https://github.com/benmanns/goworker) - goworker is a Go-based background worker
 * [grpool](https://github.com/ivpusic/grpool) - Lightweight Goroutine pool.
 * [pool](https://github.com/go-playground/pool) - a limited consumer goroutine or unlimited goroutine pool for easier goroutine handling and cancellation.
 * [tunny](https://github.com/Jeffail/tunny) - A goroutine pool for golang.
