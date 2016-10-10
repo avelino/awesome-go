@@ -8,4 +8,4 @@ sudo: false
 install:
   - go get github.com/russross/blackfriday
   - go get github.com/PuerkitoBio/goquery
-
+  - go get github.com/gorilla/mux
