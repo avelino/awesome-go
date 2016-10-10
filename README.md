@@ -1109,6 +1109,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-json-rest](https://github.com/ant0ine/go-json-rest) - A quick and easy way to setup a RESTful JSON API.
 * [go-kit](https://github.com/go-kit/kit) - A Microservice toolkit with support for service discovery, load balancing, pluggable transports, request tracking, etc.
 * [go-relax](https://github.com/codehack/go-relax) - A framework of pluggable components to build RESTful API's.
+* [go-request](https://github.com/blendlabs/go-request) - This is a simple convenience library for making service requests and deserializing the results to objects either from JSON or from XML.
 * [go-rest](https://github.com/ungerik/go-rest) - A small and evil REST framework for Go.
 * [go-socket.io](https://github.com/googollee/go-socket.io) - socket.io library for golang, a realtime application framework.
 * [goa](https://github.com/raphael/goa) - Framework for developing microservices based on the design of Ruby's Praxis.
