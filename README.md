@@ -68,10 +68,10 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Code Analysis](#code-analysis)
     - [Editor Plugins](#editor-plugins)
     - [Go Tools](#go-tools)
+    - [go.uuid](#go.uuid)
     - [Software Packages](#software-packages)
         - [DevOps Tools](#devops-tools)
         - [Other Software](#other-software)
-    - [go.uuid](#go.uuid)
 
 - [Server Applications](#server-applications)
 
@@ -1218,8 +1218,8 @@ Go software and plugins.
 * [colorgo](https://github.com/songgao/colorgo) - A wrapper around `go` command for colorized `go build` output.
 * [gb](https://getgb.io/) - An easy to use project based build tool for the Go programming language.
 * [go-pkg-complete](https://github.com/skelterjohn/go-pkg-complete) - Bash completion for go and wgo.
-* [rts](https://github.com/galeone/rts) - RTS: response to struct. Generates Go structs from server responses.
 * [go.uuid](https://github.com/satori/go.uuid) - This package provides pure Go implementation of Universally Unique Identifier (UUID). Supported both creation and parsing of UUIDs
+* [rts](https://github.com/galeone/rts) - RTS: response to struct. Generates Go structs from server responses.
 
 ## Software Packages
 
