@@ -232,6 +232,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Databases implemented in Go.*
 
+
+* [BigCache](https://github.com/allegro/bigcache) - Efficient key/value cache for gigabytes of data.
 * [bolt](https://github.com/boltdb/bolt) - A low-level key/value database for Go.
 * [buntdb](https://github.com/tidwall/buntdb) - A fast, embeddable, in-memory key/value database for Go with custom indexing and spatial support.
 * [cache2go](https://github.com/muesli/cache2go) - An in-memory key:value cache which supports automatic invalidation based on timeouts.
