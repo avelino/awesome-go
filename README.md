@@ -622,6 +622,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gosms](https://github.com/haxpax/gosms) - Your own local SMS gateway in Go that can be used to send SMS
 * [gountries](https://github.com/pariz/gountries) - A package that exposes country and subdivision data.
 * [health](https://github.com/dimiro1/health) - A Easy to use, extensible health check library.
+* [indigo](https://github.com/osamingo/indigo) - A distributed unique ID generator of using Sonyflake and encoded by Base58.
 * [jobs](https://github.com/albrow/jobs) - A persistent and flexible background jobs library.
 * [margelet](https://github.com/zhulik/margelet) - A framework for building Telegram bots.
 * [notify](https://github.com/rjeczalik/notify) - File system event notification library with simple API, similar to os/signal.
