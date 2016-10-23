@@ -528,6 +528,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-log](https://github.com/ian-kent/go-log) - A log4j implementation in Go.
 * [go-logger](https://github.com/apsdehal/go-logger) - Simple logger of Go Programs, with level handlers.
 * [gologger](https://github.com/sadlil/gologger) - Simple easy to use log lib for go, logs in Colored Cosole, Simple Console, File or Elasticsearch.
+* [gomol](https://github.com/aphistic/gomol) - Multiple-output, structured logging for Go with extensible logging outputs.
 * [gone/log](https://github.com/One-com/gone/tree/master/log#readme) - Fast, extendable, full-featured, std-lib source compatible log library.
 * [log](https://github.com/apex/log) - Structured logging package for Go.
 * [log](https://github.com/go-playground/log) - Simple, configurable and scalable Structured Logging for Go.
