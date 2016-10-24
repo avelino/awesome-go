@@ -1237,7 +1237,6 @@ Software written in Go.
 * [aptly](https://github.com/smira/aptly) - aptly is a Debian repository management tool.
 * [awsenv](https://github.com/soniah/awsenv) - a small binary that loads Amazon (AWS) environment variables for a profile.
 * [Banshee](https://github.com/eleme/banshee) - Anomalies detection system for periodic metrics.
-* [Boom](https://github.com/rakyll/boom) - Boom is a tiny program that sends some load to a web application.
 * [bosun](https://github.com/bosun-monitor/bosun) - Time Series Alerting Framework.
 * [dogo](https://github.com/liudng/dogo) - Monitoring changes in the source file and automatically compile and run (restart).
 * [Dropship](https://github.com/chrismckenzie/dropship) - A tool for deploying code via cdn.
@@ -1253,6 +1252,7 @@ Software written in Go.
 * [goxc](https://github.com/laher/goxc) - build tool for Go, with a focus on cross-compiling and packaging.
 * [grapes](https://github.com/yaronsumel/grapes) -  lightweight tool designed to distribute commands over ssh with ease.
 * [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
+* [Hey](https://github.com/rakyll/hey) - Hey is a tiny program that sends some load to a web application.
 * [kala](https://github.com/ajvb/kala) - Simplistic, modern, and performant job scheduler.
 * [kubernetes](https://github.com/kubernetes/kubernetes) - Container Cluster Manager from Google.
 * [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data.
