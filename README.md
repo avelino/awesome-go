@@ -259,6 +259,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Database schema migration.*
 
+* [go-fixtures](https://github.com/AreaHQ/go-fixtures) - Django style fixtures for Golang's excellent built-in database/sql library.
 * [goose](https://github.com/steinbacher/goose) - Database migration tool. You can manage your database's evolution by creating incremental SQL or Go scripts.
 * [gormigrate](https://github.com/go-gormigrate/gormigrate) - Database schema migration helper for Gorm ORM.
 * [migrate](https://github.com/mattes/migrate) - Database migration handling in Golang support MySQL,PostgreSQL,Cassandra and SQLite.
