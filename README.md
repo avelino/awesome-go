@@ -1002,6 +1002,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *General utilities and tools to make your life easier.*
 
 * [abutil](https://github.com/bahlo/abutil) - A collection of often-used Golang helpers.
+* [Anakin](https://github.com/Softwee/Anakin) - Codegeneration tool for isomorphic server and mobile (Android & iOS) Go apps backed by gRPC & Protobuf.
 * [apm](https://github.com/topfreegames/apm) - A process manager for Golang applications with an HTTP API.
 * [boilr](https://github.com/tmrts/boilr) - A blazingly fast CLI tool for creating projects from boilerplate templates.
 * [command](https://github.com/txgruppi/command) - Command pattern for Go with thread safe serial and parallel dispatcher
