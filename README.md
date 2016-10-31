@@ -1396,9 +1396,12 @@ Where to discover new Go libraries.
 ### Tutorials
 
 * [A Tour of Go](http://tour.golang.org/) - Interactive tour of Go.
+* [Building Go Web Applications and Microservices Using Gin](https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin) - Get familiar with Gin and find out how it can help you reduce boilerplate code and build a request handling pipeline.
 * [Go By Example](https://gobyexample.com/) - A hands-on introduction to Go using annotated example programs.
 * [Go database/sql tutorial](http://go-database-sql.org/) - Introduction to database/sql.
+* [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go) - Get started with Godog — a Behavior-driven development framework for building and testing Go applications.
 * [Working with Go](https://github.com/mkaz/working-with-go) - An intro to go for experienced programmers.
+
 
 
 ## Windows
