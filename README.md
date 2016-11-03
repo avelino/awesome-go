@@ -476,6 +476,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for building GUI Applications*
 
+* [cef2go](https://github.com/cztomczak/cef2go) - CEF2go is an HTML 5 based GUI toolkit for the Go language.
 * [go-gtk](http://mattn.github.io/go-gtk/) - Go bindings for GTK
 * [go-qml](https://github.com/go-qml/qml) - QML support for the Go language
 * [goqt](https://github.com/visualfc/goqt) - Golang bindings to the Qt cross-platform application framework.
