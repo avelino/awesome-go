@@ -489,6 +489,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [trayhost](https://github.com/shurcooL/trayhost) - Cross-platform Go library to place an icon in the host operating system's taskbar.
 * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go.
 * [walk](https://github.com/lxn/walk) - Windows application library kit for Go.
+* [wxGo](https://github.com/dontpanic92/wxGo) - Golang wxWidgets wrapper.
 
 
 ## Hardware
