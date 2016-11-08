@@ -478,17 +478,19 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for building GUI Applications*
 
-* [go-gtk](http://mattn.github.io/go-gtk/) - Go bindings for GTK
-* [go-qml](https://github.com/go-qml/qml) - QML support for the Go language
+* [go-gtk](http://mattn.github.io/go-gtk/) - Go bindings for GTK.
+* [go-qml](https://github.com/go-qml/qml) - QML support for the Go language.
 * [goqt](https://github.com/visualfc/goqt) - Golang bindings to the Qt cross-platform application framework.
 * [gosx-notifier](https://github.com/deckarep/gosx-notifier) - OSX Desktop Notifications library for Go.
 * [gotk3](https://github.com/gotk3/gotk3) - Go bindings for GTK3.
-* [qt](https://github.com/therecipe/qt) - Qt binding for Go (support for Windows / macOS / Linux / Android / iOS / Sailfish OS / Raspberry Pi)
+* [nuklear](https://github.com/golang-ui/nuklear) - Go bindings for nuklear.h - a small ANSI C gui library.
+* [qt](https://github.com/therecipe/qt) - Qt binding for Go (support for Windows / macOS / Linux / Android / iOS / Sailfish OS / Raspberry Pi).
 * [sciter](https://github.com/oskca/sciter) - Go bindings for Sciter: the Embeddable HTML/CSS/script engine for modern desktop UI development.
-* [systray](https://github.com/getlantern/systray) - Cross platform Go library to place an icon and menu in the notification area
+* [systray](https://github.com/getlantern/systray) - Cross platform Go library to place an icon and menu in the notification area.
 * [trayhost](https://github.com/shurcooL/trayhost) - Cross-platform Go library to place an icon in the host operating system's taskbar.
 * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go.
 * [walk](https://github.com/lxn/walk) - Windows application library kit for Go.
+* [wxGo](https://github.com/dontpanic92/wxGo) - Golang wxWidgets wrapper.
 
 
 ## Hardware
