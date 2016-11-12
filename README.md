@@ -692,6 +692,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gotcp](https://github.com/gansidui/gotcp) - A Go package for quickly writing tcp applications
 * [grab](https://github.com/cavaliercoder/grab) - Go package for managing file downloads
 * [graval](https://github.com/koofr/graval) - An experimental FTP server framework.
+* [hostsfile](https://github.com/jaytaylor/go-hostsfile) - The /etc/hosts parsing and IP to hostnames reverse-resolution library
 * [kcp-go](https://github.com/xtaci/kcp-go) - KCP - A Fast and Reliable ARQ Protocol.
 * [kcptun](https://github.com/xtaci/kcptun) - An extremely simple & fast udp tunnel based on KCP protocol
 * [lhttp](https://github.com/fanux/lhttp) - A powerful websocket framework, build your IM server more easily.
@@ -934,6 +935,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [goregen](https://github.com/zach-klippenstein/goregen) - A library for generating random strings from regular expressions.
     * [gotext](https://github.com/leonelquinteros/gotext) - GNU gettext utilities for Go.
     * [guesslanguage](https://github.com/endeveit/guesslanguage) - Functions to determine the natural language of a unicode text.
+    * [html2text](https://github.com/jaytaylor/html2text) - HTML to plaintext conversion library
     * [mxj](https://github.com/clbanning/mxj) - Encode / decode XML as JSON or map[string]interface{}; extract values with dot-notation paths and wildcards. Replaces x2j and j2x packages.
     * [sh](https://github.com/mvdan/sh) - A shell parser and formatter
     * [slug](https://github.com/gosimple/slug) - URL-friendly slugify with multiple languages support.
