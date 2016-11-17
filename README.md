@@ -1361,7 +1361,7 @@ Where to discover new Go libraries.
 * [GopherCon](http://www.gophercon.com/) - Denver, USA
 * [GopherCon Brazil](https://gopherconbr.org) - Florianópolis, BR
 * [GopherCon Dubai](http://www.gophercon.ae/) - Dubai, UAE
-* [GopherCon India](http://www.gophercon.in/) - Bengaluru, India
+* [GopherCon India](http://www.gophercon.in/) - Pune, India
 * [GothamGo](http://gothamgo.com/) - New York City, USA
 
 ## E-Books
