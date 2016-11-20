@@ -1221,6 +1221,7 @@ Go software and plugins.
 * [goreturns](https://sourcegraph.com/github.com/sqs/goreturns) - Adds zero-value return statements to match the func return types.
 * [gostatus](https://github.com/shurcooL/gostatus) - A command line tool, shows the status of repositories that contain Go packages.
 * [interfacer](https://github.com/mvdan/interfacer) - A linter that suggests interface types.
+* [lint](https://github.com/surullabs/lint) - Run linters as part of go test
 * [validate](https://github.com/mccoyst/validate) - Automatically validates struct fields with tags.
 
 
