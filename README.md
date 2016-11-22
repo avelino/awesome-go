@@ -375,7 +375,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [go-peerflix](https://github.com/Sioro-Neoku/go-peerflix) - Video streaming torrent client.
 * [functions](https://github.com/iron-io/functions) -  Serverless platform. Also referred as Functions as a Service (FaaS).
 
-
 ## Email
 
 *Libraries that implement email creation and sending*
