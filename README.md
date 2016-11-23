@@ -362,6 +362,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [grpc-go](https://github.com/grpc/grpc-go) - The Go language implementation of gRPC. HTTP/2 based RPC.
 * [hprose](https://github.com/hprose/hprose-golang) - A very newbility RPC Library, support 25+ languages now.
 * [jsonrpc](https://github.com/osamingo/jsonrpc) - The jsonrpc package helps implement of JSON-RPC 2.0.
+* [jsonrpc](https://github.com/ybbus/jsonrpc) - A JSON-RPC 2.0 HTTP client implementation
 * [micro](https://github.com/micro/micro) - A pluggable microservice toolkit and distributed systems platform.
 * [NATS](https://github.com/nats-io/gnatsd) - A lightweight, high performance messaging system for microservices, IoT, and cloud native systems.
 * [raft](https://github.com/hashicorp/raft) - Golang implementation of the Raft consensus protocol, by HashiCorp.
