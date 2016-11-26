@@ -992,6 +992,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Medium](https://github.com/Medium/medium-sdk-go) - A Golang SDK for Medium's OAuth2 API.
 * [megos](https://github.com/andygrunwald/megos) - A client library for accessing an [Apache Mesos](http://mesos.apache.org/) cluster
 * [minio-go](https://github.com/minio/minio-go) - Minio Go Library for Amazon S3 compatible cloud storage.
+* [micha](https://github.com/onrik/micha) - Go Library fir Telegram bot api.
 * [mixpanel](https://github.com/dukex/mixpanel) - Mixpanel is a library for tracking events and sending Mixpanel profile updates to Mixpanel from your go applications.
 * [paypal](https://github.com/logpacker/paypalsdk) - Wrapper for PayPal payment API
 * [playlyfe](https://github.com/playlyfe/playlyfe-go-sdk) - The Playlyfe Rest API Go SDK
