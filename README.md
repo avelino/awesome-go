@@ -1422,7 +1422,8 @@ Where to discover new Go libraries.
 * [Go database/sql tutorial](http://go-database-sql.org/) - Introduction to database/sql.
 * [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go) - Get started with Godog — a Behavior-driven development framework for building and testing Go applications.
 * [Working with Go](https://github.com/mkaz/working-with-go) - An intro to go for experienced programmers.
-
+* [Go 简易教程](http://go.ctolib.com/docs/sfile/the-little-go-book_ZH_CN/index.html) - 《The Little Go Book》中文译本，中文正式名《Go简易教程》.
+* [学习Go语言的入门教程](http://go.ctolib.com/docs/read/go-library-c-readme.html) - 该教程主要是针对想要Go入门学习的，够用就好。
 
 
 ## Windows
