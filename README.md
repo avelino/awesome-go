@@ -1120,6 +1120,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gmf](https://github.com/3d0c/gmf) - Go bindings for FFmpeg av\* libraries.
 * [goav](https://github.com/giorgisio/goav) - Comphrensive Go bindings for FFmpeg.
 * [gst](https://github.com/ziutek/gst) - Go bindings for GStreamer.
+* [v4l](https://github.com/korandiz/v4l) - A video capture library for Linux, written in Go.
 
 
 ## Web Frameworks
