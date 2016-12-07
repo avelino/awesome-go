@@ -485,6 +485,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [go-gtk](http://mattn.github.io/go-gtk/) - Go bindings for GTK
 * [go-qml](https://github.com/go-qml/qml) - QML support for the Go language
+* [go.uik](https://github.com/kirillDanshin/go.uik) - Cross-platform GUI kit made with Go.WDE
 * [goqt](https://github.com/visualfc/goqt) - Golang bindings to the Qt cross-platform application framework.
 * [gosx-notifier](https://github.com/deckarep/gosx-notifier) - OSX Desktop Notifications library for Go.
 * [gotk3](https://github.com/gotk3/gotk3) - Go bindings for GTK3.
