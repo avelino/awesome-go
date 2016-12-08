@@ -490,6 +490,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gosx-notifier](https://github.com/deckarep/gosx-notifier) - OSX Desktop Notifications library for Go.
 * [gotk3](https://github.com/gotk3/gotk3) - Go bindings for GTK3.
 * [qt](https://github.com/therecipe/qt) - Qt binding for Go (support for Windows / macOS / Linux / Android / iOS / Sailfish OS / Raspberry Pi)
+* [robotgo](https://github.com/go-vgo/robotgo) - Go Native cross-platform system automation,Control the mouse, keyboard and other.
 * [sciter](https://github.com/oskca/sciter) - Go bindings for Sciter: the Embeddable HTML/CSS/script engine for modern desktop UI development.
 * [systray](https://github.com/getlantern/systray) - Cross platform Go library to place an icon and menu in the notification area
 * [trayhost](https://github.com/shurcooL/trayhost) - Cross-platform Go library to place an icon in the host operating system's taskbar.
