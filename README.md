@@ -914,6 +914,9 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [gofuzz](https://github.com/google/gofuzz) - A library for populating go objects with random values
     * [Tavor](https://github.com/zimmski/tavor) - A generic fuzzing and delta-debugging framework
 
+* Object Factories
+    * [factory-go](https://github.com/bluele/factory-go) - A test fixtures replacement for Go.
+
 ## Text Processing
 
 *Libraries for parsing and manipulating texts.*
