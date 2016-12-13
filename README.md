@@ -20,6 +20,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Configuration](#configuration)
     - [Continuous Integration](#continuous-integration)
     - [CSS Preprocessors](#css-preprocessors)
+    - [Cryptography & Hashing](#cryptography--hashing)
     - [Data Structures](#data-structures)
     - [Database](#database)
     - [Database Drivers](#database-drivers)
@@ -204,6 +205,14 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gcss](https://github.com/yosssi/gcss) - Pure Go CSS Preprocessor.
 * [go-libsass](https://github.com/wellington/go-libsass) - Go wrapper to the 100% Sass compatible libsass project.
 
+## Cryptography & Hashing
+
+*Libraries for cryptographic and hashing algorithms*
+
+* [go-jump](https://github.com/dgryski/go-jump) - A port of Google's "Jump" Consistent Hash function.
+* [go-spooky](https://github.com/dgryski/go-spooky) - Implementation of Bob Jenkins' Spooky hash.
+* [seahash](https://github.com/blainsmith/seahash) - A port of [ticki's SeaHash](https://ticki.github.io/blog/seahash-explained/).
+
 ## Data Structures
 
 *Generic datastructures and algorithms in Go.*
@@ -358,7 +367,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [celeriac](https://github.com/svcavallar/celeriac.v1) - A library for adding support for interacting and monitoring Celery workers, tasks and events in Go
 * [flowgraph](https://github.com/vectaport/flowgraph) - MPI-style ready-send coordination layer.
 * [glow](https://github.com/chrislusf/glow) - Easy-to-Use scalable distributed big data processing, Map-Reduce, DAG execution, all in pure Go.
-* [go-jump](https://github.com/dgryski/go-jump) - A port of Google's "Jump" Consistent Hash function.
 * [gorpc](https://github.com/valyala/gorpc) - Simple, fast and scalable RPC library for high load.
 * [grpc-go](https://github.com/grpc/grpc-go) - The Go language implementation of gRPC. HTTP/2 based RPC.
 * [hprose](https://github.com/hprose/hprose-golang) - A very newbility RPC Library, support 25+ languages now.
