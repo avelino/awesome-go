@@ -46,9 +46,9 @@ func testList(t *testing.T, list *goquery.Selection) {
 		items.RemoveFiltered("ul")
 	})
 
-	cat := list.Prev().Text()
+	category := list.Prev().Text()
 
-	t.Run(fmt.Sprintf("order of [%s]", cat), func(t *testing.T) {
+	t.Run(category, func(t *testing.T) {
 		checkAlphabeticOrder(t, list)
 	})
 }
