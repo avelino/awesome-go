@@ -25,16 +25,18 @@ func TestDuplicatedLinks(t *testing.T) {
 	links := make(map[string]bool, 0)
 
 	query.Find("body  a").Each(func(_ int, s *goquery.Selection) {
-		href, ok := s.Attr("href")
-		if !ok {
-			t.Errorf("expected '%s' to have href", s.Text())
-		}
+		t.Run(fmt.Sprintf("%s", s.Text()), func(t *testing.T) {
+			href, ok := s.Attr("href")
+			if !ok {
+				t.Error("expected to have href")
+			}
 
-		if links[href] {
-			t.Fatalf("duplicated link '%s'", href)
-		}
+			if links[href] {
+				t.Fatalf("duplicated link '%s'", href)
+			}
 
-		links[href] = true
+			links[href] = true
+		})
 	})
 }
 
