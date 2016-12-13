@@ -981,6 +981,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-twitter](https://github.com/dghubble/go-twitter) - Go client library for the Twitter v1.1 APIs.
 * [go-xkcd](https://github.com/nishanths/go-xkcd) - Go client for the xkcd API.
 * [goamz](https://github.com/mitchellh/goamz) - Popular fork of [goamz](https://launchpad.net/goamz) which adds some missing API calls to certain packages.
+* [goinsta](https://github.com/ahmdrz/goinsta) - Unofficial Instagram API written in Golang
 * [golyrics](https://github.com/mamal72/golyrics) - Golyrics is a Go library to fetch music lyrics data from the Wikia website.
 * [GoMusicBrainz](https://github.com/michiwend/gomusicbrainz) - a Go MusicBrainz WS2 client library.
 * [google](https://github.com/google/google-api-go-client) - Auto-generated Google APIs for Go.
