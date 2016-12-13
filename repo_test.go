@@ -2,7 +2,6 @@ package main
 
 import (
 	"bytes"
-	"fmt"
 	"io/ioutil"
 	"sort"
 	"strings"
@@ -25,7 +24,7 @@ func TestDuplicatedLinks(t *testing.T) {
 	links := make(map[string]bool, 0)
 
 	query.Find("body  a").Each(func(_ int, s *goquery.Selection) {
-		t.Run(fmt.Sprintf("%s", s.Text()), func(t *testing.T) {
+		t.Run(s.Text(), func(t *testing.T) {
 			href, ok := s.Attr("href")
 			if !ok {
 				t.Error("expected to have href")
