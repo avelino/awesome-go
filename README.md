@@ -1338,6 +1338,7 @@ Software written in Go.
 * [tsuru](https://tsuru.io/) - An extensible and open source Platform as a Service software.
 * [websysd](https://github.com/ian-kent/websysd) - Web based process manager (like Marathon or Upstart).
 * [wellington](https://github.com/wellington/wellington) - Sass project management tool, extends the language with sprite functions (like Compass).
+* [XML-Comp](https://github.com/xml-comp/xml-comp) - Simple command line XML comparer that generates diffs of folders, files and tags.
 
 
 
