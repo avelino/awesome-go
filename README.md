@@ -1176,6 +1176,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [session](https://github.com/icza/session) - Go session management for web servers (including support for Google App Engine - GAE).
 * [Siesta](https://github.com/VividCortex/siesta) - Composable framework to write middleware and handlers
 * [tango](https://github.com/lunny/tango) - Micro & pluggable web framework for Go.
+* [thinkgo](https://github.com/henrylee2cn/thinkgo) - A web framework that handler is middleware, supports intelligent parameter mapping and validation, and automates API documentation.
 * [tigertonic](https://github.com/rcrowley/go-tigertonic) - A Go framework for building JSON web services inspired by Dropwizard
 * [traffic](https://github.com/pilu/traffic) - Sinatra inspired regexp/pattern mux and web framework for Go.
 * [utron](https://github.com/gernest/utron) - A lightweight MVC framework for Go(Golang).
