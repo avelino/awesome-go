@@ -262,6 +262,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Database schema migration.*
 
+* [darwin](https://github.com/GuiaBolso/darwin) - Database schema evolution library for Go
 * [goose](https://github.com/steinbacher/goose) - Database migration tool. You can manage your database's evolution by creating incremental SQL or Go scripts.
 * [gormigrate](https://github.com/go-gormigrate/gormigrate) - Database schema migration helper for Gorm ORM.
 * [migrate](https://github.com/mattes/migrate) - Database migration handling in Golang support MySQL,PostgreSQL,Cassandra and SQLite.
