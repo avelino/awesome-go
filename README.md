@@ -253,6 +253,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [influxdb](https://github.com/influxdb/influxdb) - Scalable datastore for metrics, events, and real-time analytics
 * [ledisdb](https://github.com/siddontang/ledisdb) - Ledisdb is a high performance NoSQL like Redis based on LevelDB.
 * [levigo](https://github.com/jmhodges/levigo) - Levigo is a Go wrapper for LevelDB.
+* [piladb](https://github.com/fern4lvarez/piladb) - Lightweight RESTful database engine based on stack data structures.
 * [pREST](https://github.com/nuveo/prest) - Serve a RESTful API from any PostgreSQL database.
 * [prometheus](https://github.com/prometheus/prometheus) - Monitoring system and time series database.
 * [rqlite](https://github.com/rqlite/rqlite) - The lightweight, distributed, relational database built on SQLite.
