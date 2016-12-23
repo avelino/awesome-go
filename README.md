@@ -1012,6 +1012,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [spotify](https://github.com/rapito/go-spotify) - Go Library to access Spotify WEB API.
 * [steam](https://github.com/sostronk/go-steam) - Go Library to interact with Steam game servers.
 * [stripe](https://github.com/stripe/stripe-go) - Go client for the Stripe API
+* [tbot](https://github.com/yanzay/tbot) - Telegram bot server with API similar to net/http.
 * [telebot](https://github.com/tucnak/telebot) - Telegram bot framework written in Go.
 * [telegram-bot-api](https://github.com/Syfaro/telegram-bot-api) - Simple and clean Telegram bot client.
 * [textbelt](https://github.com/dietsche/textbelt) - Go client for the textbelt.com txt messaging API.
