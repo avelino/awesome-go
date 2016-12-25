@@ -144,6 +144,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [mitchellh/cli](https://github.com/mitchellh/cli) - A Go library for implementing command-line interfaces.
 * [mow.cli](https://github.com/jawher/mow.cli) - A Go library for building CLI applications with sophisticated flag and argument parsing and validation.
 * [readline](https://github.com/chzyer/readline) - A pure golang implementation that provide most of features in GNU-Readline under MIT license.
+* [sflags](https://github.com/octago/sflags) - Struct based flags generator for flag, urfave/cli, pflag, cobra, kingpin and other libraries.
 * [ukautz/clif](https://github.com/ukautz/clif) - A small command line interface framework.
 * [urfave/cli](https://github.com/urfave/cli) - A simple, fast, and fun package for building command line apps in Go (formerly codegangsta/cli).
 * [wlog](https://github.com/dixonwille/wlog) - A simple logging interface that supports cross-platform color and concurrency.
