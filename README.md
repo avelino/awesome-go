@@ -199,14 +199,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [goveralls](https://github.com/mattn/goveralls) - Go integration for Coveralls.io continuous code coverage tracking system.
 * [overalls](https://github.com/go-playground/overalls) - Multi-Package go project coverprofile for tools like goveralls
 
-## CSS Preprocessors
-
-*Libraries for preprocessing CSS files*
-
-* [c6](https://github.com/c9s/c6) - High performance SASS compatible-implementation compiler written in Go
-* [gcss](https://github.com/yosssi/gcss) - Pure Go CSS Preprocessor.
-* [go-libsass](https://github.com/wellington/go-libsass) - Go wrapper to the 100% Sass compatible libsass project.
-
 ## Cryptography & Hashing
 
 *Libraries for cryptographic and hashing algorithms*
@@ -214,6 +206,14 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-jump](https://github.com/dgryski/go-jump) - A port of Google's "Jump" Consistent Hash function.
 * [go-spooky](https://github.com/dgryski/go-spooky) - Implementation of Bob Jenkins' Spooky hash.
 * [seahash](https://github.com/blainsmith/seahash) - A port of [ticki's SeaHash](https://ticki.github.io/blog/seahash-explained/).
+
+## CSS Preprocessors
+
+*Libraries for preprocessing CSS files*
+
+* [c6](https://github.com/c9s/c6) - High performance SASS compatible-implementation compiler written in Go
+* [gcss](https://github.com/yosssi/gcss) - Pure Go CSS Preprocessor.
+* [go-libsass](https://github.com/wellington/go-libsass) - Go wrapper to the 100% Sass compatible libsass project.
 
 ## Data Structures
 
