@@ -117,7 +117,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gorbac](https://github.com/mikespook/gorbac) - provides a lightweight role-based access control (RBAC) implementation in Golang.
 * [goth](https://github.com/markbates/goth) - provides a simple, clean, and idiomatic way to use OAuth and OAuth2. Handles multiple provides out of the box.
 * [httpauth](https://github.com/goji/httpauth) - HTTP Authentication middleware.
-* [jwt](https://github.com/robbert229/jwt) - A clean and easy to use implmentatino of JSON Web Tokens (JWT).
+* [jwt](https://github.com/robbert229/jwt) - A clean and easy to use implementation of JSON Web Tokens (JWT).
 * [jwt-auth](https://github.com/adam-hanna/jwt-auth) - JWT middleware for goLang http servers with many configuration options.
 * [jwt-go](https://github.com/dgrijalva/jwt-go) - Golang implementation of JSON Web Tokens (JWT).
 * [oauth2](https://github.com/golang/oauth2) - Successor of goauth2. Generic OAuth 2.0 package that comes with JWT, Google APIs, Compute Engine and App Engine support.
