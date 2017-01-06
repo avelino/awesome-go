@@ -981,6 +981,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [clarifai](https://github.com/samuelcouch/clarifai) - A Go client library for interfacing with the Clarifai API.
 * [discordgo](https://github.com/bwmarrin/discordgo) -  Go bindings for the Discord Chat API
 * [facebook](https://github.com/huandu/facebook) - Go Library that supports the Facebook Graph API
+* [fcm](https://github.com/maddevsio/fcm) - Go library for Firebase Cloud Messaging
 * [gads](https://github.com/emiddleton/gads) - Google Adwords Unofficial API
 * [gami](https://github.com/bit4bit/gami) - Go library for Asterisk Manager Interface.
 * [gcm](https://github.com/Aorioli/gcm) - Go library for Google Cloud Messaging
