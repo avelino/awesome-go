@@ -685,6 +685,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [snowball](https://github.com/goodsign/snowball) - Snowball stemmer port (cgo wrapper) for Go. Provides word stem extraction functionality [Snowball native](http://snowball.tartarus.org/).
 * [stemmer](https://github.com/dchest/stemmer) - Stemmer packages for Go programming language. Includes English and German stemmers.
 * [textcat](https://github.com/pebbe/textcat) - A Go package for n-gram based text categorization, with support for utf-8 and raw text
+* [when](https://github.com/olebedev/when) - A natural EN and RU language date/time parser with pluggable rules
 
 ## Networking
 
