@@ -727,6 +727,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [tcp_server](https://github.com/firstrow/tcp_server) - A Go library for building tcp servers faster.
 * [utp](https://github.com/anacrolix/utp) - Go uTP micro transport protocol implementation.
 * [winrm](https://github.com/masterzen/winrm) - A Go WinRM client to remotely execute commands on Windows machines
+* [xtcp](https://github.com/xfxdev/xtcp) - A TCP Server Framework with simultaneous full duplex communication,graceful shutdown,custom protocol.
 
 ## OpenGL
 
