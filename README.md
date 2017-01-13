@@ -268,7 +268,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [darwin](https://github.com/GuiaBolso/darwin) - Database schema evolution library for Go
 * [goose](https://github.com/steinbacher/goose) - Database migration tool. You can manage your database's evolution by creating incremental SQL or Go scripts.
 * [gormigrate](https://github.com/go-gormigrate/gormigrate) - Database schema migration helper for Gorm ORM.
-* [migrate](https://github.com/mattes/migrate) - Database migration handling in Golang support MySQL,PostgreSQL,Cassandra and SQLite.
+* [migrate](https://github.com/mattes/migrate) - Database migration handling in Golang support MySQL, PostgreSQL, Cassandra, and SQLite.
+* [pop/soda](https://github.com/markbates/pop) - Database migration, creation, ORM, etc... for MySQL, PostgreSQL, and SQLite.
 * [pravasan](https://github.com/pravasan/pravasan) - Simple Migration tool - currently for MySQL but planning to support soon for Postgres, SQLite, MongoDB, etc.,
 * [sql-migrate](https://github.com/rubenv/sql-migrate) - Database migration tool. Allows embedding migrations into the application using go-bindata.
 
@@ -289,6 +290,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [goqu](https://github.com/doug-martin/goqu) - An idiomatic SQL builder and query library.
 * [igor](https://github.com/galeone/igor) - Abstraction layer for PostgreSQL that supports advanced functionality and uses gorm-like syntax.
 * [ozzo-dbx](https://github.com/go-ozzo/ozzo-dbx) - Powerful data retrieval methods as well as DB-agnostic query building capabilities.
+* [pop/soda](https://github.com/markbates/pop) - Database migration, creation, ORM, etc... for MySQL, PostgreSQL, and SQLite.
 * [scaneo](https://github.com/variadico/scaneo) - Generate Go code to convert database rows into arbitrary structs.
 * [sqrl](https://github.com/elgris/sqrl) - SQL query builder, fork of Squirrel with improved performance.
 * [Squirrel](https://github.com/Masterminds/squirrel) - Go library that helps you build SQL queries.
@@ -750,6 +752,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gomodel](https://github.com/cosiner/gomodel) - A lightweight, fast, orm-like library helps interactive with database.
 * [GORM](https://github.com/jinzhu/gorm) - The fantastic ORM library for Golang, aims to be developer friendly.
 * [gorp](https://github.com/go-gorp/gorp) - Go Relational Persistence, ORM-ish library for Go.
+* [pop/soda](https://github.com/markbates/pop) - Database migration, creation, ORM, etc... for MySQL, PostgreSQL, and SQLite.
 * [QBS](https://github.com/coocood/qbs) - Stands for Query By Struct. A Go ORM.
 * [reform](https://github.com/go-reform/reform) - A better ORM for Go, based on non-empty interfaces and code generation.
 * [SQLBoiler](https://github.com/vattle/sqlboiler) - An ORM generator. Generate a featureful and blazing-fast ORM tailored to your database schema.
@@ -885,7 +888,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [raymond](https://github.com/aymerick/raymond) - A complete handlebars implementation in Go.
 * [Razor](https://github.com/sipin/gorazor) - Razor view engine for Golang.
 * [Soy](https://github.com/robfig/soy) - Closure templates (aka Soy templates) for Go, following the [official spec](https://developers.google.com/closure/templates/)
-
+* [velvet](https://github.com/gobuffalo/velvet) - A complete handlebars implementation in Go.
 
 ## Testing
 
@@ -1123,6 +1126,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * [govalidator](https://github.com/asaskevich/govalidator) - Validators and sanitizers for strings, numerics, slices and structs.
 * [ozzo-validation](https://github.com/go-ozzo/ozzo-validation) - Supports validation of various data types (structs, strings, maps, slices, etc.) with configurable and extensible validation rules specified in usual code constructs instead of struct tags.
+* [validate](https://github.com/markbates/validate) - This package provides a framework for writing validations for Go applications.
 * [validator](https://github.com/go-playground/validator) - Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving.
 
 
@@ -1153,6 +1157,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [alien](https://github.com/gernest/alien) - A lightweight and  fast http router from outer space
 * [Beego](https://github.com/astaxie/beego) - beego is an open-source, high-performance web framework for the Go programming language.
 * [Bone](https://github.com/go-zoo/bone) - Lightning Fast HTTP Multiplexer.
+* [Buffalo](http://gobuffalo.io) - Bringing the productivity of Rails to Go!
 * [Bxog](https://github.com/claygod/Bxog) - Simple and fast HTTP router for Go. It works with routes of varying difficulty, length and nesting. And he knows how to create a URL from the received parameters.
 * [chi](https://github.com/pressly/chi) - Small, fast and expressive HTTP router built on net/context.
 * [Echo](https://github.com/labstack/echo) - High performance, minimalist Go web framework.
