@@ -186,7 +186,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [hjson](https://github.com/hjson/hjson-go) - Human JSON, a configuration file format for humans. Relaxed syntax, fewer mistakes, more comments.
 * [ingo](https://github.com/schachmat/ingo) - Flags persisted in an ini-like config file
 * [ini](https://github.com/go-ini/ini) - Go package for read and write INI files
-* [mini](https://github.com/FogCreek/mini) - A golang package for parsing ini-style configuration files
+* [mini](https://github.com/sasbury/mini) - A golang package for parsing ini-style configuration files
 * [store](https://github.com/tucnak/store) - A lightweight configuration manager for Go
 * [viper](https://github.com/spf13/viper) - Go configuration with fangs
 
