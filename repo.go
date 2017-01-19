@@ -8,6 +8,7 @@ import (
 	"text/template"
 
 	"github.com/gorilla/mux"
+	"github.com/microcosm-cc/bluemonday"
 	"github.com/russross/blackfriday"
 )
 
@@ -59,14 +60,16 @@ func generateHTML() {
 
 	input, _ := ioutil.ReadFile(readmePath)
 	body := string(
-		blackfriday.Markdown(
-			input,
-			blackfriday.HtmlRenderer(
-				bfHTMLRendererOpts,
-				emtyStr,
-				emtyStr,
+		bluemonday.UGCPolicy().SanitizeBytes(
+			blackfriday.Markdown(
+				input,
+				blackfriday.HtmlRenderer(
+					bfHTMLRendererOpts,
+					emtyStr,
+					emtyStr,
+				),
+				bfMDOpts,
 			),
-			bfMDOpts,
 		),
 	)
 	c := &content{Body: body}
