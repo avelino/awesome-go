@@ -382,6 +382,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [tendermint](https://github.com/tendermint/tendermint) - High-performance middleware for transforming a state machine written in any programming language into a Byzantine Fault Tolerant replicated state machine using the Tendermint consensus and blockchain protocols.
 * [torrent](https://github.com/anacrolix/torrent) - BitTorrent client package.
     * [dht](https://godoc.org/github.com/anacrolix/torrent/dht) - BitTorrent Kademlia DHT implementation.
+    * [dht](https://github.com/nictuku/dht) - Kademlia/Bittorrent DHT library that implements BEP 5.
     * [go-peerflix](https://github.com/Sioro-Neoku/go-peerflix) - Video streaming torrent client.
 
 ## Email
