@@ -1270,6 +1270,7 @@ Go software and plugins.
 * [interfacer](https://github.com/mvdan/interfacer) - A linter that suggests interface types.
 * [lint](https://github.com/surullabs/lint) - Run linters as part of go test
 * [staticcheck](https://github.com/dominikh/go-tools/tree/master/cmd/staticcheck) - staticcheck is `go vet` on steroids, applying a ton of static analysis checks you might be used to from tools like ReSharper for C#.
+* [unconvert](https://github.com/mdempsky/unconvert) - Remove unnecessary type conversions from Go source.
 * [unused](https://github.com/dominikh/go-tools/tree/master/cmd/unused) - unused checks Go code for unused constants, variables, functions and types.
 * [validate](https://github.com/mccoyst/validate) - Automatically validates struct fields with tags.
 
