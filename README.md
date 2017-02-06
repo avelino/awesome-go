@@ -184,6 +184,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [envcfg](https://github.com/tomazk/envcfg) - Un-marshaling environment variables to Go structs.
 * [envconf](https://github.com/ian-kent/envconf) - Configuration from environment
 * [envconfig](https://github.com/vrischmann/envconfig) - Read your configuration from environment variables.
+* [flagfile](https://github.com/spacemonkeygo/flagfile) - provides a simple api for flag serialization and parsing on top of the flag package
 * [gcfg](https://github.com/go-gcfg/gcfg) - read INI-style configuration files into Go structs; supports user-defined types and subsections
 * [gofigure](https://github.com/ian-kent/gofigure) - Go application configuration made easy
 * [hjson](https://github.com/hjson/hjson-go) - Human JSON, a configuration file format for humans. Relaxed syntax, fewer mistakes, more comments.
@@ -573,6 +574,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [seelog](https://github.com/cihub/seelog) -   logging functionality with flexible dispatching, filtering, and formatting.
 * [slf](https://github.com/ventu-io/slf) - The Structured Logging Facade (SLF) for Go (like SLF4J but structured and for Go)
 * [slog](https://github.com/ventu-io/slog) - The reference implementation of the Structured Logging Facade (SLF) for Go
+* [spacelog](https://github.com/spacemonkeygo/spacelog) - Hierarchical, leveled, and structured logging library for Go. 
 * [stdlog](https://github.com/alexcesaro/log) - Stdlog is an object-oriented library providing leveled logging. It is very useful for cron jobs.
 * [tail](https://github.com/hpcloud/tail) - A Go package striving to emulate the features of the BSD tail program.
 * [xlog](https://github.com/xfxdev/xlog) - Plugin architecture and flexible log system for Go, with level ctrl, multiple log target and custom log format.
@@ -661,6 +663,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [margelet](https://github.com/zhulik/margelet) - A framework for building Telegram bots.
 * [notify](https://github.com/rjeczalik/notify) - File system event notification library with simple API, similar to os/signal.
 * [secdl](https://github.com/xor-gate/secdl) - Lighttpd ModSecDownload algorithm ported to go to secure download urls.
+* [Space Monkey errors](https://github.com/spacemonkeygo/errors) - A flexible error support library for Go
 * [stats](https://github.com/go-playground/stats) - Monitors Go MemStats + System stats such as Memory, Swap and CPU and sends via UDP anywhere you want for logging etc...
 * [werr](https://github.com/txgruppi/werr) - Error Wrapper creates an wrapper for the error type in Go which captures the File, Line and Stack of where it was called.
 * [xkg](https://github.com/go-xkg/xkg) - X Keyboard Grabber
@@ -727,6 +730,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [llb](https://github.com/kirillDanshin/llb) - It's a very simple but quick backend for proxy servers. Can be useful for fast redirection to predefined domain with zero memory allocation and fast response.
 * [mdns](https://github.com/hashicorp/mdns) - Simple mDNS (Multicast DNS) client/server library in Golang
 * [mqttPaho](https://eclipse.org/paho/clients/golang/) - The Paho Go Client provides an MQTT client library for connection to MQTT brokers via TCP, TLS or WebSockets.
+* [openssl](https://github.com/spacemonkeygo/openssl) - OpenSSL bindings for Go.
 * [portproxy](https://github.com/aybabtme/portproxy) - Simple TCP proxy which adds CORS support to API's which don't support it.
 * [publicip](https://github.com/polera/publicip) - Package publicip returns your public facing IPv4 address (internet egress).
 * [raw](https://github.com/mdlayher/raw) - Package raw enables reading and writing data at the device driver level for a network interface.
@@ -1335,6 +1339,7 @@ Software written in Go.
 * [Hey](https://github.com/rakyll/hey) - Hey is a tiny program that sends some load to a web application.
 * [kala](https://github.com/ajvb/kala) - Simplistic, modern, and performant job scheduler.
 * [kubernetes](https://github.com/kubernetes/kubernetes) - Container Cluster Manager from Google.
+* [monkit](https://github.com/spacemonkeygo/monkit) - A flexible process data collection, metrics, monitoring, instrumentation, and tracing client library for Go
 * [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data.
 * [ostent](https://github.com/ostrost/ostent) - collects and displays system metrics and optionally relays to Graphite and/or InfluxDB.
 * [Packer](https://github.com/mitchellh/packer) - Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.
