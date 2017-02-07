@@ -1069,7 +1069,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [generate](https://github.com/go-playground/generate) - runs go generate recursively on a specified path or environment variable and can filter by regex.
 * [gentleman](https://github.com/h2non/gentleman) - Full-featured plugin-driven HTTP client library.
 * [git-time-metric](https://github.com/git-time-metric/gtm) - Simple, seamless, lightweight time tracking for Git
-* [goreleaser](https://github.com/goreleaser) - Deliver Go binaries as fast and easily as possible
+* [goreleaser](https://github.com/goreleaser/goreleaser) - Deliver Go binaries as fast and easily as possible
 * [go-bind-plugin](https://github.com/wendigo/go-bind-plugin) - go:generate tool for wrapping symbols exported by golang plugins (1.8 only)
 * [go-cron](https://github.com/rk/go-cron) - A simple Cron library for go that can execute closures or functions at varying intervals, from once a second to once a year on a specific date and time. Primarily for web applications and long running daemons.
 * [go-debug](https://github.com/tj/go-debug) - Conditional debug logging for Golang libraries & applications.
