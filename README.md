@@ -1303,6 +1303,7 @@ Go software and plugins.
 * [go-swagger](https://github.com/go-swagger/go-swagger) - Swagger 2.0 implementation for go. Swagger is a simple yet powerful representation of your RESTful API.
 * [OctoLinker](https://github.com/OctoLinker/browser-extension) - Navigate through go files efficiently with the OctoLinker browser extension for GitHub.
 * [rts](https://github.com/galeone/rts) - RTS: response to struct. Generates Go structs from server responses.
+* [zb](https://github.com/joshuarubin/zb) - an opinionated repo based tool for linting, testing and building
 
 ## Software Packages
 
