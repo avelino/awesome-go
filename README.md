@@ -1476,6 +1476,7 @@ Where to discover new Go libraries.
 ### Tutorials
 
 * [A Tour of Go](http://tour.golang.org/) - Interactive tour of Go.
+* [Building and Testing a REST API in Go with Gorilla Mux and PostgreSQL](https://semaphoreci.com/community/tutorials/building-and-testing-a-rest-api-in-go-with-gorilla-mux-and-postgresql)
 * [Building Go Web Applications and Microservices Using Gin](https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin) - Get familiar with Gin and find out how it can help you reduce boilerplate code and build a request handling pipeline.
 * [Go By Example](https://gobyexample.com/) - A hands-on introduction to Go using annotated example programs.
 * [Go Cheat Sheet](https://github.com/a8m/go-lang-cheat-sheet) - A Go's reference card.
