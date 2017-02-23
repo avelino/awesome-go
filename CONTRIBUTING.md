@@ -35,6 +35,11 @@ To be on the list, project repositories should adhere to these quality standards
 - Tests, where practical. If the library/program is testable, then coverage should be >= 80% for non-data-related packages and >=90% for data related packages. **Notice**: the tests will be reviewed too. We will check your coverage manually if your package's coverage is just a benchmark results.
 
 
+## Maintainers
+
+To make sure every PR is checked, we have [team maintainers](MAINTAINERS). Every PR MUST be reviewed by at least two maintainers before it can get merged.
+
+
 ## Reporting issues
 
 Please open an issue if you would like to discuss anything that could be improved or have suggestions for making the list a more valuable resource. We realize sometimes packages fall into abandonment or have breaking builds for extended periods of time, so if you see that, feel free to change its listing or let us know. We also realize that sometimes projects are just going through transitions or are more experimental in nature. These can still be cool, but we can indicate them as transitory or experimental.
