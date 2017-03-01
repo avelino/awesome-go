@@ -504,8 +504,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for building GUI Applications*
 
 * [go-gtk](http://mattn.github.io/go-gtk/) - Go bindings for GTK
-* [go-sciter](https://github.com/sciter-sdk/go-sciter) - Go bindings for Sciter: the Embeddable HTML/CSS/script engine for modern desktop UI development.
 * [go-qml](https://github.com/go-qml/qml) - QML support for the Go language
+* [go-sciter](https://github.com/sciter-sdk/go-sciter) - Go bindings for Sciter: the Embeddable HTML/CSS/script engine for modern desktop UI development.
 * [goqt](https://github.com/visualfc/goqt) - Golang bindings to the Qt cross-platform application framework.
 * [gosx-notifier](https://github.com/deckarep/gosx-notifier) - OSX Desktop Notifications library for Go.
 * [gotk3](https://github.com/gotk3/gotk3) - Go bindings for GTK3.
