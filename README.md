@@ -952,7 +952,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [gofuzz](https://github.com/google/gofuzz) - A library for populating go objects with random values
     * [Tavor](https://github.com/zimmski/tavor) - A generic fuzzing and delta-debugging framework
 
-* Selenium tools
+* Selenium and browser control tools
+    * [chromedp](https://github.com/knq/chromedp) - a way to drive/test Chrome, Safari, Edge, Android Webviews, and other browsers supporting the Chrome Debugging Protocol.
     * [ggr](https://github.com/aandryashin/ggr) - a lightweight server that routes and proxies Selenium Wedriver requests to multiple Selenium hubs.
     * [selenoid](https://github.com/aandryashin/selenoid) - alternative Selenium hub server that launches browsers within containers.
 
