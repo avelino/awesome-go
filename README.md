@@ -27,6 +27,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Distributed Systems](#distributed-systems)
     - [Email](#email)
     - [Embeddable Scripting Languages](#embeddable-scripting-languages)
+    - [Event](#event)
     - [Financial](#financial)
     - [Forms](#forms)
     - [Game Development](#game-development)
@@ -424,6 +425,13 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [ngaro](https://github.com/db47h/ngaro) - Embeddable Ngaro VM implementation enabling scripting in Retro
 * [otto](https://github.com/robertkrimen/otto) - A JavaScript interpreter written in Go
 * [purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go
+
+
+## Event
+
+*Packages for event handling*
+
+* [go-trigger](https://github.com/sadlil/go-trigger) - Register events with task with an unique string id and triggers them from anywhere.
 
 
 ## Financial
