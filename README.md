@@ -620,7 +620,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries that implement messaging systems*
 
-* [amqp](https://github.com/streadway/amqp) - This is an AMQP 0.9.1 client with RabbitMQ extensions in Go.
+* [amqp](https://github.com/streadway/amqp) - This is an AMQP client with RabbitMQ extensions in Go.
 * [Centrifugo](https://github.com/centrifugal/centrifugo) - Real-time messaging (Websockets or SockJS) server in Go.
 * [dbus](https://github.com/godbus/dbus) - Native Go bindings for D-Bus.
 * [drone-line](https://github.com/appleboy/drone-line) - Sending [Line](https://business.line.me/en/services/bot) notifications using a binary, docker or Drone CI.
