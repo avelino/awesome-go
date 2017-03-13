@@ -1322,6 +1322,7 @@ Go software and plugins.
 ## Go Tools
 
 * [colorgo](https://github.com/songgao/colorgo) - A wrapper around `go` command for colorized `go build` output.
+* [Concert](https://github.com/minio/concert) - Concert is a console based certificate generation tool for Let’s Encrypt.
 * [gb](https://getgb.io/) - An easy to use project based build tool for the Go programming language.
 * [go-callvis](https://github.com/TrueFurby/go-callvis) - Visualize call graph of your Go program using dot format.
 * [go-pkg-complete](https://github.com/skelterjohn/go-pkg-complete) - Bash completion for go and wgo.
@@ -1440,6 +1441,7 @@ Where to discover new Go libraries.
 * [golang-sql-benchmark](https://github.com/tyler-smith/golang-sql-benchmark) - A collection of benchmarks for popular Go database/SQL utilities.
 * [gospeed](https://github.com/feyeleanor/GoSpeed) - Go micro-benchmarks for calculating the speed of language constructs.
 * [kvbench](https://github.com/jimrobinson/kvbench) - Key/Value database benchmark.
+* [s3verify](https://github.com/minio/s3verify) - A tool to test for Amazon S3 V4 Signature API Compatibility. 
 * [skynet](https://github.com/atemerev/skynet) - Skynet 1M threads microbenchmark.
 * [speedtest-resize](https://github.com/fawick/speedtest-resize) - Compare various Image resize algorithms for the Go language.
 
