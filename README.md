@@ -1328,6 +1328,7 @@ Go software and plugins.
 * [go-swagger](https://github.com/go-swagger/go-swagger) - Swagger 2.0 implementation for go. Swagger is a simple yet powerful representation of your RESTful API.
 * [OctoLinker](https://github.com/OctoLinker/browser-extension) - Navigate through go files efficiently with the OctoLinker browser extension for GitHub.
 * [rts](https://github.com/galeone/rts) - RTS: response to struct. Generates Go structs from server responses.
+* [gopei shell](https://github.com/geosoft1/tools) - Toolbox for use with Go like compiler and IDE installer, GitHub tools, cloud and backup features.
 
 ## Software Packages
 
