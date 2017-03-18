@@ -809,6 +809,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [graphql](https://github.com/neelance/graphql-go) - GraphQL server with a focus on ease of use.
 * [graphql-go](https://github.com/graphql-go/graphql) - An implementation of GraphQL for Go.
 * [jsonql](https://github.com/elgs/jsonql) - JSON query expression library in Golang.
+* [gitql](https://github.com/cloudson/gitql) - A git query language
+* [textql](https://github.com/dinedal/textql) - Execute SQL against structured text like CSV or TSV
 
 
 ## Resource Embedding
@@ -962,6 +964,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [chromedp](https://github.com/knq/chromedp) - a way to drive/test Chrome, Safari, Edge, Android Webviews, and other browsers supporting the Chrome Debugging Protocol.
     * [ggr](https://github.com/aandryashin/ggr) - a lightweight server that routes and proxies Selenium Wedriver requests to multiple Selenium hubs.
     * [selenoid](https://github.com/aandryashin/selenoid) - alternative Selenium hub server that launches browsers within containers.
+    * [surf](https://github.com/headzoo/surf) - Stateful programmatic web browsing in Go.
 
 ## Text Processing
 
