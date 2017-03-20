@@ -1096,6 +1096,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-dry](https://github.com/ungerik/go-dry) - DRY (don't repeat yourself) package for Go.
 * [go-funk](https://github.com/thoas/go-funk) - A modern Go utility library which provides helpers (map, find, contains, filter, chunk, reverse, ...)
 * [go-rate](https://github.com/beefsack/go-rate) -  A timed rate limiter for Go.
+* [go-respond](https://github.com/nicklaw5/go-respond) - A Go package for handling common HTTP JSON responses.
 * [go-sitemap-generator](https://github.com/ikeikeikeike/go-sitemap-generator) - XML Sitemap generator written in Go.
 * [go-torch](https://github.com/uber/go-torch) - Stochastic flame graph profiler for Go programs.
 * [go-trigger](https://github.com/sadlil/go-trigger) - Go-lang global event triggerer, Register Events with an id and trigger the event from anywhere from your project.
