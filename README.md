@@ -269,6 +269,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [pREST](https://github.com/nuveo/prest) - Serve a RESTful API from any PostgreSQL database.
 * [prometheus](https://github.com/prometheus/prometheus) - Monitoring system and time series database.
 * [rqlite](https://github.com/rqlite/rqlite) - The lightweight, distributed, relational database built on SQLite.
+* [Scribble](https://github.com/nanobox-io/golang-scribble) - A tiny flat file JSON store.
 * [tempdb](https://github.com/rafaeljesus/tempdb) - Key-value store for temporary items.
 * [tidb](https://github.com/pingcap/tidb) - TiDB is a distributed SQL database. Inspired by the design of Google F1.
 * [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
@@ -636,6 +637,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [machinery](https://github.com/RichardKnop/machinery) - An asynchronous task queue/job queue based on distributed message passing.
 * [mangos](https://github.com/go-mangos/mangos) - Pure go implementation of the Nanomsg ("Scalable Protocols") with transport interoperability.
 * [NATS Go Client](https://github.com/nats-io/nats) - A lightweight and high performance publish-subscribe and distributed queueing messaging system - this is the Go library.
+* [nsq-event-bus](https://github.com/rafaeljesus/nsq-event-bus) - A tiny wrapper around NSQ topic and channel.
 * [oplog](https://github.com/dailymotion/oplog) - A generic oplog/replication system for REST APIs
 * [pubsub](https://github.com/tuxychandru/pubsub) - A simple pubsub package for go.
 * [RapidMQ](https://github.com/sybrexsys/RapidMQ) - RapidMQ is a lightweight and reliable library for managing of the local messages queue
@@ -1141,7 +1143,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [peco](https://github.com/peco/peco) - Simplistic interactive filtering tool.
 * [pester](https://github.com/sethgrid/pester) - Go HTTP client calls with retries, backoff, and concurrency.
 * [pm](https://github.com/VividCortex/pm) - Process (i.e. goroutine) manager with an HTTP API.
-* [profile](https://github.com/davecheney/profile) - Simple profiling support package for Go.
+* [profile](https://github.com/pkg/profile) - Simple profiling support package for Go.
 * [rclient](https://github.com/zpatrick/rclient) - Readable, flexible, simple-to-use client for REST APIs. 
 * [realize](https://github.com/tockins/realize) - Go build system with file watchers and live reload. Run, build and watch file changes with custom paths.
 * [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
