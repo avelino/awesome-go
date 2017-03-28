@@ -7,6 +7,7 @@ sudo: false
 
 install:
   - go get github.com/russross/blackfriday
+  - go get github.com/shurcooL/github_flavored_markdown
   - go get github.com/PuerkitoBio/goquery
   - go get github.com/gorilla/mux
   - go get github.com/microcosm-cc/bluemonday
