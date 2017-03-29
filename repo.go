@@ -8,7 +8,6 @@ import (
 	"text/template"
 
 	"github.com/gorilla/mux"
-	"github.com/microcosm-cc/bluemonday"
 	gfm "github.com/shurcooL/github_flavored_markdown"
 )
 
@@ -40,11 +39,7 @@ func generateHTML() {
 	exec.Command(git, pull).Output()
 
 	input, _ := ioutil.ReadFile(readmePath)
-	body := string(
-		bluemonday.UGCPolicy().SanitizeBytes(
-			gfm.Markdown(input),
-		),
-	)
+	body := string(gfm.Markdown(input))
 	c := &content{Body: body}
 
 	t := template.Must(template.ParseFiles(tplPath))
