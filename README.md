@@ -947,6 +947,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [restit](https://github.com/yookoala/restit) - A Go micro framework to help writing RESTful API integration test.
     * [testfixtures](https://github.com/go-testfixtures/testfixtures) - A helper for Rails' like test fixtures to test database applications.
     * [Testify](https://github.com/stretchr/testify) - A sacred extension to the standard go testing package.
+    * [wstest](https://github.com/posener/wstest) - A websocket client for unit-testing a websocket http.Handler.
 
 * Mock
     * [counterfeiter](https://github.com/maxbrunsfeld/counterfeiter) - Tool for generating self-contained mock objects
