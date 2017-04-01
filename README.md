@@ -27,6 +27,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Distributed Systems](#distributed-systems)
     - [Email](#email)
     - [Embeddable Scripting Languages](#embeddable-scripting-languages)
+    - [Files](#files)
     - [Financial](#financial)
     - [Forms](#forms)
     - [Game Development](#game-development)
@@ -429,6 +430,15 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go
 
 
+## Files
+
+*Libraries for  handling files and file systems*
+
+* [afero](https://github.com/spf13/afero) - A FileSystem Abstraction System for Go.
+* [notify](https://github.com/rjeczalik/notify) - File system event notification library with simple API, similar to os/signal.
+* [tarfs](https://github.com/posener/tarfs) - An implementation of the [`FileSystem` interface](https://godoc.org/github.com/kr/fs#FileSystem) for tar files.
+
+
 ## Financial
 
 *Packages for accounting and finance*
@@ -650,7 +660,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *These libraries were placed here because none of the other categories seemed to fit*
 
-* [afero](https://github.com/spf13/afero) - A FileSystem Abstraction System for Go.
 * [archiver](https://github.com/mholt/archiver) - Library and command for making and extracting .zip and .tar.gz archives
 * [autoflags](https://github.com/artyom/autoflags) - Go package to automatically define command line flags from struct fields.
 * [banner](https://github.com/dimiro1/banner) - Add beautiful banners into your Go applications.
@@ -675,7 +684,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [indigo](https://github.com/osamingo/indigo) - A distributed unique ID generator of using Sonyflake and encoded by Base58.
 * [jobs](https://github.com/albrow/jobs) - A persistent and flexible background jobs library.
 * [margelet](https://github.com/zhulik/margelet) - A framework for building Telegram bots.
-* [notify](https://github.com/rjeczalik/notify) - File system event notification library with simple API, similar to os/signal.
 * [secdl](https://github.com/xor-gate/secdl) - Lighttpd ModSecDownload algorithm ported to go to secure download urls.
 * [stats](https://github.com/go-playground/stats) - Monitors Go MemStats + System stats such as Memory, Swap and CPU and sends via UDP anywhere you want for logging etc...
 * [uuid](https://github.com/agext/uuid) - Generate, encode, and decode UUIDs v1 with fast or cryptographic-quality random node identifier.
