@@ -23,7 +23,7 @@ func TestDuplicatedLinks(t *testing.T) {
 	query := startQuery()
 	links := make(map[string]bool, 0)
 
-	query.Find("body  a").Each(func(_ int, s *goquery.Selection) {
+	query.Find("body li > a:first-child").Each(func(_ int, s *goquery.Selection) {
 		t.Run(s.Text(), func(t *testing.T) {
 			href, ok := s.Attr("href")
 			if !ok {
