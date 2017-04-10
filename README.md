@@ -448,7 +448,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [accounting](https://github.com/leekchan/accounting) - money and currency formatting for golang
 * [decimal](https://github.com/shopspring/decimal) - Arbitrary-precision fixed-point decimal numbers
 * [go-finance](https://github.com/FlashBoys/go-finance) - Comprehensive financial markets data in Go
-* [go-money](https://github.com/FlashBoys/go-money) - Implementation of Fowler's Money pattern
+* [go-money](https://github.com/rhymond/go-money) - Implementation of Fowler's Money pattern
 * [vat](https://github.com/dannyvankooten/vat) - VAT number validation & EU VAT rates
 
 
