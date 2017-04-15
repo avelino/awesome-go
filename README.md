@@ -138,7 +138,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [argv](https://github.com/cosiner/argv) [![stars](https://img.shields.io/github/stars/cosiner/argv.svg?style=social&label=stars)](https://github.com/cosiner/argv) - A Go library to split command line string as arguments array using the bash syntax.
 * [cli](https://github.com/mkideal/cli) [![stars](https://img.shields.io/github/stars/mkideal/cli.svg?style=social&label=stars)](https://github.com/mkideal/cli) - A feature-rich and easy to use command-line package based on golang tag
 * [cli-init](https://github.com/tcnksm/gcli) [![stars](https://img.shields.io/github/stars/tcnksm/gcli.svg?style=social&label=stars)](https://github.com/tcnksm/gcli) - The easy way to start building Golang command line application.
-* [climax](https://github.com/tucnak/climax) [![stars](https://img.shields.io/github/stars/tucnak/climax.svg?style=social&label=stars)](https://github.com/tucnak/climax) - An alternative CLI with "human face", in spirit of Go command
+* [climax](http://github.com/tucnak/climax) [![stars](https://img.shields.io/github/stars/tucnak/climax.svg?style=social&label=stars)](https://github.com/tucnak/climax) - An alternative CLI with "human face", in spirit of Go command
 * [cobra](https://github.com/spf13/cobra) [![stars](https://img.shields.io/github/stars/spf13/cobra.svg?style=social&label=stars)](https://github.com/spf13/cobra) - A Commander for modern Go CLI interactions
 * [docopt.go](https://github.com/docopt/docopt.go) [![stars](https://img.shields.io/github/stars/docopt/docopt.go.svg?style=social&label=stars)](https://github.com/docopt/docopt.go) - A command-line arguments parser that will make you smile.
 * [drive](https://github.com/odeke-em/drive) [![stars](https://img.shields.io/github/stars/odeke-em/drive.svg?style=social&label=stars)](https://github.com/odeke-em/drive) - Google Drive client for the commandline
@@ -170,7 +170,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-colortext](https://github.com/daviddengcn/go-colortext) [![stars](https://img.shields.io/github/stars/daviddengcn/go-colortext.svg?style=social&label=stars)](https://github.com/daviddengcn/go-colortext) - Go library for color output in terminals.
 * [go-isatty](https://github.com/mattn/go-isatty) [![stars](https://img.shields.io/github/stars/mattn/go-isatty.svg?style=social&label=stars)](https://github.com/mattn/go-isatty) - isatty for golang.
 * [gocui](https://github.com/jroimartin/gocui) [![stars](https://img.shields.io/github/stars/jroimartin/gocui.svg?style=social&label=stars)](https://github.com/jroimartin/gocui) - Minimalist Go library aimed at creating Console User Interfaces.
-* [gommon/color](https://github.com/labstack/gommon) [![stars](https://img.shields.io/github/stars/labstack/gommon.svg?style=social&label=stars)](https://github.com/labstack/gommon) - Style terminal text.
+* [gommon/color](https://github.com/labstack/gommon/tree/master/color) [![stars](https://img.shields.io/github/stars/labstack/gommon.svg?style=social&label=stars)](https://github.com/labstack/gommon) - Style terminal text.
 * [termbox-go](https://github.com/nsf/termbox-go) [![stars](https://img.shields.io/github/stars/nsf/termbox-go.svg?style=social&label=stars)](https://github.com/nsf/termbox-go) - Termbox is a library for creating cross-platform text-based interfaces.
 * [termtables](https://github.com/apcera/termtables) [![stars](https://img.shields.io/github/stars/apcera/termtables.svg?style=social&label=stars)](https://github.com/apcera/termtables) - A Go port of the Ruby library [terminal-tables](https://github.com/tj/terminal-table) for simple ASCII table generation as well as providing markdown and HTML output
 * [termui](https://github.com/gizak/termui) [![stars](https://img.shields.io/github/stars/gizak/termui.svg?style=social&label=stars)](https://github.com/gizak/termui) - Go terminal dashboard based on **termbox-go** and inspired by [blessed-contrib](https://github.com/yaronn/blessed-contrib).
@@ -283,7 +283,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gormigrate](https://github.com/go-gormigrate/gormigrate) [![stars](https://img.shields.io/github/stars/go-gormigrate/gormigrate.svg?style=social&label=stars)](https://github.com/go-gormigrate/gormigrate) - Database schema migration helper for Gorm ORM.
 * [migrate](https://github.com/mattes/migrate) [![stars](https://img.shields.io/github/stars/mattes/migrate.svg?style=social&label=stars)](https://github.com/mattes/migrate) - Database migration handling in Golang support MySQL, PostgreSQL, Cassandra, and SQLite.
 * [pravasan](https://github.com/pravasan/pravasan) [![stars](https://img.shields.io/github/stars/pravasan/pravasan.svg?style=social&label=stars)](https://github.com/pravasan/pravasan) - Simple Migration tool - currently for MySQL but planning to support soon for Postgres, SQLite, MongoDB, etc.,
-* [soda](https://github.com/markbates/pop) [![stars](https://img.shields.io/github/stars/markbates/pop.svg?style=social&label=stars)](https://github.com/markbates/pop) - Database migration, creation, ORM, etc... for MySQL, PostgreSQL, and SQLite.
+* [soda](https://github.com/markbates/pop/tree/master/soda) [![stars](https://img.shields.io/github/stars/markbates/pop.svg?style=social&label=stars)](https://github.com/markbates/pop) - Database migration, creation, ORM, etc... for MySQL, PostgreSQL, and SQLite.
 * [sql-migrate](https://github.com/rubenv/sql-migrate) [![stars](https://img.shields.io/github/stars/rubenv/sql-migrate.svg?style=social&label=stars)](https://github.com/rubenv/sql-migrate) - Database migration tool. Allows embedding migrations into the application using go-bindata.
 
 *Database tools.*
@@ -337,7 +337,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [go-couchdb](https://github.com/fjl/go-couchdb) [![stars](https://img.shields.io/github/stars/fjl/go-couchdb.svg?style=social&label=stars)](https://github.com/fjl/go-couchdb) - Yet another CouchDB HTTP API wrapper for Go
     * [gocb](https://github.com/couchbase/gocb) [![stars](https://img.shields.io/github/stars/couchbase/gocb.svg?style=social&label=stars)](https://github.com/couchbase/gocb) - Official Couchbase Go SDK
     * [gocql](http://gocql.github.io) - A Go language driver for Apache Cassandra.
-    * [gomemcache](https://github.com/bradfitz/gomemcache) [![stars](https://img.shields.io/github/stars/bradfitz/gomemcache.svg?style=social&label=stars)](https://github.com/bradfitz/gomemcache) - memcache client library for the Go programming language.
+    * [gomemcache](https://github.com/bradfitz/gomemcache/) [![stars](https://img.shields.io/github/stars/bradfitz/gomemcache.svg?style=social&label=stars)](https://github.com/bradfitz/gomemcache) - memcache client library for the Go programming language.
     * [gorethink](https://github.com/dancannon/gorethink) [![stars](https://img.shields.io/github/stars/dancannon/gorethink.svg?style=social&label=stars)](https://github.com/dancannon/gorethink) - Go language driver for RethinkDB
     * [goriak](https://github.com/zegl/goriak) [![stars](https://img.shields.io/github/stars/zegl/goriak.svg?style=social&label=stars)](https://github.com/zegl/goriak) - Go language driver for Riak KV
     * [mgo](https://godoc.org/labix.org/v2/mgo) - MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
@@ -386,7 +386,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [micro](https://github.com/micro/micro) [![stars](https://img.shields.io/github/stars/micro/micro.svg?style=social&label=stars)](https://github.com/micro/micro) - A pluggable microservice toolkit and distributed systems platform.
 * [NATS](https://github.com/nats-io/gnatsd) [![stars](https://img.shields.io/github/stars/nats-io/gnatsd.svg?style=social&label=stars)](https://github.com/nats-io/gnatsd) - A lightweight, high performance messaging system for microservices, IoT, and cloud native systems.
 * [raft](https://github.com/hashicorp/raft) [![stars](https://img.shields.io/github/stars/hashicorp/raft.svg?style=social&label=stars)](https://github.com/hashicorp/raft) - Golang implementation of the Raft consensus protocol, by HashiCorp.
-* [raft](https://github.com/coreos/etcd) [![stars](https://img.shields.io/github/stars/coreos/etcd.svg?style=social&label=stars)](https://github.com/coreos/etcd) - Go implementation of the Raft consensus protocol, by CoreOS.
+* [raft](https://github.com/coreos/etcd/tree/master/raft#readme) [![stars](https://img.shields.io/github/stars/coreos/etcd.svg?style=social&label=stars)](https://github.com/coreos/etcd) - Go implementation of the Raft consensus protocol, by CoreOS.
 * [ringpop-go](https://github.com/uber/ringpop-go) [![stars](https://img.shields.io/github/stars/uber/ringpop-go.svg?style=social&label=stars)](https://github.com/uber/ringpop-go) - Scalable, fault-tolerant application-layer sharding for Go applications
 * [rpcx](https://github.com/smallnest/rpcx) [![stars](https://img.shields.io/github/stars/smallnest/rpcx.svg?style=social&label=stars)](https://github.com/smallnest/rpcx) - A distributed pluggable RPC service framework like alibaba Dubbo.
 * [sleuth](https://github.com/ursiform/sleuth) [![stars](https://img.shields.io/github/stars/ursiform/sleuth.svg?style=social&label=stars)](https://github.com/ursiform/sleuth) - A library for master-less p2p auto-discovery and RPC between HTTP services (using [ZeroMQ](https://github.com/zeromq/libzmq)).
@@ -404,7 +404,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-dkim](https://github.com/toorop/go-dkim) [![stars](https://img.shields.io/github/stars/toorop/go-dkim.svg?style=social&label=stars)](https://github.com/toorop/go-dkim) - A DKIM library, to sign & verify email.
 * [go-imap](https://github.com/emersion/go-imap) [![stars](https://img.shields.io/github/stars/emersion/go-imap.svg?style=social&label=stars)](https://github.com/emersion/go-imap) - An IMAP library for clients and servers
 * [go-message](https://github.com/emersion/go-message) [![stars](https://img.shields.io/github/stars/emersion/go-message.svg?style=social&label=stars)](https://github.com/emersion/go-message) - A streaming library for the Internet Message Format and mail messages
-* [Gomail](https://github.com/go-gomail/gomail) [![stars](https://img.shields.io/github/stars/go-gomail/gomail.svg?style=social&label=stars)](https://github.com/go-gomail/gomail) - Gomail is a very simple and powerful package to send emails.
+* [Gomail](https://github.com/go-gomail/gomail/) [![stars](https://img.shields.io/github/stars/go-gomail/gomail.svg?style=social&label=stars)](https://github.com/go-gomail/gomail) - Gomail is a very simple and powerful package to send emails.
 * [Hectane](https://github.com/hectane/hectane) [![stars](https://img.shields.io/github/stars/hectane/hectane.svg?style=social&label=stars)](https://github.com/hectane/hectane) - Lightweight SMTP client providing an HTTP API
 * [hermes](https://github.com/matcornic/hermes) [![stars](https://img.shields.io/github/stars/matcornic/hermes.svg?style=social&label=stars)](https://github.com/matcornic/hermes) - Golang package that generates clean, responsive HTML e-mails
 * [MailHog](https://github.com/mailhog/MailHog) [![stars](https://img.shields.io/github/stars/mailhog/MailHog.svg?style=social&label=stars)](https://github.com/mailhog/MailHog) - Email and SMTP testing with web and API interface
@@ -580,7 +580,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-logger](https://github.com/apsdehal/go-logger) [![stars](https://img.shields.io/github/stars/apsdehal/go-logger.svg?style=social&label=stars)](https://github.com/apsdehal/go-logger) - Simple logger of Go Programs, with level handlers.
 * [gologger](https://github.com/sadlil/gologger) [![stars](https://img.shields.io/github/stars/sadlil/gologger.svg?style=social&label=stars)](https://github.com/sadlil/gologger) - Simple easy to use log lib for go, logs in Colored Cosole, Simple Console, File or Elasticsearch.
 * [gomol](https://github.com/aphistic/gomol) [![stars](https://img.shields.io/github/stars/aphistic/gomol.svg?style=social&label=stars)](https://github.com/aphistic/gomol) - Multiple-output, structured logging for Go with extensible logging outputs.
-* [gone/log](https://github.com/One-com/gone) [![stars](https://img.shields.io/github/stars/One-com/gone.svg?style=social&label=stars)](https://github.com/One-com/gone) - Fast, extendable, full-featured, std-lib source compatible log library.
+* [gone/log](https://github.com/One-com/gone/tree/master/log#readme) [![stars](https://img.shields.io/github/stars/One-com/gone.svg?style=social&label=stars)](https://github.com/One-com/gone) - Fast, extendable, full-featured, std-lib source compatible log library.
 * [log](https://github.com/apex/log) [![stars](https://img.shields.io/github/stars/apex/log.svg?style=social&label=stars)](https://github.com/apex/log) - Structured logging package for Go.
 * [log](https://github.com/go-playground/log) [![stars](https://img.shields.io/github/stars/go-playground/log.svg?style=social&label=stars)](https://github.com/go-playground/log) - Simple, configurable and scalable Structured Logging for Go.
 * [log-voyage](https://github.com/firstrow/logvoyage) [![stars](https://img.shields.io/github/stars/firstrow/logvoyage.svg?style=social&label=stars)](https://github.com/firstrow/logvoyage) - Full-featured logging saas written in golang.
@@ -698,9 +698,9 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries for working with human languages.*
 
-* [dpar](https://github.com/danieldk/dpar) [![stars](https://img.shields.io/github/stars/danieldk/dpar.svg?style=social&label=stars)](https://github.com/danieldk/dpar) - Transition-based statistical dependency parser.
+* [dpar](https://github.com/danieldk/dpar/) [![stars](https://img.shields.io/github/stars/danieldk/dpar.svg?style=social&label=stars)](https://github.com/danieldk/dpar) - Transition-based statistical dependency parser.
 * [go-eco](https://github.com/ThePaw/go-eco) [![stars](https://img.shields.io/github/stars/ThePaw/go-eco.svg?style=social&label=stars)](https://github.com/ThePaw/go-eco) - Similarity, dissimilarity and distance matrices; diversity, equitability and inequality measures; species richness estimators; coenocline models.
-* [go-i18n](https://github.com/nicksnyder/go-i18n) [![stars](https://img.shields.io/github/stars/nicksnyder/go-i18n.svg?style=social&label=stars)](https://github.com/nicksnyder/go-i18n) - A package and an accompanying tool to work with localized text.
+* [go-i18n](https://github.com/nicksnyder/go-i18n/) [![stars](https://img.shields.io/github/stars/nicksnyder/go-i18n.svg?style=social&label=stars)](https://github.com/nicksnyder/go-i18n) - A package and an accompanying tool to work with localized text.
 * [go-mystem](https://github.com/dveselov/mystem) [![stars](https://img.shields.io/github/stars/dveselov/mystem.svg?style=social&label=stars)](https://github.com/dveselov/mystem) - CGo bindings to Yandex.Mystem - russian morphology analyzer.
 * [go-nlp](https://github.com/nuance/go-nlp) [![stars](https://img.shields.io/github/stars/nuance/go-nlp.svg?style=social&label=stars)](https://github.com/nuance/go-nlp) - Utilities for working with discrete probability distributions and other tools useful for doing NLP work.
 * [go-stem](https://github.com/agonopol/go-stem) [![stars](https://img.shields.io/github/stars/agonopol/go-stem.svg?style=social&label=stars)](https://github.com/agonopol/go-stem) - Implementation of the porter stemming algorithm.
@@ -782,7 +782,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries that implement Object-Relational Mapping or datamapping techniques.*
 
-* [beego orm](https://github.com/astaxie/beego) [![stars](https://img.shields.io/github/stars/astaxie/beego.svg?style=social&label=stars)](https://github.com/astaxie/beego) - A powerful orm framework for go. Support: pq/mysql/sqlite3.
+* [beego orm](https://github.com/astaxie/beego/tree/master/orm) [![stars](https://img.shields.io/github/stars/astaxie/beego.svg?style=social&label=stars)](https://github.com/astaxie/beego) - A powerful orm framework for go. Support: pq/mysql/sqlite3.
 * [go-pg](https://github.com/go-pg/pg) [![stars](https://img.shields.io/github/stars/go-pg/pg.svg?style=social&label=stars)](https://github.com/go-pg/pg) - PostgreSQL ORM with focus on PostgreSQL specific features and performance.
 * [go-store](https://github.com/gosuri/go-store) [![stars](https://img.shields.io/github/stars/gosuri/go-store.svg?style=social&label=stars)](https://github.com/gosuri/go-store) - A simple and fast Redis backed key-value store library for Go.
 * [gomodel](https://github.com/cosiner/gomodel) [![stars](https://img.shields.io/github/stars/cosiner/gomodel.svg?style=social&label=stars)](https://github.com/cosiner/gomodel) - A lightweight, fast, orm-like library helps interactive with database.
@@ -946,7 +946,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [go-vcr](https://github.com/dnaeon/go-vcr) [![stars](https://img.shields.io/github/stars/dnaeon/go-vcr.svg?style=social&label=stars)](https://github.com/dnaeon/go-vcr) - Record and replay your HTTP interactions for fast, deterministic and accurate tests
     * [goblin](https://github.com/franela/goblin) [![stars](https://img.shields.io/github/stars/franela/goblin.svg?style=social&label=stars)](https://github.com/franela/goblin) - Mocha like testing framework fo Go
     * [gocheck](http://labix.org/gocheck) - A more advanced testing framework alternative to gotest.
-    * [GoConvey](https://github.com/smartystreets/goconvey) [![stars](https://img.shields.io/github/stars/smartystreets/goconvey.svg?style=social&label=stars)](https://github.com/smartystreets/goconvey) - BDD-style framework with web UI and live reload
+    * [GoConvey](https://github.com/smartystreets/goconvey/) [![stars](https://img.shields.io/github/stars/smartystreets/goconvey.svg?style=social&label=stars)](https://github.com/smartystreets/goconvey) - BDD-style framework with web UI and live reload
     * [godog](https://github.com/DATA-DOG/godog) [![stars](https://img.shields.io/github/stars/DATA-DOG/godog.svg?style=social&label=stars)](https://github.com/DATA-DOG/godog) - Cucumber or Behat like BDD framework for Go.
     * [gofight](https://github.com/appleboy/gofight) [![stars](https://img.shields.io/github/stars/appleboy/gofight.svg?style=social&label=stars)](https://github.com/appleboy/gofight) - API Handler Testing for Golang Router framework.
     * [gomega](http://onsi.github.io/gomega/) - Rspec like matcher/assertion library.
@@ -1001,7 +1001,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [go-slugify](https://github.com/mozillazg/go-slugify) [![stars](https://img.shields.io/github/stars/mozillazg/go-slugify.svg?style=social&label=stars)](https://github.com/mozillazg/go-slugify) - Make pretty slug with multiple languages support.
     * [gofeed](https://github.com/mmcdole/gofeed) [![stars](https://img.shields.io/github/stars/mmcdole/gofeed.svg?style=social&label=stars)](https://github.com/mmcdole/gofeed) - Parse RSS and Atom feeds in Go
     * [gographviz](https://github.com/awalterschulze/gographviz) [![stars](https://img.shields.io/github/stars/awalterschulze/gographviz.svg?style=social&label=stars)](https://github.com/awalterschulze/gographviz) - Parses the Graphviz DOT language.
-    * [gommon/bytes](https://github.com/labstack/gommon) [![stars](https://img.shields.io/github/stars/labstack/gommon.svg?style=social&label=stars)](https://github.com/labstack/gommon) - Format bytes to string.
+    * [gommon/bytes](https://github.com/labstack/gommon/tree/master/bytes) [![stars](https://img.shields.io/github/stars/labstack/gommon.svg?style=social&label=stars)](https://github.com/labstack/gommon) - Format bytes to string.
     * [gonameparts](https://github.com/polera/gonameparts) [![stars](https://img.shields.io/github/stars/polera/gonameparts.svg?style=social&label=stars)](https://github.com/polera/gonameparts) - Parses human names into individual name parts
     * [GoQuery](https://github.com/PuerkitoBio/goquery) [![stars](https://img.shields.io/github/stars/PuerkitoBio/goquery.svg?style=social&label=stars)](https://github.com/PuerkitoBio/goquery) - GoQuery brings a syntax and a set of features similar to jQuery to the Go language.
     * [goregen](https://github.com/zach-klippenstein/goregen) [![stars](https://img.shields.io/github/stars/zach-klippenstein/goregen.svg?style=social&label=stars)](https://github.com/zach-klippenstein/goregen) - A library for generating random strings from regular expressions.
@@ -1266,7 +1266,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [tigertonic](https://github.com/rcrowley/go-tigertonic) [![stars](https://img.shields.io/github/stars/rcrowley/go-tigertonic.svg?style=social&label=stars)](https://github.com/rcrowley/go-tigertonic) - A Go framework for building JSON web services inspired by Dropwizard
 * [traffic](https://github.com/pilu/traffic) [![stars](https://img.shields.io/github/stars/pilu/traffic.svg?style=social&label=stars)](https://github.com/pilu/traffic) - Sinatra inspired regexp/pattern mux and web framework for Go.
 * [utron](https://github.com/gernest/utron) [![stars](https://img.shields.io/github/stars/gernest/utron.svg?style=social&label=stars)](https://github.com/gernest/utron) - A lightweight MVC framework for Go(Golang).
-* [VarHandler](https://github.com/azr/generators) [![stars](https://img.shields.io/github/stars/azr/generators.svg?style=social&label=stars)](https://github.com/azr/generators) - Generate boilerplate http input and ouput handling.
+* [VarHandler](https://github.com/azr/generators/tree/master/varhandler) [![stars](https://img.shields.io/github/stars/azr/generators.svg?style=social&label=stars)](https://github.com/azr/generators) - Generate boilerplate http input and ouput handling.
 * [vestigo](https://github.com/husobee/vestigo) [![stars](https://img.shields.io/github/stars/husobee/vestigo.svg?style=social&label=stars)](https://github.com/husobee/vestigo) -  A performant, stand-alone, HTTP compliant URL Router for go web applications.
 * [Volatile](https://github.com/volatile/core) [![stars](https://img.shields.io/github/stars/volatile/core.svg?style=social&label=stars)](https://github.com/volatile/core) - Minimalist middleware stack promoting flexibility, good practices and clean code.
 * [xmux](https://github.com/rs/xmux) [![stars](https://img.shields.io/github/stars/rs/xmux.svg?style=social&label=stars)](https://github.com/rs/xmux) - A high performance muxer based on `httprouter` with `net/context` support.
@@ -1319,13 +1319,13 @@ Go software and plugins.
 * [GoLint](https://github.com/golang/lint) [![stars](https://img.shields.io/github/stars/golang/lint.svg?style=social&label=stars)](https://github.com/golang/lint) - Golint is a linter for Go source code.
 * [Golint online](http://go-lint.appspot.com/) - Lints online Go source files on GitHub, Bitbucket and Google Project Hosting using the golint package.
 * [goreturns](https://sourcegraph.com/github.com/sqs/goreturns) - Adds zero-value return statements to match the func return types.
-* [gosimple](https://github.com/dominikh/go-tools) [![stars](https://img.shields.io/github/stars/dominikh/go-tools.svg?style=social&label=stars)](https://github.com/dominikh/go-tools) - gosimple is a linter for Go source code that specialises on simplifying code.
+* [gosimple](https://github.com/dominikh/go-tools/tree/master/cmd/gosimple) [![stars](https://img.shields.io/github/stars/dominikh/go-tools.svg?style=social&label=stars)](https://github.com/dominikh/go-tools) - gosimple is a linter for Go source code that specialises on simplifying code.
 * [gostatus](https://github.com/shurcooL/gostatus) [![stars](https://img.shields.io/github/stars/shurcooL/gostatus.svg?style=social&label=stars)](https://github.com/shurcooL/gostatus) - A command line tool, shows the status of repositories that contain Go packages.
 * [interfacer](https://github.com/mvdan/interfacer) [![stars](https://img.shields.io/github/stars/mvdan/interfacer.svg?style=social&label=stars)](https://github.com/mvdan/interfacer) - A linter that suggests interface types.
 * [lint](https://github.com/surullabs/lint) [![stars](https://img.shields.io/github/stars/surullabs/lint.svg?style=social&label=stars)](https://github.com/surullabs/lint) - Run linters as part of go test
-* [staticcheck](https://github.com/dominikh/go-tools) [![stars](https://img.shields.io/github/stars/dominikh/go-tools.svg?style=social&label=stars)](https://github.com/dominikh/go-tools) - staticcheck is `go vet` on steroids, applying a ton of static analysis checks you might be used to from tools like ReSharper for C#.
+* [staticcheck](https://github.com/dominikh/go-tools/tree/master/cmd/staticcheck) [![stars](https://img.shields.io/github/stars/dominikh/go-tools.svg?style=social&label=stars)](https://github.com/dominikh/go-tools) - staticcheck is `go vet` on steroids, applying a ton of static analysis checks you might be used to from tools like ReSharper for C#.
 * [unconvert](https://github.com/mdempsky/unconvert) [![stars](https://img.shields.io/github/stars/mdempsky/unconvert.svg?style=social&label=stars)](https://github.com/mdempsky/unconvert) - Remove unnecessary type conversions from Go source.
-* [unused](https://github.com/dominikh/go-tools) [![stars](https://img.shields.io/github/stars/dominikh/go-tools.svg?style=social&label=stars)](https://github.com/dominikh/go-tools) - unused checks Go code for unused constants, variables, functions and types.
+* [unused](https://github.com/dominikh/go-tools/tree/master/cmd/unused) [![stars](https://img.shields.io/github/stars/dominikh/go-tools.svg?style=social&label=stars)](https://github.com/dominikh/go-tools) - unused checks Go code for unused constants, variables, functions and types.
 * [validate](https://github.com/mccoyst/validate) [![stars](https://img.shields.io/github/stars/mccoyst/validate.svg?style=social&label=stars)](https://github.com/mccoyst/validate) - Automatically validates struct fields with tags.
 
 
@@ -1496,7 +1496,7 @@ Where to discover new Go libraries.
 * [Learning Go](https://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
 * [Network Programming With Go](https://jan.newmarch.name/go/)
 * [The Go Programming Language](http://www.gopl.io/)
-* [Web Application with Go the Anti-Textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook) [![stars](https://img.shields.io/github/stars/thewhitetulip/web-dev-golang-anti-textbook.svg?style=social&label=stars)](https://github.com/thewhitetulip/web-dev-golang-anti-textbook)
+* [Web Application with Go the Anti-Textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/) [![stars](https://img.shields.io/github/stars/thewhitetulip/web-dev-golang-anti-textbook.svg?style=social&label=stars)](https://github.com/thewhitetulip/web-dev-golang-anti-textbook)
 
 ## Twitter
 
@@ -1515,7 +1515,7 @@ Where to discover new Go libraries.
 * [Go Challenge](http://golang-challenge.org/) - Learn Go by solving problems and getting feedback from Go experts.
 * [Go Forum](https://forum.golangbridge.org) - Forum to discuss Go.
 * [Go In 5 Minutes](https://www.goin5minutes.com/) - 5 minute screencasts focused on getting one thing done.
-* [Go Projects](https://github.com/golang/go) [![stars](https://img.shields.io/github/stars/golang/go.svg?style=social&label=stars)](https://github.com/golang/go) - List of projects on the Go community wiki.
+* [Go Projects](https://github.com/golang/go/wiki/Projects) [![stars](https://img.shields.io/github/stars/golang/go.svg?style=social&label=stars)](https://github.com/golang/go) - List of projects on the Go community wiki.
 * [gocryforhelp](https://github.com/ninedraft/gocryforhelp) [![stars](https://img.shields.io/github/stars/ninedraft/gocryforhelp.svg?style=social&label=stars)](https://github.com/ninedraft/gocryforhelp) - A collection of Go projects that needs help. Good place to start your open-source way in Go.
 * [godoc.org](https://godoc.org/) - Documentation for open source Go packages.
 * [Golang News](https://golangnews.com) - Links and news about Go programming.
