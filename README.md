@@ -1045,6 +1045,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-jira](https://github.com/andygrunwald/go-jira) - Go client library for [Atlassian JIRA](https://www.atlassian.com/software/jira)
 * [go-marathon](https://github.com/gambol99/go-marathon) - A Go library for interacting with Mesosphere's Marathon PAAS.
 * [go-myanimelist](https://github.com/nstratos/go-myanimelist) - A Go client library for accessing the [MyAnimeList API](http://myanimelist.net/modules.php?go=api).
+* [go-telegraph](https://github.com/toby3d/go-telegraph) - Telegraph publishing platform API client.
 * [go-tgbot](https://github.com/olebedev/go-tgbot) - Pure Golang Telegram Bot API wrapper, generated from swagger file, session-based router and middleware.
 * [go-trending](https://github.com/andygrunwald/go-trending) - Go library for accessing [trending repositories](https://github.com/trending) and [developers](https://github.com/trending/developers) at Github.
 * [go-twitch](https://github.com/knspriggs/go-twitch) - A Go client for interacting with the Twitch v3 API.
@@ -1079,7 +1080,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [tbot](https://github.com/yanzay/tbot) - Telegram bot server with API similar to net/http.
 * [telebot](https://github.com/tucnak/telebot) - Telegram bot framework written in Go.
 * [telegram-bot-api](https://github.com/Syfaro/telegram-bot-api) - Simple and clean Telegram bot client.
-* [telegraph](https://github.com/toby3d/telegraph) - Telegraph publishing platform API client.
 * [textbelt](https://github.com/dietsche/textbelt) - Go client for the textbelt.com txt messaging API.
 * [TheMovieDb](https://github.com/jbrodriguez/go-tmdb) - A simple golang package to communicate with [themoviedb.org](https://themoviedb.org)
 * [translate](https://github.com/poorny/translate) - Go online translation package.
