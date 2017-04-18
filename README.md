@@ -63,6 +63,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
         - [Middlewares](#middlewares)
             - [Actual middlewares](#actual-middlewares)
             - [Libraries for creating HTTP middlewares](#libraries-for-creating-http-middlewares)
+        - [Web Tools](#web-tools)
     - [Windows](#windows)
 
 - [Tools](#tools)
@@ -1299,6 +1300,11 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [render](https://github.com/unrolled/render) - Go package for easily rendering JSON, XML, and HTML template responses.
 * [rye](https://github.com/InVisionApp/rye) - Tiny Go middleware library (with canned Middlewares) that supports JWT, CORS, Statsd, and Go 1.7 context
 * [stats](https://github.com/thoas/stats) - A Go middleware that stores various information about your web application.
+
+### Web Tools
+
+* [go-bootstrap](https://github.com/go-bootstrap/go-bootstrap) - Generates a small web framework.
+
 
 # Tools
 
