@@ -1018,7 +1018,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [kace](https://github.com/codemodus/kace) - Common case conversions covering common initialisms.
     * [parseargs-go](https://github.com/nproc/parseargs-go) - A string argument parser that understands quotes and backslashes
     * [parth](https://github.com/codemodus/parth) - URL path segmentation parsing.
-    * [wuzz](https://github.com/asciimoo/wuzz) - Interactive cli tool for HTTP inspection.
     * [xurls](https://github.com/mvdan/xurls) - Extract urls from text
 
 
@@ -1178,6 +1177,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Task](https://github.com/go-task/task) - simple "Make" alternative
 * [toolbox](https://github.com/viant/toolbox) - Slice, map, multimap, struct, function, data conversion utilities. Service router, macro evaluator, tokenizer.
 * [ugo](https://github.com/alxrm/ugo) - ugo is slice toolbox with concise syntax for Go.
+* [wuzz](https://github.com/asciimoo/wuzz) - Interactive cli tool for HTTP inspection.
 * [xferspdy](https://github.com/monmohan/xferspdy) - Xferspdy provides binary diff and patch library in golang
 * [xlsx](https://github.com/tealeg/xlsx) - Library to simplify reading the XML format used by recent version of Microsoft Excel in Go programs.
 
