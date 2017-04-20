@@ -1299,6 +1299,10 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [render](https://github.com/unrolled/render) - Go package for easily rendering JSON, XML, and HTML template responses.
 * [rye](https://github.com/InVisionApp/rye) - Tiny Go middleware library (with canned Middlewares) that supports JWT, CORS, Statsd, and Go 1.7 context
 * [stats](https://github.com/thoas/stats) - A Go middleware that stores various information about your web application.
+* [xhandler](https://github.com/rs/xhandler) ([blog post](http://engineering.dailymotion.com/our-way-to-go/)) - A bridge between `net/context` and `http.Handler`
+  * [xaccess](https://github.com/rs/xaccess) - An HTTP access log on top of xhandler, xlog and xstats
+  * [xlog](https://github.com/rs/xlog) - A logger coupled with HTTP net/context aware middleware
+  * [xstats](https://github.com/rs/xstats) - A generic client for service instrumentation
 
 # Tools
 
