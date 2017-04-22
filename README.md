@@ -430,7 +430,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [ngaro](https://github.com/db47h/ngaro) - Embeddable Ngaro VM implementation enabling scripting in Retro
 * [otto](https://github.com/robertkrimen/otto) - A JavaScript interpreter written in Go
 * [purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go
-* [rooby](https://github.com/st0012/Rooby) - A new, Ruby-like object oriented language written in Go
+* [rooby](https://github.com/rooby-lang/Rooby) - A new, Ruby-like object oriented language written in Go
 
 
 ## Files
