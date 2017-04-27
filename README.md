@@ -1266,6 +1266,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [sawsij](http://sawsij.com/) - lightweight, open-source web framework for building high-performance, data-driven web applications.
 * [session](https://github.com/icza/session) - Go session management for web servers (including support for Google App Engine - GAE).
 * [Siesta](https://github.com/VividCortex/siesta) - Composable framework to write middleware and handlers
+* [Skipper](https://github.com/zalando/skipper) - HTTP router that acts as a reverse proxy with support for custom route definitions.
 * [tango](https://github.com/lunny/tango) - Micro & pluggable web framework for Go.
 * [tigertonic](https://github.com/rcrowley/go-tigertonic) - A Go framework for building JSON web services inspired by Dropwizard
 * [traffic](https://github.com/pilu/traffic) - Sinatra inspired regexp/pattern mux and web framework for Go.
