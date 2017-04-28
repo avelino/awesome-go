@@ -1302,6 +1302,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [mux](https://github.com/gorilla/mux) - A powerful URL router and dispatcher for golang.
 * [ozzo-routing](https://github.com/go-ozzo/ozzo-routing) - An extremely fast Go (golang) HTTP router that supports regular expression route matching. Comes with full support for building RESTful APIs.
 * [pat](https://github.com/bmizerany/pat) - Sinatra style pattern muxer for Go’s net/http library, by the author of Sinatra.
+* [pure](https://github.com/go-playground/pure) - Is a lightweight HTTP router that sticks to the std "net/http" implementation
 * [Siesta](https://github.com/VividCortex/siesta) - Composable framework to write middleware and handlers
 * [vestigo](https://github.com/husobee/vestigo) -  A performant, stand-alone, HTTP compliant URL Router for go web applications.
 * [xmux](https://github.com/rs/xmux) - A high performance muxer based on `httprouter` with `net/context` support.
