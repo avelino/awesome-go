@@ -60,10 +60,10 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Version Control](#version-control)
     - [Video](#video)
     - [Web Frameworks](#web-frameworks)
-        - [Routers](#routers)
         - [Middlewares](#middlewares)
             - [Actual middlewares](#actual-middlewares)
             - [Libraries for creating HTTP middlewares](#libraries-for-creating-http-middlewares)
+        - [Routers](#routers)
     - [Windows](#windows)
 
 - [Tools](#tools)
@@ -1260,28 +1260,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Zerver](https://github.com/cosiner/zerver) - Zerver is an expressive, modular, feature completed RESTful framework.
 
 
-### Routers
-
-* [alien](https://github.com/gernest/alien) - A lightweight and fast http router from outer space
-* [Bone](https://github.com/go-zoo/bone) - Lightning Fast HTTP Multiplexer.
-* [Bxog](https://github.com/claygod/Bxog) - Simple and fast HTTP router for Go. It works with routes of varying difficulty, length and nesting. And he knows how to create a URL from the received parameters.
-* [chi](https://github.com/pressly/chi) - Small, fast and expressive HTTP router built on net/context.
-* [fasthttprouter](https://github.com/buaazp/fasthttprouter) - A high performance router forked from `httprouter`. The first router fit for `fasthttp`.
-* [gocraft/web](https://github.com/gocraft/web) - A mux and middleware package in Go.
-* [Goji](https://github.com/goji/goji) - Goji is a minimalistic and flexible HTTP request multiplexer with support for `net/context`.
-* [httprouter](https://github.com/julienschmidt/httprouter) - A high performance router. Use this and the standard http handlers to form a very high performance web framework.
-* [httptreemux](https://github.com/dimfeld/httptreemux) - High-speed, flexible tree-based HTTP router for Go. Inspiration from httprouter.
-* [lars](https://github.com/go-playground/lars) - Is a lightweight, fast and extensible zero allocation HTTP router for Go used to create customizable frameworks.
-* [medeina](https://github.com/imdario/medeina) - Medeina is a HTTP routing tree based on HttpRouter, inspired by Roda and Cuba.
-* [mux](https://github.com/gorilla/mux) - A powerful URL router and dispatcher for golang.
-* [ozzo-routing](https://github.com/go-ozzo/ozzo-routing) - An extremely fast Go (golang) HTTP router that supports regular expression route matching. Comes with full support for building RESTful APIs.
-* [pat](https://github.com/bmizerany/pat) - Sinatra style pattern muxer for Go’s net/http library, by the author of Sinatra.
-* [Siesta](https://github.com/VividCortex/siesta) - Composable framework to write middleware and handlers
-* [vestigo](https://github.com/husobee/vestigo) -  A performant, stand-alone, HTTP compliant URL Router for go web applications.
-* [xmux](https://github.com/rs/xmux) - A high performance muxer based on `httprouter` with `net/context` support.
-* [zeus](https://github.com/daryl/zeus) - A very simple and fast HTTP router for Go.
-
-
 ### Middlewares
 
 #### Actual middlewares
@@ -1306,6 +1284,29 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [rye](https://github.com/InVisionApp/rye) - Tiny Go middleware library (with canned Middlewares) that supports JWT, CORS, Statsd, and Go 1.7 context
 * [stats](https://github.com/thoas/stats) - A Go middleware that stores various information about your web application.
 * [Volatile](https://github.com/volatile/core) - Minimalist middleware stack promoting flexibility, good practices and clean code.
+
+
+### Routers
+
+* [alien](https://github.com/gernest/alien) - A lightweight and fast http router from outer space
+* [Bone](https://github.com/go-zoo/bone) - Lightning Fast HTTP Multiplexer.
+* [Bxog](https://github.com/claygod/Bxog) - Simple and fast HTTP router for Go. It works with routes of varying difficulty, length and nesting. And he knows how to create a URL from the received parameters.
+* [chi](https://github.com/pressly/chi) - Small, fast and expressive HTTP router built on net/context.
+* [fasthttprouter](https://github.com/buaazp/fasthttprouter) - A high performance router forked from `httprouter`. The first router fit for `fasthttp`.
+* [gocraft/web](https://github.com/gocraft/web) - A mux and middleware package in Go.
+* [Goji](https://github.com/goji/goji) - Goji is a minimalistic and flexible HTTP request multiplexer with support for `net/context`.
+* [httprouter](https://github.com/julienschmidt/httprouter) - A high performance router. Use this and the standard http handlers to form a very high performance web framework.
+* [httptreemux](https://github.com/dimfeld/httptreemux) - High-speed, flexible tree-based HTTP router for Go. Inspiration from httprouter.
+* [lars](https://github.com/go-playground/lars) - Is a lightweight, fast and extensible zero allocation HTTP router for Go used to create customizable frameworks.
+* [medeina](https://github.com/imdario/medeina) - Medeina is a HTTP routing tree based on HttpRouter, inspired by Roda and Cuba.
+* [mux](https://github.com/gorilla/mux) - A powerful URL router and dispatcher for golang.
+* [ozzo-routing](https://github.com/go-ozzo/ozzo-routing) - An extremely fast Go (golang) HTTP router that supports regular expression route matching. Comes with full support for building RESTful APIs.
+* [pat](https://github.com/bmizerany/pat) - Sinatra style pattern muxer for Go’s net/http library, by the author of Sinatra.
+* [Siesta](https://github.com/VividCortex/siesta) - Composable framework to write middleware and handlers
+* [vestigo](https://github.com/husobee/vestigo) -  A performant, stand-alone, HTTP compliant URL Router for go web applications.
+* [xmux](https://github.com/rs/xmux) - A high performance muxer based on `httprouter` with `net/context` support.
+* [zeus](https://github.com/daryl/zeus) - A very simple and fast HTTP router for Go.
+
 
 # Tools
 
