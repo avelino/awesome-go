@@ -6,7 +6,4 @@ go:
 sudo: false
 
 install:
-  - go get github.com/russross/blackfriday
-  - go get github.com/PuerkitoBio/goquery
-  - go get github.com/gorilla/mux
-  - go get github.com/microcosm-cc/bluemonday
+  - go get -t -v ./...
