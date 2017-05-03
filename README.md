@@ -1489,7 +1489,7 @@ Where to discover new Go libraries.
 
 ## Conferences
 
-* [Capital Go](http://www.capitalgolang.com) - Washington DC, USA
+* [Capital Go](http://www.capitalgolang.com) - Washington, D.C., USA
 * [dotGo](http://www.dotgo.eu) - Paris, France
 * [GoCon](http://gocon.connpass.com/) - Tokyo, Japan
 * [GolangUK](http://golanguk.com/) - London, UK
