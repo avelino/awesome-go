@@ -127,6 +127,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [osin](https://github.com/RangelReale/osin) - Golang OAuth2 server library.
 * [permissions2](https://github.com/xyproto/permissions2) - Library for keeping track of users, login states and permissions. Uses secure cookies and bcrypt.
 * [session](https://github.com/icza/session) - Go session management for web servers (including support for Google App Engine - GAE).
+* [sessions](https://github.com/adam-hanna/sessions) - A dead simple, highly performant, highly customizable sessions service for go http servers.
 * [traefik](https://github.com/containous/traefik) - A reverse proxy and load balancer with support for multiple backends.
 * [yubigo](https://github.com/GeertJohan/yubigo) - a Yubikey client package that provides a simple API to integrate the Yubico Yubikey into a go application.
 
@@ -365,7 +366,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [carbon](https://github.com/uniplaces/carbon) - A simple Time extension with a lot of util methods, ported from PHP Carbon library.
 * [durafmt](https://github.com/hako/durafmt) - A time duration formatting library for Go.
-* [feiertage](https://github.com/wlbr/feiertage) - A set of functions to calculate public holidays in Germany, incl. specialization on the states of Germany (Bundesländer). Things like Easter, Pentecoast, Thanksgiving... 
+* [feiertage](https://github.com/wlbr/feiertage) - A set of functions to calculate public holidays in Germany, incl. specialization on the states of Germany (Bundesländer). Things like Easter, Pentecoast, Thanksgiving...
 * [go-persian-calendar](https://github.com/yaa110/go-persian-calendar) - The implementation of the Persian (Solar Hijri) Calendar in Go (golang).
 * [goweek](https://github.com/grsmv/goweek) - Library for working with week entity in golang.
 * [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
@@ -424,7 +425,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [agora](https://github.com/PuerkitoBio/agora) - Dynamically typed, embeddable programming language in Go
 * [anko](https://github.com/mattn/anko) - Scriptable interpreter written in Go
-* [binder](https://github.com/alexeyco/binder) - Go to Lua binding library, based on [gopher-lua](https://github.com/yuin/gopher-lua) 
+* [binder](https://github.com/alexeyco/binder) - Go to Lua binding library, based on [gopher-lua](https://github.com/yuin/gopher-lua)
 * [gisp](https://github.com/jcla1/gisp) - Simple LISP in Go
 * [go-duktape](https://github.com/olebedev/go-duktape) - Duktape JavaScript engine bindings for Go
 * [go-lua](https://github.com/Shopify/go-lua) - A port of the Lua 5.2 VM to pure Go
@@ -1120,7 +1121,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [excelize](https://github.com/Luxurioust/excelize) - Golang library for reading and writing Microsoft Excel (XLSX) files.
 * [fastlz](https://github.com/digitalcrab/fastlz) - Wrap over [FastLz](http://fastlz.org/) (free, open-source, portable real-time compression library) for GoLang.
 * [filetype](https://github.com/h2non/filetype) - Small package to infer the file type checking the magic numbers signature.
-* [filler](https://github.com/yaronsumel/filler) - small utility to fill structs using "fill" tag. 
+* [filler](https://github.com/yaronsumel/filler) - small utility to fill structs using "fill" tag.
 * [fzf](https://github.com/junegunn/fzf) - A command-line fuzzy finder written in Go
 * [generate](https://github.com/go-playground/generate) - runs go generate recursively on a specified path or environment variable and can filter by regex.
 * [gentleman](https://github.com/h2non/gentleman) - Full-featured plugin-driven HTTP client library.
@@ -1176,7 +1177,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [pester](https://github.com/sethgrid/pester) - Go HTTP client calls with retries, backoff, and concurrency.
 * [pm](https://github.com/VividCortex/pm) - Process (i.e. goroutine) manager with an HTTP API.
 * [profile](https://github.com/pkg/profile) - Simple profiling support package for Go.
-* [rclient](https://github.com/zpatrick/rclient) - Readable, flexible, simple-to-use client for REST APIs. 
+* [rclient](https://github.com/zpatrick/rclient) - Readable, flexible, simple-to-use client for REST APIs.
 * [realize](https://github.com/tockins/realize) - Go build system with file watchers and live reload. Run, build and watch file changes with custom paths.
 * [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
 * [rerate](https://github.com/abo/rerate) - Redis-based rate counter and rate limiter for Go.
