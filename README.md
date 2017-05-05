@@ -31,7 +31,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Financial](#financial)
     - [Forms](#forms)
     - [Game Development](#game-development)
-    - [Generation & Generics](#generation--generics)
+    - [Generation & Generics](#generation-generics)
     - [Go Compilers](#go-compilers)
     - [Goroutines](#goroutines)
     - [GUI](#gui)
