@@ -611,6 +611,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [xlog](https://github.com/xfxdev/xlog) - Plugin architecture and flexible log system for Go, with level ctrl, multiple log target and custom log format.
 * [xlog](https://github.com/rs/xlog) - A structured logger for `net/context` aware HTTP handlers with flexible dispatching.
 * [zap](https://github.com/uber-go/zap) - Fast, structured, leveled logging in Go.
+* [BLog4go](https://github.com/YoungPioneers/blog4go) - Efficient logger with levels, rotating, hook and supports for file, socket and stdout.
 
 ## Machine Learning
 
