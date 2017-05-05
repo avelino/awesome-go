@@ -1196,6 +1196,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Task](https://github.com/go-task/task) - simple "Make" alternative
 * [toolbox](https://github.com/viant/toolbox) - Slice, map, multimap, struct, function, data conversion utilities. Service router, macro evaluator, tokenizer.
 * [ugo](https://github.com/alxrm/ugo) - ugo is slice toolbox with concise syntax for Go.
+* [usql](https://github.com/knq/usql) - usql is a universal command-line interface for SQL databases.
 * [xferspdy](https://github.com/monmohan/xferspdy) - Xferspdy provides binary diff and patch library in golang
 * [xlsx](https://github.com/tealeg/xlsx) - Library to simplify reading the XML format used by recent version of Microsoft Excel in Go programs.
 
