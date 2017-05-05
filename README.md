@@ -399,6 +399,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [torrent](https://github.com/anacrolix/torrent) - BitTorrent client package.
     * [dht](https://godoc.org/github.com/anacrolix/dht) - BitTorrent Kademlia DHT implementation.
     * [go-peerflix](https://github.com/Sioro-Neoku/go-peerflix) - Video streaming torrent client.
+* [functions](https://github.com/iron-io/functions) -  Serverless platform. Also referred as Functions as a Service (FaaS).
 
 ## Email
 
