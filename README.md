@@ -699,6 +699,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [health](https://github.com/dimiro1/health) - A Easy to use, extensible health check library.
 * [indigo](https://github.com/osamingo/indigo) - A distributed unique ID generator of using Sonyflake and encoded by Base58.
 * [jobs](https://github.com/albrow/jobs) - A persistent and flexible background jobs library.
+* [juju/errors] (https://github.com/juju/errors) - Provides an easy way to annotate errors without losing the orginal error context.
 * [margelet](https://github.com/zhulik/margelet) - A framework for building Telegram bots.
 * [secdl](https://github.com/xor-gate/secdl) - Lighttpd ModSecDownload algorithm ported to go to secure download urls.
 * [stats](https://github.com/go-playground/stats) - Monitors Go MemStats + System stats such as Memory, Swap and CPU and sends via UDP anywhere you want for logging etc...
