@@ -1380,6 +1380,7 @@ Software written in Go.
 * [Banshee](https://github.com/eleme/banshee) - Anomalies detection system for periodic metrics.
 * [bombardier](https://github.com/codesenberg/bombardier) - Fast cross-platform HTTP benchmarking tool.
 * [bosun](https://github.com/bosun-monitor/bosun) - Time Series Alerting Framework.
+* [Boxfuse](https://boxfuse.com) - Boxfuse is a tool based on immutable infrastructure, minimal images and blue/green deployments for deploying Go applications to AWS and provisioning all necessary infrastructure with a single command.
 * [dogo](https://github.com/liudng/dogo) - Monitoring changes in the source file and automatically compile and run (restart).
 * [drone-jenkins](https://github.com/appleboy/drone-jenkins) - Trigger downstream Jenkins jobs using a binary, docker or Drone CI.
 * [drone-scp](https://github.com/appleboy/drone-scp) - Copy files and artifacts via SSH using a binary, docker or Drone CI.
