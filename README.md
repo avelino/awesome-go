@@ -636,6 +636,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [probab](https://github.com/ThePaw/probab) - Probability distribution functions. Bayesian inference. Written in pure Go.
 * [regommend](https://github.com/muesli/regommend) - Recommendation & collaborative filtering engine
 * [shield](https://github.com/eaigner/shield) - Bayesian text classifier with flexible tokenizers and storage backends for Go
+* [liblinear](https://github.com/lazywei/liblinear) - liblinear wrappers for Go based on liblinear 2.01.
 
 
 ## Messaging
