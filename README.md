@@ -338,7 +338,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [dynago](https://github.com/underarmour/dynago) - Dynago is a principle of least surprise client for DynamoDB
     * [go-couchbase](https://github.com/couchbase/go-couchbase) - Couchbase client in Go
     * [go-couchdb](https://github.com/fjl/go-couchdb) - Yet another CouchDB HTTP API wrapper for Go
-    * [go-siridb-connector](https://github.com/transceptor-technology/go-siridb-connector) - Go language driver for [SiriDB](http://siridb.net).
     * [gocb](https://github.com/couchbase/gocb) - Official Couchbase Go SDK
     * [gocql](http://gocql.github.io) - A Go language driver for Apache Cassandra.
     * [gomemcache](https://github.com/bradfitz/gomemcache/) - memcache client library for the Go programming language.
@@ -352,6 +351,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [redis](https://github.com/go-redis/redis) - Redis client for Golang
     * [redis](https://github.com/hoisie/redis) - A simple, powerful Redis client for Go.
     * [redis](https://github.com/bsm/redeo) - Redis-protocol compatible TCP servers/services.
+    * [siridb](https://github.com/transceptor-technology/go-siridb-connector) - Go language driver for [SiriDB](http://siridb.net).
 
 * Search and Analytic Databases
     * [bleve](https://github.com/blevesearch/bleve) - A modern text indexing library for go.
