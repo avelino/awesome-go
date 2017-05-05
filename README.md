@@ -79,7 +79,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 - [Resources](#resources)
     - [Benchmarks](#benchmarks)
     - [Conferences](#conferences)
-    - [E-Books](#e-books)
+    - [E-Books](#ebooks)
     - [Twitter](#twitter)
     - [Websites](#websites)
         - [Tutorials](#tutorials)
