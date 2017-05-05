@@ -435,6 +435,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [ngaro](https://github.com/db47h/ngaro) - Embeddable Ngaro VM implementation enabling scripting in Retro
 * [otto](https://github.com/robertkrimen/otto) - A JavaScript interpreter written in Go
 * [purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go
+* [zygomys](https://github.com/glycerine/zygomys) - Java has Clojure, Go has zygomys. A 100% Golang, easy-to-use Lisp.
 
 
 ## Files
