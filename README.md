@@ -1552,7 +1552,7 @@ Where to discover new Go libraries.
 * [Go database/sql tutorial](http://go-database-sql.org/) - Introduction to database/sql.
 * [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go) - Get started with Godog — a Behavior-driven development framework for building and testing Go applications.
 * [Working with Go](https://github.com/mkaz/working-with-go) - An intro to go for experienced programmers.
-
+* [Go Koans](https://github.com/cdarwin/go-koans) - A walk through the path to Golang enlightenment.
 
 
 ## Windows
