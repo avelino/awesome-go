@@ -531,6 +531,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for building GUI Applications*
 
 * [app](https://github.com/murlokswarm/app) - Package to create apps with GO, HTML and CSS.
+* [go-astilectron](https://github.com/asticode/go-astilectron) - Build cross platform GUI apps with GO and HTML/JS/CSS (powered by Electron)
 * [go-gtk](http://mattn.github.io/go-gtk/) - Go bindings for GTK
 * [go-qml](https://github.com/go-qml/qml) - QML support for the Go language
 * [go-sciter](https://github.com/sciter-sdk/go-sciter) - Go bindings for Sciter: the Embeddable HTML/CSS/script engine for modern desktop UI development.
