@@ -37,6 +37,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [GUI](#gui)
     - [Hardware](#hardware)
     - [Images](#images)
+    - [IoT](#iot-internet-of-things)
     - [Logging](#logging)
     - [Machine Learning](#machine-learning)
     - [Messaging](#messaging)
@@ -579,6 +580,19 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [smartcrop](https://github.com/muesli/smartcrop) - Finds good crops for arbitrary images and crop sizes.
 * [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
 * [tga](https://github.com/ftrvxmtrx/tga) - Package tga is a TARGA image format decoder/encoder.
+
+## IoT (Internet of Things)
+
+*Libraries for programming devices of the IoT.*
+
+* [connectordb](https://github.com/connectordb/connectordb) - An Open-Source Platform for Quantified Self & IoT.
+* [devices](https://github.com/goiot/devices) - Suite of libraries for IoT devices, experimental for x/exp/io.
+* [eywa](https://github.com/xcodersun/eywa) - Project Eywa is essentially a connection manager that keeps track of connected devices.
+* [flogo](https://github.com/tibcosoftware/flogo) - Project Flogo is an Open Source Framework for IoT Edge Apps & Integration.
+* [gatt](https://github.com/paypal/gatt) - Gatt is a Go package for building Bluetooth Low Energy peripherals.
+* [gobot](https://github.com/hybridgroup/gobot/) - Gobot is a framework for robotics, physical computing, and the Internet of Things.
+* [mainflux](https://github.com/Mainflux/mainflux) - Industrial IoT Messaging and Device Management Server.
+* [sensorbee](https://github.com/sensorbee/sensorbee) - Lightweight stream processing engine for IoT.
 
 ## Logging
 
