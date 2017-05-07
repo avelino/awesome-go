@@ -197,9 +197,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [goConfig](https://github.com/crgimenes/goConfig) - Parse a struct as input and populates the fields of this struct with parameters fom command line, environment variables and configuration file.
 * [gofigure](https://github.com/ian-kent/gofigure) - Go application configuration made easy
 * [hjson](https://github.com/hjson/hjson-go) - Human JSON, a configuration file format for humans. Relaxed syntax, fewer mistakes, more comments.
-* [joshbetz/config](https://github.com/joshbetz/config) - A small configuration library for Go that parses environment variables, JSON files, and reloads automatically on SIGHUP.
 * [ingo](https://github.com/schachmat/ingo) - Flags persisted in an ini-like config file
 * [ini](https://github.com/go-ini/ini) - Go package for read and write INI files
+* [joshbetz/config](https://github.com/joshbetz/config) - A small configuration library for Go that parses environment variables, JSON files, and reloads automatically on SIGHUP.
 * [mini](https://github.com/sasbury/mini) - A golang package for parsing ini-style configuration files
 * [store](https://github.com/tucnak/store) - A lightweight configuration manager for Go
 * [viper](https://github.com/spf13/viper) - Go configuration with fangs
