@@ -1196,6 +1196,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [netbug](https://github.com/e-dard/netbug) - Easy remote profiling of your services.
 * [ngrok](https://github.com/inconshreveable/ngrok) - Introspected tunnels to localhost.
 * [okrun](https://github.com/xta/okrun) - go run error steamroller.
+* [onecache](https://github.com/adelowo/onecache) - A caching library with support for multiple backend stores (Redis, Memcached, filesystem etc)
 * [panicparse](https://github.com/maruel/panicparse) - Groups similar goroutines and colorizes stack dump.
 * [peco](https://github.com/peco/peco) - Simplistic interactive filtering tool.
 * [pester](https://github.com/sethgrid/pester) - Go HTTP client calls with retries, backoff, and concurrency.
