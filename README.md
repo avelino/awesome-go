@@ -973,6 +973,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [badio](https://github.com/cavaliercoder/badio) - Extensions to Go's `testing/iotest` package
     * [baloo](https://github.com/h2non/baloo) - Expressive and versatile end-to-end HTTP API testing made easy.
     * [bro](https://github.com/marioidival/bro) - Watch files in directory and run tests for them
+    * [dbcleaner](https://github.com/khaiql/dbcleaner) - Clean database for testing purpose, inspired by `database_cleaner` in Ruby
     * [dsunit](https://github.com/viant/dsunit) - Datastore testing for SQL, NoSQL, structured files.
     * [frisby](https://github.com/verdverm/frisby) - a REST API testing framework
     * [ginkgo](http://onsi.github.io/ginkgo/) - BDD Testing Framework for Go
