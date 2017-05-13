@@ -458,6 +458,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [decimal](https://github.com/shopspring/decimal) - Arbitrary-precision fixed-point decimal numbers
 * [go-finance](https://github.com/FlashBoys/go-finance) - Comprehensive financial markets data in Go
 * [go-money](https://github.com/rhymond/go-money) - Implementation of Fowler's Money pattern
+* [ofxgo](https://github.com/aclindsa/ofxgo) - Query OFX servers and/or parse the responses (with example command-line client)
 * [vat](https://github.com/dannyvankooten/vat) - VAT number validation & EU VAT rates
 
 
