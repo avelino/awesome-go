@@ -145,6 +145,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [cli-init](https://github.com/tcnksm/gcli) - The easy way to start building Golang command line application.
 * [climax](http://github.com/tucnak/climax) - An alternative CLI with "human face", in spirit of Go command
 * [cobra](https://github.com/spf13/cobra) - A Commander for modern Go CLI interactions
+* [complete](https://github.com/posener/complete) - Write bash completions in Go + Go command bash completion.
 * [docopt.go](https://github.com/docopt/docopt.go) - A command-line arguments parser that will make you smile.
 * [drive](https://github.com/odeke-em/drive) - Google Drive client for the commandline
 * [flag](https://github.com/cosiner/flag) - A simple but powerful command line option parsing library for Go support subcommand
