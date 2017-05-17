@@ -801,6 +801,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [sslb](https://github.com/eduardonunesp/sslb) - It's a Super Simples Load Balancer, just a little project to achieve some kind of performance.
 * [tcp_server](https://github.com/firstrow/tcp_server) - A Go library for building tcp servers faster.
 * [utp](https://github.com/anacrolix/utp) - Go uTP micro transport protocol implementation.
+* [water](https://github.com/songgao/water) - A simple TUN/TAP library
 * [winrm](https://github.com/masterzen/winrm) - A Go WinRM client to remotely execute commands on Windows machines
 * [xtcp](https://github.com/xfxdev/xtcp) - A TCP Server Framework with simultaneous full duplex communication,graceful shutdown,custom protocol.
 
