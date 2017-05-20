@@ -813,6 +813,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Tools and libraries for Virtual Networking and SDN (Software Defined Networking).*
 
+* [Gofc] (https://github.com/Kmotiko/gofc) Openflow 1.3 controller
+* [libovsdb] Open vSwitch Database Protocol implementation
 * [Mininet](https://github.com/nodeprime/open-mininet/) - A Golang port of popular network emulator and API written in Python.
 * [OGO](https://github.com/jonstout/ogo) An OpenFlow Network Controller
 
