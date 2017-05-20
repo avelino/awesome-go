@@ -44,6 +44,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Miscellaneous](#miscellaneous)
     - [Natural Language Processing](#natural-language-processing)
     - [Networking](#networking)
+	- [Network Virtualization](#network-virtualization)
     - [OpenGL](#opengl)
     - [ORM](#orm)
     - [Package Management](#package-management)
@@ -807,6 +808,13 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [water](https://github.com/songgao/water) - A simple TUN/TAP library
 * [winrm](https://github.com/masterzen/winrm) - A Go WinRM client to remotely execute commands on Windows machines
 * [xtcp](https://github.com/xfxdev/xtcp) - A TCP Server Framework with simultaneous full duplex communication,graceful shutdown,custom protocol.
+
+## Network Virtualization
+
+*Tools and libraries for Virtual Networking and SDN (Software Defined Networking).*
+
+* [Mininet](https://github.com/nodeprime/open-mininet/) - A Golang port of popular network emulator and API written in Python.
+* [OGO](https://github.com/jonstout/ogo) An OpenFlow Network Controller
 
 ## OpenGL
 
