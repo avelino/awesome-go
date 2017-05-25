@@ -1387,7 +1387,8 @@ Go software and plugins.
 
 ## Editor Plugins
 
-* [go-lang-idea-plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) Go plugin for IntelliJ IDEA.
+* [Go plugin for JetBrains IDEs](https://plugins.jetbrains.com/plugin/9568-go) - Go plugin for JetBrains IDEs.
+* [go-lang-idea-plugin](https://github.com/go-lang-plugin-org/go-lang-idea-plugin) (deprecated) - The previous Go plugin for IntelliJ (JetBrains) IDEA, now replaced by the official plugin (above).
 * [go-mode](https://github.com/dominikh/go-mode.el) - Go mode for GNU/Emacs.
 * [go-plus](https://github.com/joefitzgerald/go-plus) - Go (Golang) Package For Atom That Adds Autocomplete, Formatting, Syntax Checking, Linting and Vetting
 * [Goclipse](https://github.com/GoClipse/goclipse) - An Eclipse plugin for Go.
@@ -1470,6 +1471,7 @@ Software written in Go.
 * [Go Package Store](https://github.com/shurcooL/Go-Package-Store#go-package-store-) - An app that displays updates for the Go packages in your GOPATH.
 * [gocc](https://github.com/goccmack/gocc) - Gocc is a compiler kit for Go written in Go.
 * [GoDocTooltip](https://github.com/diankong/GoDocTooltip) - A chrome extension for Go Doc sites, which shows function description as tooltip at funciton list.
+* [Gogland](https://jetbrains.com/go) - Full featured cross-platform Go IDE.
 * [Gor](https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time.
 * [hsync](http://ambrevar.bitbucket.org/hsync/) - A filesystem hierarchy synchronizer.
 * [hugo](http://gohugo.io/) - A Fast and Modern Static Website Engine.
