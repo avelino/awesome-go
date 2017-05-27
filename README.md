@@ -66,6 +66,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
             - [Libraries for creating HTTP middlewares](#libraries-for-creating-http-middlewares)
         - [Routers](#routers)
     - [Windows](#windows)
+    - [XML](#xml)
 
 - [Tools](#tools)
     - [Code Analysis](#code-analysis)
@@ -1041,7 +1042,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [go-humanize](https://github.com/dustin/go-humanize) - Formatters for time, numbers, and memory size to human readable format.
     * [go-nmea](https://github.com/adrianmo/go-nmea) - NMEA parser library for the Go language.
     * [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - This package reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.
-    * [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx) - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.
     * [go-runewidth](https://github.com/mattn/go-runewidth) - Functions to get fixed width of the character or string.
     * [go-slugify](https://github.com/mozillazg/go-slugify) - Make pretty slug with multiple languages support.
     * [go-vcard](https://github.com/emersion/go-vcard) - Parse and format vCard
@@ -1059,8 +1059,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [slug](https://github.com/gosimple/slug) - URL-friendly slugify with multiple languages support.
     * [Slugify](https://github.com/avelino/slugify) - A Go slugify application that handles string.
     * [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
-    * [xpath](https://github.com/antchfx/xpath) - XPath package for Go.
-    * [xquery](https://github.com/antchfx/xquery) - XQuery lets you extract data from HTML/XML documents using XPath expression.
 * Utility
     * [gotabulate](https://github.com/bndr/gotabulate) - Easily pretty-print your tabular data with Go.
     * [kace](https://github.com/codemodus/kace) - Common case conversions covering common initialisms.
@@ -1307,6 +1305,23 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Zerver](https://github.com/cosiner/zerver) - Zerver is an expressive, modular, feature completed RESTful framework.
 
 
+## Windows
+
+* [d3d9](https://github.com/gonutz/d3d9) - Go bindings for Direct3D9
+* [go-ole](https://github.com/go-ole/go-ole) - Win32 OLE implementation for golang.
+
+
+## XML
+
+*Libraries and tools for manipulating XML*
+
+* [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx) - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.
+* [XML-Comp](https://github.com/xml-comp/xml-comp) - Simple command line XML comparer that generates diffs of folders, files and tags.
+* [xmlwriter](https://github.com/shabbyrobe/xmlwriter) - Procedural XML generation API based on libxml2's xmlwriter module.
+* [xpath](https://github.com/antchfx/xpath) - XPath package for Go.
+* [xquery](https://github.com/antchfx/xquery) - XQuery lets you extract data from HTML/XML documents using XPath expression.
+
+
 ### Middlewares
 
 #### Actual middlewares
@@ -1502,7 +1517,6 @@ Software written in Go.
 * [vFlow](https://github.com/VerizonDigital/vflow) - High-performance, scalable and reliable IPFIX, sFlow and Netflow collector.
 * [websysd](https://github.com/ian-kent/websysd) - Web based process manager (like Marathon or Upstart).
 * [wellington](https://github.com/wellington/wellington) - Sass project management tool, extends the language with sprite functions (like Compass).
-* [XML-Comp](https://github.com/xml-comp/xml-comp) - Simple command line XML comparer that generates diffs of folders, files and tags.
 
 
 
@@ -1601,12 +1615,8 @@ Where to discover new Go libraries.
 
 
 
-## Windows
-
-* [d3d9](https://github.com/gonutz/d3d9) - Go bindings for Direct3D9
-* [go-ole](https://github.com/go-ole/go-ole) - Win32 OLE implementation for golang.
-
 ## Support on Beerpay
 Hey dude! Help me out for a couple of :beers:!
 
 [![Beerpay](https://beerpay.io/avelino/awesome-go/badge.svg?style=beer-square)](https://beerpay.io/avelino/awesome-go)  [![Beerpay](https://beerpay.io/avelino/awesome-go/make-wish.svg?style=flat-square)](https://beerpay.io/avelino/awesome-go?focus=wish)
+
