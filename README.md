@@ -174,6 +174,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [chalk](https://github.com/ttacon/chalk) - Intuitive package for prettifying terminal/console output.
 * [color](https://github.com/fatih/color) - Versatile package for colored terminal output.
 * [colourize](https://github.com/TreyBastian/colourize) - Go library for ANSI colour text in terminals.
+* [go-ataman](https://github.com/workanator/go-ataman) - Go library for rendering ANSI colored text templates in terminals.
 * [go-colorable](https://github.com/mattn/go-colorable) - Colorable writer for windows.
 * [go-colortext](https://github.com/daviddengcn/go-colortext) - Go library for color output in terminals.
 * [go-isatty](https://github.com/mattn/go-isatty) - isatty for golang.
