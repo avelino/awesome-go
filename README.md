@@ -427,7 +427,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [MailHog](https://github.com/mailhog/MailHog) - Email and SMTP testing with web and API interface
 * [SendGrid](https://github.com/sendgrid/sendgrid-go) - SendGrid's Go library for sending email
 * [smtp](https://github.com/mailhog/smtp) - SMTP server protocol state machine
-
+* [MailSlurper](http://mailslurper.com) - A handy SMTP mail server useful for local and team application development. Slurp mail into oblivion!
 
 
 ## Embeddable Scripting Languages
