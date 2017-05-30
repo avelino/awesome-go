@@ -11,8 +11,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 ### Contents
 
 - [Awesome Go](#awesome-go)
-    - [Audio & Music](#audiomusic)
-    - [Authentication & OAuth](#authentication--oauth)
+    - [Audio & Music](#audio-music)
+    - [Authentication & OAuth](#authentication-oauth)
     - [Command Line](#command-line)
     - [Configuration](#configuration)
     - [Continuous Integration](#continuous-integration)
@@ -1563,4 +1563,3 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 Hey dude! Help me out for a couple of :beers:!
 
 [![Beerpay](https://beerpay.io/avelino/awesome-go/badge.svg?style=beer-square)](https://beerpay.io/avelino/awesome-go)  [![Beerpay](https://beerpay.io/avelino/awesome-go/make-wish.svg?style=flat-square)](https://beerpay.io/avelino/awesome-go?focus=wish)
-
