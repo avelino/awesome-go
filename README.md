@@ -1157,6 +1157,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [goreq](https://github.com/smallnest/goreq) - An enhanced simplified HTTP client based on gorequest.
 * [gorequest](https://github.com/parnurzeal/gorequest) - Simplified HTTP client with rich features for Go.
 * [gotenv](https://github.com/subosito/gotenv) - Load environment variables from `.env` or any `io.Reader` in Go
+* [gpath](https://github.com/tenntenn/gpath) - Library to simplify access struct fields with Go's expression in reflection.
 * [grequests](https://github.com/levigross/grequests) - An elegant and simple `net/http` wrapper that follows Python's requests library
 * [htcat](https://github.com/htcat/htcat) - Parallel and Pipelined HTTP GET Utility
 * [httpcontrol](https://github.com/facebookgo/httpcontrol) - Package httpcontrol allows for HTTP transport level control around timeouts and retries.
@@ -1206,7 +1207,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [wuzz](https://github.com/asciimoo/wuzz) - Interactive cli tool for HTTP inspection.
 * [xferspdy](https://github.com/monmohan/xferspdy) - Xferspdy provides binary diff and patch library in golang
 * [xlsx](https://github.com/tealeg/xlsx) - Library to simplify reading the XML format used by recent version of Microsoft Excel in Go programs.
-* [gpath](https://github.com/tenntenn/gpath) - Library to simplify access struct fields with Go's expression in reflection.
 
 ## Validation
 
