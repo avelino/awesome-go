@@ -1525,7 +1525,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Network Programming With Go](https://jan.newmarch.name/go/)
 * [The Go Programming Language](http://www.gopl.io/)
 * [Web Application with Go the Anti-Textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/)
-
+* ["The Little Go Book" Chinese translation](http://www.ctolib.com/docs/sfile/the-little-go-book_ZH_CN/index.html)
 ## Twitter
 
 * [@golang](https://twitter.com/golang)
