@@ -323,6 +323,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [go-bqstreamer](https://github.com/rounds/go-bqstreamer) - BigQuery fast and concurrent stream insert.
     * [go-mssqldb](https://github.com/denisenkom/go-mssqldb) - Microsoft MSSQL driver prototype in go language.
     * [go-oci8](https://github.com/mattn/go-oci8) - Oracle driver for go that using database/sql.
+    * [goracle](https://github.com/tgulacsi/goracle) - cx_Oracle translation for Oracle access
     * [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) - MySQL driver for Go.
     * [go-sqlite3](https://github.com/mattn/go-sqlite3) - SQLite3 driver for go that using database/sql.
     * [gofreetds](https://github.com/minus5/gofreetds) Microsoft MSSQL driver. Go wrapper over [FreeTDS](http://www.freetds.org).
