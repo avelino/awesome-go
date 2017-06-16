@@ -1255,6 +1255,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Gizmo](https://github.com/NYTimes/gizmo) - Microservice toolkit used by the New York Times.
 * [go-json-rest](https://github.com/ant0ine/go-json-rest) - A quick and easy way to setup a RESTful JSON API.
 * [go-relax](https://github.com/codehack/go-relax) - A framework of pluggable components to build RESTful API's.
+* [go-request](https://github.com/blendlabs/go-request) - This is a simple convenience library for making service requests and deserializing the results to objects either from JSON or from XML.
 * [go-rest](https://github.com/ungerik/go-rest) - A small and evil REST framework for Go.
 * [goa](https://github.com/raphael/goa) - Framework for developing microservices based on the design of Ruby's Praxis.
 * [Goat](https://github.com/bahlo/goat) - A minimalistic REST API server in Go.
