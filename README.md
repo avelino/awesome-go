@@ -128,6 +128,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [sessions](https://github.com/adam-hanna/sessions) - A dead simple, highly performant, highly customizable sessions service for go http servers.
 * [traefik](https://github.com/containous/traefik) - A reverse proxy and load balancer with support for multiple backends.
 * [yubigo](https://github.com/GeertJohan/yubigo) - a Yubikey client package that provides a simple API to integrate the Yubico Yubikey into a go application.
+* [gomniauth](https://github.com/stretchr/gomniauth) - Authentication framework for Go applications, supports Github, Gitlab, Facebook, Twitter and more.
 
 ## Command Line
 
