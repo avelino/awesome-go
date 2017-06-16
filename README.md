@@ -303,6 +303,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *SQL query builder, libraries for building and using SQL.*
 
 * [dat](https://github.com/mgutz/dat) - Go Postgres Data Access Toolkit
+* [dbr](https://github.com/gocraft/dbr) - dbr provides additions to Go's database/sql for super fast performance and convenience.
 * [Dotsql](https://github.com/gchaincl/dotsql) - Go library that helps you keep sql files in one place and use it with ease.
 * [goqu](https://github.com/doug-martin/goqu) - An idiomatic SQL builder and query library.
 * [igor](https://github.com/galeone/igor) - Abstraction layer for PostgreSQL that supports advanced functionality and uses gorm-like syntax.
