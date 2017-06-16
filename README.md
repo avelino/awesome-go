@@ -351,6 +351,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [redis](https://github.com/go-redis/redis) - Redis client for Golang
     * [redis](https://github.com/hoisie/redis) - A simple, powerful Redis client for Go.
     * [redis](https://github.com/bsm/redeo) - Redis-protocol compatible TCP servers/services.
+    * [siridb](https://github.com/transceptor-technology/go-siridb-connector) - Go language driver for [SiriDB](http://siridb.net).
 
 * Search and Analytic Databases
     * [bleve](https://github.com/blevesearch/bleve) - A modern text indexing library for go.
