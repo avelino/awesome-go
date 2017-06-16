@@ -353,6 +353,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [redis](https://github.com/bsm/redeo) - Redis-protocol compatible TCP servers/services.
 
 * Search and Analytic Databases
+    * [awql-driver](https://github.com/rvflash/awql-driver) - AWQL driver for Go's sql package to perform queries against AdWords API. 
     * [bleve](https://github.com/blevesearch/bleve) - A modern text indexing library for go.
     * [elastic](https://github.com/olivere/elastic) - Elasticsearch client for Go.
     * [elasticsql](https://github.com/cch123/elasticsql) - Convert sql to elasticsearch dsl in Go.
