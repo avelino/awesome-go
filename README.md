@@ -311,6 +311,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [sqrl](https://github.com/elgris/sqrl) - SQL query builder, fork of Squirrel with improved performance.
 * [Squirrel](https://github.com/Masterminds/squirrel) - Go library that helps you build SQL queries.
 * [xo](https://github.com/knq/xo) - Generate idiomatic Go code for databases based on existing schema definitions or custom queries supporting PostgreSQL, MySQL, SQLite, Oracle, and Microsoft SQL Server.
+* [youpassbutter](https://github.com/stuartaroth/youpassbutter) - Centralized PostgreSQL access through HTTP GET requests
 
 ## Database Drivers
 
