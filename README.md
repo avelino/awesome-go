@@ -1088,6 +1088,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [playlyfe](https://github.com/playlyfe/playlyfe-go-sdk) - The Playlyfe Rest API Go SDK
 * [pushover](https://github.com/gregdel/pushover) - Go wrapper for the Pushover API.
 * [rrdaclient](https://github.com/Omie/rrdaclient) - Go Library to access statdns.com API, which is in turn RRDA API. DNS Queries over HTTP.
+* [sendbird](http://github.com/ippy04/sendbird) - A Go library for the sendbird messaging [server API](https://sendbird.gitbooks.io/sendbird-server-api/content/en/)
 * [shopify](https://github.com/rapito/go-shopify) - Go Library to make CRUD request to the Shopify API.
 * [slack](https://github.com/nlopes/slack) - Slack API in Go.
 * [smite](https://github.com/sergiotapia/smitego) - Go package to wraps access to the Smite game API.
