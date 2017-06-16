@@ -11,8 +11,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 ### Contents
 
 - [Awesome Go](#awesome-go)
-    - [Audio & Music](#audiomusic)
-    - [Authentication & OAuth](#authentication--oauth)
+    - [Audio & Music](#audio-music)
+    - [Authentication & OAuth](#authentication-oauth)
     - [Command Line](#command-line)
     - [Configuration](#configuration)
     - [Continuous Integration](#continuous-integration)
