@@ -1043,6 +1043,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * [amazon-product-advertising-api](https://github.com/ngs/go-amazon-product-advertising-api) - Go Client Library for [Amazon Product Advertising API](https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html)
 * [anaconda](https://github.com/ChimeraCoder/anaconda) - A Go client library for the Twitter 1.1 API
+* [aws-lambda-go](https://github.com/eawsy/aws-lambda-go) - Run standard Go code on the AWS Lambda platform.
 * [aws-sdk-go](https://github.com/aws/aws-sdk-go) - The official AWS SDK for the Go programming language.
 * [brewerydb](https://github.com/naegelejd/brewerydb) - Go library for accessing the BreweryDB API.
 * [cachet](https://github.com/andygrunwald/cachet) - Go client library for [Cachet (open source status page system)](https://cachethq.io/)
