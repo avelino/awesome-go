@@ -1105,6 +1105,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [translate](https://github.com/poorny/translate) - Go online translation package.
 * [Trello](https://github.com/adlio/trello) - Go wrapper for the Trello API.
 * [tumblr](https://github.com/mattcunningham/gumblr) - Go wrapper for the Tumblr v2 API.
+* [watson-go-sdk](https://github.com/Mediawen/watson-go-sdk) - Simple Watson SDK for the Go programming language.
 * [webhooks](https://github.com/go-playground/webhooks) - Webhook receiver for GitHub and Bitbucket.
 
 ## Utilities
