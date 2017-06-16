@@ -199,6 +199,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [mini](https://github.com/sasbury/mini) - A golang package for parsing ini-style configuration files
 * [store](https://github.com/tucnak/store) - A lightweight configuration manager for Go
 * [viper](https://github.com/spf13/viper) - Go configuration with fangs
+* [yaml](https://github.com/go-yaml/yaml) - YAML support for the Go language
 
 ## Continuous Integration
 
