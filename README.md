@@ -22,6 +22,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Database Drivers](#database-drivers)
     - [Date & Time](#date--time)
     - [Distributed Systems](#distributed-systems)
+    - [Documents](#documents)
     - [Email](#email)
     - [Embeddable Scripting Languages](#embeddable-scripting-languages)
     - [Files](#files)
