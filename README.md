@@ -863,6 +863,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries for scientific computing and data analyzing.*
 
+* [biogo](https://github.com/biogo/biogo) - A Bioinformatics library
 * [blas](https://github.com/ziutek/blas) - Implementation of BLAS (Basic Linear Algebra Subprograms)
 * [chart](https://github.com/vdobler/chart) - Simple Chart Plotting library for Go. Supports many graphs types.
 * [evaler](https://github.com/soniah/evaler) - A simple floating point arithmetic expression evaluator
