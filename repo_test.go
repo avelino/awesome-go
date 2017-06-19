@@ -3,7 +3,6 @@ package main
 import (
 	"bytes"
 	"io/ioutil"
-	"log"
 	"sort"
 	"strings"
 	"testing"
@@ -24,20 +23,19 @@ func TestDuplicatedLinks(t *testing.T) {
 	query := startQuery()
 	links := make(map[string]bool, 0)
 
-	query.Find("body  a").Each(func(_ int, s *goquery.Selection) {
-		href, ok := s.Attr("href")
-		if !ok {
-			log.Printf("expected '%s' href", s)
-			t.Fail()
-		}
+	query.Find("body li > a:first-child").Each(func(_ int, s *goquery.Selection) {
+		t.Run(s.Text(), func(t *testing.T) {
+			href, ok := s.Attr("href")
+			if !ok {
+				t.Error("expected to have href")
+			}
 
-		if links[href] {
-			log.Printf("duplicated link '%s'", href)
-			t.Fail()
-			return
-		}
+			if links[href] {
+				t.Fatalf("duplicated link '%s'", href)
+			}
 
-		links[href] = true
+			links[href] = true
+		})
 	})
 }
 
@@ -46,7 +44,12 @@ func testList(t *testing.T, list *goquery.Selection) {
 		testList(t, items)
 		items.RemoveFiltered("ul")
 	})
-	checkAlphabeticOrder(t, list)
+
+	category := list.Prev().Text()
+
+	t.Run(category, func(t *testing.T) {
+		checkAlphabeticOrder(t, list)
+	})
 }
 
 func readme() []byte {
@@ -80,8 +83,10 @@ func checkAlphabeticOrder(t *testing.T, s *goquery.Selection) {
 
 	for k, item := range items {
 		if item != sorted[k] {
-			log.Printf("expected '%s' but actual is '%s'", sorted[k], item)
-			t.Fail()
+			t.Errorf("expected '%s' but actual is '%s'", sorted[k], item)
 		}
+	}
+	if t.Failed() {
+		t.Logf("expected order is:\n%s", strings.Join(sorted, "\n"))
 	}
 }
