@@ -193,6 +193,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gcfg](https://github.com/go-gcfg/gcfg) - read INI-style configuration files into Go structs; supports user-defined types and subsections
 * [goConfig](https://github.com/crgimenes/goConfig) - Parse a struct as input and populates the fields of this struct with parameters fom command line, environment variables and configuration file.
 * [gofigure](https://github.com/ian-kent/gofigure) - Go application configuration made easy
+* [gone/jconf](https://github.com/One-com/gone/tree/master/jconf#readme) - Modular JSON configuration. Keep you config structs along the code they configure and delegate parsing to submodules without sacrificing full config serialization.
 * [hjson](https://github.com/hjson/hjson-go) - Human JSON, a configuration file format for humans. Relaxed syntax, fewer mistakes, more comments.
 * [ingo](https://github.com/schachmat/ingo) - Flags persisted in an ini-like config file
 * [ini](https://github.com/go-ini/ini) - Go package for read and write INI files
