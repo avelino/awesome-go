@@ -443,6 +443,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for  handling files and file systems.*
 
 * [afero](https://github.com/spf13/afero) - A FileSystem Abstraction System for Go.
+* [go-csv-tag](https://github.com/artonge/go-csv-tag) - Load csv file using tag.
 * [notify](https://github.com/rjeczalik/notify) - File system event notification library with simple API, similar to os/signal.
 * [tarfs](https://github.com/posener/tarfs) - An implementation of the [`FileSystem` interface](https://godoc.org/github.com/kr/fs#FileSystem) for tar files.
 
