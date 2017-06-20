@@ -22,6 +22,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Database Drivers](#database-drivers)
     - [Date & Time](#date--time)
     - [Distributed Systems](#distributed-systems)
+    - [Documents](#documents)
     - [Email](#email)
     - [Embeddable Scripting Languages](#embeddable-scripting-languages)
     - [Files](#files)
@@ -406,6 +407,16 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [torrent](https://github.com/anacrolix/torrent) - BitTorrent client package.
     * [dht](https://godoc.org/github.com/anacrolix/dht) - BitTorrent Kademlia DHT implementation.
     * [go-peerflix](https://github.com/Sioro-Neoku/go-peerflix) - Video streaming torrent client.
+
+
+## Documents
+
+*Libraries that read or write documents*
+
+* [docconv](https://github.com/sajari/docconv) - Converts PDF, DOC, DOCX, XML, HTML, RTF, etc to plain text.
+* [gofpdf](https://github.com/jung-kurt/gofpdf) - A PDF document generator with high level support for text, drawing and images.
+* [gopdf](https://github.com/signintech/gopdf) - A simple library for generating PDF written in Go lang.
+* [goreport](https://github.com/mikeshimura/goreport) - Golang PDF report generator.
 
 ## Email
 
