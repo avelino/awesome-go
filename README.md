@@ -608,6 +608,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [logdump](https://github.com/ewwwwwqm/logdump) - Package for multi-level logging
 * [logex](https://github.com/chzyer/logex) - An golang log lib, supports tracking and level, wrap by standard log lib
 * [logger](https://github.com/azer/logger) - Minimalistic logging library for Go.
+* [logger](https://github.com/RichardKnop/logging) - A simple leveled logging library with coloured output.
 * [logrus](https://github.com/Sirupsen/logrus) - a structured logger for Go.
 * [logrusly](https://github.com/sebest/logrusly) - [logrus](https://github.com/sirupsen/logrus) plug-in to send errors to a [Loggly](https://www.loggly.com/).
 * [logutils](https://github.com/hashicorp/logutils) - Utilities for slightly better logging in Go (Golang) extending the standard logger.
