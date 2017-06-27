@@ -943,6 +943,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [damsel](https://github.com/dskinner/damsel) - Markup language featuring html outlining via css-selectors, extensible via pkg html/template and others.
 * [ego](https://github.com/benbjohnson/ego) - A lightweight templating language that lets you write templates in Go. Templates are translated into Go and compiled.
 * [fasttemplate](https://github.com/valyala/fasttemplate) - Simple and fast template engine. Substitutes template placeholders up to 10x faster than [text/template](http://golang.org/pkg/text/template/).
+* [ftmpl](https://github.com/tkrajina/ftmpl) - Fast typesafe templating with base/extended templates using plain Go code.
 * [gofpdf](https://github.com/jung-kurt/gofpdf) - A PDF document generator with high level support for text, drawing and images.
 * [grender](https://github.com/dannyvankooten/grender) - small wrapper around html/template for file-based templates that support extending other template files
 * [hero](https://github.com/shiyanhui/hero) Hero is a handy, fast and powerful go template engine.
