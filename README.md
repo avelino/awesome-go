@@ -1182,6 +1182,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [immortal](https://github.com/immortal/immortal) - A *nix cross-platform (OS agnostic) supervisor
 * [JobRunner](https://github.com/bamzi/jobrunner) - Smart and featureful cron job scheduler with job queuing and live monitoring built in.
 * [jsonapi-errors](https://github.com/AmuzaTkts/jsonapi-errors) - Go bindings based on the JSON API errors reference.
+* [jsonenums](https://github.com/campoy/jsonenums) - A tool for generating MarshalJSON and UnmarshalJSON functions for enums.
 * [jsonf](https://github.com/miolini/jsonf) - Console tool for highlighted formatting and struct query fetching JSON.
 * [jsongo](https://github.com/ricardolonga/jsongo) - Fluent API to make it easier to create Json objects.
 * [jsonhal](https://github.com/RichardKnop/jsonhal) - A simple Go package to make custom structs marshal into HAL compatible JSON responses.
