@@ -1340,7 +1340,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [alien](https://github.com/gernest/alien) - A lightweight and fast http router from outer space
 * [Bone](https://github.com/go-zoo/bone) - Lightning Fast HTTP Multiplexer.
 * [Bxog](https://github.com/claygod/Bxog) - Simple and fast HTTP router for Go. It works with routes of varying difficulty, length and nesting. And he knows how to create a URL from the received parameters.
-* [chi](https://github.com/pressly/chi) - Small, fast and expressive HTTP router built on net/context.
+* [chi](https://github.com/go-chi/chi) - Small, fast and expressive HTTP router built on net/context.
 * [fasthttprouter](https://github.com/buaazp/fasthttprouter) - A high performance router forked from `httprouter`. The first router fit for `fasthttp`.
 * [gocraft/web](https://github.com/gocraft/web) - A mux and middleware package in Go.
 * [Goji](https://github.com/goji/goji) - Goji is a minimalistic and flexible HTTP request multiplexer with support for `net/context`.
