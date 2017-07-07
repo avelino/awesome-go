@@ -242,6 +242,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [goskiplist](https://github.com/ryszard/goskiplist) - A skip list implementation in Go.
 * [gota](https://github.com/kniren/gota) - An implementation of dataframes, series, and data wrangling methods for Go.
 * [hilbert](https://github.com/google/hilbert) - Go package for mapping values to and from space-filling curves, such as Hilbert and Peano curves.
+* [hyperloglog](https://github.com/axiomhq/hyperloglog) - HyperLogLog implementation with Sparse, LogLog-Beta bias correction and TailCut space reduction.
 * [levenshtein](https://github.com/agext/levenshtein) - Levenshtein distance and similarity metrics with customizable edit costs and Winkler-like bonus for common prefix.
 * [levenshtein](https://github.com/agnivade/levenshtein) - Implementation to calculate levenshtein distance in Go.
 * [mafsa](https://github.com/smartystreets/mafsa) - MA-FSA implementation with Minimal Perfect Hashing
