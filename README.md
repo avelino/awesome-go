@@ -1403,6 +1403,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [velour](https://github.com/velour/velour) - An IRC client for the acme editor.
 * [vim-compiler-go](https://github.com/rjohnsondev/vim-compiler-go) - A Vim plugin to highlight syntax errors on save.
 * [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim.
+* [vscode-go](https://github.com/Microsoft/vscode-go) - An extension for Visual Studio Code (VS Code) which provides support for the Go language.
 * [Watch](https://github.com/eaburns/Watch) - Runs a command in an acme win on file changes.
 
 ## Go Tools
