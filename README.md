@@ -1576,7 +1576,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Go Blog](http://blog.golang.org) - The official Go blog.
 * [Go Challenge](http://golang-challenge.org/) - Learn Go by solving problems and getting feedback from Go experts.
 * [Go Forum](https://forum.golangbridge.org) - Forum to discuss Go.
-* [Golang Flow](http://golangflow.io) - Post Updates, News, Packages and more.
 * [Go In 5 Minutes](https://www.goin5minutes.com/) - 5 minute screencasts focused on getting one thing done.
 * [Go Projects](https://github.com/golang/go/wiki/Projects) - List of projects on the Go community wiki.
 * [gocryforhelp](https://github.com/ninedraft/gocryforhelp) - A collection of Go projects that needs help. Good place to start your open-source way in Go.
@@ -1584,6 +1583,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Golang News](https://golangnews.com) - Links and news about Go programming.
 * [golang-graphics](https://github.com/mholt/golang-graphics) - A collection of Go images, graphics, and art.
 * [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - Go mailing list.
+* [Golang Flow](http://golangflow.io) - Post Updates, News, Packages and more.
 * [Google Plus Community](https://plus.google.com/communities/114112804251407510571) - The Google+ community for #golang enthusiasts.
 * [gowalker.org](https://gowalker.org) - Go Project API documentation.
 * [r/Golang](https://www.reddit.com/r/golang) - News about Go.
