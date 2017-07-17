@@ -1004,6 +1004,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [gock](https://github.com/h2non/gock) - Versatile HTTP mocking made easy.
     * [gomock](https://github.com/golang/mock) - Mocking framework for the Go programming language.
     * [govcr](https://github.com/seborama/govcr) -  HTTP mock for Golang: record and replay HTTP interactions for offline testing
+    * [minimock](https://github.com/gojuno/minimock) - Mock generator for Go interfaces
     * [mockhttp](https://github.com/tv42/mockhttp) - Mock object for Go http.ResponseWriter
 
 * Fuzzing and delta-debugging/reducing/shrinking
