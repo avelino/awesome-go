@@ -672,6 +672,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [errors](https://github.com/pkg/errors) - A package that provides simple error handling primitives.
 * [go-chat-bot](https://github.com/go-chat-bot/bot) - IRC, Slack & Telegram bot written in Go.
 * [go-commons-pool](https://github.com/jolestar/go-commons-pool) - A generic object pool for Golang.
+* [go-left](https://github.com/jolestar/go-left) - Left pad for Strings in Go
 * [go-multierror](https://github.com/hashicorp/go-multierror) - A Go (golang) package for representing a list of errors as a single error.
 * [go-openapi](https://github.com/go-openapi) - A collection of packages to parse and utilize open-api schemas
 * [go-shortid](https://github.com/ventu-io/go-shortid) - Distributed generation of super short, unique, non-sequential, URL friendly IDs.
@@ -1156,7 +1157,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [pester](https://github.com/sethgrid/pester) - Go HTTP client calls with retries, backoff, and concurrency.
 * [pm](https://github.com/VividCortex/pm) - Process (i.e. goroutine) manager with an HTTP API.
 * [profile](https://github.com/pkg/profile) - Simple profiling support package for Go.
-* [rclient](https://github.com/zpatrick/rclient) - Readable, flexible, simple-to-use client for REST APIs. 
+* [rclient](https://github.com/zpatrick/rclient) - Readable, flexible, simple-to-use client for REST APIs.
 * [realize](https://github.com/tockins/realize) - Go build system with file watchers and live reload. Run, build and watch file changes with custom paths.
 * [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
 * [rerate](https://github.com/abo/rerate) - Redis-based rate counter and rate limiter for Go.
