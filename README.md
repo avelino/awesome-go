@@ -672,7 +672,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [errors](https://github.com/pkg/errors) - A package that provides simple error handling primitives.
 * [go-chat-bot](https://github.com/go-chat-bot/bot) - IRC, Slack & Telegram bot written in Go.
 * [go-commons-pool](https://github.com/jolestar/go-commons-pool) - A generic object pool for Golang.
-* [go-left](https://github.com/jolestar/go-left) - Left Pad for Strings in Go.
+* [go-left](https://github.com/rhymond/go-left) - Left Pad for Strings in Go.
 * [go-multierror](https://github.com/hashicorp/go-multierror) - A Go (golang) package for representing a list of errors as a single error.
 * [go-openapi](https://github.com/go-openapi) - A collection of packages to parse and utilize open-api schemas
 * [go-shortid](https://github.com/ventu-io/go-shortid) - Distributed generation of super short, unique, non-sequential, URL friendly IDs.
