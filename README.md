@@ -1570,8 +1570,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 ## Twitter
 
 * [@golang](https://twitter.com/golang)
-* [@golangflow](https://twitter.com/golangflow)
 * [@golang_news](https://twitter.com/golang_news)
+* [@golangflow](https://twitter.com/golangflow)
 * [@golangweekly](https://twitter.com/golangweekly)
 
 ## Websites
