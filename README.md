@@ -277,7 +277,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [levigo](https://github.com/jmhodges/levigo) - Levigo is a Go wrapper for LevelDB.
 * [moss](https://github.com/couchbase/moss) - Moss is a simple LSM key-value storage engine written in 100% Go.
 * [piladb](https://github.com/fern4lvarez/piladb) - Lightweight RESTful database engine based on stack data structures.
-* [pREST](https://github.com/nuveo/prest) - Serve a RESTful API from any PostgreSQL database.
 * [prometheus](https://github.com/prometheus/prometheus) - Monitoring system and time series database.
 * [rqlite](https://github.com/rqlite/rqlite) - The lightweight, distributed, relational database built on SQLite.
 * [Scribble](https://github.com/nanobox-io/golang-scribble) - A tiny flat file JSON store.
@@ -305,6 +304,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [myreplication](https://github.com/2tvenom/myreplication) - MySql binary log replication listener. Support statement and row based replication.
 * [orchestrator](https://github.com/github/orchestrator) - MySQL replication topology manager & visualizer
 * [pgweb](https://github.com/sosedoff/pgweb) - A web-based PostgreSQL database browser
+* [pREST](https://github.com/nuveo/prest) - Serve a RESTful API from any PostgreSQL database.
 * [vitess](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
 
 *SQL query builder, libraries for building and using SQL.*
