@@ -758,6 +758,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [RAKE.go](https://github.com/Obaied/RAKE.go) - A Go port of the Rapid Automatic Keyword Extraction Algorithm (RAKE)
 * [segment](https://github.com/blevesearch/segment) - A Go library for performing Unicode Text Segmentation as described in [Unicode Standard Annex #29](http://www.unicode.org/reports/tr29/)
 * [sentences](https://github.com/neurosnap/sentences) - A sentence tokenizer:  converts text into a list of sentences.
+* [shamoji](https://github.com/osamingo/shamoji) - The shamoji is word filtering package written in Go.
 * [snowball](https://github.com/goodsign/snowball) - Snowball stemmer port (cgo wrapper) for Go. Provides word stem extraction functionality [Snowball native](http://snowball.tartarus.org/).
 * [stemmer](https://github.com/dchest/stemmer) - Stemmer packages for Go programming language. Includes English and German stemmers.
 * [textcat](https://github.com/pebbe/textcat) - A Go package for n-gram based text categorization, with support for utf-8 and raw text
