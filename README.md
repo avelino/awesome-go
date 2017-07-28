@@ -542,13 +542,13 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [goqt](https://github.com/visualfc/goqt) - Golang bindings to the Qt cross-platform application framework.
 * [gowd](https://github.com/dtylman/gowd) - Rapid and simple desktop UI development with GO, HTML, CSS and NW.js. Cross platform.
 * [gotk3](https://github.com/gotk3/gotk3) - Go bindings for GTK3.
+* [qt](https://github.com/therecipe/qt) - Qt binding for Go (support for Windows / macOS / Linux / Android / iOS / Sailfish OS / Raspberry Pi)
 * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go. Cross platform.
 * [walk](https://github.com/lxn/walk) - Windows application library kit for Go.
 
 *Interaction*
 
 * [gosx-notifier](https://github.com/deckarep/gosx-notifier) - OSX Desktop Notifications library for Go.
-* [qt](https://github.com/therecipe/qt) - Qt binding for Go (support for Windows / macOS / Linux / Android / iOS / Sailfish OS / Raspberry Pi)
 * [robotgo](https://github.com/go-vgo/robotgo) - Go Native cross-platform GUI system automation;Control the mouse, keyboard and other.
 * [systray](https://github.com/getlantern/systray) - Cross platform Go library to place an icon and menu in the notification area
 * [trayhost](https://github.com/shurcooL/trayhost) - Cross-platform Go library to place an icon in the host operating system's taskbar.
