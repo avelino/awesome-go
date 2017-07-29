@@ -11,8 +11,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 ### Contents
 
 - [Awesome Go](#awesome-go)
-    - [Audio & Music](#audiomusic)
-    - [Authentication & OAuth](#authentication--oauth)
+    - [Audio & Music](#audio-music)
+    - [Authentication & OAuth](#authentication-oauth)
     - [Command Line](#command-line)
     - [Configuration](#configuration)
     - [Continuous Integration](#continuous-integration)
@@ -20,7 +20,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Data Structures](#data-structures)
     - [Database](#database)
     - [Database Drivers](#database-drivers)
-    - [Date & Time](#date--time)
+    - [Date & Time](#date-time)
     - [Distributed Systems](#distributed-systems)
     - [Email](#email)
     - [Embeddable Scripting Languages](#embeddable-scripting-languages)
@@ -28,7 +28,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Financial](#financial)
     - [Forms](#forms)
     - [Game Development](#game-development)
-    - [Generation & Generics](#generation--generics)
+    - [Generation & Generics](#generation-generics)
     - [Go Compilers](#go-compilers)
     - [Goroutines](#goroutines)
     - [GUI](#gui)
