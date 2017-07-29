@@ -11,8 +11,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 ### Contents
 
 - [Awesome Go](#awesome-go)
-    - [Audio & Music](#audiomusic)
-    - [Authentication & OAuth](#authentication--oauth)
+    - [Audio and Music](#audio-and-music)
+    - [Authentication and OAuth](#authentication-and-oauth)
     - [Command Line](#command-line)
     - [Configuration](#configuration)
     - [Continuous Integration](#continuous-integration)
@@ -20,7 +20,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Data Structures](#data-structures)
     - [Database](#database)
     - [Database Drivers](#database-drivers)
-    - [Date & Time](#date--time)
+    - [Date and Time](#date-and-time)
     - [Distributed Systems](#distributed-systems)
     - [Email](#email)
     - [Embeddable Scripting Languages](#embeddable-scripting-languages)
@@ -28,7 +28,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Financial](#financial)
     - [Forms](#forms)
     - [Game Development](#game-development)
-    - [Generation & Generics](#generation--generics)
+    - [Generation and Generics](#generation-and-generics)
     - [Go Compilers](#go-compilers)
     - [Goroutines](#goroutines)
     - [GUI](#gui)
@@ -83,7 +83,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Websites](#websites)
         - [Tutorials](#tutorials)
 
-## Audio/Music
+## Audio and Music
 
 *Libraries for manipulating audio.*
 
@@ -103,7 +103,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [vorbis](https://github.com/mccoyst/vorbis) - A "native" Go Vorbis decoder (uses CGO, but has no dependencies).
 * [waveform](https://github.com/mdlayher/waveform) - Go package capable of generating waveform images from audio streams.
 
-## Authentication & OAuth
+## Authentication and OAuth
 
 *Libraries for implementing authentications schemes.*
 
@@ -369,7 +369,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [goes](https://github.com/belogik/goes) - A library to interact with Elasticsearch.
     * [skizze](https://github.com/seiflotfy/skizze) - A probabilistic data-structures service and storage.
 
-## Date & Time
+## Date and Time
 
 *Libraries for working with dates and times.*
 
@@ -498,7 +498,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [raylib-go](https://github.com/gen2brain/raylib-go) - Go bindings for [raylib](http://www.raylib.com/), a simple and easy-to-use library to learn videogames programming.
 * [termloop](https://github.com/JoelOtter/termloop) - Terminal-based game engine for Go, built on top of Termbox
 
-## Generation & Generics
+## Generation and Generics
 
 *Tools to enhance the language with features like generics via code generation.*
 
