@@ -1218,6 +1218,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [moldova](https://github.com/StabbyCutyou/moldova) - A utility for generating random data based on an input template.
 * [mp](https://github.com/sanbornm/mp) - A simple cli email parser. It currently takes stdin and outputs JSON.
 * [multitick](https://github.com/VividCortex/multitick) - Multiplexor for aligned tickers.
+* [mssqlx](https://github.com/linxGnu/mssqlx) - HA client for master slave (or master master) database which integrates simple, lightweight round-robin balancer. Based on [sqlx](https://github.com/jmoiron/sqlx)
 * [netbug](https://github.com/e-dard/netbug) - Easy remote profiling of your services.
 * [ngrok](https://github.com/inconshreveable/ngrok) - Introspected tunnels to localhost.
 * [okrun](https://github.com/xta/okrun) - go run error steamroller.
