@@ -1353,7 +1353,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-wrap](https://github.com/go-on/wrap) - Small middlewares package for net/http.
 * [gores](https://github.com/alioygur/gores) - Go package that handles HTML, JSON, XML and etc. responses. Useful for RESTful APIs.
 * [interpose](https://github.com/carbocation/interpose) - Minimalist net/http middleware for golang.
-* [mchain](https://github.com/prasannavl/mchain) - A super tiny go subpackage that handles middleware chaining in it's most minimal form
+* [mchain](https://github.com/prasannavl/mchain) - A super tiny go package that handles middleware chaining in it's most minimal form, while also optionally providing chained error handling.
 * [muxchain](https://github.com/stephens2424/muxchain) - Lightweight middleware for net/http.
 * [negroni](https://github.com/urfave/negroni) - Idiomatic HTTP middleware for Golang.
 * [render](https://github.com/unrolled/render) - Go package for easily rendering JSON, XML, and HTML template responses.
