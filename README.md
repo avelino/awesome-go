@@ -202,6 +202,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [mini](https://github.com/sasbury/mini) - A golang package for parsing ini-style configuration files
 * [store](https://github.com/tucnak/store) - A lightweight configuration manager for Go
 * [viper](https://github.com/spf13/viper) - Go configuration with fangs
+* [xdg](https://github.com/OpenPeeDeeP/xdg) - A cross platform package that follows the [XDG Standard](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html)
 
 ## Continuous Integration
 
@@ -453,6 +454,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-csv-tag](https://github.com/artonge/go-csv-tag) - Load csv file using tag.
 * [go-gtfs](https://github.com/artonge/go-gtfs) - Load gtfs files in go.
 * [notify](https://github.com/rjeczalik/notify) - File system event notification library with simple API, similar to os/signal.
+* [skywalker](https://github.com/dixonwille/skywalker) - A package to allow one to concurrently go through a filesystem with ease.
 * [tarfs](https://github.com/posener/tarfs) - An implementation of the [`FileSystem` interface](https://godoc.org/github.com/kr/fs#FileSystem) for tar files.
 
 ## Financial
