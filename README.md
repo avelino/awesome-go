@@ -202,6 +202,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [mini](https://github.com/sasbury/mini) - A golang package for parsing ini-style configuration files
 * [store](https://github.com/tucnak/store) - A lightweight configuration manager for Go
 * [viper](https://github.com/spf13/viper) - Go configuration with fangs
+* [xdg](https://github.com/OpenPeeDeeP/xdg) - A cross platform package that follows the [XDG Standard](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html)
 
 ## Continuous Integration
 
