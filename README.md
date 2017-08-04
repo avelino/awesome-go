@@ -1196,6 +1196,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [goreq](https://github.com/franela/goreq) - Minimal and simple request library for Go language.
 * [goreq](https://github.com/smallnest/goreq) - An enhanced simplified HTTP client based on gorequest.
 * [gorequest](https://github.com/parnurzeal/gorequest) - Simplified HTTP client with rich features for Go.
+* [goseaweedfs](github.com/linxGnu/goseaweedfs) - A SeaweedFS client library with almost full features.
 * [gotenv](https://github.com/subosito/gotenv) - Load environment variables from `.env` or any `io.Reader` in Go
 * [goxlsxwriter](https://github.com/fterrag/goxlsxwriter) - Golang bindings for libxlsxwriter for writing XLSX (Microsoft Excel) files
 * [gpath](https://github.com/tenntenn/gpath) - Library to simplify access struct fields with Go's expression in reflection.
