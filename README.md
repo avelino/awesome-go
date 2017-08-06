@@ -708,6 +708,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [alice](https://github.com/magic003/alice) - An additive dependency injection container for Golang.
 * [archiver](https://github.com/mholt/archiver) - Library and command for making and extracting .zip and .tar.gz archives
 * [autoflags](https://github.com/artyom/autoflags) - Go package to automatically define command line flags from struct fields.
+* [avgRating](https://github.com/kirillDanshin/avgRating) - Calculate average score and rating based on Wilson Score Equation.
 * [banner](https://github.com/dimiro1/banner) - Add beautiful banners into your Go applications.
 * [battery](https://github.com/distatus/battery) - A cross-platform, normalized battery information library.
 * [bitio](https://github.com/icza/bitio) - Highly optimized bit-level Reader and Writer for Go.
