@@ -495,7 +495,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-sdl2](https://github.com/veandco/go-sdl2) - Go bindings for the [Simple DirectMedia Layer](https://www.libsdl.org/).
 * [go3d](https://github.com/ungerik/go3d) - A performance oriented 2D/3D math package for Go
 * [gonet](https://github.com/xtaci/gonet) - A game server skeleton implemented with golang
-* [goworld](https://github.com/xiaonanln/goworld) - A scalable game server engine, featuring space-entity framework and hot-reload
+* [goworld](https://github.com/xiaonanln/goworld) - A scalable game server engine, featuring space-entity framework and hot-swapping
 * [Leaf](https://github.com/name5566/leaf) - A lightweight game server framework
 * [Pixel](https://github.com/faiface/pixel) - A hand-crafted 2D game library in Go
 * [raylib-go](https://github.com/gen2brain/raylib-go) - Go bindings for [raylib](http://www.raylib.com/), a simple and easy-to-use library to learn videogames programming.
