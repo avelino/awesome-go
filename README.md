@@ -1122,6 +1122,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [micha](https://github.com/onrik/micha) - Go Library for Telegram bot api.
 * [minio-go](https://github.com/minio/minio-go) - Minio Go Library for Amazon S3 compatible cloud storage.
 * [mixpanel](https://github.com/dukex/mixpanel) - Mixpanel is a library for tracking events and sending Mixpanel profile updates to Mixpanel from your go applications.
+* [patreon-go](https://github.com/mxpv/patreon-go) - Go library for Patreon API.
 * [paypal](https://github.com/logpacker/paypalsdk) - Wrapper for PayPal payment API
 * [playlyfe](https://github.com/playlyfe/playlyfe-go-sdk) - The Playlyfe Rest API Go SDK
 * [pushover](https://github.com/gregdel/pushover) - Go wrapper for the Pushover API.
