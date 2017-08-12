@@ -496,6 +496,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go3d](https://github.com/ungerik/go3d) - Performance oriented 2D/3D math package for Go
 * [gonet](https://github.com/xtaci/gonet) - Game server skeleton implemented with golang
 * [Leaf](https://github.com/name5566/leaf) - Lightweight game server framework
+* [Oak](https://github.com/oakmound/oak) - Pure Go game engine
 * [Pixel](https://github.com/faiface/pixel) - Hand-crafted 2D game library in Go
 * [raylib-go](https://github.com/gen2brain/raylib-go) - Go bindings for [raylib](http://www.raylib.com/), a simple and easy-to-use library to learn videogames programming.
 * [termloop](https://github.com/JoelOtter/termloop) - Terminal-based game engine for Go, built on top of Termbox
