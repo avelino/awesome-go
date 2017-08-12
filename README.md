@@ -1496,6 +1496,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [winrm-cli](https://github.com/masterzen/winrm-cli) - Cli tool to remotely execute commands on Windows machines
 
 ### Other Software
+* [ActiveGo](https://www.activestate.com/activego) - Commercially supported Go distribution with pre-bundled packages
 * [borg](https://github.com/crufter/borg) - Terminal based search engine for bash snippets
 * [boxed](https://github.com/tejo/boxed) - Dropbox based blog engine
 * [Cherry](https://github.com/rafael-santiago/cherry) - Tiny webchat server in Go.
