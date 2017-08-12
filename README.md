@@ -1148,6 +1148,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [tumblr](https://github.com/mattcunningham/gumblr) - Go wrapper for the Tumblr v2 API.
 * [webhooks](https://github.com/go-playground/webhooks) - Webhook receiver for GitHub and Bitbucket.
 * [zooz](https://github.com/gojuno/go-zooz) - Go client for the Zooz API
+* [go-hacknews](https://github.com/PaulRosset/go-hacknews) - Tiny utility Go client for HackerNews API.
 
 ## Utilities
 
