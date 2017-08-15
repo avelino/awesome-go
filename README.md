@@ -1483,6 +1483,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
 * [Hey](https://github.com/rakyll/hey) - Hey is a tiny program that sends some load to a web application.
 * [kala](https://github.com/ajvb/kala) - Simplistic, modern, and performant job scheduler.
+* [Keel](https://github.com/rusenask/keel) - A continuous delivery tool to automatically update your Kubernetes & Helm workloads once a new image is available. Stateless, no dependencies required.
 * [kubernetes](https://github.com/kubernetes/kubernetes) - Container Cluster Manager from Google.
 * [Moby](https://github.com/moby/moby) - Collaborative project for the container ecosystem to assemble container-based systems.
 * [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data.
