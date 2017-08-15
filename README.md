@@ -382,6 +382,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
 * [NullTime](https://github.com/kirillDanshin/nulltime) - Nullable `time.Time`.
 * [timeutil](https://github.com/leekchan/timeutil) - Useful extensions (Timedelta, Strftime, ...) to the golang's time package.
+* [tuesday](https://github.com/osteele/tuesday) - Ruby-compatible Strftime function.
 
 ## Distributed Systems
 
