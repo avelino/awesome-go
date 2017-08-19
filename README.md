@@ -497,6 +497,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-sdl2](https://github.com/veandco/go-sdl2) - Go bindings for the [Simple DirectMedia Layer](https://www.libsdl.org/).
 * [go3d](https://github.com/ungerik/go3d) - Performance oriented 2D/3D math package for Go.
 * [gonet](https://github.com/xtaci/gonet) - Game server skeleton implemented with golang.
+* [goworld](https://github.com/xiaonanln/goworld) - Scalable game server engine, featuring space-entity framework and hot-swapping
 * [Leaf](https://github.com/name5566/leaf) - Lightweight game server framework.
 * [nano](https://github.com/lonnng/nano) - Lightweight, facility, high performance golang based game server framework
 * [Oak](https://github.com/oakmound/oak) - Pure Go game engine.
