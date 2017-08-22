@@ -143,6 +143,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [complete](https://github.com/posener/complete) - Write bash completions in Go + Go command bash completion.
 * [docopt.go](https://github.com/docopt/docopt.go) - Command-line arguments parser that will make you smile.
 * [drive](https://github.com/odeke-em/drive) - Google Drive client for the commandline.
+* [env](https://github.com/codingconcepts/env) - Tag-based environment configuration for structs.
 * [flag](https://github.com/cosiner/flag) - Simple but powerful command line option parsing library for Go support subcommand.
 * [go-arg](https://github.com/alexflint/go-arg) - Struct-based argument parsing in Go.
 * [go-flags](https://github.com/jessevdk/go-flags) - go command line option parser.
