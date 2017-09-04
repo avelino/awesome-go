@@ -534,6 +534,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [go-floc](https://github.com/workanator/go-floc) - Orchestrate goroutines with ease.
 * [go-flow](https://github.com/kamildrazkiewicz/go-flow) - Control goroutines execution order.
+* [GoSlaves](https://github.com/Mester19/GoSlaves) - Simple and Asynchronous Goroutine pool library.
 * [goworker](https://github.com/benmanns/goworker) - goworker is a Go-based background worker.
 * [grpool](https://github.com/ivpusic/grpool) - Lightweight Goroutine pool.
 * [pool](https://github.com/go-playground/pool) - Limited consumer goroutine or unlimited goroutine pool for easier goroutine handling and cancellation.
