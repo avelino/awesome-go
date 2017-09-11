@@ -618,7 +618,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries for generating and working with log files.*
 
-* [cidranger](https://github.com/yl2chen/cidranger) - Fast IP to CIDR lookup for Go.
 * [glg](https://github.com/kpango/glg) - glg is simple and fast leveled logging library for Go.
 * [glog](https://github.com/golang/glog) - Leveled execution logs for Go.
 * [go-cronowriter](https://github.com/utahta/go-cronowriter) - Simple writer that rotate log files automatically based on current date and time, like cronolog.
@@ -799,6 +798,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [arp](https://github.com/mdlayher/arp) - Package arp implements the ARP protocol, as described in RFC 826.
 * [buffstreams](https://github.com/stabbycutyou/buffstreams) - Streaming protocolbuffer data over TCP made easy.
 * [canopus](https://github.com/zubairhamed/canopus) - CoAP Client/Server implementation (RFC 7252).
+* [cidranger](https://github.com/yl2chen/cidranger) - Fast IP to CIDR lookup for Go.
 * [dhcp6](https://github.com/mdlayher/dhcp6) - Package dhcp6 implements a DHCPv6 server, as described in RFC 3315.
 * [dns](https://github.com/miekg/dns) - Go library for working with DNS.
 * [ether](https://github.com/songgao/ether) - Cross-platform Go package for sending and receiving ethernet frames.
