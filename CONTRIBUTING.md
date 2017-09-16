@@ -13,7 +13,7 @@ To set this list apart from and complement the excellent [Go wiki Projects page]
 - Each item should be limited to one link.
 - The link should be the name of the package or project.
 - Descriptions should be clear, concise, and non-promotional.
-- Descriptions should follow the link, on the same line.
+- Descriptions should follow the link, on the same line and end with a punctuation mark.
 - At least 3 items are needed to create a new category.
 
 Please contribute links to packages/projects you have used or are familiar with. This will help ensure high-quality entries.
@@ -23,7 +23,7 @@ If you removed our PR template you can find it [here](https://github.com/avelino
 
 ## Quality standards
 
-To be on the list, project repositories should adhere to these quality standards (http://goreportcard.com/report/**github_user**/**github_repo**):
+To be on the list, project repositories should adhere to these quality standards (http://goreportcard.com/report/ **github_user** / **github_repo**):
 
 - Code functions as documented and expected
 - Generally useful to the wider community of Go programmers
@@ -38,6 +38,10 @@ To be on the list, project repositories should adhere to these quality standards
 ## Maintainers
 
 To make sure every PR is checked, we have [team maintainers](MAINTAINERS). Every PR MUST be reviewed by at least two maintainers before it can get merged.
+
+The maintainers will review your PR and notify you and tag it in case any
+information is still missing. They will wait 8 days for your interaction, after
+that the PR will be closed.
 
 
 ## Reporting issues
