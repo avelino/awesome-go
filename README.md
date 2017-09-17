@@ -1250,7 +1250,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [mmake](https://github.com/tj/mmake) - Modern Make.
 * [moldova](https://github.com/StabbyCutyou/moldova) - Utility for generating random data based on an input template.
 * [mp](https://github.com/sanbornm/mp) - Simple cli email parser. It currently takes stdin and outputs JSON.
-* [mssqlx](https://github.com/linxGnu/mssqlx) - HA client for master slave (or master master) database which integrates simple, lightweight round-robin balancer. Based on sqlx.
+* [mssqlx](https://github.com/linxGnu/mssqlx) - Database client library, proxy for any master slave, master master structures. Lightweight and auto balancing in mind.
 * [multitick](https://github.com/VividCortex/multitick) - Multiplexor for aligned tickers.
 * [myhttp](https://github.com/inancgumus/myhttp) - Simple API to make HTTP GET requests with timeout support.
 * [netbug](https://github.com/e-dard/netbug) - Easy remote profiling of your services.
