@@ -1045,6 +1045,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [govcr](https://github.com/seborama/govcr) - HTTP mock for Golang: record and replay HTTP interactions for offline testing.
     * [minimock](https://github.com/gojuno/minimock) - Mock generator for Go interfaces.
     * [mockhttp](https://github.com/tv42/mockhttp) - Mock object for Go http.ResponseWriter.
+    * [prudle](https://github.com/kiritym/prudle) - Easy way to mock HTTP endpoints with custom HTTP responses.
 
 * Fuzzing and delta-debugging/reducing/shrinking.
     * [go-fuzz](https://github.com/dvyukov/go-fuzz) - Randomized testing system.
