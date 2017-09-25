@@ -239,6 +239,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [encoding](https://github.com/zhenjl/encoding) - Integer Compression Libraries for Go.
 * [go-adaptive-radix-tree](https://github.com/plar/go-adaptive-radix-tree) - Go implementation of Adaptive Radix Tree.
 * [go-datastructures](https://github.com/Workiva/go-datastructures) - Collection of useful, performant, and thread-safe data structures.
+* [go-ef](https://github.com/amallia/go-ef) - A Go implementation of the Elias-Fano encoding.
 * [go-geoindex](https://github.com/hailocab/go-geoindex) - In-memory geo index.
 * [go-rquad](https://github.com/aurelien-rainone/go-rquad) - Region quadtrees with efficient point location and neighbour finding.
 * [gods](https://github.com/emirpasic/gods) - Go Data Structures. Containers, Sets, Lists, Stacks, Maps, BidiMaps, Trees, HashSet etc.
