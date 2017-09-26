@@ -381,6 +381,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for working with dates and times.*
 
 * [carbon](https://github.com/uniplaces/carbon) - Simple Time extension with a lot of util methods, ported from PHP Carbon library.
+* [date](https://github.com/rickb777/date) - Augments Time for working with dates, date ranges, time spans, periods, and time-of-day.
 * [dateparse](https://github.com/araddon/dateparse) - Parse date's without knowing format in advance.
 * [durafmt](https://github.com/hako/durafmt) - Uime duration formatting library for Go.
 * [feiertage](https://github.com/wlbr/feiertage) - Set of functions to calculate public holidays in Germany, incl. specialization on the states of Germany (Bundesländer). Things like Easter, Pentecoast, Thanksgiving...
