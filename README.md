@@ -49,6 +49,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Science and Data Analysis](#science-and-data-analysis)
     - [Security](#security)
     - [Serialization](#serialization)
+    - [Stats and Metrics](#stats-and-metrics)
     - [Template Engines](#template-engines)
     - [Testing](#testing)
     - [Text Processing](#text-processing)
@@ -985,6 +986,14 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform.
 * [yakvs](https://github.com/sci4me/yakvs) - Small, networked, in-memory key-value store.
 
+## Stats and Metrics
+
+*Libraries and tools for statistical/metrics instrumentation.*
+
+* [Go Metrics](https://github.com/rcrowley/go-metrics) - Go port of Coda Hale's Metrics library: https://github.com/codahale/metrics.
+* [go-metrics](https://github.com/armon/go-metrics) - A Golang library for exporting performance and runtime metrics to external metrics systems (i.e. statsite, statsd).
+* [go-statsd-client](https://github.com/cactus/go-statsd-client) - statsd client for Go.
+
 ## Template Engines
 
 *Libraries and tools for templating and lexing.*
@@ -1497,7 +1506,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Dropship](https://github.com/chrismckenzie/dropship) - Tool for deploying code via cdn.
 * [easyssh-proxy](https://github.com/appleboy/easyssh-proxy) - Golang package for easy remote execution through SSH and SCP downloading via `ProxyCommand`.
 * [Gitea](https://github.com/go-gitea/gitea) - Fork of Gogs, entirely community driven.
-* [Go Metrics](https://github.com/rcrowley/go-metrics) - Go port of Coda Hale's Metrics library: https://github.com/codahale/metrics.
 * [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update.
 * [gobrew](https://github.com/cryptojuice/gobrew) - gobrew lets you easily switch between multiple versions of go.
 * [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application.
