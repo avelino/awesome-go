@@ -1485,7 +1485,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [generic](https://github.com/usk81/generic) - flexible data type for Go.
 * [genny](https://github.com/cheekybits/genny) - Elegant generics for Go.
 * [gotests](https://github.com/cweill/gotests) - Generate Go tests from your source code.
-* [gonerics](github.com/bouk/gonerics) - Idiomatic Generics in Go.
+* [gonerics](http://github.com/bouk/gonerics) - Idiomatic Generics in Go.
 * [re2dfa](https://github.com/opennota/re2dfa) - Transform regular expressions into finite state machines and output Go source code.
 
 ## Software Packages
