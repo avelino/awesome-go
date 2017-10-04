@@ -68,8 +68,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 - [Tools](#tools)
     - [Code Analysis](#code-analysis)
     - [Editor Plugins](#editor-plugins)
-    - [Go Tools](#go-tools)
 	- [Go Generate Tools](#go-generate-tools)
+    - [Go Tools](#go-tools)
     - [Software Packages](#software-packages)
         - [DevOps Tools](#devops-tools)
         - [Other Software](#other-software)
@@ -1469,6 +1469,14 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [vscode-go](https://github.com/Microsoft/vscode-go) - Extension for Visual Studio Code (VS Code) which provides support for the Go language.
 * [Watch](https://github.com/eaburns/Watch) - Runs a command in an acme win on file changes.
 
+## Go Generate Tools
+
+* [generic](https://github.com/usk81/generic) - flexible data type for Go.
+* [genny](https://github.com/cheekybits/genny) - Elegant generics for Go.
+* [gonerics](http://github.com/bouk/gonerics) - Idiomatic Generics in Go.
+* [gotests](https://github.com/cweill/gotests) - Generate Go tests from your source code.
+* [re2dfa](https://github.com/opennota/re2dfa) - Transform regular expressions into finite state machines and output Go source code.
+
 ## Go Tools
 
 * [colorgo](https://github.com/songgao/colorgo) - Wrapper around `go` command for colorized `go build` output.
@@ -1479,14 +1487,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-swagger](https://github.com/go-swagger/go-swagger) - Swagger 2.0 implementation for go. Swagger is a simple yet powerful representation of your RESTful API.
 * [OctoLinker](https://github.com/OctoLinker/browser-extension) - Navigate through go files efficiently with the OctoLinker browser extension for GitHub.
 * [rts](https://github.com/galeone/rts) - RTS: response to struct. Generates Go structs from server responses.
-
-## Go Generate Tools
-
-* [generic](https://github.com/usk81/generic) - flexible data type for Go.
-* [genny](https://github.com/cheekybits/genny) - Elegant generics for Go.
-* [gotests](https://github.com/cweill/gotests) - Generate Go tests from your source code.
-* [gonerics](http://github.com/bouk/gonerics) - Idiomatic Generics in Go.
-* [re2dfa](https://github.com/opennota/re2dfa) - Transform regular expressions into finite state machines and output Go source code.
 
 ## Software Packages
 
