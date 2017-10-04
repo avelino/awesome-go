@@ -564,6 +564,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [qt](https://github.com/therecipe/qt) - Qt binding for Go (support for Windows / macOS / Linux / Android / iOS / Sailfish OS / Raspberry Pi).
 * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go. Cross platform.
 * [walk](https://github.com/lxn/walk) - Windows application library kit for Go.
+* [webview](https://github.com/zserge/webview) - Cross-platform webview window with simple two-way JavaScript bindings (Windows / macOS / Linux).
 
 *Interaction*
 
