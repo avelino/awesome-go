@@ -670,6 +670,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-galib](https://github.com/thoj/go-galib) - Genetic Algorithms library written in Go / golang.
 * [go-pr](https://github.com/daviddengcn/go-pr) - Pattern recognition package in Go lang.
 * [gobrain](https://github.com/goml/gobrain) - Neural Networks written in go.
+* [fonet](https://github.com/Fontinalis/fonet) - A Deep Neural Network library written in Go.
 * [godist](https://github.com/e-dard/godist) - Various probability distributions, and associated methods.
 * [goga](https://github.com/tomcraven/goga) - Genetic algorithm library for Go.
 * [GoLearn](https://github.com/sjwhitworth/golearn) - General Machine Learning library for Go.
