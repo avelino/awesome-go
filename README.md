@@ -756,10 +756,12 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gountries](https://github.com/pariz/gountries) - Package that exposes country and subdivision data.
 * [hanu](https://github.com/sbstjn/hanu) - Framework for writing Slack bots.
 * [health](https://github.com/dimiro1/health) - Easy to use, extensible health check library.
+* [hostutils](https://github.com/Wing924/hostutils) - A golang library for packing and unpacking FQDNs list.
 * [indigo](https://github.com/osamingo/indigo) - Distributed unique ID generator of using Sonyflake and encoded by Base58.
 * [jobs](https://github.com/albrow/jobs) - Persistent and flexible background jobs library.
 * [margelet](https://github.com/zhulik/margelet) - Framework for building Telegram bots.
 * [secdl](https://github.com/xor-gate/secdl) - Lighttpd ModSecDownload algorithm ported to go to secure download urls.
+* [shellwords](https://github.com/Wing924/shellwords) - A Golang library to manipulate strings according to the word parsing rules of the UNIX Bourne shell.
 * [slacker](https://github.com/shomali11/slacker) - Easy to use framework to create Slack bots.
 * [stats](https://github.com/go-playground/stats) - Monitors Go MemStats + System stats such as Memory, Swap and CPU and sends via UDP anywhere you want for logging etc...
 * [turtle](https://github.com/hackebrot/turtle) - Emojis for Go.
