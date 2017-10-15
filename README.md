@@ -945,6 +945,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gonum/mat64](https://github.com/gonum/matrix) - The general purpose package for matrix computation. Package mat64 provides basic linear algebra operations for float64 matrices.
 * [gonum/plot](https://github.com/gonum/plot) - gonum/plot provides an API for building and drawing plots in Go.
 * [goraph](https://github.com/gyuho/goraph) - Pure Go graph theory library(data structure, algorith visualization).
+* [gosl](https://github.com/cpmech/gosl) - Go scientific library for linear algebra, fast Fourier transforms, special functions, Bessel, elliptic, orthogonal polys, geometry, NURBS, numerical quadrature, 3D transfinite interpolation, random numbers, Mersenne twister, probability distributions, optimisation, graph, plotting, visualisation, tensors, eigenvalues, differential equations, etc.
 * [gostat](https://github.com/ematvey/gostat) - Statistics library for the go language.
 * [graph](https://github.com/yourbasic/graph) - Library of basic graph algorithms.
 * [ode](https://github.com/ChristopherRabotin/ode) - Ordinary differential equation (ODE) solver which supports extended states and channel-based iteration stop conditions.
