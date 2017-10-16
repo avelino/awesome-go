@@ -766,6 +766,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [indigo](https://github.com/osamingo/indigo) - Distributed unique ID generator of using Sonyflake and encoded by Base58.
 * [jobs](https://github.com/albrow/jobs) - Persistent and flexible background jobs library.
 * [margelet](https://github.com/zhulik/margelet) - Framework for building Telegram bots.
+* [persian](https://github.com/mavihq/persian) - Some utilities for Persian language in go.
 * [secdl](https://github.com/xor-gate/secdl) - Lighttpd ModSecDownload algorithm ported to go to secure download urls.
 * [shellwords](https://github.com/Wing924/shellwords) - A Golang library to manipulate strings according to the word parsing rules of the UNIX Bourne shell.
 * [slacker](https://github.com/shomali11/slacker) - Easy to use framework to create Slack bots.
