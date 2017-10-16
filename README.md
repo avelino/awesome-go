@@ -547,7 +547,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [pool](https://github.com/go-playground/pool) - Limited consumer goroutine or unlimited goroutine pool for easier goroutine handling and cancellation.
 * [semaphore](https://github.com/kamilsk/semaphore) - Semaphore pattern implementation with timeout of lock/unlock operations based on channel and context.
 * [tunny](https://github.com/Jeffail/tunny) - Goroutine pool for golang.
-* [workerpool](https://github.com/vardius/worker-pool) - goworker is a Go simple async worker pool.
+* [worker-pool](https://github.com/vardius/worker-pool) - goworker is a Go simple async worker pool.
+* [workerpool](https://github.com/gammazero/workerpool) - Goroutine pool that limits the concurrency of task execution, not the number of tasks queued.
 
 ## GUI
 
