@@ -1536,6 +1536,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application.
 * [Gogs](https://gogs.io/) - A Self Hosted Git Service in the Go Programming Language.
 * [gonative](https://github.com/inconshreveable/gonative) - Tool which creates a build of Go that can cross compile to all platforms while still using the Cgo-enabled versions of the stdlib packages.
+* [GoServer](https://github.com/cheikhshift/gos) - Build and deploy resilient web applications.
 * [govvv](https://github.com/ahmetalpbalkan/govvv) - “go build” wrapper to easily add version information into Go binaries.
 * [gox](https://github.com/mitchellh/gox) - Dead simple, no frills Go cross compile tool.
 * [goxc](https://github.com/laher/goxc) - build tool for Go, with a focus on cross-compiling and packaging.
