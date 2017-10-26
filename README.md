@@ -778,6 +778,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [werr](https://github.com/txgruppi/werr) - Error Wrapper creates an wrapper for the error type in Go which captures the File, Line and Stack of where it was called.
 * [xkg](https://github.com/go-xkg/xkg) - X Keyboard Grabber.
 * [xstrings](https://github.com/huandu/xstrings) - Collection of useful string functions ported from other languages.
+* [ytdl](https://github.com/rylio/ytdl) - YouTube download library and CLI written in Go.
 
 ## Natural Language Processing
 
