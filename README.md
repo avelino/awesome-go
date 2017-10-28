@@ -80,6 +80,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Benchmarks](#benchmarks)
     - [Conferences](#conferences)
     - [E-Books](#e-books)
+    - [Meetups](#meetups)
     - [Twitter](#twitter)
     - [Websites](#websites)
         - [Tutorials](#tutorials)
@@ -1655,6 +1656,42 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Network Programming With Go](https://jan.newmarch.name/go/)
 * [The Go Programming Language](http://www.gopl.io/)
 * [Web Application with Go the Anti-Textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/)
+
+## Meetups
+
+* [Go Language NYC](https://www.meetup.com/golanguagenewyork/)
+* [Go London User Group](https://www.meetup.com/Go-London-User-Group/)
+* [Go Toronto](https://www.meetup.com/go-toronto/)
+* [Go User Group Atlanta](https://www.meetup.com/Go-Users-Group-Atlanta/)
+* [GoBridge, San Francisco, CA](https://www.meetup.com/gobridge/)
+* [GoJakarta](https://www.meetup.com/GoJakarta/)
+* [Golang Amsterdam](https://www.meetup.com/golang-amsterdam/)
+* [Golang Argentina](https://www.meetup.com/Golang-Argentina/)
+* [Golang Bangalore](https://www.meetup.com/Golang-Bangalore/)
+* [Golang Belo Horizonte - Brazil](https://www.meetup.com/go-belo-horizonte/)
+* [Golang Boston](https://www.meetup.com/bostongo/)
+* [Golang DC, Arlington, VA](https://www.meetup.com/Golang-DC/)
+* [Golang Israel](https://www.meetup.com/Go-Israel/)
+* [Golang Lima - Peru](https://www.meetup.com/Golang-Peru/)
+* [Golang Lyon](https://www.meetup.com/Golang-Lyon/)
+* [Golang Melbourne](https://www.meetup.com/golang-mel/)
+* [Golang Mountain View](https://www.meetup.com/Golang-Mountain-View/)
+* [Golang New York](https://www.meetup.com/nycgolang/)
+* [Golang Paris](https://www.meetup.com/Golang-Paris/)
+* [Golang Pune](https://www.meetup.com/Golang-Pune/)
+* [Golang Singapore](https://www.meetup.com/golangsg/)
+* [Golang Stockholm](https://www.meetup.com/Go-Stockholm/)
+* [Golang São Paulo - Brazil](https://www.meetup.com/golangbr/)
+* [Golang Vancouver, BC](https://www.meetup.com/golangvan/)
+* [Golang Москва](https://www.meetup.com/Golang-Moscow/)
+* [Golang Питер](https://www.meetup.com/Golang-Peter/)
+* [Istanbul Golang](https://www.meetup.com/Istanbul-Golang/)
+* [Seattle Go Programmers](https://www.meetup.com/golang/)
+* [Ukrainian Golang User Groups](https://www.meetup.com/uagolang/)
+* [Utah Go User Group](https://www.meetup.com/utahgophers/)
+* [Women Who Go - San Francisco, CA](https://www.meetup.com/Women-Who-Go/)
+
+*Add the group of your city/country here (send **PR**)*
 
 ## Twitter
 
