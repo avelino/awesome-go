@@ -749,7 +749,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [errors](https://github.com/pkg/errors) - Package that provides simple error handling primitives.
 * [go-chat-bot](https://github.com/go-chat-bot/bot) - IRC, Slack & Telegram bot written in Go.
 * [go-commons-pool](https://github.com/jolestar/go-commons-pool) - Generic object pool for Golang.
-* [go_country](https://github.com/IftekherSunny/go_country) - Country is the package that helps you to get country name and dialling code by the country ISO 3166-1 Alpha-2 code.
 * [go-multierror](https://github.com/hashicorp/go-multierror) - Go (golang) package for representing a list of errors as a single error.
 * [go-openapi](https://github.com/go-openapi) - Collection of packages to parse and utilize open-api schemas.
 * [go-resiliency](https://github.com/eapache/go-resiliency) - Resiliency patterns for golang.
@@ -757,6 +756,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-shortid](https://github.com/ventu-io/go-shortid) - Distributed generation of super short, unique, non-sequential, URL friendly IDs.
 * [go-unarr](https://github.com/gen2brain/go-unarr) - Decompression library for RAR, TAR, ZIP and 7z archives.
 * [go.uuid](https://github.com/satori/go.uuid) - Implementation of Universally Unique Identifier (UUID). Supported both creation and parsing of UUIDs.
+* [go_country](https://github.com/IftekherSunny/go_country) - Country is the package that helps you to get country name and dialling code by the country ISO 3166-1 Alpha-2 code.
 * [gofakeit](https://github.com/brianvoe/gofakeit) - Random data generator written in go.
 * [goid](https://github.com/jakehl/goid) - Generate and Parse RFC4122 compliant V4 UUIDs.
 * [gopsutil](https://github.com/shirou/gopsutil) - Cross-platform library for retrieving process and system utilization(CPU, Memory, Disks, etc).
