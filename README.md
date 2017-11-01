@@ -1315,6 +1315,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [usql](https://github.com/knq/usql) - usql is a universal command-line interface for SQL databases.
 * [util](https://github.com/shomali11/util) - Collection of useful utility functions. (strings, concurrency, manipulations, ...).
 * [wuzz](https://github.com/asciimoo/wuzz) - Interactive cli tool for HTTP inspection.
+* [www](https://github.com/nbari/www) - http/https static web server.
 * [xferspdy](https://github.com/monmohan/xferspdy) - Xferspdy provides binary diff and patch library in golang.
 * [xlsx](https://github.com/tealeg/xlsx) - Library to simplify reading the XML format used by recent version of Microsoft Excel in Go programs.
 
