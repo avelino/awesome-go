@@ -68,7 +68,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 - [Tools](#tools)
     - [Code Analysis](#code-analysis)
     - [Editor Plugins](#editor-plugins)
-	- [Go Generate Tools](#go-generate-tools)
+    - [Go Generate Tools](#go-generate-tools)
     - [Go Tools](#go-tools)
     - [Software Packages](#software-packages)
         - [DevOps Tools](#devops-tools)
@@ -1127,6 +1127,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [parseargs-go](https://github.com/nproc/parseargs-go) - string argument parser that understands quotes and backslashes.
     * [parth](https://github.com/codemodus/parth) - URL path segmentation parsing.
     * [radix](https://github.com/yourbasic/radix) - fast string sorting algorithm.
+    * [riot](https://github.com/go-ego/riot) - full text search engine
     * [xurls](https://github.com/mvdan/xurls) - Extract urls from text.
 
 ## Third-party APIs
