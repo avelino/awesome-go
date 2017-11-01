@@ -599,6 +599,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-gd](https://github.com/bolknote/go-gd) - Go binding for GD library.
 * [go-nude](https://github.com/koyachi/go-nude) - Nudity detection with Go.
 * [go-opencv](https://github.com/lazywei/go-opencv) - Go bindings for OpenCV.
+* [gocv](https://github.com/hybridgroup/gocv) - Go bindings for OpenCV 3.3.
 * [go-webcolors](https://github.com/jyotiska/go-webcolors) - Port of webcolors library from Python to Go.
 * [govatar](https://github.com/o1egl/govatar) - Library and CMD tool for generating funny avatars.
 * [imagick](https://github.com/gographics/imagick) - Go binding to ImageMagick's MagickWand C API.
