@@ -950,6 +950,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-gt](https://github.com/ThePaw/go-gt) - Graph theory algorithms written in "Go" language.
 * [go.matrix](https://github.com/skelterjohn/go.matrix) - linear algebra for go (has been stalled).
 * [gocomplex](https://github.com/varver/gocomplex) - Complex number library for the Go programming language.
+* [goent](https://github.com/kzahedi/goent) - GO Implementation of Entropy Measures
 * [gofrac](https://github.com/anschelsc/gofrac) - (goinstallable) fractions library for go with support for basic arithmetic.
 * [gohistogram](https://github.com/VividCortex/gohistogram) - Approximate histograms for data streams.
 * [gonum/mat64](https://github.com/gonum/matrix) - The general purpose package for matrix computation. Package mat64 provides basic linear algebra operations for float64 matrices.
