@@ -152,6 +152,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [flag](https://github.com/cosiner/flag) - Simple but powerful command line option parsing library for Go supporting subcommand.
 * [go-arg](https://github.com/alexflint/go-arg) - Struct-based argument parsing in Go.
 * [go-flags](https://github.com/jessevdk/go-flags) - go command line option parser.
+* [go-prompt](https://github.com/c-bata/go-prompt) - Building a powerful interactive prompt in Go, inspired by python-prompt-toolkit.
 * [kingpin](https://github.com/alecthomas/kingpin) - Command line and flag parser supporting sub commands.
 * [liner](https://github.com/peterh/liner) - Go readline-like library for command-line interfaces.
 * [mitchellh/cli](https://github.com/mitchellh/cli) - Go library for implementing command-line interfaces.
