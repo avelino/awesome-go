@@ -769,6 +769,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gountries](https://github.com/pariz/gountries) - Package that exposes country and subdivision data.
 * [hanu](https://github.com/sbstjn/hanu) - Framework for writing Slack bots.
 * [health](https://github.com/dimiro1/health) - Easy to use, extensible health check library.
+* [healthcheck](https://github.com/etherlabsio/healthcheck) - An opinionated and concurrent health-check HTTP handler for RESTful services.
 * [hostutils](https://github.com/Wing924/hostutils) - A golang library for packing and unpacking FQDNs list.
 * [indigo](https://github.com/osamingo/indigo) - Distributed unique ID generator of using Sonyflake and encoded by Base58.
 * [jobs](https://github.com/albrow/jobs) - Persistent and flexible background jobs library.
