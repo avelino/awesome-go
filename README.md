@@ -1587,6 +1587,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Docker](http://www.docker.com/) - Open platform for distributed applications for developers and sysadmins.
 * [Documize](https://github.com/documize/community) - Modern wiki software that integrates data from SaaS tools.
 * [fleet](https://github.com/coreos/fleet) - Distributed init System.
+* [Git Town](https://github.com/originate/git-town) - High-level CLI for Git.
 * [Go Package Store](https://github.com/shurcooL/Go-Package-Store) - App that displays updates for the Go packages in your GOPATH.
 * [gocc](https://github.com/goccmack/gocc) - Gocc is a compiler kit for Go written in Go.
 * [GoDNS](https://github.com/timothyye/godns) - A dynamic DNS client tool, supports DNSPod & HE.net, written in Go.
