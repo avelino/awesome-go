@@ -96,6 +96,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go_mediainfo](https://github.com/zhulik/go_mediainfo) - libmediainfo bindings for go.
 * [gosamplerate](https://github.com/dh1tw/gosamplerate) - libsamplerate bindings for go.
 * [id3v2](https://github.com/bogem/id3v2) - Fast and stable ID3 parsing and writing library for Go.
+* [malgo](https://github.com/gen2brain/malgo) - Mini audio library.
 * [mix](https://github.com/go-mix/mix) - Sequence-based Go-native audio mixer for music apps.
 * [mp3](https://github.com/tcolgate/mp3) - Native Go MP3 decoder.
 * [music-theory](https://github.com/go-music-theory/music-theory) - Music theory models in Go.
