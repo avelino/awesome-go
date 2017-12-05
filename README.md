@@ -1321,6 +1321,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [profile](https://github.com/pkg/profile) - Simple profiling support package for Go.
 * [rclient](https://github.com/zpatrick/rclient) - Readable, flexible, simple-to-use client for REST APIs.
 * [realize](https://github.com/tockins/realize) - Go build system with file watchers and live reload. Run, build and watch file changes with custom paths.
+* [repeat](https://github.com/ssgreg/repeat) - Go implementation of different backoff strategies useful for retrying operations and heartbeating.
 * [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
 * [rerate](https://github.com/abo/rerate) - Redis-based rate counter and rate limiter for Go.
 * [rerun](https://github.com/ivpusic/rerun) - Recompiling and rerunning go apps when source changes.
