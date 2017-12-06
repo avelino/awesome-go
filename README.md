@@ -1695,10 +1695,10 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 ## Gophers
 
-* [gophers](https://github.com/ashleymcnamara/gophers) - Gopher artworks by Ashley McNamara
-* [gophers](https://github.com/egonelbre/gophers) - Free gophers
 * [gophericons](https://github.com/shalakhin/gophericons)
 * [gopherize.me](https://github.com/matryer/gopherize.me) - Gopherize yourself
+* [gophers](https://github.com/ashleymcnamara/gophers) - Gopher artworks by Ashley McNamara
+* [gophers](https://github.com/egonelbre/gophers) - Free gophers
 * [gopher-stickers](https://github.com/tenntenn/gopher-stickers)
 * [gopher-vector](https://github.com/golang-samples/gopher-vector)
 
