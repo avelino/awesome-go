@@ -82,6 +82,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Benchmarks](#benchmarks)
     - [Conferences](#conferences)
     - [E-Books](#e-books)
+    - [Gophers](#gophers)
     - [Meetups](#meetups)
     - [Twitter](#twitter)
     - [Websites](#websites)
@@ -1691,6 +1692,15 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Network Programming With Go](https://jan.newmarch.name/go/)
 * [The Go Programming Language](http://www.gopl.io/)
 * [Web Application with Go the Anti-Textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/)
+
+## Gophers
+
+* [gopher-stickers](https://github.com/tenntenn/gopher-stickers)
+* [gopher-vector](https://github.com/golang-samples/gopher-vector)
+* [gophericons](https://github.com/shalakhin/gophericons)
+* [gopherize.me](https://github.com/matryer/gopherize.me) - Gopherize yourself
+* [gophers](https://github.com/ashleymcnamara/gophers) - Gopher artworks by Ashley McNamara
+* [gophers](https://github.com/egonelbre/gophers) - Free gophers
 
 ## Meetups
 
