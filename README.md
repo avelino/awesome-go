@@ -1695,12 +1695,15 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 ## Gophers
 
+* [Go-gopher-Vector](https://github.com/keygx/Go-gopher-Vector) - Go gopher Vector Data [.ai, .svg]
+* [gopher-logos](https://github.com/GolangUA/gopher-logos) - adorable gopher logos
 * [gopher-stickers](https://github.com/tenntenn/gopher-stickers)
 * [gopher-vector](https://github.com/golang-samples/gopher-vector)
 * [gophericons](https://github.com/shalakhin/gophericons)
 * [gopherize.me](https://github.com/matryer/gopherize.me) - Gopherize yourself
 * [gophers](https://github.com/ashleymcnamara/gophers) - Gopher artworks by Ashley McNamara
 * [gophers](https://github.com/egonelbre/gophers) - Free gophers
+* [gophers](https://github.com/rogeralsing/gophers) - random gopher graphics
 
 ## Meetups
 
