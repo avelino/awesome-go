@@ -529,6 +529,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [Pixel](https://github.com/faiface/pixel) - Hand-crafted 2D game library in Go.
 * [raylib-go](https://github.com/gen2brain/raylib-go) - Go bindings for [raylib](http://www.raylib.com/), a simple and easy-to-use library to learn videogames programming.
 * [termloop](https://github.com/JoelOtter/termloop) - Terminal-based game engine for Go, built on top of Termbox.
+* [gserver](https://github.com/gfandada/gserver) - This project aims to provide a solution for real-time message flow, You can create GameServer or others, with gserver.
 
 ## Generation and Generics
 
