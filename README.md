@@ -712,6 +712,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [regommend](https://github.com/muesli/regommend) - Recommendation & collaborative filtering engine.
 * [shield](https://github.com/eaigner/shield) - Bayesian text classifier with flexible tokenizers and storage backends for Go.
 * [tfgo](https://github.com/galeone/tfgo) - Easy to use Tensorflow bindings: simplifies the usage of the official Tensorflow Go bindings. Define computational graphs in Go, load and execute models trained in Python.
+* [Varis](https://github.com/Xamber/Varis) - Golang Neural Network.
 
 ## Messaging
 
