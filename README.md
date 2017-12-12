@@ -761,6 +761,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [battery](https://github.com/distatus/battery) - Cross-platform, normalized battery information library.
 * [bitio](https://github.com/icza/bitio) - Highly optimized bit-level Reader and Writer for Go.
 * [browscap_go](https://github.com/digitalcrab/browscap_go) - GoLang Library for [Browser Capabilities Project](http://browscap.org/).
+* [base64Captcha](https://github.com/mojocn/base64Captcha) - Package base64Captcha provides captcha png encoded by base64,easy to use.
 * [captcha](https://github.com/steambap/captcha) - Package captcha provides an easy to use, unopinionated API for captcha generation.
 * [conv](https://github.com/cstockton/go-conv) - Package conv provides fast and intuitive conversions across Go types.
 * [datacounter](https://github.com/miolini/datacounter) - Go counters for readers/writer/http.ResponseWriter.
