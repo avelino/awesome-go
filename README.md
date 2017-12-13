@@ -857,6 +857,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [golibwireshark](https://github.com/sunwxg/golibwireshark) - Package golibwireshark use libwireshark library to decode pcap file and analyse dissection data.
 * [gopacket](https://github.com/google/gopacket) - Go library for packet processing with libpcap bindings.
 * [gopcap](https://github.com/akrennmair/gopcap) - Go wrapper for libpcap.
+* [goproxy](https://github.com/elazarl/goproxy) - Customizable HTTP/HTTPS proxy library for Go.
 * [goshark](https://github.com/sunwxg/goshark) - Package goshark use tshark to decode IP packet and create data struct to analyse packet.
 * [gosnmp](https://github.com/soniah/gosnmp) - Native Go library for performing SNMP actions.
 * [gotcp](https://github.com/gansidui/gotcp) - Go package for quickly writing tcp applications.
@@ -1613,7 +1614,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gocc](https://github.com/goccmack/gocc) - Gocc is a compiler kit for Go written in Go.
 * [GoDNS](https://github.com/timothyye/godns) - A dynamic DNS client tool, supports DNSPod & HE.net, written in Go.
 * [GoDocTooltip](https://github.com/diankong/GoDocTooltip) - Chrome extension for Go Doc sites, which shows function description as tooltip at funciton list.
-* [Gogland](https://jetbrains.com/go) - Full featured cross-platform Go IDE.
+* [Goland](https://jetbrains.com/go) - Full featured cross-platform Go IDE.
 * [Gor](https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time.
 * [hugo](http://gohugo.io/) - Fast and Modern Static Website Engine.
 * [ide](https://github.com/thestrukture/ide) - Browser accessible IDE. Designed for Go with Go.
