@@ -649,6 +649,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries for generating and working with log files.*
 
+* [console](https://github.com/julianfrank/console) - Go console.Log / Error and more for programmers comfortable with console.log in JS/NodeJS.
 * [distillog](https://github.com/amoghe/distillog) - distilled levelled logging (think of it as stdlib + log levels).
 * [glg](https://github.com/kpango/glg) - glg is simple and fast leveled logging library for Go.
 * [glog](https://github.com/golang/glog) - Leveled execution logs for Go.
