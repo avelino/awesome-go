@@ -721,6 +721,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries that implement messaging systems.*
 
+* [amqp](https://github.com/streadway/amqp) - Go client library for AMQP 0.9.1.
 * [Centrifugo](https://github.com/centrifugal/centrifugo) - Real-time messaging (Websockets or SockJS) server in Go.
 * [dbus](https://github.com/godbus/dbus) - Native Go bindings for D-Bus.
 * [drone-line](https://github.com/appleboy/drone-line) - Sending [Line](https://business.line.me/en/services/bot) notifications using a binary, docker or Drone CI.
@@ -747,6 +748,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [nsq-event-bus](https://github.com/rafaeljesus/nsq-event-bus) - A tiny wrapper around NSQ topic and channel.
 * [oplog](https://github.com/dailymotion/oplog) - Generic oplog/replication system for REST APIs.
 * [pubsub](https://github.com/tuxychandru/pubsub) - Simple pubsub package for go.
+* [rabtap](https://github.com/jandelgado/rabtap) - RabbitMQ swiss army knife cli app.
 * [RapidMQ](https://github.com/sybrexsys/RapidMQ) - RapidMQ is a lightweight and reliable library for managing of the local messages queue.
 * [sarama](https://github.com/Shopify/sarama) - Go library for Apache Kafka.
 * [Uniqush-Push](https://github.com/uniqush/uniqush-push) - Redis backed unified push service for server-side notifications to mobile devices.
