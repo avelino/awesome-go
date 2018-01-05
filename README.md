@@ -1345,6 +1345,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [retry](https://github.com/kamilsk/retry) - Functional mechanism based on context to perform actions repetitively until successful.
 * [retry-go](https://github.com/rafaeljesus/retry-go) - Retrying made simple and easy for golang.
 * [robustly](https://github.com/VividCortex/robustly) - Runs functions resiliently, catching and restarting panics.
+* [rq](https://github.com/ddo/rq) - A nicer interface for golang stdlib HTTP client.
 * [scheduler](https://github.com/carlescere/scheduler) - Cronjobs scheduling made easy.
 * [sling](https://github.com/dghubble/sling) - Go HTTP requests builder for API clients.
 * [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
