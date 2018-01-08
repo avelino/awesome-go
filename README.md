@@ -1240,6 +1240,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [tumblr](https://github.com/mattcunningham/gumblr) - Go wrapper for the Tumblr v2 API.
 * [webhooks](https://github.com/go-playground/webhooks) - Webhook receiver for GitHub and Bitbucket.
 * [zooz](https://github.com/gojuno/go-zooz) - Go client for the Zooz API.
+* [bitbucket-golang-api](https://github.com/crossid/bitbucket-golang-api) - Bitbucket client (v1/v2) written in GO
 
 ## Utilities
 
