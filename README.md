@@ -1089,8 +1089,10 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [goblin](https://github.com/franela/goblin) - Mocha like testing framework fo Go.
     * [gocheck](http://labix.org/gocheck) - More advanced testing framework alternative to gotest.
     * [GoConvey](https://github.com/smartystreets/goconvey/) - BDD-style framework with web UI and live reload.
+    * [gocrest](https://github.com/corbym/gocrest) - Composable hamcrest-like matchers for Go assertions.
     * [godog](https://github.com/DATA-DOG/godog) - Cucumber or Behat like BDD framework for Go.
     * [gofight](https://github.com/appleboy/gofight) - API Handler Testing for Golang Router framework.
+    * [gogiven](https://github.com/corbym/gogiven) - YATSPEC-like BDD testing framework for Go.
     * [gomega](http://onsi.github.io/gomega/) - Rspec like matcher/assertion library.
     * [GoSpec](https://github.com/orfjackal/gospec) - BDD-style testing framework for the Go programming language.
     * [gospecify](https://github.com/stesla/gospecify) - This provides a BDD syntax for testing your Go code. It should be familiar to anybody who has used libraries such as rspec.
