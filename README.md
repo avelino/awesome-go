@@ -922,6 +922,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gorp](https://github.com/go-gorp/gorp) - Go Relational Persistence, ORM-ish library for Go.
 * [lore](https://github.com/abrahambotros/lore) - Simple and lightweight pseudo-ORM/pseudo-struct-mapping environment for Go.
 * [Marlow](https://github.com/dadleyy/marlow) - Generated ORM from project structs for compile time safety assurances.
+* [orm](https://github.com/posener/orm) - Type safe, fast, supports complex relations ORM for Go.
 * [pop/soda](https://github.com/markbates/pop) - Database migration, creation, ORM, etc... for MySQL, PostgreSQL, and SQLite.
 * [QBS](https://github.com/coocood/qbs) - Stands for Query By Struct. A Go ORM.
 * [reform](https://github.com/go-reform/reform) - Better ORM for Go, based on non-empty interfaces and code generation.
