@@ -1123,6 +1123,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [Tavor](https://github.com/zimmski/tavor) - Generic fuzzing and delta-debugging framework.
 
 * Selenium and browser control tools.
+    * [surf](https://github.com/headzoo/surf) - Stateful programmatic web browsing in Go (aka Mechanize in GO).
     * [cdp](https://github.com/mafredri/cdp) - Type-safe bindings for the Chrome Debugging Protocol that can be used with browsers or other debug targets that implement it.
     * [chromedp](https://github.com/knq/chromedp) - Way to drive/test Chrome, Safari, Edge, Android Webviews, and other browsers supporting the Chrome Debugging Protocol.
     * [ggr](https://github.com/aandryashin/ggr) - Lightweight server that routes and proxies Selenium Wedriver requests to multiple Selenium hubs.
