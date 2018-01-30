@@ -768,6 +768,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *These libraries were placed here because none of the other categories seemed to fit.*
 
 * [alice](https://github.com/magic003/alice) - Additive dependency injection container for Golang.
+* [anagent](https://github.com/mudler/anagent) - Minimalistic, pluggable Golang evloop/timer handler with dependency-injection.
 * [antch](https://github.com/antchfx/antch) - A fast, powerful and extensible web crawling & scraping framework.
 * [archiver](https://github.com/mholt/archiver) - Library and command for making and extracting .zip and .tar.gz archives.
 * [autoflags](https://github.com/artyom/autoflags) - Go package to automatically define command line flags from struct fields.
