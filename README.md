@@ -761,6 +761,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [rabtap](https://github.com/jandelgado/rabtap) - RabbitMQ swiss army knife cli app.
 * [RapidMQ](https://github.com/sybrexsys/RapidMQ) - RapidMQ is a lightweight and reliable library for managing of the local messages queue.
 * [sarama](https://github.com/Shopify/sarama) - Go library for Apache Kafka.
+* [Tinode chat](https://github.com/tinode/chat) - Instant messaging server in Go; websocket, long polling, gRPC clients.
 * [Uniqush-Push](https://github.com/uniqush/uniqush-push) - Redis backed unified push service for server-side notifications to mobile devices.
 * [zmq4](https://github.com/pebbe/zmq4) - Go interface to ZeroMQ version 4. Also available for [version 3](https://github.com/pebbe/zmq3) and [version 2](https://github.com/pebbe/zmq2).
 
