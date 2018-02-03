@@ -31,6 +31,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Forms](#forms)
     - [Game Development](#game-development)
     - [Generation and Generics](#generation-and-generics)
+    - [Geographic](#geographic)
     - [Go Compilers](#go-compilers)
     - [Goroutines](#goroutines)
     - [GUI](#gui)
@@ -267,6 +268,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [mafsa](https://github.com/smartystreets/mafsa) - MA-FSA implementation with Minimal Perfect Hashing.
 * [merkletree](https://github.com/cbergoon/merkletree) - Implementation of a merkle tree providing an efficient and secure verification of the contents of data structures.
 * [roaring](https://github.com/RoaringBitmap/roaring) - Go package implementing compressed bitsets.
+* [S2 geometry](https://github.com/golang/geo) - S2 geometry library in Go.
 * [skiplist](https://github.com/gansidui/skiplist) - Skiplist implementation in Go.
 * [trie](https://github.com/derekparker/trie) - Trie implementation in Go.
 * [ttlcache](https://github.com/diegobernardes/ttlcache) - In-memory LRU string-interface{} map with expiration for golang.
@@ -552,6 +554,14 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [interfaces](https://github.com/rjeczalik/interfaces) - Command line tool for generating interface definitions.
 * [jennifer](https://github.com/dave/jennifer) - Generate arbitrary Go code without templates.
 * [pkgreflect](https://github.com/ungerik/pkgreflect) - Go preprocessor for package scoped reflection.
+
+## Geographic
+
+*Geographic tools and servers*
+
+* [pbf](https://github.com/maguro/pbf) - OpenStreetMap PBF golang encoder/decoder.
+* [S2 geometry](https://github.com/golang/geo) - S2 geometry library in Go.
+* [Tile38](https://github.com/tidwall/tile38) - Geolocation DB with spatial index and realtime geofencing.
 
 ## Go Compilers
 
