@@ -31,6 +31,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Forms](#forms)
     - [Game Development](#game-development)
     - [Generation and Generics](#generation-and-generics)
+    - [Geographic](#geographic)
     - [Go Compilers](#go-compilers)
     - [Goroutines](#goroutines)
     - [GUI](#gui)
@@ -289,7 +290,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [eliasdb](https://github.com/krotik/eliasdb) - Dependency-free, transactional graph database with REST API, phrase search and SQL-like query language.
 * [forestdb](https://github.com/couchbase/goforestdb) - Go bindings for ForestDB.
 * [GCache](https://github.com/bluele/gcache) - Cache library with support for expirable Cache, LFU, LRU and ARC.
-* [geocache](https://github.com/melihmucuk/geocache) - In-memory cache that is suitable for geolocation based applications.
 * [go-cache](https://github.com/pmylund/go-cache) - In-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications.
 * [goleveldb](https://github.com/syndtr/goleveldb) - Implementation of the [LevelDB](https://github.com/google/leveldb) key/value database in Go.
 * [gorocksdb](https://github.com/kapitan-k/gorocksdb) - Gorocksdb is a wrapper for [RocksDB](https://rocksdb.org) written in Go.
@@ -306,7 +306,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [tempdb](https://github.com/rafaeljesus/tempdb) - Key-value store for temporary items.
 * [tidb](https://github.com/pingcap/tidb) - TiDB is a distributed SQL database. Inspired by the design of Google F1.
 * [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
-* [Tile38](https://github.com/tidwall/tile38) - Geolocation DB with spatial index and realtime geofencing.
 
 *Database schema migration.*
 
@@ -552,6 +551,15 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [interfaces](https://github.com/rjeczalik/interfaces) - Command line tool for generating interface definitions.
 * [jennifer](https://github.com/dave/jennifer) - Generate arbitrary Go code without templates.
 * [pkgreflect](https://github.com/ungerik/pkgreflect) - Go preprocessor for package scoped reflection.
+
+## Geographic
+
+*Geographic tools and servers*
+
+* [geocache](https://github.com/melihmucuk/geocache) - In-memory cache that is suitable for geolocation based applications.
+* [pbf](https://github.com/maguro/pbf) - OpenStreetMap PBF golang encoder/decoder.
+* [S2 geometry](https://github.com/golang/geo) - S2 geometry library in Go.
+* [Tile38](https://github.com/tidwall/tile38) - Geolocation DB with spatial index and realtime geofencing.
 
 ## Go Compilers
 
