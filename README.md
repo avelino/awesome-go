@@ -482,7 +482,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [ngaro](https://github.com/db47h/ngaro) - Embeddable Ngaro VM implementation enabling scripting in Retro.
 * [otto](https://github.com/robertkrimen/otto) - JavaScript interpreter written in Go.
 * [purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go.
-* [roadrunner](https://github.com/spiral/roadrunner) - Embeddable PHP worker pool library for Golang
+* [roadrunner](https://github.com/spiral/roadrunner) - Embeddable PHP worker pool library for Golang.
 
 ## Files
 
