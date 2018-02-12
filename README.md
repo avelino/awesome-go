@@ -226,6 +226,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Tools for help with continuous integration.*
 
 * [drone](https://github.com/drone/drone) - Drone is a Continuous Integration platform built on Docker, written in Go.
+* [gomason](https://github.com/nikogura/gomason) - Test, Build, Sign, and Publish your go binaries from a clean workspace.
 * [goveralls](https://github.com/mattn/goveralls) - Go integration for Coveralls.io continuous code coverage tracking system.
 * [overalls](https://github.com/go-playground/overalls) - Multi-Package go project coverprofile for tools like goveralls.
 * [roveralls](https://github.com/LawrenceWoodman/roveralls) - Recursive coverage testing tool.
