@@ -1163,7 +1163,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [go-fixedwidth](https://github.com/ianlopshire/go-fixedwidth) - Fixed-width text formatting (encoder/decoder with reflection).
     * [go-humanize](https://github.com/dustin/go-humanize) - Formatters for time, numbers, and memory size to human readable format.
     * [go-nmea](https://github.com/adrianmo/go-nmea) - NMEA parser library for the Go language.
-    * [go-pkg-rss](https://github.com/jteeuwen/go-pkg-rss) - This package reads RSS and Atom feeds and provides a caching mechanism that adheres to the feed specs.
     * [go-runewidth](https://github.com/mattn/go-runewidth) - Functions to get fixed width of the character or string.
     * [go-slugify](https://github.com/mozillazg/go-slugify) - Make pretty slug with multiple languages support.
     * [go-vcard](https://github.com/emersion/go-vcard) - Parse and format vCard.
@@ -1520,7 +1519,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries and tools for manipulating XML.*
 
-* [go-pkg-xmlx](https://github.com/jteeuwen/go-pkg-xmlx) - Extension to the standard Go XML package. Maintains a node tree that allows forward/backwards browsing and exposes some simple single/multi-node search functions.
 * [XML-Comp](https://github.com/xml-comp/xml-comp) - Simple command line XML comparer that generates diffs of folders, files and tags.
 * [xmlwriter](https://github.com/shabbyrobe/xmlwriter) - Procedural XML generation API based on libxml2's xmlwriter module.
 * [xpath](https://github.com/antchfx/xpath) - XPath package for Go.
