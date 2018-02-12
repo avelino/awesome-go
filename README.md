@@ -1276,6 +1276,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [backscanner](https://github.com/icza/backscanner) - A scanner similar to bufio.Scanner, but it reads and returns lines in reverse order, starting at a given position and going backward.
 * [boilr](https://github.com/tmrts/boilr) - Blazingly fast CLI tool for creating projects from boilerplate templates.
 * [chyle](https://github.com/antham/chyle) - Changelog generator using a git repository with multiple configuration possibilities.
+* [circuit](https://github.com/cep21/circuit) - An efficient and feature complete Hystrix like Go implementation of the circuit breaker pattern.
 * [circuitbreaker](https://github.com/rubyist/circuitbreaker) - Circuit Breakers in Go.
 * [clockwerk](http://github.com/onatm/clockwerk) - Go package to schedule periodic jobs using a simple, fluent syntax.
 * [command](https://github.com/txgruppi/command) - Command pattern for Go with thread safe serial and parallel dispatcher.
