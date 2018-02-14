@@ -907,6 +907,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [raw](https://github.com/mdlayher/raw) - Package raw enables reading and writing data at the device driver level for a network interface.
 * [sftp](https://github.com/pkg/sftp) - Package sftp implements the SSH File Transfer Protocol as described in https://filezilla-project.org/specs/draft-ietf-secsh-filexfer-02.txt.
 * [ssh](https://github.com/gliderlabs/ssh) - Higher-level API for building SSH servers (wraps crypto/ssh).
+* [sshpiper](https://github.com/tg123/sshpiper) - SSH reverse proxy server, works as a proxy-like ware, and route ssh connections by username, src ip , etc. to backend ssh servers.
 * [sslb](https://github.com/eduardonunesp/sslb) - It's a Super Simples Load Balancer, just a little project to achieve some kind of performance.
 * [stun](https://github.com/go-rtc/stun) - Go implementation of RFC 5389 STUN protocol.
 * [tcp_server](https://github.com/firstrow/tcp_server) - Go library for building tcp servers faster.
