@@ -1738,6 +1738,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Build Web Application with Golang](https://www.gitbook.com/book/astaxie/build-web-application-with-golang/details)
 * [Building Web Apps With Go](https://www.gitbook.com/book/codegangsta/building-web-apps-with-go/details)
 * [Go Bootcamp](http://golangbootcamp.com)
+* [Go In Action Notes](https://github.com/rujews/go-in-action-notes)
 * [GoBooks](https://github.com/dariubs/GoBooks) - A curated list of Go books.
 * [Learning Go](https://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
 * [Network Programming With Go](https://jan.newmarch.name/go/)
