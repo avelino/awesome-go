@@ -151,7 +151,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [cli-init](https://github.com/tcnksm/gcli) - The easy way to start building Golang command line applications.
 * [climax](http://github.com/tucnak/climax) - Alternative CLI with "human face", in spirit of Go command.
 * [cobra](https://github.com/spf13/cobra) - Commander for modern Go CLI interactions.
-* [commandeer](https://github.com/jaffee/commandeer) - Dev-friendly CLI apps: sets up flags, defaults, and usage based on struct fields and tags. 
+* [commandeer](https://github.com/jaffee/commandeer) - Dev-friendly CLI apps: sets up flags, defaults, and usage based on struct fields and tags.
 * [complete](https://github.com/posener/complete) - Write bash completions in Go + Go command bash completion.
 * [docopt.go](https://github.com/docopt/docopt.go) - Command-line arguments parser that will make you smile.
 * [drive](https://github.com/odeke-em/drive) - Google Drive client for the commandline.
@@ -820,6 +820,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [jobs](https://github.com/albrow/jobs) - Persistent and flexible background jobs library.
 * [lk](https://github.com/hyperboloide/lk) - A simple licensing library for golang.
 * [margelet](https://github.com/zhulik/margelet) - Framework for building Telegram bots.
+* [pdfgen](https://github.com/hyperboloide/pdfgen) - HTTP service to generate PDF from Json requests.
 * [persian](https://github.com/mavihq/persian) - Some utilities for Persian language in go.
 * [secdl](https://github.com/xor-gate/secdl) - Lighttpd ModSecDownload algorithm ported to go to secure download urls.
 * [shellwords](https://github.com/Wing924/shellwords) - A Golang library to manipulate strings according to the word parsing rules of the UNIX Bourne shell.
