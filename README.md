@@ -1518,6 +1518,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Siesta](https://github.com/VividCortex/siesta) - Composable framework to write middleware and handlers.
 * [vestigo](https://github.com/husobee/vestigo) - Performant, stand-alone, HTTP compliant URL Router for go web applications.
 * [xmux](https://github.com/rs/xmux) - High performance muxer based on `httprouter` with `net/context` support.
+* [xujiajun/gorouter](https://github.com/xujiajun/gorouter) - A simple and fast HTTP router for Go.
 * [zeus](https://github.com/daryl/zeus) - Very simple and fast HTTP router for Go.
 
 ## Windows
