@@ -131,6 +131,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [loginsrv](https://github.com/tarent/loginsrv) - JWT login microservice with plugable backends such as OAuth2 (Github), htpasswd, osiam.
 * [oauth2](https://github.com/golang/oauth2) - Successor of goauth2. Generic OAuth 2.0 package that comes with JWT, Google APIs, Compute Engine and App Engine support.
 * [osin](https://github.com/RangelReale/osin) - Golang OAuth2 server library.
+* [paseto](https://github.com/o1egl/paseto) - Golang implementation of Platform-Agnostic Security Tokens (PASETO)
 * [permissions2](https://github.com/xyproto/permissions2) - Library for keeping track of users, login states and permissions. Uses secure cookies and bcrypt.
 * [securecookie](https://github.com/chmike/securecookie) - Efficient secure cookie encoding/decoding.
 * [session](https://github.com/icza/session) - Go session management for web servers (including support for Google App Engine - GAE).
@@ -185,6 +186,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-colorable](https://github.com/mattn/go-colorable) - Colorable writer for windows.
 * [go-colortext](https://github.com/daviddengcn/go-colortext) - Go library for color output in terminals.
 * [go-isatty](https://github.com/mattn/go-isatty) - isatty for golang.
+* [go-prompt](https://github.com/c-bata/go-prompt) - Library for building a powerful interactive prompt, inspired by [python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit).
 * [gocui](https://github.com/jroimartin/gocui) - Minimalist Go library aimed at creating Console User Interfaces.
 * [gommon/color](https://github.com/labstack/gommon/tree/master/color) - Style terminal text.
 * [mpb](https://github.com/vbauerster/mpb) - Multi progress bar for terminal applications.
@@ -820,6 +822,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [jobs](https://github.com/albrow/jobs) - Persistent and flexible background jobs library.
 * [lk](https://github.com/hyperboloide/lk) - A simple licensing library for golang.
 * [margelet](https://github.com/zhulik/margelet) - Framework for building Telegram bots.
+* [pdfgen](https://github.com/hyperboloide/pdfgen) - HTTP service to generate PDF from Json requests.
 * [persian](https://github.com/mavihq/persian) - Some utilities for Persian language in go.
 * [secdl](https://github.com/xor-gate/secdl) - Lighttpd ModSecDownload algorithm ported to go to secure download urls.
 * [shellwords](https://github.com/Wing924/shellwords) - A Golang library to manipulate strings according to the word parsing rules of the UNIX Bourne shell.
@@ -1145,8 +1148,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * Selenium and browser control tools.
     * [cdp](https://github.com/mafredri/cdp) - Type-safe bindings for the Chrome Debugging Protocol that can be used with browsers or other debug targets that implement it.
-    * [chromedp](https://github.com/knq/chromedp) - Way to drive/test Chrome, Safari, Edge, Android Webviews, and other browsers supporting the Chrome Debugging Protocol.
-    * [ggr](https://github.com/aandryashin/ggr) - Lightweight server that routes and proxies Selenium Wedriver requests to multiple Selenium hubs.
+    * [chromedp](https://github.com/knq/chromedp) - a way to drive/test Chrome, Safari, Edge, Android Webviews, and other browsers supporting the Chrome Debugging Protocol.
+    * [ggr](https://github.com/aerokube/ggr) - a lightweight server that routes and proxies Selenium Wedriver requests to multiple Selenium hubs.
     * [selenoid](https://github.com/aandryashin/selenoid) - alternative Selenium hub server that launches browsers within containers.
 
 ## Text Processing
@@ -1160,6 +1163,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [blackfriday](https://github.com/russross/blackfriday) - Markdown processor in Go.
     * [bluemonday](https://github.com/microcosm-cc/bluemonday) - HTML Sanitizer.
     * [colly](https://github.com/asciimoo/colly) - Fast and Elegant Scraping Framework for Gophers
+    * [commonregex](https://github.com/mingrammer/commonregex) - A collection of common regular expressions for Go
     * [doi](https://github.com/hscells/doi) - Document object identifier (doi) parser in Go.
     * [editorconfig-core-go](https://github.com/editorconfig/editorconfig-core-go) - Editorconfig file parser and manipulator for Go.
     * [enca](https://github.com/endeveit/enca) - Minimal cgo bindings for [libenca](http://cihar.com/software/enca/).
@@ -1514,6 +1518,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Siesta](https://github.com/VividCortex/siesta) - Composable framework to write middleware and handlers.
 * [vestigo](https://github.com/husobee/vestigo) - Performant, stand-alone, HTTP compliant URL Router for go web applications.
 * [xmux](https://github.com/rs/xmux) - High performance muxer based on `httprouter` with `net/context` support.
+* [xujiajun/gorouter](https://github.com/xujiajun/gorouter) - A simple and fast HTTP router for Go.
 * [zeus](https://github.com/daryl/zeus) - Very simple and fast HTTP router for Go.
 
 ## Windows
@@ -1547,6 +1552,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [goast-viewer](https://github.com/yuroyoro/goast-viewer) - Web based Golang AST visualizer.
 * [GoCover.io](http://gocover.io/) - GoCover.io offers the code coverage of any golang package as a service.
 * [goimports](https://godoc.org/golang.org/x/tools/cmd/goimports) - Tool to fix (add, remove) your Go imports automatically.
+* [GolangCI](https://golangci.com/) - GolangCI is an automated Golang code review service for GitHub pull requests. Service is open source and it's free for open source projects.
 * [GoLint](https://github.com/golang/lint) - Golint is a linter for Go source code.
 * [Golint online](http://go-lint.appspot.com/) - Lints online Go source files on GitHub, Bitbucket and Google Project Hosting using the golint package.
 * [goreturns](https://sourcegraph.com/github.com/sqs/goreturns) - Adds zero-value return statements to match the func return types.
@@ -1554,6 +1560,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gostatus](https://github.com/shurcooL/gostatus) - Command line tool, shows the status of repositories that contain Go packages.
 * [interfacer](https://github.com/mvdan/interfacer) - Linter that suggests interface types.
 * [lint](https://github.com/surullabs/lint) - Run linters as part of go test.
+* [php-parser](https://github.com/z7zmey/php-parser) - A Parser for PHP written in Go.
 * [staticcheck](https://github.com/dominikh/go-tools/tree/master/cmd/staticcheck) - staticcheck is `go vet` on steroids, applying a ton of static analysis checks you might be used to from tools like ReSharper for C#.
 * [tarp](https://github.com/verygoodsoftwarenotvirus/tarp) - tarp finds functions and methods without direct unit tests in Go source code.
 * [unconvert](https://github.com/mdempsky/unconvert) - Remove unnecessary type conversions from Go source.
@@ -1843,3 +1850,4 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Golangbot](https://golangbot.com/learn-golang-series/) - Tutorials to get started with programming in Go.
 * [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go) - Get started with Godog — a Behavior-driven development framework for building and testing Go applications.
 * [Working with Go](https://github.com/mkaz/working-with-go) - Intro to go for experienced programmers.
+* [Your basic Go](http://yourbasic.org/golang) - Huge collection of tutorials and how to's
