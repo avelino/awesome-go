@@ -1477,6 +1477,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * [CORS](https://github.com/rs/cors) - Easily add CORS capabilities to your API.
 * [formjson](https://github.com/rs/formjson) - Transparently handle JSON input as a standard form POST.
+* [go-server-timing](https://github.com/mitchellh/go-server-timing) - Add/parse Server-Timing header.
 * [Limiter](https://github.com/ulule/limiter) - Dead simple rate limit middleware for Go.
 * [Tollbooth](https://github.com/didip/tollbooth) - Rate limit HTTP request handler.
 * [XFF](https://github.com/sebest/xff) - Handle `X-Forwarded-For` header and friends.
