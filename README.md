@@ -658,6 +658,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [smartcrop](https://github.com/muesli/smartcrop) - Finds good crops for arbitrary images and crop sizes.
 * [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
 * [tga](https://github.com/ftrvxmtrx/tga) - Package tga is a TARGA image format decoder/encoder.
+* [caire](https://github.com/esimov/caire) - Content aware image resize library.
 
 ## IoT (Internet of Things)
 
