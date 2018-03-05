@@ -635,6 +635,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * [bild](https://github.com/anthonynsimon/bild) - Collection of image processing algorithms in pure Go.
 * [bimg](https://github.com/h2non/bimg) - Small package for fast and efficient image processing using libvips.
+* [caire](https://github.com/esimov/caire) - Content aware image resize library.
 * [geopattern](https://github.com/pravj/geopattern) - Create beautiful generative image patterns from a string.
 * [gg](https://github.com/fogleman/gg) - 2D rendering in pure Go.
 * [gift](https://github.com/disintegration/gift) - Package of image processing filters.
@@ -658,7 +659,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [smartcrop](https://github.com/muesli/smartcrop) - Finds good crops for arbitrary images and crop sizes.
 * [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
 * [tga](https://github.com/ftrvxmtrx/tga) - Package tga is a TARGA image format decoder/encoder.
-* [caire](https://github.com/esimov/caire) - Content aware image resize library.
 
 ## IoT (Internet of Things)
 
