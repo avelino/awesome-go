@@ -93,6 +93,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for manipulating audio.*
 
+* [EasyMIDI](https://github.com/algoGuy/EasyMIDI) - EasyMidi is a simple and reliable library for working with standard midi file (SMF).
 * [flac](https://github.com/eaburns/flac) - Native Go FLAC decoder.
 * [flac](https://github.com/mewkiz/flac) - Native Go FLAC decoder.
 * [gaad](https://github.com/Comcast/gaad) - Native Go AAC bitstream parser.
