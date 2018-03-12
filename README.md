@@ -458,8 +458,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 ## Email
 
-*Libraries that implement email creation and sending.*
+*Libraries and tools that implement email creation and sending.*
 
+* [chasquid](https://blitiri.com.ar/p/chasquid) - SMTP server written in Go.
 * [douceur](https://github.com/aymerick/douceur) - CSS inliner for your HTML emails.
 * [email](https://github.com/jordan-wright/email) - A robust and flexible email library for Go.
 * [go-dkim](https://github.com/toorop/go-dkim) - DKIM library, to sign & verify email.
