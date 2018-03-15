@@ -569,6 +569,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Geographic tools and servers*
 
 * [geocache](https://github.com/melihmucuk/geocache) - In-memory cache that is suitable for geolocation based applications.
+* [osm](https://github.com/paulmach/osm) - Library for reading, writing and working with OpenStreetMap data and APIs.
 * [pbf](https://github.com/maguro/pbf) - OpenStreetMap PBF golang encoder/decoder.
 * [S2 geometry](https://github.com/golang/geo) - S2 geometry library in Go.
 * [Tile38](https://github.com/tidwall/tile38) - Geolocation DB with spatial index and realtime geofencing.
@@ -1021,6 +1022,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gostat](https://github.com/ematvey/gostat) - Statistics library for the go language.
 * [graph](https://github.com/yourbasic/graph) - Library of basic graph algorithms.
 * [ode](https://github.com/ChristopherRabotin/ode) - Ordinary differential equation (ODE) solver which supports extended states and channel-based iteration stop conditions.
+* [orb](https://github.com/paulmach/orb) - 2D geometry types with clipping, GeoJSON and Mapbox Vector Tile support.
 * [pagerank](https://github.com/alixaxel/pagerank) - Weighted PageRank algorithm implemented in Go.
 * [PiHex](https://github.com/claygod/PiHex) - Implementation of the "Bailey-Borwein-Plouffe" algorithm for the hexadecimal number Pi.
 * [sparse](https://github.com/james-bowman/sparse) - Go Sparse matrix formats for linear algebra supporting scientific and machine learning applications, compatible with gonum matrix libraries.
