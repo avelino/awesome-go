@@ -1837,6 +1837,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Go Blog](http://blog.golang.org) - The official Go blog.
 * [Go Challenge](http://golang-challenge.org/) - Learn Go by solving problems and getting feedback from Go experts.
 * [Go Forum](https://forum.golangbridge.org) - Forum to discuss Go.
+* [Community Curated Resources](https://hackr.io/tutorials/learn-golang) - Recommended Go Resources by the programming community.
 * [Go In 5 Minutes](https://www.goin5minutes.com/) - 5 minute screencasts focused on getting one thing done.
 * [Go Projects](https://github.com/golang/go/wiki/Projects) - List of projects on the Go community wiki.
 * [Go Report Card](https://goreportcard.com) - A report card for your Go package.
