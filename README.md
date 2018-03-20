@@ -1375,7 +1375,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [multitick](https://github.com/VividCortex/multitick) - Multiplexor for aligned tickers.
 * [myhttp](https://github.com/inancgumus/myhttp) - Simple API to make HTTP GET requests with timeout support.
 * [netbug](https://github.com/e-dard/netbug) - Easy remote profiling of your services.
-* [ngrok](https://github.com/inconshreveable/ngrok) - Introspected tunnels to localhost.
 * [okrun](https://github.com/xta/okrun) - go run error steamroller.
 * [onecache](https://github.com/adelowo/onecache) - Caching library with support for multiple backend stores (Redis, Memcached, filesystem etc).
 * [panicparse](https://github.com/maruel/panicparse) - Groups similar goroutines and colorizes stack dump.
