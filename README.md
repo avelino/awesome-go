@@ -180,6 +180,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for building Console Applications and Console User Interfaces.*
 
 * [aurora](https://github.com/logrusorgru/aurora) - ANSI terminal colors that supports fmt.Printf/Sprintf.
+* [cfmt](https://github.com/mingrammer/cfmt) - Contextual fmt inspired by bootstrap color classes.
 * [chalk](https://github.com/ttacon/chalk) - Intuitive package for prettifying terminal/console output.
 * [color](https://github.com/fatih/color) - Versatile package for colored terminal output.
 * [colourize](https://github.com/TreyBastian/colourize) - Go library for ANSI colour text in terminals.
@@ -331,6 +332,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Database tools.*
 
 * [chproxy](https://github.com/Vertamedia/chproxy) - HTTP proxy for ClickHouse database.
+* [clickhouse-bulk](https://github.com/nikepan/clickhouse-bulk) - Collects small insterts and sends big requests to ClickHouse servers.
 * [go-mysql](https://github.com/siddontang/go-mysql) - Go toolset to handle MySQL protocol and replication.
 * [go-mysql-elasticsearch](https://github.com/siddontang/go-mysql-elasticsearch) - Sync your MySQL data into Elasticsearch automatically.
 * [kingshard](https://github.com/flike/kingshard) - kingshard is a high performance proxy for MySQL powered by Golang.
@@ -364,7 +366,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [bgc](https://github.com/viant/bgc) - Datastore Connectivity for BigQuery for go.
     * [firebirdsql](https://github.com/nakagami/firebirdsql) - Firebird RDBMS SQL driver for Go.
     * [go-adodb](https://github.com/mattn/go-adodb) - Microsoft ActiveX Object DataBase driver for go that uses database/sql.
-    * [go-bqstreamer](https://github.com/rounds/go-bqstreamer) - BigQuery fast and concurrent stream insert.
     * [go-mssqldb](https://github.com/denisenkom/go-mssqldb) - Microsoft MSSQL driver for Go.
     * [go-oci8](https://github.com/mattn/go-oci8) - Oracle driver for go that uses database/sql.
     * [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) - MySQL driver for Go.
@@ -388,6 +389,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [gorethink](https://github.com/dancannon/gorethink) - Go language driver for RethinkDB.
     * [goriak](https://github.com/zegl/goriak) - Go language driver for Riak KV.
     * [mgo](https://github.com/globalsign/mgo) - MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms
+    * [mongo-go-driver](https://github.com/mongodb/mongo-go-driver) - Official MongoDB driver for the Go language.
     * [neo4j](https://github.com/cihangir/neo4j) - Neo4j Rest API Bindings for Golang.
     * [Neo4j-GO](https://github.com/davemeehan/Neo4j-GO) - Neo4j REST Client in golang.
     * [neoism](https://github.com/jmcvetta/neoism) - Neo4j client for Golang.
@@ -1038,8 +1040,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries that are used to help make your application more secure.*
 
 * [acmetool](https://github.com/hlandau/acme) - ACME (Let's Encrypt) client tool with automatic renewal.
-* [autocert](https://godoc.org/golang.org/x/crypto/acme/autocert) - Auto
-  provision Let's Encrypt certificates and start a TLS server.
+* [argon2pw] (https://github.com/raja/argon2pw) - Argon2 password hash generation with constant-time password comparison.
+* [autocert](https://godoc.org/golang.org/x/crypto/acme/autocert) - Auto provision Let's Encrypt certificates and start a TLS server.  
 * [BadActor](https://github.com/jaredfolkins/badactor) - In-memory, application-driven jailer built in the spirit of fail2ban.
 * [Cameradar](https://github.com/Ullaakut/cameradar) - Tool and library to remotely hack RTSP streams from surveillance cameras.
 * [go-yara](https://github.com/hillu/go-yara) - Go Bindings for [YARA](https://github.com/plusvic/yara), the "pattern matching swiss knife for malware researchers (and everyone else)".
@@ -1078,6 +1080,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [devd](https://github.com/cortesi/devd) - Local webserver for developers.
 * [etcd](https://github.com/coreos/etcd) - Highly-available key value store for shared configuration and service discovery.
 * [Fider](https://github.com/getfider/fider) - Fider is an open platform to collect and organize customer feedback.
+* [jackal](https://github.com/ortuman/jackal) - An XMPP server written in Go.
 * [minio](https://github.com/minio/minio) - Minio is a distributed object storage server.
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform.
 * [yakvs](https://github.com/sci4me/yakvs) - Small, networked, in-memory key-value store.
@@ -1374,7 +1377,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [multitick](https://github.com/VividCortex/multitick) - Multiplexor for aligned tickers.
 * [myhttp](https://github.com/inancgumus/myhttp) - Simple API to make HTTP GET requests with timeout support.
 * [netbug](https://github.com/e-dard/netbug) - Easy remote profiling of your services.
-* [ngrok](https://github.com/inconshreveable/ngrok) - Introspected tunnels to localhost.
 * [okrun](https://github.com/xta/okrun) - go run error steamroller.
 * [onecache](https://github.com/adelowo/onecache) - Caching library with support for multiple backend stores (Redis, Memcached, filesystem etc).
 * [panicparse](https://github.com/maruel/panicparse) - Groups similar goroutines and colorizes stack dump.
@@ -1460,7 +1462,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-relax](https://github.com/codehack/go-relax) - Framework of pluggable components to build RESTful API's.
 * [go-rest](https://github.com/ungerik/go-rest) - Small and evil REST framework for Go.
 * [goa](https://github.com/raphael/goa) - Framework for developing microservices based on the design of Ruby's Praxis.
-* [Goat](https://github.com/bahlo/goat) - Minimalistic REST API server in Go.
 * [Golf](https://github.com/dinever/golf) - Golf is a fast, simple and lightweight micro-web framework for Go. It comes with powerful features and has no dependencies other than the Go Standard Library.
 * [Gondola](https://github.com/rainycape/gondola) - The web framework for writing faster sites, faster.
 * [gongular](https://github.com/mustafaakin/gongular) - Fast Go web framework with input mapping/validation and (DI) Dependency Injection.
@@ -1862,8 +1863,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Go By Example](https://gobyexample.com/) - Hands-on introduction to Go using annotated example programs.
 * [Go Cheat Sheet](https://github.com/a8m/go-lang-cheat-sheet) - Go's reference card.
 * [Go database/sql tutorial](http://go-database-sql.org/) - Introduction to database/sql.
-* [Golang tutorial](https://hackr.io/tutorials/learn-golang) - Learn Go from the best online golang tutorials submitted & voted by the golang programming community.
 * [Golangbot](https://golangbot.com/learn-golang-series/) - Tutorials to get started with programming in Go.
+* [Hackr.io](https://hackr.io/tutorials/learn-golang) - Learn Go from the best online golang tutorials submitted & voted by the golang programming community.
 * [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go) - Get started with Godog — a Behavior-driven development framework for building and testing Go applications.
 * [Working with Go](https://github.com/mkaz/working-with-go) - Intro to go for experienced programmers.
 * [Your basic Go](http://yourbasic.org/golang) - Huge collection of tutorials and how to's
