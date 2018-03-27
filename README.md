@@ -1799,6 +1799,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Golang Belo Horizonte - Brazil](https://www.meetup.com/go-belo-horizonte/)
 * [Golang Boston](https://www.meetup.com/bostongo/)
 * [Golang DC, Arlington, VA](https://www.meetup.com/Golang-DC/)
+* [Golang Dorset, UK](https://www.meetup.com/golang-dorset/)
 * [Golang Israel](https://www.meetup.com/Go-Israel/)
 * [Golang Joinville - Brazil](https://www.meetup.com/Joinville-Go-Meetup/)
 * [Golang Lima - Peru](https://www.meetup.com/Golang-Peru/)
