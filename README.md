@@ -678,11 +678,13 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gobrain](https://github.com/goml/gobrain) - Neural Networks written in go.
 * [godist](https://github.com/e-dard/godist) - Various probability distributions, and associated methods.
 * [goga](https://github.com/tomcraven/goga) - Genetic algorithm library for Go.
+* [goga](https://github.com/cpmech/goga) - Go evolutionary and genetic algorithms, including parallel differential evolution.
 * [GoLearn](https://github.com/sjwhitworth/golearn) - General Machine Learning library for Go.
 * [golinear](https://github.com/danieldk/golinear) - liblinear bindings for Go.
 * [goml](https://github.com/cdipaolo/goml) - On-line Machine Learning in Go.
 * [goRecommend](https://github.com/timkaye11/goRecommend) - Recommendation Algorithms library written in Go.
 * [gorgonia](https://github.com/chewxy/gorgonia) - graph-based computational library like Theano for Go that provides primitives for building various machine learning and neural network algorithms.
+* [gosl](https://github.com/cpmech/gosl) - Go scientific library: machine learning, linear algebra, FFT, geometry, numerical methods, probabilities, optimisation, differential equations, and more.
 * [goscore](https://github.com/asafschers/goscore) - Go Scoring API for PMML.
 * [libsvm](https://github.com/datastream/libsvm) - libsvm golang version derived work based on LIBSVM 3.14.
 * [mlgo](https://github.com/NullHypothesis/mlgo) - This project aims to provide minimalistic machine learning algorithms in Go.
@@ -945,7 +947,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gonum/mat64](https://github.com/gonum/matrix) - The general purpose package for matrix computation. Package mat64 provides basic linear algebra operations for float64 matrices.
 * [gonum/plot](https://github.com/gonum/plot) - gonum/plot provides an API for building and drawing plots in Go.
 * [goraph](https://github.com/gyuho/goraph) - Pure Go graph theory library(data structure, algorith visualization).
-* [gosl](https://github.com/cpmech/gosl) - Go scientific library for linear algebra, FFT, geometry, NURBS, numerical methods, probabilities, optimisation, differential equations, and more.
+* [gosl](https://github.com/cpmech/gosl) - Go scientific library: machine learning, linear algebra, FFT, geometry, numerical methods, probabilities, optimisation, differential equations, and more.
 * [gostat](https://github.com/ematvey/gostat) - Statistics library for the go language.
 * [graph](https://github.com/yourbasic/graph) - Library of basic graph algorithms.
 * [ode](https://github.com/ChristopherRabotin/ode) - Ordinary differential equation (ODE) solver which supports extended states and channel-based iteration stop conditions.
