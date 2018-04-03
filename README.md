@@ -68,6 +68,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Windows](#windows)
     - [XML](#xml)
     - [Serverless PaaS](#serverless-pass)
+    - [Serverless PaaS](#serverless-paas)
 
 - [Tools](#tools)
     - [Code Analysis](#code-analysis)
@@ -1884,5 +1885,5 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [d3d9](https://github.com/gonutz/d3d9) - Go bindings for Direct3D9
 * [go-ole](https://github.com/go-ole/go-ole) - Win32 OLE implementation for golang.
 
-## Serverless-PaaS
+## Serverless PaaS
 * [rainbond](https://github.com/goodrain/rainbond) - Production-Grade Serverless PaaS.
