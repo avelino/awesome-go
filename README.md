@@ -307,6 +307,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [jaeger](https://github.com/jaegertracing/jaeger) - A distributed tracing system.
 * [ledisdb](https://github.com/siddontang/ledisdb) - Ledisdb is a high performance NoSQL like Redis based on LevelDB.
 * [levigo](https://github.com/jmhodges/levigo) - Levigo is a Go wrapper for LevelDB.
+* [mollydb](https://github.com/wesovilabs/mollydb) - A configuration files database engine able to notify changes to regsitered  consumers.
 * [moss](https://github.com/couchbase/moss) - Moss is a simple LSM key-value storage engine written in 100% Go.
 * [piladb](https://github.com/fern4lvarez/piladb) - Lightweight RESTful database engine based on stack data structures.
 * [prometheus](https://github.com/prometheus/prometheus) - Monitoring system and time series database.
