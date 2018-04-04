@@ -1789,6 +1789,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gophers](https://github.com/ashleymcnamara/gophers) - Gopher artworks by Ashley McNamara
 * [gophers](https://github.com/egonelbre/gophers) - Free gophers
 * [gophers](https://github.com/rogeralsing/gophers) - random gopher graphics
+* [gophers](https://github.com/sillecelik/go-gopher) - Gopher amigurumi toy pattern
 
 ## Meetups
 
