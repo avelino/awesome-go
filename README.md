@@ -613,9 +613,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [app](https://github.com/murlokswarm/app) - Package to create apps with GO, HTML and CSS. Supports: MacOS, Windows in progress.
 * [go-astilectron](https://github.com/asticode/go-astilectron) - Build cross platform GUI apps with GO and HTML/JS/CSS (powered by Electron).
 * [go-gtk](http://mattn.github.io/go-gtk/) - Go bindings for GTK.
-* [go-qml](https://github.com/go-qml/qml) - QML support for the Go language.
 * [go-sciter](https://github.com/sciter-sdk/go-sciter) - Go bindings for Sciter: the Embeddable HTML/CSS/script engine for modern desktop UI development. Cross platform.
-* [goqt](https://github.com/visualfc/goqt) - Golang bindings to the Qt cross-platform application framework.
 * [gotk3](https://github.com/gotk3/gotk3) - Go bindings for GTK3.
 * [gowd](https://github.com/dtylman/gowd) - Rapid and simple desktop UI development with GO, HTML, CSS and NW.js. Cross platform.
 * [qt](https://github.com/therecipe/qt) - Qt binding for Go (support for Windows / macOS / Linux / Android / iOS / Sailfish OS / Raspberry Pi).
