@@ -1875,3 +1875,13 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go) - Get started with Godog — a Behavior-driven development framework for building and testing Go applications.
 * [Working with Go](https://github.com/mkaz/working-with-go) - Intro to go for experienced programmers.
 * [Your basic Go](http://yourbasic.org/golang) - Huge collection of tutorials and how to's
+
+
+
+## Windows
+
+* [d3d9](https://github.com/gonutz/d3d9) - Go bindings for Direct3D9
+* [go-ole](https://github.com/go-ole/go-ole) - Win32 OLE implementation for golang.
+
+## Serverless PaaS
+* [rainbond](https://github.com/goodrain/rainbond) - Production-Grade Serverless PaaS.
