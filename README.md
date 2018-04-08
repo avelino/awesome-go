@@ -67,8 +67,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
         - [Routers](#routers)
     - [Windows](#windows)
     - [XML](#xml)
-    - [Serverless PaaS](#serverless-pass)
-    - [Serverless PaaS](#serverless-paas)
 
 - [Tools](#tools)
     - [Code Analysis](#code-analysis)
