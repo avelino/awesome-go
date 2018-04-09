@@ -1384,6 +1384,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [okrun](https://github.com/xta/okrun) - go run error steamroller.
 * [onecache](https://github.com/adelowo/onecache) - Caching library with support for multiple backend stores (Redis, Memcached, filesystem etc).
 * [panicparse](https://github.com/maruel/panicparse) - Groups similar goroutines and colorizes stack dump.
+* [paq](https://github.com/epiqm/paq) - Pack files/directories into a single binary.
 * [peco](https://github.com/peco/peco) - Simplistic interactive filtering tool.
 * [pester](https://github.com/sethgrid/pester) - Go HTTP client calls with retries, backoff, and concurrency.
 * [pm](https://github.com/VividCortex/pm) - Process (i.e. goroutine) manager with an HTTP API.
