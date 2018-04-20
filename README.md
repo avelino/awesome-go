@@ -1812,6 +1812,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Golang Bangalore](https://www.meetup.com/Golang-Bangalore/)
 * [Golang Belo Horizonte - Brazil](https://www.meetup.com/go-belo-horizonte/)
 * [Golang Boston](https://www.meetup.com/bostongo/)
+* [Golang Bulgaria](https://www.meetup.com/Golang-Bulgaria/)
 * [Golang DC, Arlington, VA](https://www.meetup.com/Golang-DC/)
 * [Golang Dorset, UK](https://www.meetup.com/golang-dorset/)
 * [Golang Israel](https://www.meetup.com/Go-Israel/)
