@@ -766,7 +766,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Benthos](https://github.com/Jeffail/benthos) - A message streaming bridge between a range of protocols.
 * [Centrifugo](https://github.com/centrifugal/centrifugo) - Real-time messaging (Websockets or SockJS) server in Go.
 * [dbus](https://github.com/godbus/dbus) - Native Go bindings for D-Bus.
-* [drone-line](https://github.com/appleboy/drone-line) - Sending [Line](https://business.line.me/en/services/bot) notifications using a binary, docker or Drone CI.
+* [drone-line](https://github.com/appleboy/drone-line) - Sending [Line](https://at.line.me/en) notifications using a binary, docker or Drone CI.
 * [emitter](https://github.com/olebedev/emitter) - Emits events using Go way, with wildcard, predicates, cancellation possibilities and many other good wins.
 * [event](https://github.com/agoalofalife/event) - Implementation of the pattern observer.
 * [EventBus](https://github.com/asaskevich/EventBus) - The lightweight event bus with async compatibility.
@@ -1243,7 +1243,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gads](https://github.com/emiddleton/gads) - Google Adwords Unofficial API.
 * [gami](https://github.com/bit4bit/gami) - Go library for Asterisk Manager Interface.
 * [gcm](https://github.com/Aorioli/gcm) - Go library for Google Cloud Messaging.
-* [geo-golang](https://github.com/codingsince1985/geo-golang) - Go Library to access [Google Maps](https://developers.google.com/maps/documentation/geocoding/intro), [MapQuest](http://open.mapquestapi.com/geocoding/), [Nominatim](http://open.mapquestapi.com/nominatim/), [OpenCage](http://geocoder.opencagedata.com/api.html), [HERE](https://developer.here.com/rest-apis/documentation/geocoder), [Bing](https://msdn.microsoft.com/en-us/library/ff701715.aspx), [Mapbox](https://www.mapbox.com/developers/api/geocoding/), and [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Nominatim) geocoding / reverse geocoding APIs.
+* [geo-golang](https://github.com/codingsince1985/geo-golang) - Go Library to access [Google Maps](https://developers.google.com/maps/documentation/geocoding/intro), [MapQuest](http://open.mapquestapi.com/geocoding/), [Nominatim](https://developer.mapquest.com/documentation/open/nominatim-search), [OpenCage](http://geocoder.opencagedata.com/api.html), [Bing](https://msdn.microsoft.com/en-us/library/ff701715.aspx), [Mapbox](https://www.mapbox.com/developers/api/geocoding/), and [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Nominatim) geocoding / reverse geocoding APIs.
 * [github](https://github.com/google/go-github) - Go library for accessing the GitHub REST API v3.
 * [githubql](https://github.com/shurcooL/githubql) - Go library for accessing the GitHub GraphQL API v4.
 * [go-chronos](https://github.com/axelspringer/go-chronos) - Go library for interacting with the [Chronos](https://mesos.github.io/chronos/) Job Scheduler
@@ -1333,7 +1333,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-astitodo](https://github.com/asticode/go-astitodo) - Parse TODOs in your GO code.
 * [go-bind-plugin](https://github.com/wendigo/go-bind-plugin) - go:generate tool for wrapping symbols exported by golang plugins (1.8 only).
 * [go-cron](https://github.com/rk/go-cron) - Simple Cron library for go that can execute closures or functions at varying intervals, from once a second to once a year on a specific date and time. Primarily for web applications and long running daemons.
-* [go-debug](https://github.com/tj/go-debug) - Conditional debug logging for Golang libraries & applications.
 * [go-dry](https://github.com/ungerik/go-dry) - DRY (don't repeat yourself) package for Go.
 * [go-funk](https://github.com/thoas/go-funk) - Modern Go utility library which provides helpers (map, find, contains, filter, chunk, reverse, ...).
 * [go-health](https://github.com/Talento90/go-health) - Health package simplifies the way you add health check to your services.
@@ -1624,7 +1623,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [colorgo](https://github.com/songgao/colorgo) - Wrapper around `go` command for colorized `go build` output.
 * [depth](https://github.com/KyleBanks/depth) - Visualize dependency trees of any package by analyzing imports.
 * [gb](https://getgb.io/) - An easy to use project based build tool for the Go programming language.
-* [generator-go-lang](https://github.com/axelspringer/generator-go-lang) - A [Yeoman](https://yeoman.io) generator to get new Go projects started.
+* [generator-go-lang](https://github.com/axelspringer/generator-go-lang) - A [Yeoman](http://yeoman.io) generator to get new Go projects started.
 * [go-callvis](https://github.com/TrueFurby/go-callvis) - Visualize call graph of your Go program using dot format.
 * [go-pkg-complete](https://github.com/skelterjohn/go-pkg-complete) - Bash completion for go and wgo.
 * [go-swagger](https://github.com/go-swagger/go-swagger) - Swagger 2.0 implementation for go. Swagger is a simple yet powerful representation of your RESTful API.
@@ -1766,9 +1765,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [GopherChina](http://gopherchina.org) - Shanghai, China
 * [GopherCon](http://www.gophercon.com/) - Denver, USA
 * [GopherCon Brazil](https://gopherconbr.org) - Florianópolis, BR
-* [GopherCon Dubai](http://www.gophercon.ae/) - Dubai, UAE
 * [GopherCon Europe](https://gophercon.is/) - Reykjavik, Iceland
-* [GopherCon India](http://www.gophercon.in/) - Pune, India
 * [GopherCon Russia](https://www.gophercon-russia.ru) - Moscow, Russia
 * [GopherCon Singapore](https://gophercon.sg) - Mapletree Business City, Singapore
 * [GothamGo](http://gothamgo.com/) - New York City, USA
@@ -1851,7 +1848,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Awesome Go @LibHunt](https://go.libhunt.com) - Your go-to Go Toolbox.
 * [Awesome Remote Job](https://github.com/lukasz-madon/awesome-remote-job) - Curated list of awesome remote jobs. A lot of them are looking for Go hackers.
 * [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) - List of other amazingly awesome lists.
-* [Flipboard - Go Magazine](https://flipboard.com/section/the-golang-magazine-bVP7nS) - Collection of Go articles and tutorials.
 * [Go Blog](http://blog.golang.org) - The official Go blog.
 * [Go Challenge](http://golang-challenge.org/) - Learn Go by solving problems and getting feedback from Go experts.
 * [Go Forum](https://forum.golangbridge.org) - Forum to discuss Go.
