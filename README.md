@@ -558,6 +558,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [nano](https://github.com/lonnng/nano) - Lightweight, facility, high performance golang based game server framework
 * [Oak](https://github.com/oakmound/oak) - Pure Go game engine.
 * [Pixel](https://github.com/faiface/pixel) - Hand-crafted 2D game library in Go.
+* [Playthos](https://github.com/autovelop/playthos) - 2D Game Engine written in Go.
 * [raylib-go](https://github.com/gen2brain/raylib-go) - Go bindings for [raylib](http://www.raylib.com/), a simple and easy-to-use library to learn videogames programming.
 * [termloop](https://github.com/JoelOtter/termloop) - Terminal-based game engine for Go, built on top of Termbox.
 
