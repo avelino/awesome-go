@@ -568,6 +568,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Tools to enhance the language with features like generics via code generation.*
 
 * [efaceconv](https://github.com/t0pep0/efaceconv) - Code generation tool for high performance conversion from interface{} to immutable type without allocations.
+* [enumer](https://github.com/alvaroloes/enumer) - Tool to auto generate basic methods for your enums and make them conform to common marshaller interfaces (JSON, YAML, SQL, etc.)
 * [gen](https://github.com/clipperhouse/gen) - Code generation tool for ‘generics’-like functionality.
 * [go-enum](https://github.com/abice/go-enum) - Code generation for enums from code comments.
 * [go-linq](https://github.com/ahmetalpbalkan/go-linq) - .NET LINQ-like query methods for Go.
