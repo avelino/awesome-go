@@ -1229,11 +1229,11 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 ### Regex
 
-[commonregex](https://github.com/mingrammer/commonregex) - A collection of common regular expressions for Go
-[genex](https://github.com/alixaxel/genex) - Count and expand Regular Expressions into all matching Strings.
-[goregen](https://github.com/zach-klippenstein/goregen) - Library for generating random strings from regular expressions.
-[regexp2](https://github.com/dlclark/regexp2) - RegExp engine for Go compatible with Perl5 and .NET.
-[regexp4](https://github.com/nasciiboy/regexp4) - Simple RegExp engine implementation with its own sintax.
+* [commonregex](https://github.com/mingrammer/commonregex) - A collection of common regular expressions for Go
+* [genex](https://github.com/alixaxel/genex) - Count and expand Regular Expressions into all matching Strings.
+* [goregen](https://github.com/zach-klippenstein/goregen) - Library for generating random strings from regular expressions.
+* [regexp2](https://github.com/dlclark/regexp2) - RegExp engine for Go compatible with Perl5 and .NET.
+* [regexp4](https://github.com/nasciiboy/regexp4) - Simple RegExp engine implementation with its own sintax.
 
 ## Third-party APIs
 
