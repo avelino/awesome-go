@@ -1193,12 +1193,10 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [blackfriday](https://github.com/russross/blackfriday) - Markdown processor in Go.
     * [bluemonday](https://github.com/microcosm-cc/bluemonday) - HTML Sanitizer.
     * [colly](https://github.com/asciimoo/colly) - Fast and Elegant Scraping Framework for Gophers
-    * [commonregex](https://github.com/mingrammer/commonregex) - A collection of common regular expressions for Go
     * [doi](https://github.com/hscells/doi) - Document object identifier (doi) parser in Go.
     * [editorconfig-core-go](https://github.com/editorconfig/editorconfig-core-go) - Editorconfig file parser and manipulator for Go.
     * [enca](https://github.com/endeveit/enca) - Minimal cgo bindings for [libenca](http://cihar.com/software/enca/).
     * [encdec](https://github.com/mickep76/encdec) - Package provides a generic interface to encoders and decodersa.
-    * [genex](https://github.com/alixaxel/genex) - Count and expand Regular Expressions into all matching Strings.
     * [github_flavored_markdown](https://godoc.org/github.com/shurcooL/github_flavored_markdown) - GitHub Flavored Markdown renderer (using blackfriday) with fenced code block highlighting, clickable header anchor links.
     * [go-fixedwidth](https://github.com/ianlopshire/go-fixedwidth) - Fixed-width text formatting (encoder/decoder with reflection).
     * [go-humanize](https://github.com/dustin/go-humanize) - Formatters for time, numbers, and memory size to human readable format.
@@ -1212,7 +1210,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [gonameparts](https://github.com/polera/gonameparts) - Parses human names into individual name parts.
     * [goq](https://github.com/andrewstuart/goq) - Declarative unmarshaling of HTML using struct tags with jQuery syntax (uses GoQuery).
     * [GoQuery](https://github.com/PuerkitoBio/goquery) - GoQuery brings a syntax and a set of features similar to jQuery to the Go language.
-    * [goregen](https://github.com/zach-klippenstein/goregen) - Library for generating random strings from regular expressions.
     * [gotext](https://github.com/leonelquinteros/gotext) - GNU gettext utilities for Go.
     * [guesslanguage](https://github.com/endeveit/guesslanguage) - Functions to determine the natural language of a unicode text.
     * [inject](https://github.com/facebookgo/inject) - Package inject provides a reflect based injector.
@@ -1230,6 +1227,14 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [radix](https://github.com/yourbasic/radix) - fast string sorting algorithm.
     * [xj2go](https://github.com/stackerzzq/xj2go) - Convert xml or json to go struct.
     * [xurls](https://github.com/mvdan/xurls) - Extract urls from text.
+
+### Regex
+
+* [commonregex](https://github.com/mingrammer/commonregex) - A collection of common regular expressions for Go
+* [genex](https://github.com/alixaxel/genex) - Count and expand Regular Expressions into all matching Strings.
+* [goregen](https://github.com/zach-klippenstein/goregen) - Library for generating random strings from regular expressions.
+* [regexp2](https://github.com/dlclark/regexp2) - RegExp engine for Go compatible with Perl5 and .NET.
+* [regexp4](https://github.com/nasciiboy/regexp4) - Simple RegExp engine implementation with its own sintax.
 
 ## Third-party APIs
 
