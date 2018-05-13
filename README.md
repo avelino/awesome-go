@@ -814,7 +814,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [archiver](https://github.com/mholt/archiver) - Library and command for making and extracting .zip and .tar.gz archives.
 * [autoflags](https://github.com/artyom/autoflags) - Go package to automatically define command line flags from struct fields.
 * [avgRating](https://github.com/kirillDanshin/avgRating) - Calculate average score and rating based on Wilson Score Equation.
-* [AwGo](https://github.com/deanishe/awgo) - Go library for Alfred 3 workflows.
+* [AwGo](https://github.com/deanishe/awgo) - Go library to create [Alfred](https://www.alfredapp.com) workflows.
 * [banner](https://github.com/dimiro1/banner) - Add beautiful banners into your Go applications.
 * [base64Captcha](https://github.com/mojocn/base64Captcha) - Base64captch supports digit, number, alphabet, arithmetic, audio and digit-alphabet captcha.
 * [battery](https://github.com/distatus/battery) - Cross-platform, normalized battery information library.
