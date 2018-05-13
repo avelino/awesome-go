@@ -858,6 +858,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [wuid](https://github.com/edwingeng/wuid) - An extremely fast unique number generator, 10-135 times faster than UUID.
 * [xkg](https://github.com/go-xkg/xkg) - X Keyboard Grabber.
 * [xstrings](https://github.com/huandu/xstrings) - Collection of useful string functions ported from other languages.
+* [AwGo](https://github.com/deanishe/awgo) - Go library for Alfred 3 workflows.
 
 ## Natural Language Processing
 
