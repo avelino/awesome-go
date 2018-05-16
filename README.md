@@ -528,6 +528,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [techan](https://github.com/sdcoffey/techan) - Technical analysis library with advanced market analysis and trading strategies.
 * [transaction](https://github.com/claygod/transaction) - Embedded transactional database of accounts, running in multithreaded mode.
 * [vat](https://github.com/dannyvankooten/vat) - VAT number validation & EU VAT rates.
+* [yahoofin](https://github.com/sklarsa/yahoofin) - API and CLI for pulling securities information from yahoo finance.
 
 ## Forms
 
