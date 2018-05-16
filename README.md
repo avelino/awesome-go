@@ -527,6 +527,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [ofxgo](https://github.com/aclindsa/ofxgo) - Query OFX servers and/or parse the responses (with example command-line client).
 * [techan](https://github.com/sdcoffey/techan) - Technical analysis library with advanced market analysis and trading strategies.
 * [transaction](https://github.com/claygod/transaction) - Embedded transactional database of accounts, running in multithreaded mode.
+* [yahoofin](https://github.com/sklarsa/yahoofin) - API and CLI for pulling securities information from yahoo finance.
 * [vat](https://github.com/dannyvankooten/vat) - VAT number validation & EU VAT rates.
 
 ## Forms
