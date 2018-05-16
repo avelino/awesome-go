@@ -477,6 +477,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [douceur](https://github.com/aymerick/douceur) - CSS inliner for your HTML emails.
 * [email](https://github.com/jordan-wright/email) - A robust and flexible email library for Go.
 * [go-dkim](https://github.com/toorop/go-dkim) - DKIM library, to sign & verify email.
+* [go-guerrilla](https://github.com/flashmob/go-guerrilla) - A lightweight SMTP server made for receiving large volumes of email.
 * [go-imap](https://github.com/emersion/go-imap) - IMAP library for clients and servers.
 * [go-message](https://github.com/emersion/go-message) - Streaming library for the Internet Message Format and mail messages.
 * [Gomail](https://github.com/go-gomail/gomail/) - Gomail is a very simple and powerful package to send emails.
