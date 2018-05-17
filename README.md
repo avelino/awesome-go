@@ -946,6 +946,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [water](https://github.com/songgao/water) - Simple TUN/TAP library.
 * [winrm](https://github.com/masterzen/winrm) - Go WinRM client to remotely execute commands on Windows machines.
 * [xtcp](https://github.com/xfxdev/xtcp) - TCP Server Framework with simultaneous full duplex communication,graceful shutdown,custom protocol.
+* [dnsutil](https://github.com/lixiangzhong/dnsutil) - dns dig for golang
 
 ## OpenGL
 
