@@ -71,7 +71,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 - [Tools](#tools)
     - [Code Analysis](#code-analysis)
     - [Editor Plugins](#editor-plugins)
-	- [Go Generate Tools](#go-generate-tools)
+    - [Go Generate Tools](#go-generate-tools)
     - [Go Tools](#go-tools)
     - [Software Packages](#software-packages)
         - [DevOps Tools](#devops-tools)
@@ -1379,6 +1379,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gpath](https://github.com/tenntenn/gpath) - Library to simplify access struct fields with Go's expression in reflection.
 * [grequests](https://github.com/levigross/grequests) - Elegant and simple `net/http` wrapper that follows Python's requests library.
 * [gron](https://github.com/roylee0704/gron) - Define time-based tasks using a simple Go API and Gron’s scheduler will run them accordingly.
+* [gubrak](https://gubrak.github.io/) - Golang utility library with syntactic sugar.
 * [htcat](https://github.com/htcat/htcat) - Parallel and Pipelined HTTP GET Utility.
 * [httpcontrol](https://github.com/facebookgo/httpcontrol) - Package httpcontrol allows for HTTP transport level control around timeouts and retries.
 * [hub](https://github.com/github/hub) - wrap git commands with additional functionality to interact with github from the terminal.
