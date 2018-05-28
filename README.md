@@ -396,6 +396,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [go-couchdb](https://github.com/fjl/go-couchdb) - Yet another CouchDB HTTP API wrapper for Go.
     * [gocb](https://github.com/couchbase/gocb) - Official Couchbase Go SDK.
     * [gocql](http://gocql.github.io) - Go language driver for Apache Cassandra.
+    * [godscache](https://github.com/defcronyke/godscache) - A wrapper for the Google Cloud Platform Go Datastore package that adds caching using memcached.
     * [gomemcache](https://github.com/bradfitz/gomemcache/) - memcache client library for the Go programming language.
     * [gorethink](https://github.com/dancannon/gorethink) - Go language driver for RethinkDB.
     * [goriak](https://github.com/zegl/goriak) - Go language driver for Riak KV.
