@@ -1480,6 +1480,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Full stack web frameworks.*
 
 * [aah](https://aahframework.org) - Scalable, performant, rapid development Web framework for Go.
+* [Aero](https://github.com/aerogo/aero) - High-performance web framework for Go, reaches top scores in Lighthouse.
 * [Air](https://github.com/sheng/air) - Ideal RESTful web framework for Go.
 * [Banjo](https://github.com/nsheremet/banjo) - Very simple and fast web framework for Go.
 * [Beego](https://github.com/astaxie/beego) - beego is an open-source, high-performance web framework for the Go programming language.
