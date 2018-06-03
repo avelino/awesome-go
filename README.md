@@ -173,6 +173,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [readline](https://github.com/chzyer/readline) - Pure golang implementation that provides most features in GNU-Readline under MIT license.
 * [sflags](https://github.com/octago/sflags) - Struct based flags generator for flag, urfave/cli, pflag, cobra, kingpin and other libraries.
 * [strumt](https://github.com/antham/strumt) - Library to create prompt chain.
+* [subcommands](https://github.com/google/subcommands) - Library to break up CLI applications into various subcommands.
 * [ukautz/clif](https://github.com/ukautz/clif) - Small command line interface framework.
 * [urfave/cli](https://github.com/urfave/cli) - Simple, fast, and fun package for building command line apps in Go (formerly codegangsta/cli).
 * [wlog](https://github.com/dixonwille/wlog) - Simple logging interface that supports cross-platform color and concurrency.
