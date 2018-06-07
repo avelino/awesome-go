@@ -752,6 +752,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [minio](https://github.com/minio/minio) - Minio is a distributed object storage server.
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform
 * [yakvs](https://github.com/sci4me/yakvs) - A small, networked, in-memory key-value store.
+* [discovery](https://github.com/Bilibili/discovery) - A registry for resilient mid-tier load balancing and failover.
 
 
 ## Template Engines
