@@ -1,0 +1,22 @@
+---
+engines:
+  rubocop:
+    enabled: true
+  golint:
+    enabled: true
+  gofmt:
+    enabled: true
+  govet:
+    enabled: true
+  fixme:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - go
+ratings:
+  paths:
+  - "**.go"
+exclude_paths:
+- vendor/
