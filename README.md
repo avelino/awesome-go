@@ -1797,6 +1797,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [GopherCon](http://www.gophercon.com/) - Denver, USA
 * [GopherCon Brazil](https://gopherconbr.org) - Florianópolis, BR
 * [GopherCon Europe](https://gophercon.is/) - Reykjavik, Iceland
+* [GopherCon India](https://www.gophercon.in/) - Pune, India
 * [GopherCon Russia](https://www.gophercon-russia.ru) - Moscow, Russia
 * [GopherCon Singapore](https://gophercon.sg) - Mapletree Business City, Singapore
 * [GothamGo](http://gothamgo.com/) - New York City, USA
