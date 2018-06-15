@@ -165,6 +165,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-arg](https://github.com/alexflint/go-arg) - Struct-based argument parsing in Go.
 * [go-flags](https://github.com/jessevdk/go-flags) - go command line option parser.
 * [gocmd](https://github.com/devfacet/gocmd) - Go library for building command line applications.
+* [golamb](https://github.com/golamb/golamb) - CLI for rapid GOxAWSLambda development
 * [kingpin](https://github.com/alecthomas/kingpin) - Command line and flag parser supporting sub commands.
 * [liner](https://github.com/peterh/liner) - Go readline-like library for command-line interfaces.
 * [mitchellh/cli](https://github.com/mitchellh/cli) - Go library for implementing command-line interfaces.
