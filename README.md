@@ -158,7 +158,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [commandeer](https://github.com/jaffee/commandeer) - Dev-friendly CLI apps: sets up flags, defaults, and usage based on struct fields and tags.
 * [complete](https://github.com/posener/complete) - Write bash completions in Go + Go command bash completion.
 * [docopt.go](https://github.com/docopt/docopt.go) - Command-line arguments parser that will make you smile.
-* [drive](https://github.com/odeke-em/drive) - Google Drive client for the commandline.
 * [env](https://github.com/codingconcepts/env) - Tag-based environment configuration for structs.
 * [flag](https://github.com/cosiner/flag) - Simple but powerful command line option parsing library for Go supporting subcommand.
 * [flagvar](https://github.com/sgreben/flagvar) - A collection of flag argument types for Go's standard `flag` package.
