@@ -1297,6 +1297,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [google-analytics](https://github.com/chonthu/go-google-analytics) - Simple wrapper for easy google analytics reporting.
 * [google-cloud](https://github.com/GoogleCloudPlatform/gcloud-golang) - Google Cloud APIs Go Client Library.
 * [google-email-audit-api](https://github.com/ngs/go-google-email-audit-api) - Go client library for [Google G Suite Email Audit API](https://developers.google.com/admin-sdk/email-audit/).
+* [google-search-results-golang](https://github.com/serpapi/google-search-results-golang) - Go client library for Google search results via SerpApi.
 * [gostorm](https://github.com/jsgilmore/gostorm) - GoStorm is a Go library that implements the communications protocol required to write Storm spouts and Bolts in Go that communicate with the Storm shells.
 * [govkbot](https://github.com/nikepan/govkbot) - Simple Go [VK](https://vk.com) bot library.
 * [hipchat](https://github.com/andybons/hipchat) - This project implements a golang client library for the Hipchat API.
