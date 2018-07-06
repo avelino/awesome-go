@@ -1063,6 +1063,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [orb](https://github.com/paulmach/orb) - 2D geometry types with clipping, GeoJSON and Mapbox Vector Tile support.
 * [pagerank](https://github.com/alixaxel/pagerank) - Weighted PageRank algorithm implemented in Go.
 * [PiHex](https://github.com/claygod/PiHex) - Implementation of the "Bailey-Borwein-Plouffe" algorithm for the hexadecimal number Pi.
+* [QFrame](https://github.com/tobgu/qframe) - QFrame is an immutable data frame that support filtering, aggregation and data manipulation.
 * [sparse](https://github.com/james-bowman/sparse) - Go Sparse matrix formats for linear algebra supporting scientific and machine learning applications, compatible with gonum matrix libraries.
 * [stats](https://github.com/montanaflynn/stats) - Statistics package with common functions missing from the Golang standard library.
 * [streamtools](https://github.com/nytlabs/streamtools) - general purpose, graphical tool for dealing with streams of data.
