@@ -515,6 +515,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for  handling files and file systems.*
 
 * [afero](https://github.com/spf13/afero) - FileSystem Abstraction System for Go.
+* [diskusage] (https://github.com/aleksaan/diskusage) - Calculate size of folders and subfolders and get n-max sized
 * [go-csv-tag](https://github.com/artonge/go-csv-tag) - Load csv file using tag.
 * [go-gtfs](https://github.com/artonge/go-gtfs) - Load gtfs files in go.
 * [notify](https://github.com/rjeczalik/notify) - File system event notification library with simple API, similar to os/signal.
