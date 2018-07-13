@@ -1016,6 +1016,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 ## Query Language
 
+* [entity](https://github.com/michaellyu/entity) - Shortcut to access interfaces.
 * [gojsonq](https://github.com/thedevsaddam/gojsonq) - A simple Go package to Query over JSON Data.
 * [graphql](https://github.com/tmc/graphql) - graphql parser + utilities.
 * [graphql](https://github.com/sevki/graphql) - GraphQL implementation in go.
@@ -1023,7 +1024,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [graphql-go](https://github.com/graphql-go/graphql) - Implementation of GraphQL for Go.
 * [jsonql](https://github.com/elgs/jsonql) - JSON query expression library in Golang.
 * [rql](https://github.com/a8m/rql) - Resource Query Language for REST API.
-* [entity](https://github.com/michaellyu/entity) - Shortcut to access interfaces.
 
 ## Resource Embedding
 
