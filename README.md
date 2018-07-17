@@ -555,6 +555,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [Azul3D](https://github.com/azul3d/engine) - 3D game engine written in Go.
 * [Ebiten](https://github.com/hajimehoshi/ebiten) - dead simple 2D game library in Go.
 * [engo](https://github.com/EngoEngine/engo) - Engo is an open-source 2D game engine written in Go. It follows the Entity-Component-System paradigm.
+* [g3n](https://github.com/g3n/engine) - Go 3D Game Engine.
 * [GarageEngine](https://github.com/vova616/GarageEngine) - 2d game engine written in Go working on OpenGL.
 * [glop](https://github.com/runningwild/glop) - Glop (Game Library Of Power) is a fairly simple cross-platform game library.
 * [go-astar](https://github.com/beefsack/go-astar) - Go implementation of the A\* path finding algorithm.
