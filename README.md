@@ -624,6 +624,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [stl](https://github.com/ssgreg/stl) - Software transactional locks based on Software Transactional Memory (STM) concurrency control mechanism.
 * [tunny](https://github.com/Jeffail/tunny) - Goroutine pool for golang.
 * [worker-pool](https://github.com/vardius/worker-pool) - goworker is a Go simple async worker pool.
+* [workerful](https://github.com/oblq/workerful) - Worker pool implementation with helper funcs for a simple usage.
 * [workerpool](https://github.com/gammazero/workerpool) - Goroutine pool that limits the concurrency of task execution, not the number of tasks queued.
 
 ## GUI
@@ -1453,6 +1454,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [scheduler](https://github.com/carlescere/scheduler) - Cronjobs scheduling made easy.
 * [sling](https://github.com/dghubble/sling) - Go HTTP requests builder for API clients.
 * [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
+* [sprbox](https://github.com/oblq/sprbox) - Build-environment aware toolbox factory, init and configure a toolbox struct in one line.
 * [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package.
 * [Storm](https://github.com/asdine/storm) - Simple and powerful toolkit for BoltDB.
 * [structs](https://github.com/PumpkinSeed/structs) - Implement simple functions to manipulate structs.
