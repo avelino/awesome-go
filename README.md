@@ -624,7 +624,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [stl](https://github.com/ssgreg/stl) - Software transactional locks based on Software Transactional Memory (STM) concurrency control mechanism.
 * [tunny](https://github.com/Jeffail/tunny) - Goroutine pool for golang.
 * [worker-pool](https://github.com/vardius/worker-pool) - goworker is a Go simple async worker pool.
-* [workerful](https://github.com/oblq/workerful) - Worker pool implementation with helper funcs for a simple usage.
 * [workerpool](https://github.com/gammazero/workerpool) - Goroutine pool that limits the concurrency of task execution, not the number of tasks queued.
 
 ## GUI
