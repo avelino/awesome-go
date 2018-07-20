@@ -1732,7 +1732,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [webhook](https://github.com/adnanh/webhook) - Tool which allows user to create HTTP endpoints (hooks) that execute commands on the server.
 * [Wide](https://wide.b3log.org/login) - Web-based IDE for Teams using Golang.
 * [winrm-cli](https://github.com/masterzen/winrm-cli) - Cli tool to remotely execute commands on Windows machines.
-* [overlord](https://github.com/felixhao/overlord) - memcached,redis  protocol router for scaling cache  deployments 
+* [overlord](https://github.com/felixhao/overlord) - Memcached,Redis  protocol router for scaling cache  deployments. 
 
 ### Other Software
 * [borg](https://github.com/crufter/borg) - Terminal based search engine for bash snippets.
