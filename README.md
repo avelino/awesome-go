@@ -1414,7 +1414,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [httpcontrol](https://github.com/facebookgo/httpcontrol) - Package httpcontrol allows for HTTP transport level control around timeouts and retries.
 * [hub](https://github.com/github/hub) - wrap git commands with additional functionality to interact with github from the terminal.
 * [hystrix-go](https://github.com/afex/hystrix-go) - Implements Hystrix patterns of programmer-defined fallbacks aka circuit breaker.
-* [immortal](https://github.com/immortal/immortal) - *nix cross-platform (OS agnostic) supervisor.
+* [immortal](https://github.com/immortal/immortal) - \*nix cross-platform (OS agnostic) supervisor.
 * [intrinsic](https://github.com/mengzhuo/intrinsic) - Use x86 SIMD without writing any assembly code.
 * [JobRunner](https://github.com/bamzi/jobrunner) - Smart and featureful cron job scheduler with job queuing and live monitoring built in.
 * [jsonapi-errors](https://github.com/AmuzaTkts/jsonapi-errors) - Go bindings based on the JSON API errors reference.
