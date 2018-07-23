@@ -476,7 +476,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [torrent](https://github.com/anacrolix/torrent) - BitTorrent client package.
     * [dht](https://godoc.org/github.com/anacrolix/dht) - BitTorrent Kademlia DHT implementation.
     * [go-peerflix](https://github.com/Sioro-Neoku/go-peerflix) - Video streaming torrent client.
-
+* [istio](https://github.com/istio) - An open platform to connect, manage, and secure microservices.
 ## Email
 
 *Libraries and tools that implement email creation and sending.*
