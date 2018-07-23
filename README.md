@@ -1718,8 +1718,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [manssh](https://github.com/xwjdsh/manssh) - manssh is a command line tool for managing your ssh alias config easily.
 * [Moby](https://github.com/moby/moby) - Collaborative project for the container ecosystem to assemble container-based systems.
 * [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data.
-* [overlord](https://github.com/felixhao/overlord) - Memcached,Redis  protocol router for scaling cache  deployments.
 * [ostent](https://github.com/ostrost/ostent) - collects and displays system metrics and optionally relays to Graphite and/or InfluxDB.
+* [overlord](https://github.com/felixhao/overlord) - Memcached,Redis  protocol router for scaling cache  deployments.
 * [Packer](https://github.com/mitchellh/packer) - Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.
 * [Pewpew](https://github.com/bengadbois/pewpew) - Flexible HTTP command line stress tester.
 * [Rodent](https://github.com/alouche/rodent) - Rodent helps you manage Go versions, projects and track dependencies.
