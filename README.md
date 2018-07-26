@@ -571,6 +571,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [Leaf](https://github.com/name5566/leaf) - Lightweight game server framework.
 * [nano](https://github.com/lonnng/nano) - Lightweight, facility, high performance golang based game server framework
 * [Oak](https://github.com/oakmound/oak) - Pure Go game engine.
+* [Pitaya](https://github.com/topfreegames/pitaya) - Scalable game server framework with clustering support and client libraries for iOS, Android, Unity and others through the C SDK.
 * [Pixel](https://github.com/faiface/pixel) - Hand-crafted 2D game library in Go.
 * [raylib-go](https://github.com/gen2brain/raylib-go) - Go bindings for [raylib](http://www.raylib.com/), a simple and easy-to-use library to learn videogames programming.
 * [termloop](https://github.com/JoelOtter/termloop) - Terminal-based game engine for Go, built on top of Termbox.
