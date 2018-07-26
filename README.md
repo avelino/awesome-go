@@ -1373,6 +1373,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [filler](https://github.com/yaronsumel/filler) - small utility to fill structs using "fill" tag.
 * [fpGo](https://github.com/TeaEntityLab/fpGo) - Monad, Functional Programming features for Golang
 * [fzf](https://github.com/junegunn/fzf) - Command-line fuzzy finder written in Go.
+* [gaper](https://github.com/maxcnunes/gaper) - Builds and restarts a Go project when it crashes or some watched file changes.
 * [generate](https://github.com/go-playground/generate) - runs go generate recursively on a specified path or environment variable and can filter by regex.
 * [gentleman](https://github.com/h2non/gentleman) - Full-featured plugin-driven HTTP client library.
 * [git-time-metric](https://github.com/git-time-metric/gtm) - Simple, seamless, lightweight time tracking for Git.
