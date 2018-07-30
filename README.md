@@ -1028,6 +1028,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 ## Query Language
 
+* [entity](https://github.com/michaellyu/entity) - Shortcut to access interfaces.
 * [gojsonq](https://github.com/thedevsaddam/gojsonq) - A simple Go package to Query over JSON Data.
 * [graphql](https://github.com/tmc/graphql) - graphql parser + utilities.
 * [graphql](https://github.com/sevki/graphql) - GraphQL implementation in go.
