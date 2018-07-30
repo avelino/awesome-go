@@ -503,6 +503,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [agora](https://github.com/PuerkitoBio/agora) - Dynamically typed, embeddable programming language in Go.
 * [anko](https://github.com/mattn/anko) - Scriptable interpreter written in Go.
 * [binder](https://github.com/alexeyco/binder) - Go to Lua binding library, based on [gopher-lua](https://github.com/yuin/gopher-lua).
+* [expr](https://github.com/antonmedv/expr) - an engine that can evaluate expressions.
 * [gisp](https://github.com/jcla1/gisp) - Simple LISP in Go.
 * [go-duktape](https://github.com/olebedev/go-duktape) - Duktape JavaScript engine bindings for Go.
 * [go-lua](https://github.com/Shopify/go-lua) - Port of the Lua 5.2 VM to pure Go.
@@ -510,7 +511,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-python](https://github.com/sbinet/go-python) - naive go bindings to the CPython C-API.
 * [golua](https://github.com/aarzilli/golua) - Go bindings for Lua C API.
 * [gopher-lua](https://github.com/yuin/gopher-lua) - Lua 5.1 VM and compiler written in Go.
-* [expr](https://github.com/antonmedv/expr) - an engine that can evaluate expressions.
 * [ngaro](https://github.com/db47h/ngaro) - Embeddable Ngaro VM implementation enabling scripting in Retro.
 * [otto](https://github.com/robertkrimen/otto) - JavaScript interpreter written in Go.
 * [purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go.
