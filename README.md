@@ -972,6 +972,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [utp](https://github.com/anacrolix/utp) - Go uTP micro transport protocol implementation.
 * [water](https://github.com/songgao/water) - Simple TUN/TAP library.
 * [winrm](https://github.com/masterzen/winrm) - Go WinRM client to remotely execute commands on Windows machines.
+* [ws](https://github.com/gobwas/ws) - RFC6455 WebSocket memory efficient implementation.
 * [xtcp](https://github.com/xfxdev/xtcp) - TCP Server Framework with simultaneous full duplex communication,graceful shutdown,custom protocol.
 
 ## OpenGL
