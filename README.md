@@ -1850,6 +1850,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Network Programming With Go](https://jan.newmarch.name/go/)
 * [The Go Programming Language](http://www.gopl.io/)
 * [Web Application with Go the Anti-Textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/)
+* [Writing An Interpreter In Go](https://interpreterbook.com)
+* [Writing A Compiler In Go](https://compilerbook.com)
 
 ## Gophers
 
