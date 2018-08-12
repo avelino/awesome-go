@@ -1466,7 +1466,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [scheduler](https://github.com/carlescere/scheduler) - Cronjobs scheduling made easy.
 * [sling](https://github.com/dghubble/sling) - Go HTTP requests builder for API clients.
 * [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
-* [sprbox](https://github.com/oblq/sprbox) - Build-environment aware toolbox factory, init and configure a toolbox struct in one line.
+* [sprbox](https://github.com/oblq/sprbox) - Build-environment aware toolbox factory and agnostic config parser (YAML, TOML, JSON and Environment vars).
 * [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package.
 * [Storm](https://github.com/asdine/storm) - Simple and powerful toolkit for BoltDB.
 * [structs](https://github.com/PumpkinSeed/structs) - Implement simple functions to manipulate structs.
