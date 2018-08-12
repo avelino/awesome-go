@@ -1959,3 +1959,4 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Learn Go with TDD](https://github.com/quii/learn-go-with-tests) - Learn Go with test-driven development.
 * [Working with Go](https://github.com/mkaz/working-with-go) - Intro to go for experienced programmers.
 * [Your basic Go](http://yourbasic.org/golang) - Huge collection of tutorials and how to's
+* [Learn How To Code: Google's Go (golang) Programming Language - by Todd McLeod](https://www.udemy.com/learn-how-to-code/) - 21 hour course of Go. From zero to pro.
