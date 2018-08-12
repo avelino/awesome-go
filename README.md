@@ -772,6 +772,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [goga](https://github.com/tomcraven/goga) - Genetic algorithm library for Go.
 * [GoLearn](https://github.com/sjwhitworth/golearn) - General Machine Learning library for Go.
 * [golinear](https://github.com/danieldk/golinear) - liblinear bindings for Go.
+* [GoMind](https://github.com/surenderthakran/gomind) - A simplistic Neural Network Library in Go.
 * [goml](https://github.com/cdipaolo/goml) - On-line Machine Learning in Go.
 * [goRecommend](https://github.com/timkaye11/goRecommend) - Recommendation Algorithms library written in Go.
 * [gorgonia](https://github.com/chewxy/gorgonia) - graph-based computational library like Theano for Go that provides primitives for building various machine learning and neural network algorithms.
