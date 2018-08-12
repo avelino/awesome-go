@@ -290,6 +290,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [merkletree](https://github.com/cbergoon/merkletree) - Implementation of a merkle tree providing an efficient and secure verification of the contents of data structures.
 * [mspm](https://github.com/BlackRabbitt/mspm) - Multi-String Pattern Matching Algorithm for information retrieval.
 * [roaring](https://github.com/RoaringBitmap/roaring) - Go package implementing compressed bitsets.
+* [skiplist](https://github.com/MauriceGit/skiplist) - Very fast Go Skiplist implementation.
 * [skiplist](https://github.com/gansidui/skiplist) - Skiplist implementation in Go.
 * [trie](https://github.com/derekparker/trie) - Trie implementation in Go.
 * [ttlcache](https://github.com/diegobernardes/ttlcache) - In-memory LRU string-interface{} map with expiration for golang.
