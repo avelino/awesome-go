@@ -1464,6 +1464,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [profile](https://github.com/pkg/profile) - Simple profiling support package for Go.
 * [rclient](https://github.com/zpatrick/rclient) - Readable, flexible, simple-to-use client for REST APIs.
 * [realize](https://github.com/tockins/realize) - Go build system with file watchers and live reload. Run, build and watch file changes with custom paths.
+* [remote-torrent](https://github.com/brucewangno1/remote-torrent) - A simple tool for downloading Torrent remotely and retrieving files back over HTTP at full speed without ISP Torrent limitation.
 * [repeat](https://github.com/ssgreg/repeat) - Go implementation of different backoff strategies useful for retrying operations and heartbeating.
 * [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
 * [rerate](https://github.com/abo/rerate) - Redis-based rate counter and rate limiter for Go.
