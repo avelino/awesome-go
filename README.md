@@ -1678,6 +1678,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Goclipse](https://github.com/GoClipse/goclipse) - Eclipse plugin for Go.
 * [gocode](https://github.com/nsf/gocode) - Autocompletion daemon for the Go programming language.
 * [GoSublime](https://github.com/DisposaBoy/GoSublime) - Golang plugin collection for the text editor SublimeText 3 providing code completion and other IDE-like features.
+* [gounit-vim](https://github.com/hexdigest/gounit-vim) - Vim plugin for generating Go tests based on the function's or method's signature.
 * [theia-go-extension](https://github.com/theia-ide/theia-go-extension) - Go language support for the Theia IDE.
 * [velour](https://github.com/velour/velour) - IRC client for the acme editor.
 * [vim-compiler-go](https://github.com/rjohnsondev/vim-compiler-go) - Vim plugin to highlight syntax errors on save.
@@ -1691,6 +1692,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [genny](https://github.com/cheekybits/genny) - Elegant generics for Go.
 * [gonerics](http://github.com/bouk/gonerics) - Idiomatic Generics in Go.
 * [gotests](https://github.com/cweill/gotests) - Generate Go tests from your source code.
+* [gounit](https://github.com/hexdigest/gounit) - Generate Go tests using your own templates.
 * [re2dfa](https://github.com/opennota/re2dfa) - Transform regular expressions into finite state machines and output Go source code.
 
 ## Go Tools
