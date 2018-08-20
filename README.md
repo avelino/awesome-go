@@ -764,8 +764,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * [bayesian](https://github.com/jbrukh/bayesian) - Naive Bayesian Classification for Golang.
 * [CloudForest](https://github.com/ryanbressler/CloudForest) - Fast, flexible, multi-threaded ensembles of decision trees for machine learning in pure Go.
+* [eaopt](https://github.com/MaxHalford/eaopt) - An evolutionary optimization library.
 * [fonet](https://github.com/Fontinalis/fonet) - A Deep Neural Network library written in Go.
-* [gago](https://github.com/MaxHalford/gago) - Multi-population, flexible, parallel genetic algorithm.
 * [go-cluster](https://github.com/e-XpertSolutions/go-cluster) - Go implementation of the k-modes and k-prototypes clustering algorithms.
 * [go-deep](https://github.com/patrikeh/go-deep) - A feature-rich neural network library in Go.
 * [go-fann](https://github.com/white-pony/go-fann) - Go bindings for Fast Artificial Neural Networks(FANN) library.
