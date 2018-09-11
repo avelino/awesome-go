@@ -1830,6 +1830,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 ## Benchmarks
 
 * [autobench](https://github.com/davecheney/autobench) - Framework to compare the performance between different Go versions.
+* [benchmark-postgres-mongo](https://github.com/cn007b/benchmark-postgres-mongo) - Benchmarking read performance of PostgreSQL and MongoDB for Go on same data sets.
 * [go-benchmark-app](https://github.com/mrLSD/go-benchmark-app) - Powerful HTTP-benchmark tool mixed with Аb, Wrk, Siege tools. Gathering statistics and various parameters for benchmarks and comparison results.
 * [go-benchmarks](https://github.com/tylertreat/go-benchmarks) - Few miscellaneous Go microbenchmarks. Compare some language features to alternative approaches.
 * [go-http-routing-benchmark](https://github.com/julienschmidt/go-http-routing-benchmark) - Go HTTP request router benchmark and comparison.
