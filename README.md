@@ -850,6 +850,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [browscap_go](https://github.com/digitalcrab/browscap_go) - GoLang Library for [Browser Capabilities Project](http://browscap.org/).
 * [captcha](https://github.com/steambap/captcha) - Package captcha provides an easy to use, unopinionated API for captcha generation.
 * [conv](https://github.com/cstockton/go-conv) - Package conv provides fast and intuitive conversions across Go types.
+* [compress](https://github.com/mickep76/compress) - Package provides a generic interface to compress and un-compress.
 * [datacounter](https://github.com/miolini/datacounter) - Go counters for readers/writer/http.ResponseWriter.
 * [errors](https://github.com/pkg/errors) - Package that provides simple error handling primitives.
 * [ffmt](https://github.com/go-ffmt/ffmt) - Beautify data display for Humans.
