@@ -1155,7 +1155,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [jackal](https://github.com/ortuman/jackal) - An XMPP server written in Go.
 * [minio](https://github.com/minio/minio) - Minio is a distributed object storage server.
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform.
-* [yakvs](https://github.com/sci4me/yakvs) - Small, networked, in-memory key-value store.
+* [yakvs](https://git.sci4me.com/sci4me/yakvs) - Small, networked, in-memory key-value store.
 
 ## Template Engines
 
