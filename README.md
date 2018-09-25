@@ -485,6 +485,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [torrent](https://github.com/anacrolix/torrent) - BitTorrent client package.
     * [dht](https://godoc.org/github.com/anacrolix/dht) - BitTorrent Kademlia DHT implementation.
     * [go-peerflix](https://github.com/Sioro-Neoku/go-peerflix) - Video streaming torrent client.
+* [TarsGo](https://github.com/TarsCloud/TarsGo) - A  high performance microservice  framework  in golang. A linux foundation project.
 
 ## Email
 
