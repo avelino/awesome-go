@@ -467,6 +467,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-kit](https://github.com/go-kit/kit) - Microservice toolkit with support for service discovery, load balancing, pluggable transports, request tracking, etc.
 * [gorpc](https://github.com/valyala/gorpc) - Simple, fast and scalable RPC library for high load.
 * [grpc-go](https://github.com/grpc/grpc-go) - The Go language implementation of gRPC. HTTP/2 based RPC.
+* [gttc](https://github.com/TTCECO/gttc) - A decentralized and token incentivized social networking blockchain protocol using DPOS consensus.
 * [heimdall](https://github.com/gojektech/heimdall) - An enchanced http client with retry and hystrix capabilities.
 * [hprose](https://github.com/hprose/hprose-golang) - Very newbility RPC Library, support 25+ languages now.
 * [jaeger](https://github.com/jaegertracing/jaeger) - A distributed tracing system.
