@@ -482,7 +482,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [ngaro](https://github.com/db47h/ngaro) - Embeddable Ngaro VM implementation enabling scripting in Retro.
 * [otto](https://github.com/robertkrimen/otto) - JavaScript interpreter written in Go.
 * [purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go.
-* [roadrunner](https://github.com/spiral/roadrunner) - Embeddable PHP worker pool library for Golang.
 
 ## Files
 
@@ -1063,6 +1062,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Fider](https://github.com/getfider/fider) - Fider is an open platform to collect and organize customer feedback.
 * [minio](https://github.com/minio/minio) - Minio is a distributed object storage server.
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform.
+* [roadrunner](https://github.com/spiral/roadrunner) - High-performance PHP application server, load-balancer and process manager.
 * [yakvs](https://github.com/sci4me/yakvs) - Small, networked, in-memory key-value store.
 
 ## Template Engines
