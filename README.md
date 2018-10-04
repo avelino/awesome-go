@@ -1953,6 +1953,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [@golang_news](https://twitter.com/golang_news)
 * [@golangflow](https://twitter.com/golangflow)
 * [@golangweekly](https://twitter.com/golangweekly)
+* [@golangch](https://twitter.com/golangch)
 
 ## Websites
 
