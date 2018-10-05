@@ -700,6 +700,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [imaging](https://github.com/disintegration/imaging) - Simple Go image processing package.
 * [img](https://github.com/hawx/img) - Selection of image manipulation tools.
 * [ln](https://github.com/fogleman/ln) - 3D line art rendering in Go.
+* [mergi](https://github.com/noelyahan/mergi) - Tool & Go library for image manipulation (Merge, Crop, Resize, Watermark, Animate).
 * [mort](https://github.com/aldor007/mort) - Storage and image processing server written in Go.
 * [mpo](https://github.com/donatj/mpo) - Decoder and conversion tool for MPO 3D Photos.
 * [picfit](https://github.com/thoas/picfit) - An image resizing server written in Go.
