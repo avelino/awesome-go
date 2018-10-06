@@ -864,6 +864,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [errors](https://github.com/pkg/errors) - Package that provides simple error handling primitives.
 * [ffmt](https://github.com/go-ffmt/ffmt) - Beautify data display for Humans.
 * [ghorg](https://github.com/gabrie30/ghorg) - Clone all repos from a GitHub org into a single directory.
+* [gitql](https://github.com/cloudson/gitql) - A git query language  
 * [go-chat-bot](https://github.com/go-chat-bot/bot) - IRC, Slack & Telegram bot written in Go.
 * [go-commons-pool](https://github.com/jolestar/go-commons-pool) - Generic object pool for Golang.
 * [go-multierror](https://github.com/hashicorp/go-multierror) - Go (golang) package for representing a list of errors as a single error.
