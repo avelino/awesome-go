@@ -448,6 +448,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-persian-calendar](https://github.com/yaa110/go-persian-calendar) - The implementation of the Persian (Solar Hijri) Calendar in Go (golang).
 * [go-sunrise](https://github.com/nathan-osman/go-sunrise) - Calculate the sunrise and sunset times for a given location.
 * [goweek](https://github.com/grsmv/goweek) - Library for working with week entity in golang.
+* [Kair](https://github.com/GuilhermeCaruso/Kair) - Date and Time - Golang Formatting Library.
 * [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
 * [NullTime](https://github.com/kirillDanshin/nulltime) - Nullable `time.Time`.
 * [strftime](https://github.com/awoodbeck/strftime) - C99-compatible strftime formatter.
