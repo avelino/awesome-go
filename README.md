@@ -1210,6 +1210,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [endly](https://github.com/viant/endly) - Declarative end to end functional testing.
     * [frisby](https://github.com/verdverm/frisby) - REST API testing framework.
     * [ginkgo](http://onsi.github.io/ginkgo/) - BDD Testing Framework for Go.
+    * [go-assert](https://github.com/gribouille/go-assert) - Simple and non intrusive Go testing library.
     * [go-carpet](https://github.com/msoap/go-carpet) - Tool for viewing test coverage in terminal.
     * [go-cmp](https://github.com/google/go-cmp) - Package for comparing Go values in tests
     * [go-mutesting](https://github.com/zimmski/go-mutesting) - Mutation testing for Go source code.
@@ -1234,7 +1235,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [Testify](https://github.com/stretchr/testify) - Sacred extension to the standard go testing package.
     * [Tt](https://github.com/vcaesar/tt) - Simple and colorful test tools.
     * [wstest](https://github.com/posener/wstest) - Websocket client for unit-testing a websocket http.Handler.
-
+    
 * Mock
     * [counterfeiter](https://github.com/maxbrunsfeld/counterfeiter) - Tool for generating self-contained mock objects.
     * [go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) - Mock SQL driver for testing database interactions.
