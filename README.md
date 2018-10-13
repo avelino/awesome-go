@@ -663,10 +663,10 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gotk3](https://github.com/gotk3/gotk3) - Go bindings for GTK3.
 * [gowd](https://github.com/dtylman/gowd) - Rapid and simple desktop UI development with GO, HTML, CSS and NW.js. Cross platform.
 * [qt](https://github.com/therecipe/qt) - Qt binding for Go (support for Windows / macOS / Linux / Android / iOS / Sailfish OS / Raspberry Pi).
+* [GXUI fork](https://github.com/nelsam/gxui) - Fork google cross-platform GXUI with fix for latest version golang.
 * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go. Cross platform.
 * [walk](https://github.com/lxn/walk) - Windows application library kit for Go.
 * [webview](https://github.com/zserge/webview) - Cross-platform webview window with simple two-way JavaScript bindings (Windows / macOS / Linux).
-* [GXUI fork](https://github.com/nelsam/gxui) - Fork google cross-platform GXUI with fix for latest version golang.
 
 *Interaction*
 
