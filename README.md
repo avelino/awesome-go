@@ -573,6 +573,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Awesome game development libraries.*
 
+* [Amore](https://github.com/tanema/amore) - A game library for Go, inspired by Love 2D.
 * [Azul3D](https://github.com/azul3d/engine) - 3D game engine written in Go.
 * [Ebiten](https://github.com/hajimehoshi/ebiten) - dead simple 2D game library in Go.
 * [engo](https://github.com/EngoEngine/engo) - Engo is an open-source 2D game engine written in Go. It follows the Entity-Component-System paradigm.
@@ -591,7 +592,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [Pitaya](https://github.com/topfreegames/pitaya) - Scalable game server framework with clustering support and client libraries for iOS, Android, Unity and others through the C SDK.
 * [Pixel](https://github.com/faiface/pixel) - Hand-crafted 2D game library in Go.
 * [raylib-go](https://github.com/gen2brain/raylib-go) - Go bindings for [raylib](http://www.raylib.com/), a simple and easy-to-use library to learn videogames programming.
+* [strife](https://github.com/felixangell/strife) - a simple 2d game framework.
 * [termloop](https://github.com/JoelOtter/termloop) - Terminal-based game engine for Go, built on top of Termbox.
+
 
 ## Generation and Generics
 
