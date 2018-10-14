@@ -23,7 +23,7 @@ If you removed our PR template you can find it [here](https://github.com/avelino
 
 ## Quality standards
 
-To be on the list, project repositories should adhere to these quality standards (http://goreportcard.com/report/ **github_user** / **github_repo**):
+To be on the list, project repositories should adhere to these quality standards (https://goreportcard.com/report/github.com/ **github_user** / **github_repo**):
 
 - Code functions as documented and expected
 - Generally useful to the wider community of Go programmers

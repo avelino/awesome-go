@@ -5,7 +5,8 @@ Please check if what you want to add to `awesome-go` list meets [quality standar
 - github.com repo:
 - godoc.org:
 - goreportcard.com:
-- coverage service link ([cover.run](https://cover.run/), [gocover](http://gocover.io/), [coveralls](https://coveralls.io/) etc.), example: `![cover.run go](https://cover.run/go/github.com/user/repository.svg)`
+- coverage service link ([cover.run](https://cover.run/), [gocover](http://gocover.io/), [coveralls](https://coveralls.io/) etc.), example: `[![cover.run](https://cover.run/go/github.com/user/repository.svg?style=flat&tag=golang-1.10)](https://cover.run/go?tag=golang-1.10&repo=github.com%2Fuser%2Frepository)`
+
 
 Very good coverage
 
