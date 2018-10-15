@@ -1992,6 +1992,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [justforfunc](https://www.youtube.com/c/justforfunc) - Youtube channel dedicated to Go programming language tips and tricks, hosted by  Francesc Campoy [@francesc](https://twitter.com/francesc).
 * [r/Golang](https://www.reddit.com/r/golang) - News about Go.
 * [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
+* [TutorialEdge - Golang](https://tutorialedge.net/course/golang/)
 
 ### Tutorials
 
@@ -2010,3 +2011,4 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [package main](https://www.youtube.com/packagemain) - YouTube channel about Programming in Go.
 * [Working with Go](https://github.com/mkaz/working-with-go) - Intro to go for experienced programmers.
 * [Your basic Go](http://yourbasic.org/golang) - Huge collection of tutorials and how to's
+* [Go WebAssembly Tutorial - Building a Simple Calculator](https://tutorialedge.net/golang/go-webassembly-tutorial/)
