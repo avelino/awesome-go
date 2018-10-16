@@ -541,6 +541,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [pdfcpu](https://github.com/hhrutter/pdfcpu) - PDF processor.
 * [skywalker](https://github.com/dixonwille/skywalker) - Package to allow one to concurrently go through a filesystem with ease.
 * [tarfs](https://github.com/posener/tarfs) - Implementation of the [`FileSystem` interface](https://godoc.org/github.com/kr/fs#FileSystem) for tar files.
+* [go-decent-copy](https://github.com/hugocarreira/go-decent-copy) - Copy files for humans.
 
 ## Financial
 
