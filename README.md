@@ -13,9 +13,14 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 ### Contents
 
 - [Awesome Go](#awesome-go)
+        - [Contributing](#contributing)
+            - [*If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!*](#if-you-see-a-package-or-project-here-that-is-no-longer-maintained-or-is-not-a-good-fit-please-submit-a-pull-request-to-improve-this-file-thank-you)
+        - [Contents](#contents)
     - [Audio and Music](#audio-and-music)
     - [Authentication and OAuth](#authentication-and-oauth)
     - [Command Line](#command-line)
+        - [Standard CLI](#standard-cli)
+        - [Advanced Console UIs](#advanced-console-uis)
     - [Configuration](#configuration)
     - [Continuous Integration](#continuous-integration)
     - [CSS Preprocessors](#css-preprocessors)
@@ -37,7 +42,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [GUI](#gui)
     - [Hardware](#hardware)
     - [Images](#images)
-    - [IoT](#iot-internet-of-things)
+    - [IoT (Internet of Things)](#iot-internet-of-things)
     - [Logging](#logging)
     - [Machine Learning](#machine-learning)
     - [Messaging](#messaging)
@@ -52,6 +57,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Science and Data Analysis](#science-and-data-analysis)
     - [Security](#security)
     - [Serialization](#serialization)
+    - [Server Applications](#server-applications)
     - [Template Engines](#template-engines)
     - [Testing](#testing)
     - [Text Processing](#text-processing)
@@ -67,6 +73,23 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
         - [Routers](#routers)
     - [Windows](#windows)
     - [XML](#xml)
+- [Tools](#tools)
+    - [Code Analysis](#code-analysis)
+    - [Editor Plugins](#editor-plugins)
+    - [Go Generate Tools](#go-generate-tools)
+    - [Go Tools](#go-tools)
+    - [Software Packages](#software-packages)
+        - [DevOps Tools](#devops-tools)
+        - [Other Software](#other-software)
+- [Resources](#resources)
+    - [Benchmarks](#benchmarks)
+    - [Conferences](#conferences)
+    - [E-Books](#e-books)
+    - [Gophers](#gophers)
+    - [Meetups](#meetups)
+    - [Twitter](#twitter)
+    - [Websites](#websites)
+        - [Tutorials](#tutorials)
 
 - [Tools](#tools)
     - [Code Analysis](#code-analysis)
@@ -169,6 +192,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-commander](https://github.com/yitsushi/go-commander) - Go library to simplify CLI workflow
 * [go-flags](https://github.com/jessevdk/go-flags) - go command line option parser.
 * [gocmd](https://github.com/devfacet/gocmd) - Go library for building command line applications.
+* [hiboot cli](https://github.com/hidevopsio/hiboot) - Hiboot cli is an open-source, high-performance cli framework based on cobra with auto configuration, and dependency injection.
 * [kingpin](https://github.com/alecthomas/kingpin) - Command line and flag parser supporting sub commands.
 * [liner](https://github.com/peterh/liner) - Go readline-like library for command-line interfaces.
 * [mitchellh/cli](https://github.com/mitchellh/cli) - Go library for implementing command-line interfaces.
@@ -1578,6 +1602,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Golf](https://github.com/dinever/golf) - Golf is a fast, simple and lightweight micro-web framework for Go. It comes with powerful features and has no dependencies other than the Go Standard Library.
 * [Gondola](https://github.com/rainycape/gondola) - The web framework for writing faster sites, faster.
 * [gongular](https://github.com/mustafaakin/gongular) - Fast Go web framework with input mapping/validation and (DI) Dependency Injection.
+* [hiboot](https://github.com/hidevopsio/hiboot) - hiboot is an open-source, high-performance web framework with MVC, auto configuration, and dependency injection.
 * [Macaron](https://github.com/go-macaron/macaron) - Macaron is a high productive and modular design web framework in Go.
 * [mango](https://github.com/paulbellamy/mango) - Mango is a modular web-application framework for Go, inspired by Rack, and PEP333.
 * [Microservice](https://github.com/claygod/microservice) - The framework for the creation of microservices, written in Golang.
