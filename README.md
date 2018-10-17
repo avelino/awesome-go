@@ -1312,7 +1312,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [radix](https://github.com/yourbasic/radix) - fast string sorting algorithm.
     * [xj2go](https://github.com/stackerzzq/xj2go) - Convert xml or json to go struct.
     * [xurls](https://github.com/mvdan/xurls) - Extract urls from text.
-    * [sysinfo](https://github.com/zcalusic/sysinfo) - A pure Go library providing Linux OS / kernel / hardware system information.
 
 ## Third-party APIs
 
@@ -1513,6 +1512,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package.
 * [Storm](https://github.com/asdine/storm) - Simple and powerful toolkit for BoltDB.
 * [structs](https://github.com/PumpkinSeed/structs) - Implement simple functions to manipulate structs.
+* [sysinfo](https://github.com/zcalusic/sysinfo) - A pure Go library providing Linux OS / kernel / hardware system information.
 * [Task](https://github.com/go-task/task) - simple "Make" alternative.
 * [toolbox](https://github.com/viant/toolbox) - Slice, map, multimap, struct, function, data conversion utilities. Service router, macro evaluator, tokenizer.
 * [ugo](https://github.com/alxrm/ugo) - ugo is slice toolbox with concise syntax for Go.
