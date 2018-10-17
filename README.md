@@ -679,6 +679,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries, tools, and tutorials for interacting with hardware.*
 
 See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive list.
+* [ghw](https://github.com/jaypipes/ghw) - Golang hardware discovery/inspection library.
 
 ## Images
 
@@ -1311,6 +1312,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [radix](https://github.com/yourbasic/radix) - fast string sorting algorithm.
     * [xj2go](https://github.com/stackerzzq/xj2go) - Convert xml or json to go struct.
     * [xurls](https://github.com/mvdan/xurls) - Extract urls from text.
+    * [sysinfo](https://github.com/zcalusic/sysinfo) - A pure Go library providing Linux OS / kernel / hardware system information.
 
 ## Third-party APIs
 
