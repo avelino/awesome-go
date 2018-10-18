@@ -1845,7 +1845,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [syncthing](https://syncthing.net/) - Open, decentralized file synchronization tool and protocol.
 * [Tenyks](https://github.com/kyleterry/tenyks) - Service oriented IRC bot using Redis and JSON for messaging.
 * [term-quiz](https://github.com/crazcalm/term-quiz) - Quizzes for your terminal.
-* [toto](https://github.com/blogcin/ToTo) - Simple proxy server written in Go language, can be used together with browser.
 * [toxiproxy](https://github.com/shopify/toxiproxy) - Proxy to simulate network and system conditions for automated tests.
 * [tsuru](https://tsuru.io/) - Extensible and open source Platform as a Service software.
 * [vFlow](https://github.com/VerizonDigital/vflow) - High-performance, scalable and reliable IPFIX, sFlow and Netflow collector.
