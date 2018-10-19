@@ -1668,7 +1668,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [xmlwriter](https://github.com/shabbyrobe/xmlwriter) - Procedural XML generation API based on libxml2's xmlwriter module.
 * [xpath](https://github.com/antchfx/xpath) - XPath package for Go.
 * [xquery](https://github.com/antchfx/xquery) - XQuery lets you extract data from HTML/XML documents using XPath expression.
-
+* [xml2map](https://github.com/sbabiv/xml2map) - XML to MAP converter written Golang
 # Tools
 
 *Go software and plugins.*
