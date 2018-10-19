@@ -536,6 +536,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [afero](https://github.com/spf13/afero) - FileSystem Abstraction System for Go.
 * [go-csv-tag](https://github.com/artonge/go-csv-tag) - Load csv file using tag.
+* [go-decent-copy](https://github.com/hugocarreira/go-decent-copy) - Copy files for humans.
 * [go-gtfs](https://github.com/artonge/go-gtfs) - Load gtfs files in go.
 * [notify](https://github.com/rjeczalik/notify) - File system event notification library with simple API, similar to os/signal.
 * [pdfcpu](https://github.com/hhrutter/pdfcpu) - PDF processor.
