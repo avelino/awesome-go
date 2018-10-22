@@ -529,6 +529,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [ngaro](https://github.com/db47h/ngaro) - Embeddable Ngaro VM implementation enabling scripting in Retro.
 * [otto](https://github.com/robertkrimen/otto) - JavaScript interpreter written in Go.
 * [purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go.
+* [WDTE](https://github.com/DeedleFake/wdte) - Extremely simple, functional-ish embeddable scripting language in pure Go.
 
 ## Files
 
