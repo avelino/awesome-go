@@ -1097,7 +1097,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-dsp](https://github.com/mjibson/go-dsp) - Digital Signal Processing for Go.
 * [go-fn](https://github.com/ematvey/go-fn) - Mathematical functions written in Go language, that are not covered by math pkg.
 * [go-gt](https://github.com/ThePaw/go-gt) - Graph theory algorithms written in "Go" language.
-* [go.matrix](https://github.com/skelterjohn/go.matrix) - linear algebra for go (has been stalled).
 * [gocomplex](https://github.com/varver/gocomplex) - Complex number library for the Go programming language.
 * [goent](https://github.com/kzahedi/goent) - GO Implementation of Entropy Measures
 * [gohistogram](https://github.com/VividCortex/gohistogram) - Approximate histograms for data streams.
