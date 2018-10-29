@@ -1002,6 +1002,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [sslb](https://github.com/eduardonunesp/sslb) - It's a Super Simples Load Balancer, just a little project to achieve some kind of performance.
 * [stun](https://github.com/go-rtc/stun) - Go implementation of RFC 5389 STUN protocol.
 * [tcp_server](https://github.com/firstrow/tcp_server) - Go library for building tcp servers faster.
+* [tspool](https://github.com/two/tspool) - A TCP Library use worker pool to improve performance and protect your server. 
 * [utp](https://github.com/anacrolix/utp) - Go uTP micro transport protocol implementation.
 * [water](https://github.com/songgao/water) - Simple TUN/TAP library.
 * [winrm](https://github.com/masterzen/winrm) - Go WinRM client to remotely execute commands on Windows machines.
