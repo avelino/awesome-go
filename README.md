@@ -701,10 +701,10 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gocv](https://github.com/hybridgroup/gocv) - Go package for computer vision using OpenCV 3.3+.
 * [goimagehash](https://github.com/corona10/goimagehash) - Go Perceptual image hashing package.
 * [govatar](https://github.com/o1egl/govatar) - Library and CMD tool for generating funny avatars.
+* [image2ascii](https://github.com/qeesung/image2ascii) - Convert image to ASCII.
 * [imagick](https://github.com/gographics/imagick) - Go binding to ImageMagick's MagickWand C API.
 * [imaginary](https://github.com/h2non/imaginary) - Fast and simple HTTP microservice for image resizing.
 * [imaging](https://github.com/disintegration/imaging) - Simple Go image processing package.
-* [image2ascii](https://github.com/qeesung/image2ascii) - Convert image to ASCII.
 * [img](https://github.com/hawx/img) - Selection of image manipulation tools.
 * [ln](https://github.com/fogleman/ln) - 3D line art rendering in Go.
 * [mergi](https://github.com/noelyahan/mergi) - Tool & Go library for image manipulation (Merge, Crop, Resize, Watermark, Animate).
