@@ -1837,6 +1837,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [myLG](https://github.com/mehrdadrad/mylg) - Command Line Network Diagnostic tool written in Go.
 * [naclpipe](https://github.com/unix4fun/naclpipe) - Simple NaCL EC25519 based crypto pipe tool written in Go.
 * [nes](https://github.com/fogleman/nes) - Nintendo Entertainment System (NES) emulator written in Go.
+* [OpenFaas](https://www.openfaas.com/) - Serverless Functions framework for Docker and Kubernetes written in Go.
 * [orange-cat](https://github.com/noraesae/orange-cat) - Markdown previewer written in Go.
 * [Orbit](https://github.com/gulien/orbit) - A simple tool for running commands and generating files from templates.
 * [peg](https://github.com/pointlander/peg) - Peg, Parsing Expression Grammar, is an implementation of a Packrat parser generator.
