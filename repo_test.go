@@ -3,6 +3,7 @@ package main
 import (
 	"bytes"
 	"io/ioutil"
+	"regexp"
 	"sort"
 	"strings"
 	"testing"
@@ -37,6 +38,37 @@ func TestDuplicatedLinks(t *testing.T) {
 			links[href] = true
 		})
 	})
+}
+
+var (
+	reContainsLink        = regexp.MustCompile(`\* \[.*\]\(.*\)`)
+	reOnlyLink            = regexp.MustCompile(`\* \[.*\]\(.*\)$`)
+	reLinkWithDescription = regexp.MustCompile(`\* \[.*\]\(.*\) - \S`)
+)
+
+// Test if an entry has description, it must be separated from link with ` - `
+func TestSeparator(t *testing.T) {
+	var matched, containsLink, noDescription bool
+	input, err := ioutil.ReadFile("./README.md")
+	if err != nil {
+		panic(err)
+	}
+	lines := strings.Split(string(input), "\n")
+	for _, line := range lines {
+		line = strings.Trim(line, " ")
+		containsLink = reContainsLink.MatchString(line)
+		if containsLink {
+			noDescription = reOnlyLink.MatchString(line)
+			if noDescription {
+				continue
+			}
+
+			matched = reLinkWithDescription.MatchString(line)
+			if !matched {
+				t.Errorf("expected entry to be in form of `* [link] - description`, got '%s'", line)
+			}
+		}
+	}
 }
 
 func testList(t *testing.T, list *goquery.Selection) {
