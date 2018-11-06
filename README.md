@@ -1602,7 +1602,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [tigertonic](https://github.com/rcrowley/go-tigertonic) - Go framework for building JSON web services inspired by Dropwizard.
 * [traffic](https://github.com/pilu/traffic) - Sinatra inspired regexp/pattern mux and web framework for Go.
 * [utron](https://github.com/gernest/utron) - Lightweight MVC framework for Go(Golang).
-* [violetear](https://github.com/nbari/violetear) - Go HTTP router.
 * [WebGo](https://github.com/bnkamalesh/webgo) - A micro-framework to build web apps; with handler chaining, middleware and context injection. With standard library compliant HTTP handlers(i.e. http.HandlerFunc).
 * [YARF](https://github.com/yarf-framework/yarf) - Fast micro-framework designed to build REST APIs and web services in a fast and simple way.
 * [Zerver](https://github.com/cosiner/zerver) - Zerver is an expressive, modular, feature completed RESTful framework.
@@ -1658,6 +1657,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [pure](https://github.com/go-playground/pure) - Is a lightweight HTTP router that sticks to the std "net/http" implementation.
 * [Siesta](https://github.com/VividCortex/siesta) - Composable framework to write middleware and handlers.
 * [vestigo](https://github.com/husobee/vestigo) - Performant, stand-alone, HTTP compliant URL Router for go web applications.
+* [violetear](https://github.com/nbari/violetear) - Go HTTP router.
 * [xmux](https://github.com/rs/xmux) - High performance muxer based on `httprouter` with `net/context` support.
 * [xujiajun/gorouter](https://github.com/xujiajun/gorouter) - A simple and fast HTTP router for Go.
 * [zeus](https://github.com/daryl/zeus) - Very simple and fast HTTP router for Go.
