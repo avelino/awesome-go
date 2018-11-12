@@ -284,6 +284,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-mcache](https://github.com/OrlovEvgeny/go-mcache) - Fast in-memory key:value store/cache library. Pointer caches.
 * [go-rquad](https://github.com/aurelien-rainone/go-rquad) - Region quadtrees with efficient point location and neighbour finding.
 * [gods](https://github.com/emirpasic/gods) - Go Data Structures. Containers, Sets, Lists, Stacks, Maps, BidiMaps, Trees, HashSet etc.
+* [GoKi](https://github.com/goki/ki) - Full-strength, general purpose tree structure (ki = tree in Japanese) -- used e.g., for scenegraph in GoGi GUI toolkit.
 * [golang-set](https://github.com/deckarep/golang-set) - Thread-Safe and Non-Thread-Safe high-performance sets for Go.
 * [goset](https://github.com/zoumo/goset) - A useful Set collection implementation for Go.
 * [goskiplist](https://github.com/ryszard/goskiplist) - Skip list implementation in Go.
@@ -663,6 +664,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [fyne](https://github.com/fyne-io/fyne) - Cross platform native GUIs designed for Go, rendered using EFL. Supports: Linux, macOS, Windows.
 * [go-astilectron](https://github.com/asticode/go-astilectron) - Build cross platform GUI apps with GO and HTML/JS/CSS (powered by Electron).
 * [go-gtk](http://mattn.github.io/go-gtk/) - Go bindings for GTK.
+* [GoGi](https://github.com/goki/gi) - Fully Go-native cross-platform GUI toolkit.
 * [go-sciter](https://github.com/sciter-sdk/go-sciter) - Go bindings for Sciter: the Embeddable HTML/CSS/script engine for modern desktop UI development. Cross platform.
 * [gotk3](https://github.com/gotk3/gotk3) - Go bindings for GTK3.
 * [gowd](https://github.com/dtylman/gowd) - Rapid and simple desktop UI development with GO, HTML, CSS and NW.js. Cross platform.
@@ -714,6 +716,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [mpo](https://github.com/donatj/mpo) - Decoder and conversion tool for MPO 3D Photos.
 * [picfit](https://github.com/thoas/picfit) - An image resizing server written in Go.
 * [pt](https://github.com/fogleman/pt) - Path tracing engine written in Go.
+* [rasterx](https://github.com/srwiley/rasterx) - SVG 2.0 path compliant rasterizer.
 * [resize](https://github.com/nfnt/resize) - Image resizing for Go with common interpolation methods.
 * [rez](https://github.com/bamiaux/rez) - Image resizing in pure Go and SIMD.
 * [smartcrop](https://github.com/muesli/smartcrop) - Finds good crops for arbitrary images and crop sizes.
@@ -1782,6 +1785,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gobrew](https://github.com/cryptojuice/gobrew) - gobrew lets you easily switch between multiple versions of go.
 * [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application.
 * [Gogs](https://gogs.io/) - A Self Hosted Git Service in the Go Programming Language.
+* [Gide](https://github.com/goki/gide) - Fully Go-native IDE written in the GoGi cross-platform GUI toolkit.
 * [gonative](https://github.com/inconshreveable/gonative) - Tool which creates a build of Go that can cross compile to all platforms while still using the Cgo-enabled versions of the stdlib packages.
 * [govvv](https://github.com/ahmetalpbalkan/govvv) - “go build” wrapper to easily add version information into Go binaries.
 * [gox](https://github.com/mitchellh/gox) - Dead simple, no frills Go cross compile tool.
