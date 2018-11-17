@@ -29,6 +29,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Files](#files)
     - [Financial](#financial)
     - [Forms](#forms)
+    - [Functional](#functional)
     - [Game Development](#game-development)
     - [Generation and Generics](#generation-and-generics)
     - [Geographic](#geographic)
@@ -568,6 +569,14 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [forms](https://github.com/albrow/forms) - Framework-agnostic library for parsing and validating form/JSON data which supports multipart forms and files.
 * [gorilla/csrf](https://github.com/gorilla/csrf) - CSRF protection for Go web applications & services.
 * [nosurf](https://github.com/justinas/nosurf) - CSRF protection middleware for Go.
+
+## Functional
+
+*Packages to support functional programming in Go.*
+
+* [fpGo](https://github.com/TeaEntityLab/fpGo) - Monad, Functional Programming features for Golang
+* [fuego](https://github.com/seborama/fuego) - Functional Experiment in Go
+* [go-underscore](https://github.com/tobyhede/go-underscore) - Useful collection of helpfully functional Go collection utilities.
 
 ## Game Development
 
@@ -1426,7 +1435,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [filetype](https://github.com/h2non/filetype) - Small package to infer the file type checking the magic numbers signature.
 * [filler](https://github.com/yaronsumel/filler) - small utility to fill structs using "fill" tag.
 * [filter](https://github.com/gookit/filter) - provide filtering, sanitizing, and conversion of Go data.
-* [fpGo](https://github.com/TeaEntityLab/fpGo) - Monad, Functional Programming features for Golang
 * [fzf](https://github.com/junegunn/fzf) - Command-line fuzzy finder written in Go.
 * [gaper](https://github.com/maxcnunes/gaper) - Builds and restarts a Go project when it crashes or some watched file changes.
 * [generate](https://github.com/go-playground/generate) - runs go generate recursively on a specified path or environment variable and can filter by regex.
@@ -1446,7 +1454,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-sitemap-generator](https://github.com/ikeikeikeike/go-sitemap-generator) - XML Sitemap generator written in Go.
 * [go-torch](https://github.com/uber/go-torch) - Stochastic flame graph profiler for Go programs.
 * [go-trigger](https://github.com/sadlil/go-trigger) - Go-lang global event triggerer, Register Events with an id and trigger the event from anywhere from your project.
-* [go-underscore](https://github.com/tobyhede/go-underscore) - Useful collection of helpfully functional Go collection utilities.
 * [goback](https://github.com/carlescere/goback) - Go simple exponential backoff package.
 * [godaemon](https://github.com/VividCortex/godaemon) - Utility to write daemons.
 * [godropbox](https://github.com/dropbox/godropbox) - Common libraries for writing Go services/applications from Dropbox.
