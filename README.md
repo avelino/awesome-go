@@ -1017,6 +1017,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * [gentleman](https://github.com/h2non/gentleman) - Full-featured plugin-driven HTTP client library.
 * [goreq](https://github.com/smallnest/goreq) - Enhanced simplified HTTP client based on gorequest.
+* [grequests](https://github.com/levigross/grequests) - A Go "clone" of the great and famous Requests library
 * [heimdall](https://github.com/gojektech/heimdall) - An enchanced http client with retry and hystrix capabilities.
 * [pester](https://github.com/sethgrid/pester) - Go HTTP client calls with retries, backoff, and concurrency.
 * [rq](https://github.com/ddo/rq) - A nicer interface for golang stdlib HTTP client.
