@@ -45,6 +45,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Miscellaneous](#miscellaneous)
     - [Natural Language Processing](#natural-language-processing)
     - [Networking](#networking)
+        - [HTTP Clients](#http-clients)
     - [OpenGL](#opengl)
     - [ORM](#orm)
     - [Package Management](#package-management)
@@ -475,7 +476,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-kit](https://github.com/go-kit/kit) - Microservice toolkit with support for service discovery, load balancing, pluggable transports, request tracking, etc.
 * [gorpc](https://github.com/valyala/gorpc) - Simple, fast and scalable RPC library for high load.
 * [grpc-go](https://github.com/grpc/grpc-go) - The Go language implementation of gRPC. HTTP/2 based RPC.
-* [heimdall](https://github.com/gojektech/heimdall) - An enchanced http client with retry and hystrix capabilities.
 * [hprose](https://github.com/hprose/hprose-golang) - Very newbility RPC Library, support 25+ languages now.
 * [jaeger](https://github.com/jaegertracing/jaeger) - A distributed tracing system.
 * [jsonrpc](https://github.com/osamingo/jsonrpc) - The jsonrpc package helps implement of JSON-RPC 2.0.
@@ -1020,6 +1020,18 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [winrm](https://github.com/masterzen/winrm) - Go WinRM client to remotely execute commands on Windows machines.
 * [xtcp](https://github.com/xfxdev/xtcp) - TCP Server Framework with simultaneous full duplex communication,graceful shutdown,custom protocol.
 
+### HTTP Clients
+
+*Libraries for making HTTP requests*
+
+* [gentleman](https://github.com/h2non/gentleman) - Full-featured plugin-driven HTTP client library.
+* [goreq](https://github.com/smallnest/goreq) - Enhanced simplified HTTP client based on gorequest.
+* [grequests](https://github.com/levigross/grequests) - A Go "clone" of the great and famous Requests library
+* [heimdall](https://github.com/gojektech/heimdall) - An enchanced http client with retry and hystrix capabilities.
+* [pester](https://github.com/sethgrid/pester) - Go HTTP client calls with retries, backoff, and concurrency.
+* [rq](https://github.com/ddo/rq) - A nicer interface for golang stdlib HTTP client.
+* [sling](https://github.com/dghubble/sling) - Sling is a Go HTTP client library for creating and sending API requests.
+
 ## OpenGL
 
 *Libraries for using OpenGL in Go.*
@@ -1439,7 +1451,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [fzf](https://github.com/junegunn/fzf) - Command-line fuzzy finder written in Go.
 * [gaper](https://github.com/maxcnunes/gaper) - Builds and restarts a Go project when it crashes or some watched file changes.
 * [generate](https://github.com/go-playground/generate) - runs go generate recursively on a specified path or environment variable and can filter by regex.
-* [gentleman](https://github.com/h2non/gentleman) - Full-featured plugin-driven HTTP client library.
 * [git-time-metric](https://github.com/git-time-metric/gtm) - Simple, seamless, lightweight time tracking for Git.
 * [GJSON](https://github.com/tidwall/gjson) - Get a JSON value with one line of code.
 * [go-astitodo](https://github.com/asticode/go-astitodo) - Parse TODOs in your GO code.
@@ -1468,13 +1479,10 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [goreleaser](https://github.com/goreleaser/goreleaser) - Deliver Go binaries as fast and easily as possible.
 * [goreporter](https://github.com/wgliang/goreporter) - Golang tool that does static analysis, unit testing, code review and generate code quality report.
 * [goreq](https://github.com/franela/goreq) - Minimal and simple request library for Go language.
-* [goreq](https://github.com/smallnest/goreq) - Enhanced simplified HTTP client based on gorequest.
-* [gorequest](https://github.com/parnurzeal/gorequest) - Simplified HTTP client with rich features for Go.
 * [goseaweedfs](https://github.com/linxGnu/goseaweedfs) - SeaweedFS client library with almost full features.
 * [gotenv](https://github.com/subosito/gotenv) - Load environment variables from `.env` or any `io.Reader` in Go.
 * [goxlsxwriter](https://github.com/fterrag/goxlsxwriter) - Golang bindings for libxlsxwriter for writing XLSX (Microsoft Excel) files.
 * [gpath](https://github.com/tenntenn/gpath) - Library to simplify access struct fields with Go's expression in reflection.
-* [grequests](https://github.com/levigross/grequests) - Elegant and simple `net/http` wrapper that follows Python's requests library.
 * [gron](https://github.com/roylee0704/gron) - Define time-based tasks using a simple Go API and Gron’s scheduler will run them accordingly.
 * [gubrak](https://gubrak.github.io/) - Golang utility library with syntactic sugar. It's like lodash, but for golang.
 * [htcat](https://github.com/htcat/htcat) - Parallel and Pipelined HTTP GET Utility.
@@ -1508,7 +1516,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [onecache](https://github.com/adelowo/onecache) - Caching library with support for multiple backend stores (Redis, Memcached, filesystem etc).
 * [panicparse](https://github.com/maruel/panicparse) - Groups similar goroutines and colorizes stack dump.
 * [peco](https://github.com/peco/peco) - Simplistic interactive filtering tool.
-* [pester](https://github.com/sethgrid/pester) - Go HTTP client calls with retries, backoff, and concurrency.
 * [pm](https://github.com/VividCortex/pm) - Process (i.e. goroutine) manager with an HTTP API.
 * [profile](https://github.com/pkg/profile) - Simple profiling support package for Go.
 * [rclient](https://github.com/zpatrick/rclient) - Readable, flexible, simple-to-use client for REST APIs.
@@ -1524,9 +1531,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [retry](https://github.com/shafreeck/retry) - A pretty simple library to ensure your work to be done.
 * [retry-go](https://github.com/rafaeljesus/retry-go) - Retrying made simple and easy for golang.
 * [robustly](https://github.com/VividCortex/robustly) - Runs functions resiliently, catching and restarting panics.
-* [rq](https://github.com/ddo/rq) - A nicer interface for golang stdlib HTTP client.
 * [scheduler](https://github.com/carlescere/scheduler) - Cronjobs scheduling made easy.
-* [sling](https://github.com/dghubble/sling) - Go HTTP requests builder for API clients.
 * [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
 * [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package.
 * [sslice](https://github.com/yaa110/sslice) - Create a slice which is always sorted.
