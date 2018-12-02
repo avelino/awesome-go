@@ -1795,7 +1795,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [fac](https://github.com/mkchoi212/fac) - Command-line user interface to fix git merge conflicts
 * [gaia](https://github.com/gaia-pipeline/gaia) - Build powerful pipelines in any programming language.
 * [Gitea](https://github.com/go-gitea/gitea) - Fork of Gogs, entirely community driven.
-* [Go Metrics](https://github.com/rcrowley/go-metrics) - Go port of Coda Hale's Metrics library: https://github.com/codahale/metrics.
 * [go-furnace](https://github.com/go-furnace/go-furnace) - Hosting solution written in Go. Deploy your Application with ease on AWS, GCP or DigitalOcean.
 * [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update.
 * [gobrew](https://github.com/cryptojuice/gobrew) - gobrew lets you easily switch between multiple versions of go.
