@@ -1128,7 +1128,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gocomplex](https://github.com/varver/gocomplex) - Complex number library for the Go programming language.
 * [goent](https://github.com/kzahedi/goent) - GO Implementation of Entropy Measures
 * [gohistogram](https://github.com/VividCortex/gohistogram) - Approximate histograms for data streams.
-* [gonum/mat64](https://github.com/gonum/matrix) - The general purpose package for matrix computation. Package mat64 provides basic linear algebra operations for float64 matrices.
 * [gonum/plot](https://github.com/gonum/plot) - gonum/plot provides an API for building and drawing plots in Go.
 * [goraph](https://github.com/gyuho/goraph) - Pure Go graph theory library(data structure, algorith visualization).
 * [gosl](https://github.com/cpmech/gosl) - Go scientific library for linear algebra, FFT, geometry, NURBS, numerical methods, probabilities, optimisation, differential equations, and more.
