@@ -1126,8 +1126,9 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-fn](https://github.com/ematvey/go-fn) - Mathematical functions written in Go language, that are not covered by math pkg.
 * [go-gt](https://github.com/ThePaw/go-gt) - Graph theory algorithms written in "Go" language.
 * [gocomplex](https://github.com/varver/gocomplex) - Complex number library for the Go programming language.
-* [goent](https://github.com/kzahedi/goent) - GO Implementation of Entropy Measures
+* [goent](https://github.com/kzahedi/goent) - GO Implementation of Entropy Measures.
 * [gohistogram](https://github.com/VividCortex/gohistogram) - Approximate histograms for data streams.
+* [gonum](https://github.com/gonum/gonum) - Gonum is a set of numeric libraries for the Go programming language. It contains libraries for matrices, statistics, optimization, and more.
 * [gonum/plot](https://github.com/gonum/plot) - gonum/plot provides an API for building and drawing plots in Go.
 * [goraph](https://github.com/gyuho/goraph) - Pure Go graph theory library(data structure, algorith visualization).
 * [gosl](https://github.com/cpmech/gosl) - Go scientific library for linear algebra, FFT, geometry, NURBS, numerical methods, probabilities, optimisation, differential equations, and more.
