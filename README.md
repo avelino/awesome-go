@@ -1726,7 +1726,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-language-server](https://github.com/theia-ide/go-language-server) - A wrapper to turn the VSCode go extension into a language server supporting the language-server-protocol.
 * [go-mode](https://github.com/dominikh/go-mode.el) - Go mode for GNU/Emacs.
 * [go-plus](https://github.com/joefitzgerald/go-plus) - Go (Golang) Package For Atom That Adds Autocomplete, Formatting, Syntax Checking, Linting and Vetting.
-* [Goclipse](https://github.com/GoClipse/goclipse) - Eclipse plugin for Go.
 * [gocode](https://github.com/nsf/gocode) - Autocompletion daemon for the Go programming language.
 * [GoSublime](https://github.com/DisposaBoy/GoSublime) - Golang plugin collection for the text editor SublimeText 3 providing code completion and other IDE-like features.
 * [gounit-vim](https://github.com/hexdigest/gounit-vim) - Vim plugin for generating Go tests based on the function's or method's signature.
