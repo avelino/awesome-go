@@ -908,6 +908,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [indigo](https://github.com/osamingo/indigo) - Distributed unique ID generator of using Sonyflake and encoded by Base58.
 * [jobs](https://github.com/albrow/jobs) - Persistent and flexible background jobs library.
 * [lk](https://github.com/hyperboloide/lk) - A simple licensing library for golang.
+* [llvm](https://github.com/llir/llvm) - Library for interacting with LLVM IR in pure Go.
 * [margelet](https://github.com/zhulik/margelet) - Framework for building Telegram bots.
 * [morse](https://github.com/alwindoss/morse) - Library to convert to and from morse code.
 * [pdfgen](https://github.com/hyperboloide/pdfgen) - HTTP service to generate PDF from Json requests.
