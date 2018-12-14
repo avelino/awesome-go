@@ -43,7 +43,7 @@ func TestDuplicatedLinks(t *testing.T) {
 var (
 	reContainsLink        = regexp.MustCompile(`\* \[.*\]\(.*\)`)
 	reOnlyLink            = regexp.MustCompile(`\* \[.*\]\(.*\)$`)
-	reLinkWithDescription = regexp.MustCompile(`\* \[.*\]\(.*\) - \S`)
+	reLinkWithDescription = regexp.MustCompile(`\* \[.*\]\(.*\) - \S.*\.`)
 )
 
 // Test if an entry has description, it must be separated from link with ` - `
