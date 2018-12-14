@@ -65,7 +65,7 @@ func TestSeparator(t *testing.T) {
 
 			matched = reLinkWithDescription.MatchString(line)
 			if !matched {
-				t.Errorf("expected entry to be in form of `* [link] - description`, got '%s'", line)
+				t.Errorf("expected entry to be in form of `* [link] - description.`, got '%s'", line)
 			}
 		}
 	}
