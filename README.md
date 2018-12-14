@@ -1026,7 +1026,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 ### HTTP Clients
 
-*Libraries for making HTTP requests*
+*Libraries for making HTTP requests.*
 
 * [gentleman](https://github.com/h2non/gentleman) - Full-featured plugin-driven HTTP client library.
 * [goreq](https://github.com/smallnest/goreq) - Enhanced simplified HTTP client based on gorequest.
