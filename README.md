@@ -1357,7 +1357,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [codeship-go](https://github.com/codeship/codeship-go) - Go client library for interacting with Codeship's API v2.
 * [coinpaprika-go](https://github.com/coinpaprika/coinpaprika-api-go-client) - Go client library for interacting with Coinpaprika's API.
 * [discordgo](https://github.com/bwmarrin/discordgo) - Go bindings for the Discord Chat API.
-* [drive](https://github.com/odeke-em/drive) - Google Drive client for the commandline.
 * [ethrpc](https://github.com/onrik/ethrpc) - Go bindings for Ethereum JSON RPC API.
 * [facebook](https://github.com/huandu/facebook) - Go Library that supports the Facebook Graph API.
 * [fcm](https://github.com/maddevsio/fcm) - Go library for Firebase Cloud Messaging.
@@ -1834,6 +1833,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [DDNS](https://github.com/skibish/ddns) - Personal DDNS client with Digital Ocean Networking DNS as backend.
 * [Docker](http://www.docker.com/) - Open platform for distributed applications for developers and sysadmins.
 * [Documize](https://github.com/documize/community) - Modern wiki software that integrates data from SaaS tools.
+* [drive](https://github.com/odeke-em/drive) - Google Drive client for the commandline.
 * [Duplicacy](https://github.com/gilbertchen/duplicacy) - A cross-platform network and cloud backup tool based on the idea of lock-free deduplication.
 * [Go Package Store](https://github.com/shurcooL/Go-Package-Store) - App that displays updates for the Go packages in your GOPATH.
 * [GoBoy](https://github.com/Humpheh/goboy) - Nintendo Game Boy Color emulator written in Go.
