@@ -428,6 +428,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [redis](https://github.com/go-redis/redis) - Redis client for Golang.
     * [redis](https://github.com/bsm/redeo) - Redis-protocol compatible TCP servers/services.
     * [xredis](https://github.com/shomali11/xredis) - Typesafe, customizable, clean & easy to use Redis client.
+    * [go-rejson](https://github.com/nitishm/go-rejson) - Golang client for redislabs' ReJSON module using Redigo golang client. Store and manipulate structs as JSON objects in redis with ease.
 
 * Search and Analytic Databases.
     * [bleve](https://github.com/blevesearch/bleve) - Modern text indexing library for go.
