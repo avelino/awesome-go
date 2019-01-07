@@ -420,6 +420,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [gorethink](https://github.com/dancannon/gorethink) - Go language driver for RethinkDB.
     * [goriak](https://github.com/zegl/goriak) - Go language driver for Riak KV.
     * [mgo](https://github.com/globalsign/mgo) - MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
+    * [go-rejson](https://github.com/nitishm/go-rejson) - Golang client for redislabs' ReJSON module using Redigo golang client. Store and manipulate structs as JSON objects in redis with ease.
     * [mongo-go-driver](https://github.com/mongodb/mongo-go-driver) - Official MongoDB driver for the Go language.
     * [neo4j](https://github.com/cihangir/neo4j) - Neo4j Rest API Bindings for Golang.
     * [Neo4j-GO](https://github.com/davemeehan/Neo4j-GO) - Neo4j REST Client in golang.
@@ -428,7 +429,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [redis](https://github.com/go-redis/redis) - Redis client for Golang.
     * [redis](https://github.com/bsm/redeo) - Redis-protocol compatible TCP servers/services.
     * [xredis](https://github.com/shomali11/xredis) - Typesafe, customizable, clean & easy to use Redis client.
-    * [go-rejson](https://github.com/nitishm/go-rejson) - Golang client for redislabs' ReJSON module using Redigo golang client. Store and manipulate structs as JSON objects in redis with ease.
 
 * Search and Analytic Databases.
     * [bleve](https://github.com/blevesearch/bleve) - Modern text indexing library for go.
