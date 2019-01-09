@@ -413,6 +413,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [dynago](https://github.com/underarmour/dynago) - Dynago is a principle of least surprise client for DynamoDB.
     * [go-couchbase](https://github.com/couchbase/go-couchbase) - Couchbase client in Go.
     * [go-couchdb](https://github.com/fjl/go-couchdb) - Yet another CouchDB HTTP API wrapper for Go.
+    * [go-rejson](https://github.com/nitishm/go-rejson) - Golang client for redislabs' ReJSON module using Redigo golang client. Store and manipulate structs as JSON objects in redis with ease.
     * [gocb](https://github.com/couchbase/gocb) - Official Couchbase Go SDK.
     * [gocql](http://gocql.github.io) - Go language driver for Apache Cassandra.
     * [godscache](https://github.com/defcronyke/godscache) - A wrapper for the Google Cloud Platform Go Datastore package that adds caching using memcached.
