@@ -749,6 +749,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [iot](https://github.com/vaelen/iot/) - IoT is a simple framework for implementing a Google IoT Core device.
 * [mainflux](https://github.com/Mainflux/mainflux) - Industrial IoT Messaging and Device Management Server.
 * [periph](https://periph.io/) - Peripherals I/O to interface with low-level board facilities.
+* [senml](https://github.com/objenious/senml) - SenML (Sensor Measurement Lists) format, defined by [RFC8428](https://tools.ietf.org/html/rfc8428).
 * [sensorbee](https://github.com/sensorbee/sensorbee) - Lightweight stream processing engine for IoT.
 
 ## Logging
