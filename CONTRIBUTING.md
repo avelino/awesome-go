@@ -34,13 +34,23 @@ To be on the list, project repositories should adhere to these quality standards
 - Thoroughly documented (README, godoc comments, etc.) in english language, so everyone is able to understand the project's intention and how it works
 - Tests, where practical. If the library/program is testable, then coverage should be >= 80% for non-data-related packages and >=90% for data related packages. **Notice**: the tests will be reviewed too. We will check your coverage manually if your package's coverage is just a benchmark results.
 
+## Congrats, your project got accepted - what now?
+You are an awesome project now! Feel encouraged to tell others about it by adding one of these badges:  
+[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)  
+[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)
+
+```md
+[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)  
+[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)
+```
+
 
 ## Maintainers
 
 To make sure every PR is checked, we have [team maintainers](MAINTAINERS). Every PR MUST be reviewed by at least two maintainers before it can get merged.
 
 The maintainers will review your PR and notify you and tag it in case any
-information is still missing. They will wait 8 days for your interaction, after
+information is still missing. They will wait 30 days for your interaction, after
 that the PR will be closed.
 
 
