@@ -407,9 +407,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [aerospike-client-go](https://github.com/aerospike/aerospike-client-go) - Aerospike client in Go language.
     * [arangolite](https://github.com/solher/arangolite) - Lightweight golang driver for ArangoDB.
     * [asc](https://github.com/viant/asc) - Datastore Connectivity for Aerospike for go.
-    * [cachego](https://github.com/fabiorphp/cachego) - Golang Cache component for multiple drivers.
-    * [cayley](https://github.com/google/cayley) - Graph database with support for multiple backends.
-    * [dsc](https://github.com/viant/dsc) - Datastore connectivity for SQL, NoSQL, structured files.
     * [dynago](https://github.com/underarmour/dynago) - Dynago is a principle of least surprise client for DynamoDB.
     * [go-couchbase](https://github.com/couchbase/go-couchbase) - Couchbase client in Go.
     * [go-couchdb](https://github.com/fjl/go-couchdb) - Yet another CouchDB HTTP API wrapper for Go.
@@ -438,6 +435,11 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [goes](https://github.com/OwnLocal/goes) - Library to interact with Elasticsearch.
     * [riot](https://github.com/go-ego/riot) - Go Open Source, Distributed, Simple and efficient Search Engine.
     * [skizze](https://github.com/seiflotfy/skizze) - probabilistic data-structures service and storage.
+    
+* Multiple Backends.
+    * [cachego](https://github.com/fabiorphp/cachego) - Golang Cache component for multiple drivers.
+    * [cayley](https://github.com/google/cayley) - Graph database with support for multiple backends.
+    * [dsc](https://github.com/viant/dsc) - Datastore connectivity for SQL, NoSQL, structured files.
 
 ## Date and Time
 
