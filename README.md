@@ -205,6 +205,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [sand](https://github.com/Zaba505/sand) - Simple API for creating interpreters and so much more.
 * [sflags](https://github.com/octago/sflags) - Struct based flags generator for flag, urfave/cli, pflag, cobra, kingpin and other libraries.
 * [strumt](https://github.com/antham/strumt) - Library to create prompt chain.
+* [tview](https://github.com/rivo/tview) - Rich interactive widgets for terminal-based UIs written in Go
 * [ukautz/clif](https://github.com/ukautz/clif) - Small command line interface framework.
 * [urfave/cli](https://github.com/urfave/cli) - Simple, fast, and fun package for building command line apps in Go (formerly codegangsta/cli).
 * [wlog](https://github.com/dixonwille/wlog) - Simple logging interface that supports cross-platform color and concurrency.
