@@ -303,6 +303,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [conjungo](https://github.com/InVisionApp/conjungo) - A small, powerful and flexible merge library.
 * [count-min-log](https://github.com/seiflotfy/count-min-log) - Go implementation Count-Min-Log sketch: Approximately counting with approximate counters (Like Count-Min sketch but using less memory).
 * [cuckoofilter](https://github.com/seiflotfy/cuckoofilter) - Cuckoo filter: a good alternative to a counting bloom filter implemented in Go.
+* [deque](https://github.com/edwingeng/deque) - A highly optimized double-ended queue.
 * [deque](https://github.com/gammazero/deque) - Fast ring-buffer deque (double-ended queue).
 * [encoding](https://github.com/zhenjl/encoding) - Integer Compression Libraries for Go.
 * [go-adaptive-radix-tree](https://github.com/plar/go-adaptive-radix-tree) - Go implementation of Adaptive Radix Tree.
