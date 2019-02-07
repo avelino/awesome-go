@@ -1357,6 +1357,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [gotest.tools](https://github.com/gotestyourself/gotest.tools) - A collection of packages to augment the go testing package and support common patterns.
     * [Hamcrest](https://github.com/rdrdr/hamcrest) - fluent framework for declarative Matcher objects that, when applied to input values, produce self-describing results.
     * [httpexpect](https://github.com/gavv/httpexpect) - Concise, declarative, and easy to use end-to-end HTTP and REST API testing.
+    * [jsonassert](https://github.com/kinbiko/jsonassert) - Package for verifying that your JSON payloads are serialized correctly.
     * [restit](https://github.com/yookoala/restit) - Go micro framework to help writing RESTful API integration test.
     * [testfixtures](https://github.com/go-testfixtures/testfixtures) - A helper for Rails' like test fixtures to test database applications.
     * [Testify](https://github.com/stretchr/testify) - Sacred extension to the standard go testing package.
