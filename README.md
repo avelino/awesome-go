@@ -51,13 +51,13 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Miscellaneous](#miscellaneous)
         - [Dependency Injection](#dependency-injection)
         - [Strings](#strings)
+        - [Project Layout](#project-layout)
     - [Natural Language Processing](#natural-language-processing)
     - [Networking](#networking)
         - [HTTP Clients](#http-clients)
     - [OpenGL](#opengl)
     - [ORM](#orm)
     - [Package Management](#package-management)
-    - [Project Layout](#project-layout)
     - [Query Language](#query-language)
     - [Resource Embedding](#resource-embedding)
     - [Science and Data Analysis](#science-and-data-analysis)
@@ -1023,6 +1023,12 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [xdg](https://github.com/rkoesters/xdg) - FreeDesktop.org (xdg) Specs implemented in Go.
 * [xkg](https://github.com/go-xkg/xkg) - X Keyboard Grabber.
 
+### Project Layout
+
+*Unofficial set of patterns for structuring projects.*
+
+* [golang-standards/project-layout](https://github.com/golang-standards/project-layout) - Set of common historical and emerging project layout patterns in the Go ecosystem.
+
 ## Natural Language Processing
 
 *Libraries for working with human languages.*
@@ -1185,12 +1191,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [mvn-golang](https://github.com/raydac/mvn-golang) - plugin that provides way for auto-loading of Golang SDK, dependency management and start build environment in Maven project infrastructure.
 * [nut](https://github.com/jingweno/nut) - Vendor Go dependencies.
 * [VenGO](https://github.com/DamnWidget/VenGO) - create and manage exportable isolated go virtual environments.
-
-## Project Layout
-
-*Unofficial set of patterns for structuring projects.*
-
-* [golang-standards/project-layout](https://github.com/golang-standards/project-layout) - Set of common historical and emerging project layout patterns in the Go ecosystem.
 
 ## Query Language
 
