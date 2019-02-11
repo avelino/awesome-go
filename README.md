@@ -578,6 +578,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [errors](https://github.com/pkg/errors) - Package that provides simple error handling primitives.
 * [errorx](https://github.com/joomcode/errorx) - A feature rich error package with stack traces, composition of errors and more.
 * [go-multierror](https://github.com/hashicorp/go-multierror) - Go (golang) package for representing a list of errors as a single error.
+* [tracerr](https://github.com/ztrue/tracerr) - Golang errors with stack trace and source fragments.
 * [werr](https://github.com/txgruppi/werr) - Error Wrapper creates an wrapper for the error type in Go which captures the File, Line and Stack of where it was called.
 
 ## Files
