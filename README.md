@@ -1784,6 +1784,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [xpath](https://github.com/antchfx/xpath) - XPath package for Go.
 * [xquery](https://github.com/antchfx/xquery) - XQuery lets you extract data from HTML/XML documents using XPath expression.
 * [xml2map](https://github.com/sbabiv/xml2map) - XML to MAP converter written Golang.
+* [zek](https://github.com/miku/zek) - Generate a Go struct from XML.
+
 # Tools
 
 *Go software and plugins.*
