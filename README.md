@@ -318,6 +318,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [goset](https://github.com/zoumo/goset) - A useful Set collection implementation for Go.
 * [goskiplist](https://github.com/ryszard/goskiplist) - Skip list implementation in Go.
 * [gota](https://github.com/kniren/gota) - Implementation of dataframes, series, and data wrangling methods for Go.
+* [hide](https://github.com/emvi/hide) - ID type with marshalling to/from hash to prevent sending IDs to clients.
 * [hilbert](https://github.com/google/hilbert) - Go package for mapping values to and from space-filling curves, such as Hilbert and Peano curves.
 * [hyperloglog](https://github.com/axiomhq/hyperloglog) - HyperLogLog implementation with Sparse, LogLog-Beta bias correction and TailCut space reduction.
 * [levenshtein](https://github.com/agext/levenshtein) - Levenshtein distance and similarity metrics with customizable edit costs and Winkler-like bonus for common prefix.
@@ -325,6 +326,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [mafsa](https://github.com/smartystreets/mafsa) - MA-FSA implementation with Minimal Perfect Hashing.
 * [merkletree](https://github.com/cbergoon/merkletree) - Implementation of a merkle tree providing an efficient and secure verification of the contents of data structures.
 * [mspm](https://github.com/BlackRabbitt/mspm) - Multi-String Pattern Matching Algorithm for information retrieval.
+* [null](https://github.com/emvi/null) - Nullable Go types that can be marshalled/unmarshalled to/from JSON.
 * [pipeline](https://github.com/hyfather/pipeline) - An implementation of pipelines with fan-in and fan-out.
 * [ring](https://github.com/TheTannerRyan/ring) - Go implementation of a high performance, thread safe bloom filter.
 * [roaring](https://github.com/RoaringBitmap/roaring) - Go package implementing compressed bitsets.
@@ -334,8 +336,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [trie](https://github.com/derekparker/trie) - Trie implementation in Go.
 * [ttlcache](https://github.com/diegobernardes/ttlcache) - In-memory LRU string-interface{} map with expiration for golang.
 * [willf/bloom](https://github.com/willf/bloom) - Go package implementing Bloom filters.
-* [hide](https://github.com/emvi/hide) - ID type with marshalling to/from hash to prevent sending IDs to clients.
-* [null](https://github.com/emvi/null) - Nullable Go types that can be marshalled/unmarshalled to/from JSON.
 
 ## Database
 
