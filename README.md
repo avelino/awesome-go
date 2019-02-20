@@ -2068,6 +2068,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Golang Vancouver, BC](https://www.meetup.com/golangvan/)
 * [Golang Москва](https://www.meetup.com/Golang-Moscow/)
 * [Golang Питер](https://www.meetup.com/Golang-Peter/)
+* [Golang Казань](https://www.meetup.com/GolangKazan/)
 * [Istanbul Golang](https://www.meetup.com/Istanbul-Golang/)
 * [Seattle Go Programmers](https://www.meetup.com/golang/)
 * [Ukrainian Golang User Groups](https://www.meetup.com/uagolang/)
