@@ -596,6 +596,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-decent-copy](https://github.com/hugocarreira/go-decent-copy) - Copy files for humans.
 * [go-gtfs](https://github.com/artonge/go-gtfs) - Load gtfs files in go.
 * [notify](https://github.com/rjeczalik/notify) - File system event notification library with simple API, similar to os/signal.
+* [opc](https://github.com/qmuntal/opc) - Load Open Packaging Conventions (OPC) files for Go.
 * [pdfcpu](https://github.com/hhrutter/pdfcpu) - PDF processor.
 * [skywalker](https://github.com/dixonwille/skywalker) - Package to allow one to concurrently go through a filesystem with ease.
 * [tarfs](https://github.com/posener/tarfs) - Implementation of the [`FileSystem` interface](https://godoc.org/github.com/kr/fs#FileSystem) for tar files.
