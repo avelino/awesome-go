@@ -977,6 +977,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries for working with dependency injection.*
 
 * [alice](https://github.com/magic003/alice) - Additive dependency injection container for Golang.
+* [dig](https://github.com/uber-go/dig) - A reflection based dependency injection toolkit for Go.
 * [wire](https://github.com/Fs02/wire) - Strict Runtime Dependency Injection for Golang.
 
 ### Strings
