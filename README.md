@@ -2036,6 +2036,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Web Application with Go the Anti-Textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/)
 * [Writing A Compiler In Go](https://compilerbook.com)
 * [Writing An Interpreter In Go](https://interpreterbook.com)
+* [Go Succinctly](https://github.com/thedevsir/gosuccinctly) - in Persian.
 
 ## Gophers
 
