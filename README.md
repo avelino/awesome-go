@@ -27,6 +27,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Distributed Systems](#distributed-systems)
     - [Email](#email)
     - [Embeddable Scripting Languages](#embeddable-scripting-languages)
+    - [Embedded Systems](#embedded-systems)
     - [Error Handling](#error-handling)
     - [Files](#files)
     - [Financial](#financial)
@@ -578,6 +579,15 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [otto](https://github.com/robertkrimen/otto) - JavaScript interpreter written in Go.
 * [purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go.
 * [tengo](https://github.com/d5/tengo) - Bytecode compiled script language for Go.
+
+## Embedded Systems
+
+*Libraries for embedded system development.*
+
+* [embd](https://github.com/kidoman/embd) - Embedded Programming Framework in Go.
+* [emgo](https://github.com/ziutek/emgo) - Bare metal Go (language for programming embedded systems).
+* [gobot](https://github.com/hybridgroup/gobot/) - Golang framework for robotics, drones, and the Internet of Things (IoT).
+* [mender](https://github.com/mendersoftware/mender) - Mender over-the-air software updater client.
 
 ## Error Handling
 
