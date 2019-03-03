@@ -586,7 +586,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [embd](https://github.com/kidoman/embd) - Embedded Programming Framework in Go.
 * [emgo](https://github.com/ziutek/emgo) - Bare metal Go (language for programming embedded systems).
-* [gobot](https://github.com/hybridgroup/gobot/) - Golang framework for robotics, drones, and the Internet of Things (IoT).
 * [mender](https://github.com/mendersoftware/mender) - Mender over-the-air software updater client.
 
 ## Error Handling
