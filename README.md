@@ -829,6 +829,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries for working with JSON.*
 
+* [gjo](https://github.com/skanehira/gjo) - Small utility to create JSON objects.
 * [GJSON](https://github.com/tidwall/gjson) - Get a JSON value with one line of code.
 * [go-respond](https://github.com/nicklaw5/go-respond) - Go package for handling common HTTP JSON responses.
 * [gojq](https://github.com/elgs/gojq) - JSON query in Golang.
