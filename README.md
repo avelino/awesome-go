@@ -986,6 +986,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * [alice](https://github.com/magic003/alice) - Additive dependency injection container for Golang.
 * [dig](https://github.com/uber-go/dig) - A reflection based dependency injection toolkit for Go.
+* [fx](https://github.com/uber-go/fx) - A dependency injection based application framework for Go (built on top of dig). 
 * [wire](https://github.com/Fs02/wire) - Strict Runtime Dependency Injection for Golang.
 
 ### Strings
