@@ -1372,6 +1372,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [gogiven](https://github.com/corbym/gogiven) - YATSPEC-like BDD testing framework for Go.
     * [gomatch](https://github.com/jfilipczyk/gomatch) - library created for testing JSON against patterns.
     * [gomega](http://onsi.github.io/gomega/) - Rspec like matcher/assertion library.
+    * [gopter](https://github.com/leanovate/gopter) - Gopter tries to bring the goodness of ScalaCheck (and implicitly, the goodness of QuickCheck) to Go.
     * [GoSpec](https://github.com/orfjackal/gospec) - BDD-style testing framework for the Go programming language.
     * [gospecify](https://github.com/stesla/gospecify) - This provides a BDD syntax for testing your Go code. It should be familiar to anybody who has used libraries such as rspec.
     * [gosuite](https://github.com/pavlo/gosuite) - Brings lightweight test suites with setup/teardown facilities to `testing` by leveraging Go1.7's Subtests.
