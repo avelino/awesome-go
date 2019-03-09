@@ -664,6 +664,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [Pixel](https://github.com/faiface/pixel) - Hand-crafted 2D game library in Go.
 * [raylib-go](https://github.com/gen2brain/raylib-go) - Go bindings for [raylib](http://www.raylib.com/), a simple and easy-to-use library to learn videogames programming.
 * [termloop](https://github.com/JoelOtter/termloop) - Terminal-based game engine for Go, built on top of Termbox.
+* [tge](https://github.com/thommil/tge) - Portable runtime for Go applications and games.
 
 ## Generation and Generics
 
