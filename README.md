@@ -1919,6 +1919,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [kala](https://github.com/ajvb/kala) - Simplistic, modern, and performant job scheduler.
 * [kcli](https://github.com/cswank/kcli) - Command line tool for inspecting kafka topics/partitions/messages.
 * [kubernetes](https://github.com/kubernetes/kubernetes) - Container Cluster Manager from Google.
+* [Kraken](https://github.com/uber/kraken) - Uber's Highly scalable P2P docker registry, capable of distributing TBs of data in seconds.
 * [lstags](https://github.com/ivanilves/lstags) - Tool and API to sync Docker images across different registries.
 * [lwc](https://github.com/timdp/lwc) - A live-updating version of the UNIX wc command.
 * [manssh](https://github.com/xwjdsh/manssh) - manssh is a command line tool for managing your ssh alias config easily.
