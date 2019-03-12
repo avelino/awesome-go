@@ -233,6 +233,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [mpb](https://github.com/vbauerster/mpb) - Multi progress bar for terminal applications.
 * [progressbar](https://github.com/schollz/progressbar) - Basic thread-safe progress bar that works in every OS.
 * [simpletable](https://github.com/alexeyco/simpletable) - Simple tables in terminal with Go.
+* [tabby](https://github.com/cheynewallace/tabby) - A tiny library for super simple Golang tables.
 * [tabular](https://github.com/InVisionApp/tabular) - Print ASCII tables from command line utilities without the need to pass large sets of data to the API.
 * [termbox-go](https://github.com/nsf/termbox-go) - Termbox is a library for creating cross-platform text-based interfaces.
 * [termdash](https://github.com/mum4k/termdash) - Go terminal dashboard based on **termbox-go** and inspired by [termui](https://github.com/gizak/termui).
