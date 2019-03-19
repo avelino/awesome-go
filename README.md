@@ -1463,6 +1463,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [parseargs-go](https://github.com/nproc/parseargs-go) - string argument parser that understands quotes and backslashes.
     * [parth](https://github.com/codemodus/parth) - URL path segmentation parsing.
     * [radix](https://github.com/yourbasic/radix) - fast string sorting algorithm.
+    * [TySug](https://github.com/Dynom/TySug) - Alternative suggestions with respect to keyboard layouts.
     * [xj2go](https://github.com/stackerzzq/xj2go) - Convert xml or json to go struct.
     * [xurls](https://github.com/mvdan/xurls) - Extract urls from text.
 
