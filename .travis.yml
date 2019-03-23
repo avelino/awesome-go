@@ -12,5 +12,6 @@ install:
 deploy:
   provider: script
   script: netlify deploy --dir=tmpl --prod
+  skip_cleanup: true
   on:
     branch: master
