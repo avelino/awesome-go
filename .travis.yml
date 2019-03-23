@@ -7,7 +7,10 @@ sudo: false
 
 install:
   - go get -t -v ./...
-
-after_success:
   - npm install netlify-cli -g
-  - netlify deploy --dir=tmpl
+
+deploy:
+  provider: script
+  script: netlify deploy --dir=tmpl --prod
+  on:
+    branch: master
