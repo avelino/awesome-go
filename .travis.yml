@@ -6,12 +6,19 @@ go:
 sudo: false
 
 install:
-  - go get -t -v ./...
-  - npm install netlify-cli -g
+  - go get gitlab.com/Ma_124/awesome-framework/cmd/awesome
+
+before_script:
+  - $GOPATH/bin/awesome version
+
+script:
+  - $GOPATH/bin/awesome internal -githubci
 
 deploy:
-  provider: script
-  script: netlify deploy --dir=tmpl --prod
-  skip_cleanup: true
+  provider: pages
+  skip-cleanup: true
+  github-token: $AWESOME_GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable or as an encrypted variable
+  keep-history: true
+  local-dir: public
   on:
     branch: master
