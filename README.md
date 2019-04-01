@@ -349,6 +349,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Databases implemented in Go.*
 
 * [badger](https://github.com/dgraph-io/badger) - Fast key-value store in Go.
+* [bcache](https://github.com/iwanbk/bcache) - Eventually consistent distributed in-memory  cache Go library.
 * [BigCache](https://github.com/allegro/bigcache) - Efficient key/value cache for gigabytes of data.
 * [bolt](https://github.com/boltdb/bolt) - Low-level key/value database for Go.
 * [buntdb](https://github.com/tidwall/buntdb) - Fast, embeddable, in-memory key/value database for Go with custom indexing and spatial support.
