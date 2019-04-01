@@ -146,7 +146,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [loginsrv](https://github.com/tarent/loginsrv) - JWT login microservice with plugable backends such as OAuth2 (Github), htpasswd, osiam.
 * [oauth2](https://github.com/golang/oauth2) - Successor of goauth2. Generic OAuth 2.0 package that comes with JWT, Google APIs, Compute Engine and App Engine support.
 * [ory/hydra](https://github.com/ory/hydra) - ORY Hydra is a hardened, certified OAuth2 and OpenID Connect server.
-* [ory/oathkeeper](https://github.com/ory/oathkeeper) - ORY Oathkeeper is an Identity & Access Proxy (IAP) that authorizes HTTP requests based on sets of rules
+* [ory/oathkeeper](https://github.com/ory/oathkeeper) - ORY Oathkeeper is an Identity & Access Proxy (IAP) that authorizes HTTP requests based on sets of rules.
 * [osin](https://github.com/openshift/osin) - Golang OAuth2 server library.
 * [paseto](https://github.com/o1egl/paseto) - Golang implementation of Platform-Agnostic Security Tokens (PASETO).
 * [permissions2](https://github.com/xyproto/permissions2) - Library for keeping track of users, login states and permissions. Uses secure cookies and bcrypt.
