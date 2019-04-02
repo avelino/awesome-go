@@ -49,7 +49,7 @@ func TestDuplicatedLinks(t *testing.T) {
 
 var (
 	reContainsLink        = regexp.MustCompile(`\* \[.*\]\(.*\)`)
-	reOnlyLink            = regexp.MustCompile(`\* \[.*\]\(.*\)$`)
+	reOnlyLink            = regexp.MustCompile(`\* \[.*\]\([^()]*\)$`)
 	reLinkWithDescription = regexp.MustCompile(`\* \[.*\]\(.*\) - \S.*[\.\!]`)
 )
 
