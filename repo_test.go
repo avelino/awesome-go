@@ -3,14 +3,21 @@ package main
 import (
 	"bytes"
 	"io/ioutil"
+	"os"
 	"regexp"
 	"sort"
 	"strings"
 	"testing"
+	"text/template"
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/russross/blackfriday"
+	gfm "github.com/shurcooL/github_flavored_markdown"
 )
+
+type content struct {
+	Body string
+}
 
 func TestAlpha(t *testing.T) {
 	query := startQuery()
@@ -42,7 +49,7 @@ func TestDuplicatedLinks(t *testing.T) {
 
 var (
 	reContainsLink        = regexp.MustCompile(`\* \[.*\]\(.*\)`)
-	reOnlyLink            = regexp.MustCompile(`\* \[.*\]\(.*\)$`)
+	reOnlyLink            = regexp.MustCompile(`\* \[.*\]\([^()]*\)$`)
 	reLinkWithDescription = regexp.MustCompile(`\* \[.*\]\(.*\) - \S.*[\.\!]`)
 )
 
@@ -68,6 +75,12 @@ func TestSeparator(t *testing.T) {
 				t.Errorf("expected entry to be in form of `* [link] - description.`, got '%s'", line)
 			}
 		}
+	}
+}
+func TestGenerateHTML(t *testing.T) {
+	err := generateHTML()
+	if err != nil {
+		t.Errorf("html generate error '%s'", err.Error())
 	}
 }
 
@@ -121,4 +134,18 @@ func checkAlphabeticOrder(t *testing.T, s *goquery.Selection) {
 	if t.Failed() {
 		t.Logf("expected order is:\n%s", strings.Join(sorted, "\n"))
 	}
+}
+
+func generateHTML() (err error) {
+	// options
+	readmePath := "./README.md"
+	tplPath := "tmpl/tmpl.html"
+	idxPath := "tmpl/index.html"
+	input, _ := ioutil.ReadFile(readmePath)
+	body := string(gfm.Markdown(input))
+	c := &content{Body: body}
+	t := template.Must(template.ParseFiles(tplPath))
+	f, err := os.Create(idxPath)
+	t.Execute(f, c)
+	return
 }
