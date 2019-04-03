@@ -52,6 +52,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
         - [Microsoft Excel](#microsoft-excel)
     - [Miscellaneous](#miscellaneous)
         - [Dependency Injection](#dependency-injection)
+        - [Project Layout](#project-layout)
         - [Strings](#strings)
     - [Natural Language Processing](#natural-language-processing)
     - [Networking](#networking)
@@ -999,6 +1000,14 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [dig](https://github.com/uber-go/dig) - A reflection based dependency injection toolkit for Go.
 * [fx](https://github.com/uber-go/fx) - A dependency injection based application framework for Go (built on top of dig).
 * [wire](https://github.com/Fs02/wire) - Strict Runtime Dependency Injection for Golang.
+
+### Project Layout
+
+*Unofficial set of patterns for structuring projects.*
+
+* [go-sample](https://github.com/zitryss/go-sample) - A sample layout for Go application projects with the real code.
+* [golang-standards/project-layout](https://github.com/golang-standards/project-layout) - Set of common historical and emerging project layout patterns in the Go ecosystem.
+* [scaffold](https://github.com/catchplay/scaffold) - Scaffold generates starter Go project layout. Lets you focus on business logic implemeted.
 
 ### Strings
 *Libraries for working with strings.*
