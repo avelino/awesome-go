@@ -596,6 +596,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for handling errors.*
 
+* [errlog](https://github.com/snwfdhmp/errlog) - Debug errors with failing func call recognition and pretty stack trace printing.
 * [errors](https://github.com/pkg/errors) - Package that provides simple error handling primitives.
 * [errorx](https://github.com/joomcode/errorx) - A feature rich error package with stack traces, composition of errors and more.
 * [go-multierror](https://github.com/hashicorp/go-multierror) - Go (golang) package for representing a list of errors as a single error.
