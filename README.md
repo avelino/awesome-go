@@ -1673,6 +1673,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [retry](https://github.com/shafreeck/retry) - A pretty simple library to ensure your work to be done.
 * [retry-go](https://github.com/rafaeljesus/retry-go) - Retrying made simple and easy for golang.
 * [robustly](https://github.com/VividCortex/robustly) - Runs functions resiliently, catching and restarting panics.
+* [scan](https://github.com/blockloop/scan) - Scan golang `sql.Rows` directly to structs, slices, or primitive types.
 * [serve](https://github.com/syntaqx/serve) - A static http server anywhere you need.
 * [silk](https://github.com/chrispassas/silk) - Read silk netflow files.
 * [sliceconv](https://github.com/Henry-Sarabia/sliceconv) - Slice conversion between primitive types.
