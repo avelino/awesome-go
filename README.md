@@ -1466,6 +1466,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [go-nmea](https://github.com/adrianmo/go-nmea) - NMEA parser library for the Go language.
     * [go-runewidth](https://github.com/mattn/go-runewidth) - Functions to get fixed width of the character or string.
     * [go-slugify](https://github.com/mozillazg/go-slugify) - Make pretty slug with multiple languages support.
+    * [go-toml](https://github.com/pelletier/go-toml) - Go library for the TOML format with query support and handy cli tools.
     * [go-vcard](https://github.com/emersion/go-vcard) - Parse and format vCard.
     * [go-zero-width](https://github.com/trubitsyn/go-zero-width) - Zero-width character detection and removal for Go.
     * [gofeed](https://github.com/mmcdole/gofeed) - Parse RSS and Atom feeds in Go.
