@@ -549,6 +549,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [raft](https://github.com/hashicorp/raft) - Golang implementation of the Raft consensus protocol, by HashiCorp.
 * [raft](https://github.com/coreos/etcd/tree/master/raft) - Go implementation of the Raft consensus protocol, by CoreOS.
 * [redis-lock](https://github.com/bsm/redis-lock) - Simplified distributed locking implementation using Redis.
+* [resgate](https://resgate.io/) - An open-source Realtime API Gateway, compatible with REST and RPC APIs.
 * [ringpop-go](https://github.com/uber/ringpop-go) - Scalable, fault-tolerant application-layer sharding for Go applications.
 * [rpcx](https://github.com/smallnest/rpcx) - Distributed pluggable RPC service framework like alibaba Dubbo.
 * [sleuth](https://github.com/ursiform/sleuth) - Library for master-less p2p auto-discovery and RPC between HTTP services (using [ZeroMQ](https://github.com/zeromq/libzmq)).
