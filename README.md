@@ -1212,7 +1212,11 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 ## Package Management
 
-*Official tooling for package management*
+*Official tooling for dependency and package management*
+
+* [go modules](https://golang.org/cmd/go/#hdr-Modules__module_versions__and_more) - Modules are the unit of source code interchange and versioning. The go command has direct support for working with modules, including recording and resolving dependencies on other modules.
+
+*Official experimental tooling for package management*
 
 * [dep](https://github.com/golang/dep) - Go dependency tool.
 * [vgo](https://go.googlesource.com/vgo/) - Versioned Go.
