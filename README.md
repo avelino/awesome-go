@@ -485,6 +485,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [elastic](https://github.com/olivere/elastic) - Elasticsearch client for Go.
     * [elasticsql](https://github.com/cch123/elasticsql) - Convert sql to elasticsearch dsl in Go.
     * [elastigo](https://github.com/mattbaird/elastigo) - Elasticsearch client library.
+    * [go-elasticsearch](https://github.com/elastic/go-elasticsearch) - Official Elasticsearch client for Go.
     * [goes](https://github.com/OwnLocal/goes) - Library to interact with Elasticsearch.
     * [riot](https://github.com/go-ego/riot) - Go Open Source, Distributed, Simple and efficient Search Engine.
     * [skizze](https://github.com/seiflotfy/skizze) - probabilistic data-structures service and storage.
