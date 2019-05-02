@@ -1268,6 +1268,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries for scientific computing and data analyzing.*
 
 * [assocentity](https://github.com/ndabAP/assocentity) - Package assocentity returns the average distance from words to a given entity.
+* [bradleyterry](https://github.com/seanhagen/bradleyterry) - Provides a Bradley-Terry Model for pairwise comparisons.
 * [chart](https://github.com/vdobler/chart) - Simple Chart Plotting library for Go. Supports many graphs types.
 * [dataframe-go](https://github.com/rocketlaunchr/dataframe-go) - Dataframes for Go for machine-learning and statistics (similar to pandas).
 * [evaler](https://github.com/soniah/evaler) - Simple floating point arithmetic expression evaluator.
