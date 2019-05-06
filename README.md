@@ -2110,8 +2110,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [GoBooks](https://github.com/dariubs/GoBooks) - A curated list of Go books.
 * [Learning Go](https://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
 * [Network Programming With Go](https://jan.newmarch.name/go/)
-* [The Golang Standard Library by Example](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
 * [The Go Programming Language](http://www.gopl.io/)
+* [The Golang Standard Library by Example](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
 * [Web Application with Go the Anti-Textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/)
 * [Writing A Compiler In Go](https://compilerbook.com)
 * [Writing An Interpreter In Go](https://interpreterbook.com)
