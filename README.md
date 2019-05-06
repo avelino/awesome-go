@@ -746,6 +746,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go. Cross platform.
 * [walk](https://github.com/lxn/walk) - Windows application library kit for Go.
 * [webview](https://github.com/zserge/webview) - Cross-platform webview window with simple two-way JavaScript bindings (Windows / macOS / Linux).
+* [lorca](https://github.com/zserge/lorca) - Small library for building HTML5 desktop apps using Chrome as a UI layer. Chrome isn't bundled, instead the installed version of Chrome is used.
 
 *Interaction*
 
