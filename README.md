@@ -1860,6 +1860,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * [d3d9](https://github.com/gonutz/d3d9) - Go bindings for Direct3D9.
 * [go-ole](https://github.com/go-ole/go-ole) - Win32 OLE implementation for golang.
+* [gosddl](https://github.com/MonaxGT/gosddl) - Converter from SDDL-string to user-friendly JSON. SDDL consist of four part: Owner, Primary Group, DACL, SACL.
 
 ## XML
 
