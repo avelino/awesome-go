@@ -1071,6 +1071,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [llvm](https://github.com/llir/llvm) - Library for interacting with LLVM IR in pure Go.
 * [metrics](https://github.com/pascaldekloe/metrics) - Library for metrics instrumentation and Prometheus exposition.
 * [morse](https://github.com/alwindoss/morse) - Library to convert to and from morse code.
+* [numa](https://github.com/lrita/numa) - NUMA is a utility library, which is written in go. It help us to write some NUMA-AWARED code.
 * [pdfgen](https://github.com/hyperboloide/pdfgen) - HTTP service to generate PDF from Json requests.
 * [persian](https://github.com/mavihq/persian) - Some utilities for Persian language in go.
 * [sandid](https://github.com/aofei/sandid) - Every grain of sand on earth has its own ID.
