@@ -1,6 +1,6 @@
 # Awesome Go
 
-[![Build Status](https://travis-ci.org/avelino/awesome-go.svg?branch=master)](https://travis-ci.org/avelino/awesome-go) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Slack Widget](https://img.shields.io/badge/join-us%20on%20slack-gray.svg?longCache=true&logo=slack&colorB=red)](http://gophers.slack.com/messages/awesome) [![Netlify Status](https://api.netlify.com/api/v1/badges/83a6dcbe-0da6-433e-b586-f68109286bd5/deploy-status)](https://app.netlify.com/sites/awesome-go/deploys)
+[![Backers on Open Collective](https://opencollective.com/awesome-go/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/awesome-go/sponsors/badge.svg)](#sponsors) [![Build Status](https://travis-ci.org/avelino/awesome-go.svg?branch=master)](https://travis-ci.org/avelino/awesome-go) [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Slack Widget](https://img.shields.io/badge/join-us%20on%20slack-gray.svg?longCache=true&logo=slack&colorB=red)](http://gophers.slack.com/messages/awesome) [![Netlify Status](https://api.netlify.com/api/v1/badges/83a6dcbe-0da6-433e-b586-f68109286bd5/deploy-status)](https://app.netlify.com/sites/awesome-go/deploys)
 
 [![patreon avelino](https://c5.patreon.com/external/logo/become_a_patron_button@2x.png)](https://www.patreon.com/avelinosource) financial support to Awesome Go
 
@@ -2266,3 +2266,33 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [The world’s easiest introduction to WebAssembly with Golang](https://medium.com/@martinolsansky/webassembly-with-golang-is-fun-b243c0e34f02)
 * [Working with Go](https://github.com/mkaz/working-with-go) - Intro to go for experienced programmers.
 * [Your basic Go](http://yourbasic.org/golang) - Huge collection of tutorials and how to's.
+
+## Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/avelino/awesome-go/graphs/contributors"><img src="https://opencollective.com/awesome-go/contributors.svg?width=890&button=false" /></a>
+
+
+## Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/awesome-go#backer)]
+
+<a href="https://opencollective.com/awesome-go#backers" target="_blank"><img src="https://opencollective.com/awesome-go/backers.svg?width=890"></a>
+
+
+## Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/awesome-go#sponsor)]
+
+<a href="https://opencollective.com/awesome-go/sponsor/0/website" target="_blank"><img src="https://opencollective.com/awesome-go/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/awesome-go/sponsor/1/website" target="_blank"><img src="https://opencollective.com/awesome-go/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/awesome-go/sponsor/2/website" target="_blank"><img src="https://opencollective.com/awesome-go/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/awesome-go/sponsor/3/website" target="_blank"><img src="https://opencollective.com/awesome-go/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/awesome-go/sponsor/4/website" target="_blank"><img src="https://opencollective.com/awesome-go/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/awesome-go/sponsor/5/website" target="_blank"><img src="https://opencollective.com/awesome-go/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/awesome-go/sponsor/6/website" target="_blank"><img src="https://opencollective.com/awesome-go/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/awesome-go/sponsor/7/website" target="_blank"><img src="https://opencollective.com/awesome-go/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/awesome-go/sponsor/8/website" target="_blank"><img src="https://opencollective.com/awesome-go/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/awesome-go/sponsor/9/website" target="_blank"><img src="https://opencollective.com/awesome-go/sponsor/9/avatar.svg"></a>
+
+
