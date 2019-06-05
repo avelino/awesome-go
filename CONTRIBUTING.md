@@ -61,3 +61,7 @@ Please open an issue if you would like to discuss anything that could be improve
 Removal changes will not be applied until they have been pending for a minimum of 1 week (7 days). This grace window benefits projects that may be going through a temporary transition but are otherwise worthy of being on the list.
 
 Thanks everyone!
+
+## Issue triage [![Open Source Helpers](https://www.codetriage.com/avelino/awesome-go/badges/users.svg)](https://www.codetriage.com/avelino/awesome-go)
+
+You can contribute by triaging issues which may include reproducing bug reports or asking for vital information, such as version numbers or reproduction instructions. If you would like to start triaging issues, one easy way to get started is to [subscribe to awesome-go on CodeTriage](https://www.codetriage.com/avelino/awesome-go).
