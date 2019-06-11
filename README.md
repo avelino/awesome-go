@@ -1480,7 +1480,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * Selenium and browser control tools.
     * [cdp](https://github.com/mafredri/cdp) - Type-safe bindings for the Chrome Debugging Protocol that can be used with browsers or other debug targets that implement it.
     * [chromedp](https://github.com/knq/chromedp) - a way to drive/test Chrome, Safari, Edge, Android Webviews, and other browsers supporting the Chrome Debugging Protocol.
-    * [ggr](https://github.com/aerokube/ggr) - a lightweight server that routes and proxies Selenium Wedriver requests to multiple Selenium hubs.
+    * [ggr](https://github.com/aerokube/ggr) - a lightweight server that routes and proxies Selenium WebDriver requests to multiple Selenium hubs.
     * [selenoid](https://github.com/aerokube/selenoid) - alternative Selenium hub server that launches browsers within containers.
 
 * Fail injection
