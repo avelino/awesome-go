@@ -1268,7 +1268,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 ## Query Language
 
 * [gojsonq](https://github.com/thedevsaddam/gojsonq) - A simple Go package to Query over JSON Data.
-* [gqlgen](https://github.com/99designs/gqlgen) - go generate based graphql server library
+* [gqlgen](https://github.com/99designs/gqlgen) - go generate based graphql server library.
 * [graphql](https://github.com/tmc/graphql) - graphql parser + utilities.
 * [graphql](https://github.com/neelance/graphql-go) - GraphQL server with a focus on ease of use.
 * [graphql-go](https://github.com/graphql-go/graphql) - Implementation of GraphQL for Go.
