@@ -2209,6 +2209,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Ukrainian Golang User Groups](https://www.meetup.com/uagolang/)
 * [Utah Go User Group](https://www.meetup.com/utahgophers/)
 * [Women Who Go - San Francisco, CA](https://www.meetup.com/Women-Who-Go/)
+* [GoSF - San Francisco, CA](https://www.meetup.com/golangsf)
 
 *Add the group of your city/country here (send **PR**)*
 
