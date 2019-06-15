@@ -2204,12 +2204,12 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Golang Казань](https://www.meetup.com/GolangKazan/)
 * [Golang Москва](https://www.meetup.com/Golang-Moscow/)
 * [Golang Питер](https://www.meetup.com/Golang-Peter/)
+* [GoSF - San Francisco, CA](https://www.meetup.com/golangsf)
 * [Istanbul Golang](https://www.meetup.com/Istanbul-Golang/)
 * [Seattle Go Programmers](https://www.meetup.com/golang/)
 * [Ukrainian Golang User Groups](https://www.meetup.com/uagolang/)
 * [Utah Go User Group](https://www.meetup.com/utahgophers/)
 * [Women Who Go - San Francisco, CA](https://www.meetup.com/Women-Who-Go/)
-* [GoSF - San Francisco, CA](https://www.meetup.com/golangsf)
 
 *Add the group of your city/country here (send **PR**)*
 
