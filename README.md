@@ -1750,6 +1750,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries for working with UUIDs.*
 
 * [goid](https://github.com/jakehl/goid) - Generate and Parse RFC4122 compliant V4 UUIDs.
+* [sno](https://github.com/muyo/sno) - Compact, sortable and fast unique IDs with embedded metadata.
 * [ulid](https://github.com/oklog/ulid) - Go implementation of ULID (Universally Unique Lexicographically Sortable Identifier).
 * [uuid](https://github.com/agext/uuid) - Generate, encode, and decode UUIDs v1 with fast or cryptographic-quality random node identifier.
 * [uuid](https://github.com/gofrs/uuid) - Implementation of Universally Unique Identifier (UUID). Supports both creation and parsing of UUIDs. Actively maintained fork of satori uuid.
