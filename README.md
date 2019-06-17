@@ -1641,6 +1641,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [copy-pasta](https://github.com/jutkko/copy-pasta) - Universal multi-workstation clipboard that uses S3 like backend for the storage.
 * [ctop](https://github.com/bcicen/ctop) - [Top-like](http://ctop.sh) interface (e.g. htop) for container metrics.
 * [ctxutil](https://github.com/posener/ctxutil) - A collection of utility functions for contexts.
+* [dbt](https://github.com/nikogura/dbt) - A framework for running self-updating signed binaries from a central, trusted repository.
 * [Death](https://github.com/vrecan/death) - Managing go application shutdown with signals.
 * [Deepcopier](https://github.com/ulule/deepcopier) - Simple struct copying for Go.
 * [delve](https://github.com/derekparker/delve) - Go debugger.
