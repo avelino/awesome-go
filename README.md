@@ -1365,7 +1365,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [colfer](https://github.com/pascaldekloe/colfer) - Code generation for the Colfer binary format.
 * [csvutil](https://github.com/jszwec/csvutil) - High Performance, idiomatic CSV record encoding and decoding to native Go structures.
 * [fwencoder](https://github.com/o1egl/fwencoder) - Fixed width file parser (encoding and decoding library) for Go.
-* [go-capnproto](https://github.com/glycerine/go-capnproto) - Cap'n Proto library and parser for go.
+* [go-capnproto](https://github.com/glycerine/go-capnproto) - Cap'n Proto library and parser for go. Only version 1.0.
+* [go-capnproto2](https://github.com/capnproto/go-capnproto2) - Cap'n Proto library and code generator for Go. Version 2.0, supports RPC.
 * [go-codec](https://github.com/ugorji/go) - High Performance, feature-Rich, idiomatic encode, decode and rpc library for msgpack, cbor and json, with runtime-based OR code-generation support.
 * [gogoprotobuf](https://github.com/gogo/protobuf) - Protocol Buffers for Go with Gadgets.
 * [goprotobuf](https://github.com/golang/protobuf) - Go support, in the form of a library and protocol compiler plugin, for Google's protocol buffers.
