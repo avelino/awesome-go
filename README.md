@@ -242,6 +242,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [simpletable](https://github.com/alexeyco/simpletable) - Simple tables in terminal with Go.
 * [tabby](https://github.com/cheynewallace/tabby) - A tiny library for super simple Golang tables.
 * [tabular](https://github.com/InVisionApp/tabular) - Print ASCII tables from command line utilities without the need to pass large sets of data to the API.
+* [tcell](https://github.com/gdamore/tcell) - Provides a cell based view for text terminals, like xterm. 
 * [termbox-go](https://github.com/nsf/termbox-go) - Termbox is a library for creating cross-platform text-based interfaces.
 * [termdash](https://github.com/mum4k/termdash) - Go terminal dashboard based on **termbox-go** and inspired by [termui](https://github.com/gizak/termui).
 * [termtables](https://github.com/apcera/termtables) - Go port of the Ruby library [terminal-tables](https://github.com/tj/terminal-table) for simple ASCII table generation as well as providing markdown and HTML output.
