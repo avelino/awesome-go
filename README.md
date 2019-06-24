@@ -1998,6 +1998,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 ### DevOps Tools
 
 * [aptly](https://github.com/smira/aptly) - aptly is a Debian repository management tool.
+* [Athens](https://github.com/gomods/athens) - A Go module datastore and proxy
 * [aurora](https://github.com/xuri/aurora) - Cross-platform web-based Beanstalkd queue server console.
 * [awsenv](https://github.com/soniah/awsenv) - Small binary that loads Amazon (AWS) environment variables for a profile.
 * [Blast](https://github.com/dave/blast) - A simple tool for API load testing and batch jobs.
