@@ -782,6 +782,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gotk3](https://github.com/gotk3/gotk3) - Go bindings for GTK3.
 * [gowd](https://github.com/dtylman/gowd) - Rapid and simple desktop UI development with GO, HTML, CSS and NW.js. Cross platform.
 * [qt](https://github.com/therecipe/qt) - Qt binding for Go (support for Windows / macOS / Linux / Android / iOS / Sailfish OS / Raspberry Pi).
+* [react](https://github.com/rocketlaunchr/react) - React.js bindings for gopher.js. Create desktop applications with Go and Electron.
 * [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go. Cross platform.
 * [Wails](https://wails.app) - Mac, Windows, Linux desktop apps with HTML UI using built-in OS HTML renderer.
 * [walk](https://github.com/lxn/walk) - Windows application library kit for Go.
