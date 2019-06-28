@@ -2135,6 +2135,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [GolangUK](http://golanguk.com/) - London, UK.
 * [GopherChina](http://gopherchina.org) - Shanghai, China.
 * [GopherCon](http://www.gophercon.com/) - Denver, USA.
+* [GopherCon Australia](https://gophercon.com.au/) - Sydney, Australia.
 * [GopherCon Brazil](https://gopherconbr.org) - Florianópolis, BR.
 * [GopherCon Europe](https://gophercon.is/) - Reykjavik, Iceland.
 * [GopherCon India](https://www.gophercon.in/) - Pune, India.
