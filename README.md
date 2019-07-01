@@ -171,6 +171,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [margelet](https://github.com/zhulik/margelet) - Framework for building Telegram bots.
 * [micha](https://github.com/onrik/micha) - Go Library for Telegram bot api.
 * [slacker](https://github.com/shomali11/slacker) - Easy to use framework to create Slack bots.
+* [slackscot](https://github.com/alexandre-normand/slackscot) - Another framework for building Slack bots.
 * [tbot](https://github.com/yanzay/tbot) - Telegram bot server with API similar to net/http.
 * [telebot](https://github.com/tucnak/telebot) - Telegram bot framework written in Go.
 * [telegram-bot-api](https://github.com/Syfaro/telegram-bot-api) - Simple and clean Telegram bot client.
