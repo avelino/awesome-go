@@ -603,6 +603,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gisp](https://github.com/jcla1/gisp) - Simple LISP in Go.
 * [go-duktape](https://github.com/olebedev/go-duktape) - Duktape JavaScript engine bindings for Go.
 * [go-lua](https://github.com/Shopify/go-lua) - Port of the Lua 5.2 VM to pure Go.
+* [lua](https://github.com/milochristiansen/lua) - a pure Go Lua 5.3 VM
 * [go-php](https://github.com/deuill/go-php) - PHP bindings for Go.
 * [go-python](https://github.com/sbinet/go-python) - naive go bindings to the CPython C-API.
 * [golua](https://github.com/aarzilli/golua) - Go bindings for Lua C API.
