@@ -349,6 +349,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [null](https://github.com/emvi/null) - Nullable Go types that can be marshalled/unmarshalled to/from JSON.
 * [parsefields](https://github.com/MonaxGT/parsefields) - Tools for parse JSON-like logs for collecting unique fields and events.
 * [pipeline](https://github.com/hyfather/pipeline) - An implementation of pipelines with fan-in and fan-out.
+* [ptrie](https://github.com/viant/ptrie) - An implementation of prefix tree.
 * [ring](https://github.com/TheTannerRyan/ring) - Go implementation of a high performance, thread safe bloom filter.
 * [roaring](https://github.com/RoaringBitmap/roaring) - Go package implementing compressed bitsets.
 * [set](https://github.com/StudioSol/set) - Simple set data structure implementation in Go using LinkedHashMap.
