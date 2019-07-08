@@ -988,6 +988,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [APNs2](https://github.com/sideshow/apns2) - HTTP/2 Apple Push Notification provider for Go — Send push notifications to iOS, tvOS, Safari and OSX apps.
 * [Beaver](https://github.com/Clivern/Beaver) - A real time messaging server to build a scalable in-app notifications, multiplayer games, chat apps in web and mobile apps.
 * [Benthos](https://github.com/Jeffail/benthos) - A message streaming bridge between a range of protocols.
+* [bokchoy](https://github.com/thoas/bokchoy) - A simple distributed job queues for Go backed by Redis, etc.
 * [Bus](https://github.com/mustafaturan/bus) - Minimalist message bus implementation for internal communication.
 * [Centrifugo](https://github.com/centrifugal/centrifugo) - Real-time messaging (Websockets or SockJS) server in Go.
 * [Commander](https://github.com/jeroenrinzema/commander) - A high-level event driven consumer/producer supporting various "dialects" such as Apache Kafka.
