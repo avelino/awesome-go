@@ -1051,6 +1051,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [fx](https://github.com/uber-go/fx) - A dependency injection based application framework for Go (built on top of dig).
 * [gocontainer](https://github.com/vardius/gocontainer) - Simple Dependency Injection Container.
 * [inject](https://github.com/defval/inject) - A reflection based dependency injection container with simple interface.
+* [linker](https://github.com/logrange/linker) - A reflection based dependency injection and inversion of control library with components lifecycle support.
 * [wire](https://github.com/Fs02/wire) - Strict Runtime Dependency Injection for Golang.
 
 ### Project Layout
