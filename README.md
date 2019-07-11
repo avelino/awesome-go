@@ -481,6 +481,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [go-rejson](https://github.com/nitishm/go-rejson) - Golang client for redislabs' ReJSON module using Redigo golang client. Store and manipulate structs as JSON objects in redis with ease.
     * [gocb](https://github.com/couchbase/gocb) - Official Couchbase Go SDK.
     * [gocql](http://gocql.github.io) - Go language driver for Apache Cassandra.
+    * [godis](https://github.com/piaohao/godis) - redis client implement by golang, inspired by jedis.
     * [godscache](https://github.com/defcronyke/godscache) - A wrapper for the Google Cloud Platform Go Datastore package that adds caching using memcached.
     * [gomemcache](https://github.com/bradfitz/gomemcache/) - memcache client library for the Go programming language.
     * [gorethink](https://github.com/dancannon/gorethink) - Go language driver for RethinkDB.
