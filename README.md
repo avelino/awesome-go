@@ -744,7 +744,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gopherjs](https://github.com/gopherjs/gopherjs) - Compiler from Go to JavaScript.
 * [llgo](https://github.com/go-llvm/llgo) - LLVM-based compiler for Go.
 * [tardisgo](https://github.com/tardisgo/tardisgo) - Golang to Haxe to CPP/CSharp/Java/JavaScript transpiler.
-* [tinygo](https://github.com/tinygo-org/tinygo) - Go compiler for small places.
+* [tinygo](https://github.com/tinygo-org/tinygo) - Go compiler for small places (microcontrollers, WebAssembly, CLIs, etc).
 
 ## Goroutines
 
