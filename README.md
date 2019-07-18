@@ -1293,6 +1293,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 ## Query Language
 
+* [appointy/jaal](https://github.com/appointy/jaal) - Develop spec compliant GraphQL servers in Go.
 * [gojsonq](https://github.com/thedevsaddam/gojsonq) - A simple Go package to Query over JSON Data.
 * [graphql](https://github.com/tmc/graphql) - graphql parser + utilities.
 * [graphql](https://github.com/neelance/graphql-go) - GraphQL server with a focus on ease of use.
