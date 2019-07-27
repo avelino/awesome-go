@@ -176,6 +176,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [slackscot](https://github.com/alexandre-normand/slackscot) - Another framework for building Slack bots.
 * [tbot](https://github.com/yanzay/tbot) - Telegram bot server with API similar to net/http.
 * [telebot](https://github.com/tucnak/telebot) - Telegram bot framework written in Go.
+* [telegram](https://github.com/nasermirzaei89/telegram) - Telegram Bot API.
 * [telegram-bot-api](https://github.com/Syfaro/telegram-bot-api) - Simple and clean Telegram bot client.
 * [Tenyks](https://github.com/kyleterry/tenyks) - Service oriented IRC bot using Redis and JSON for messaging.
 
