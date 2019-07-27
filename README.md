@@ -698,8 +698,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-collada](https://github.com/GlenKelley/go-collada) - Go package for working with the Collada file format.
 * [go-sdl2](https://github.com/veandco/go-sdl2) - Go bindings for the [Simple DirectMedia Layer](https://www.libsdl.org/).
 * [go3d](https://github.com/ungerik/go3d) - Performance oriented 2D/3D math package for Go.
-* [GopherGameServer](https://github.com/hewiefreeman/GopherGameServer) - Full-featured, and easy to use Go game server with a JavaScript client API.
 * [gonet](https://github.com/xtaci/gonet) - Game server skeleton implemented with golang.
+* [GopherGameServer](https://github.com/hewiefreeman/GopherGameServer) - Full-featured, and easy to use Go game server with a JavaScript client API.
 * [goworld](https://github.com/xiaonanln/goworld) - Scalable game server engine, featuring space-entity framework and hot-swapping.
 * [Leaf](https://github.com/name5566/leaf) - Lightweight game server framework.
 * [nano](https://github.com/lonng/nano) - Lightweight, facility, high performance golang based game server framework.
