@@ -616,6 +616,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [otto](https://github.com/robertkrimen/otto) - JavaScript interpreter written in Go.
 * [purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go.
 * [tengo](https://github.com/d5/tengo) - Bytecode compiled script language for Go.
+* [yaegi](https://github.com/containous/yaegi) - Complete embeddable Go interpreter in Go.
 
 ## Error Handling
 
