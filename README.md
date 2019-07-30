@@ -470,6 +470,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [goracle](https://github.com/go-goracle/goracle) - Oracle driver for Go, using the ODPI-C driver.
     * [pgx](https://github.com/jackc/pgx) - PostgreSQL driver supporting features beyond those exposed by database/sql.
     * [pq](https://github.com/lib/pq) - Pure Go Postgres driver for database/sql.
+    * [sqlite](https://godoc.org/crawshaw.io/sqlite) - Direct interface to SQLite 3, independent of database/sql.
 
 * NoSQL Databases
     * [aerospike-client-go](https://github.com/aerospike/aerospike-client-go) - Aerospike client in Go language.
