@@ -888,6 +888,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries for working with JSON.*
 
 * [ajson](https://github.com/spyzhov/ajson) - Abstract JSON for golang with JSONPath support.
+* [easyjson](https://github.com/mailru/easyjson) - Fast JSON serializer.
 * [gjo](https://github.com/skanehira/gjo) - Small utility to create JSON objects.
 * [GJSON](https://github.com/tidwall/gjson) - Get a JSON value with one line of code.
 * [go-jsonerror](https://github.com/ddymko/go-jsonerror) - Go-JsonError is ment to allow us to easily create json response errors that follow the JsonApi spec.
