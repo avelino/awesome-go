@@ -1651,6 +1651,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [wit-go](https://github.com/wit-ai/wit-go) - Go client for wit.ai HTTP API.
 * [ynab](https://github.com/brunomvsouza/ynab.go) - Go wrapper for the YNAB API.
 * [zooz](https://github.com/gojuno/go-zooz) - Go client for the Zooz API.
+* [GoPay](https://github.com/iGoogle-ink/gopay) - 微信（WeChat）、支付宝（Alipay）的Golang版本SDK.
 
 ## Utilities
 
