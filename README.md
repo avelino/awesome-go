@@ -66,6 +66,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Science and Data Analysis](#science-and-data-analysis)
     - [Security](#security)
     - [Serialization](#serialization)
+    - [Stream Processing](#stream-processing)
     - [Template Engines](#template-engines)
     - [Testing](#testing)
     - [Text Processing](#text-processing)
@@ -1422,6 +1423,12 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [riemann-relay](https://github.com/blind-oracle/riemann-relay) - Relay to load-balance Riemann events and/or convert them to Carbon.
 * [RoadRunner](https://github.com/spiral/roadrunner) - High-performance PHP application server, load-balancer and process manager.
 * [yakvs](https://git.sci4me.com/sci4me/yakvs) - Small, networked, in-memory key-value store.
+
+## Stream Processing
+
+*Libraries and tools for stream processing and reactive programming.*
+
+* [go-streams](https://github.com/reugn/go-streams) - Go stream processing library.
 
 ## Template Engines
 
