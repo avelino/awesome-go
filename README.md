@@ -1872,6 +1872,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [REST Layer](http://rest-layer.io) - Framework to build REST/GraphQL API on top of databases with mostly configuration over code.
 * [Revel](https://github.com/revel/revel) - High-productivity web framework for the Go language.
 * [rex](https://github.com/goanywhere/rex) - Rex is a library for modular development built upon gorilla/mux, fully compatible with `net/http`.
+* [rux](https://github.com/gookit/rux) - Simple and fast web framework for build golang HTTP applications.
 * [sawsij](https://github.com/jaybill/sawsij) - lightweight, open-source web framework for building high-performance, data-driven web applications.
 * [tango](https://github.com/lunny/tango) - Micro & pluggable web framework for Go.
 * [tigertonic](https://github.com/rcrowley/go-tigertonic) - Go framework for building JSON web services inspired by Dropwizard.
