@@ -897,6 +897,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gojson](https://github.com/ChimeraCoder/gojson) - Automatically generate Go (golang) struct definitions from example JSON.
 * [JayDiff](https://github.com/yazgazan/jaydiff) - JSON diff utility written in Go.
 * [JSON-to-Go](https://mholt.github.io/json-to-go/) - Convert JSON to Go struct.
+* [json2go](https://m-zajac.github.io/json2go) - Advanced JSON to Go struct conversion. Provides package that can parse multiple JSON documents and create struct to fit them all.
 * [jsonapi-errors](https://github.com/AmuzaTkts/jsonapi-errors) - Go bindings based on the JSON API errors reference.
 * [jsonf](https://github.com/miolini/jsonf) - Console tool for highlighted formatting and struct query fetching JSON.
 * [jsongo](https://github.com/ricardolonga/jsongo) - Fluent API to make it easier to create Json objects.
