@@ -1255,7 +1255,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-queryset](https://github.com/jirfag/go-queryset) - 100% type-safe ORM with code generation and MySQL, PostgreSQL, Sqlite3, SQL Server support based on GORM.
 * [go-sqlbuilder](https://github.com/huandu/go-sqlbuilder) - A flexible and powerful SQL string builder library plus a zero-config ORM.
 * [go-store](https://github.com/gosuri/go-store) - Simple and fast Redis backed key-value store library for Go.
-* [GoMybatis](https://github.com/zhuxiujia/GoMybatis) - A high performance ORM SQL framework same to Mybatis,Ibatis for go. 
+* [GoMybatis](https://github.com/zhuxiujia/GoMybatis) - A XML-based powerful ORM library for Go. 
 * [GORM](https://github.com/jinzhu/gorm) - The fantastic ORM library for Golang, aims to be developer friendly.
 * [gorp](https://github.com/go-gorp/gorp) - Go Relational Persistence, ORM-ish library for Go.
 * [grimoire](https://github.com/Fs02/grimoire) - Grimoire is a database access layer and validation for golang. (Support: MySQL, PostgreSQL and SQLite3).
