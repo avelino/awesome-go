@@ -376,6 +376,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [ringpop-go](https://github.com/uber/ringpop-go) - Scalable, fault-tolerant application-layer sharding for Go applications
 * [rpcx](https://github.com/smallnest/rpcx) - A distributed pluggable RPC service framework like alibaba Dubbo.
 * [sleuth](https://github.com/ursiform/sleuth) - A library for master-less p2p auto-discovery and RPC between HTTP services (using [ZeroMQ](https://github.com/zeromq/libzmq)).
+* [smudge](https://github.com/clockworksoul/smudge) - A lightweight library that provides group member discovery, status dissemination, and failure detection using the [SWIM epidemic protocol](https://ieeexplore.ieee.org/document/1028914).
 * [tendermint](https://github.com/tendermint/tendermint) - High-performance middleware for transforming a state machine written in any programming language into a Byzantine Fault Tolerant replicated state machine using the Tendermint consensus and blockchain protocols.
 * [torrent](https://github.com/anacrolix/torrent) - BitTorrent client package.
     * [dht](https://godoc.org/github.com/anacrolix/torrent/dht) - BitTorrent Kademlia DHT implementation.
