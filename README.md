@@ -1766,6 +1766,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [robustly](https://github.com/VividCortex/robustly) - Runs functions resiliently, catching and restarting panics.
 * [scan](https://github.com/blockloop/scan) - Scan golang `sql.Rows` directly to structs, slices, or primitive types.
 * [serve](https://github.com/syntaqx/serve) - A static http server anywhere you need.
+* [shutdown](https://github.com/ztrue/shutdown) - App shutdown hooks for `os.Signal` handling.
 * [silk](https://github.com/chrispassas/silk) - Read silk netflow files.
 * [sliceconv](https://github.com/Henry-Sarabia/sliceconv) - Slice conversion between primitive types.
 * [slicer](https://github.com/leaanthony/slicer) - Makes working with slices easier.
@@ -1791,7 +1792,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [nanoid](https://github.com/aidarkhanov/nanoid) - A tiny and efficient Go unique string ID generator.
 * [sno](https://github.com/muyo/sno) - Compact, sortable and fast unique IDs with embedded metadata.
 * [ulid](https://github.com/oklog/ulid) - Go implementation of ULID (Universally Unique Lexicographically Sortable Identifier).
-* [uniq](https://gitlab.com/skilstak/code/go/uniq) - No hassle safe, fast unique identifiers with commands. 
+* [uniq](https://gitlab.com/skilstak/code/go/uniq) - No hassle safe, fast unique identifiers with commands.
 * [uuid](https://github.com/agext/uuid) - Generate, encode, and decode UUIDs v1 with fast or cryptographic-quality random node identifier.
 * [uuid](https://github.com/gofrs/uuid) - Implementation of Universally Unique Identifier (UUID). Supports both creation and parsing of UUIDs. Actively maintained fork of satori uuid.
 * [wuid](https://github.com/edwingeng/wuid) - An extremely fast unique number generator, 10-135 times faster than UUID.
