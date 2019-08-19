@@ -510,6 +510,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [goes](https://github.com/OwnLocal/goes) - Library to interact with Elasticsearch.
     * [riot](https://github.com/go-ego/riot) - Go Open Source, Distributed, Simple and efficient Search Engine.
     * [skizze](https://github.com/seiflotfy/skizze) - probabilistic data-structures service and storage.
+    * [vulcanizer](https://github.com/github/vulcanizer) - an ops-oriented API for Elasticsearch clusters, by Github.
 
 * Multiple Backends.
     * [cachego](https://github.com/fabiorphp/cachego) - Golang Cache component for multiple drivers.
