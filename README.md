@@ -2130,6 +2130,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Stack Up](https://github.com/pressly/sup) - Stack Up, a super simple deployment tool - just Unix - think of it like 'make' for a network of servers.
 * [syncthing](https://syncthing.net/) - Open, decentralized file synchronization tool and protocol.
 * [term-quiz](https://github.com/crazcalm/term-quiz) - Quizzes for your terminal.
+* [tldr](https://github.com/mstruebing/tldr) - Simplified manpages for everyday use.
 * [toxiproxy](https://github.com/shopify/toxiproxy) - Proxy to simulate network and system conditions for automated tests.
 * [tsuru](https://tsuru.io/) - Extensible and open source Platform as a Service software.
 * [vFlow](https://github.com/VerizonDigital/vflow) - High-performance, scalable and reliable IPFIX, sFlow and Netflow collector.
