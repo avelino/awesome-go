@@ -806,10 +806,12 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gosx-notifier](https://github.com/deckarep/gosx-notifier) - OSX Desktop Notifications library for Go.
 * [mac-activity-tracker](https://github.com/prashantgupta24/activity-tracker) - OSX library to notify about any (pluggable) activity on your machine.
 * [mac-sleep-notifier](https://github.com/prashantgupta24/mac-sleep-notifier) - OSX Sleep/Wake notifications in golang.
-* [robotgo](https://github.com/go-vgo/robotgo) - Go Native cross-platform GUI system automation. Control the mouse, keyboard and other.
 * [systray](https://github.com/getlantern/systray) - Cross platform Go library to place an icon and menu in the notification area.
 * [trayhost](https://github.com/shurcooL/trayhost) - Cross-platform Go library to place an icon in the host operating system's taskbar.
-
+* [robotgo](https://github.com/go-vgo/robotgo) - Go Native cross-platform GUI system automation. Control the mouse, keyboard and other.
+* [gohook](https://github.com/robotn/gohook) - Cross-platform global hook to mouse and keyboard input
+* [gobot](https://github.com/cauefcr/gobot) - Cross-platform mouse and keyboard control library
+* [joystick](https://github.com/0xcafed00d/joystick) - Cross platform Joystick input Polling library
 
 ## Hardware
 
