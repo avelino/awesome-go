@@ -608,6 +608,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [expr](https://github.com/antonmedv/expr) - an engine that can evaluate expressions.
 * [gentee](https://github.com/gentee/gentee) - Embeddable scripting programming language.
 * [gisp](https://github.com/jcla1/gisp) - Simple LISP in Go.
+* [go-eek](https://github.com/novalagung/go-eek) - Blazingly fast and safe Go evaluation library.
 * [go-duktape](https://github.com/olebedev/go-duktape) - Duktape JavaScript engine bindings for Go.
 * [go-lua](https://github.com/Shopify/go-lua) - Port of the Lua 5.2 VM to pure Go.
 * [go-php](https://github.com/deuill/go-php) - PHP bindings for Go.
