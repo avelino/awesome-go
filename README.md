@@ -29,7 +29,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Distributed Systems](#distributed-systems)
     - [Email](#email)
     - [Embeddable Scripting Languages](#embeddable-scripting-languages)
-    - [Error Handling]()
+    - [Error Handling](#error-handling)
     - [Files](#files)
     - [Financial](#financial)
     - [Forms](#forms)
