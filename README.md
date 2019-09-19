@@ -1103,7 +1103,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [conv](https://github.com/cstockton/go-conv) - Package conv provides fast and intuitive conversions across Go types.
 * [datacounter](https://github.com/miolini/datacounter) - Go counters for readers/writer/http.ResponseWriter.
 * [ffmt](https://github.com/go-ffmt/ffmt) - Beautify data display for Humans.
-* [ghorg](https://github.com/gabrie30/ghorg) - Clone all repos from a GitHub org into a single directory.
+* [ghorg](https://github.com/gabrie30/ghorg) - Quickly clone an entire org/users repositories into one directory - Supports GitHub, GitLab, and Bitbucket.
 * [go-commons-pool](https://github.com/jolestar/go-commons-pool) - Generic object pool for Golang.
 * [go-openapi](https://github.com/go-openapi) - Collection of packages to parse and utilize open-api schemas.
 * [go-resiliency](https://github.com/eapache/go-resiliency) - Resiliency patterns for golang.
@@ -1801,7 +1801,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [nanoid](https://github.com/aidarkhanov/nanoid) - A tiny and efficient Go unique string ID generator.
 * [sno](https://github.com/muyo/sno) - Compact, sortable and fast unique IDs with embedded metadata.
 * [ulid](https://github.com/oklog/ulid) - Go implementation of ULID (Universally Unique Lexicographically Sortable Identifier).
-* [uniq](https://gitlab.com/skilstak/code/go/uniq) - No hassle safe, fast unique identifiers with commands. 
+* [uniq](https://gitlab.com/skilstak/code/go/uniq) - No hassle safe, fast unique identifiers with commands.
 * [uuid](https://github.com/agext/uuid) - Generate, encode, and decode UUIDs v1 with fast or cryptographic-quality random node identifier.
 * [uuid](https://github.com/gofrs/uuid) - Implementation of Universally Unique Identifier (UUID). Supports both creation and parsing of UUIDs. Actively maintained fork of satori uuid.
 * [wuid](https://github.com/edwingeng/wuid) - An extremely fast unique number generator, 10-135 times faster than UUID.
