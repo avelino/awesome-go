@@ -66,6 +66,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Science and Data Analysis](#science-and-data-analysis)
     - [Security](#security)
     - [Serialization](#serialization)
+    - [Server Applications](#server-applications)
     - [Stream Processing](#stream-processing)
     - [Template Engines](#template-engines)
     - [Testing](#testing)
@@ -92,8 +93,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Software Packages](#software-packages)
         - [DevOps Tools](#devops-tools)
         - [Other Software](#other-software)
-
-- [Server Applications](#server-applications)
 
 - [Resources](#resources)
     - [Benchmarks](#benchmarks)
