@@ -594,6 +594,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [Gomail](https://github.com/go-gomail/gomail/) - Gomail is a very simple and powerful package to send emails.
 * [Hectane](https://github.com/hectane/hectane) - Lightweight SMTP client providing an HTTP API.
 * [hermes](https://github.com/matcornic/hermes) - Golang package that generates clean, responsive HTML e-mails.
+* [mailgun-go](https://github.com/mailgun/mailgun-go) - Go library for sending mail with the Mailgun API.
 * [MailHog](https://github.com/mailhog/MailHog) - Email and SMTP testing with web and API interface.
 * [SendGrid](https://github.com/sendgrid/sendgrid-go) - SendGrid's Go library for sending email.
 * [smtp](https://github.com/mailhog/smtp) - SMTP server protocol state machine.
