@@ -1396,6 +1396,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [simple-scrypt](https://github.com/elithrar/simple-scrypt) - Scrypt package with a simple, obvious API and automatic cost calibration built-in.
 * [ssh-vault](https://github.com/ssh-vault/ssh-vault) - encrypt/decrypt using ssh keys.
 * [sslmgr](https://github.com/adrianosela/sslmgr) - SSL certificates made easy with a high level wrapper around acme/autocert.
+* [syml](https://github.com/antonmarin/secret-yaml) - Lightweight tool to encrypt yaml values, which you can quickly install right inside your pipeline.
 
 ## Serialization
 
