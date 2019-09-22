@@ -649,6 +649,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [bigfile](https://github.com/bigfile/bigfile) - A file transfer system, support to manage files with http api, rpc call and ftp client.
 * [checksum](https://github.com/codingsince1985/checksum) - Compute message digest, like MD5 and SHA256, for large files.
 * [flop](https://github.com/homedepot/flop) - File operations library which aims to mirror feature parity with [GNU cp](https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html).
+* [fuse](https://github.com/jacobsa/fuse) - A Go package for implementing a [FUSE file system](https://en.wikipedia.org/wiki/Filesystem_in_Userspace).
 * [go-csv-tag](https://github.com/artonge/go-csv-tag) - Load csv file using tag.
 * [go-decent-copy](https://github.com/hugocarreira/go-decent-copy) - Copy files for humans.
 * [go-exiftool](https://github.com/barasher/go-exiftool) - Go bindings for ExifTool, the well-known library used to extract as much metadata as possible (EXIF, IPTC, ...) from files (pictures, PDF, office, ...).
