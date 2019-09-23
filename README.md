@@ -242,12 +242,12 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-colortext](https://github.com/daviddengcn/go-colortext) - Go library for color output in terminals.
 * [go-isatty](https://github.com/mattn/go-isatty) - isatty for golang.
 * [go-prompt](https://github.com/c-bata/go-prompt) - Library for building a powerful interactive prompt, inspired by [python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit).
-* [promptui](https://github.com/manifoldco/promptui) - Interactive prompt for command-line applications.
 * [gocui](https://github.com/jroimartin/gocui) - Minimalist Go library aimed at creating Console User Interfaces.
 * [gommon/color](https://github.com/labstack/gommon/tree/master/color) - Style terminal text.
 * [gookit/color](https://github.com/gookit/color) - Terminal color rendering tool library, support 16 colors, 256 colors, RGB color rendering output, compatible with Windows.
 * [mpb](https://github.com/vbauerster/mpb) - Multi progress bar for terminal applications.
 * [progressbar](https://github.com/schollz/progressbar) - Basic thread-safe progress bar that works in every OS.
+* [promptui](https://github.com/manifoldco/promptui) - Interactive prompt for command-line applications.
 * [simpletable](https://github.com/alexeyco/simpletable) - Simple tables in terminal with Go.
 * [tabby](https://github.com/cheynewallace/tabby) - A tiny library for super simple Golang tables.
 * [tabular](https://github.com/InVisionApp/tabular) - Print ASCII tables from command line utilities without the need to pass large sets of data to the API.
