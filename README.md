@@ -1876,6 +1876,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Fireball](https://github.com/zpatrick/fireball) - More "natural" feeling web framework.
 * [Gem](https://github.com/go-gem/gem) - Simple and fast web framework, friendly to REST API.
 * [Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity.
+* [Ginrpc](https://github.com/xxjwxc/ginrpc) - Gin parameter automatic binding tool,gin rpc tools.
 * [Gizmo](https://github.com/NYTimes/gizmo) - Microservice toolkit used by the New York Times.
 * [go-json-rest](https://github.com/ant0ine/go-json-rest) - Quick and easy way to setup a RESTful JSON API.
 * [go-rest](https://github.com/ungerik/go-rest) - Small and evil REST framework for Go.
