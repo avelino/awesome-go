@@ -1216,6 +1216,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gotcp](https://github.com/gansidui/gotcp) - Go package for quickly writing tcp applications.
 * [grab](https://github.com/cavaliercoder/grab) - Go package for managing file downloads.
 * [graval](https://github.com/koofr/graval) - Experimental FTP server framework.
+* [gev](https://github.com/Allenxuxu/gev) - gev is a lightweight, fast non-blocking TCP network library based on Reactor mode.
 * [HTTPLab](https://github.com/gchaincl/httplab) - HTTPLabs let you inspect HTTP requests and forge responses.
 * [iplib](https://github.com/c-robinson/iplib) - Library for working with IP addresses (net.IP, net.IPNet), inspired by python [ipaddress](https://docs.python.org/3/library/ipaddress.html) and ruby [ipaddr](https://ruby-doc.org/stdlib-2.5.1/libdoc/ipaddr/rdoc/IPAddr.html)
 * [jazigo](https://github.com/udhos/jazigo) - Jazigo is a tool written in Go for retrieving configuration for multiple network devices.
