@@ -15,6 +15,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 ### Contents
 
 - [Awesome Go](#awesome-go)
+    - [Algorithms and Design Patterns](#algorithms-and-design-patterns)
     - [Audio and Music](#audio-and-music)
     - [Authentication and OAuth](#authentication-and-oauth)
     - [Bot Building](#bot-building)
@@ -103,6 +104,12 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Twitter](#twitter)
     - [Websites](#websites)
         - [Tutorials](#tutorials)
+
+## Algorithms and Design Patterns
+
+*Go implementation of algorithms and design patterns.*
+
+* [go-patterns](https://github.com/tmrts/go-patterns) - Curated list of Go design patterns, recipes and idioms.
 
 ## Audio and Music
 
