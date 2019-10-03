@@ -2014,6 +2014,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gostatus](https://github.com/shurcooL/gostatus) - Command line tool, shows the status of repositories that contain Go packages.
 * [lint](https://github.com/surullabs/lint) - Run linters as part of go test.
 * [php-parser](https://github.com/z7zmey/php-parser) - A Parser for PHP written in Go.
+* [revive](https://github.com/mgechev/revive) - A configurable, extensible and flexible drop-in replacement of golint, providing a framework for development of custom rules, and lets you define a strict preset for enhancing your development & code review processes. 
 * [staticcheck](https://github.com/dominikh/go-tools/tree/master/cmd/staticcheck) - staticcheck is `go vet` on steroids, applying a ton of static analysis checks you might be used to from tools like ReSharper for C#.
 * [tarp](https://github.com/verygoodsoftwarenotvirus/tarp) - tarp finds functions and methods without direct unit tests in Go source code.
 * [unconvert](https://github.com/mdempsky/unconvert) - Remove unnecessary type conversions from Go source.
