@@ -582,6 +582,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [pglock](https://cirello.io/pglock) - PostgreSQL-backed distributed locking implementation.
 * [raft](https://github.com/hashicorp/raft) - Golang implementation of the Raft consensus protocol, by HashiCorp.
 * [raft](https://github.com/coreos/etcd/tree/master/raft) - Go implementation of the Raft consensus protocol, by CoreOS.
+* [rain](https://github.com/cenkalti/rain) - BitTorrent client and library.
 * [redis-lock](https://github.com/bsm/redislock) - Simplified distributed locking implementation using Redis.
 * [resgate](https://resgate.io/) - Realtime API Gateway for building REST, real time, and RPC APIs, where all clients are synchronized seamlessly.
 * [ringpop-go](https://github.com/uber/ringpop-go) - Scalable, fault-tolerant application-layer sharding for Go applications.
