@@ -1089,6 +1089,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [inject](https://github.com/defval/inject) - A reflection based dependency injection container with simple interface.
 * [linker](https://github.com/logrange/linker) - A reflection based dependency injection and inversion of control library with components lifecycle support.
 * [wire](https://github.com/Fs02/wire) - Strict Runtime Dependency Injection for Golang.
+* [container](https://github.com/golobby/container) - A powerful IoC Container with fluent and easy-to-use interface.
 
 ### Project Layout
 
