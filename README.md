@@ -1083,6 +1083,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries for working with dependency injection.*
 
 * [alice](https://github.com/magic003/alice) - Additive dependency injection container for Golang.
+* [container](https://github.com/golobby/container) - A powerful IoC Container with fluent and easy-to-use interface.
 * [dig](https://github.com/uber-go/dig) - A reflection based dependency injection toolkit for Go.
 * [fx](https://github.com/uber-go/fx) - A dependency injection based application framework for Go (built on top of dig).
 * [gocontainer](https://github.com/vardius/gocontainer) - Simple Dependency Injection Container.
