@@ -2086,6 +2086,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Dropship](https://github.com/chrismckenzie/dropship) - Tool for deploying code via cdn.
 * [easyssh-proxy](https://github.com/appleboy/easyssh-proxy) - Golang package for easy remote execution through SSH and SCP downloading via `ProxyCommand`.
 * [fac](https://github.com/mkchoi212/fac) - Command-line user interface to fix git merge conflicts.
+* [Flux](https://github.com/fluxcd/flux) - The GitOps Kubernetes operator
 * [gaia](https://github.com/gaia-pipeline/gaia) - Build powerful pipelines in any programming language.
 * [Gitea](https://github.com/go-gitea/gitea) - Fork of Gogs, entirely community driven.
 * [gitea-github-migrator](https://git.jonasfranz.software/JonasFranzDEV/gitea-github-migrator) - Migrate all your GitHub repositories, issues, milestones and labels to your Gitea instance.
@@ -2120,6 +2121,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [sg](https://github.com/ChristopherRabotin/sg) - Benchmarks a set of HTTP endpoints (like ab), with possibility to use the response code and data between each call for specific server stress based on its previous response.
 * [skm](https://github.com/TimothyYe/skm) - SKM is a simple and powerful SSH Keys Manager, it helps you to manage your multiple SSH keys easily!
 * [StatusOK](https://github.com/sanathp/statusok) - Monitor your Website and REST APIs.Get Notified through Slack, E-mail when your server is down or response time is more than expected.
+* [Tekton Pipelines](https://github.com/tektoncd/pipeline) - The Tekton Pipelines project provides k8s-style resources for declaring CI/CD-style pipelines.
 * [traefik](https://github.com/containous/traefik) - Reverse proxy and load balancer with support for multiple backends.
 * [Vegeta](https://github.com/tsenart/vegeta) - HTTP load testing tool and library. It's over 9000!
 * [webhook](https://github.com/adnanh/webhook) - Tool which allows user to create HTTP endpoints (hooks) that execute commands on the server.
@@ -2293,6 +2295,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Golang São Paulo - Brazil](https://www.meetup.com/golangbr/)
 * [Golang Taipei](https://www.meetup.com/golang-taipei-meetup/)
 * [Golang Vancouver, BC](https://www.meetup.com/golangvan/)
+* [Golang Warsaw](https://www.meetup.com/Golang-Warsaw/)
 * [Golang Казань](https://www.meetup.com/GolangKazan/)
 * [Golang Москва](https://www.meetup.com/Golang-Moscow/)
 * [Golang Питер](https://www.meetup.com/Golang-Peter/)
