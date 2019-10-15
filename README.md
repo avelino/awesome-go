@@ -450,6 +450,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [pREST](https://github.com/nuveo/prest) - Serve a RESTful API from any PostgreSQL database.
 * [rwdb](https://github.com/andizzle/rwdb) - rwdb provides read replica capability for multiple database servers setup.
 * [vitess](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
+* [bucket](ttps://github.com/PumpkinSeed/bucket) - Optimized data structure framework for Couchbase specialized on one bucket usage
 
 *SQL query builder, libraries for building and using SQL.*
 
