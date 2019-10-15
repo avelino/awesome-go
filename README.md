@@ -435,6 +435,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Database tools.*
 
+* [bucket](https://github.com/PumpkinSeed/bucket) - Optimized data structure framework for Couchbase specialized on one bucket usage
 * [chproxy](https://github.com/Vertamedia/chproxy) - HTTP proxy for ClickHouse database.
 * [clickhouse-bulk](https://github.com/nikepan/clickhouse-bulk) - Collects small insterts and sends big requests to ClickHouse servers.
 * [datagen](https://github.com/codingconcepts/datagen) - A fast data generator that's multi-table aware and supports multi-row DML.
@@ -450,7 +451,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [pREST](https://github.com/nuveo/prest) - Serve a RESTful API from any PostgreSQL database.
 * [rwdb](https://github.com/andizzle/rwdb) - rwdb provides read replica capability for multiple database servers setup.
 * [vitess](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
-* [bucket](https://github.com/PumpkinSeed/bucket) - Optimized data structure framework for Couchbase specialized on one bucket usage
 
 *SQL query builder, libraries for building and using SQL.*
 
