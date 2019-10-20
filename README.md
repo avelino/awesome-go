@@ -1708,6 +1708,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [TripAdvisor](https://github.com/mrbenosborne/tripadvisor-golang) - Go wrapper for the TripAdvisor API.
 * [tumblr](https://github.com/mattcunningham/gumblr) - Go wrapper for the Tumblr v2 API.
 * [uptimerobot](https://github.com/bitfield/uptimerobot) - Go wrapper and command-line client for the Uptime Robot v2 API.
+* [vl-go](https://github.com/verifid/vl-go) - Go client library around the VerifID identity verification layer API.
 * [webhooks](https://github.com/go-playground/webhooks) - Webhook receiver for GitHub and Bitbucket.
 * [wit-go](https://github.com/wit-ai/wit-go) - Go client for wit.ai HTTP API.
 * [ynab](https://github.com/brunomvsouza/ynab.go) - Go wrapper for the YNAB API.
