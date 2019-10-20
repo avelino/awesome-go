@@ -680,8 +680,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [accounting](https://github.com/leekchan/accounting) - money and currency formatting for golang.
 * [currency](https://github.com/bnkamalesh/currency) - High performant & accurate currency computation package.
 * [decimal](https://github.com/shopspring/decimal) - Arbitrary-precision fixed-point decimal numbers.
-* [go-finance](https://github.com/FlashBoys/go-finance) - Comprehensive financial markets data in Go.
 * [go-finance](https://github.com/alpeb/go-finance) - Library of financial functions for time value of money (annuities), cash flow, interest rate conversions, bonds and depreciation calculations.
+* [go-finance](https://github.com/FlashBoys/go-finance) - Comprehensive financial markets data in Go.
+* [go-finance](https://github.com/pieterclaerhout/go-finance) - Module to fetch exchange rates, check VAT numbers via VIES and check IBAN bank account numbers.
 * [go-money](https://github.com/rhymond/go-money) - Implementation of Fowler's Money pattern.
 * [ofxgo](https://github.com/aclindsa/ofxgo) - Query OFX servers and/or parse the responses (with example command-line client).
 * [orderbook](https://github.com/i25959341/orderbook) - Matching Engine for Limit Order Book in Golang.
@@ -743,6 +744,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [generis](https://github.com/senselogic/GENERIS) - Code generation tool providing generics, free-form macros, conditional compilation and HTML templating.
 * [go-enum](https://github.com/abice/go-enum) - Code generation for enums from code comments.
 * [go-linq](https://github.com/ahmetalpbalkan/go-linq) - .NET LINQ-like query methods for Go.
+* [go-xray](https://github.com/pieterclaerhout/go-xray) - Helpers for making the use of reflection easier.
 * [goderive](https://github.com/awalterschulze/goderive) - Derives functions from input types.
 * [gotype](https://github.com/wzshiming/gotype) - Golang source code parsing, usage like reflect package.
 * [GoWrap](https://github.com/hexdigest/gowrap) - Generate decorators for Go interfaces using simple templates.
@@ -786,6 +788,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-flow](https://github.com/kamildrazkiewicz/go-flow) - Control goroutines execution order.
 * [go-tools/multithreading](https://github.com/nikhilsaraf/go-tools) - Manage a pool of goroutines using this lightweight library with a simple API.
 * [go-trylock](https://github.com/subchen/go-trylock) - TryLock support on read-write lock for Golang.
+* [go-waitgroup](https://github.com/pieterclaerhout/go-waitgroup) - Like `sync.WaitGroup` with error handling and concurrency control.
 * [gohive](https://github.com/loveleshsharma/gohive) - A highly performant and easy to use Goroutine pool for Go.
 * [gollback](https://github.com/vardius/gollback) - asynchronous simple function utilities, for managing execution of closures and callbacks.
 * [GoSlaves](https://github.com/themester/GoSlaves) - Simple and Asynchronous Goroutine pool library.
@@ -944,19 +947,20 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [glo](https://github.com/lajosbencz/glo) - PHP Monolog inspired logging facility with identical severity levels.
 * [glog](https://github.com/golang/glog) - Leveled execution logs for Go.
 * [go-cronowriter](https://github.com/utahta/go-cronowriter) - Simple writer that rotate log files automatically based on current date and time, like cronolog.
-* [go-log](https://github.com/subchen/go-log) - Simple and configurable Logging in Go, with level, formatters and writers.
-* [go-log](https://github.com/siddontang/go-log) - Log lib supports level and multi handlers.
 * [go-log](https://github.com/ian-kent/go-log) - Log4j implementation in Go.
+* [go-log](https://github.com/pieterclaerhout/go-log) - A logging library with strack traces, object dumping and optional timestamps.
+* [go-log](https://github.com/siddontang/go-log) - Log lib supports level and multi handlers.
+* [go-log](https://github.com/subchen/go-log) - Simple and configurable Logging in Go, with level, formatters and writers.
 * [go-logger](https://github.com/apsdehal/go-logger) - Simple logger of Go Programs, with level handlers.
 * [gologger](https://github.com/sadlil/gologger) - Simple easy to use log lib for go, logs in Colored Console, Simple Console, File or Elasticsearch.
 * [gomol](https://github.com/aphistic/gomol) - Multiple-output, structured logging for Go with extensible logging outputs.
 * [gone/log](https://github.com/One-com/gone/tree/master/log) - Fast, extendable, full-featured, std-lib source compatible log library.
 * [journald](https://github.com/ssgreg/journald) - Go implementation of systemd Journal's native API for logging.
+* [log-voyage](https://github.com/firstrow/logvoyage) - Full-featured logging saas written in golang.
 * [log](https://github.com/aerogo/log) - An O(1) logging system that allows you to connect one log to multiple writers (e.g. stdout, a file and a TCP connection).
 * [log](https://github.com/apex/log) - Structured logging package for Go.
 * [log](https://github.com/go-playground/log) - Simple, configurable and scalable Structured Logging for Go.
 * [log](https://github.com/teris-io/log) - Structured log interface for Go cleanly separates logging facade from its implementation.
-* [log-voyage](https://github.com/firstrow/logvoyage) - Full-featured logging saas written in golang.
 * [log15](https://github.com/inconshreveable/log15) - Simple, powerful logging for Go.
 * [logdump](https://github.com/ewwwwwqm/logdump) - Package for multi-level logging.
 * [logex](https://github.com/chzyer/logex) - Golang log lib, supports tracking and level, wrap by standard log lib.
@@ -977,8 +981,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [spew](https://github.com/davecgh/go-spew) - Implements a deep pretty printer for Go data structures to aid in debugging.
 * [stdlog](https://github.com/alexcesaro/log) - Stdlog is an object-oriented library providing leveled logging. It is very useful for cron jobs.
 * [tail](https://github.com/hpcloud/tail) - Go package striving to emulate the features of the BSD tail program.
-* [xlog](https://github.com/xfxdev/xlog) - Plugin architecture and flexible log system for Go, with level ctrl, multiple log target and custom log format.
 * [xlog](https://github.com/rs/xlog) - Structured logger for `net/context` aware HTTP handlers with flexible dispatching.
+* [xlog](https://github.com/xfxdev/xlog) - Plugin architecture and flexible log system for Go, with level ctrl, multiple log target and custom log format.
 * [zap](https://github.com/uber-go/zap) - Fast, structured, leveled logging in Go.
 * [zerolog](https://github.com/rs/zerolog) - Zero-allocation JSON logger.
 
@@ -1595,6 +1599,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [genex](https://github.com/alixaxel/genex) - Count and expand Regular Expressions into all matching Strings.
     * [github_flavored_markdown](https://godoc.org/github.com/shurcooL/github_flavored_markdown) - GitHub Flavored Markdown renderer (using blackfriday) with fenced code block highlighting, clickable header anchor links.
     * [go-fixedwidth](https://github.com/ianlopshire/go-fixedwidth) - Fixed-width text formatting (encoder/decoder with reflection).
+    * [go-formatter](https://github.com/pieterclaerhout/go-formatter) - A package which allows you to format hex colors, dates, elapsed time, filesizes, floats, ints, JSON, SQL and XML.
     * [go-humanize](https://github.com/dustin/go-humanize) - Formatters for time, numbers, and memory size to human readable format.
     * [go-nmea](https://github.com/adrianmo/go-nmea) - NMEA parser library for the Go language.
     * [go-runewidth](https://github.com/mattn/go-runewidth) - Functions to get fixed width of the character or string.
@@ -1659,6 +1664,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [github](https://github.com/google/go-github) - Go library for accessing the GitHub REST API v3.
 * [githubql](https://github.com/shurcooL/githubql) - Go library for accessing the GitHub GraphQL API v4.
 * [go-chronos](https://github.com/axelspringer/go-chronos) - Go library for interacting with the [Chronos](https://mesos.github.io/chronos/) Job Scheduler
+* [go-geoip](https://github.com/pieterclaerhout/go-geoip) - A Go library to make it easier to use [MaxMind GeoIP](https://www.maxmind.com/en/home). Includes a web API which automatically keeps the database up-to-date.
 * [go-hacknews](https://github.com/PaulRosset/go-hacknews) - Tiny Go client for HackerNews API.
 * [go-here](https://github.com/abdullahselek/go-here) - Go client library around the HERE location based APIs.
 * [go-imgur](https://github.com/koffeinsource/go-imgur) - Go client library for [imgur](https://imgur.com)
@@ -1676,13 +1682,13 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [golyrics](https://github.com/mamal72/golyrics) - Golyrics is a Go library to fetch music lyrics data from the Wikia website.
 * [gomalshare](https://github.com/MonaxGT/gomalshare) - Go library MalShare API [malshare.com](http://www.malshare.com/)
 * [GoMusicBrainz](https://github.com/michiwend/gomusicbrainz) - Go MusicBrainz WS2 client library.
-* [google](https://github.com/google/google-api-go-client) - Auto-generated Google APIs for Go.
 * [google-analytics](https://github.com/chonthu/go-google-analytics) - Simple wrapper for easy google analytics reporting.
 * [google-cloud](https://github.com/GoogleCloudPlatform/gcloud-golang) - Google Cloud APIs Go Client Library.
 * [google-email-audit-api](https://github.com/ngs/go-google-email-audit-api) - Go client library for [Google G Suite Email Audit API](https://developers.google.com/admin-sdk/email-audit/).
+* [google](https://github.com/google/google-api-go-client) - Auto-generated Google APIs for Go.
 * [gostorm](https://github.com/jsgilmore/gostorm) - GoStorm is a Go library that implements the communications protocol required to write Storm spouts and Bolts in Go that communicate with the Storm shells.
-* [hipchat](https://github.com/andybons/hipchat) - This project implements a golang client library for the Hipchat API.
 * [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP.
+* [hipchat](https://github.com/andybons/hipchat) - This project implements a golang client library for the Hipchat API.
 * [igdb](https://github.com/Henry-Sarabia/igdb) - Go client for the [Internet Game Database API](https://api.igdb.com/).
 * [lastpass-go](https://github.com/ansd/lastpass-go) - Go client library for the [LastPass](https://www.lastpass.com/) API.
 * [libgoffi](https://github.com/clevabit/libgoffi) - Library adapter toolbox for native [libffi](http://sourceware.org/libffi/) integration
@@ -1809,11 +1815,11 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [rerun](https://github.com/ivpusic/rerun) - Recompiling and rerunning go apps when source changes.
 * [rest-go](https://github.com/edermanoel94/rest-go) - A package that provide many helpful methods for working with rest api.
 * [resty](https://github.com/go-resty/resty) - Simple HTTP and REST client for Go inspired by Ruby rest-client.
+* [retry-go](https://github.com/rafaeljesus/retry-go) - Retrying made simple and easy for golang.
 * [retry](https://github.com/kamilsk/retry) - The most advanced functional mechanism to perform actions repetitively until successful.
 * [retry](https://github.com/percolate/retry) - A simple but highly configurable retry package for Go.
-* [retry](https://github.com/thedevsaddam/retry) - Simple and easy retry mechanism package for Go.
 * [retry](https://github.com/shafreeck/retry) - A pretty simple library to ensure your work to be done.
-* [retry-go](https://github.com/rafaeljesus/retry-go) - Retrying made simple and easy for golang.
+* [retry](https://github.com/thedevsaddam/retry) - Simple and easy retry mechanism package for Go.
 * [robustly](https://github.com/VividCortex/robustly) - Runs functions resiliently, catching and restarting panics.
 * [scan](https://github.com/blockloop/scan) - Scan golang `sql.Rows` directly to structs, slices, or primitive types.
 * [serve](https://github.com/syntaqx/serve) - A static http server anywhere you need.
@@ -2064,10 +2070,10 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * [colorgo](https://github.com/songgao/colorgo) - Wrapper around `go` command for colorized `go build` output.
 * [depth](https://github.com/KyleBanks/depth) - Visualize dependency trees of any package by analyzing imports.
-* [gb](https://getgb.io/) - An easy to use project based build tool for the Go programming language.
 * [generator-go-lang](https://github.com/axelspringer/generator-go-lang) - A [Yeoman](http://yeoman.io) generator to get new Go projects started.
 * [gilbert](https://go-gilbert.github.io) - Build system and task runner for Go projects.
 * [go-callvis](https://github.com/TrueFurby/go-callvis) - Visualize call graph of your Go program using dot format.
+* [go-james](https://github.com/pieterclaerhout/go-james) - Go project skeleton creator, builds and tests your projects without the manual setup.
 * [go-pkg-complete](https://github.com/skelterjohn/go-pkg-complete) - Bash completion for go and wgo.
 * [go-swagger](https://github.com/go-swagger/go-swagger) - Swagger 2.0 implementation for go. Swagger is a simple yet powerful representation of your RESTful API.
 * [godbg](https://github.com/tylerwince/godbg) - Implementation of Rusts `dbg!` macro for quick and easy debugging during development.
