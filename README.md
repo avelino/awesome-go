@@ -1161,6 +1161,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [url-shortener](https://github.com/pantrif/url-shortener) - A modern, powerful, and robust URL shortener microservice with mysql support.
 * [VarHandler](https://github.com/azr/generators/tree/master/varhandler) - Generate boilerplate http input and output handling.
 * [xdg](https://github.com/rkoesters/xdg) - FreeDesktop.org (xdg) Specs implemented in Go.
+* [xid](https://github.com/rs/xid/) - Xid is a globally unique id generator thought for the web.
 * [xkg](https://github.com/go-xkg/xkg) - X Keyboard Grabber.
 
 ## Natural Language Processing
