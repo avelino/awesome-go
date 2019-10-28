@@ -1264,10 +1264,10 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries for making HTTP requests.*
 
 * [gentleman](https://github.com/h2non/gentleman) - Full-featured plugin-driven HTTP client library.
-* [goreq](https://github.com/smallnest/goreq) - Enhanced simplified HTTP client based on gorequest.
 * [grequests](https://github.com/levigross/grequests) - A Go "clone" of the great and famous Requests library.
 * [heimdall](https://github.com/gojektech/heimdall) - An enchanced http client with retry and hystrix capabilities.
 * [pester](https://github.com/sethgrid/pester) - Go HTTP client calls with retries, backoff, and concurrency.
+* [resty](https://github.com/go-resty/resty) - Simple HTTP and REST client for Go inspired by Ruby rest-client.
 * [rq](https://github.com/ddo/rq) - A nicer interface for golang stdlib HTTP client.
 * [sling](https://github.com/dghubble/sling) - Sling is a Go HTTP client library for creating and sending API requests.
 * [sreq](https://github.com/winterssy/sreq) - A simple, user-friendly and concurrent safe HTTP request library for Go.
@@ -1808,7 +1808,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [rerate](https://github.com/abo/rerate) - Redis-based rate counter and rate limiter for Go.
 * [rerun](https://github.com/ivpusic/rerun) - Recompiling and rerunning go apps when source changes.
 * [rest-go](https://github.com/edermanoel94/rest-go) - A package that provide many helpful methods for working with rest api.
-* [resty](https://github.com/go-resty/resty) - Simple HTTP and REST client for Go inspired by Ruby rest-client.
 * [retry](https://github.com/kamilsk/retry) - The most advanced functional mechanism to perform actions repetitively until successful.
 * [retry](https://github.com/percolate/retry) - A simple but highly configurable retry package for Go.
 * [retry](https://github.com/thedevsaddam/retry) - Simple and easy retry mechanism package for Go.
