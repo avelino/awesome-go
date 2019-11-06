@@ -1899,6 +1899,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Buffalo](http://gobuffalo.io) - Bringing the productivity of Rails to Go!
 * [Echo](https://github.com/labstack/echo) - High performance, minimalist Go web framework.
 * [Fireball](https://github.com/zpatrick/fireball) - More "natural" feeling web framework.
+* [Flamingo](https://github.com/i-love-flamingo/flamingo) - Framework for pluggable web projects. Including a concept for modules and offering features for DI, Configareas, i18n, template engines, graphql, observability, security, events, routing & reverse routing etc.
 * [Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity.
 * [Ginrpc](https://github.com/xxjwxc/ginrpc) - Gin parameter automatic binding tool,gin rpc tools.
 * [Gizmo](https://github.com/NYTimes/gizmo) - Microservice toolkit used by the New York Times.
