@@ -685,6 +685,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [decimal](https://github.com/shopspring/decimal) - Arbitrary-precision fixed-point decimal numbers.
 * [go-finance](https://github.com/FlashBoys/go-finance) - Comprehensive financial markets data in Go.
 * [go-finance](https://github.com/alpeb/go-finance) - Library of financial functions for time value of money (annuities), cash flow, interest rate conversions, bonds and depreciation calculations.
+* [go-finance](https://github.com/pieterclaerhout/go-finance) - Module to fetch exchange rates, check VAT numbers via VIES and check IBAN bank account numbers.
 * [go-money](https://github.com/rhymond/go-money) - Implementation of Fowler's Money pattern.
 * [ofxgo](https://github.com/aclindsa/ofxgo) - Query OFX servers and/or parse the responses (with example command-line client).
 * [orderbook](https://github.com/i25959341/orderbook) - Matching Engine for Limit Order Book in Golang.
