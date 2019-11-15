@@ -2084,8 +2084,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [richgo](https://github.com/kyoh86/richgo) - Enrich `go test` outputs with text decorations.
 * [rts](https://github.com/galeone/rts) - RTS: response to struct. Generates Go structs from server responses.
 
-
-
 ## Software Packages
 
 *Software written in Go.*
