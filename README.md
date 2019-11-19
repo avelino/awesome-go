@@ -2346,7 +2346,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Go Projects](https://github.com/golang/go/wiki/Projects) - List of projects on the Go community wiki.
 * [Go Report Card](https://goreportcard.com) - A report card for your Go package.
 * [gocryforhelp](https://github.com/ninedraft/gocryforhelp) - Collection of Go projects that needs help. Good place to start your open-source way in Go.
-* [go.dev](https://go.dev/) - A hub for Go developers
+* [go.dev](https://go.dev/) - A hub for Go developers.
 * [godoc.org](https://godoc.org/) - Documentation for open source Go packages.
 * [Golang Developer Jobs](https://golangjob.xyz) - Developer Jobs exclusivly for Golang related Roles.
 * [Golang Flow](https://golangflow.io) - Post Updates, News, Packages and more.
