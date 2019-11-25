@@ -537,6 +537,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for working with dates and times.*
 
 * [carbon](https://github.com/uniplaces/carbon) - Simple Time extension with a lot of util methods, ported from PHP Carbon library.
+* [cronrange](https://github.com/1set/cronrange) - Parses Cron-style time range expressions, checks if the given time is within any ranges.
 * [date](https://github.com/rickb777/date) - Augments Time for working with dates, date ranges, time spans, periods, and time-of-day.
 * [dateparse](https://github.com/araddon/dateparse) - Parse date's without knowing format in advance.
 * [durafmt](https://github.com/hako/durafmt) - Time duration formatting library for Go.
