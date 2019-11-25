@@ -544,7 +544,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [feiertage](https://github.com/wlbr/feiertage) - Set of functions to calculate public holidays in Germany, incl. specialization on the states of Germany (Bundesländer). Things like Easter, Pentecost, Thanksgiving...
 * [go-persian-calendar](https://github.com/yaa110/go-persian-calendar) - The implementation of the Persian (Solar Hijri) Calendar in Go (golang).
 * [go-sunrise](https://github.com/nathan-osman/go-sunrise) - Calculate the sunrise and sunset times for a given location.
-* [goweek](https://github.com/grsmv/goweek) - Library for working with week entity in golang.
+* [go-week](https://github.com/stoewer/go-week) - An efficient package to work with ISO8601 week dates.
 * [iso8601](https://github.com/relvacode/iso8601) - Efficiently parse ISO8601 date-times without regex.
 * [kair](https://github.com/GuilhermeCaruso/kair) - Date and Time - Golang Formatting Library.
 * [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
