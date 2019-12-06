@@ -1832,6 +1832,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [serve](https://github.com/syntaqx/serve) - A static http server anywhere you need.
 * [shutdown](https://github.com/ztrue/shutdown) - App shutdown hooks for `os.Signal` handling.
 * [silk](https://github.com/chrispassas/silk) - Read silk netflow files.
+* [slice](https://github.com/psampaz/slice) - Type-safe functions for common Go slice operations.
 * [sliceconv](https://github.com/Henry-Sarabia/sliceconv) - Slice conversion between primitive types.
 * [slicer](https://github.com/leaanthony/slicer) - Makes working with slices easier.
 * [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
