@@ -1139,6 +1139,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [php_session_decoder](https://github.com/yvasiyarov/php_session_decoder) - GoLang library for working with PHP session format and PHP Serialize/Unserialize functions.
 * [structomap](https://github.com/tuvistavie/structomap) - Library to easily and dynamically generate maps from static structures.
 * [structs](https://github.com/fatih/structs) - Library with support for converting structs to maps, struct keys/values to slices, and more.
+* [update_mask](https://github.com/mickep76/update_mask) - Parse struct and field mask to generate map[string]interface{} or JSON for API update request's.
 
 ## Server Applications
 
