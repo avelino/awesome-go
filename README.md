@@ -1239,6 +1239,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gopcap](https://github.com/akrennmair/gopcap) - Go wrapper for libpcap.
 * [goshark](https://github.com/sunwxg/goshark) - Package goshark use tshark to decode IP packet and create data struct to analyse packet.
 * [gosnmp](https://github.com/soniah/gosnmp) - Native Go library for performing SNMP actions.
+* [gosocsvr](https://github.com/rakeki/gosocsvr) - Socket server made simple.
 * [gotcp](https://github.com/gansidui/gotcp) - Go package for quickly writing tcp applications.
 * [grab](https://github.com/cavaliercoder/grab) - Go package for managing file downloads.
 * [graval](https://github.com/koofr/graval) - Experimental FTP server framework.
@@ -1474,6 +1475,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [RoadRunner](https://github.com/spiral/roadrunner) - High-performance PHP application server, load-balancer and process manager.
 * [SFTPGo](https://github.com/drakkan/sftpgo) - Full featured and highly configurable SFTP server software.
 * [yakvs](https://git.sci4me.com/sci4me/yakvs) - Small, networked, in-memory key-value store.
+
 
 ## Stream Processing
 
