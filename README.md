@@ -712,6 +712,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [forms](https://github.com/albrow/forms) - Framework-agnostic library for parsing and validating form/JSON data which supports multipart forms and files.
 * [gorilla/csrf](https://github.com/gorilla/csrf) - CSRF protection for Go web applications & services.
 * [nosurf](https://github.com/justinas/nosurf) - CSRF protection middleware for Go.
+* [queryparam](https://github.com/tomwright/queryparam) - Decode `url.Values` into usable struct values of standard or custom types.
 
 ## Functional
 
