@@ -2308,6 +2308,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Golang Baltimore, MD](https://www.meetup.com/BaltimoreGolang/)
 * [Golang Bangalore](https://www.meetup.com/Golang-Bangalore/)
 * [Golang Belo Horizonte - Brazil](https://www.meetup.com/go-belo-horizonte/)
+* [Golang Curitiba - Brazil](https://www.meetup.com/GolangCWB/)
 * [Golang Boston](https://www.meetup.com/bostongo/)
 * [Golang Bulgaria](https://www.meetup.com/Golang-Bulgaria/)
 * [Golang Cardiff, UK](https://www.meetup.com/Cardiff-Go-Meetup/)
