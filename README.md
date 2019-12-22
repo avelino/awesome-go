@@ -565,7 +565,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Packages that help with building Distributed Systems.*
 
 * [celeriac](https://github.com/svcavallar/celeriac.v1) - Library for adding support for interacting and monitoring Celery workers, tasks and events in Go.
-* [chubaofs](https://github.com/chubaofs/chubaofs) -  A distributed file system and object storage service for cloud native applications that hosted by the [Cloud Native Computing Foundation](https://cncf.io) (CNCF) as a [sandbox](https://www.cncf.io/sandbox-projects/) project.
+* [chubaofs](https://github.com/chubaofs/chubaofs) - A distributed file system and object storage service for cloud native applications that hosted by the [Cloud Native Computing Foundation](https://cncf.io) (CNCF) as a [sandbox](https://www.cncf.io/sandbox-projects/) project.
 * [consistent](https://github.com/buraksezer/consistent) - Consistent hashing with bounded loads.
 * [dht](https://github.com/anacrolix/dht) - BitTorrent Kademlia DHT implementation.
 * [digota](https://github.com/digota/digota) - grpc ecommerce microservice.
