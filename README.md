@@ -378,6 +378,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [ttlcache](https://github.com/diegobernardes/ttlcache) - In-memory LRU string-interface{} map with expiration for golang.
 * [typ](https://github.com/gurukami/typ) - Null Types, Safe primitive type conversion and fetching value from complex structures.
 * [willf/bloom](https://github.com/willf/bloom) - Go package implementing Bloom filters.
+* [gostl](https://github.com/liyue201/gostl) - Data structure and algorithm library for go,designed to provide functions similar to C++ STL,but more powerful.
 
 ## Database
 
