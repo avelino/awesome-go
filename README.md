@@ -2182,6 +2182,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [DDNS](https://github.com/skibish/ddns) - Personal DDNS client with Digital Ocean Networking DNS as backend.
 * [Docker](http://www.docker.com/) - Open platform for distributed applications for developers and sysadmins.
 * [Documize](https://github.com/documize/community) - Modern wiki software that integrates data from SaaS tools.
+* [dp](https://github.com/scryinfo/dp) - Through SDK for data exchange with blockchain, developers can get easy access to DAPP development.
 * [drive](https://github.com/odeke-em/drive) - Google Drive client for the commandline.
 * [Duplicacy](https://github.com/gilbertchen/duplicacy) - A cross-platform network and cloud backup tool based on the idea of lock-free deduplication.
 * [gfile](https://github.com/Antonito/gfile) - Securely transfer files between two computers, without any third party, over WebRTC.
