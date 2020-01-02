@@ -2327,6 +2327,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Golang Bulgaria](https://www.meetup.com/Golang-Bulgaria/)
 * [Golang Cardiff, UK](https://www.meetup.com/Cardiff-Go-Meetup/)
 * [Golang Copenhagen](https://www.meetup.com/Go-Cph/)
+* [Golang Curitiba - Brazil](https://www.meetup.com/GolangCWB/)
 * [Golang DC, Arlington, VA](https://www.meetup.com/Golang-DC/)
 * [Golang Dorset, UK](https://www.meetup.com/golang-dorset/)
 * [Golang Gurgaon, India](https://www.meetup.com/Gurgaon-Go-Meetup/)
