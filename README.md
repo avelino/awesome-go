@@ -661,6 +661,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries for handling errors.*
 
 * [emperror](https://github.com/emperror/emperror) - Error handling tools and best practices for Go libraries and applications.
+* [eris](https://github.com/rotisserie/eris) - A better way to handle, trace, and log errors in Go. Compatible with the standard error library and github.com/pkg/errors.
 * [errlog](https://github.com/snwfdhmp/errlog) - Hackable package that determines responsible source code for an error (and some other fast-debugging features). Pluggable to any logger in-place.
 * [errors](https://github.com/emperror/errors) - Drop-in replacement for the standard library errors package and github.com/pkg/errors. Provides various error handling primitives.
 * [errors](https://github.com/pkg/errors) - Package that provides simple error handling primitives.
