@@ -162,6 +162,10 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [sessionup](https://github.com/swithek/sessionup) - Simple, yet effective HTTP session management and identification package.
 * [signedvalue](https://github.com/sashka/signedvalue) - Signed and timestamped strings compatible with [Tornado's](https://github.com/tornadoweb/tornado) `create_signed_value`, `decode_signed_value`, and therefore `set_secure_cookie` and `get_secure_cookie`.
 * [sjwt](https://github.com/brianvoe/sjwt) - Simple jwt generator and parser.
+* [Hydra](https://github.com/ory/hydra) - OAuth2 Server and OpenID Certified™ OpenID Connect Provider written in Go - cloud native, security-first, open source API security for your infrastructure. SDKs for any language 
+* [Oathkeeper](https://github.com/ory/oathkeeper) - A cloud native Identity & Access Proxy / API (IAP) and Access Control Decision API that authenticates, authorizes, and mutates incoming HTTP(s) requests. Inspired by the BeyondCorp / Zero Trust white paper. Written in Go.
+* [keto](https://github.com/ory/keto) - A cloud native access control server providing best-practice patterns (RBAC, ABAC, ACL, AWS IAM Policies, Kubernetes Roles, ...) via REST APIs. Written in Go.
+* [kratos](https://github.com/ory/kratos) - You will never build user login, signup / registration, profile management, social sign in, mfa, ... yourself again. The most advanced, secure, customizable Identity Provider ever. Written in Go and for the cloud. Runs on Linux, macOS, Windows, Docker, Kubernetes, and your Raspberry PI.
 
 ## Bot Building
 
