@@ -1602,6 +1602,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [httpmock](https://github.com/jarcoal/httpmock) - Easy mocking of HTTP responses from external resources.
     * [minimock](https://github.com/gojuno/minimock) - Mock generator for Go interfaces.
     * [mockhttp](https://github.com/tv42/mockhttp) - Mock object for Go http.ResponseWriter.
+    * [timex](https://github.com/cabify/timex) - A test-friendly replacement for the native `time` package.
 
 * Fuzzing and delta-debugging/reducing/shrinking.
     * [go-fuzz](https://github.com/dvyukov/go-fuzz) - Randomized testing system.
