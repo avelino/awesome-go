@@ -2082,6 +2082,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gostatus](https://github.com/shurcooL/gostatus) - Command line tool, shows the status of repositories that contain Go packages.
 * [lint](https://github.com/surullabs/lint) - Run linters as part of go test.
 * [php-parser](https://github.com/z7zmey/php-parser) - A Parser for PHP written in Go.
+* [sqlvet](https://github.com/houqp/sqlvet) - Sqlvet performs static analysis on raw SQL queries in your Go code base.
 * [staticcheck](https://github.com/dominikh/go-tools/tree/master/cmd/staticcheck) - staticcheck is `go vet` on steroids, applying a ton of static analysis checks you might be used to from tools like ReSharper for C#.
 * [tarp](https://github.com/verygoodsoftwarenotvirus/tarp) - tarp finds functions and methods without direct unit tests in Go source code.
 * [tickgit](https://github.com/augmentable-dev/tickgit) - CLI and go package for surfacing code comment TODOs (in any language) and applying a `git blame`to identify the author.
