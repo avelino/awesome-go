@@ -1035,6 +1035,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [golinear](https://github.com/danieldk/golinear) - liblinear bindings for Go.
 * [GoMind](https://github.com/surenderthakran/gomind) - A simplistic Neural Network Library in Go.
 * [goml](https://github.com/cdipaolo/goml) - On-line Machine Learning in Go.
+* [gonet](https://github.com/dathoangnd/gonet) - Neural Network for Go.
 * [Goptuna](https://github.com/c-bata/goptuna) - Bayesian optimization framework for black-box functions written in Go. Everything will be optimized.
 * [goRecommend](https://github.com/timkaye11/goRecommend) - Recommendation Algorithms library written in Go.
 * [gorgonia](https://github.com/gorgonia/gorgonia) - graph-based computational library like Theano for Go that provides primitives for building various machine learning and neural network algorithms.
