@@ -1057,6 +1057,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries that implement messaging systems.*
 
+* [ami](https://github.com/kak-tus/ami) - Go client to reliable queues based on Redis Cluster Streams.
 * [APNs2](https://github.com/sideshow/apns2) - HTTP/2 Apple Push Notification provider for Go — Send push notifications to iOS, tvOS, Safari and OSX apps.
 * [Beaver](https://github.com/Clivern/Beaver) - A real time messaging server to build a scalable in-app notifications, multiplayer games, chat apps in web and mobile apps.
 * [Benthos](https://github.com/Jeffail/benthos) - A message streaming bridge between a range of protocols.
