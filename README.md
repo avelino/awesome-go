@@ -505,6 +505,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [arangolite](https://github.com/solher/arangolite) - Lightweight golang driver for ArangoDB.
     * [asc](https://github.com/viant/asc) - Datastore Connectivity for Aerospike for go.
     * [dynago](https://github.com/underarmour/dynago) - Dynago is a principle of least surprise client for DynamoDB.
+    * [dynamo](https://github.com/guregu/dynamo) - expressive DynamoDB library for Go
     * [forestdb](https://github.com/couchbase/goforestdb) - Go bindings for ForestDB.
     * [go-couchbase](https://github.com/couchbase/go-couchbase) - Couchbase client in Go.
     * [go-pilosa](https://github.com/pilosa/go-pilosa) - Go client library for Pilosa.
