@@ -676,7 +676,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [tracerr](https://github.com/ztrue/tracerr) - Golang errors with stack trace and source fragments.
 * [werr](https://github.com/txgruppi/werr) - Error Wrapper creates an wrapper for the error type in Go which captures the File, Line and Stack of where it was called.
 
-
 ## Files
 
 *Libraries for handling files and file systems.*
