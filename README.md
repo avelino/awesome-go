@@ -336,7 +336,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [concurrent-writer](https://github.com/free/concurrent-writer) - Highly concurrent drop-in replacement for `bufio.Writer`.
 * [conjungo](https://github.com/InVisionApp/conjungo) - A small, powerful and flexible merge library.
 * [count-min-log](https://github.com/seiflotfy/count-min-log) - Go implementation Count-Min-Log sketch: Approximately counting with approximate counters (Like Count-Min sketch but using less memory).
-* [countries](https://github.com/biter777/countries) - Full implementation of ISO-3166-1, ISO-4217, ITU-T E.164, Unicode CLDR and IANA ccTLD standarts.
 * [crunch](https://github.com/superwhiskers/crunch) - Go package implementing buffers for handling various datatypes easily.
 * [cuckoofilter](https://github.com/seiflotfy/cuckoofilter) - Cuckoo filter: a good alternative to a counting bloom filter implemented in Go.
 * [deque](https://github.com/edwingeng/deque) - A highly optimized double-ended queue.
@@ -1780,6 +1779,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [cmd](https://github.com/SimonBaeumer/cmd) - Library for executing shell commands on osx, windows and linux.
 * [command](https://github.com/txgruppi/command) - Command pattern for Go with thread safe serial and parallel dispatcher.
 * [copy-pasta](https://github.com/jutkko/copy-pasta) - Universal multi-workstation clipboard that uses S3 like backend for the storage.
+* [countries](https://github.com/biter777/countries) - Full implementation of ISO-3166-1, ISO-4217, ITU-T E.164, Unicode CLDR and IANA ccTLD standarts.
 * [ctop](https://github.com/bcicen/ctop) - [Top-like](http://ctop.sh) interface (e.g. htop) for container metrics.
 * [ctxutil](https://github.com/posener/ctxutil) - A collection of utility functions for contexts.
 * [dbt](https://github.com/nikogura/dbt) - A framework for running self-updating signed binaries from a central, trusted repository.
