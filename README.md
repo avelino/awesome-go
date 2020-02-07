@@ -1177,6 +1177,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-commons-pool](https://github.com/jolestar/go-commons-pool) - Generic object pool for Golang.
 * [go-openapi](https://github.com/go-openapi) - Collection of packages to parse and utilize open-api schemas.
 * [go-resiliency](https://github.com/eapache/go-resiliency) - Resiliency patterns for golang.
+* [go-support](https://github.com/joshuabezaleel/go-support) - Go tool to find and support sponsorable Go packages from your Go project's module dependencies (go.mod).
 * [go-unarr](https://github.com/gen2brain/go-unarr) - Decompression library for RAR, TAR, ZIP and 7z archives.
 * [gofakeit](https://github.com/brianvoe/gofakeit) - Random data generator written in go.
 * [gommit](https://github.com/antham/gommit) - Analyze git commit messages to ensure they follow defined patterns.
