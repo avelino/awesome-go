@@ -1389,6 +1389,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [jaeger](https://github.com/jaegertracing/jaeger) - A distributed tracing system.
 * [profile](https://github.com/pkg/profile) - Simple profiling support package for Go.
 * [tracer](https://github.com/kamilsk/tracer) - Simple, lightweight tracing.
+* [trickster](https://github.com/Comcast/trickster) - HTTP reverse proxy cache and time series accelerator.
 
 ## Query Language
 
