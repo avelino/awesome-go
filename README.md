@@ -161,6 +161,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [sessions](https://github.com/adam-hanna/sessions) - Dead simple, highly performant, highly customizable sessions service for go http servers.
 * [sessionup](https://github.com/swithek/sessionup) - Simple, yet effective HTTP session management and identification package.
 * [signedvalue](https://github.com/sashka/signedvalue) - Signed and timestamped strings compatible with [Tornado's](https://github.com/tornadoweb/tornado) `create_signed_value`, `decode_signed_value`, and therefore `set_secure_cookie` and `get_secure_cookie`.
+* [simplesessions](https://github.com/vividvilla/simplesessions) - Session management library which is agnostic of HTTP libraries (net/http or [fasthttp](https://github.com/valyala/fasthttp)) and frameworks with support for securecookie and backend stores.
 * [sjwt](https://github.com/brianvoe/sjwt) - Simple jwt generator and parser.
 
 ## Bot Building
