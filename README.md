@@ -2169,6 +2169,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 ### DevOps Tools
 
+* [Ahab](https://github.com/MichaelDarr/ahab) - Configure, launch, and work in Dockerized environments
 * [aptly](https://github.com/smira/aptly) - aptly is a Debian repository management tool.
 * [aurora](https://github.com/xuri/aurora) - Cross-platform web-based Beanstalkd queue server console.
 * [awsenv](https://github.com/soniah/awsenv) - Small binary that loads Amazon (AWS) environment variables for a profile.
