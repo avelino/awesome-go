@@ -405,8 +405,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [dgraph](https://github.com/dgraph-io/dgraph) - Scalable, Distributed, Low Latency, High Throughput Graph Database.
 * [diskv](https://github.com/peterbourgon/diskv) - Home-grown disk-backed key-value store.
 * [eliasdb](https://github.com/krotik/eliasdb) - Dependency-free, transactional graph database with REST API, phrase search and SQL-like query language.
-* [ergo](https://github.com/halturin/ergo) - a framework for creating mesh networks with Erlang technologies
-(implements Erlang/OTP design patterns)
 * [fastcache](https://github.com/VictoriaMetrics/fastcache) - fast thread-safe inmemory cache for big number of entries. Minimizes GC overhead.
 * [GCache](https://github.com/bluele/gcache) - Cache library with support for expirable Cache, LFU, LRU and ARC.
 * [go-cache](https://github.com/pmylund/go-cache) - In-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications.
@@ -1083,6 +1081,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [dbus](https://github.com/godbus/dbus) - Native Go bindings for D-Bus.
 * [drone-line](https://github.com/appleboy/drone-line) - Sending [Line](https://at.line.me/en) notifications using a binary, docker or Drone CI.
 * [emitter](https://github.com/olebedev/emitter) - Emits events using Go way, with wildcard, predicates, cancellation possibilities and many other good wins.
+* [ergo](https://github.com/halturin/ergo) - a framework for creating mesh networks with Erlang technologies (implements Erlang/OTP design patterns)
 * [event](https://github.com/agoalofalife/event) - Implementation of the pattern observer.
 * [EventBus](https://github.com/asaskevich/EventBus) - The lightweight event bus with async compatibility.
 * [gaurun-client](https://github.com/osamingo/gaurun-client) - Gaurun Client written in Go.
