@@ -1326,6 +1326,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [resty](https://github.com/go-resty/resty) - Simple HTTP and REST client for Go inspired by Ruby rest-client.
 * [rq](https://github.com/ddo/rq) - A nicer interface for golang stdlib HTTP client.
 * [sling](https://github.com/dghubble/sling) - Sling is a Go HTTP client library for creating and sending API requests.
+* [go-http-client](https://github.com/bozd4g/go-http-client) - Make http calls simply and easily
 
 ## OpenGL
 
