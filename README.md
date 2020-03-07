@@ -1272,6 +1272,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gnet](https://github.com/panjf2000/gnet) - `gnet` is a high-performance, lightweight, non-blocking, event-driven networking framework written in pure Go.
 * [gNxI](https://github.com/google/gnxi) - A collection of tools for Network Management that use the gNMI and gNOI protocols.
 * [go-getter](https://github.com/hashicorp/go-getter) - Go library for downloading files or directories from various sources using a URL.
+* [go-netty](https://github.com/go-netty/go-netty) - Extensible network application framework inspired by netty.
 * [go-powerdns](https://github.com/joeig/go-powerdns) - PowerDNS API bindings for Golang.
 * [go-stun](https://github.com/ccding/go-stun) - Go implementation of the STUN client (RFC 3489 and RFC 5389).
 * [gobgp](https://github.com/osrg/gobgp) - BGP implemented in the Go Programming Language.
