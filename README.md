@@ -952,7 +952,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gron](https://github.com/roylee0704/gron) - Define time-based tasks using a simple Go API and Gron’s scheduler will run them accordingly.
 * [JobRunner](https://github.com/bamzi/jobrunner) - Smart and featureful cron job scheduler with job queuing and live monitoring built in.
 * [jobs](https://github.com/albrow/jobs) - Persistent and flexible background jobs library.
-* [leprechaun](https://github.com/kilgaloon/leprechaun) - Job scheduler that supports webhooks, crons and classic scheduling.
+* [leprechaun](https://github.com/kilgaloon/leprechaun) - Job scheduler that supports webhooks, crons, classic scheduling and remote code execution.
 * [scheduler](https://github.com/carlescere/scheduler) - Cronjobs scheduling made easy.
 
 ## JSON
