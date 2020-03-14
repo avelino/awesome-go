@@ -50,7 +50,7 @@ You are an awesome project now! Feel encouraged to tell others about it by addin
 To make sure every PR is checked, we have [team maintainers](MAINTAINERS). Every PR MUST be reviewed by at least one maintainer before it can get merged.
 
 The maintainers will review your PR and notify you and tag it in case any
-information is still missing. They will wait 30 days for your interaction, after
+information is still missing. They will wait 15 days for your interaction, after
 that the PR will be closed.
 
 
