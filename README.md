@@ -1673,7 +1673,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [parseargs-go](https://github.com/nproc/parseargs-go) - string argument parser that understands quotes and backslashes.
     * [parth](https://github.com/codemodus/parth) - URL path segmentation parsing.
     * [radix](https://github.com/yourbasic/radix) - fast string sorting algorithm.
-    * [sorty](https://github.com/jfcg/sorty) - Fast Concurrent / Parallel Sorting.
     * [Tagify](https://github.com/zoomio/tagify) - Produces a set of tags from given source.
 	* [textwrap](https://github.com/isbm/textwrap) - Implementation of `textwrap` module from Python.
     * [TySug](https://github.com/Dynom/TySug) - Alternative suggestions with respect to keyboard layouts.
@@ -1871,6 +1870,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [slice](https://github.com/psampaz/slice) - Type-safe functions for common Go slice operations.
 * [sliceconv](https://github.com/Henry-Sarabia/sliceconv) - Slice conversion between primitive types.
 * [slicer](https://github.com/leaanthony/slicer) - Makes working with slices easier.
+* [sorty](https://github.com/jfcg/sorty) - Fast Concurrent / Parallel Sorting.
 * [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
 * [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package.
 * [sslice](https://github.com/yaa110/sslice) - Create a slice which is always sorted.
