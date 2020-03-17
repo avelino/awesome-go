@@ -272,6 +272,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [config](https://github.com/golobby/config) - A lightweight yet powerful config package for Go projects.
 * [config](https://github.com/JeremyLoy/config) - Cloud native application configuration. Bind ENV to structs in only two lines.
 * [config](https://github.com/olebedev/config) - JSON or YAML configuration wrapper with environment variables and flags parsing.
+* [configuration](https://github.com/BoRuDar/configuration) - Library for initializing configuration structs from env variables, files, flags and 'default' tag.
 * [configure](https://github.com/paked/configure) - Provides configuration through multiple sources, including JSON, flags and environment variables.
 * [confita](https://github.com/heetch/confita) - Load configuration in cascade from multiple backends into a struct.
 * [conflate](https://github.com/the4thamigo-uk/conflate) - Library/tool to merge multiple JSON/YAML/TOML files from arbitrary URLs, validation against a JSON schema, and application of default values defined in the schema.
