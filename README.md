@@ -1628,6 +1628,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [minimock](https://github.com/gojuno/minimock) - Mock generator for Go interfaces.
     * [mockhttp](https://github.com/tv42/mockhttp) - Mock object for Go http.ResponseWriter.
     * [timex](https://github.com/cabify/timex) - A test-friendly replacement for the native `time` package.
+    * [go-localstack](https://github.com/elgohr/go-localstack) - Easily using localstack for AWS testing
 
 * Fuzzing and delta-debugging/reducing/shrinking.
     * [go-fuzz](https://github.com/dvyukov/go-fuzz) - Randomized testing system.
