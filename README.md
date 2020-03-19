@@ -263,6 +263,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [uilive](https://github.com/gosuri/uilive) - Library for updating terminal output in realtime.
 * [uiprogress](https://github.com/gosuri/uiprogress) - Flexible library to render progress bars in terminal applications.
 * [uitable](https://github.com/gosuri/uitable) - Library to improve readability in terminal apps using tabular data.
+* [yacspin](https://github.com/theckman/yacspin) - Yet Another CLi Spinner package, for working with terminal spinners.
 
 ## Configuration
 
