@@ -1323,6 +1323,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries for making HTTP requests.*
 
 * [gentleman](https://github.com/h2non/gentleman) - Full-featured plugin-driven HTTP client library.
+* [go-http-client](https://github.com/bozd4g/go-http-client) - Make http calls simply and easily.
 * [grequests](https://github.com/levigross/grequests) - A Go "clone" of the great and famous Requests library.
 * [heimdall](https://github.com/gojektech/heimdall) - An enchanced http client with retry and hystrix capabilities.
 * [httpretry](https://github.com/ybbus/httpretry) - Enriches the default go HTTP client with retry functionality.
