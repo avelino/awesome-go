@@ -179,6 +179,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [Kelp](https://github.com/stellar/kelp) - official trading and market-making bot for the [Stellar](https://www.stellar.org/) DEX. Works out-of-the-box, written in Golang, compatible with centralized exchanges and custom trading strategies.
 * [margelet](https://github.com/zhulik/margelet) - Framework for building Telegram bots.
 * [micha](https://github.com/onrik/micha) - Go Library for Telegram bot api.
+* [olivia](https://github.com/olivia-ai/olivia) - A chatbot built with an artificial neural network.
 * [slacker](https://github.com/shomali11/slacker) - Easy to use framework to create Slack bots.
 * [slackscot](https://github.com/alexandre-normand/slackscot) - Another framework for building Slack bots.
 * [tbot](https://github.com/yanzay/tbot) - Telegram bot server with API similar to net/http.
