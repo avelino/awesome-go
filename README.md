@@ -1987,6 +1987,15 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [m3u8](https://github.com/grafov/m3u8) - Parser and generator library of M3U8 playlists for Apple HLS.
 * [v4l](https://github.com/korandiz/v4l) - Video capture library for Linux, written in Go.
 
+## WebAssembly
+
+* [dom](https://github.com/dennwc/dom) - DOM library.
+* [go-canvas](https://github.com/markfarnan/go-canvas) - Library to use HTML5 Canvas, with all drawing within go code.
+* [tinygo](https://github.com/tinygo-org/tinygo) - Go compiler for small places. Microcontrollers, WebAssembly, and command-line tools. Based on LLVM.
+* [vert](https://github.com/norunners/vert) - Interop between Go and JS values.
+* [wasmbrowsertest](https://github.com/agnivade/wasmbrowsertest) - Run Go WASM tests in your browser.
+* [webapi](https://github.com/gowebapi/webapi) - Bindings for DOM and HTML generated from WebIDL.
+
 ## Web Frameworks
 
 *Full stack web frameworks.*
