@@ -874,6 +874,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [Wails](https://wails.app) - Mac, Windows, Linux desktop apps with HTML UI using built-in OS HTML renderer.
 * [walk](https://github.com/lxn/walk) - Windows application library kit for Go.
 * [webview](https://github.com/zserge/webview) - Cross-platform webview window with simple two-way JavaScript bindings (Windows / macOS / Linux).
+* [giu](https://github.com/AllenDang/giu) - Cross platform rapid GUI framework for golang based on Dear ImGui.
 
 *Interaction*
 
