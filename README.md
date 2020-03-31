@@ -78,6 +78,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Validation](#validation)
     - [Version Control](#version-control)
     - [Video](#video)
+    - [WebAssembly](#webassembly)
     - [Web Frameworks](#web-frameworks)
         - [Middlewares](#middlewares)
             - [Actual middlewares](#actual-middlewares)
