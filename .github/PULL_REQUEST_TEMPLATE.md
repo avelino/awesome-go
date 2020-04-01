@@ -3,9 +3,9 @@ Please check if what you want to add to `awesome-go` list meets [quality standar
 **Please provide package links to:**
 
 - github.com repo:
-- godoc.org:
+- pkg.go.dev:
 - goreportcard.com:
-- coverage service link ([gocover](http://gocover.io/), [coveralls](https://coveralls.io/) etc.)
+- coverage service link ([codecov](https://codecov.io/), [coveralls](https://coveralls.io/), [gocover](http://gocover.io/) etc.)
 
 
 Very good coverage
@@ -16,7 +16,7 @@ Very good coverage
 - [ ] I have added my package in alphabetical order.
 - [ ] I have an appropriate description with correct grammar.
 - [ ] I know that this package was not listed before.
-- [ ] I have added godoc link to the repo and to my pull request.
+- [ ] I have added pkg.go.dev link to the repo and to my pull request.
 - [ ] I have added coverage service link to the repo and to my pull request.
 - [ ] I have added goreportcard link to the repo and to my pull request.
 - [ ] I have read [Contribution guidelines](https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md#contribution-guidelines), [maintainers note](https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md#maintainers) and [Quality standard](https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md#quality-standard).
