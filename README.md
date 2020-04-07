@@ -472,7 +472,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [Dotsql](https://github.com/gchaincl/dotsql) - Go library that helps you keep sql files in one place and use them with ease.
 * [gendry](https://github.com/didi/gendry) - Non-invasive SQL builder and powerful data binder.
 * [godbal](https://github.com/xujiajun/godbal) - Database Abstraction Layer (dbal) for go. Support SQL builder and get result easily.
-* [gosql](https://github.com/twharmon/gosql) - SQL Query builder with better null values and better JSON support.
+* [gosql](https://github.com/twharmon/gosql) - SQL Query builder with better null values support.
 * [goqu](https://github.com/doug-martin/goqu) - Idiomatic SQL builder and query library.
 * [igor](https://github.com/galeone/igor) - Abstraction layer for PostgreSQL that supports advanced functionality and uses gorm-like syntax.
 * [jet](https://github.com/go-jet/jet) - Framework for writing type-safe SQL queries in Go, with ability to easily convert database query result into desired arbitrary object structure.
