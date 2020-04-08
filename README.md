@@ -78,12 +78,12 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Validation](#validation)
     - [Version Control](#version-control)
     - [Video](#video)
-    - [WebAssembly](#webassembly)
     - [Web Frameworks](#web-frameworks)
         - [Middlewares](#middlewares)
             - [Actual middlewares](#actual-middlewares)
             - [Libraries for creating HTTP middlewares](#libraries-for-creating-http-middlewares)
         - [Routers](#routers)
+    - [WebAssembly](#webassembly)
     - [Windows](#windows)
     - [XML](#xml)
 
@@ -1988,15 +1988,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [m3u8](https://github.com/grafov/m3u8) - Parser and generator library of M3U8 playlists for Apple HLS.
 * [v4l](https://github.com/korandiz/v4l) - Video capture library for Linux, written in Go.
 
-## WebAssembly
-
-* [dom](https://github.com/dennwc/dom) - DOM library.
-* [go-canvas](https://github.com/markfarnan/go-canvas) - Library to use HTML5 Canvas, with all drawing within go code.
-* [tinygo](https://github.com/tinygo-org/tinygo) - Go compiler for small places. Microcontrollers, WebAssembly, and command-line tools. Based on LLVM.
-* [vert](https://github.com/norunners/vert) - Interop between Go and JS values.
-* [wasmbrowsertest](https://github.com/agnivade/wasmbrowsertest) - Run Go WASM tests in your browser.
-* [webapi](https://github.com/gowebapi/webapi) - Bindings for DOM and HTML generated from WebIDL.
-
 ## Web Frameworks
 
 *Full stack web frameworks.*
@@ -2098,6 +2089,15 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [violetear](https://github.com/nbari/violetear) - Go HTTP router.
 * [xmux](https://github.com/rs/xmux) - High performance muxer based on `httprouter` with `net/context` support.
 * [xujiajun/gorouter](https://github.com/xujiajun/gorouter) - A simple and fast HTTP router for Go.
+
+## WebAssembly
+
+* [dom](https://github.com/dennwc/dom) - DOM library.
+* [go-canvas](https://github.com/markfarnan/go-canvas) - Library to use HTML5 Canvas, with all drawing within go code.
+* [tinygo](https://github.com/tinygo-org/tinygo) - Go compiler for small places. Microcontrollers, WebAssembly, and command-line tools. Based on LLVM.
+* [vert](https://github.com/norunners/vert) - Interop between Go and JS values.
+* [wasmbrowsertest](https://github.com/agnivade/wasmbrowsertest) - Run Go WASM tests in your browser.
+* [webapi](https://github.com/gowebapi/webapi) - Bindings for DOM and HTML generated from WebIDL.
 
 ## Windows
 
