@@ -847,6 +847,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [kyoo](https://github.com/dirkaholic/kyoo) - Provides an unlimited job queue and concurrent worker pools.
 * [oversight](https://cirello.io/oversight) - Oversight is a complete implementation of the Erlang supervision trees.
 * [parallel-fn](https://github.com/rafaeljesus/parallel-fn) - Run functions in parallel.
+* [pond](https://github.com/alitto/pond) - Minimalistic and High-performance goroutine worker pool written in Go.
 * [pool](https://github.com/go-playground/pool) - Limited consumer goroutine or unlimited goroutine pool for easier goroutine handling and cancellation.
 * [queue](https://github.com/AnikHasibul/queue) - Gives you a `sync.WaitGroup` like queue group accessibility. Helps you to throttle and limit goroutines, wait for the end of the all goroutines and much more.
 * [routine](https://github.com/x-mod/routine) - go routine control with context, support: Main, Go, Pool and some useful Executors.
