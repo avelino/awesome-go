@@ -912,7 +912,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [geopattern](https://github.com/pravj/geopattern) - Create beautiful generative image patterns from a string.
 * [gg](https://github.com/fogleman/gg) - 2D rendering in pure Go.
 * [gift](https://github.com/disintegration/gift) - Package of image processing filters.
-* [gridder](https://github.com/shomali11/gridder) - A Grid based 2D Graphics library.
 * [gltf](https://github.com/qmuntal/gltf) - Efficient and robust glTF 2.0 reader, writer and validator.
 * [go-cairo](https://github.com/ungerik/go-cairo) - Go binding for the cairo graphics library.
 * [go-gd](https://github.com/bolknote/go-gd) - Go binding for GD library.
@@ -923,6 +922,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [goimagehash](https://github.com/corona10/goimagehash) - Go Perceptual image hashing package.
 * [goimghdr](https://github.com/corona10/goimghdr) - The imghdr module determines the type of image contained in a file for Go.
 * [govatar](https://github.com/o1egl/govatar) - Library and CMD tool for generating funny avatars.
+* [gridder](https://github.com/shomali11/gridder) - A Grid based 2D Graphics library.
 * [image2ascii](https://github.com/qeesung/image2ascii) - Convert image to ASCII.
 * [imagick](https://github.com/gographics/imagick) - Go binding to ImageMagick's MagickWand C API.
 * [imaginary](https://github.com/h2non/imaginary) - Fast and simple HTTP microservice for image resizing.
