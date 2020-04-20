@@ -2452,6 +2452,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Golang Казань](https://www.meetup.com/GolangKazan/)
 * [Golang Москва](https://www.meetup.com/Golang-Moscow/)
 * [Golang Питер](https://www.meetup.com/Golang-Peter/)
+* [Go Remote Meetup](https://www.meetup.com/Go-Remote-Meetup/)
 * [GoSF - San Francisco, CA](https://www.meetup.com/golangsf)
 * [Istanbul Golang](https://www.meetup.com/Istanbul-Golang/)
 * [Seattle Go Programmers](https://www.meetup.com/golang/)
