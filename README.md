@@ -1427,6 +1427,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 ## Resource Embedding
 
+* [broccoli](https://github.com/aletheia-icu/broccoli) - Using brotli compression to embed multiple resources efficiently via `go generate` (unlike many alternatives, works with `wasm/js` architecture, too!)
 * [esc](https://github.com/mjibson/esc) - Embeds files into Go programs and provides http.FileSystem interfaces to them.
 * [fileb0x](https://github.com/UnnoTed/fileb0x) - Simple tool to embed files in go with focus on "customization" and ease to use.
 * [go-embed](https://github.com/pyros2097/go-embed) - Generates go code to embed resource files into your library or executable.
