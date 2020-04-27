@@ -447,6 +447,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [avro](https://github.com/khezen/avro) - Discover SQL schemas and convert them to AVRO schemas. Query SQL records into AVRO bytes.
 * [darwin](https://github.com/GuiaBolso/darwin) - Database schema evolution library for Go.
+* [dbshift](https://github.com/limoli/dbshift-core) - Easy way to create and execute migrations via terminal. It follows twelve factor app principles and it can be easily used in containerized applications.
 * [go-fixtures](https://github.com/RichardKnop/go-fixtures) - Django style fixtures for Golang's excellent built-in database/sql library.
 * [go-pg-migrations](https://github.com/robinjoseph08/go-pg-migrations) - A Go package to help write migrations with go-pg/pg.
 * [gondolier](https://github.com/emvi/gondolier) - Database migration library using struct decorators.
