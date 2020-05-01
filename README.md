@@ -1832,6 +1832,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [circuit](https://github.com/cep21/circuit) - An efficient and feature complete Hystrix like Go implementation of the circuit breaker pattern.
 * [circuitbreaker](https://github.com/rubyist/circuitbreaker) - Circuit Breakers in Go.
 * [clockwork](https://github.com/jonboulle/clockwork) - A simple fake clock for golang.
+* [clipboard](https://github.com/atotto/clipboard) - Provide copying and pasting to the Clipboard for Go.
 * [cmd](https://github.com/SimonBaeumer/cmd) - Library for executing shell commands on osx, windows and linux.
 * [command](https://github.com/txgruppi/command) - Command pattern for Go with thread safe serial and parallel dispatcher.
 * [compare](https://github.com/posener/compare) - Enables more readable and easier comparison tasks.
