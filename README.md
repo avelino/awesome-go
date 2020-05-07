@@ -1561,7 +1561,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries and tools for stream processing and reactive programming.*
 
 * [go-streams](https://github.com/reugn/go-streams) - Go stream processing library.
-* [rudderstack](https://github.com/rudderlabs/rudder-server) - An open source segment alternative.
+* [rudderstack](https://github.com/rudderlabs/rudder-server) - An open source customer data infrastructure (segment, mParticle alternative).
 
 ## Template Engines
 
