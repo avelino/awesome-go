@@ -312,8 +312,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [mini](https://github.com/sasbury/mini) - Golang package for parsing ini-style configuration files.
 * [nasermirzaei89/env](https://github.com/nasermirzaei89/env) - Simple useful package for read environment variables.
 * [onion](http://github.com/goraz/onion) - Layer based configuration for Go, Supports JSON, TOML, YAML, properties, etcd, env, and encryption using PGP.
-* [sprbox](https://github.com/oblq/sprbox) - Build-environment aware toolbox factory and agnostic config parser (YAML, TOML, JSON and Environment vars).
 * [store](https://github.com/tucnak/store) - Lightweight configuration manager for Go.
+* [swap](https://github.com/oblq/swap) - Instantiate/configure structs recursively, based on build environment. (YAML, TOML, JSON and env).
 * [viper](https://github.com/spf13/viper) - Go configuration with fangs.
 * [xdg](https://github.com/OpenPeeDeeP/xdg) - Cross platform package that follows the [XDG Standard](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html).
 
