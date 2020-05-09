@@ -121,7 +121,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-sox](https://github.com/krig/go-sox) - libsox bindings for go.
 * [go_mediainfo](https://github.com/zhulik/go_mediainfo) - libmediainfo bindings for go.
 * [gosamplerate](https://github.com/dh1tw/gosamplerate) - libsamplerate bindings for go.
-* [id3v2](https://github.com/bogem/id3v2) - Fast and stable ID3 parsing and writing library for Go.
+* [id3v2](https://github.com/bogem/id3v2) - Fast and powerful ID3 decoding and encodung library written completely in Go.
 * [malgo](https://github.com/gen2brain/malgo) - Mini audio library.
 * [minimp3](https://github.com/tosone/minimp3) - Lightweight MP3 decoder library.
 * [mix](https://github.com/go-mix/mix) - Sequence-based Go-native audio mixer for music apps.
