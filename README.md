@@ -1867,6 +1867,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-funk](https://github.com/thoas/go-funk) - Modern Go utility library which provides helpers (map, find, contains, filter, chunk, reverse, ...).
 * [go-health](https://github.com/Talento90/go-health) - Health package simplifies the way you add health check to your services.
 * [go-httpheader](https://github.com/mozillazg/go-httpheader) - Go library for encoding structs into Header fields.
+* [go-lock](https://github.com/viney-shih/go-lock) - go-lock is a lock library implementing read-write mutex and read-write trylock without starvation.
 * [go-problemdetails](https://github.com/mvmaasakkers/go-problemdetails) - Go package for working with Problem Details.
 * [go-rate](https://github.com/beefsack/go-rate) - Timed rate limiter for Go.
 * [go-sitemap-generator](https://github.com/ikeikeikeike/go-sitemap-generator) - XML Sitemap generator written in Go.
