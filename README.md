@@ -2429,6 +2429,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Canberra Gophers](https://www.meetup.com/Canberra-Gophers/)
 * [Go Language NYC](https://www.meetup.com/golanguagenewyork/)
 * [Go London User Group](https://www.meetup.com/Go-London-User-Group/)
+* [Go Remote Meetup](https://www.meetup.com/Go-Remote-Meetup/)
 * [Go Toronto](https://www.meetup.com/go-toronto/)
 * [Go User Group Atlanta](https://www.meetup.com/Go-Users-Group-Atlanta/)
 * [GoBandung](https://www.meetup.com/GoBandung/)
