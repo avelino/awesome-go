@@ -186,6 +186,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [margelet](https://github.com/zhulik/margelet) - Framework for building Telegram bots.
 * [micha](https://github.com/onrik/micha) - Go Library for Telegram bot api.
 * [olivia](https://github.com/olivia-ai/olivia) - A chatbot built with an artificial neural network.
+* [rivescript](https://github.com/aichaos/rivescript-go) - RiveScript is a scripting language for chatbots, making it easy to write trigger/response pairs for intelligent responses. 
 * [slacker](https://github.com/shomali11/slacker) - Easy to use framework to create Slack bots.
 * [slackscot](https://github.com/alexandre-normand/slackscot) - Another framework for building Slack bots.
 * [tbot](https://github.com/yanzay/tbot) - Telegram bot server with API similar to net/http.
@@ -1955,6 +1956,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Storm](https://github.com/asdine/storm) - Simple and powerful toolkit for BoltDB.
 * [structs](https://github.com/PumpkinSeed/structs) - Implement simple functions to manipulate structs.
 * [Task](https://github.com/go-task/task) - simple "Make" alternative.
+* [tcpscan](https://github.com/rmasci/tcpscan) - Very fast and safe TCP Scanner used to verify what should exist, not discover exploits. Simple, scriptable syntax, clean output. 
 * [tome](https://github.com/cyruzin/tome) - Tome was designed to paginate simple RESTful APIs.
 * [toolbox](https://github.com/viant/toolbox) - Slice, map, multimap, struct, function, data conversion utilities. Service router, macro evaluator, tokenizer.
 * [ugo](https://github.com/alxrm/ugo) - ugo is slice toolbox with concise syntax for Go.
