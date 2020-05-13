@@ -1949,6 +1949,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [slice](https://github.com/psampaz/slice) - Type-safe functions for common Go slice operations.
 * [sliceconv](https://github.com/Henry-Sarabia/sliceconv) - Slice conversion between primitive types.
 * [slicer](https://github.com/leaanthony/slicer) - Makes working with slices easier.
+* [smex](https://github.com/hbish/smex) - A blazing fast cli application to process/extract/convert sitemaps.
 * [sorty](https://github.com/jfcg/sorty) - Fast Concurrent / Parallel Sorting.
 * [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
 * [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package.
