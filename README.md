@@ -1506,7 +1506,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [lego](https://github.com/xenolf/lego) - Pure Go ACME client library and CLI tool (for use with Let's Encrypt).
 * [memguard](https://github.com/awnumar/memguard) - A pure Go library for handling sensitive values in memory.
 * [nacl](https://github.com/kevinburke/nacl) - Go implementation of the NaCL set of API's.
-* [netscanner](https://github.com/R4yGM/netscanner) - netscanner - TCP/UDP scanner to find open or closed ports
+* [netscanner](https://github.com/R4yGM/netscanner) - netscanner - TCP/UDP scanner to find open or closed ports.
 * [optimus-go](https://github.com/pjebs/optimus-go) - ID hashing and Obfuscation using Knuth's Algorithm.
 * [passlib](https://github.com/hlandau/passlib) - Futureproof password hashing library.
 * [secure](https://github.com/unrolled/secure) - HTTP middleware for Go that facilitates some quick security wins.
