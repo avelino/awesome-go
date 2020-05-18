@@ -35,7 +35,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Email](#email)
     - [Embeddable Scripting Languages](#embeddable-scripting-languages)
     - [Error Handling](#error-handling)
-    - [Files](#files)
+    - [Files](#Files)
     - [Financial](#financial)
     - [Forms](#forms)
     - [Functional](#functional)
