@@ -2277,6 +2277,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [lstags](https://github.com/ivanilves/lstags) - Tool and API to sync Docker images across different registries.
 * [lwc](https://github.com/timdp/lwc) - A live-updating version of the UNIX wc command.
 * [manssh](https://github.com/xwjdsh/manssh) - manssh is a command line tool for managing your ssh alias config easily.
+* [Mattermost](https://github.com/mattermost/mattermost-server) - Open source Slack-alternative for DevOps teams.
 * [Moby](https://github.com/moby/moby) - Collaborative project for the container ecosystem to assemble container-based systems.
 * [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data.
 * [ostent](https://github.com/ostrost/ostent) - collects and displays system metrics and optionally relays to Graphite and/or InfluxDB.
