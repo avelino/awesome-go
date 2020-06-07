@@ -2351,6 +2351,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [toxiproxy](https://github.com/shopify/toxiproxy) - Proxy to simulate network and system conditions for automated tests.
 * [tsuru](https://tsuru.io/) - Extensible and open source Platform as a Service software.
 * [vFlow](https://github.com/VerizonDigital/vflow) - High-performance, scalable and reliable IPFIX, sFlow and Netflow collector.
+* [water-reminder](https://github.com/0xfederama/water-reminder) - Taskbar app that reminds you to drink every 30 minutes for Linux and MacOS
 * [wellington](https://github.com/wellington/wellington) - Sass project management tool, extends the language with sprite functions (like Compass).
 
 # Resources
