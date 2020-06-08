@@ -1878,7 +1878,8 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [go-sitemap-generator](https://github.com/ikeikeikeike/go-sitemap-generator) - XML Sitemap generator written in Go.
 * [go-trigger](https://github.com/sadlil/go-trigger) - Go-lang global event triggerer, Register Events with an id and trigger the event from anywhere from your project.
 * [goback](https://github.com/carlescere/goback) - Go simple exponential backoff package.
-* [godaemon](https://github.com/VividCortex/godaemon) - Utility to write daemons.
+* [goccm](https://github.com/zenthangplus/goccm) - Go Concurrency Manager package limits the number of goroutines that allowed to run concurrently.
+* [godaemon](https://github.com/VividCortex/godaemon) - Utility to wrisimple exponential backoff package.te daemons.
 * [godropbox](https://github.com/dropbox/godropbox) - Common libraries for writing Go services/applications from Dropbox.
 * [gohper](https://github.com/cosiner/gohper) - Various tools/modules help for development.
 * [golarm](https://github.com/msempere/golarm) - Fire alarms with system events.
