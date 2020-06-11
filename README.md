@@ -1110,6 +1110,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [EventBus](https://github.com/asaskevich/EventBus) - The lightweight event bus with async compatibility.
 * [gaurun-client](https://github.com/osamingo/gaurun-client) - Gaurun Client written in Go.
 * [Glue](https://github.com/desertbit/glue) - Robust Go and Javascript Socket Library (Alternative to Socket.io).
+* [go-mq](https://github.com/cheshir/go-mq) - RabbitMQ client with declarative configuration.
 * [go-notify](https://github.com/TheCreeper/go-notify) - Native implementation of the freedesktop notification spec.
 * [go-nsq](https://github.com/nsqio/go-nsq) - the official Go package for NSQ.
 * [go-res](https://github.com/jirenius/go-res) - Package for building REST/real-time services where clients are synchronized seamlessly, using NATS and Resgate.
