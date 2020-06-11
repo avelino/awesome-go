@@ -2562,3 +2562,4 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [The world’s easiest introduction to WebAssembly with Golang](https://medium.com/@martinolsansky/webassembly-with-golang-is-fun-b243c0e34f02)
 * [Working with Go](https://github.com/mkaz/working-with-go) - Intro to go for experienced programmers.
 * [Your basic Go](http://yourbasic.org/golang) - Huge collection of tutorials and how to's.
+* [Classpert - A list of free and paid Go courses from top e-learning platforms](https://classpert.com/go-programming)
