@@ -2082,6 +2082,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [client-timing](https://github.com/posener/client-timing) - An HTTP client for Server-Timing header.
 * [CORS](https://github.com/rs/cors) - Easily add CORS capabilities to your API.
 * [formjson](https://github.com/rs/formjson) - Transparently handle JSON input as a standard form POST.
+* [go-fault](https://github.com/github/go-fault) - Fault injection middleware for Go.
 * [go-server-timing](https://github.com/mitchellh/go-server-timing) - Add/parse Server-Timing header.
 * [Limiter](https://github.com/ulule/limiter) - Dead simple rate limit middleware for Go.
 * [ln-paywall](https://github.com/philippgille/ln-paywall) - Go middleware for monetizing APIs on a per-request basis with the Lightning Network (Bitcoin).
