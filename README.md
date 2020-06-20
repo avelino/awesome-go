@@ -1281,6 +1281,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [sentences](https://github.com/neurosnap/sentences) - Sentence tokenizer:  converts text into a list of sentences.
 * [shamoji](https://github.com/osamingo/shamoji) - The shamoji is word filtering package written in Go.
 * [snowball](https://github.com/goodsign/snowball) - Snowball stemmer port (cgo wrapper) for Go. Provides word stem extraction functionality [Snowball native](http://snowball.tartarus.org/).
+* [spaGO](https://github.com/nlpodyssey/spago) - A beautiful and maintainable Machine Learning library designed to support relevant neural network architectures in NLP tasks (e.g. BiLSTM, BERT, etc.)
 * [stemmer](https://github.com/dchest/stemmer) - Stemmer packages for Go programming language. Includes English and German stemmers.
 * [textcat](https://github.com/pebbe/textcat) - Go package for n-gram based text categorization, with support for utf-8 and raw text.
 * [transliterator](https://github.com/alexsergivan/transliterator) - Provides one-way string transliteration with supporting of language-specific transliteration rules.
