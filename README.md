@@ -1737,6 +1737,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [syndfeed](https://github.com/zhengchun/syndfeed) - A syndication feed for Atom 1.0 and RSS 2.0.
     * [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
 * Utility
+    * [fasturl](https://github.com/ImVexed/fasturl) - High performance URL parsing library using a Ragel state machine.
     * [gofuckyourself](https://github.com/JoshuaDoes/gofuckyourself) - A sanitization-based swear filter for Go.
     * [gotabulate](https://github.com/bndr/gotabulate) - Easily pretty-print your tabular data with Go.
     * [kace](https://github.com/codemodus/kace) - Common case conversions covering common initialisms.
