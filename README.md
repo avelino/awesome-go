@@ -1347,6 +1347,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [tcp_server](https://github.com/firstrow/tcp_server) - Go library for building tcp servers faster.
 * [tspool](https://github.com/two/tspool) - A TCP Library use worker pool to improve performance and protect your server.
 * [utp](https://github.com/anacrolix/utp) - Go uTP micro transport protocol implementation.
+* [vssh](https://github.com/yahoo/vssh) - Go library for building network and server automation over SSH protocol.
 * [water](https://github.com/songgao/water) - Simple TUN/TAP library.
 * [webrtc](https://github.com/pions/webrtc) - A pure Go implementation of the WebRTC API.
 * [winrm](https://github.com/masterzen/winrm) - Go WinRM client to remotely execute commands on Windows machines.
