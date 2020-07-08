@@ -895,6 +895,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [Wails](https://wails.app) - Mac, Windows, Linux desktop apps with HTML UI using built-in OS HTML renderer.
 * [walk](https://github.com/lxn/walk) - Windows application library kit for Go.
 * [webview](https://github.com/zserge/webview) - Cross-platform webview window with simple two-way JavaScript bindings (Windows / macOS / Linux).
+* [miniblink](https://github.com/del-xiong/miniblink) - Go bindings for miniblink - a light & awesome windows webkit engine. create apps with html/js/css
 
 *Interaction*
 
