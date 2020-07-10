@@ -448,6 +448,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [unitdb](https://github.com/unit-io/unitdb) - Fast timeseries database for IoT, realtime messaging  applications. Access unitdb with pubsub over tcp or websocket using github.com/unit-io/unitd application.
 * [Vasto](https://github.com/chrislusf/vasto) - A distributed high-performance key-value store. On Disk. Eventual consistent. HA. Able to grow or shrink without service interruption.
 * [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) - fast, resource-effective and scalable open source time series database. May be used as long-term remote storage for Prometheus. Supports PromQL.
+* [Weaviate](https://github.com/semi-technologies/weaviate) - Semantic search engine based on GraphQL and build-in (word) embeddings.
 
 *Database schema migration.*
 
