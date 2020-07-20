@@ -704,6 +704,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [errors](https://github.com/pkg/errors) - Package that provides simple error handling primitives.
 * [errors](https://github.com/neuronlabs/errors) - Simple golang error handling with classification primitives.
 * [errors](https://github.com/PumpkinSeed/errors) - The most simple error wrapper with awesome performance and minimal memory overhead.
+* [errors](https://github.com/bnkamalesh/errors) - Drop-in replacement for builting Go errors. This is a minimal error handling package with custom error types, user friendly messages, Unwrap & Is. With very easy to use and straightforward helper functions.
 * [errorx](https://github.com/joomcode/errorx) - A feature rich error package with stack traces, composition of errors and more.
 * [Falcon](https://github.com/SonicRoshan/falcon) - A Simple Yet Highly Powerful Package For Error Handling.
 * [go-multierror](https://github.com/hashicorp/go-multierror) - Go (golang) package for representing a list of errors as a single error.
