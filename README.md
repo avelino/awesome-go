@@ -627,7 +627,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [jsonrpc](https://github.com/ybbus/jsonrpc) - JSON-RPC 2.0 HTTP client implementation.
 * [KrakenD](https://github.com/devopsfaith/krakend) - Ultra performant API Gateway framework with middlewares.
 * [liftbridge](https://github.com/liftbridge-io/liftbridge) - Lightweight, fault-tolerant message streams for NATS.
-* [Maestro](https://github.com/jexia/maestro) - A straightforward (micro) service orchestrator.
 * [micro](https://github.com/micro/micro) - A distributed systems runtime for the cloud and beyond.
 * [NATS](https://github.com/nats-io/gnatsd) - Lightweight, high performance messaging system for microservices, IoT, and cloud native systems.
 * [outboxer](https://github.com/italolelis/outboxer) - Outboxer is a go library that implements the outbox pattern.
@@ -639,6 +638,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [resgate](https://resgate.io/) - Realtime API Gateway for building REST, real time, and RPC APIs, where all clients are synchronized seamlessly.
 * [ringpop-go](https://github.com/uber/ringpop-go) - Scalable, fault-tolerant application-layer sharding for Go applications.
 * [rpcx](https://github.com/smallnest/rpcx) - Distributed pluggable RPC service framework like alibaba Dubbo.
+* [Semaphore](https://github.com/jexia/semaphore) - A straightforward (micro) service orchestrator.
 * [sleuth](https://github.com/ursiform/sleuth) - Library for master-less p2p auto-discovery and RPC between HTTP services (using [ZeroMQ](https://github.com/zeromq/libzmq)).
 * [tendermint](https://github.com/tendermint/tendermint) - High-performance middleware for transforming a state machine written in any programming language into a Byzantine Fault Tolerant replicated state machine using the Tendermint consensus and blockchain protocols.
 * [torrent](https://github.com/anacrolix/torrent) - BitTorrent client package.
