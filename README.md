@@ -106,6 +106,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [E-Books](#e-books)
     - [Gophers](#gophers)
     - [Meetups](#meetups)
+    - [Style Guides](#style-guides)
     - [Twitter](#twitter)
     - [Websites](#websites)
         - [Tutorials](#tutorials)
@@ -2517,6 +2518,18 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Women Who Go - San Francisco, CA](https://www.meetup.com/Women-Who-Go/)
 
 *Add the group of your city/country here (send **PR**)*
+
+## Style Guides
+
+* [bahlo/go-styleguide](https://github.com/bahlo/go-styleguide)
+* [CockroachDB](https://github.com/cockroachdb/cockroach/blob/master/docs/style.md)
+* [Edge X Foundry](https://wiki.edgexfoundry.org/display/FA/Contributor%27s+Guide+-+Go+Lang)
+* [GitLab](https://docs.gitlab.com/ee/development/go_guide/)
+* [Hyperledger](https://github.com/hyperledger/fabric/blob/release-1.4/docs/source/style-guides/go-style.rst)
+* [Magnetico](https://github.com/boramalper/magnetico/wiki/magnetico-Design-Specification)
+* [Sourcegraph](https://about.sourcegraph.com/handbook/engineering/go_style_guide)
+* [Thanos](https://thanos.io/contributing/coding-style-guide.md/)
+* [Uber](https://github.com/uber-go/guide/blob/master/style.md)
 
 ## Social Media
 ### Twitter
