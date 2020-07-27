@@ -1195,6 +1195,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [golang-standards/project-layout](https://github.com/golang-standards/project-layout) - Set of common historical and emerging project layout patterns in the Go ecosystem.
 * [modern-go-application](https://github.com/sagikazarmark/modern-go-application) - Go application boilerplate and example applying modern practices.
 * [scaffold](https://github.com/catchplay/scaffold) - Scaffold generates starter Go project layout. Lets you focus on business logic implemeted.
+* [Skeleton](https://gitlab.com/gadelkareem/skeleton) - A complete Golang and Nuxt boilerplate for your project with backend API, frontend, tests and CI/CD pipelines.
 
 ### Strings
 
