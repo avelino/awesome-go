@@ -521,12 +521,12 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [go-oci8](https://github.com/mattn/go-oci8) - Oracle driver for go that uses database/sql.
     * [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) - MySQL driver for Go.
     * [go-sqlite3](https://github.com/mattn/go-sqlite3) - SQLite3 driver for go that uses database/sql.
+    * [godror](https://github.com/godror/godror) - Go DRiver for ORacle.
     * [gofreetds](https://github.com/minus5/gofreetds) - Microsoft MSSQL driver. Go wrapper over [FreeTDS](http://www.freetds.org).
     * [goracle](https://github.com/go-goracle/goracle) - Oracle driver for Go, using the ODPI-C driver.
     * [pgx](https://github.com/jackc/pgx) - PostgreSQL driver supporting features beyond those exposed by database/sql.
     * [pq](https://github.com/lib/pq) - Pure Go Postgres driver for database/sql.
     * [Sqinn-Go](https://github.com/cvilsmeier/sqinn-go) - SQLite with pure Go.
-    * [godror](https://github.com/godror/godror) - Go DRiver for ORacle.
 
 * NoSQL Databases
     * [aerospike-client-go](https://github.com/aerospike/aerospike-client-go) - Aerospike client in Go language.
