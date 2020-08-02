@@ -901,6 +901,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [Wails](https://wails.app) - Mac, Windows, Linux desktop apps with HTML UI using built-in OS HTML renderer.
 * [walk](https://github.com/lxn/walk) - Windows application library kit for Go.
 * [webview](https://github.com/zserge/webview) - Cross-platform webview window with simple two-way JavaScript bindings (Windows / macOS / Linux).
+* [Gio](https://gioui.org) - Gio implements portable immediate mode GUI programs in Go. Gio programs run on all the major platforms: iOS/tvOS, Android, Linux (Wayland/X11), macOS, Windows, FreeBSD, OpenBSD, and experimental support for browsers (Webassembly/WebGL).
 
 *Interaction*
 
