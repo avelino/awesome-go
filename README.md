@@ -278,6 +278,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for configuration parsing.*
 
+* [aconfig](https://github.com/cristalhq/aconfig) - Simple, useful and opinionated config loader.
 * [cleanenv](https://github.com/ilyakaznacheev/cleanenv) - Minimalistic configuration reader (from files, ENV, and wherever you want).
 * [config](https://github.com/golobby/config) - A lightweight yet powerful config package for Go projects.
 * [config](https://github.com/JeremyLoy/config) - Cloud native application configuration. Bind ENV to structs in only two lines.
