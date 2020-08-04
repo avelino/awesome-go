@@ -2251,6 +2251,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [re2dfa](https://github.com/opennota/re2dfa) - Transform regular expressions into finite state machines and output Go source code.
 * [TOML-to-Go](https://xuri.me/toml-to-go) - Translates TOML into a Go type in the browser instantly.
 * [xgen](https://github.com/xuri/xgen) - XSD (XML Schema Definition) parser and Go/C/Java/Rust/TypeScript code generator.
+* [goslayer](https://github.com/danceyoung/goslayer) - GoSLayer is a tool that helps you to create a golang project in seconds.
 
 ## Go Tools
 
