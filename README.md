@@ -1199,6 +1199,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [golang-standards/project-layout](https://github.com/golang-standards/project-layout) - Set of common historical and emerging project layout patterns in the Go ecosystem.
 * [modern-go-application](https://github.com/sagikazarmark/modern-go-application) - Go application boilerplate and example applying modern practices.
 * [scaffold](https://github.com/catchplay/scaffold) - Scaffold generates starter Go project layout. Lets you focus on business logic implemeted.
+* [goslayer](https://github.com/danceyoung/goslayer) - GoSLayer is a tool that helps you to create a golang project in seconds.
 
 ### Strings
 
@@ -2251,7 +2252,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [re2dfa](https://github.com/opennota/re2dfa) - Transform regular expressions into finite state machines and output Go source code.
 * [TOML-to-Go](https://xuri.me/toml-to-go) - Translates TOML into a Go type in the browser instantly.
 * [xgen](https://github.com/xuri/xgen) - XSD (XML Schema Definition) parser and Go/C/Java/Rust/TypeScript code generator.
-* [goslayer](https://github.com/danceyoung/goslayer) - GoSLayer is a tool that helps you to create a golang project in seconds.
 
 ## Go Tools
 
