@@ -854,7 +854,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [breaker](https://github.com/kamilsk/breaker) - Flexible mechanism to make execution flow interruptible.
 * [conexec](https://github.com/ITcathyh/conexec) - A concurrent toolkit to help execute funcs concurrently in an efficient and safe way.It supports specifying the overall timeout to avoid blocking and uses goroutine pool to improve efficiency.
 * [cyclicbarrier](https://github.com/marusama/cyclicbarrier) - CyclicBarrier for golang.
-* [neilotoole/errgroup](https://github.com/neilotoole/errgroup) - Drop-in alternative to `sync/errgroup`, limited to a pool of N worker goroutines.
 * [go-floc](https://github.com/workanator/go-floc) - Orchestrate goroutines with ease.
 * [go-flow](https://github.com/kamildrazkiewicz/go-flow) - Control goroutines execution order.
 * [go-tools/multithreading](https://github.com/nikhilsaraf/go-tools) - Manage a pool of goroutines using this lightweight library with a simple API.
@@ -870,6 +869,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [hands](https://github.com/duanckham/hands) - A process controller used to control the execution and return strategies of multiple goroutines.
 * [Hunch](https://github.com/AaronJan/Hunch) - Hunch provides functions like: `All`, `First`, `Retry`, `Waterfall` etc., that makes asynchronous flow control more intuitive.
 * [kyoo](https://github.com/dirkaholic/kyoo) - Provides an unlimited job queue and concurrent worker pools.
+* [neilotoole/errgroup](https://github.com/neilotoole/errgroup) - Drop-in alternative to `sync/errgroup`, limited to a pool of N worker goroutines.
 * [nursery](https://github.com/arunsworld/nursery) - Structured concurrency in Go.
 * [oversight](https://cirello.io/oversight) - Oversight is a complete implementation of the Erlang supervision trees.
 * [parallel-fn](https://github.com/rafaeljesus/parallel-fn) - Run functions in parallel.
