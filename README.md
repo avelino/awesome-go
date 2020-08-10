@@ -5,7 +5,7 @@
 ## Sponsorships
 > [![GitAds Support](https://images.gitads.io/awesome-go)](https://tracking.gitads.io/?repo=awesome-go)
 
-**We have no monthly cost**_, but we have employees **hard working** to maintain the Awesome Go, with money raised we can repay the effort of each person involved! All billing and distribution will be open to the entire community._
+**We have no monthly cost**_, but we have employees **working hard** to maintain the Awesome Go, with money raised we can repay the effort of each person involved! All billing and distribution will be open to the entire community._
 
 A curated list of awesome Go frameworks, libraries and software. Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
