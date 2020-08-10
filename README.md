@@ -547,7 +547,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [gorethink](https://github.com/dancannon/gorethink) - Go language driver for RethinkDB.
     * [goriak](https://github.com/zegl/goriak) - Go language driver for Riak KV.
     * [mgm](https://github.com/kamva/mgm) - MongoDB model-based ODM for Go (based on official MongoDB driver).
-    * [qmgo](https://github.com/qiniu/qmgo) - The MongoDB dirver for Go. It‘s based on MongoDB official driver but easier to use like Mgo.
+    * [qmgo](https://github.com/qiniu/qmgo) - The MongoDB dirver for Go. It‘s based on official MongoDB driver but easier to use like Mgo.
     * [mgo](https://github.com/globalsign/mgo) - (unmaintained) MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
     * [mongo-go-driver](https://github.com/mongodb/mongo-go-driver) - Official MongoDB driver for the Go language.
     * [neo4j](https://github.com/cihangir/neo4j) - Neo4j Rest API Bindings for Golang.
