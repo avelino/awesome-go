@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"log"
 	"net/http"
 	"os"
 	"regexp"
 	"strings"
-	"testing"
 	"time"
 
 	"github.com/PuerkitoBio/goquery"
@@ -18,31 +18,30 @@ import (
 var reGithubRepo = regexp.MustCompile("https://github.com/[a-zA-Z0-9-.]+/[a-zA-Z0-9-.]+$")
 var githubGETCOMMITS = "https://api.github.com/repos%s/commits"
 var githubPOSTISSUES = "https://api.github.com/repos/avelino/awesome-go/issues"
-var NUMBEROFYEARS time.Duration = 1
-var ISSUEFMT = "Investigate %s. Has not had any new commits in a while"
-var DELAYINSECONDS time.Duration = 1
+var numberOfYears time.Duration = 1
+var issueFmt = "Investigate %s. Has not had any new commits in a while"
+var delay time.Duration = 1
 
-type TokenSource struct {
+type tokenSource struct {
 	AccessToken string
 }
-type Issue struct {
+type issue struct {
 	Title string `json:"title"`
 }
 
-func (t *TokenSource) Token() (*oauth2.Token, error) {
+func (t *tokenSource) Token() (*oauth2.Token, error) {
 	token := &oauth2.Token{
 		AccessToken: t.AccessToken,
 	}
 	return token, nil
 }
-
-func createIssues(issueRequests []*http.Request, oauthClient *http.Client, t *testing.T) {
+func createIssues(issueRequests []*http.Request, oauthClient *http.Client) {
 	for _, req := range issueRequests {
 		oauthClient.Do(req)
-		time.Sleep(DELAYINSECONDS * time.Second)
+		time.Sleep(delay * time.Second)
 	}
 }
-func testCommitAge(href string, oauthClient *http.Client, issueRequests *[]*http.Request, t *testing.T) {
+func testCommitAge(href string, oauthClient *http.Client, issueRequests *[]*http.Request) {
 	var isValidRepo bool
 	var isAged bool
 	var ownerRepo string
@@ -50,14 +49,14 @@ func testCommitAge(href string, oauthClient *http.Client, issueRequests *[]*http
 	var apiCall string
 	var respObj []map[string]interface{}
 	now := time.Now()
-	since := now.Add(-1 * 365 * 24 * NUMBEROFYEARS * time.Hour)
+	since := now.Add(-1 * 365 * 24 * numberOfYears * time.Hour)
 	sinceQuery := since.Format(time.RFC3339)
 	if isValidRepo {
 		ownerRepo = strings.ReplaceAll(href, "https://github.com", "")
 		apiCall = fmt.Sprintf(githubGETCOMMITS, ownerRepo)
 		req, err := http.NewRequest("GET", apiCall, nil)
 		if err != nil {
-			t.Errorf("Failed at repository %s", ownerRepo)
+			log.Printf("Failed at repository %s\n", ownerRepo)
 			return
 		}
 		q := req.URL.Query()
@@ -65,41 +64,45 @@ func testCommitAge(href string, oauthClient *http.Client, issueRequests *[]*http
 		req.URL.RawQuery = q.Encode()
 		resp, err := oauthClient.Do(req)
 		if err != nil {
-			t.Errorf("Failed at repository %s", ownerRepo)
+			log.Printf("Failed at repository %s\n", ownerRepo)
 			return
 		}
 		defer resp.Body.Close()
 		json.NewDecoder(resp.Body).Decode(&respObj)
 		isAged = len(respObj) == 0
 		if isAged {
-			body := &Issue{
-				Title: fmt.Sprintf(ISSUEFMT, ownerRepo),
+			body := &issue{
+				Title: fmt.Sprintf(issueFmt, ownerRepo),
 			}
 			buf := new(bytes.Buffer)
 			json.NewEncoder(buf).Encode(body)
 			req, err := http.NewRequest("POST", githubPOSTISSUES, buf)
 			if err != nil {
-				t.Errorf("Failed at repository %s", ownerRepo)
+				log.Printf("Failed at repository %s\n", ownerRepo)
 				return
 			}
 			*issueRequests = append(*issueRequests, req)
 		}
 	}
 }
-func TestStaleRepository(t *testing.T) {
+func testStaleRepository() {
 	query := startQuery()
 	var issueRequests []*http.Request
 	oauth := os.Getenv("GITHUB_OAUTH_TOKEN")
-	tokenSource := &TokenSource{
+	tokenSource := &tokenSource{
 		AccessToken: oauth,
 	}
 	oauthClient := oauth2.NewClient(oauth2.NoContext, tokenSource)
 	query.Find("body li > a:first-child").Each(func(_ int, s *goquery.Selection) {
 		href, ok := s.Attr("href")
 		if !ok {
-			t.Error("expected to have href")
+			log.Println("expected to have href")
 		}
-		testCommitAge(href, oauthClient, &issueRequests, t)
+		testCommitAge(href, oauthClient, &issueRequests)
 	})
-	createIssues(issueRequests, oauthClient, t)
+	createIssues(issueRequests, oauthClient)
+}
+
+func main() {
+	testStaleRepository()
 }
