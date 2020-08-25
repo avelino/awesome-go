@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"fmt"
 	"io/ioutil"
 
 	"github.com/PuerkitoBio/goquery"
@@ -13,9 +14,9 @@ func readme() []byte {
 	if err != nil {
 		panic(err)
 	}
-	html := append([]byte("<body>"), blackfriday.MarkdownCommon(input)...)
-	html = append(html, []byte("</body>")...)
-	return html
+	html := fmt.Sprintf("<body>%s</body>", blackfriday.MarkdownCommon(input))
+	htmlByteArray := []byte(html)
+	return htmlByteArray
 }
 
 func startQuery() *goquery.Document {
@@ -24,6 +25,5 @@ func startQuery() *goquery.Document {
 	if err != nil {
 		panic(err)
 	}
-
 	return query
 }
