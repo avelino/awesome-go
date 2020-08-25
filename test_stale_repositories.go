@@ -17,11 +17,15 @@ import (
 
 var reGithubRepo = regexp.MustCompile("https://github.com/[a-zA-Z0-9-.]+/[a-zA-Z0-9-.]+$")
 var githubGETCOMMITS = "https://api.github.com/repos%s/commits"
-var githubPOSTISSUES = "https://api.github.com/repos/avelino/awesome-go/issues"
-var awesomeGoGETISSUES = "http://api.github.com/repos/avelino/awesome-go/issues" //only returns open issues
+var githubPOSTISSUES = "https://api.github.com/repos/mrKappen/awesome-go/issues"
+var awesomeGoGETISSUES = "http://api.github.com/repos/mrKappen/awesome-go/issues" //only returns open issues
 var numberOfYears time.Duration = 1
 var issueFmt = "Investigate %s. This repository has not had any new commits in a while."
 var delay time.Duration = 1
+
+//LIMIT specifies the max number of issues that can be created in a single run of the script
+var LIMIT = 10
+var ctr = 0
 
 type tokenSource struct {
 	AccessToken string
@@ -105,6 +109,7 @@ func testCommitAge(href string, oauthClient *http.Client, issueRequests *[]*http
 		json.NewDecoder(resp.Body).Decode(&respObj)
 		isAged = len(respObj) == 0
 		if isAged {
+			log.Printf("%s has not had a commit in a while", ownerRepo)
 			body := &issue{
 				Title: fmt.Sprintf(issueFmt, ownerRepo),
 			}
@@ -116,6 +121,7 @@ func testCommitAge(href string, oauthClient *http.Client, issueRequests *[]*http
 				return
 			}
 			*issueRequests = append(*issueRequests, req)
+			ctr++
 		}
 	}
 }
@@ -132,17 +138,28 @@ func testStaleRepository() {
 		log.Println("Failed to get existing issues. Exiting...")
 		return
 	}
-	query.Find("body li > a:first-child").Each(func(_ int, s *goquery.Selection) {
+	query.Find("body li > a:first-child").EachWithBreak(func(_ int, s *goquery.Selection) bool {
 		href, ok := s.Attr("href")
 		if !ok {
 			log.Println("expected to have href")
 		} else {
+			if ctr >= LIMIT {
+				log.Print("Max number of issues created")
+				return false
+			}
 			testCommitAge(href, oauthClient, &issueRequests, openIssues)
 		}
+		return true
 	})
 	createIssues(issueRequests, oauthClient)
 }
 
 func main() {
+	f, err := os.OpenFile("test_stale_repositories_log", os.O_CREATE|os.O_WRONLY|os.O_TRUNC, 0666)
+	if err != nil {
+		log.Println("FAILED TO INIT LOG FILE")
+		return
+	}
+	log.SetOutput(f)
 	testStaleRepository()
 }
