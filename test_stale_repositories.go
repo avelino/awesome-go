@@ -9,21 +9,30 @@ import (
 	"os"
 	"regexp"
 	"strings"
+	"text/template"
 	"time"
 
 	"github.com/PuerkitoBio/goquery"
 	"golang.org/x/oauth2"
 )
 
+const issueTemplate = `
+{{range .}}
+- [ ] {{.}}
+{{end}}
+`
+
 var reGithubRepo = regexp.MustCompile("https://github.com/[a-zA-Z0-9-.]+/[a-zA-Z0-9-.]+$")
 var githubGETCOMMITS = "https://api.github.com/repos%s/commits"
-var githubPOSTISSUES = "https://api.github.com/repos/mrKappen/awesome-go/issues"
-var awesomeGoGETISSUES = "http://api.github.com/repos/mrKappen/awesome-go/issues" //only returns open issues
+var githubPOSTISSUES = "https://api.github.com/repos/avelino/awesome-go/issues"
+var awesomeGoGETISSUES = "http://api.github.com/repos/avelino/awesome-go/issues" //only returns open issues
 var numberOfYears time.Duration = 1
-var issueFmt = "Investigate %s. This repository has not had any new commits in a while."
+
+const issueTitle = "Investigate repositories with more than 1 year without update"
+
 var delay time.Duration = 1
 
-//LIMIT specifies the max number of issues that can be created in a single run of the script
+//LIMIT specifies the max number of repositories that are added in a single run of the script
 var LIMIT = 10
 var ctr = 0
 
@@ -32,6 +41,7 @@ type tokenSource struct {
 }
 type issue struct {
 	Title string `json:"title"`
+	Body  string `json:"body"`
 }
 
 func (t *tokenSource) Token() (*oauth2.Token, error) {
@@ -40,41 +50,84 @@ func (t *tokenSource) Token() (*oauth2.Token, error) {
 	}
 	return token, nil
 }
-func createIssues(issueRequests []*http.Request, oauthClient *http.Client) {
-	for _, req := range issueRequests {
-		oauthClient.Do(req)
-		time.Sleep(delay * time.Second)
+func getRepositoriesFromBody(body string) []string {
+	links := strings.Split(body, "- ")
+	for idx, link := range links {
+		str := strings.ReplaceAll(link, "[ ]", "")
+		str = strings.ReplaceAll(str, "[x]", "")
+		str = strings.ReplaceAll(str, " ", "")
+		str = strings.ReplaceAll(str, "\n", "")
+		links[idx] = str
 	}
+	return links
 }
-func getAllOpenIssues(oauthClient *http.Client) (map[string]bool, error) {
-	openIssues := make(map[string]bool)
+func generateIssueBody(repositories []string) (string, error) {
+	var writer bytes.Buffer
+	t := template.New("issue")
+	temp, err := t.Parse(issueTemplate)
+	if err != nil {
+		log.Print("Failed to generate template")
+		return "", err
+	}
+	err = temp.Execute(&writer, repositories)
+	if err != nil {
+		log.Print("Failed to generate template")
+		return "", err
+	}
+	issueBody := writer.String()
+	return issueBody, nil
+}
+func createIssue(staleRepos []string, oauthClient *http.Client) {
+	body, err := generateIssueBody(staleRepos)
+	if err != nil {
+		log.Print("Failed at CreateIssue")
+		return
+	}
+	newIssue := &issue{
+		Title: issueTitle,
+		Body:  body,
+	}
+	buf := new(bytes.Buffer)
+	json.NewEncoder(buf).Encode(newIssue)
+	req, err := http.NewRequest("POST", githubPOSTISSUES, buf)
+	if err != nil {
+		log.Print("Failed at CreateIssue")
+		return
+	}
+	oauthClient.Do(req)
+}
+func getAllFlaggedRepositories(oauthClient *http.Client, flaggedRepositories *map[string]bool) error {
 	req, err := http.NewRequest("GET", awesomeGoGETISSUES, nil)
 	if err != nil {
 		log.Print("Failed to get all issues")
-		return nil, err
+		return err
 	}
 	res, err := oauthClient.Do(req)
 	if err != nil {
 		log.Print("Failed to get all issues")
-		return nil, err
+		return err
 	}
 	target := []issue{}
 	defer res.Body.Close()
 	json.NewDecoder(res.Body).Decode(&target)
 	for _, i := range target {
-		openIssues[i.Title] = true
+		if i.Title == issueTitle {
+			repos := getRepositoriesFromBody(i.Body)
+			for _, repo := range repos {
+				(*flaggedRepositories)[repo] = true
+			}
+		}
 	}
-	return openIssues, nil
+	return nil
 }
-func containsOpenIssue(ownerRepo string, openIssues map[string]bool) bool {
-	issueTitle := fmt.Sprintf(issueFmt, ownerRepo)
-	_, ok := openIssues[issueTitle]
+func containsOpenIssue(link string, openIssues map[string]bool) bool {
+	_, ok := openIssues[link]
 	if ok {
 		return true
 	}
 	return false
 }
-func testCommitAge(href string, oauthClient *http.Client, issueRequests *[]*http.Request, openIssues map[string]bool) {
+func testCommitAge(href string, oauthClient *http.Client, staleRepos *[]string, openIssues map[string]bool) {
 	var isValidRepo bool
 	var isAged bool
 	var ownerRepo string
@@ -85,16 +138,16 @@ func testCommitAge(href string, oauthClient *http.Client, issueRequests *[]*http
 	since := now.Add(-1 * 365 * 24 * numberOfYears * time.Hour)
 	sinceQuery := since.Format(time.RFC3339)
 	if isValidRepo {
-		ownerRepo = strings.ReplaceAll(href, "https://github.com", "")
-		issueExists := containsOpenIssue(ownerRepo, openIssues)
+		issueExists := containsOpenIssue(href, openIssues)
 		if issueExists {
-			log.Printf("issue already exists for %s\n", ownerRepo)
+			log.Printf("issue already exists for %s\n", href)
 			return
 		}
+		ownerRepo = strings.ReplaceAll(href, "https://github.com", "")
 		apiCall = fmt.Sprintf(githubGETCOMMITS, ownerRepo)
 		req, err := http.NewRequest("GET", apiCall, nil)
 		if err != nil {
-			log.Printf("Failed at repository %s\n", ownerRepo)
+			log.Printf("Failed at repository %s\n", href)
 			return
 		}
 		q := req.URL.Query()
@@ -102,38 +155,30 @@ func testCommitAge(href string, oauthClient *http.Client, issueRequests *[]*http
 		req.URL.RawQuery = q.Encode()
 		resp, err := oauthClient.Do(req)
 		if err != nil {
-			log.Printf("Failed at repository %s\n", ownerRepo)
+			log.Printf("Failed at repository %s\n", href)
 			return
 		}
 		defer resp.Body.Close()
 		json.NewDecoder(resp.Body).Decode(&respObj)
 		isAged = len(respObj) == 0
 		if isAged {
-			log.Printf("%s has not had a commit in a while", ownerRepo)
-			body := &issue{
-				Title: fmt.Sprintf(issueFmt, ownerRepo),
-			}
-			buf := new(bytes.Buffer)
-			json.NewEncoder(buf).Encode(body)
-			req, err := http.NewRequest("POST", githubPOSTISSUES, buf)
-			if err != nil {
-				log.Printf("Failed at repository %s\n", ownerRepo)
-				return
-			}
-			*issueRequests = append(*issueRequests, req)
+			log.Printf("%s has not had a commit in a while", href)
+			*staleRepos = append(*staleRepos, href)
 			ctr++
 		}
 	}
 }
 func testStaleRepository() {
 	query := startQuery()
-	var issueRequests []*http.Request
+	var staleRepos []string
+	addressedRepositories := make(map[string]bool)
 	oauth := os.Getenv("GITHUB_OAUTH_TOKEN")
 	tokenSource := &tokenSource{
 		AccessToken: oauth,
 	}
 	oauthClient := oauth2.NewClient(oauth2.NoContext, tokenSource)
-	openIssues, err := getAllOpenIssues(oauthClient)
+	err := getAllFlaggedRepositories(oauthClient, &addressedRepositories)
+
 	if err != nil {
 		log.Println("Failed to get existing issues. Exiting...")
 		return
@@ -147,11 +192,11 @@ func testStaleRepository() {
 				log.Print("Max number of issues created")
 				return false
 			}
-			testCommitAge(href, oauthClient, &issueRequests, openIssues)
+			testCommitAge(href, oauthClient, &staleRepos, addressedRepositories)
 		}
 		return true
 	})
-	createIssues(issueRequests, oauthClient)
+	createIssue(staleRepos, oauthClient)
 }
 
 func main() {
