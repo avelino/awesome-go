@@ -29,6 +29,7 @@ var awesomeGoGETISSUES = "http://api.github.com/repos/avelino/awesome-go/issues"
 var numberOfYears time.Duration = 1
 
 const issueTitle = "Investigate repositories with more than 1 year without update"
+const deadLinkMessage = " this repository might no longer exist!"
 
 var delay time.Duration = 1
 
@@ -53,7 +54,9 @@ func (t *tokenSource) Token() (*oauth2.Token, error) {
 func getRepositoriesFromBody(body string) []string {
 	links := strings.Split(body, "- ")
 	for idx, link := range links {
-		str := strings.ReplaceAll(link, "[ ]", "")
+		str := strings.ReplaceAll(link, "\r", "")
+		str = strings.ReplaceAll(str, deadLinkMessage, "")
+		str = strings.ReplaceAll(str, "[ ]", "")
 		str = strings.ReplaceAll(str, "[x]", "")
 		str = strings.ReplaceAll(str, " ", "")
 		str = strings.ReplaceAll(str, "\n", "")
@@ -78,6 +81,10 @@ func generateIssueBody(repositories []string) (string, error) {
 	return issueBody, nil
 }
 func createIssue(staleRepos []string, oauthClient *http.Client) {
+	if len(staleRepos) == 0 {
+		log.Print("NO STALE REPOSITORIES")
+		return
+	}
 	body, err := generateIssueBody(staleRepos)
 	if err != nil {
 		log.Print("Failed at CreateIssue")
@@ -113,6 +120,7 @@ func getAllFlaggedRepositories(oauthClient *http.Client, flaggedRepositories *ma
 	for _, i := range target {
 		if i.Title == issueTitle {
 			repos := getRepositoriesFromBody(i.Body)
+			fmt.Println(repos)
 			for _, repo := range repos {
 				(*flaggedRepositories)[repo] = true
 			}
@@ -159,12 +167,17 @@ func testCommitAge(href string, oauthClient *http.Client, staleRepos *[]string, 
 			return
 		}
 		defer resp.Body.Close()
-		json.NewDecoder(resp.Body).Decode(&respObj)
-		isAged = len(respObj) == 0
-		if isAged {
-			log.Printf("%s has not had a commit in a while", href)
-			*staleRepos = append(*staleRepos, href)
-			ctr++
+		if resp.StatusCode > 400 {
+			*staleRepos = append(*staleRepos, href+" this repository might no longer exist!")
+			log.Printf("%s might not exist!", href)
+		} else {
+			json.NewDecoder(resp.Body).Decode(&respObj)
+			isAged = len(respObj) == 0
+			if isAged {
+				log.Printf("%s has not had a commit in a while", href)
+				*staleRepos = append(*staleRepos, href)
+				ctr++
+			}
 		}
 	}
 }
@@ -188,7 +201,7 @@ func testStaleRepository() {
 		if !ok {
 			log.Println("expected to have href")
 		} else {
-			if ctr >= LIMIT {
+			if ctr >= LIMIT && LIMIT != -1 {
 				log.Print("Max number of issues created")
 				return false
 			}
