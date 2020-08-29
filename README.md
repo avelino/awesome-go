@@ -1456,6 +1456,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * [jaeger](https://github.com/jaegertracing/jaeger) - A distributed tracing system.
 * [pixie](https://github.com/pixie-labs/pixie) - No instrumentation tracing for Golang applications via eBPF.
+* [pprofrec](https://github.com/ppwfx/pprofrec) - Provides a single pane of glass across all runtime metrics by recording `pprof` lookups, `runtime.MemStats` and `gopsutil` metrics
 * [profile](https://github.com/pkg/profile) - Simple profiling support package for Go.
 * [tracer](https://github.com/kamilsk/tracer) - Simple, lightweight tracing.
 
