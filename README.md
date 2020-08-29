@@ -321,6 +321,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [store](https://github.com/tucnak/store) - Lightweight configuration manager for Go.
 * [swap](https://github.com/oblq/swap) - Instantiate/configure structs recursively, based on build environment. (YAML, TOML, JSON and env).
 * [typenv](https://github.com/diegomarangoni/typenv) - Minimalistic, zero dependency, typed environment variables library.
+* [usrconfig](https://github.com/qeubar/usrconfig) - Simple platform independent user config management.
 * [viper](https://github.com/spf13/viper) - Go configuration with fangs.
 * [xdg](https://github.com/OpenPeeDeeP/xdg) - Cross platform package that follows the [XDG Standard](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html).
 
