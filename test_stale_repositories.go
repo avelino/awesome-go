@@ -174,20 +174,22 @@ func testCommitAge(href string, oauthClient *http.Client, staleRepos *[]string, 
 		if resp.StatusCode == 301 {
 			*staleRepos = append(*staleRepos, href+movedPermanently)
 			log.Printf("%s returned 301", href)
+			return
 		} else if resp.StatusCode == 302 {
 			*staleRepos = append(*staleRepos, href+status302)
 			log.Printf("%s returned 302", href)
+			return
 		} else if resp.StatusCode >= 400 {
 			*staleRepos = append(*staleRepos, href+deadLinkMessage)
 			log.Printf("%s might not exist!", href)
-		} else {
-			json.NewDecoder(resp.Body).Decode(&respObj)
-			isAged = len(respObj) == 0
-			if isAged {
-				log.Printf("%s has not had a commit in a while", href)
-				*staleRepos = append(*staleRepos, href)
-				ctr++
-			}
+			return
+		}
+		json.NewDecoder(resp.Body).Decode(&respObj)
+		isAged = len(respObj) == 0
+		if isAged {
+			log.Printf("%s has not had a commit in a while", href)
+			*staleRepos = append(*staleRepos, href)
+			ctr++
 		}
 	}
 }
