@@ -24,12 +24,14 @@ const issueTemplate = `
 
 var reGithubRepo = regexp.MustCompile("https://github.com/[a-zA-Z0-9-.]+/[a-zA-Z0-9-.]+$")
 var githubGETCOMMITS = "https://api.github.com/repos%s/commits"
-var githubPOSTISSUES = "https://api.github.com/repos/avelino/awesome-go/issues"
-var awesomeGoGETISSUES = "http://api.github.com/repos/avelino/awesome-go/issues" //only returns open issues
+var githubPOSTISSUES = "https://api.github.com/repos/mrKappen/awesome-go/issues"
+var awesomeGoGETISSUES = "http://api.github.com/repos/mrKappen/awesome-go/issues" //only returns open issues
 var numberOfYears time.Duration = 1
 
 const issueTitle = "Investigate repositories with more than 1 year without update"
-const deadLinkMessage = " this repository might no longer exist!"
+const deadLinkMessage = " this repository might no longer exist! (status code >= 400 returned)"
+const movedPermanently = " status code 301 received"
+const status302 = " status code 302 received"
 
 var delay time.Duration = 1
 
@@ -55,11 +57,13 @@ func getRepositoriesFromBody(body string) []string {
 	links := strings.Split(body, "- ")
 	for idx, link := range links {
 		str := strings.ReplaceAll(link, "\r", "")
-		str = strings.ReplaceAll(str, deadLinkMessage, "")
 		str = strings.ReplaceAll(str, "[ ]", "")
 		str = strings.ReplaceAll(str, "[x]", "")
 		str = strings.ReplaceAll(str, " ", "")
 		str = strings.ReplaceAll(str, "\n", "")
+		str = strings.ReplaceAll(str, deadLinkMessage, "")
+		str = strings.ReplaceAll(str, movedPermanently, "")
+		str = strings.ReplaceAll(str, status302, "")
 		links[idx] = str
 	}
 	return links
@@ -167,8 +171,14 @@ func testCommitAge(href string, oauthClient *http.Client, staleRepos *[]string, 
 			return
 		}
 		defer resp.Body.Close()
-		if resp.StatusCode > 400 {
-			*staleRepos = append(*staleRepos, href+" this repository might no longer exist!")
+		if resp.StatusCode == 301 {
+			*staleRepos = append(*staleRepos, href+movedPermanently)
+			log.Printf("%s returned 301", href)
+		} else if resp.StatusCode == 302 {
+			*staleRepos = append(*staleRepos, href+status302)
+			log.Printf("%s returned 302", href)
+		} else if resp.StatusCode >= 400 {
+			*staleRepos = append(*staleRepos, href+deadLinkMessage)
 			log.Printf("%s might not exist!", href)
 		} else {
 			json.NewDecoder(resp.Body).Decode(&respObj)
