@@ -1646,6 +1646,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [biff](https://github.com/fulldump/biff) - Bifurcation testing framework, BDD compatible.
     * [charlatan](https://github.com/percolate/charlatan) - Tool to generate fake interface implementations for tests.
     * [commander](https://github.com/SimonBaeumer/commander) - Tool for testing cli applications on windows, linux and osx.
+    * [covergates](https://github.com/covergates/covergates) - Self-hosted code coverage report review and management service.
     * [cupaloy](https://github.com/bradleyjkemp/cupaloy) - Simple snapshot testing addon for your test framework.
     * [dbcleaner](https://github.com/khaiql/dbcleaner) - Clean database for testing purpose, inspired by `database_cleaner` in Ruby.
     * [dsunit](https://github.com/viant/dsunit) - Datastore testing for SQL, NoSQL, structured files.
@@ -2353,7 +2354,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 ### Other Software
 
-* [Better Go Playground](https://goplay.tools) - Go playground with syntax highlight, code completion and other features. 
+* [Better Go Playground](https://goplay.tools) - Go playground with syntax highlight, code completion and other features.
 * [borg](https://github.com/crufter/borg) - Terminal based search engine for bash snippets.
 * [boxed](https://github.com/tejo/boxed) - Dropbox based blog engine.
 * [Cherry](https://github.com/rafael-santiago/cherry) - Tiny webchat server in Go.
@@ -2628,4 +2629,4 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Programming with Google Go](https://www.coursera.org/specializations/google-golang) - Coursera Specialization to learn about Go from scratch.
 * [The world’s easiest introduction to WebAssembly with Golang](https://medium.com/@martinolsansky/webassembly-with-golang-is-fun-b243c0e34f02)
 * [Working with Go](https://github.com/mkaz/working-with-go) - Intro to go for experienced programmers.
-* [Your basic Go](http://yourbasic.org/golang) - Huge collection of tutorials and how to's. 
+* [Your basic Go](http://yourbasic.org/golang) - Huge collection of tutorials and how to's.
