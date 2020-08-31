@@ -232,6 +232,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [liner](https://github.com/peterh/liner) - Go readline-like library for command-line interfaces.
 * [mitchellh/cli](https://github.com/mitchellh/cli) - Go library for implementing command-line interfaces.
 * [mow.cli](https://github.com/jawher/mow.cli) - Go library for building CLI applications with sophisticated flag and argument parsing and validation.
+* [netselect](https://github.com/pgollangi/netselect) - A CLI tool and go library to select the fastest host based on the lowest ICMP latency.
 * [ops](https://github.com/nanovms/ops) - Unikernel Builder/Orchestrator.
 * [pflag](https://github.com/spf13/pflag) - Drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags.
 * [readline](https://github.com/chzyer/readline) - Pure golang implementation that provides most features in GNU-Readline under MIT license.
