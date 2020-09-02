@@ -1,7 +1,7 @@
 name: Check For Stale Repositories
 on:
   schedule:
-    - cron:'0 * * * *'
+    - cron: '0 * * * *'
 jobs:
   build:
     name: Running test
