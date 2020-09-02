@@ -5,3 +5,4 @@ awesome-go
 .idea
 .vscode
 test_stale_repositories_log
+*.exe
