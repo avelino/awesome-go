@@ -10,5 +10,7 @@ jobs:
       matrix:
        go: ['1.15.x']
     steps:
-      - run: go get -t -v ./...
-      - run: go run test_stale_repositories.go scripts.go
+      - shell: bash
+        env:
+          OAUTH_TOKEN: ${{secrets.OAUTH_TOKEN}}
+        run: go get -t -v ./... && go run test_stale_repositories.go scripts.go
