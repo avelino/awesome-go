@@ -484,6 +484,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [myreplication](https://github.com/2tvenom/myreplication) - MySql binary log replication listener. Supports statement and row based replication.
 * [octillery](https://github.com/knocknote/octillery) - Go package for sharding databases ( Supports every ORM or raw SQL ).
 * [orchestrator](https://github.com/github/orchestrator) - MySQL replication topology manager & visualizer.
+* [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable) - Advanced scheduling for PostgreSQL.
 * [pgweb](https://github.com/sosedoff/pgweb) - Web-based PostgreSQL database browser.
 * [prep](https://github.com/hexdigest/prep) - Use prepared SQL statements without changing your code.
 * [pREST](https://github.com/nuveo/prest) - Serve a RESTful API from any PostgreSQL database.
