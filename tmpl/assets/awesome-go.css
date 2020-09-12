@@ -1,0 +1,116 @@
+* {
+	max-width: 100%;
+	box-sizing: border-box;
+	font-family: "Fira Sans";
+	text-decoration: none;
+	font-weight: 300;
+}
+.awesome-logo {
+	max-width: 500px;
+	width: 100%;
+	margin: auto;
+	display: block;
+}
+
+a {
+	color: #669;
+}
+a:visited, h1, h2, h3, h4 {
+	color: #494368;
+	font-weight: 400;
+}
+h1 > a:nth-child(1) {
+	margin-left: 10px;
+}
+h1 > a img {
+	padding-right: 5px;
+}
+
+#content {
+	width: 100%;
+	padding: 40px 80px;
+}
+
+@media (max-width: 720px) {
+	#content {
+		padding: 20px 40px;
+	}
+}
+@media (max-width: 420px) {
+	#content * {
+		word-wrap: break-word;
+	}
+}
+
+/** ADs
+ * */
+#ads {
+    max-width: 330px;
+    width: 100%;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    display: block;
+}
+
+#carbonads {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu,
+  Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#carbonads {
+  display: flex;
+  max-width: 330px;
+  background-color: hsl(0, 0%, 98%);
+  box-shadow: 0 1px 4px 1px hsla(0, 0%, 0%, .1);
+}
+
+#carbonads a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#carbonads a:hover {
+  color: inherit;
+}
+
+#carbonads span {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+#carbonads .carbon-wrap {
+  display: flex;
+}
+
+.carbon-img {
+  display: block;
+  margin: 0;
+  line-height: 1;
+}
+
+.carbon-img img {
+  display: block;
+}
+
+.carbon-text {
+  font-size: 13px;
+  padding: 10px;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.carbon-poweredby {
+  display: block;
+  padding: 8px 10px;
+  background: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, .025) 5px, hsla(0, 0%, 0%, .025) 10px) hsla(203, 11%, 95%, .4);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 1;
+}
