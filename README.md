@@ -365,6 +365,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [deque](https://github.com/gammazero/deque) - Fast ring-buffer deque (double-ended queue).
 * [dict](https://github.com/srfrog/dict) - Python-like dictionaries (dict) for Go.
 * [encoding](https://github.com/zhenjl/encoding) - Integer Compression Libraries for Go.
+* [floatring](https://github.com/ninedraft/floatring) - A fast circular buffer of float64 numbers.
 * [go-adaptive-radix-tree](https://github.com/plar/go-adaptive-radix-tree) - Go implementation of Adaptive Radix Tree.
 * [go-datastructures](https://github.com/Workiva/go-datastructures) - Collection of useful, performant, and thread-safe data structures.
 * [go-edlib](https://github.com/hbollon/go-edlib) - Go string comparison and edit distance algorithms library (Levenshtein, LCS, Hamming, Damerau levenshtein, Jaro-Winkler, etc.) compatible with Unicode.
