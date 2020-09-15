@@ -1454,6 +1454,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [govendor](https://github.com/kardianos/govendor) - Go Package Manager. Go vendor tool that works with the standard vendor file.
 * [gpm](https://github.com/pote/gpm) - Barebones dependency manager for Go.
 * [johnny-deps](https://github.com/VividCortex/johnny-deps) - Minimal dependency version using Git.
+* [modgv](https://github.com/lucasepe/modgv) - Converts 'go mod graph' output into Graphviz's DOT language.
 * [mvn-golang](https://github.com/raydac/mvn-golang) - plugin that provides way for auto-loading of Golang SDK, dependency management and start build environment in Maven project infrastructure.
 * [nut](https://github.com/jingweno/nut) - Vendor Go dependencies.
 * [VenGO](https://github.com/DamnWidget/VenGO) - create and manage exportable isolated go virtual environments.
