@@ -2602,6 +2602,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [studygolang](https://studygolang.com) - The community of studygolang in China.
 * [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
 * [TutorialEdge - Golang](https://tutorialedge.net/course/golang/)
+* [ultimate-go](https://github.com/hoanhan101/ultimate-go) - The Ultimate Go Study Guide
 
 ### Tutorials
 
