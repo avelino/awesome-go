@@ -3,7 +3,7 @@ name: PR auto close, if you stay more than 8 days open
 on:
   workflow_dispatch:
   schedule:
-  - cron: '*/15 * * * *'
+  - cron: '0 0 * * *'
 
 jobs:
   stale:
