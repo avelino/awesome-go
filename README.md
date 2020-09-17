@@ -605,6 +605,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Packages that help with building Distributed Systems.*
 
+* [arpc](https://github.com/lesismal/arpc) - More effective network communication, support two-way-calling, notify, broadcast.
 * [celeriac](https://github.com/svcavallar/celeriac.v1) - Library for adding support for interacting and monitoring Celery workers, tasks and events in Go.
 * [consistent](https://github.com/buraksezer/consistent) - Consistent hashing with bounded loads.
 * [consistenthash](https://github.com/mbrostami/consistenthash) - Consistent hashing with configurable replicas.
