@@ -403,6 +403,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [skiplist](https://github.com/MauriceGit/skiplist) - Very fast Go Skiplist implementation.
 * [skiplist](https://github.com/gansidui/skiplist) - Skiplist implementation in Go.
 * [timedmap](https://github.com/zekroTJA/timedmap) - Map with expiring key-value pairs.
+* [temap](https://github.com/FirasDarwish/temap) - Fast, thread-safe timed maps.
 * [treap](https://github.com/perdata/treap) - Persistent, fast ordered map using tree heaps.
 * [trie](https://github.com/derekparker/trie) - Trie implementation in Go.
 * [ttlcache](https://github.com/ReneKroon/ttlcache) - In-memory string-interface{} cache with various time-based expiration options and callbacks.
