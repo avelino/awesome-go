@@ -361,6 +361,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [count-min-log](https://github.com/seiflotfy/count-min-log) - Go implementation Count-Min-Log sketch: Approximately counting with approximate counters (Like Count-Min sketch but using less memory).
 * [crunch](https://github.com/superwhiskers/crunch) - Go package implementing buffers for handling various datatypes easily.
 * [cuckoofilter](https://github.com/seiflotfy/cuckoofilter) - Cuckoo filter: a good alternative to a counting bloom filter implemented in Go.
+* [dasel](https://github.com/tomwright/dasel) - Query and update data structures from the command line. Supports JSON and YAML.
 * [deque](https://github.com/edwingeng/deque) - A highly optimized double-ended queue.
 * [deque](https://github.com/gammazero/deque) - Fast ring-buffer deque (double-ended queue).
 * [dict](https://github.com/srfrog/dict) - Python-like dictionaries (dict) for Go.
