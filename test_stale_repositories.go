@@ -90,7 +90,7 @@ func generateIssueBody(repositories []string) (string, error) {
 	issueBody := writer.String()
 	return issueBody, nil
 }
-func createIssue(staleRepos []string, oauthClient *http.Client) {
+func createIssue(staleRepos []string, client *http.Client) {
 	if len(staleRepos) == 0 {
 		log.Print("NO STALE REPOSITORIES")
 		return
@@ -111,15 +111,15 @@ func createIssue(staleRepos []string, oauthClient *http.Client) {
 		log.Print("Failed at CreateIssue")
 		return
 	}
-	oauthClient.Do(req)
+	client.Do(req)
 }
-func getAllFlaggedRepositories(oauthClient *http.Client, flaggedRepositories *map[string]bool) error {
+func getAllFlaggedRepositories(client *http.Client, flaggedRepositories *map[string]bool) error {
 	req, err := http.NewRequest("GET", awesomeGoGETISSUES, nil)
 	if err != nil {
 		log.Print("Failed to get all issues")
 		return err
 	}
-	res, err := oauthClient.Do(req)
+	res, err := client.Do(req)
 	if err != nil {
 		log.Print("Failed to get all issues")
 		return err
@@ -144,7 +144,7 @@ func containsOpenIssue(link string, openIssues map[string]bool) bool {
 	}
 	return false
 }
-func testRepoState(toRun bool, href string, oauthClient *http.Client, staleRepos *[]string) bool {
+func testRepoState(toRun bool, href string, client *http.Client, staleRepos *[]string) bool {
 	if toRun {
 		ownerRepo := strings.ReplaceAll(href, "https://github.com", "")
 		apiCall := fmt.Sprintf(githubGETREPO, ownerRepo)
@@ -155,7 +155,7 @@ func testRepoState(toRun bool, href string, oauthClient *http.Client, staleRepos
 			log.Printf("Failed at repository %s\n", href)
 			return false
 		}
-		resp, err := oauthClient.Do(req)
+		resp, err := client.Do(req)
 		if err != nil {
 			log.Printf("Failed at repository %s\n", href)
 			return false
@@ -185,7 +185,7 @@ func testRepoState(toRun bool, href string, oauthClient *http.Client, staleRepos
 	}
 	return false
 }
-func testCommitAge(toRun bool, href string, oauthClient *http.Client, staleRepos *[]string) bool {
+func testCommitAge(toRun bool, href string, client *http.Client, staleRepos *[]string) bool {
 	if toRun {
 		var respObj []map[string]interface{}
 		now := time.Now()
@@ -202,7 +202,7 @@ func testCommitAge(toRun bool, href string, oauthClient *http.Client, staleRepos
 		q := req.URL.Query()
 		q.Add("since", sinceQuery)
 		req.URL.RawQuery = q.Encode()
-		resp, err := oauthClient.Do(req)
+		resp, err := client.Do(req)
 		if err != nil {
 			log.Printf("Failed at repository %s\n", href)
 			return false
@@ -224,15 +224,16 @@ func testStaleRepository() {
 	var staleRepos []string
 	addressedRepositories := make(map[string]bool)
 	oauth := os.Getenv("GITHUB_OAUTH_TOKEN")
+	client := &http.Client{}
 	if oauth == "" {
-		log.Print("No oauth token found. terminating...")
-		return
+		log.Print("No oauth token found. Using unauthenticated client ...")
+	} else {
+		tokenSource := &tokenSource{
+			AccessToken: oauth,
+		}
+		client = oauth2.NewClient(oauth2.NoContext, tokenSource)
 	}
-	tokenSource := &tokenSource{
-		AccessToken: oauth,
-	}
-	oauthClient := oauth2.NewClient(oauth2.NoContext, tokenSource)
-	err := getAllFlaggedRepositories(oauthClient, &addressedRepositories)
+	err := getAllFlaggedRepositories(client, &addressedRepositories)
 
 	if err != nil {
 		log.Println("Failed to get existing issues. Exiting...")
@@ -254,8 +255,8 @@ func testStaleRepository() {
 		} else {
 			isGithubRepo := reGithubRepo.MatchString(href)
 			if isGithubRepo {
-				isRepoAdded := testRepoState(true, href, oauthClient, &staleRepos)
-				isRepoAdded = testCommitAge(!isRepoAdded, href, oauthClient, &staleRepos)
+				isRepoAdded := testRepoState(true, href, client, &staleRepos)
+				isRepoAdded = testCommitAge(!isRepoAdded, href, client, &staleRepos)
 				if isRepoAdded {
 					ctr++
 				}
@@ -265,7 +266,7 @@ func testStaleRepository() {
 		}
 		return true
 	})
-	createIssue(staleRepos, oauthClient)
+	createIssue(staleRepos, client)
 }
 
 func main() {
