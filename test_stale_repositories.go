@@ -150,6 +150,7 @@ func testRepoState(toRun bool, href string, oauthClient *http.Client, staleRepos
 		apiCall := fmt.Sprintf(githubGETREPO, ownerRepo)
 		req, err := http.NewRequest("GET", apiCall, nil)
 		var repoResp repo
+		isRepoAdded := false
 		if err != nil {
 			log.Printf("Failed at repository %s\n", href)
 			return false
@@ -164,23 +165,23 @@ func testRepoState(toRun bool, href string, oauthClient *http.Client, staleRepos
 		if resp.StatusCode == 301 {
 			*staleRepos = append(*staleRepos, href+movedPermanently)
 			log.Printf("%s returned 301", href)
-			return true
-		}
-		if resp.StatusCode == 302 {
+			isRepoAdded = true
+		} else if resp.StatusCode == 302 {
 			*staleRepos = append(*staleRepos, href+status302)
 			log.Printf("%s returned 302", href)
-			return true
+			isRepoAdded = true
 		}
 		if resp.StatusCode >= 400 {
 			*staleRepos = append(*staleRepos, href+deadLinkMessage)
 			log.Printf("%s might not exist!", href)
-			return true
+			isRepoAdded = true
 		}
 		if repoResp.Archived {
 			*staleRepos = append(*staleRepos, href+archived)
 			log.Printf("%s is archived!", href)
-			return true
+			isRepoAdded = true
 		}
+		return isRepoAdded
 	}
 	return false
 }
@@ -193,6 +194,7 @@ func testCommitAge(toRun bool, href string, oauthClient *http.Client, staleRepos
 		ownerRepo := strings.ReplaceAll(href, "https://github.com", "")
 		apiCall := fmt.Sprintf(githubGETCOMMITS, ownerRepo)
 		req, err := http.NewRequest("GET", apiCall, nil)
+		isRepoAdded := false
 		if err != nil {
 			log.Printf("Failed at repository %s\n", href)
 			return false
@@ -211,8 +213,9 @@ func testCommitAge(toRun bool, href string, oauthClient *http.Client, staleRepos
 		if isAged {
 			log.Printf("%s has not had a commit in a while", href)
 			*staleRepos = append(*staleRepos, href)
-			return true
+			isRepoAdded = true
 		}
+		return isRepoAdded
 	}
 	return false
 }
@@ -239,25 +242,25 @@ func testStaleRepository() {
 		href, ok := s.Attr("href")
 		if !ok {
 			log.Println("expected to have href")
+			return false
+		}
+		if ctr >= LIMIT && LIMIT != -1 {
+			log.Print("Max number of issues created")
+			return false
+		}
+		issueExists := containsOpenIssue(href, addressedRepositories)
+		if issueExists {
+			log.Printf("issue already exists for %s\n", href)
 		} else {
-			if ctr >= LIMIT && LIMIT != -1 {
-				log.Print("Max number of issues created")
-				return false
-			}
-			issueExists := containsOpenIssue(href, addressedRepositories)
-			if issueExists {
-				log.Printf("issue already exists for %s\n", href)
-			} else {
-				isGithubRepo := reGithubRepo.MatchString(href)
-				if isGithubRepo {
-					isRepoAdded := testRepoState(true, href, oauthClient, &staleRepos)
-					isRepoAdded = testCommitAge(!isRepoAdded, href, oauthClient, &staleRepos)
-					if isRepoAdded {
-						ctr++
-					}
-				} else {
-					log.Printf("%s non-github repo not currently handled", href)
+			isGithubRepo := reGithubRepo.MatchString(href)
+			if isGithubRepo {
+				isRepoAdded := testRepoState(true, href, oauthClient, &staleRepos)
+				isRepoAdded = testCommitAge(!isRepoAdded, href, oauthClient, &staleRepos)
+				if isRepoAdded {
+					ctr++
 				}
+			} else {
+				log.Printf("%s non-github repo not currently handled", href)
 			}
 		}
 		return true
