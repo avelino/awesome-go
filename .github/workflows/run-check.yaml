@@ -1,0 +1,16 @@
+name: Check For Stale Repositories
+on:
+  schedule:
+    - cron: '0 0 * * 0' 
+jobs:
+  build:
+    name: Running test
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+       go: ['1.15.x']
+    steps:
+      - shell: bash
+        env:
+          OAUTH_TOKEN: ${{secrets.OAUTH_TOKEN}}
+        run: go get -t -v ./... && go run test_stale_repositories.go scripts.go
