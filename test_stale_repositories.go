@@ -170,13 +170,11 @@ func testRepoState(toRun bool, href string, client *http.Client, staleRepos *[]s
 			*staleRepos = append(*staleRepos, href+status302)
 			log.Printf("%s returned 302", href)
 			isRepoAdded = true
-		}
-		if resp.StatusCode >= 400 {
+		} else if resp.StatusCode >= 400 {
 			*staleRepos = append(*staleRepos, href+deadLinkMessage)
 			log.Printf("%s might not exist!", href)
 			isRepoAdded = true
-		}
-		if repoResp.Archived {
+		} else if repoResp.Archived {
 			*staleRepos = append(*staleRepos, href+archived)
 			log.Printf("%s is archived!", href)
 			isRepoAdded = true
@@ -243,7 +241,7 @@ func testStaleRepository() {
 		href, ok := s.Attr("href")
 		if !ok {
 			log.Println("expected to have href")
-			return false
+			return true
 		}
 		if ctr >= LIMIT && LIMIT != -1 {
 			log.Print("Max number of issues created")
