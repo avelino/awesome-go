@@ -22,16 +22,18 @@ const issueTemplate = `
 {{end}}
 `
 
-var reGithubRepo = regexp.MustCompile("https://github.com/[a-zA-Z0-9-.]+/[a-zA-Z0-9-.]+$")
+var reGithubRepo = regexp.MustCompile("https://github.com/[a-zA-Z0-9-._]+/[a-zA-Z0-9-._]+$")
+var githubGETREPO = "https://api.github.com/repos%s"
 var githubGETCOMMITS = "https://api.github.com/repos%s/commits"
-var githubPOSTISSUES = "https://api.github.com/repos/mrKappen/awesome-go/issues"
-var awesomeGoGETISSUES = "http://api.github.com/repos/mrKappen/awesome-go/issues" //only returns open issues
+var githubPOSTISSUES = "https://api.github.com/repos/avelino/awesome-go/issues"
+var awesomeGoGETISSUES = "http://api.github.com/repos/avelino/awesome-go/issues" //only returns open issues
 var numberOfYears time.Duration = 1
 
 const issueTitle = "Investigate repositories with more than 1 year without update"
 const deadLinkMessage = " this repository might no longer exist! (status code >= 400 returned)"
 const movedPermanently = " status code 301 received"
 const status302 = " status code 302 received"
+const archived = " repository has been archived"
 
 var delay time.Duration = 1
 
@@ -45,6 +47,9 @@ type tokenSource struct {
 type issue struct {
 	Title string `json:"title"`
 	Body  string `json:"body"`
+}
+type repo struct {
+	Archived bool `json:"archived"`
 }
 
 func (t *tokenSource) Token() (*oauth2.Token, error) {
@@ -64,6 +69,7 @@ func getRepositoriesFromBody(body string) []string {
 		str = strings.ReplaceAll(str, deadLinkMessage, "")
 		str = strings.ReplaceAll(str, movedPermanently, "")
 		str = strings.ReplaceAll(str, status302, "")
+		str = strings.ReplaceAll(str, archived, "")
 		links[idx] = str
 	}
 	return links
@@ -124,7 +130,6 @@ func getAllFlaggedRepositories(oauthClient *http.Client, flaggedRepositories *ma
 	for _, i := range target {
 		if i.Title == issueTitle {
 			repos := getRepositoriesFromBody(i.Body)
-			fmt.Println(repos)
 			for _, repo := range repos {
 				(*flaggedRepositories)[repo] = true
 			}
@@ -139,28 +144,58 @@ func containsOpenIssue(link string, openIssues map[string]bool) bool {
 	}
 	return false
 }
-func testCommitAge(href string, oauthClient *http.Client, staleRepos *[]string, openIssues map[string]bool) {
-	var isValidRepo bool
-	var isAged bool
-	var ownerRepo string
-	isValidRepo = reGithubRepo.MatchString(href)
-	var apiCall string
-	var respObj []map[string]interface{}
-	now := time.Now()
-	since := now.Add(-1 * 365 * 24 * numberOfYears * time.Hour)
-	sinceQuery := since.Format(time.RFC3339)
-	if isValidRepo {
-		issueExists := containsOpenIssue(href, openIssues)
-		if issueExists {
-			log.Printf("issue already exists for %s\n", href)
-			return
+func testRepoState(toRun bool, href string, oauthClient *http.Client, staleRepos *[]string) bool {
+	if toRun {
+		ownerRepo := strings.ReplaceAll(href, "https://github.com", "")
+		apiCall := fmt.Sprintf(githubGETREPO, ownerRepo)
+		req, err := http.NewRequest("GET", apiCall, nil)
+		var repoResp repo
+		if err != nil {
+			log.Printf("Failed at repository %s\n", href)
+			return false
 		}
-		ownerRepo = strings.ReplaceAll(href, "https://github.com", "")
-		apiCall = fmt.Sprintf(githubGETCOMMITS, ownerRepo)
+		resp, err := oauthClient.Do(req)
+		if err != nil {
+			log.Printf("Failed at repository %s\n", href)
+			return false
+		}
+		defer resp.Body.Close()
+		json.NewDecoder(resp.Body).Decode(&repoResp)
+		if resp.StatusCode == 301 {
+			*staleRepos = append(*staleRepos, href+movedPermanently)
+			log.Printf("%s returned 301", href)
+			return true
+		}
+		if resp.StatusCode == 302 {
+			*staleRepos = append(*staleRepos, href+status302)
+			log.Printf("%s returned 302", href)
+			return true
+		}
+		if resp.StatusCode >= 400 {
+			*staleRepos = append(*staleRepos, href+deadLinkMessage)
+			log.Printf("%s might not exist!", href)
+			return true
+		}
+		if repoResp.Archived {
+			*staleRepos = append(*staleRepos, href+archived)
+			log.Printf("%s is archived!", href)
+			return true
+		}
+	}
+	return false
+}
+func testCommitAge(toRun bool, href string, oauthClient *http.Client, staleRepos *[]string) bool {
+	if toRun {
+		var respObj []map[string]interface{}
+		now := time.Now()
+		since := now.Add(-1 * 365 * 24 * numberOfYears * time.Hour)
+		sinceQuery := since.Format(time.RFC3339)
+		ownerRepo := strings.ReplaceAll(href, "https://github.com", "")
+		apiCall := fmt.Sprintf(githubGETCOMMITS, ownerRepo)
 		req, err := http.NewRequest("GET", apiCall, nil)
 		if err != nil {
 			log.Printf("Failed at repository %s\n", href)
-			return
+			return false
 		}
 		q := req.URL.Query()
 		q.Add("since", sinceQuery)
@@ -168,34 +203,28 @@ func testCommitAge(href string, oauthClient *http.Client, staleRepos *[]string, 
 		resp, err := oauthClient.Do(req)
 		if err != nil {
 			log.Printf("Failed at repository %s\n", href)
-			return
+			return false
 		}
 		defer resp.Body.Close()
-		if resp.StatusCode == 301 {
-			*staleRepos = append(*staleRepos, href+movedPermanently)
-			log.Printf("%s returned 301", href)
-		} else if resp.StatusCode == 302 {
-			*staleRepos = append(*staleRepos, href+status302)
-			log.Printf("%s returned 302", href)
-		} else if resp.StatusCode >= 400 {
-			*staleRepos = append(*staleRepos, href+deadLinkMessage)
-			log.Printf("%s might not exist!", href)
-		} else {
-			json.NewDecoder(resp.Body).Decode(&respObj)
-			isAged = len(respObj) == 0
-		}
+		json.NewDecoder(resp.Body).Decode(&respObj)
+		isAged := len(respObj) == 0
 		if isAged {
 			log.Printf("%s has not had a commit in a while", href)
 			*staleRepos = append(*staleRepos, href)
-			ctr++
+			return true
 		}
 	}
+	return false
 }
 func testStaleRepository() {
 	query := startQuery()
 	var staleRepos []string
 	addressedRepositories := make(map[string]bool)
-	oauth := os.Getenv("OAUTH_TOKEN")
+	oauth := os.Getenv("GITHUB_OAUTH_TOKEN")
+	if oauth == "" {
+		log.Print("No oauth token found. terminating...")
+		return
+	}
 	tokenSource := &tokenSource{
 		AccessToken: oauth,
 	}
@@ -215,7 +244,21 @@ func testStaleRepository() {
 				log.Print("Max number of issues created")
 				return false
 			}
-			testCommitAge(href, oauthClient, &staleRepos, addressedRepositories)
+			issueExists := containsOpenIssue(href, addressedRepositories)
+			if issueExists {
+				log.Printf("issue already exists for %s\n", href)
+			} else {
+				isGithubRepo := reGithubRepo.MatchString(href)
+				if isGithubRepo {
+					isRepoAdded := testRepoState(true, href, oauthClient, &staleRepos)
+					isRepoAdded = testCommitAge(!isRepoAdded, href, oauthClient, &staleRepos)
+					if isRepoAdded {
+						ctr++
+					}
+				} else {
+					log.Printf("%s non-github repo not currently handled", href)
+				}
+			}
 		}
 		return true
 	})
