@@ -432,6 +432,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [eliasdb](https://github.com/krotik/eliasdb) - Dependency-free, transactional graph database with REST API, phrase search and SQL-like query language.
 * [fastcache](https://github.com/VictoriaMetrics/fastcache) - fast thread-safe inmemory cache for big number of entries. Minimizes GC overhead.
 * [GCache](https://github.com/bluele/gcache) - Cache library with support for expirable Cache, LFU, LRU and ARC.
+* [Genji](https://github.com/genjidb/genji) - Document-oriented, embedded SQL database, works with Bolt, Badger and memory.
 * [go-cache](https://github.com/pmylund/go-cache) - In-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications.
 * [goleveldb](https://github.com/syndtr/goleveldb) - Implementation of the [LevelDB](https://github.com/google/leveldb) key/value database in Go.
 * [gostore](https://github.com/twharmon/gostore) - Gostore is a simple, durable, embedded key-value storage engine written in Go.
