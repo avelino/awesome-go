@@ -4,3 +4,5 @@ awesome-go
 # Folders
 .idea
 .vscode
+test_stale_repositories_log
+*.exe
