@@ -455,6 +455,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [unitdb](https://github.com/unit-io/unitdb) - Fast timeseries database for IoT, realtime messaging  applications. Access unitdb with pubsub over tcp or websocket using github.com/unit-io/unitd application.
 * [Vasto](https://github.com/chrislusf/vasto) - A distributed high-performance key-value store. On Disk. Eventual consistent. HA. Able to grow or shrink without service interruption.
 * [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) - fast, resource-effective and scalable open source time series database. May be used as long-term remote storage for Prometheus. Supports PromQL.
+* [DKV](https://github.com/xincao9/dkv) - Object storage-log structure hash table; supports storage of text files, pictures, videos, compressed packages and other objects.
 
 *Database schema migration.*
 
