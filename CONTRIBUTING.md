@@ -5,6 +5,8 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 # Contribution Guidelines
 
+> Please be aware that we want to accept your contribution, but we have **some rules to keep the minimum quality** of the packages listed here. All reviews are **not personal feedback**, even if you are a _developer reviewing your contribution_. **Sorry if we can't meet your expectations, we do our best**.
+
 - **To add, remove, or change things on the list:** Submit a pull request
 
 To set this list apart from and complement the excellent [Go wiki Projects page](https://golang.org/wiki/Projects), awesome-go is a specially curated list for high-quality, actively maintained Go packages and resources.
