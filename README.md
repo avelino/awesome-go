@@ -509,6 +509,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [ormlite](https://github.com/pupizoid/ormlite) - Lightweight package containing some ORM-like features and helpers for sqlite databases.
 * [ozzo-dbx](https://github.com/go-ozzo/ozzo-dbx) - Powerful data retrieval methods as well as DB-agnostic query building capabilities.
 * [qry](https://github.com/HnH/qry) - Tool that generates constants from files with raw SQL queries.
+* [sq](https://github.com/bokwoon95/go-structured-query) - Type-safe SQL builder and struct mapper for Go.
 * [sqlf](https://github.com/leporo/sqlf) - Fast SQL query builder.
 * [sqlingo](https://github.com/lqs/sqlingo) - A lightweight DSL to build SQL in Go.
 * [sqrl](https://github.com/elgris/sqrl) - SQL query builder, fork of Squirrel with improved performance.
