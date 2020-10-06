@@ -2011,6 +2011,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [sorty](https://github.com/jfcg/sorty) - Fast Concurrent / Parallel Sorting.
 * [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
 * [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package.
+* [statiks](https://github.com/janiltonmaciel/statiks) - Fast, zero-configuration, static HTTP filer server.
 * [Storm](https://github.com/asdine/storm) - Simple and powerful toolkit for BoltDB.
 * [structs](https://github.com/PumpkinSeed/structs) - Implement simple functions to manipulate structs.
 * [Task](https://github.com/go-task/task) - simple "Make" alternative.
