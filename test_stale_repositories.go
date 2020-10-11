@@ -25,8 +25,8 @@ const issueTemplate = `
 var reGithubRepo = regexp.MustCompile("https://github.com/[a-zA-Z0-9-._]+/[a-zA-Z0-9-._]+$")
 var githubGETREPO = "https://api.github.com/repos%s"
 var githubGETCOMMITS = "https://api.github.com/repos%s/commits"
-var githubPOSTISSUES = "https://api.github.com/repos/avelino/awesome-go/issues"
-var awesomeGoGETISSUES = "http://api.github.com/repos/avelino/awesome-go/issues" //only returns open issues
+var githubPOSTISSUES = "https://api.github.com/repos/mrKappen/awesome-go/issues"
+var awesomeGoGETISSUES = "http://api.github.com/repos/mrKappen/awesome-go/issues" //only returns open issues
 var numberOfYears time.Duration = 1
 
 const issueTitle = "Investigate repositories with more than 1 year without update"
@@ -224,7 +224,7 @@ func testStaleRepository() {
 	query := startQuery()
 	var staleRepos []string
 	addressedRepositories := make(map[string]bool)
-	oauth := os.Getenv("GITHUB_OAUTH_TOKEN")
+	oauth := os.Getenv("OAUTH_TOKEN")
 	client := &http.Client{}
 	if oauth == "" {
 		log.Print("No oauth token found. Using unauthenticated client ...")
@@ -271,11 +271,11 @@ func testStaleRepository() {
 }
 
 func main() {
-	f, err := os.OpenFile("test_stale_repositories_log", os.O_CREATE|os.O_WRONLY|os.O_TRUNC, 0666)
-	if err != nil {
-		log.Println("FAILED TO INIT LOG FILE")
-		return
-	}
-	log.SetOutput(f)
+	// f, err := os.OpenFile("test_stale_repositories_log", os.O_CREATE|os.O_WRONLY|os.O_TRUNC, 0666)
+	// if err != nil {
+	// 	log.Println("FAILED TO INIT LOG FILE")
+	// 	return
+	// }
+	// log.SetOutput(f)
 	testStaleRepository()
 }
