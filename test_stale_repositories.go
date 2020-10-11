@@ -224,7 +224,7 @@ func testStaleRepository() {
 	query := startQuery()
 	var staleRepos []string
 	addressedRepositories := make(map[string]bool)
-	oauth := os.Getenv("GITHUB_OAUTH_TOKEN")
+	oauth := os.Getenv("OAUTH_TOKEN")
 	client := &http.Client{}
 	if oauth == "" {
 		log.Print("No oauth token found. Using unauthenticated client ...")
@@ -271,11 +271,5 @@ func testStaleRepository() {
 }
 
 func main() {
-	f, err := os.OpenFile("test_stale_repositories_log", os.O_CREATE|os.O_WRONLY|os.O_TRUNC, 0666)
-	if err != nil {
-		log.Println("FAILED TO INIT LOG FILE")
-		return
-	}
-	log.SetOutput(f)
 	testStaleRepository()
 }
