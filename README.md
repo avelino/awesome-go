@@ -650,6 +650,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [rpcx](https://github.com/smallnest/rpcx) - Distributed pluggable RPC service framework like alibaba Dubbo.
 * [Semaphore](https://github.com/jexia/semaphore) - A straightforward (micro) service orchestrator.
 * [sleuth](https://github.com/ursiform/sleuth) - Library for master-less p2p auto-discovery and RPC between HTTP services (using [ZeroMQ](https://github.com/zeromq/libzmq)).
+* [Temporal](https://github.com/temporalio/temporal) - *Workflow as code* scalable microservice orchestration platform.
 * [tendermint](https://github.com/tendermint/tendermint) - High-performance middleware for transforming a state machine written in any programming language into a Byzantine Fault Tolerant replicated state machine using the Tendermint consensus and blockchain protocols.
 * [torrent](https://github.com/anacrolix/torrent) - BitTorrent client package.
 
