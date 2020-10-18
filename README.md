@@ -1034,7 +1034,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 ## Logging
 
 *Libraries for generating and working with log files.*
-
+* [ctxlog](https://github.com/nolleh/ctxlog) - context logger (access logger) that prints description, http request/reponse. tested on echo framework.
 * [distillog](https://github.com/amoghe/distillog) - distilled levelled logging (think of it as stdlib + log levels).
 * [glg](https://github.com/kpango/glg) - glg is simple and fast leveled logging library for Go.
 * [glo](https://github.com/lajosbencz/glo) - PHP Monolog inspired logging facility with identical severity levels.
