@@ -1222,6 +1222,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries for working with strings.*
 
 * [gobeam/Stringy](https://github.com/gobeam/Stringy) - String manipulation library to convert string to camel case, snake case, kebab case / slugify etc.
+* [go-formatter](https://gitlab.com/tymonx/go-formatter) - Implements **replacement fields** surrounded by curly braces `{}` format strings.
 * [strutil](https://github.com/ozgio/strutil) - String utilities.
 * [xstrings](https://github.com/huandu/xstrings) - Collection of useful string functions ported from other languages.
 
