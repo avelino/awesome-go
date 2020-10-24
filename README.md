@@ -27,7 +27,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [CSS Preprocessors](#css-preprocessors)
     - [Data Structures](#data-structures)
     - [Database](#database)
-    - [Database Drivers](#database-drivers)
+    - [
+    Drivers](#database-drivers)
     - [Date and Time](#date-and-time)
     - [Distributed Systems](#distributed-systems)
     - [Dynamic DNS](#dynamic-dns)
@@ -412,7 +413,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 ## Database
 
-*Databases implemented in Go.*
+*
+s implemented in Go.*
 
 * [badger](https://github.com/dgraph-io/badger) - Fast key-value store in Go.
 * [bbolt](https://github.com/etcd-io/bbolt) - An embedded key/value database for Go.
@@ -492,6 +494,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [pREST](https://github.com/nuveo/prest) - Serve a RESTful API from any PostgreSQL database.
 * [rwdb](https://github.com/andizzle/rwdb) - rwdb provides read replica capability for multiple database servers setup.
 * [vitess](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
+* [goseeder](https://github.com/kristijorgji/goseeder) - goseeder provides seeding functionality similar to Laravel seeder and with more utility functions
 
 *SQL query builder, libraries for building and using SQL.*
 
