@@ -325,6 +325,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [typenv](https://github.com/diegomarangoni/typenv) - Minimalistic, zero dependency, typed environment variables library.
 * [viper](https://github.com/spf13/viper) - Go configuration with fangs.
 * [xdg](https://github.com/OpenPeeDeeP/xdg) - Cross platform package that follows the [XDG Standard](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html).
+* [yq](https://github.com/mikefarah/yq) - YQ is a portable command-line YAML processor.
 
 ## Continuous Integration
 
