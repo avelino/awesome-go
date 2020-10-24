@@ -27,8 +27,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [CSS Preprocessors](#css-preprocessors)
     - [Data Structures](#data-structures)
     - [Database](#database)
-    - [
-    Drivers](#database-drivers)
+    - [Drivers](#database-drivers)
     - [Date and Time](#date-and-time)
     - [Distributed Systems](#distributed-systems)
     - [Dynamic DNS](#dynamic-dns)
@@ -411,10 +410,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [typ](https://github.com/gurukami/typ) - Null Types, Safe primitive type conversion and fetching value from complex structures.
 * [willf/bloom](https://github.com/willf/bloom) - Go package implementing Bloom filters.
 
-## Database
-
-*
-s implemented in Go.*
+## Databases implemented in Go.*
 
 * [badger](https://github.com/dgraph-io/badger) - Fast key-value store in Go.
 * [bbolt](https://github.com/etcd-io/bbolt) - An embedded key/value database for Go.
@@ -482,6 +478,7 @@ s implemented in Go.*
 * [clickhouse-bulk](https://github.com/nikepan/clickhouse-bulk) - Collects small insterts and sends big requests to ClickHouse servers.
 * [datagen](https://github.com/codingconcepts/datagen) - A fast data generator that's multi-table aware and supports multi-row DML.
 * [dbbench](https://github.com/sj14/dbbench) - Database benchmarking tool with support for several databases and scripts.
+* [goseeder](https://github.com/kristijorgji/goseeder) - goseeder provides seeding functionality similar to Laravel seeder and with more utility functions
 * [go-mysql](https://github.com/siddontang/go-mysql) - Go toolset to handle MySQL protocol and replication.
 * [go-mysql-elasticsearch](https://github.com/siddontang/go-mysql-elasticsearch) - Sync your MySQL data into Elasticsearch automatically.
 * [kingshard](https://github.com/flike/kingshard) - kingshard is a high performance proxy for MySQL powered by Golang.
@@ -494,7 +491,6 @@ s implemented in Go.*
 * [pREST](https://github.com/nuveo/prest) - Serve a RESTful API from any PostgreSQL database.
 * [rwdb](https://github.com/andizzle/rwdb) - rwdb provides read replica capability for multiple database servers setup.
 * [vitess](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
-* [goseeder](https://github.com/kristijorgji/goseeder) - goseeder provides seeding functionality similar to Laravel seeder and with more utility functions
 
 *SQL query builder, libraries for building and using SQL.*
 
