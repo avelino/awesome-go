@@ -115,11 +115,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for manipulating audio.*
 
-* [EasyMIDI](https://github.com/algoGuy/EasyMIDI) - EasyMidi is a simple and reliable library for working with standard midi file (SMF).
 * [flac](https://github.com/mewkiz/flac) - Native Go FLAC encoder/decoder with support for FLAC streams.
 * [gaad](https://github.com/Comcast/gaad) - Native Go AAC bitstream parser.
 * [go-sox](https://github.com/krig/go-sox) - libsox bindings for go.
-* [go_mediainfo](https://github.com/zhulik/go_mediainfo) - libmediainfo bindings for go.
 * [GoAudio](https://github.com/DylanMeeus/GoAudio) - Native Go Audio Processing Library.
 * [gosamplerate](https://github.com/dh1tw/gosamplerate) - libsamplerate bindings for go.
 * [id3v2](https://github.com/bogem/id3v2) - ID3 decoding and encoding library for Go.
@@ -131,7 +129,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [Oto](https://github.com/hajimehoshi/oto) - A low-level library to play sound on multiple platforms.
 * [PortAudio](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library.
 * [portmidi](https://github.com/rakyll/portmidi) - Go bindings for PortMidi.
-* [taglib](https://github.com/wtolson/go-taglib) - Go bindings for taglib.
 * [vorbis](https://github.com/mccoyst/vorbis) - "Native" Go Vorbis decoder (uses CGO, but has no dependencies).
 * [waveform](https://github.com/mdlayher/waveform) - Go package capable of generating waveform images from audio streams.
 
