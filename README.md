@@ -206,7 +206,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [argv](https://github.com/cosiner/argv) - Go library to split command line string as arguments array using the bash syntax.
 * [cli](https://github.com/mkideal/cli) - Feature-rich and easy to use command-line package based on golang struct tags.
 * [cli](https://github.com/teris-io/cli) - Simple and complete API for building command line interfaces in Go.
-* [cli-init](https://github.com/tcnksm/gcli) - The easy way to start building Golang command line applications.
 * [climax](http://github.com/tucnak/climax) - Alternative CLI with "human face", in spirit of Go command.
 * [clîr](https://github.com/leaanthony/clir) - A Simple and Clear CLI library. Dependency free.
 * [cmd](https://github.com/posener/cmd) - Extends the standard `flag` package to support sub commands and more in idomatic way.
@@ -215,7 +214,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [commandeer](https://github.com/jaffee/commandeer) - Dev-friendly CLI apps: sets up flags, defaults, and usage based on struct fields and tags.
 * [complete](https://github.com/posener/complete) - Write bash completions in Go + Go command bash completion.
 * [Dnote](https://github.com/dnote/dnote) - A simple command line notebook with multi-device sync.
-* [docopt.go](https://github.com/docopt/docopt.go) - Command-line arguments parser that will make you smile.
 * [env](https://github.com/codingconcepts/env) - Tag-based environment configuration for structs.
 * [flag](https://github.com/cosiner/flag) - Simple but powerful command line option parsing library for Go supporting subcommand.
 * [flaggy](https://github.com/integrii/flaggy) - A robust and idiomatic flags package with excellent subcommand support.
@@ -233,7 +231,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [mow.cli](https://github.com/jawher/mow.cli) - Go library for building CLI applications with sophisticated flag and argument parsing and validation.
 * [ops](https://github.com/nanovms/ops) - Unikernel Builder/Orchestrator.
 * [pflag](https://github.com/spf13/pflag) - Drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags.
-* [readline](https://github.com/chzyer/readline) - Pure golang implementation that provides most features in GNU-Readline under MIT license.
 * [sand](https://github.com/Zaba505/sand) - Simple API for creating interpreters and so much more.
 * [sflags](https://github.com/octago/sflags) - Struct based flags generator for flag, urfave/cli, pflag, cobra, kingpin and other libraries.
 * [strumt](https://github.com/antham/strumt) - Library to create prompt chain.
