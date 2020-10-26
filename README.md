@@ -1383,7 +1383,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [water](https://github.com/songgao/water) - Simple TUN/TAP library.
 * [webrtc](https://github.com/pions/webrtc) - A pure Go implementation of the WebRTC API.
 * [winrm](https://github.com/masterzen/winrm) - Go WinRM client to remotely execute commands on Windows machines.
-* [xtcp](https://github.com/xfxdev/xtcp) - TCP Server Framework with simultaneous full duplex communication,graceful shutdown,custom protocol.
+* [xtcp](https://github.com/xfxdev/xtcp) - TCP Server Framework with simultaneous full duplex communication, graceful shutdown, and custom protocol.
 
 ### HTTP Clients
 
