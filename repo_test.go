@@ -1,7 +1,6 @@
 package main
 
 import (
-	"bytes"
 	"io/ioutil"
 	"os"
 	"regexp"
@@ -11,7 +10,6 @@ import (
 	"text/template"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/russross/blackfriday"
 	gfm "github.com/shurcooL/github_flavored_markdown"
 )
 
@@ -95,26 +93,6 @@ func testList(t *testing.T, list *goquery.Selection) {
 	t.Run(category, func(t *testing.T) {
 		checkAlphabeticOrder(t, list)
 	})
-}
-
-func readme() []byte {
-	input, err := ioutil.ReadFile("./README.md")
-	if err != nil {
-		panic(err)
-	}
-	html := append([]byte("<body>"), blackfriday.MarkdownCommon(input)...)
-	html = append(html, []byte("</body>")...)
-	return html
-}
-
-func startQuery() *goquery.Document {
-	buf := bytes.NewBuffer(readme())
-	query, err := goquery.NewDocumentFromReader(buf)
-	if err != nil {
-		panic(err)
-	}
-
-	return query
 }
 
 func checkAlphabeticOrder(t *testing.T, s *goquery.Selection) {
