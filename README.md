@@ -673,6 +673,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [mailgun-go](https://github.com/mailgun/mailgun-go) - Go library for sending mail with the Mailgun API.
 * [MailHog](https://github.com/mailhog/MailHog) - Email and SMTP testing with web and API interface.
 * [SendGrid](https://github.com/sendgrid/sendgrid-go) - SendGrid's Go library for sending email.
+* [SparkPost](https://github.com/SparkPost/gosparkpost) - The official Go package for using the SparkPost API.
 * [smtp](https://github.com/mailhog/smtp) - SMTP server protocol state machine.
 
 ## Embeddable Scripting Languages
