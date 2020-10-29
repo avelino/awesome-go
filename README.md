@@ -1525,6 +1525,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [pagerank](https://github.com/alixaxel/pagerank) - Weighted PageRank algorithm implemented in Go.
 * [piecewiselinear](https://github.com/sgreben/piecewiselinear) - Tiny linear interpolation library.
 * [PiHex](https://github.com/claygod/PiHex) - Implementation of the "Bailey-Borwein-Plouffe" algorithm for the hexadecimal number Pi.
+* [Pirsch](https://github.com/pirsch-analytics/pirsch) - A drop-in, server-side, no-cookie, and privacy-focused analytics solution for Go.
 * [rootfinding](https://github.com/khezen/rootfinding) - root-finding algorithms library for finding roots of quadratic functions.
 * [sparse](https://github.com/james-bowman/sparse) - Go Sparse matrix formats for linear algebra supporting scientific and machine learning applications, compatible with gonum matrix libraries.
 * [stats](https://github.com/montanaflynn/stats) - Statistics package with common functions missing from the Golang standard library.
