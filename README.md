@@ -232,6 +232,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [pflag](https://github.com/spf13/pflag) - Drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags.
 * [sand](https://github.com/Zaba505/sand) - Simple API for creating interpreters and so much more.
 * [sflags](https://github.com/octago/sflags) - Struct based flags generator for flag, urfave/cli, pflag, cobra, kingpin and other libraries.
+* [survey](https://github.com/AlecAivazis/survey) - A library for building interactive prompts.
 * [strumt](https://github.com/antham/strumt) - Library to create prompt chain.
 * [ts](https://github.com/liujianping/ts) - Timestamp convert & compare tool.
 * [ukautz/clif](https://github.com/ukautz/clif) - Small command line interface framework.
