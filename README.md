@@ -1240,6 +1240,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [datacounter](https://github.com/miolini/datacounter) - Go counters for readers/writer/http.ResponseWriter.
 * [faker](https://github.com/pioz/faker) - Random fake data and struct generator for Go.
 * [ffmt](https://github.com/go-ffmt/ffmt) - Beautify data display for Humans.
+* [gatus](https://github.com/TwinProduction/gatus) - Automated service health dashboard.
 * [ghorg](https://github.com/gabrie30/ghorg) - Quickly clone an entire org/users repositories into one directory - Supports GitHub, GitLab, and Bitbucket.
 * [go-commons-pool](https://github.com/jolestar/go-commons-pool) - Generic object pool for Golang.
 * [go-openapi](https://github.com/go-openapi) - Collection of packages to parse and utilize open-api schemas.
