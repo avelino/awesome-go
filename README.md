@@ -2566,7 +2566,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 * [bahlo/go-styleguide](https://github.com/bahlo/go-styleguide)
 * [CockroachDB](https://github.com/cockroachdb/cockroach/blob/master/docs/style.md)
-* [Edge X Foundry](https://wiki.edgexfoundry.org/display/FA/Contributor%27s+Guide+-+Go+Lang)
 * [GitLab](https://docs.gitlab.com/ee/development/go_guide/)
 * [Hyperledger](https://github.com/hyperledger/fabric/blob/release-1.4/docs/source/style-guides/go-style.rst)
 * [Magnetico](https://github.com/boramalper/magnetico/wiki/magnetico-Design-Specification)
