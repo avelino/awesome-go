@@ -2508,6 +2508,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 ## Meetups
 
 * [Basel Go Meetup](https://www.meetup.com/Basel-Go-Meetup/)
+* [Belfast Gophers](https://www.meetup.com/Belfast-Gophers/)
 * [Berlin Golang](https://www.meetup.com/golang-users-berlin/)
 * [Brisbane Gophers](https://www.meetup.com/Brisbane-Golang-Meetup/)
 * [Canberra Gophers](https://www.meetup.com/Canberra-Gophers/)
