@@ -1867,6 +1867,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [megos](https://github.com/andygrunwald/megos) - Client library for accessing an [Apache Mesos](http://mesos.apache.org/) cluster.
 * [minio-go](https://github.com/minio/minio-go) - Minio Go Library for Amazon S3 compatible cloud storage.
 * [mixpanel](https://github.com/dukex/mixpanel) - Mixpanel is a library for tracking events and sending Mixpanel profile updates to Mixpanel from your go applications.
+* [netpalmgo](https://github.com/jpbede/netpalmgo) - Go client library for the [netpalm](https://github.com/tbotnz/netpalm) REST API
 * [patreon-go](https://github.com/mxpv/patreon-go) - Go library for Patreon API.
 * [paypal](https://github.com/logpacker/PayPal-Go-SDK) - Wrapper for PayPal payment API.
 * [playlyfe](https://github.com/playlyfe/playlyfe-go-sdk) - The Playlyfe Rest API Go SDK.
