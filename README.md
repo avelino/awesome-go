@@ -1700,6 +1700,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
     * [jsonassert](https://github.com/kinbiko/jsonassert) - Package for verifying that your JSON payloads are serialized correctly.
     * [restit](https://github.com/yookoala/restit) - Go micro framework to help writing RESTful API integration test.
     * [schema](https://github.com/jgroeneveld/schema) - Quick and easy expression matching for JSON schemas used in requests and responses.
+    * [stop-and-go](https://github.com/elgohr/stop-and-go) - Testing helper for concurrency.
     * [testcase](https://github.com/adamluzsi/testcase) - Idiomatic testing framework for Behavior Driven Development.
     * [testfixtures](https://github.com/go-testfixtures/testfixtures) - A helper for Rails' like test fixtures to test database applications.
     * [Testify](https://github.com/stretchr/testify) - Sacred extension to the standard go testing package.
