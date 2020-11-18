@@ -566,6 +566,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [goes](https://github.com/OwnLocal/goes) - Library to interact with Elasticsearch.
     * [riot](https://github.com/go-ego/riot) - Go Open Source, Distributed, Simple and efficient Search Engine.
     * [skizze](https://github.com/seiflotfy/skizze) - probabilistic data-structures service and storage.
+    * [zoekt](https://github.com/google/zoekt) - Fast text search engine, intended for use with source code.
 
 * Multiple Backends.
     * [cachego](https://github.com/fabiorphp/cachego) - Golang Cache component for multiple drivers.
