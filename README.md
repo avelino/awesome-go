@@ -1579,7 +1579,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [asn1](https://github.com/PromonLogicalis/asn1) - Asn.1 BER and DER encoding library for golang.
 * [bambam](https://github.com/glycerine/bambam) - generator for Cap'n Proto schemas from go.
 * [bel](https://github.com/32leaves/bel) - Generate TypeScript interfaces from Go structs/interfaces. Useful for JSON RPC.
-* [binary](https://github.com/dfuse-io/binary) - A Binary Encoder and Decoder library
+* [binary](https://github.com/dfuse-io/binary) - A Binary Encoder and Decoder library.
 * [binstruct](https://github.com/ghostiam/binstruct) - Golang binary decoder for mapping data into the structure.
 * [cbor](https://github.com/fxamacker/cbor) - Small, safe, and easy CBOR encoding and decoding library.
 * [colfer](https://github.com/pascaldekloe/colfer) - Code generation for the Colfer binary format.
