@@ -1627,7 +1627,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 *Libraries and tools for stream processing and reactive programming.*
 
 * [go-streams](https://github.com/reugn/go-streams) - Go stream processing library.
-* [machine](https://github.com/whitaker-io/machine) - Go library for creating stream workers with focus on generating projects and developer friendliness.
+* [machine](https://github.com/whitaker-io/machine) - Go library for writing and generating stream workers with built in metrics and traceability.
 
 ## Template Engines
 
