@@ -2500,6 +2500,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Go Bootcamp](http://golangbootcamp.com)
 * [Go Succinctly](https://github.com/thedevsir/gosuccinctly) - in Persian.
 * [GoBooks](https://github.com/dariubs/GoBooks) - A curated list of Go books.
+* [How To Code in Go eBook](https://www.digitalocean.com/community/books/how-to-code-in-go-ebook) - A 600 page introduction to Go aimed at first time developers.
 * [Learning Go](https://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
 * [Network Programming With Go](https://jan.newmarch.name/go/)
 * [Spaceship Go A Journey to the Standard Library](https://blasrodri.github.io/spaceship-go-gh-pages/)
