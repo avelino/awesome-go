@@ -862,6 +862,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 * [ants](https://github.com/panjf2000/ants) - A high-performance and low-cost goroutine pool in Go.
 * [artifex](https://github.com/borderstech/artifex) - Simple in-memory job queue for Golang using worker-based dispatching.
+* [async](https://github.com/reugn/async) - An alternative sync library for Go (Future, Promise, Locks).
 * [async](https://github.com/studiosol/async) - A safe way to execute functions asynchronously, recovering them in case of panic.
 * [breaker](https://github.com/kamilsk/breaker) - Flexible mechanism to make execution flow interruptible.
 * [channelify](https://github.com/ddelizia/channelify) - Transform your function to return channels for easy and powerful parallel processing.
