@@ -1148,6 +1148,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [emitter](https://github.com/olebedev/emitter) - Emits events using Go way, with wildcard, predicates, cancellation possibilities and many other good wins.
 * [event](https://github.com/agoalofalife/event) - Implementation of the pattern observer.
 * [EventBus](https://github.com/asaskevich/EventBus) - The lightweight event bus with async compatibility.
+* [Flow](https://github.com/korableg/flow) - The simplest message queue framework 
 * [gaurun-client](https://github.com/osamingo/gaurun-client) - Gaurun Client written in Go.
 * [Glue](https://github.com/desertbit/glue) - Robust Go and Javascript Socket Library (Alternative to Socket.io).
 * [go-mq](https://github.com/cheshir/go-mq) - RabbitMQ client with declarative configuration.
