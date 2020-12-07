@@ -1396,6 +1396,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [webrtc](https://github.com/pions/webrtc) - A pure Go implementation of the WebRTC API.
 * [winrm](https://github.com/masterzen/winrm) - Go WinRM client to remotely execute commands on Windows machines.
 * [xtcp](https://github.com/xfxdev/xtcp) - TCP Server Framework with simultaneous full duplex communication, graceful shutdown, and custom protocol.
+* [pingtunnel](https://github.com/esrrhs/pingtunnel) - tunnel server and client based on icmp.
 
 ### HTTP Clients
 
