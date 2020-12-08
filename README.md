@@ -789,6 +789,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [fpGo](https://github.com/TeaEntityLab/fpGo) - Monad, Functional Programming features for Golang.
 * [fuego](https://github.com/seborama/fuego) - Functional Experiment in Go.
 * [go-underscore](https://github.com/tobyhede/go-underscore) - Useful collection of helpfully functional Go collection utilities.
+* [golang-underscore](https://github.com/ahl5esoft/golang-underscore) - Helpfully Functional Go like underscore.js
 
 ## Game Development
 
