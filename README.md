@@ -500,7 +500,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [godbal](https://github.com/xujiajun/godbal) - Database Abstraction Layer (dbal) for go. Support SQL builder and get result easily.
 * [goqu](https://github.com/doug-martin/goqu) - Idiomatic SQL builder and query library.
 * [gosql](https://github.com/twharmon/gosql) - SQL Query builder with better null values support.
-* [hasql](https://golang.yandex/hasql) - Library for accessing multi-host SQL database installations. 
+* [hasql](https://golang.yandex/hasql) - Library for accessing multi-host SQL database installations.
 * [igor](https://github.com/galeone/igor) - Abstraction layer for PostgreSQL that supports advanced functionality and uses gorm-like syntax.
 * [jet](https://github.com/go-jet/jet) - Framework for writing type-safe SQL queries in Go, with ability to easily convert database query result into desired arbitrary object structure.
 * [mpath](https://github.com/spacetab-io/mpath-go) - MPTT (Modified Preorder Tree Traversal) package for SQL records - materialized path realisation.
@@ -1025,7 +1025,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gojq](https://github.com/elgs/gojq) - JSON query in Golang.
 * [gojson](https://github.com/ChimeraCoder/gojson) - Automatically generate Go (golang) struct definitions from example JSON.
 * [JayDiff](https://github.com/yazgazan/jaydiff) - JSON diff utility written in Go.
-* [jettison](https://github.com/wI2L/jettison) - High performance, reflection-less JSON encoder for Go.
+* [jettison](https://github.com/wI2L/jettison) - Fast and flexible JSON encoder for Go.
 * [JSON-to-Go](https://mholt.github.io/json-to-go/) - Convert JSON to Go struct.
 * [json2go](https://github.com/m-zajac/json2go) - Advanced JSON to Go struct conversion. Provides package that can parse multiple JSON documents and create struct to fit them all.
 * [jsonapi-errors](https://github.com/AmuzaTkts/jsonapi-errors) - Go bindings based on the JSON API errors reference.
