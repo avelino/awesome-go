@@ -680,6 +680,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [MailHog](https://github.com/mailhog/MailHog) - Email and SMTP testing with web and API interface.
 * [SendGrid](https://github.com/sendgrid/sendgrid-go) - SendGrid's Go library for sending email.
 * [smtp](https://github.com/mailhog/smtp) - SMTP server protocol state machine.
+* [gomail](https://github.com/go-gomail/gomail) - The best way to send emails in Go. 
 
 ## Embeddable Scripting Languages
 
