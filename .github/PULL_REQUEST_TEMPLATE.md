@@ -1,11 +1,11 @@
-Please check if what you want to add to `awesome-go` list meets [quality standards](https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md#quality-standard) before sending pull request. Thanks!
+Please check if what you want to add to `awesome-go` list meets [quality standards](https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md#quality-standards) before sending pull request. Thanks!
 
 **Please provide package links to:**
 
 - github.com repo:
-- godoc.org:
+- pkg.go.dev:
 - goreportcard.com:
-- coverage service link ([cover.run](https://cover.run/), [gocover](http://gocover.io/), [coveralls](https://coveralls.io/) etc.), example: `[![cover.run](https://cover.run/go/github.com/user/repository.svg?style=flat&tag=golang-1.10)](https://cover.run/go?tag=golang-1.10&repo=github.com%2Fuser%2Frepository)`
+- coverage service link ([codecov](https://codecov.io/), [coveralls](https://coveralls.io/), [gocover](http://gocover.io/) etc.)
 
 
 Very good coverage
@@ -16,7 +16,7 @@ Very good coverage
 - [ ] I have added my package in alphabetical order.
 - [ ] I have an appropriate description with correct grammar.
 - [ ] I know that this package was not listed before.
-- [ ] I have added godoc link to the repo and to my pull request.
+- [ ] I have added pkg.go.dev link to the repo and to my pull request.
 - [ ] I have added coverage service link to the repo and to my pull request.
 - [ ] I have added goreportcard link to the repo and to my pull request.
 - [ ] I have read [Contribution guidelines](https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md#contribution-guidelines), [maintainers note](https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md#maintainers) and [Quality standard](https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md#quality-standard).

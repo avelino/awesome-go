@@ -1,16 +1,21 @@
 package main
 
 import (
-	"bytes"
 	"io/ioutil"
+	"os"
 	"regexp"
 	"sort"
 	"strings"
 	"testing"
+	"text/template"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/russross/blackfriday"
+	gfm "github.com/shurcooL/github_flavored_markdown"
 )
+
+type content struct {
+	Body string
+}
 
 func TestAlpha(t *testing.T) {
 	query := startQuery()
@@ -42,7 +47,7 @@ func TestDuplicatedLinks(t *testing.T) {
 
 var (
 	reContainsLink        = regexp.MustCompile(`\* \[.*\]\(.*\)`)
-	reOnlyLink            = regexp.MustCompile(`\* \[.*\]\(.*\)$`)
+	reOnlyLink            = regexp.MustCompile(`\* \[.*\]\([^()]*\)$`)
 	reLinkWithDescription = regexp.MustCompile(`\* \[.*\]\(.*\) - \S.*[\.\!]`)
 )
 
@@ -70,6 +75,12 @@ func TestSeparator(t *testing.T) {
 		}
 	}
 }
+func TestGenerateHTML(t *testing.T) {
+	err := generateHTML()
+	if err != nil {
+		t.Errorf("html generate error '%s'", err.Error())
+	}
+}
 
 func testList(t *testing.T, list *goquery.Selection) {
 	list.Find("ul").Each(func(_ int, items *goquery.Selection) {
@@ -82,26 +93,6 @@ func testList(t *testing.T, list *goquery.Selection) {
 	t.Run(category, func(t *testing.T) {
 		checkAlphabeticOrder(t, list)
 	})
-}
-
-func readme() []byte {
-	input, err := ioutil.ReadFile("./README.md")
-	if err != nil {
-		panic(err)
-	}
-	html := append([]byte("<body>"), blackfriday.MarkdownCommon(input)...)
-	html = append(html, []byte("</body>")...)
-	return html
-}
-
-func startQuery() *goquery.Document {
-	buf := bytes.NewBuffer(readme())
-	query, err := goquery.NewDocumentFromReader(buf)
-	if err != nil {
-		panic(err)
-	}
-
-	return query
 }
 
 func checkAlphabeticOrder(t *testing.T, s *goquery.Selection) {
@@ -121,4 +112,18 @@ func checkAlphabeticOrder(t *testing.T, s *goquery.Selection) {
 	if t.Failed() {
 		t.Logf("expected order is:\n%s", strings.Join(sorted, "\n"))
 	}
+}
+
+func generateHTML() (err error) {
+	// options
+	readmePath := "./README.md"
+	tplPath := "tmpl/tmpl.html"
+	idxPath := "tmpl/index.html"
+	input, _ := ioutil.ReadFile(readmePath)
+	body := string(gfm.Markdown(input))
+	c := &content{Body: body}
+	t := template.Must(template.ParseFiles(tplPath))
+	f, err := os.Create(idxPath)
+	t.Execute(f, c)
+	return
 }
