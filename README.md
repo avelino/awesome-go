@@ -1576,6 +1576,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Interpol](https://bitbucket.org/vahidi/interpol) - Rule-based data generator for fuzzing and penetration testing.
 * [lego](https://github.com/go-acme/lego) - Pure Go ACME client library and CLI tool (for use with Let's Encrypt).
 * [memguard](https://github.com/awnumar/memguard) - A pure Go library for handling sensitive values in memory.
+* [mino](https://github.com/masterZSH/mino) - Fast&Secure encryption tool.
 * [nacl](https://github.com/kevinburke/nacl) - Go implementation of the NaCL set of API's.
 * [optimus-go](https://github.com/pjebs/optimus-go) - ID hashing and Obfuscation using Knuth's Algorithm.
 * [passlib](https://github.com/hlandau/passlib) - Futureproof password hashing library.
