@@ -2656,6 +2656,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Golang Developer Jobs](https://golangjob.xyz) - Developer Jobs exclusivly for Golang related Roles.
 * [Golang Flow](https://golangflow.io) - Post Updates, News, Packages and more.
 * [Golang News](https://golangnews.com) - Links and news about Go programming.
+* [Golang Resources](https://golangresources.com) - A curation of the best articles, exercises, talks and videos to learn Go.
 * [golang-graphics](https://github.com/mholt/golang-graphics) - Collection of Go images, graphics, and art.
 * [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - Go mailing list.
 * [Google Plus Community](https://plus.google.com/communities/114112804251407510571) - The Google+ community for #golang enthusiasts.
