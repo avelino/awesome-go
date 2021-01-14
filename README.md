@@ -997,6 +997,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [stegify](https://github.com/DimitarPetrov/stegify) - Go tool for LSB steganography, capable of hiding any file within an image.
 * [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
 * [tga](https://github.com/ftrvxmtrx/tga) - Package tga is a TARGA image format decoder/encoder.
+* [webp-server](https://github.com/mehdipourfar/webp-server) - Simple and minimal image server capable of storing, resizing, converting and caching images.
 
 ## IoT (Internet of Things)
 
