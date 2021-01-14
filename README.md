@@ -21,6 +21,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Audio and Music](#audio-and-music)
     - [Authentication and OAuth](#authentication-and-oauth)
     - [Bot Building](#bot-building)
+    - [Build Automation](#build-automation)
     - [Command Line](#command-line)
     - [Configuration](#configuration)
     - [Continuous Integration](#continuous-integration)
@@ -194,13 +195,25 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [telegram-bot-api](https://github.com/Syfaro/telegram-bot-api) - Simple and clean Telegram bot client.
 * [Tenyks](https://github.com/kyleterry/tenyks) - Service oriented IRC bot using Redis and JSON for messaging.
 
+## Build Automation
+
+*Libraries and tools helping with build automation.*
+
+* [1build](https://github.com/gopinath-langote/1build) - Command line tool to frictionlessly manage project-specific commands.
+* [gaper](https://github.com/maxcnunes/gaper) - Builds and restarts a Go project when it crashes or some watched file changes.
+* [gilbert](https://go-gilbert.github.io) - Build system and task runner for Go projects.
+* [mmake](https://github.com/tj/mmake) - Modern Make.
+* [realize](https://github.com/tockins/realize) - Go build system with file watchers and live reload. Run, build and watch file changes with custom paths.
+* [Task](https://github.com/go-task/task) - simple "Make" alternative.
+* [taskctl](https://github.com/taskctl/taskctl) - Concurrent task runner.
+* [taskflow](https://github.com/pellared/taskflow) - Create build pipelines in Go.
+
 ## Command Line
 
 ### Standard CLI
 
 *Libraries for building standard or basic Command Line applications.*
 
-* [1build](https://github.com/gopinath-langote/1build) - Command line tool to frictionlessly manage project-specific commands.
 * [argparse](https://github.com/akamensky/argparse) - Command line argument parser inspired by Python's argparse module.
 * [argv](https://github.com/cosiner/argv) - Go library to split command line string as arguments array using the bash syntax.
 * [cli](https://github.com/mkideal/cli) - Feature-rich and easy to use command-line package based on golang struct tags.
@@ -1966,7 +1979,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [filler](https://github.com/yaronsumel/filler) - small utility to fill structs using "fill" tag.
 * [filter](https://github.com/gookit/filter) - provide filtering, sanitizing, and conversion of Go data.
 * [fzf](https://github.com/junegunn/fzf) - Command-line fuzzy finder written in Go.
-* [gaper](https://github.com/maxcnunes/gaper) - Builds and restarts a Go project when it crashes or some watched file changes.
 * [generate](https://github.com/go-playground/generate) - runs go generate recursively on a specified path or environment variable and can filter by regex.
 * [ghokin](https://github.com/antham/ghokin) - Parallelized formatter with no external dependencies for gherkin (cucumber, behat...).
 * [git-time-metric](https://github.com/git-time-metric/gtm) - Simple, seamless, lightweight time tracking for Git.
@@ -2022,7 +2034,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [mimetype](https://github.com/gabriel-vasile/mimetype) - Package for MIME type detection based on magic numbers.
 * [minify](https://github.com/tdewolff/minify) - Fast minifiers for HTML, CSS, JS, XML, JSON and SVG file formats.
 * [minquery](https://github.com/icza/minquery) - MongoDB / mgo.v2 query that supports efficient pagination (cursors to continue listing documents where we left off).
-* [mmake](https://github.com/tj/mmake) - Modern Make.
 * [moldova](https://github.com/StabbyCutyou/moldova) - Utility for generating random data based on an input template.
 * [mole](https://github.com/davrodpin/mole) - cli app to easily create ssh tunnels.
 * [mongo-go-pagination](https://github.com/gobeam/mongo-go-pagination) - Mongodb Pagination for official mongodb/mongo-go-driver package which supports  both normal queries and Aggregation pipelines.
@@ -2042,7 +2053,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [pm](https://github.com/VividCortex/pm) - Process (i.e. goroutine) manager with an HTTP API.
 * [ptr](https://github.com/gotidy/ptr) - Package that provide functions for simplified creation of pointers from constants of basic types.
 * [rclient](https://github.com/zpatrick/rclient) - Readable, flexible, simple-to-use client for REST APIs.
-* [realize](https://github.com/tockins/realize) - Go build system with file watchers and live reload. Run, build and watch file changes with custom paths.
 * [repeat](https://github.com/ssgreg/repeat) - Go implementation of different backoff strategies useful for retrying operations and heartbeating.
 * [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
 * [rerate](https://github.com/abo/rerate) - Redis-based rate counter and rate limiter for Go.
@@ -2068,8 +2078,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [statiks](https://github.com/janiltonmaciel/statiks) - Fast, zero-configuration, static HTTP filer server.
 * [Storm](https://github.com/asdine/storm) - Simple and powerful toolkit for BoltDB.
 * [structs](https://github.com/PumpkinSeed/structs) - Implement simple functions to manipulate structs.
-* [Task](https://github.com/go-task/task) - simple "Make" alternative.
-* [taskctl](https://github.com/taskctl/taskctl) - Concurrent task runner.
 * [tik](https://github.com/andy2046/tik) - Simple and easy timing wheel package for Go.
 * [tome](https://github.com/cyruzin/tome) - Tome was designed to paginate simple RESTful APIs.
 * [toolbox](https://github.com/viant/toolbox) - Slice, map, multimap, struct, function, data conversion utilities. Service router, macro evaluator, tokenizer.
@@ -2339,7 +2347,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [depth](https://github.com/KyleBanks/depth) - Visualize dependency trees of any package by analyzing imports.
 * [gb](https://getgb.io/) - An easy to use project based build tool for the Go programming language.
 * [generator-go-lang](https://github.com/axelspringer/generator-go-lang) - A [Yeoman](http://yeoman.io) generator to get new Go projects started.
-* [gilbert](https://go-gilbert.github.io) - Build system and task runner for Go projects.
 * [go-callvis](https://github.com/TrueFurby/go-callvis) - Visualize call graph of your Go program using dot format.
 * [go-james](https://github.com/pieterclaerhout/go-james) - Go project skeleton creator, builds and tests your projects without the manual setup.
 * [go-pkg-complete](https://github.com/skelterjohn/go-pkg-complete) - Bash completion for go and wgo.
