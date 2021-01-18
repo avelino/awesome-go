@@ -867,7 +867,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [c4go](https://github.com/Konstantin8105/c4go) - Transpile C code to Go code.
 * [f4go](https://github.com/Konstantin8105/f4go) - Transpile FORTRAN 77 code to Go code.
 * [gopherjs](https://github.com/gopherjs/gopherjs) - Compiler from Go to JavaScript.
-* [llgo](https://github.com/go-llvm/llgo) - LLVM-based compiler for Go.
 * [tardisgo](https://github.com/tardisgo/tardisgo) - Golang to Haxe to CPP/CSharp/Java/JavaScript transpiler.
 
 ## Goroutines
