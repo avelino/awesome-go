@@ -498,7 +498,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable) - Advanced scheduling for PostgreSQL.
 * [pgweb](https://github.com/sosedoff/pgweb) - Web-based PostgreSQL database browser.
 * [prep](https://github.com/hexdigest/prep) - Use prepared SQL statements without changing your code.
-* [pREST](https://github.com/nuveo/prest) - Serve a RESTful API from any PostgreSQL database.
+* [pREST](https://github.com/prest/prest) - Simplify and accelerate development, ⚡ instant, realtime, high-performance on any Postgres application, existing or new.
 * [rwdb](https://github.com/andizzle/rwdb) - rwdb provides read replica capability for multiple database servers setup.
 * [vitess](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
 
