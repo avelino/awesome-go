@@ -28,8 +28,9 @@ var githubGETCOMMITS = "https://api.github.com/repos%s/commits"
 var githubPOSTISSUES = "https://api.github.com/repos/avelino/awesome-go/issues"
 var awesomeGoGETISSUES = "http://api.github.com/repos/avelino/awesome-go/issues" //only returns open issues
 var numberOfYears time.Duration = 1
+var timeNow = time.Now()
+var issueTitle = fmt.Sprintf("Investigate repositories with more than 1 year without update - %s", timeNow.Format("2006-01-02"))
 
-const issueTitle = "Investigate repositories with more than 1 year without update"
 const deadLinkMessage = " this repository might no longer exist! (status code >= 400 returned)"
 const movedPermanently = " status code 301 received"
 const status302 = " status code 302 received"
@@ -189,8 +190,7 @@ func testRepoState(toRun bool, href string, client *http.Client, staleRepos *[]s
 func testCommitAge(toRun bool, href string, client *http.Client, staleRepos *[]string) bool {
 	if toRun {
 		var respObj []map[string]interface{}
-		now := time.Now()
-		since := now.Add(-1 * 365 * 24 * numberOfYears * time.Hour)
+		since := timeNow.Add(-1 * 365 * 24 * numberOfYears * time.Hour)
 		sinceQuery := since.Format(time.RFC3339)
 		ownerRepo := strings.ReplaceAll(href, "https://github.com", "")
 		apiCall := fmt.Sprintf(githubGETCOMMITS, ownerRepo)
