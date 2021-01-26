@@ -1634,6 +1634,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [php_session_decoder](https://github.com/yvasiyarov/php_session_decoder) - GoLang library for working with PHP session format and PHP Serialize/Unserialize functions.
 * [pletter](https://github.com/vimeda/pletter) - A standard way to wrap a proto message for message brokers.
 * [structomap](https://github.com/tuvistavie/structomap) - Library to easily and dynamically generate maps from static structures.
+* [unitpacking](https://github.com/recolude/unitpacking) - Library to pack unit vectors into as fewest bytes as possible.
 
 ## Server Applications
 
