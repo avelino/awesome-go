@@ -820,6 +820,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [payme](https://github.com/jovandeginste/payme) - QR code generator (ASCII & PNG) for SEPA payments.
 * [sleet](https://github.com/BoltApp/sleet) - One unified interface for multiple Payment Service Providers (PsP) to process online payment.
 * [techan](https://github.com/sdcoffey/techan) - Technical analysis library with advanced market analysis and trading strategies.
+* [ticker](https://github.com/achannarasappa/ticker) - Terminal stock watcher and stock position tracker.
 * [transaction](https://github.com/claygod/transaction) - Embedded transactional database of accounts, running in multithreaded mode.
 * [vat](https://github.com/dannyvankooten/vat) - VAT number validation & EU VAT rates.
 
