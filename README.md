@@ -753,6 +753,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-exiftool](https://github.com/barasher/go-exiftool) - Go bindings for ExifTool, the well-known library used to extract as much metadata as possible (EXIF, IPTC, ...) from files (pictures, PDF, office, ...).
 * [go-gtfs](https://github.com/artonge/go-gtfs) - Load gtfs files in go.
 * [gut/yos](https://github.com/1set/gut) - Simple and reliable package for file operations like copy/move/diff/list on files, directories and symbolic links.
+* [iouring-go](https://github.com/Iceber/iouring-go) - Provides easy-to-use async IO interface with io_uring.
 * [notify](https://github.com/rjeczalik/notify) - File system event notification library with simple API, similar to os/signal.
 * [opc](https://github.com/qmuntal/opc) - Load Open Packaging Conventions (OPC) files for Go.
 * [parquet](https://github.com/parsyl/parquet) - Read and write [parquet](https://parquet.apache.org) files.
