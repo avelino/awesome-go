@@ -1557,15 +1557,16 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [decimal](https://github.com/db47h/decimal) - Package decimal implements arbitrary-precision decimal floating-point arithmetic.
 * [evaler](https://github.com/soniah/evaler) - Simple floating point arithmetic expression evaluator.
 * [ewma](https://github.com/VividCortex/ewma) - Exponentially-weighted moving averages.
+* [godesim](https://github.com/soypat/godesim) - Extended/multivariable ODE solver framework for event-based simulations with simple API.
 * [geom](https://github.com/skelterjohn/geom) - 2D geometry for golang.
 * [go-dsp](https://github.com/mjibson/go-dsp) - Digital Signal Processing for Go.
-* [go-gt](https://github.com/ThePaw/go-gt) - Graph theory algorithms written in "Go" language.
 * [goent](https://github.com/kzahedi/goent) - GO Implementation of Entropy Measures.
+* [go-gt](https://github.com/ThePaw/go-gt) - Graph theory algorithms written in "Go" language.
 * [gohistogram](https://github.com/VividCortex/gohistogram) - Approximate histograms for data streams.
 * [gonum](https://github.com/gonum/gonum) - Gonum is a set of numeric libraries for the Go programming language. It contains libraries for matrices, statistics, optimization, and more.
 * [gonum/plot](https://github.com/gonum/plot) - gonum/plot provides an API for building and drawing plots in Go.
 * [goraph](https://github.com/gyuho/goraph) - Pure Go graph theory library(data structure, algorith visualization).
-* [gosl](https://github.com/cpmech/gosl) - Go scientific library for linear algebra, FFT, geometry, NURBS, numerical methods, probabilities, optimisation, differential equations, and more.
+* [gosl](https://github.com/cpmech/gosl) - Go scientific library for linear algebra, FFT, geometry, NURBS, numerical methods, probabilities, optimisation, 4 equations, and more.
 * [GoStats](https://github.com/OGFris/GoStats) - GoStats is an Open Source GoLang library for math statistics mostly used in Machine Learning domains, it covers most of the Statistical measures functions.
 * [graph](https://github.com/yourbasic/graph) - Library of basic graph algorithms.
 * [ode](https://github.com/ChristopherRabotin/ode) - Ordinary differential equation (ODE) solver which supports extended states and channel-based iteration stop conditions.
