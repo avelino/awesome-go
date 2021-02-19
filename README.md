@@ -1238,6 +1238,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [fx](https://github.com/uber-go/fx) - A dependency injection based application framework for Go (built on top of dig).
 * [gocontainer](https://github.com/vardius/gocontainer) - Simple Dependency Injection Container.
 * [goioc/di](https://github.com/goioc/di) - Spring-inspired Dependency Injection Container.
+* [kinit](https://github.com/go-kata/kinit) - Customizable dependency injection container with the global mode, cascade initialization and panic-safe finalization.
 * [linker](https://github.com/logrange/linker) - A reflection based dependency injection and inversion of control library with components lifecycle support.
 * [nject/npoint](https://github.com/BlueOwlOpenSource/nject) - A type safe, reflective framework based on types for libraries, tests, and endpoints.
 * [wire](https://github.com/Fs02/wire) - Strict Runtime Dependency Injection for Golang.
