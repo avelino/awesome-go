@@ -1566,6 +1566,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [ewma](https://github.com/VividCortex/ewma) - Exponentially-weighted moving averages.
 * [geom](https://github.com/skelterjohn/geom) - 2D geometry for golang.
 * [go-dsp](https://github.com/mjibson/go-dsp) - Digital Signal Processing for Go.
+* [go-estimate](https://github.com/milosgajdos/go-estimate) - State estimation and filtering algorithms in Go.
 * [go-gt](https://github.com/ThePaw/go-gt) - Graph theory algorithms written in "Go" language.
 * [goent](https://github.com/kzahedi/goent) - GO Implementation of Entropy Measures.
 * [gohistogram](https://github.com/VividCortex/gohistogram) - Approximate histograms for data streams.
