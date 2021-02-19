@@ -2691,6 +2691,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [gowalker.org](https://gowalker.org) - Go Project API documentation.
 * [json2go](https://m-zajac.github.io/json2go) - Advanced JSON to Go struct conversion - online tool.
 * [justforfunc](https://www.youtube.com/c/justforfunc) - Youtube channel dedicated to Go programming language tips and tricks, hosted by  Francesc Campoy [@francesc](https://twitter.com/francesc).
+* [Learn Go Programming](https://blog.learngoprogramming.com) - Learn Go concepts with illustrations.
 * [Lille Gophers](https://lille-gophers.loscrackitos.codes/) - Golang talks community in Lille, France ([@LilleGophers](https://twitter.com/LilleGophers)).
 * [Made with Golang](https://madewithgolang.com/?ref=awesome-go)
 * [r/Golang](https://www.reddit.com/r/golang) - News about Go.
@@ -2726,6 +2727,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [How to Benchmark: dbq vs sqlx vs GORM](https://medium.com/@rocketlaunchr.cloud/how-to-benchmark-dbq-vs-sqlx-vs-gorm-e814caacecb5) - Learn how to benchmark in Go. As a case-study, we will benchmark dbq, sqlx and GORM.
 * [How To Deploy a Go Web Application with Docker](https://semaphoreci.com/community/tutorials/how-to-deploy-a-go-web-application-with-docker) - Learn how to use Docker for Go development and how to build production Docker images.
 * [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go) - Get started with Godog — a Behavior-driven development framework for building and testing Go applications.
+* [Learn Go with 1000+ Exercises](https://github.com/inancgumus/learngo) - Learn Go with thousands of examples, exercises, and quizzes.
 * [Learn Go with TDD](https://github.com/quii/learn-go-with-tests) - Learn Go with test-driven development.
 * [Learning Golang - From zero to hero](https://milapneupane.com.np/2019/07/06/learning-golang-from-zero-to-hero/) - Getting started with golang for beginner.
 * [package main](https://www.youtube.com/packagemain) - YouTube channel about Programming in Go.
