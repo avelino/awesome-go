@@ -2487,6 +2487,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Snitch](https://github.com/lucasgomide/snitch) - Simple way to notify your team and many tools when someone has deployed any application via Tsuru.
 * [Stack Up](https://github.com/pressly/sup) - Stack Up, a super simple deployment tool - just Unix - think of it like 'make' for a network of servers.
 * [syncthing](https://syncthing.net/) - Open, decentralized file synchronization tool and protocol.
+* [tcpdog](https://github.com/mehrdadrad/tcpdog) - eBPF based TCP observability.
 * [tcpprobe](https://github.com/mehrdadrad/tcpprobe) - TCP tool for network performance and path monitoring, including socket statistics.
 * [term-quiz](https://github.com/crazcalm/term-quiz) - Quizzes for your terminal.
 * [toxiproxy](https://github.com/shopify/toxiproxy) - Proxy to simulate network and system conditions for automated tests.
