@@ -5,16 +5,19 @@ Join us on IRC at **#awesome-go** on freenode [web access](http://webchat.freeno
 
 # Contribution Guidelines
 
+> Please be aware that we want to accept your contribution, but we have **some rules to keep the minimum quality** of the packages listed here. All reviews are **not personal feedback**, even if you are a _developer reviewing your contribution_. **Sorry if we can't meet your expectations, we do our best**.
+
 - **To add, remove, or change things on the list:** Submit a pull request
 
 To set this list apart from and complement the excellent [Go wiki Projects page](https://golang.org/wiki/Projects), awesome-go is a specially curated list for high-quality, actively maintained Go packages and resources.
 
-- List items should be sorted *alphabetically*.
-- Each item should be limited to one link.
-- The link should be the name of the package or project.
-- Descriptions should be clear, concise, and non-promotional.
-- Descriptions should follow the link, on the same line and end with a punctuation mark.
-- At least 3 items are needed to create a new category.
+- List items should be sorted *alphabetically*;
+- Each item should be limited to one link;
+- The link should be the name of the package or project;
+- Descriptions should be clear, concise, and non-promotional;
+- Descriptions should follow the link, on the same line and end with a punctuation mark;
+- At least 3 items are needed to create a new category;
+- The package or project had to be maintained under **open source license** ( *we make a brief review of the code before the link enters the list* ), [see list of allowed licenses](https://opensource.org/licenses/alphabetical).
 
 Please contribute links to packages/projects you have used or are familiar with. This will help ensure high-quality entries.
 
