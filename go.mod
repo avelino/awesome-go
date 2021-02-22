@@ -1,6 +1,6 @@
 module github.com/rbrahul/awesome-go
 
-go 1.12
+go 1.1
 
 require (
 	github.com/PuerkitoBio/goquery v1.6.1
