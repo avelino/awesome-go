@@ -1940,7 +1940,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [rrdaclient](https://github.com/Omie/rrdaclient) - Go Library to access statdns.com API, which is in turn RRDA API. DNS Queries over HTTP.
 * [shopify](https://github.com/rapito/go-shopify) - Go Library to make CRUD request to the Shopify API.
 * [simples3](https://github.com/rhnvrm/simples3) - Simple no frills AWS S3 Library using REST with V4 Signing written in Go.
-* [slack](https://github.com/nlopes/slack) - Slack API in Go.
+* [slack](https://github.com/slack-go/slack) - Slack API in Go.
 * [smite](https://github.com/sergiotapia/smitego) - Go package to wraps access to the Smite game API.
 * [spotify](https://github.com/rapito/go-spotify) - Go Library to access Spotify WEB API.
 * [steam](https://github.com/sostronk/go-steam) - Go Library to interact with Steam game servers.
