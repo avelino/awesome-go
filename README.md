@@ -199,6 +199,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries and tools helping with build automation.*
 
 * [1build](https://github.com/gopinath-langote/1build) - Command line tool to frictionlessly manage project-specific commands.
+* [anko](https://github.com/GuilhermeCaruso/anko) - Simple application watcher for multiple programming languages.
 * [gaper](https://github.com/maxcnunes/gaper) - Builds and restarts a Go project when it crashes or some watched file changes.
 * [gilbert](https://go-gilbert.github.io) - Build system and task runner for Go projects.
 * [mmake](https://github.com/tj/mmake) - Modern Make.
