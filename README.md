@@ -2634,6 +2634,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [generic](https://github.com/usk81/generic) - flexible data type for Go.
 * [genny](https://github.com/cheekybits/genny) - Elegant generics for Go.
 * [gocontracts](https://github.com/Parquery/gocontracts) - brings design-by-contract to Go by synchronizing the code with the documentation.
+* [godal](https://github.com/mafulong/godal) - Generate orm models corresponding to golang by specifying sql ddl file, which can be used by gorm.
 * [gonerics](https://github.com/bouk/gonerics) - Idiomatic Generics in Go.
 * [gotests](https://github.com/cweill/gotests) - Generate Go tests from your source code.
 * [gounit](https://github.com/hexdigest/gounit) - Generate Go tests using your own templates.
