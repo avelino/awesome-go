@@ -611,6 +611,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-str2duration](https://github.com/xhit/go-str2duration) - Convert string to duration. Support time.Duration returned string and more.
 * [go-sunrise](https://github.com/nathan-osman/go-sunrise) - Calculate the sunrise and sunset times for a given location.
 * [go-week](https://github.com/stoewer/go-week) - An efficient package to work with ISO8601 week dates.
+* [gostradamus](https://github.com/bykof/gostradamus) - A Go package for working with dates.
 * [iso8601](https://github.com/relvacode/iso8601) - Efficiently parse ISO8601 date-times without regex.
 * [kair](https://github.com/GuilhermeCaruso/kair) - Date and Time - Golang Formatting Library.
 * [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
