@@ -2178,6 +2178,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [Banjo](https://github.com/nsheremet/banjo) - Very simple and fast web framework for Go.
 * [Beego](https://github.com/astaxie/beego) - beego is an open-source, high-performance web framework for the Go programming language.
 * [Buffalo](http://gobuffalo.io) - Bringing the productivity of Rails to Go!
+* [Confetti Framework](https://www.confetti-framework.com) - Confetti is a Go web application framework with an expressive, elegant syntax. Confetti combines the elegance of Laravel and the simplicity of Go.
 * [Echo](https://github.com/labstack/echo) - High performance, minimalist Go web framework.
 * [Fiber](https://github.com/gofiber/fiber) - An Express.js inspired web framework build on Fasthttp.
 * [Fireball](https://github.com/zpatrick/fireball) - More "natural" feeling web framework.
