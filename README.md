@@ -1119,6 +1119,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [tail](https://github.com/hpcloud/tail) - Go package striving to emulate the features of the BSD tail program.
 * [xlog](https://github.com/xfxdev/xlog) - Plugin architecture and flexible log system for Go, with level ctrl, multiple log target and custom log format.
 * [xlog](https://github.com/rs/xlog) - Structured logger for `net/context` aware HTTP handlers with flexible dispatching.
+* [yell](https://github.com/jfcg/yell) - Yet another minimalistic logging library.
 * [zap](https://github.com/uber-go/zap) - Fast, structured, leveled logging in Go.
 * [zerolog](https://github.com/rs/zerolog) - Zero-allocation JSON logger.
 * [zkits-logger](https://github.com/edoger/zkits-logger) - A powerful zero-dependency JSON logger.
