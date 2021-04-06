@@ -110,7 +110,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [taskctl](https://github.com/taskctl/taskctl) - Concurrent task runner.
 * [taskflow](https://github.com/pellared/taskflow) - Create build pipelines in Go.
 
-## Command Line
+## 👑 Command Line
 
 ### 🖥️ Standard CLI
 
@@ -259,7 +259,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gcss](https://github.com/yosssi/gcss) - Pure Go CSS Preprocessor.
 * [go-libsass](https://github.com/wellington/go-libsass) - Go wrapper to the 100% Sass compatible libsass project.
 
-## Data Structures
+## 🏗 Data Structures
 
 *Generic datastructures and algorithms in Go.*
 
