@@ -1534,6 +1534,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 ## Query Language
 
 * [api-fu](https://github.com/ccbrown/api-fu) - Comprehensive GraphQL implementation.
+* [bramble](https://github.com/movio/bramble) - A production-ready GraphQL federation gateway. It is built to be a simple, reliable and scalable way to aggregate GraphQL services together.
 * [dasel](https://github.com/tomwright/dasel) - Query and update data structures using selectors from the command line. Comparable to jq/yq but supports JSON, YAML, TOML and XML with zero runtime dependencies.
 * [gojsonq](https://github.com/thedevsaddam/gojsonq) - A simple Go package to Query over JSON Data.
 * [gqlgen](https://github.com/99designs/gqlgen) - go generate based graphql server library.
