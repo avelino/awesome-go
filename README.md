@@ -23,8 +23,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
   * [Bot Building 🤖](#bot-building-)
   * [Build Automation 🦾](#build-automation-)
   * [Command Line 👑](#command-line-)
-    + [Standard CLI 🖥️](#standard-cli-%EF%B8%8F)
-    + [Advanced Console UIs 🖥️](#advanced-console-uis-%EF%B8%8F)
   * [Configuration 📔](#configuration-)
   * [Continuous Integration ⏲️](#continuous-integration-%EF%B8%8F)
   * [CSS Preprocessors ✨](#css-preprocessors-)
@@ -109,8 +107,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
   * [Meetups 👋](#meetups-)
   * [Style Guides 💃](#style-guides-)
   * [Social Media 🤳](#social-media-)
-    + [Twitter 🐦](#twitter-)
-    + [Reddit 👽](#reddit-)
   * [Websites 💿](#websites-)
     + [Tutorials 🤔](#tutorials-)
 
