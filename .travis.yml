@@ -1,15 +1,13 @@
 language: go
+node_js: latest
 
 go:
   - 1.x
 
 sudo: false
 
-env:
-  global:
-  - NODE_VERSION=latest
-
 install:
+  - node --version
   - go get -t -v ./...
 
 before_deploy:
