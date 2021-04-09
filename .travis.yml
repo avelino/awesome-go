@@ -7,7 +7,7 @@ sudo: false
 
 env:
   global:
-  - NODE_VERSION=stable
+  - NODE_VERSION=latest
 
 install:
   - go get -t -v ./...
