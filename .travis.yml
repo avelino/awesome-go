@@ -5,6 +5,10 @@ go:
 
 sudo: false
 
+env:
+  global:
+  - NODE_VERSION=stable
+
 install:
   - go get -t -v ./...
 
