@@ -3,6 +3,8 @@ language: go
 go:
   - 1.x
 
+sudo: false
+
 install:
   - go get -t -v ./...
 
@@ -14,5 +16,6 @@ before_deploy:
 deploy:
   provider: script
   script: netlify deploy --dir=tmpl --prod
+  skip_cleanup: true
   on:
     branch: master
