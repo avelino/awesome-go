@@ -10,8 +10,7 @@ install:
 
 before_deploy:
   - . $HOME/.nvm/nvm.sh
-  - nvm install latest
-  - nvm use latest
+  - nvm install 10 && nvm use 10
   - npm install netlify-cli -g
 
 deploy:
