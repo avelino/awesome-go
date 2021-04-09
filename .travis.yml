@@ -1,5 +1,4 @@
 language: go
-node_js: latest
 
 go:
   - 1.x
@@ -7,10 +6,12 @@ go:
 sudo: false
 
 install:
-  - node --version
   - go get -t -v ./...
 
 before_deploy:
+  - . $HOME/.nvm/nvm.sh
+  - nvm install latest
+  - nvm use latest
   - npm install netlify-cli -g
 
 deploy:
