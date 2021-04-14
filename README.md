@@ -207,6 +207,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gaper](https://github.com/maxcnunes/gaper) - Builds and restarts a Go project when it crashes or some watched file changes.
 * [gilbert](https://go-gilbert.github.io) - Build system and task runner for Go projects.
 * [mmake](https://github.com/tj/mmake) - Modern Make.
+* [neon](https://github.com/c4s4/neon) - Language and platform independent build tool.
 * [realize](https://github.com/tockins/realize) - Go build system with file watchers and live reload. Run, build and watch file changes with custom paths.
 * [Task](https://github.com/go-task/task) - simple "Make" alternative.
 * [taskctl](https://github.com/taskctl/taskctl) - Concurrent task runner.
