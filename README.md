@@ -468,6 +468,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [pogreb](https://github.com/akrylysov/pogreb) - Embedded key-value store for read-heavy workloads.
 * [prometheus](https://github.com/prometheus/prometheus) - Monitoring system and time series database.
 * [pudge](https://github.com/recoilme/pudge) - Fast and simple  key/value store written using Go's standard library.
+* [rosedb](https://github.com/roseduan/rosedb) - An embedded k-v database based on LSM+WAL, supports string, list, hash, set, zset.
 * [rqlite](https://github.com/rqlite/rqlite) - The lightweight, distributed, relational database built on SQLite.
 * [Scribble](https://github.com/nanobox-io/golang-scribble) - Tiny flat file JSON store.
 * [slowpoke](https://github.com/recoilme/slowpoke) - Key-value store with persistence.
