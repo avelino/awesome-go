@@ -207,11 +207,11 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [anko](https://github.com/GuilhermeCaruso/anko) - Simple application watcher for multiple programming languages.
 * [gaper](https://github.com/maxcnunes/gaper) - Builds and restarts a Go project when it crashes or some watched file changes.
 * [gilbert](https://go-gilbert.github.io) - Build system and task runner for Go projects.
+* [goyek](https://github.com/goyek/goyek) - Create build pipelines in Go.
 * [mmake](https://github.com/tj/mmake) - Modern Make.
 * [realize](https://github.com/tockins/realize) - Go build system with file watchers and live reload. Run, build and watch file changes with custom paths.
 * [Task](https://github.com/go-task/task) - simple "Make" alternative.
 * [taskctl](https://github.com/taskctl/taskctl) - Concurrent task runner.
-* [taskflow](https://github.com/pellared/taskflow) - Create build pipelines in Go.
 
 ## Command Line
 
