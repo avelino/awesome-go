@@ -1706,6 +1706,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 *Libraries and tools for stream processing and reactive programming.*
 
+* [automi](https://github.com/vladimirvivien/automi) - A Go stream processing library for easy integrations using built-in types such as channels, slices, functions, io.Readers, and io.Writers. [See blog](https://medium.com/learning-the-go-programming-language/streaming-io-in-go-d93507931185).
 * [go-streams](https://github.com/reugn/go-streams) - Go stream processing library.
 * [machine](https://github.com/whitaker-io/machine) - Go library for writing and generating stream workers with built in metrics and traceability.
 * [stream](https://github.com/youthlin/stream) - Go Stream, like Java 8 Stream: Filter/Map/FlatMap/Peek/Sorted/ForEach/Reduce...
