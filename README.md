@@ -1309,7 +1309,6 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [faker](https://github.com/pioz/faker) - Random fake data and struct generator for Go.
 * [ffmt](https://github.com/go-ffmt/ffmt) - Beautify data display for Humans.
 * [gatus](https://github.com/TwinProduction/gatus) - Automated service health dashboard.
-* [ghorg](https://github.com/gabrie30/ghorg) - Quickly clone an entire org/users repositories into one directory - Supports GitHub, GitLab, and Bitbucket.
 * [go-commons-pool](https://github.com/jolestar/go-commons-pool) - Generic object pool for Golang.
 * [go-openapi](https://github.com/go-openapi) - Collection of packages to parse and utilize open-api schemas.
 * [go-resiliency](https://github.com/eapache/go-resiliency) - Resiliency patterns for golang.
@@ -2436,6 +2435,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [easyssh-proxy](https://github.com/appleboy/easyssh-proxy) - Golang package for easy remote execution through SSH and SCP downloading via `ProxyCommand`.
 * [fac](https://github.com/mkchoi212/fac) - Command-line user interface to fix git merge conflicts.
 * [gaia](https://github.com/gaia-pipeline/gaia) - Build powerful pipelines in any programming language.
+* [ghorg](https://github.com/gabrie30/ghorg) - Quickly clone an entire org/users repositories into one directory - Supports GitHub, GitLab, Gitea, and Bitbucket.
 * [Gitea](https://github.com/go-gitea/gitea) - Fork of Gogs, entirely community driven.
 * [gitea-github-migrator](https://git.jonasfranz.software/JonasFranzDEV/gitea-github-migrator) - Migrate all your GitHub repositories, issues, milestones and labels to your Gitea instance.
 * [go-furnace](https://github.com/go-furnace/go-furnace) - Hosting solution written in Go. Deploy your Application with ease on AWS, GCP or DigitalOcean.
