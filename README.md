@@ -1270,7 +1270,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 
 ### Project Layout
 
-*Unofficial set of patterns for structuring projects.*
+_**Unofficial** set of patterns for structuring projects._
 
 * [cookiecutter-golang](https://github.com/lacion/cookiecutter-golang) - A Go application boilerplate template for quick starting projects following production best practices.
 * [go-sample](https://github.com/zitryss/go-sample) - A sample layout for Go application projects with the real code.
