@@ -1451,6 +1451,9 @@ _**Unofficial** set of patterns for structuring projects._
 * [quic-go](https://github.com/lucas-clemente/quic-go) - An implementation of the QUIC protocol in pure Go.
 * [raw](https://github.com/mdlayher/raw) - Package raw enables reading and writing data at the device driver level for a network interface.
 * [sftp](https://github.com/pkg/sftp) - Package sftp implements the SSH File Transfer Protocol as described in https://filezilla-project.org/specs/draft-ietf-secsh-filexfer-02.txt.
+* [shadowsocks](https://github.com/wzshiming/shadowsocks) - Shadowsocks server and dialer.
+* [socks4](https://github.com/wzshiming/socks4) - Socks4 server and dialer.
+* [socks5](https://github.com/wzshiming/socks5) - Socks5 server and dialer.
 * [ssh](https://github.com/gliderlabs/ssh) - Higher-level API for building SSH servers (wraps crypto/ssh).
 * [sslb](https://github.com/eduardonunesp/sslb) - It's a Super Simples Load Balancer, just a little project to achieve some kind of performance.
 * [stun](https://github.com/go-rtc/stun) - Go implementation of RFC 5389 STUN protocol.
