@@ -475,6 +475,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [pogreb](https://github.com/akrylysov/pogreb) - Embedded key-value store for read-heavy workloads.
 * [prometheus](https://github.com/prometheus/prometheus) - Monitoring system and time series database.
 * [pudge](https://github.com/recoilme/pudge) - Fast and simple  key/value store written using Go's standard library.
+* [ristretto](https://github.com/dgraph-io/ristretto) - Ristretto is a fast, concurrent cache library built with a focus on performance and correctness.
 * [rosedb](https://github.com/roseduan/rosedb) - An embedded k-v database based on LSM+WAL, supports string, list, hash, set, zset.
 * [rqlite](https://github.com/rqlite/rqlite) - The lightweight, distributed, relational database built on SQLite.
 * [Scribble](https://github.com/nanobox-io/golang-scribble) - Tiny flat file JSON store.
@@ -555,6 +556,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * Relational Databases
     * [avatica](https://github.com/apache/calcite-avatica-go) - Apache Avatica/Phoenix SQL driver for database/sql.
     * [bgc](https://github.com/viant/bgc) - Datastore Connectivity for BigQuery for go.
+    * [dgo](https://github.com/dgraph-io/dgo) - Official Dgraph Go client
     * [firebirdsql](https://github.com/nakagami/firebirdsql) - Firebird RDBMS SQL driver for Go.
     * [go-adodb](https://github.com/mattn/go-adodb) - Microsoft ActiveX Object DataBase driver for go that uses database/sql.
     * [go-mssqldb](https://github.com/denisenkom/go-mssqldb) - Microsoft MSSQL driver for Go.
