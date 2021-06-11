@@ -2206,6 +2206,7 @@ _**Unofficial** set of patterns for structuring projects._
 
 *Full stack web frameworks.*
 
+* [iris](https://github.com/kataras/iris) - The fastest HTTP/2 Go Web Framework. AWS Lambda, gRPC, MVC, Unique Router, Websockets, Sessions, Test suite, Dependency Injection and more.
 * [aah](https://aahframework.org) - Scalable, performant, rapid development Web framework for Go.
 * [Aero](https://github.com/aerogo/aero) - High-performance web framework for Go, reaches top scores in Lighthouse.
 * [Air](https://github.com/aofei/air) - An ideally refined web framework for Go.
