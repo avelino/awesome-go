@@ -2012,6 +2012,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [clockwork](https://github.com/jonboulle/clockwork) - A simple fake clock for golang.
 * [cmd](https://github.com/SimonBaeumer/cmd) - Library for executing shell commands on osx, windows and linux.
 * [command](https://github.com/txgruppi/command) - Command pattern for Go with thread safe serial and parallel dispatcher.
+* [commitlog](https://github.com/barelyhuman/commitlog) - Generate changelogs from your git commits, CLI tool.
 * [copy](https://github.com/gotidy/copy) - Package for fast copying structs of different types.
 * [copy-pasta](https://github.com/jutkko/copy-pasta) - Universal multi-workstation clipboard that uses S3 like backend for the storage.
 * [countries](https://github.com/biter777/countries) - Full implementation of ISO-3166-1, ISO-4217, ITU-T E.164, Unicode CLDR and IANA ccTLD standarts.
