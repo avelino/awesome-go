@@ -374,6 +374,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [algorithms](https://github.com/shady831213/algorithms) - Algorithms and data structures.CLRS study.
 * [binpacker](https://github.com/zhuangsirui/binpacker) - Binary packer and unpacker helps user build custom binary stream.
 * [bit](https://github.com/yourbasic/bit) - Golang set data structure with bonus bit-twiddling functions.
+* [bitmap](https://github.com/kelindar/bitmap) - Dense, zero-allocation, SIMD-enabled bitmap/bitset in Go
 * [bitset](https://github.com/willf/bitset) - Go package implementing bitsets.
 * [bloom](https://github.com/zhenjl/bloom) - Bloom filters implemented in Go.
 * [bloom](https://github.com/yourbasic/bloom) - Golang Bloom filter implementation.
