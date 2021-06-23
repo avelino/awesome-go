@@ -254,6 +254,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [sand](https://github.com/Zaba505/sand) - Simple API for creating interpreters and so much more.
 * [sflags](https://github.com/octago/sflags) - Struct based flags generator for flag, urfave/cli, pflag, cobra, kingpin and other libraries.
 * [strumt](https://github.com/antham/strumt) - Library to create prompt chain.
+* [swayrandr](https://codeberg.org/snaums/swayrandr) - CLI and GTK-based UI to configure screen resolutions for the sway tiling wayland compositor, similar to xrandr/lxrandr.
 * [ts](https://github.com/liujianping/ts) - Timestamp convert & compare tool.
 * [ukautz/clif](https://github.com/ukautz/clif) - Small command line interface framework.
 * [urfave/cli](https://github.com/urfave/cli) - Simple, fast, and fun package for building command line apps in Go (formerly codegangsta/cli).
@@ -357,6 +358,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [duci](https://github.com/duck8823/duci) - A simple ci server no needs domain specific languages.
 * [gomason](https://github.com/nikogura/gomason) - Test, Build, Sign, and Publish your go binaries from a clean workspace.
 * [goveralls](https://github.com/mattn/goveralls) - Go integration for Coveralls.io continuous code coverage tracking system.
+* [mvoCI](https://codeberg.org/snaums/mvoCI) - A very simple personal  Continuous Integration Server written in go.
 * [overalls](https://github.com/go-playground/overalls) - Multi-Package go project coverprofile for tools like goveralls.
 * [roveralls](https://github.com/LawrenceWoodman/roveralls) - Recursive coverage testing tool.
 
