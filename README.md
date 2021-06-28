@@ -1378,6 +1378,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [iuliia-go](https://github.com/mehanizm/iuliia-go) - Transliterate Cyrillic → Latin in every possible way.
 * [kagome](https://github.com/ikawaha/kagome) - JP morphological analyzer written in pure Go.
 * [libtextcat](https://github.com/goodsign/libtextcat) - Cgo binding for libtextcat C library. Guaranteed compatibility with version 2.2.
+* [lingua-go](https://github.com/pemistahl/lingua-go) - An accurate natural language detection library, suitable for long and short text alike.
 * [MMSEGO](https://github.com/awsong/MMSEGO) - This is a GO implementation of [MMSEG](http://technology.chtsai.org/mmseg/) which a Chinese word splitting algorithm.
 * [nlp](https://github.com/Shixzie/nlp) - Extract values from strings and fill your structs with nlp.
 * [nlp](https://github.com/james-bowman/nlp) - Go Natural Language Processing library supporting LSA (Latent Semantic Analysis).
