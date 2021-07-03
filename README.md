@@ -233,7 +233,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [commandeer](https://github.com/jaffee/commandeer) - Dev-friendly CLI apps: sets up flags, defaults, and usage based on struct fields and tags.
 * [complete](https://github.com/posener/complete) - Write bash completions in Go + Go command bash completion.
 * [Dnote](https://github.com/dnote/dnote) - A simple command line notebook with multi-device sync.
-* [elvish](https://github.com/elves/elvish) - An expressive programming language and a versatile interactive shell
+* [elvish](https://github.com/elves/elvish) - An expressive programming language and a versatile interactive shell.
 * [env](https://github.com/codingconcepts/env) - Tag-based environment configuration for structs.
 * [flag](https://github.com/cosiner/flag) - Simple but powerful command line option parsing library for Go supporting subcommand.
 * [flaggy](https://github.com/integrii/flaggy) - A robust and idiomatic flags package with excellent subcommand support.
