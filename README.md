@@ -1732,6 +1732,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [ego](https://github.com/benbjohnson/ego) - Lightweight templating language that lets you write templates in Go. Templates are translated into Go and compiled.
 * [extemplate](https://github.com/dannyvankooten/extemplate) - Tiny wrapper around html/template to allow for easy file-based template inheritance.
 * [fasttemplate](https://github.com/valyala/fasttemplate) - Simple and fast template engine. Substitutes template placeholders up to 10x faster than [text/template](http://golang.org/pkg/text/template/).
+* [fet](https://github.com/fefit/fet) - FET is a golang template engine that can tranlate smarty like template code into golang html/template.
 * [gofpdf](https://github.com/jung-kurt/gofpdf) - PDF document generator with high level support for text, drawing and images.
 * [gorazor](https://github.com/sipin/gorazor) - gorazor is a template engine for Go, inspired by the Razor view engine for ASP.NET.
 * [gospin](https://github.com/m1/gospin) - Article spinning and spintax/spinning syntax engine, useful for A/B, testing pieces of text/articles and creating more natural conversations.
