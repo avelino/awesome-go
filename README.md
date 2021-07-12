@@ -447,7 +447,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [bbolt](https://github.com/etcd-io/bbolt) - An embedded key/value database for Go.
 * [bcache](https://github.com/iwanbk/bcache) - Eventually consistent distributed in-memory  cache Go library.
 * [BigCache](https://github.com/allegro/bigcache) - Efficient key/value cache for gigabytes of data.
-* [Bitcask](https://github.com/prologic/bitcask) - Bitcask is an embeddable, persistent and fast key-value (KV) database written in pure Go with predictable read/write performance, low latency and high throughput thanks to the bitcask on-disk layout (LSM+WAL).
+* [Bitcask](https://git.mills.io/prologic/bitcask) - Bitcask is an embeddable, persistent and fast key-value (KV) database written in pure Go with predictable read/write performance, low latency and high throughput thanks to the bitcask on-disk layout (LSM+WAL).
 * [buntdb](https://github.com/tidwall/buntdb) - Fast, embeddable, in-memory key/value database for Go with custom indexing and spatial support.
 * [cache](https://github.com/akyoto/cache) - In-memory key:value store with expiration time, 0 dependencies, <100 LoC, 100% coverage.
 * [cache2go](https://github.com/muesli/cache2go) - In-memory key:value cache which supports automatic invalidation based on timeouts.
