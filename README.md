@@ -1733,6 +1733,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [extemplate](https://github.com/dannyvankooten/extemplate) - Tiny wrapper around html/template to allow for easy file-based template inheritance.
 * [fasttemplate](https://github.com/valyala/fasttemplate) - Simple and fast template engine. Substitutes template placeholders up to 10x faster than [text/template](http://golang.org/pkg/text/template/).
 * [gofpdf](https://github.com/jung-kurt/gofpdf) - PDF document generator with high level support for text, drawing and images.
+* [gorazor](https://github.com/sipin/gorazor) - gorazor is a template engine for Go, inspired by the Razor view engine for ASP.NET.
 * [gospin](https://github.com/m1/gospin) - Article spinning and spintax/spinning syntax engine, useful for A/B, testing pieces of text/articles and creating more natural conversations.
 * [goview](https://github.com/foolin/goview) - Goview is a lightweight, minimalist and idiomatic template library based on golang html/template for building Go web application.
 * [hero](https://github.com/shiyanhui/hero) - Hero is a handy, fast and powerful go template engine.
@@ -1744,7 +1745,6 @@ _**Unofficial** set of patterns for structuring projects._
 * [pongo2](https://github.com/flosch/pongo2) - Django-like template-engine for Go.
 * [quicktemplate](https://github.com/valyala/quicktemplate) - Fast, powerful, yet easy to use template engine. Converts templates into Go code and then compiles it.
 * [raymond](https://github.com/aymerick/raymond) - Complete handlebars implementation in Go.
-* [Razor](https://github.com/sipin/gorazor) - Razor view engine for Golang.
 * [Soy](https://github.com/robfig/soy) - Closure templates (aka Soy templates) for Go, following the [official spec](https://developers.google.com/closure/templates/).
 * [sprig](https://github.com/Masterminds/sprig) - Useful template functions for Go templates.
 * [velvet](https://github.com/gobuffalo/velvet) - Complete handlebars implementation in Go.
