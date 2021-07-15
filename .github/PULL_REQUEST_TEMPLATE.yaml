@@ -1,0 +1,47 @@
+description: |
+  Please check if what you want to add to `awesome-go` list meets [quality standards](https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md#quality-standards) before sending pull request. Thanks!
+  **Note**: that new categories can be added only when there are 3 packages or more.
+  Thanks for your PR, you're awesome! :+1:
+body:
+  - type: input
+    id: repo
+    attributes:
+      label: repo or link
+      description: github.com, gitlab.com, etc
+      placeholder: ex. github.com/avelino/...
+    validations:
+      required: true
+  - type: input
+    id: pkgdev
+    attributes:
+      label: pkg.go.dev
+      placeholder: ex. github.com/you-username/project-name
+    validations:
+      required: false
+  - type: input
+    id: goreportcard
+    attributes:
+      label: goreportcard.com
+      placeholder: ex. goreportcard.com/github.com/you-username/project-name
+    validations:
+      required: false
+  - type: input
+    id: coverage
+    attributes:
+      label: coverage link
+      placeholder: coverage service link ([codecov](https://codecov.io/), [coveralls](https://coveralls.io/), [gocover](http://gocover.io/) etc.)
+    validations:
+      required: false
+  - type: checkboxes
+    attributes:
+      label: Make sure that you've checked the boxes below before you submit PR
+      description: not every repository (project) will fit into every option, but most projects should
+      options:
+      - label: I have added my package in alphabetical order.
+      - label: I have an appropriate description with correct grammar.
+      - label: I know that this package was not listed before.
+      - label: I have added pkg.go.dev link to the repo and to my pull request.
+      - label: I have added coverage service link to the repo and to my pull request.
+      - label: I have added goreportcard link to the repo and to my pull request.
+      - label: I have read [Contribution guidelines](https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md#contribution-guidelines), [maintainers note](https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md#maintainers) and [Quality standard](https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md#quality-standards).
+        required: true
