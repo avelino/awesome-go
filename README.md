@@ -2248,6 +2248,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [mango](https://github.com/paulbellamy/mango) - Mango is a modular web-application framework for Go, inspired by Rack, and PEP333.
 * [Microservice](https://github.com/claygod/microservice) - The framework for the creation of microservices, written in Golang.
 * [neo](https://github.com/ivpusic/neo) - Neo is minimal and fast Go Web Framework with extremely simple API.
+* [Orion](https://github.com/carousell/Orion/) - A small lightweight framework written around grpc/protobuf with the aim to shorten time to build microservices.
 * [patron](https://github.com/beatlabs/patron) - Patron is a microservice framework following best cloud practices with a focus on productivity.
 * [Resoursea](https://github.com/resoursea/api) - REST framework for quickly writing resource based services.
 * [REST Layer](http://rest-layer.io) - Framework to build REST/GraphQL API on top of databases with mostly configuration over code.
@@ -2261,7 +2262,6 @@ _**Unofficial** set of patterns for structuring projects._
 * [vox](https://github.com/aisk/vox) - A golang web framework for humans, inspired by Koa heavily.
 * [WebGo](https://github.com/bnkamalesh/webgo) - A micro-framework to build web apps; with handler chaining, middleware and context injection. With standard library compliant HTTP handlers(i.e. http.HandlerFunc).
 * [YARF](https://github.com/yarf-framework/yarf) - Fast micro-framework designed to build REST APIs and web services in a fast and simple way.
-* [Orion](https://github.com/carousell/Orion/) - A small lightweight framework written around grpc/protobuf with the aim to shorten time to build microservices
 
 ### Middlewares
 
