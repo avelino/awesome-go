@@ -1806,6 +1806,7 @@ _**Unofficial** set of patterns for structuring projects._
     * [Testify](https://github.com/stretchr/testify) - Sacred extension to the standard go testing package.
     * [testmd](https://godoc.org/github.com/tvastar/test/cmd/testmd) - Convert markdown snippets into testable go code.
     * [testsql](https://github.com/zhulongcheng/testsql) - Generate test data from SQL files before testing and clear it after finished.
+    * [testza](https://github.com/MarvinJWendt/testza) - Full-featured test framework with nice colorized output. 
     * [trial](https://github.com/jgroeneveld/trial) - Quick and easy extendable assertions without introducing much boilerplate.
     * [Tt](https://github.com/vcaesar/tt) - Simple and colorful test tools.
     * [wstest](https://github.com/posener/wstest) - Websocket client for unit-testing a websocket http.Handler.
