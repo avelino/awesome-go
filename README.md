@@ -2281,6 +2281,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [go-server-timing](https://github.com/mitchellh/go-server-timing) - Add/parse Server-Timing header.
 * [Limiter](https://github.com/ulule/limiter) - Dead simple rate limit middleware for Go.
 * [ln-paywall](https://github.com/philippgille/ln-paywall) - Go middleware for monetizing APIs on a per-request basis with the Lightning Network (Bitcoin).
+* [mid](https://github.com/bobg/mid) - Miscellaneous HTTP middleware features: idiomatic error return from handlers; receive/respond with JSON data; request tracing; and more.
 * [Tollbooth](https://github.com/didip/tollbooth) - Rate limit HTTP request handler.
 * [XFF](https://github.com/sebest/xff) - Handle `X-Forwarded-For` header and friends.
 
