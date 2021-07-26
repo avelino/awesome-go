@@ -2101,6 +2101,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [mani](https://github.com/alajmo/mani) - CLI tool to help you manage multiple repositories.
 * [mc](https://github.com/minio/mc) - Minio Client provides minimal tools to work with Amazon S3 compatible cloud storage and filesystems.
 * [mergo](https://github.com/imdario/mergo) - Helper to merge structs and maps in Golang. Useful for configuration default values, avoiding messy if-statements.
+* [micro](https://github.com/zyedidia/micro) - A modern and intuitive terminal-based text editor.
 * [mimemagic](https://github.com/zRedShift/mimemagic) - Pure Go ultra performant MIME sniffing library/utility.
 * [mimesniffer](https://github.com/aofei/mimesniffer) - A MIME type sniffer for Go.
 * [mimetype](https://github.com/gabriel-vasile/mimetype) - Package for MIME type detection based on magic numbers.
