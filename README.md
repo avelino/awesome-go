@@ -4,6 +4,7 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Slack Widget](https://img.shields.io/badge/join-us%20on%20slack-gray.svg?longCache=true&logo=slack&colorB=red)](http://gophers.slack.com/messages/awesome)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/83a6dcbe-0da6-433e-b586-f68109286bd5/deploy-status)](https://app.netlify.com/sites/awesome-go/deploys)
+[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/avelino/awesome-go/)
 
 <a href="https://www.producthunt.com/posts/awesome-go?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-awesome-go" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=291535&theme=light" alt="awesome-go - Curated list awesome Go frameworks, libraries and software | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
@@ -774,6 +775,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [checksum](https://github.com/codingsince1985/checksum) - Compute message digest, like MD5 and SHA256, for large files.
 * [copy](https://github.com/otiai10/copy) - Copy directory recursively.
 * [flop](https://github.com/homedepot/flop) - File operations library which aims to mirror feature parity with [GNU cp](https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html).
+* [gdu](https://github.com/dundee/gdu) - Disk usage analyzer with console interface
 * [go-csv-tag](https://github.com/artonge/go-csv-tag) - Load csv file using tag.
 * [go-decent-copy](https://github.com/hugocarreira/go-decent-copy) - Copy files for humans.
 * [go-exiftool](https://github.com/barasher/go-exiftool) - Go bindings for ExifTool, the well-known library used to extract as much metadata as possible (EXIF, IPTC, ...) from files (pictures, PDF, office, ...).
@@ -795,6 +797,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Packages for accounting and finance.*
 
 * [accounting](https://github.com/leekchan/accounting) - money and currency formatting for golang.
+* [ach](https://github.com/moov-io/ach) - A reader, writer, and valdiator for Automated Clearing House (ACH) files.
 * [currency](https://github.com/bojanz/currency) - Handles currency amounts, provides currency information and formatting.
 * [currency](https://github.com/bnkamalesh/currency) - High performant & accurate currency computation package.
 * [decimal](https://github.com/shopspring/decimal) - Arbitrary-precision fixed-point decimal numbers.
@@ -888,6 +891,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [pbf](https://github.com/maguro/pbf) - OpenStreetMap PBF golang encoder/decoder.
 * [S2 geojson](https://github.com/pantrif/s2-geojson) - Convert geojson to s2 cells & demonstrating some S2 geometry features on map.
 * [S2 geometry](https://github.com/golang/geo) - S2 geometry library in Go.
+* [simplefeatures](https://github.com/peterstace/simplefeatures) - simplesfeatures is a 2D geometry library that provides Go types that model geometries, as well as algorithms that operate on them.
 * [Tile38](https://github.com/tidwall/tile38) - Geolocation DB with spatial index and realtime geofencing.
 * [WGS84](https://github.com/wroge/wgs84) - Library for Coordinate Conversion and Transformation (ETRS89, OSGB36, NAD83, RGF93, Web Mercator, UTM).
 
@@ -975,6 +979,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [robotgo](https://github.com/go-vgo/robotgo) - Go Native cross-platform GUI system automation. Control the mouse, keyboard and other.
 * [systray](https://github.com/getlantern/systray) - Cross platform Go library to place an icon and menu in the notification area.
 * [trayhost](https://github.com/shurcooL/trayhost) - Cross-platform Go library to place an icon in the host operating system's taskbar.
+* [zenity](https://github.com/ncruces/zenity) - Cross-platform Go library and CLI to create simple dialogs that interact graphically with the user.
 
 
 ## Hardware
@@ -1298,6 +1303,7 @@ _**Unofficial** set of patterns for structuring projects._
 
 *Libraries for working with strings.*
 
+* [bexp](https://github.com/mkungla/bexp) - Go implementation of Brace Expansion mechanism to generate arbitrary strings.
 * [go-formatter](https://gitlab.com/tymonx/go-formatter) - Implements **replacement fields** surrounded by curly braces `{}` format strings.
 * [gobeam/Stringy](https://github.com/gobeam/Stringy) - String manipulation library to convert string to camel case, snake case, kebab case / slugify etc.
 * [strutil](https://github.com/ozgio/strutil) - String utilities.
@@ -1802,6 +1808,7 @@ _**Unofficial** set of patterns for structuring projects._
     * [Testify](https://github.com/stretchr/testify) - Sacred extension to the standard go testing package.
     * [testmd](https://godoc.org/github.com/tvastar/test/cmd/testmd) - Convert markdown snippets into testable go code.
     * [testsql](https://github.com/zhulongcheng/testsql) - Generate test data from SQL files before testing and clear it after finished.
+    * [testza](https://github.com/MarvinJWendt/testza) - Full-featured test framework with nice colorized output. 
     * [trial](https://github.com/jgroeneveld/trial) - Quick and easy extendable assertions without introducing much boilerplate.
     * [Tt](https://github.com/vcaesar/tt) - Simple and colorful test tools.
     * [wstest](https://github.com/posener/wstest) - Websocket client for unit-testing a websocket http.Handler.
@@ -1930,7 +1937,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [gads](https://github.com/emiddleton/gads) - Google Adwords Unofficial API.
 * [gami](https://github.com/bit4bit/gami) - Go library for Asterisk Manager Interface.
 * [gcm](https://github.com/Aorioli/gcm) - Go library for Google Cloud Messaging.
-* [geo-golang](https://github.com/codingsince1985/geo-golang) - Go Library to access [Google Maps](https://developers.google.com/maps/documentation/geocoding/intro), [MapQuest](http://open.mapquestapi.com/geocoding/), [Nominatim](https://developer.mapquest.com/documentation/open/nominatim-search), [OpenCage](http://geocoder.opencagedata.com/api.html), [Bing](https://msdn.microsoft.com/en-us/library/ff701715.aspx), [Mapbox](https://www.mapbox.com/developers/api/geocoding/), and [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Nominatim) geocoding / reverse geocoding APIs.
+* [geo-golang](https://github.com/codingsince1985/geo-golang) - Go Library to access [Google Maps](https://developers.google.com/maps/documentation/geocoding/intro), [MapQuest](http://open.mapquestapi.com/geocoding/), [Nominatim](https://developer.mapquest.com/documentation/open/nominatim-search), [OpenCage](https://opencagedata.com/api), [Bing](https://msdn.microsoft.com/en-us/library/ff701715.aspx), [Mapbox](https://www.mapbox.com/developers/api/geocoding/), and [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Nominatim) geocoding / reverse geocoding APIs.
 * [github](https://github.com/google/go-github) - Go library for accessing the GitHub REST API v3.
 * [githubql](https://github.com/shurcooL/githubql) - Go library for accessing the GitHub GraphQL API v4.
 * [go-aws-news](https://github.com/circa10a/go-aws-news) - Go application and library to fetch what's new from AWS.
