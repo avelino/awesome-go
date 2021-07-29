@@ -1339,6 +1339,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [gosms](https://github.com/haxpax/gosms) - Your own local SMS gateway in Go that can be used to send SMS.
 * [gotoprom](https://github.com/cabify/gotoprom) - Type-safe metrics builder wrapper library for the official Prometheus client.
 * [gountries](https://github.com/pariz/gountries) - Package that exposes country and subdivision data.
+* [health](https://github.com/alexliesenfeld/health) - A simple and flexible health check library for Go.
 * [health](https://github.com/dimiro1/health) - Easy to use, extensible health check library.
 * [healthcheck](https://github.com/etherlabsio/healthcheck) - An opinionated and concurrent health-check HTTP handler for RESTful services.
 * [hostutils](https://github.com/Wing924/hostutils) - A golang library for packing and unpacking FQDNs list.
