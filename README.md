@@ -664,6 +664,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [dynamolock](https://cirello.io/dynamolock) - DynamoDB-backed distributed locking implementation.
 * [dynatomic](https://github.com/tylfin/dynatomic) - A library for using DynamoDB as an atomic counter.
 * [emitter-io](https://github.com/emitter-io/emitter) - High performance, distributed, secure and low latency publish-subscribe platform built with MQTT, Websockets and love.
+* [failured](https://github.com/andy2046/failured) - adaptive accrual failure detector for distributed systems.
 * [flowgraph](https://github.com/vectaport/flowgraph) - flow-based programming package.
 * [gleam](https://github.com/chrislusf/gleam) - Fast and scalable distributed map/reduce system written in pure Go and Luajit, combining Go's high concurrency with Luajit's high performance, runs standalone or distributed.
 * [glow](https://github.com/chrislusf/glow) - Easy-to-Use scalable distributed big data processing, Map-Reduce, DAG execution, all in pure Go.
