@@ -2771,7 +2771,6 @@ _**Unofficial** set of patterns for structuring projects._
 * [awesome-go-extra](https://github.com/xwjdsh/awesome-go-extra) - Parse awesome-go README file and generate a new README file with repo info.
 * [CodinGame](https://www.codingame.com/) - Learn Go by solving interactive tasks using small games as practical examples.
 * [Go Blog](http://blog.golang.org) - The official Go blog.
-* [Go Challenge](http://golang-challenge.org/) - Learn Go by solving problems and getting feedback from Go experts.
 * [Go Code Club](https://www.youtube.com/watch?v=nvoIPQYdx9g&list=PLEcwzBXTPUE_YQR7R0BRtHBYJ0LN3Y0i3) - A group of Gophers read and discuss a different Go project every week.
 * [Go Community on Hashnode](https://hashnode.com/n/go) - Community of Gophers on Hashnode.
 * [Go Forum](https://forum.golangbridge.org) - Forum to discuss Go.
