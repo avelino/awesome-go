@@ -1108,6 +1108,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [kazaam](https://github.com/Qntfy/kazaam) - API for arbitrary transformation of JSON documents.
 * [mapslice-json](https://github.com/mickep76/mapslice-json) - Go MapSlice for ordered marshal/ unmarshal of maps in JSON.
 * [mp](https://github.com/sanbornm/mp) - Simple cli email parser. It currently takes stdin and outputs JSON.
+* [OjG](https://github.com/ohler55/ojg) - Optimized JSON for Go is a high performance parser with a variety of additional JSON tools including JSONPath.
 * [omg.jsonparser](https://github.com/dedalqq/omg.jsonparser) - Simple JSON parser with validation by condition via golang struct fields tags.
 * [ujson](https://github.com/olvrng/ujson) - Fast and minimal JSON parser and transformer that works on unstructured JSON.
 * [vjson](https://github.com/miladibra10/vjson) - Go package for validating JSON objects with declaring a JSON schema with fluent API.
@@ -1829,7 +1830,7 @@ _**Unofficial** set of patterns for structuring projects._
     * [Testify](https://github.com/stretchr/testify) - Sacred extension to the standard go testing package.
     * [testmd](https://godoc.org/github.com/tvastar/test/cmd/testmd) - Convert markdown snippets into testable go code.
     * [testsql](https://github.com/zhulongcheng/testsql) - Generate test data from SQL files before testing and clear it after finished.
-    * [testza](https://github.com/MarvinJWendt/testza) - Full-featured test framework with nice colorized output. 
+    * [testza](https://github.com/MarvinJWendt/testza) - Full-featured test framework with nice colorized output.
     * [trial](https://github.com/jgroeneveld/trial) - Quick and easy extendable assertions without introducing much boilerplate.
     * [Tt](https://github.com/vcaesar/tt) - Simple and colorful test tools.
     * [wstest](https://github.com/posener/wstest) - Websocket client for unit-testing a websocket http.Handler.
