@@ -2670,6 +2670,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [gophers](https://github.com/egonelbre/gophers) - Free gophers.
 * [gophers](https://github.com/rogeralsing/gophers) - random gopher graphics.
 * [gophers](https://github.com/sillecelik/go-gopher) - Gopher amigurumi toy pattern.
+* [gophers](https://github.com/scraly/gophers) - Gophers by Aurélie Vache.
 
 ## Meetups
 
@@ -2834,3 +2835,4 @@ _**Unofficial** set of patterns for structuring projects._
 * [The world’s easiest introduction to WebAssembly with Golang](https://medium.com/@martinolsansky/webassembly-with-golang-is-fun-b243c0e34f02)
 * [Working with Go](https://github.com/mkaz/working-with-go) - Intro to go for experienced programmers.
 * [Your basic Go](http://yourbasic.org/golang) - Huge collection of tutorials and how to's.
+* [Learning Go by examples](https://dev.to/aurelievache/learning-go-by-examples-introduction-448n) -  Serie of article in order to learn Golang language by concrete applications as example
