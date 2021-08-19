@@ -1675,6 +1675,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [ssh-vault](https://github.com/ssh-vault/ssh-vault) - encrypt/decrypt using ssh keys.
 * [sslmgr](https://github.com/adrianosela/sslmgr) - SSL certificates made easy with a high level wrapper around acme/autocert.
 * [themis](https://github.com/cossacklabs/themis) - high-level cryptographic library for solving typical data security tasks (secure data storage, secure messaging, zero-knowledge proof authentication), available for 14 languages, best fit for multi-platform apps.
+* [yopass](https://github.com/jhaals/yopass) - Yopass is a project for sharing secrets in a quick and secure manner. Can use as web-service.
 
 
 ## Serialization
