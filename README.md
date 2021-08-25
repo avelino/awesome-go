@@ -577,6 +577,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     * [pig](https://github.com/alexeyco/pig) - Simple [pgx](https://github.com/jackc/pgx) wrapper to execute and [scan](https://github.com/georgysavva/scany) query results easily.
     * [pq](https://github.com/lib/pq) - Pure Go Postgres driver for database/sql.
     * [Sqinn-Go](https://github.com/cvilsmeier/sqinn-go) - SQLite with pure Go.
+    * [sqlite](https://gitlab.com/cznic/sqlite) - Package sqlite is a CGo-free port of SQLite.
 
 * NoSQL Databases
     * [aerospike-client-go](https://github.com/aerospike/aerospike-client-go) - Aerospike client in Go language.
