@@ -1373,6 +1373,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [VarHandler](https://github.com/azr/generators/tree/master/varhandler) - Generate boilerplate http input and output handling.
 * [xdg](https://github.com/rkoesters/xdg) - FreeDesktop.org (xdg) Specs implemented in Go.
 * [xkg](https://github.com/go-xkg/xkg) - X Keyboard Grabber.
+* [snapify](https://github.com/s4kibs4mi/snapify) - Screenshot as a Service, built using Golang, PostgreSQL, Headless Chrome, Chromedp.
 
 ## Natural Language Processing
 
@@ -2831,3 +2832,4 @@ _**Unofficial** set of patterns for structuring projects._
 * [The world’s easiest introduction to WebAssembly with Golang](https://medium.com/@martinolsansky/webassembly-with-golang-is-fun-b243c0e34f02)
 * [Working with Go](https://github.com/mkaz/working-with-go) - Intro to go for experienced programmers.
 * [Your basic Go](http://yourbasic.org/golang) - Huge collection of tutorials and how to's.
+* [Golang: How to mock test](https://sakib.ninja/golang-how-to-mock-test/) - Learn how to mock test in Golang
