@@ -883,6 +883,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-xray](https://github.com/pieterclaerhout/go-xray) - Helpers for making the use of reflection easier.
 * [goderive](https://github.com/awalterschulze/goderive) - Derives functions from input types.
 * [gotype](https://github.com/wzshiming/gotype) - Golang source code parsing, usage like reflect package.
+* [goverter](https://github.com/jmattheis/goverter) - Generate converters by defining an interface.
 * [GoWrap](https://github.com/hexdigest/gowrap) - Generate decorators for Go interfaces using simple templates.
 * [interfaces](https://github.com/rjeczalik/interfaces) - Command line tool for generating interface definitions.
 * [jennifer](https://github.com/dave/jennifer) - Generate arbitrary Go code without templates.
