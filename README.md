@@ -2466,6 +2466,10 @@ _**Unofficial** set of patterns for structuring projects._
 
 * [abbreviate](https://github.com/dnnrly/abbreviate) - abbreviate is a tool turning long strings in to shorter ones with configurable seperaters, for example to embed branch names in to deployment stack IDs.
 * [aptly](https://github.com/smira/aptly) - aptly is a Debian repository management tool.
+* [argo-cd](https://github.com/argoproj/argo-cd) - GitOps based Continuous Delivery Tool for Kubernetes
+* [argo-events](https://github.com/argoproj/argo-events) - Event based dependency management for Kubernetes.
+* [argo-rollouts](https://github.com/argoproj/argo-rollouts) - Progressive Delivery for Kubernetes
+* [argo-workflows](https://github.com/argoproj/argo-workflows) - Kubernetes-native workflow engine supporting DAG and step-based workflows.
 * [aurora](https://github.com/xuri/aurora) - Cross-platform web-based Beanstalkd queue server console.
 * [awsenv](https://github.com/soniah/awsenv) - Small binary that loads Amazon (AWS) environment variables for a profile.
 * [Balerter](https://github.com/balerter/balerter) - A self-hosted script-based alerting manager
