@@ -503,6 +503,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-fixtures](https://github.com/RichardKnop/go-fixtures) - Django style fixtures for Golang's excellent built-in database/sql library.
 * [go-pg-migrate](https://github.com/lawzava/go-pg-migrate) - CLI-friendly package for go-pg migrations management.
 * [go-pg-migrations](https://github.com/robinjoseph08/go-pg-migrations) - A Go package to help write migrations with go-pg/pg.
+* [goerd](https://github.com/covrom/goerd) - Golang PostgreSQL schema migration tool. Parse database schema into yaml schema, compare two schemas, two databases, or target schema with database to generate a SQL migration script. Export schema to PlantUML.
 * [goose](https://github.com/pressly/goose) - Database migration tool. You can manage your database's evolution by creating incremental SQL or Go scripts.
 * [gormigrate](https://github.com/go-gormigrate/gormigrate) - Database schema migration helper for Gorm ORM.
 * [migrate](https://github.com/golang-migrate/migrate) - Database migrations. CLI and Golang library.
