@@ -1799,6 +1799,7 @@ _**Unofficial** set of patterns for structuring projects._
     * [dsunit](https://github.com/viant/dsunit) - Datastore testing for SQL, NoSQL, structured files.
     * [embedded-postgres](https://github.com/fergusstrange/embedded-postgres) - Run a real Postgres database locally on Linux, OSX or Windows as part of another Go application or test.
     * [endly](https://github.com/viant/endly) - Declarative end to end functional testing.
+    * [fixenv](https://github.com/rekby/fixenv) - Fixture manage engine, inspired by pytest fixtures.
     * [flute](https://github.com/suzuki-shunsuke/flute) - HTTP client testing framework.
     * [frisby](https://github.com/verdverm/frisby) - REST API testing framework.
     * [ginkgo](http://onsi.github.io/ginkgo/) - BDD Testing Framework for Go.
