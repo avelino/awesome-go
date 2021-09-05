@@ -26,6 +26,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 - [Awesome Go](#awesome-go)
     - [Audio and Music](#audio-and-music)
     - [Authentication and OAuth](#authentication-and-oauth)
+    - [Blockchain](#blockchain)
     - [Bot Building](#bot-building)
     - [Build Automation](#build-automation)
     - [Command Line](#command-line)
@@ -174,6 +175,17 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [sessions](https://github.com/adam-hanna/sessions) - Dead simple, highly performant, highly customizable sessions service for go http servers.
 * [sessionup](https://github.com/swithek/sessionup) - Simple, yet effective HTTP session management and identification package.
 * [sjwt](https://github.com/brianvoe/sjwt) - Simple jwt generator and parser.
+
+## Blockchain
+
+*Tools for building blockchains.*
+
+* [cosmos-sdk](https://github.com/cosmos/cosmos-sdk) - A Framework for Building Public Blockchains in the Cosmos Ecosystem.
+* [go-ethereum](https://github.com/ethereum/go-ethereum) - Official Go implementation of the Ethereum protocol.
+* [gossamer](https://github.com/ChainSafe/gossamer) - A Go implementation of the Polkadot Host
+* [tendermint](https://github.com/tendermint/tendermint) - High-performance middleware for transforming a state machine written in any programming language into a Byzantine Fault Tolerant replicated state machine using the Tendermint consensus and blockchain protocols.
+
+
 
 ## Bot Building
 
@@ -699,7 +711,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [rpcx](https://github.com/smallnest/rpcx) - Distributed pluggable RPC service framework like alibaba Dubbo.
 * [Semaphore](https://github.com/jexia/semaphore) - A straightforward (micro) service orchestrator.
 * [sleuth](https://github.com/ursiform/sleuth) - Library for master-less p2p auto-discovery and RPC between HTTP services (using [ZeroMQ](https://github.com/zeromq/libzmq)).
-* [tendermint](https://github.com/tendermint/tendermint) - High-performance middleware for transforming a state machine written in any programming language into a Byzantine Fault Tolerant replicated state machine using the Tendermint consensus and blockchain protocols.
 * [torrent](https://github.com/anacrolix/torrent) - BitTorrent client package.
 
 ## Dynamic DNS
