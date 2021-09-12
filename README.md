@@ -2102,6 +2102,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [go-problemdetails](https://github.com/mvmaasakkers/go-problemdetails) - Go package for working with Problem Details.
 * [go-rate](https://github.com/beefsack/go-rate) - Timed rate limiter for Go.
 * [go-safe](https://github.com/kenkyu392/go-safe) - Panic-safe sandbox.
+* [go-sitemap](https://github.com/turk/go-sitemap) - Go XML sitemap and sitemap index generator.
 * [go-sitemap-generator](https://github.com/ikeikeikeike/go-sitemap-generator) - XML Sitemap generator written in Go.
 * [go-trigger](https://github.com/sadlil/go-trigger) - Go-lang global event triggerer, Register Events with an id and trigger the event from anywhere from your project.
 * [go-type](https://github.com/mikekonan/go-types) - Library providing Go types for store/validation and transfer of ISO-4217, ISO-3166, and other types.
