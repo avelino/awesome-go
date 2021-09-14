@@ -140,8 +140,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [portmidi](https://github.com/rakyll/portmidi) - Go bindings for PortMidi.
 * [vorbis](https://github.com/mccoyst/vorbis) - "Native" Go Vorbis decoder (uses CGO, but has no dependencies).
 
-##
+**[⬆ back to top](#contents)**
 
+## Authentication and OAuth
 
 *Libraries for implementing authentications schemes.*
 
@@ -179,8 +180,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [sessionup](https://github.com/swithek/sessionup) - Simple, yet effective HTTP session management and identification package.
 * [sjwt](https://github.com/brianvoe/sjwt) - Simple jwt generator and parser.
 
-##
+**[⬆ back to top](#contents)**
 
+## Blockchain
 
 *Tools for building blockchains.*
 
@@ -188,8 +190,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-ethereum](https://github.com/ethereum/go-ethereum) - Official Go implementation of the Ethereum protocol.
 * [gossamer](https://github.com/ChainSafe/gossamer) - A Go implementation of the Polkadot Host
 * [tendermint](https://github.com/tendermint/tendermint) - High-performance middleware for transforming a state machine written in any programming language into a Byzantine Fault Tolerant replicated state machine using the Tendermint consensus and blockchain protocols.
-
-
 
 **[⬆ back to top](#contents)**
 
