@@ -1066,7 +1066,12 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries, tools, and tutorials for interacting with hardware.*
 
-See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive list.
+* [emgo](https://github.com/ziutek/emgo) - Go-like language for programming embedded systems (e.g. STM32 MCU).
+* [ghw](https://github.com/jaypipes/ghw) - Golang hardware discovery/inspection library.
+* [go-osc](https://github.com/hypebeast/go-osc) - Open Sound Control (OSC) bindings for Go.
+* [go-rpio](https://github.com/stianeikeland/go-rpio) - GPIO for Go, doesn't require cgo.
+* [joystick](https://github.com/0xcafed00d/joystick) - a polled API to read the state of an attached joystick.
+* [sysinfo](https://github.com/zcalusic/sysinfo) - A pure Go library providing Linux OS / kernel / hardware system information.
 
 **[⬆ back to top](#contents)**
 
