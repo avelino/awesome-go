@@ -1387,6 +1387,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [linker](https://github.com/logrange/linker) - A reflection based dependency injection and inversion of control library with components lifecycle support.
 * [nject/npoint](https://github.com/BlueOwlOpenSource/nject) - A type safe, reflective framework based on types for libraries, tests, and endpoints.
 * [wire](https://github.com/Fs02/wire) - Strict Runtime Dependency Injection for Golang.
+* [go-spring](https://github.com/go-spring) - an all-in-one framework based on IoC, like java spring.
 
 **[⬆ back to top](#contents)**
 
