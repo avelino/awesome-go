@@ -2723,6 +2723,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [jcli](https://github.com/jenkins-zh/jenkins-cli) - Jenkins CLI allows you manage your Jenkins as an easy way.
 * [kala](https://github.com/ajvb/kala) - Simplistic, modern, and performant job scheduler.
 * [kcli](https://github.com/cswank/kcli) - Command line tool for inspecting kafka topics/partitions/messages.
+* [kool](https://github.com/kool-dev/kool) - Command line tool for managing Docker environments as an easy way.
 * [kubernetes](https://github.com/kubernetes/kubernetes) - Container Cluster Manager from Google.
 * [lstags](https://github.com/ivanilves/lstags) - Tool and API to sync Docker images across different registries.
 * [lwc](https://github.com/timdp/lwc) - A live-updating version of the UNIX wc command.
