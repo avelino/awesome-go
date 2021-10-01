@@ -2000,6 +2000,7 @@ _**Unofficial** set of patterns for structuring projects._
     * [ggr](https://github.com/aerokube/ggr) - a lightweight server that routes and proxies Selenium WebDriver requests to multiple Selenium hubs.
     * [playwright-go](https://github.com/mxschmitt/playwright-go) - browser automation library to control Chromium, Firefox and WebKit with a single API.
     * [rod](https://github.com/go-rod/rod) - A Devtools driver to make web automation and scraping easy.
+    * [selenium](https://github.com/tebeka/selenium) - Selenium/Webdriver client for Go.
     * [selenoid](https://github.com/aerokube/selenoid) - alternative Selenium hub server that launches browsers within containers.
 
 * Fail injection
