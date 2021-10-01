@@ -523,6 +523,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [rqlite](https://github.com/rqlite/rqlite) - The lightweight, distributed, relational database built on SQLite.
 * [Scribble](https://github.com/nanobox-io/golang-scribble) - Tiny flat file JSON store.
 * [slowpoke](https://github.com/recoilme/slowpoke) - Key-value store with persistence.
+* [spicedb](https://github.com/authzed/spicedb) - A Zanzibar-inspired database that stores, computes, and validates application permissions.
 * [tempdb](https://github.com/rafaeljesus/tempdb) - Key-value store for temporary items.
 * [tidb](https://github.com/pingcap/tidb) - TiDB is a distributed SQL database. Inspired by the design of Google F1.
 * [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
