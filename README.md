@@ -279,6 +279,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [sand](https://github.com/Zaba505/sand) - Simple API for creating interpreters and so much more.
 * [sflags](https://github.com/octago/sflags) - Struct based flags generator for flag, urfave/cli, pflag, cobra, kingpin and other libraries.
 * [strumt](https://github.com/antham/strumt) - Library to create prompt chain.
+* [subcmd](https://github.com/bobg/subcmd) - Another approach to parsing and running subcommands. Works alongside the standard `flag` package.
 * [ts](https://github.com/liujianping/ts) - Timestamp convert & compare tool.
 * [ukautz/clif](https://github.com/ukautz/clif) - Small command line interface framework.
 * [urfave/cli](https://github.com/urfave/cli) - Simple, fast, and fun package for building command line apps in Go (formerly codegangsta/cli).
