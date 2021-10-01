@@ -1988,6 +1988,7 @@ _**Unofficial** set of patterns for structuring projects._
     * [mockhttp](https://github.com/tv42/mockhttp) - Mock object for Go http.ResponseWriter.
     * [mockit](https://github.com/pasdam/mockit) - Allows functions and method easy mocking, without defining new types; it's similar to Mockito for Java.
     * [timex](https://github.com/cabify/timex) - A test-friendly replacement for the native `time` package.
+    * [mockery](git@github.com:varopxndx/awesome-go.git) - Mock generator for Go interfaces.
 
 * Fuzzing and delta-debugging/reducing/shrinking.
     * [go-fuzz](https://github.com/dvyukov/go-fuzz) - Randomized testing system.
