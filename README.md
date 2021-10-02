@@ -2752,6 +2752,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [ipe](https://github.com/dimiro1/ipe) - Open source Pusher server implementation compatible with Pusher client libraries written in GO.
 * [joincap](https://github.com/assafmo/joincap) - Command-line utility for merging multiple pcap files together.
 * [Juju](https://jujucharms.com/) - Cloud-agnostic service deployment and orchestration - supports EC2, Azure, Openstack, MAAS and more.
+* [kopia](https://github.com/kopia/kopia) - Fast and secure backup with local and cloud support, deduplication, encryption, compression & UI.
 * [Leaps](https://github.com/jeffail/leaps) - Pair programming service using Operational Transforms.
 * [lgo](https://github.com/yunabe/lgo) - Interactive Go programming with Jupyter. It supports code completion, code inspection and 100% Go compatibility.
 * [limetext](https://limetext.github.io) - Lime Text is a powerful and elegant text editor primarily developed in Go that aims to be a Free and open-source software successor to Sublime Text.
