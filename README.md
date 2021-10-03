@@ -764,8 +764,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-dkim](https://github.com/toorop/go-dkim) - DKIM library, to sign & verify email.
 * [go-email-validator](https://github.com/go-email-validator/go-email-validator) - Modular email validator for syntax, disposable, smtp, etc... checking.
 * [go-imap](https://github.com/emersion/go-imap) - IMAP library for clients and servers.
-* [go-message](https://github.com/emersion/go-message) - Streaming library for the Internet Message Format and mail messages.
 * [gomail]https://github.com/go-gomail/gomail) - Gomail is a simple and efficient package to send emails.
+* [go-message](https://github.com/emersion/go-message) - Streaming library for the Internet Message Format and mail messages.
 * [go-premailer](https://github.com/vanng822/go-premailer) - Inline styling for HTML mail in Go.
 * [go-simple-mail](https://github.com/xhit/go-simple-mail) - Very simple package to send emails with SMTP Keep Alive and two timeouts: Connect and Send.
 * [Hectane](https://github.com/hectane/hectane) - Lightweight SMTP client providing an HTTP API.
