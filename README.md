@@ -2609,6 +2609,7 @@ _**Unofficial** set of patterns for structuring projects._
 
 ## Editor Plugins
 
+* [coc-go language server extension for Vim/Neovim](https://github.com/josa42/coc-go) - This plugin adds [gopls](https://github.com/golang/tools/blob/master/gopls/README.md) features to Vim/Neovim.
 * [Go plugin for JetBrains IDEs](https://plugins.jetbrains.com/plugin/9568-go) - Go plugin for JetBrains IDEs.
 * [go-language-server](https://github.com/theia-ide/go-language-server) - A wrapper to turn the VSCode go extension into a language server supporting the language-server-protocol.
 * [go-mode](https://github.com/dominikh/go-mode.el) - Go mode for GNU/Emacs.
