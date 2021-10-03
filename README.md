@@ -1077,6 +1077,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [ghw](https://github.com/jaypipes/ghw) - Golang hardware discovery/inspection library.
 * [go-osc](https://github.com/hypebeast/go-osc) - Open Sound Control (OSC) bindings for Go.
 * [go-rpio](https://github.com/stianeikeland/go-rpio) - GPIO for Go, doesn't require cgo.
+* [goroslib](https://github.com/aler9/goroslib) - Robot Operating System (ROS) library for Go.
 * [joystick](https://github.com/0xcafed00d/joystick) - a polled API to read the state of an attached joystick.
 * [sysinfo](https://github.com/zcalusic/sysinfo) - A pure Go library providing Linux OS / kernel / hardware system information.
 
