@@ -217,6 +217,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [tbot](https://github.com/yanzay/tbot) - Telegram bot server with API similar to net/http.
 * [telebot](https://github.com/tucnak/telebot) - Telegram bot framework written in Go.
 * [telegram-bot-api](https://github.com/Syfaro/telegram-bot-api) - Simple and clean Telegram bot client.
+* [teleterm](hhttps://github.com/alfiankan/teleterm) - Telegram Bot Exec Terminal Command.
 * [Tenyks](https://github.com/kyleterry/tenyks) - Service oriented IRC bot using Redis and JSON for messaging.
 
 **[⬆ back to top](#contents)**
