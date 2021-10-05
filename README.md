@@ -203,7 +203,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-joe](https://joe-bot.net) - A general-purpose bot library inspired by Hubot but written in Go.
 * [go-sarah](https://github.com/oklahomer/go-sarah) - Framework to build bot for desired chat services including LINE, Slack, Gitter and more.
 * [go-tgbot](https://github.com/olebedev/go-tgbot) - Pure Golang Telegram Bot API wrapper, generated from swagger file, session-based router and middleware.
-* [go-twitch-irc](https://github.com/gempir/go-twitch-irc) - Libary to write bots for twitch.tv chat
+* [go-twitch-irc](https://github.com/gempir/go-twitch-irc) - Library to write bots for twitch.tv chat
 * [Golang CryptoTrading Bot](https://github.com/saniales/golang-crypto-trading-bot) - A golang implementation of a console-based trading bot for cryptocurrency exchanges.
 * [govkbot](https://github.com/nikepan/govkbot) - Simple Go [VK](https://vk.com) bot library.
 * [hanu](https://github.com/sbstjn/hanu) - Framework for writing Slack bots.
@@ -249,7 +249,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [cli](https://github.com/teris-io/cli) - Simple and complete API for building command line interfaces in Go.
 * [climax](http://github.com/tucnak/climax) - Alternative CLI with "human face", in spirit of Go command.
 * [clîr](https://github.com/leaanthony/clir) - A Simple and Clear CLI library. Dependency free.
-* [cmd](https://github.com/posener/cmd) - Extends the standard `flag` package to support sub commands and more in idomatic way.
+* [cmd](https://github.com/posener/cmd) - Extends the standard `flag` package to support sub commands and more in idiomatic way.
 * [cmdr](https://github.com/hedzr/cmdr) - A POSIX/GNU style, getopt-like command-line UI Go library.
 * [cobra](https://github.com/spf13/cobra) - Commander for modern Go CLI interactions.
 * [command-chain](https://github.com/rainu/go-command-chain) - A go library for configure and run command chains - such like pipelining in unix shells.
