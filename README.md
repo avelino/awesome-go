@@ -2875,6 +2875,7 @@ _**Unofficial** set of patterns for structuring projects._
 ## Meetups
 
 * [Basel Go Meetup](https://www.meetup.com/Basel-Go-Meetup/)
+* [Belgrade Golang Meetup](https://www.meetup.com/golang-serbia/)
 * [Belfast Gophers](https://www.meetup.com/Belfast-Gophers/)
 * [Berlin Golang](https://www.meetup.com/golang-users-berlin/)
 * [Brisbane Gophers](https://www.meetup.com/Brisbane-Golang-Meetup/)
