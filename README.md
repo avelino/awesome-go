@@ -2828,6 +2828,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [GopherCon Vietnam](https://gophercon.vn/) - Ho Chi Minh City, Vietnam.
 * [GothamGo](http://gothamgo.com/) - New York City, USA.
 * [GoWayFest](https://goway.io/) - Minsk, Belarus.
+* [GoWest Conference](https://www.gowestconf.com/) - Lehi, USA.
 
 **[⬆ back to top](#contents)**
 
