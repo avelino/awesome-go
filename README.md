@@ -2818,7 +2818,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [GopherChina](http://gopherchina.org) - Shanghai, China.
 * [GopherCon](http://www.gophercon.com/) - Denver, USA.
 * [GopherCon Australia](https://gophercon.com.au/) - Sydney, Australia.
-* [GopherCon Brazil](https://gopherconbr.org) - Florianópolis, BR.
+* [GopherCon Brazil](https://gopherconbr.org) - Florianópolis, Brazil.
 * [GopherCon Europe](https://gophercon.is/) - Berlin, Germany.
 * [GopherCon India](https://www.gophercon.in/) - Pune, India.
 * [GopherCon Israel](https://www.gophercon.org.il/) - Tel Aviv, Israel.
