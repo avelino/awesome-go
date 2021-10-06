@@ -1708,6 +1708,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [dasel](https://github.com/tomwright/dasel) - Query and update data structures using selectors from the command line. Comparable to jq/yq but supports JSON, YAML, TOML and XML with zero runtime dependencies.
 * [gojsonq](https://github.com/thedevsaddam/gojsonq) - A simple Go package to Query over JSON Data.
 * [gqlgen](https://github.com/99designs/gqlgen) - go generate based graphql server library.
+* [graphjin](https://github.com/dosco/graphjin) – GraphJin gives you an instant secure and fast GraphQL API without code. GraphQL is automagically compiled into an efficient SQL query. Use either as a library or a standalone service.
 * [graphql](https://github.com/tmc/graphql) - graphql parser + utilities.
 * [graphql](https://github.com/neelance/graphql-go) - GraphQL server with a focus on ease of use.
 * [graphql-go](https://github.com/graphql-go/graphql) - Implementation of GraphQL for Go.
