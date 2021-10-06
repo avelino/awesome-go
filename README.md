@@ -139,6 +139,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [PortAudio](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library.
 * [portmidi](https://github.com/rakyll/portmidi) - Go bindings for PortMidi.
 * [vorbis](https://github.com/mccoyst/vorbis) - "Native" Go Vorbis decoder (uses CGO, but has no dependencies).
+* [DCA](https://github.com/jonas747/dca) - The Go implementation of a decoder, encoder and a helper streamer for dca v0 and v1. Uses OpusPackets and Json MetaData
 
 **[⬆ back to top](#contents)**
 
