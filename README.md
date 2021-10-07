@@ -956,7 +956,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Geographic tools and servers*
 
-* [cogger](https://github.com/airbusgeo/cogger) - Efficiently convert geotiffs to COGs (cloud optimized geotiffs).
 * [geoserver](https://github.com/hishamkaram/geoserver) - geoserver Is a Go Package For Manipulating a GeoServer Instance via the GeoServer REST API.
 * [gismanager](https://github.com/hishamkaram/gismanager) - Publish Your GIS Data(Vector Data) to PostGIS and Geoserver.
 * [godal](https://github.com/airbusgeo/godal) - Go wrapper for GDAL.
