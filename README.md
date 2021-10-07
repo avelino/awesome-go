@@ -1066,6 +1066,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries, tools, and tutorials for interacting with hardware.*
 
+* [arduino-cli](https://github.com/arduino/arduino-cli) - Official Arduino CLI and library. Can run standalone, or be incorporated into larger Go projects.
 * [emgo](https://github.com/ziutek/emgo) - Go-like language for programming embedded systems (e.g. STM32 MCU).
 * [ghw](https://github.com/jaypipes/ghw) - Golang hardware discovery/inspection library.
 * [go-osc](https://github.com/hypebeast/go-osc) - Open Sound Control (OSC) bindings for Go.
