@@ -2664,6 +2664,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [bombardier](https://github.com/codesenberg/bombardier) - Fast cross-platform HTTP benchmarking tool.
 * [bosun](https://github.com/bosun-monitor/bosun) - Time Series Alerting Framework.
 * [cassowary](https://github.com/rogerwelin/cassowary) - Modern cross-platform HTTP load-testing tool written in Go.
+* [Ddosify](https://github.com/ddosify/ddosify) -  High-performance load testing tool, written in Golang.
 * [DepCharge](https://github.com/centerorbit/depcharge) - Helps orchestrating the execution of commands across the many dependencies in larger projects.
 * [docker-go-mingw](https://github.com/x1unix/docker-go-mingw) - Docker image for building Go binaries for Windows with MinGW toolchain.
 * [Dockerfile-Generator](https://github.com/ozankasikci/dockerfile-generator) - A go library and an executable that produces valid Dockerfiles using various input channels.
