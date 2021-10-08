@@ -2832,7 +2832,6 @@ _**Unofficial** set of patterns for structuring projects._
 * [GopherCon Singapore](https://gophercon.sg) - Mapletree Business City, Singapore.
 * [GopherCon UK](https://www.gophercon.co.uk/) - London, UK.
 * [GopherCon Vietnam](https://gophercon.vn/) - Ho Chi Minh City, Vietnam.
-* [GothamGo](http://gothamgo.com/) - New York City, USA.
 * [GoWayFest](https://goway.io/) - Minsk, Belarus.
 * [GoWest Conference](https://www.gowestconf.com/) - Lehi, USA.
 
