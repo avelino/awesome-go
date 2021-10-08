@@ -99,6 +99,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [WebAssembly](#webassembly)
     - [Windows](#windows)
     - [XML](#xml)
+    - [Zero Trust](#zero-trust)
 
 - [Tools](#tools)
     - [Code Analysis](#code-analysis)
@@ -2577,6 +2578,15 @@ _**Unofficial** set of patterns for structuring projects._
 * [xpath](https://github.com/antchfx/xpath) - XPath package for Go.
 * [xquery](https://github.com/antchfx/xquery) - XQuery lets you extract data from HTML/XML documents using XPath expression.
 * [zek](https://github.com/miku/zek) - Generate a Go struct from XML.
+
+## Zero Trust
+
+*Libraries and tools to implement Zero Trust architectures.*
+
+* [Cosign](https://github.com/sigstore/cosign) - Container Signing, Verification and Storage in an OCI registry.
+* [in-toto](https://github.com/in-toto/in-toto-golang) - Go implementation of the in-toto (provides a framework to protect the integrity of the software supply chain) python reference implementation.
+* [Spiffe-Vault](https://github.com/philips-labs/spiffe-vault) - Utilizes Spiffe JWT authentication with Hashicorp Vault for secretless authentication.
+* [Spire](https://github.com/spiffe/spire) - SPIRE (the SPIFFE Runtime Environment) is a toolchain of APIs for establishing trust between software systems across a wide variety of hosting platforms.
 
 # Tools
 
