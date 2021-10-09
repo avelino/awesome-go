@@ -2900,6 +2900,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [GoJakarta](https://www.meetup.com/GoJakarta/)
 * [Golang Amsterdam](https://www.meetup.com/golang-amsterdam/)
 * [Golang Argentina](https://www.meetup.com/Golang-Argentina/)
+* [Golang Athens](https://www.meetup.com/Athens-Gophers/)
 * [Golang Baltimore, MD](https://www.meetup.com/BaltimoreGolang/)
 * [Golang Bangalore](https://www.meetup.com/Golang-Bangalore/)
 * [Golang Belo Horizonte - Brazil](https://www.meetup.com/go-belo-horizonte/)
