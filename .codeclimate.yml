@@ -20,3 +20,4 @@ ratings:
   - "**.go"
 exclude_paths:
 - vendor/
+# this is yml file
