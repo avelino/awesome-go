@@ -2108,6 +2108,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [coinpaprika-go](https://github.com/coinpaprika/coinpaprika-api-go-client) - Go client library for interacting with Coinpaprika's API.
 * [device-check-go](https://github.com/rinchsan/device-check-go) - Go client library for interacting with [iOS DeviceCheck API](https://developer.apple.com/documentation/devicecheck) v1.
 * [discordgo](https://github.com/bwmarrin/discordgo) - Go bindings for the Discord Chat API.
+* [disgord](https://github.com/andersfylling/disgord) - Go module for connecting to the Discord gateway and interacting with the API with voice support.
 * [ethrpc](https://github.com/onrik/ethrpc) - Go bindings for Ethereum JSON RPC API.
 * [facebook](https://github.com/huandu/facebook) - Go Library that supports the Facebook Graph API.
 * [fcm](https://github.com/maddevsio/fcm) - Go library for Firebase Cloud Messaging.
