@@ -187,6 +187,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Tools for building blockchains.*
 
 * [cosmos-sdk](https://github.com/cosmos/cosmos-sdk) - A Framework for Building Public Blockchains in the Cosmos Ecosystem.
+* [gocoin](https://github.com/piotrnar/gocoin) - Full Bitcoin solution written in Go language.
 * [go-ethereum](https://github.com/ethereum/go-ethereum) - Official Go implementation of the Ethereum protocol.
 * [gossamer](https://github.com/ChainSafe/gossamer) - A Go implementation of the Polkadot Host
 * [tendermint](https://github.com/tendermint/tendermint) - High-performance middleware for transforming a state machine written in any programming language into a Byzantine Fault Tolerant replicated state machine using the Tendermint consensus and blockchain protocols.
