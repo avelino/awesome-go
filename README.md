@@ -986,6 +986,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Tools for compiling Go to other languages.*
 
 * [c4go](https://github.com/Konstantin8105/c4go) - Transpile C code to Go code.
+* [esp32](https://github.com/andygeiss/esp32-transpiler) - Transpile Go into Arduino code.
 * [f4go](https://github.com/Konstantin8105/f4go) - Transpile FORTRAN 77 code to Go code.
 * [gopherjs](https://github.com/gopherjs/gopherjs) - Compiler from Go to JavaScript.
 * [tardisgo](https://github.com/tardisgo/tardisgo) - Golang to Haxe to CPP/CSharp/Java/JavaScript transpiler.
