@@ -1362,6 +1362,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [sarama](https://github.com/Shopify/sarama) - Go library for Apache Kafka.
 * [Uniqush-Push](https://github.com/uniqush/uniqush-push) - Redis backed unified push service for server-side notifications to mobile devices.
 * [zmq4](https://github.com/pebbe/zmq4) - Go interface to ZeroMQ version 4. Also available for [version 3](https://github.com/pebbe/zmq3) and [version 2](https://github.com/pebbe/zmq2).
+* [rabbitMQ](https://github.com/streadway/amqp) - The RabbitMQ Go client.
 
 **[⬆ back to top](#contents)**
 
