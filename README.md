@@ -2852,7 +2852,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/)
 * [Building Web Apps With Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/)
 * [Continuous Delivery in Go](https://www.manning.com/books/continuous-delivery-in-go) This practical guide to continuous delivery shows you how to rapidly establish an automated pipeline that will improve your testing, code quality, and final product.
-* [For the Love of Go](https://bitfieldconsulting.com/books) - A series of introductory books for Go beginners.
+* [For the Love of Go](https://bitfieldconsulting.com/books/love) - An introductory book for Go beginners.
 * [Go 101](https://go101.org) - A book focusing on Go syntax/semantics and all kinds of details.
 * [Go Bootcamp](http://golangbootcamp.com)
 * [Go Succinctly](https://github.com/thedevsir/gosuccinctly) - in Persian.
