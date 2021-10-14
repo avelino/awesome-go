@@ -2633,6 +2633,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [100 Go Mistakes: How to Avoid Them](https://www.manning.com/books/100-go-mistakes-how-to-avoid-them)
 * [A Go Developer's Notebook](https://leanpub.com/GoNotebook/read)
 * [An Introduction to Programming in Go](http://www.golang-book.com/)
+* [Build an Orchestrator in Go](https://www.manning.com/books/build-an-orchestrator-in-go)
 * [Build Web Application with Golang](https://www.gitbook.com/book/astaxie/build-web-application-with-golang/details)
 * [Building Web Apps With Go](https://www.gitbook.com/book/codegangsta/building-web-apps-with-go/details)
 * [For the Love of Go](https://bitfieldconsulting.com/books) - A series of introductory books for Go beginners.
