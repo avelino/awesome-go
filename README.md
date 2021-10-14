@@ -1314,6 +1314,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Libraries that implement messaging systems.*
 
 * [ami](https://github.com/kak-tus/ami) - Go client to reliable queues based on Redis Cluster Streams.
+* [amqp](https://github.com/streadway/amqp) - Go RabbitMQ Client Library.
 * [APNs2](https://github.com/sideshow/apns2) - HTTP/2 Apple Push Notification provider for Go — Send push notifications to iOS, tvOS, Safari and OSX apps.
 * [Asynq](https://github.com/hibiken/asynq) - A simple, reliable, and efficient distributed task queue for Go built on top of Redis.
 * [Beaver](https://github.com/Clivern/Beaver) - A real time messaging server to build a scalable in-app notifications, multiplayer games, chat apps in web and mobile apps.
@@ -1362,7 +1363,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [sarama](https://github.com/Shopify/sarama) - Go library for Apache Kafka.
 * [Uniqush-Push](https://github.com/uniqush/uniqush-push) - Redis backed unified push service for server-side notifications to mobile devices.
 * [zmq4](https://github.com/pebbe/zmq4) - Go interface to ZeroMQ version 4. Also available for [version 3](https://github.com/pebbe/zmq3) and [version 2](https://github.com/pebbe/zmq2).
-* [rabbitMQ](https://github.com/streadway/amqp) - The RabbitMQ Go client.
 
 **[⬆ back to top](#contents)**
 
