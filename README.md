@@ -234,6 +234,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [realize](https://github.com/tockins/realize) - Go build system with file watchers and live reload. Run, build and watch file changes with custom paths.
 * [Task](https://github.com/go-task/task) - simple "Make" alternative.
 * [taskctl](https://github.com/taskctl/taskctl) - Concurrent task runner.
+* [wtc](https://github.com/rafaelsq/wtc) - simple utility you can use to watch files and execute commands.
 
 **[⬆ back to top](#contents)**
 
