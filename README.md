@@ -1677,6 +1677,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [chyle](https://github.com/antham/chyle) - Changelog generator using a git repository with multiple configuration possibilities.
 * [circuit](https://github.com/cep21/circuit) - An efficient and feature complete Hystrix like Go implementation of the circuit breaker pattern.
 * [circuitbreaker](https://github.com/rubyist/circuitbreaker) - Circuit Breakers in Go.
+* [c2j](https://github.com/edermanoel94/c2j) - A simple command line to convert CSV into JSON.
 * [clockwork](https://github.com/jonboulle/clockwork) - A simple fake clock for golang.
 * [command](https://github.com/txgruppi/command) - Command pattern for Go with thread safe serial and parallel dispatcher.
 * [copy-pasta](https://github.com/jutkko/copy-pasta) - Universal multi-workstation clipboard that uses S3 like backend for the storage.
