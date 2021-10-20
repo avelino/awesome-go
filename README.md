@@ -3107,5 +3107,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [Working with Go](https://github.com/mkaz/working-with-go) - Intro to go for experienced programmers.
 * [Your basic Go](https://yourbasic.org/golang) - Huge collection of tutorials and how to's.
 * [Learning Go by examples](https://dev.to/aurelievache/learning-go-by-examples-introduction-448n) -  Serie of article in order to learn Golang language by concrete applications as example
+* [Go Tutorial](https://www.tutorialspoint.com/go/index.htm) -  Learn Go programming
+* [Go Language Tutorial](https://www.javatpoint.com/go-tutorial) -  Learn Go language Tutorial
 
 **[⬆ back to top](#contents)**
