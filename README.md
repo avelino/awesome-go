@@ -1494,6 +1494,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [VarHandler](https://github.com/azr/generators/tree/master/varhandler) - Generate boilerplate http input and output handling.
 * [xdg](https://github.com/rkoesters/xdg) - FreeDesktop.org (xdg) Specs implemented in Go.
 * [xkg](https://github.com/go-xkg/xkg) - X Keyboard Grabber.
+* [almasbub](https://bitbucket.org/rctiplus/almasbub) - Almasbub (translate : cast) is a library to provides an easy and safe datatype cast in Go.
 
 **[⬆ back to top](#contents)**
 
