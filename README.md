@@ -504,6 +504,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [dtm](https://github.com/yedf/dtm) - A distributed transaction manager. Support XA, TCC, SAGA, Reliable Messages.
 * [eliasdb](https://github.com/krotik/eliasdb) - Dependency-free, transactional graph database with REST API, phrase search and SQL-like query language.
 * [fastcache](https://github.com/VictoriaMetrics/fastcache) - fast thread-safe inmemory cache for big number of entries. Minimizes GC overhead.
+* [FreeCache](github.com/coocood/freecache) - A cache library for Go with zero GC overhead and high concurrent performance.
 * [GCache](https://github.com/bluele/gcache) - Cache library with support for expirable Cache, LFU, LRU and ARC.
 * [go-cache](https://github.com/pmylund/go-cache) - In-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications.
 * [godis](https://github.com/hdt3213/godis) - A Golang implemented high-performance Redis server and cluster.
