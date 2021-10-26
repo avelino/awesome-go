@@ -1617,6 +1617,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [webrtc](https://github.com/pions/webrtc) - A pure Go implementation of the WebRTC API.
 * [winrm](https://github.com/masterzen/winrm) - Go WinRM client to remotely execute commands on Windows machines.
 * [xtcp](https://github.com/xfxdev/xtcp) - TCP Server Framework with simultaneous full duplex communication, graceful shutdown, and custom protocol.
+* [netpoll](https://github.com/cloudwego/netpoll) - A high-performance non-blocking I/O networking framework, which focused on RPC scenarios, developed by ByteDance.
 
 **[⬆ back to top](#contents)**
 
