@@ -1953,6 +1953,7 @@ _**Unofficial** set of patterns for structuring projects._
     * [cupaloy](https://github.com/bradleyjkemp/cupaloy) - Simple snapshot testing addon for your test framework.
     * [dbcleaner](https://github.com/khaiql/dbcleaner) - Clean database for testing purpose, inspired by `database_cleaner` in Ruby.
     * [dsunit](https://github.com/viant/dsunit) - Datastore testing for SQL, NoSQL, structured files.
+    * [e2e](https://github.com/efficientgo/e2e) - robust framework for running complex workload scenarios in isolation.
     * [embedded-postgres](https://github.com/fergusstrange/embedded-postgres) - Run a real Postgres database locally on Linux, OSX or Windows as part of another Go application or test.
     * [endly](https://github.com/viant/endly) - Declarative end to end functional testing.
     * [fixenv](https://github.com/rekby/fixenv) - Fixture manage engine, inspired by pytest fixtures.
