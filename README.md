@@ -1411,7 +1411,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [goioc/di](https://github.com/goioc/di) - Spring-inspired Dependency Injection Container.
 * [kinit](https://github.com/go-kata/kinit) - Customizable dependency injection container with the global mode, cascade initialization and panic-safe finalization.
 * [linker](https://github.com/logrange/linker) - A reflection based dependency injection and inversion of control library with components lifecycle support.
-* [nject/npoint](https://github.com/BlueOwlOpenSource/nject) - A type safe, reflective framework based on types for libraries, tests, and endpoints.
+* [nject](https://github.com/muir/nject) - A type safe, reflective framework for libraries, tests, and http endpoints, and service startup.
 * [wire](https://github.com/Fs02/wire) - Strict Runtime Dependency Injection for Golang.
 
 **[⬆ back to top](#contents)**
