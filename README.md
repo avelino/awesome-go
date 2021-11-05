@@ -2773,6 +2773,7 @@ _**Unofficial** set of patterns for structuring projects._
 
 ### Other Software
 
+* [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) - Network-wide ads & trackers blocking DNS server.
 * [Better Go Playground](https://goplay.tools) - Go playground with syntax highlight, code completion and other features.
 * [blocky](https://github.com/0xERR0R/blocky) - Fast and lightweight DNS proxy as ad-blocker for local network with many features.
 * [borg](https://github.com/crufter/borg) - Terminal based search engine for bash snippets.
