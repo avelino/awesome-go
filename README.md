@@ -2126,6 +2126,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [appstore-sdk-go](https://github.com/Kachit/appstore-sdk-go) - Unofficial Golang SDK for AppStore Connect API.
 * [aws-sdk-go](https://github.com/aws/aws-sdk-go) - The official AWS SDK for the Go programming language.
 * [brewerydb](https://github.com/naegelejd/brewerydb) - Go library for accessing the BreweryDB API.
+* [bqwriter](https://github.com/OTA-Insight/bqwriter) - High Level Go Library to write data into [Google BigQuery](https://cloud.google.com/bigquery) at a high throughout.
 * [cachet](https://github.com/andygrunwald/cachet) - Go client library for [Cachet (open source status page system)](https://cachethq.io/).
 * [circleci](https://github.com/jszwedko/go-circleci) - Go client library for interacting with CircleCI's API.
 * [clarifai](https://github.com/samuelcouch/clarifai) - Go client library for interfacing with the Clarifai API.
