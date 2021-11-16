@@ -2835,6 +2835,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [vaku](https://github.com/lingrino/vaku) - CLI & API for folder-based functions in Vault like copy, move, and search.
 * [vFlow](https://github.com/VerizonDigital/vflow) - High-performance, scalable and reliable IPFIX, sFlow and Netflow collector.
 * [wellington](https://github.com/wellington/wellington) - Sass project management tool, extends the language with sprite functions (like Compass).
+* [wgrest](https://github.com/suquant/wgrest) - WireGuard REST API and Web UI. Manage WireGuard VPN tunnels by RESTful manner.
 * [woke](https://github.com/get-woke/woke) - Detect non-inclusive language in your source code.
 
 **[⬆ back to top](#contents)**
