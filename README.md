@@ -2845,13 +2845,14 @@ _**Unofficial** set of patterns for structuring projects._
 
 ## E-Books
 
-* [100 Go Mistakes: How to Avoid Them](https://www.manning.com/books/100-go-mistakes-how-to-avoid-them)
+* [100 Go Mistakes: How to Avoid Them](https://www.manning.com/books/100-go-mistakes-how-to-avoid-them)Spot errors in your Go code you didn’t even know you were making and boost your productivity by avoiding common mistakes and pitfalls.
 * [A Go Developer's Notebook](https://leanpub.com/GoNotebook/read)
 * [An Introduction to Programming in Go](http://www.golang-book.com/)
-* [Build an Orchestrator in Go](https://www.manning.com/books/build-an-orchestrator-in-go)
+* [Build an Orchestrator in Go](https://www.manning.com/books/build-an-orchestrator-in-go)Understand Kubernetes and other orchestration systems deeply by building your own using Go and the Docker API.
 * [Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/)
 * [Building Web Apps With Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/)
 * [Continuous Delivery in Go](https://www.manning.com/books/continuous-delivery-in-go) This practical guide to continuous delivery shows you how to rapidly establish an automated pipeline that will improve your testing, code quality, and final product.
+* [Effective Go](https://www.manning.com/books/effective-go) Unlock Go’s unique perspective on program design, and start writing simple, maintainable, and testable Go code.
 * [For the Love of Go](https://bitfieldconsulting.com/books) - A series of introductory books for Go beginners.
 * [Go 101](https://go101.org) - A book focusing on Go syntax/semantics and all kinds of details.
 * [Go Bootcamp](http://golangbootcamp.com)
