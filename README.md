@@ -585,6 +585,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *SQL query builder, libraries for building and using SQL.*
 
+* [bqb](https://github.com/nullism/bqb) - Lightweight and easy to learn query builder.
 * [buildsqlx](https://github.com/arthurkushman/buildsqlx) - Go database query builder library for PostgreSQL.
 * [dbq](https://github.com/rocketlaunchr/dbq) - Zero boilerplate database operations for Go.
 * [Dotsql](https://github.com/gchaincl/dotsql) - Go library that helps you keep sql files in one place and use them with ease.
