@@ -2554,6 +2554,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [ngamux](https://github.com/ngamux/ngamux) - Simple HTTP router for Go.
 * [ozzo-routing](https://github.com/go-ozzo/ozzo-routing) - An extremely fast Go (golang) HTTP router that supports regular expression route matching. Comes with full support for building RESTful APIs.
 * [pure](https://github.com/go-playground/pure) - Is a lightweight HTTP router that sticks to the std "net/http" implementation.
+* [R2](https://github.com/aofei/r2) - A minimalist HTTP request routing helper for Go.
 * [Siesta](https://github.com/VividCortex/siesta) - Composable framework to write middleware and handlers.
 * [vestigo](https://github.com/husobee/vestigo) - Performant, stand-alone, HTTP compliant URL Router for go web applications.
 * [violetear](https://github.com/nbari/violetear) - Go HTTP router.
