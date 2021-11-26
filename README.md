@@ -563,6 +563,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Database tools.*
 
+* [binlogo](https://github.com/jin06/binlogo) - Binlogo is a distributed MySQL data synchronization tool based on binlog.
 * [chproxy](https://github.com/Vertamedia/chproxy) - HTTP proxy for ClickHouse database.
 * [clickhouse-bulk](https://github.com/nikepan/clickhouse-bulk) - Collects small insterts and sends big requests to ClickHouse servers.
 * [datagen](https://github.com/codingconcepts/datagen) - A fast data generator that's multi-table aware and supports multi-row DML.
