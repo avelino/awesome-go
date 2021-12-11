@@ -317,6 +317,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [progressbar](https://github.com/schollz/progressbar) - Basic thread-safe progress bar that works in every OS.
 * [pterm](https://github.com/pterm/pterm) - A library to beautify console output on every platform with many combinable components.
 * [simpletable](https://github.com/alexeyco/simpletable) - Simple tables in terminal with Go.
+* [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
 * [tabby](https://github.com/cheynewallace/tabby) - A tiny library for super simple Golang tables.
 * [table](https://github.com/tomlazar/table) - Small library for terminal color based tables .
 * [tabular](https://github.com/InVisionApp/tabular) - Print ASCII tables from command line utilities without the need to pass large sets of data to the API.
@@ -2364,7 +2365,6 @@ _**Unofficial** set of patterns for structuring projects._
 * [sliceconv](https://github.com/Henry-Sarabia/sliceconv) - Slice conversion between primitive types.
 * [slicer](https://github.com/leaanthony/slicer) - Makes working with slices easier.
 * [sorty](https://github.com/jfcg/sorty) - Fast Concurrent / Parallel Sorting.
-* [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
 * [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package.
 * [sshman](https://github.com/shoobyban/sshman) - SSH Manager for authorized_keys files on multiple remote servers.
 * [statiks](https://github.com/janiltonmaciel/statiks) - Fast, zero-configuration, static HTTP filer server.
