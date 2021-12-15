@@ -2,14 +2,15 @@ name: Check For Stale Repositories
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 0' 
+    - cron: '0 0 * * 0'
 jobs:
   build:
     name: Running test
     runs-on: ubuntu-latest
+    environment: netlify
     strategy:
       matrix:
-       go: ['1.15.x']
+        go: ['1.15.x']
     steps:
     - uses: actions/checkout@1.0.0
     - name: Get dependencies
@@ -17,5 +18,13 @@ jobs:
         go get -v -t -d ./...
     - name: run script
       run: go run test_stale_repositories.go scripts.go
-      env: 
+      env:
         OAUTH_TOKEN: ${{secrets.OAUTH_TOKEN}}
+    - name: netlify awesome-go.com
+      uses: jsmrcaga/action-netlify-deploy@v1.1.0
+      if: contains('refs/heads/master', github.ref)
+      with:
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        NETLIFY_DEPLOY_TO_PROD: true
+        build_directory: tmpl
