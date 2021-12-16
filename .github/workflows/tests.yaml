@@ -11,9 +11,7 @@ jobs:
     name: Running test
     runs-on: ubuntu-latest
     environment: netlify
-    strategy:
-      matrix:
-        go: ['1.15.x']
+    container: golang:latest
     steps:
     - uses: actions/checkout@1.0.0
     - name: Get dependencies
