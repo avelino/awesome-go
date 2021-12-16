@@ -14,17 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@1.0.0
     - name: Get dependencies
-      run: |
-        go get -v -t -d ./...
+      run: go get -v -t -d ./...
     - name: run script
       run: go run test_stale_repositories.go scripts.go
       env:
         OAUTH_TOKEN: ${{secrets.OAUTH_TOKEN}}
-    - name: netlify awesome-go.com
-      uses: jsmrcaga/action-netlify-deploy@v1.1.0
-      if: contains('refs/heads/master', github.ref)
-      with:
-        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        NETLIFY_DEPLOY_TO_PROD: true
-        build_directory: tmpl
