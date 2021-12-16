@@ -20,7 +20,7 @@ jobs:
       run: go test
     - name: netlify awesome-go.com
       uses: jsmrcaga/action-netlify-deploy@v1.1.0
-      if: contains('refs/heads/master', github.ref)
+      if: contains('refs/heads/main', github.ref)
       with:
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
