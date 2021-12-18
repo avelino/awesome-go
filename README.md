@@ -140,6 +140,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [PortAudio](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library.
 * [portmidi](https://github.com/rakyll/portmidi) - Go bindings for PortMidi.
 * [vorbis](https://github.com/mccoyst/vorbis) - "Native" Go Vorbis decoder (uses CGO, but has no dependencies).
+* [ymp3cli](https://github.com/paij0se/ymp3cli) - Download and Listen music in the terminal.
 
 **[⬆ back to top](#contents)**
 
