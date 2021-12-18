@@ -2,20 +2,17 @@ name: Check For Stale Repositories
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 0' 
+    - cron: '0 0 * * 0'
 jobs:
   build:
     name: Running test
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-       go: ['1.15.x']
+    container: golang:latest
     steps:
     - uses: actions/checkout@1.0.0
     - name: Get dependencies
-      run: |
-        go get -v -t -d ./...
+      run: go get -v -t -d ./...
     - name: run script
       run: go run test_stale_repositories.go scripts.go
-      env: 
+      env:
         OAUTH_TOKEN: ${{secrets.OAUTH_TOKEN}}
