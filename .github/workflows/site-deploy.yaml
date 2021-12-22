@@ -11,7 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     environment: netlify
     container: golang:latest
-    needs: tests
     steps:
     - uses: actions/checkout@1.0.0
     - name: Get dependencies
