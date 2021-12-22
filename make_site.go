@@ -54,8 +54,6 @@ func main() {
 func makeSiteStruct(objs []Object) {
 	for _, obj := range objs {
 		folder := fmt.Sprintf("tmpl/%s", obj.Slug)
-		fmt.Println(folder)
-
 		err := os.Mkdir(folder, 0755)
 		if err != nil {
 			log.Println(err)
