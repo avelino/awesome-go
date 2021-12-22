@@ -23,9 +23,31 @@
 
 <body>
     <div id="content">
+        <header>
+            <h1>
+                <a href="https://awesome-go.com/">
+                    <img align="right" src="https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png" alt="awesome-go" title="awesome-go" />
+                </a>
+                {{.Title}} - <a href="https://awesome-go.com/">Awesome Go</a>
+            </h1>
+
+            <p>
+                <a href="https://github.com/avelino/awesome-go/actions/workflows/tests.yaml?query=branch%3Amain" rel="nofollow"><img src="https://github.com/avelino/awesome-go/actions/workflows/tests.yaml/badge.svg?branch=main" alt="Build Status"></a>
+                <a href="https://github.com/sindresorhus/awesome" rel="nofollow"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
+                <a href="https://gophers.slack.com/messages/awesome" rel="nofollow"><img src="https://img.shields.io/badge/join-us%20on%20slack-gray.svg?longCache=true&amp;logo=slack&amp;colorB=red" alt="Slack Widget"></a>
+                <a href="https://app.netlify.com/sites/awesome-go/deploys" rel="nofollow"><img src="https://api.netlify.com/api/v1/badges/83a6dcbe-0da6-433e-b586-f68109286bd5/deploy-status" alt="Netlify Status"></a>
+                <a href="https://www.trackawesomelist.com/avelino/awesome-go/" rel="nofollow"><img src="https://www.trackawesomelist.com/badge.svg" alt="Track Awesome List"></a>
+            </p>
+
+            <p>
+                <a href="https://www.producthunt.com/posts/awesome-go?utm_source=badge-featured&amp;utm_medium=badge&amp;utm_souce=badge-awesome-go" rel="nofollow"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=291535&amp;theme=light" width="250" height="54" /></a>
+            </p>
+
+        </header>
+
         <ul>
             {{range .Items}}
-            <li href="/{{.Url}}">{{.Descrition}}</li>
+            <li><a href="/{{.Url}}" alt="Go to {{.Title}} link">{{.Description}}</a></li>
             {{end}}
         </ul>
 
