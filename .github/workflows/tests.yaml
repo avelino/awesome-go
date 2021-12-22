@@ -1,4 +1,4 @@
-name: Run tests
+name: tests
 
 on:
   push:
@@ -10,7 +10,6 @@ jobs:
   build:
     name: Running test
     runs-on: ubuntu-latest
-    environment: netlify
     container: golang:latest
     steps:
     - uses: actions/checkout@1.0.0
@@ -18,11 +17,3 @@ jobs:
       run: go get -v -t -d ./...
     - name: Run tests
       run: go test
-    - name: netlify awesome-go.com
-      uses: jsmrcaga/action-netlify-deploy@v1.1.0
-      if: contains('refs/heads/main', github.ref)
-      with:
-        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        NETLIFY_DEPLOY_TO_PROD: true
-        build_directory: tmpl
