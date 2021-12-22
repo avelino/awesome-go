@@ -5,8 +5,14 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-<url>
-  <loc>http://www.awesome-go.com/</loc>
-  <lastmod>2016-10-10T07:39:03+00:00</lastmod>
-</url>
+  <url>
+    <loc>https://www.awesome-go.com/</loc>
+    <lastmod>2016-10-10T07:39:03+00:00</lastmod>
+  </url>
+  {{range .}}
+  <url>
+    <loc>https://www.awesome-go.com/{{.Slug}}</loc>
+    <lastmod>2016-10-10T07:39:03+00:00</lastmod>
+  </url>
+  {{end}}
 </urlset>
