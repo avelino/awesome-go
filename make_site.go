@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
+	"strings"
 	"text/template"
 
 	"github.com/PuerkitoBio/goquery"
@@ -49,6 +50,7 @@ func main() {
 
 	makeSiteStruct(objs)
 	makeSitemap(objs)
+	changeLinksInIndex(string(input), query)
 }
 
 func makeSiteStruct(objs []Object) {
@@ -94,4 +96,19 @@ func makeObjById(selector string, s *goquery.Selection) (obj Object) {
 		}
 	})
 	return
+}
+
+func changeLinksInIndex(html string, query *goquery.Document) {
+	query.Find("body #content ul li ul li a").Each(func(_ int, s *goquery.Selection) {
+
+		href, exists := s.Attr("href")
+		if exists {
+			uri := strings.SplitAfter(href, "#")
+			if len(uri) >= 2 {
+				html = strings.ReplaceAll(html, fmt.Sprintf(`href="%s"`, href), fmt.Sprintf(`href="%s"`, uri[1]))
+			}
+		}
+	})
+
+	os.WriteFile("./tmpl/index.html", []byte(html), 0644)
 }
