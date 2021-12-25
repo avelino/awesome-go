@@ -16,6 +16,8 @@
     <meta property="og:image" content="https://awesome-go.com/assets/logo.png" />
     <meta property="og:description" content="{{.Description}} - Awesome Go" />
 
+    <link rel="canonical" href="https://awesome-go.com/{{.Slug}}">
+
     <link rel="stylesheet" type="text/css" href="/assets/fonts/firasans.css">
     <link rel="stylesheet" type="text/css" href="/assets/normalize.css">
     <link rel="stylesheet" type="text/css" href="/assets/awesome-go.css">
@@ -31,6 +33,8 @@
                 {{.Title}} - <a href="https://awesome-go.com/">Awesome Go</a>
             </h1>
 
+            <p><em>{{.Description}}</em></p>
+
             <p>
                 <a href="https://github.com/avelino/awesome-go/actions/workflows/tests.yaml?query=branch%3Amain" rel="nofollow"><img src="https://github.com/avelino/awesome-go/actions/workflows/tests.yaml/badge.svg?branch=main" alt="Build Status"></a>
                 <a href="https://github.com/sindresorhus/awesome" rel="nofollow"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
@@ -44,10 +48,21 @@
             </p>
 
         </header>
+        <div>
+            <h3 id="sponsorships">Sponsorships</h3>
+            <p>
+                <a href="https://www.doppler.com/?utm_campaign=github_repo&amp;utm_medium=referral&amp;utm_content=awesomego&amp;utm_source=github"><img src="https://github.com/avelino/awesome-go/raw/main/tmpl/assets/sponsors/doppler.png" alt="Doppler"></a>
+            </p>
+            <p>
+                <a href="https://m.do.co/c/bd3b723c0a36?utm_medium=opensource&amp;utm_source=awesome-go"><img src="https://avelino.run/sponsors/do_logo_horizontal_blue-210.png" alt="Digital Ocean"></a>
+            </p>
+        </div>
+
+        <i><a href="/#contents" alt="back to content menu" title="back to content menu">🗺️ back to content menu</a></i>
 
         <ul>
             {{range .Items}}
-            <li><a href="/{{.Url}}" alt="Go to {{.Title}} link">{{.Description}}</a></li>
+            <li><a href="/{{.Url}}" alt="Go to {{.Title}} link" title="Go to {{.Title}} link">{{.Description}}</a></li>
             {{end}}
         </ul>
 
