@@ -46,7 +46,6 @@ func GenerateHTML() (err error) {
 	parser := parser.NewWithExtensions(extensions)
 
 	body := string(markdown.ToHTML(input, parser, nil))
-	// body := string(gfm.Markdown(input))
 	c := &content{Body: body}
 	t := template.Must(template.ParseFiles(tplPath))
 	f, err := os.Create(idxPath)
