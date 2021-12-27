@@ -36,6 +36,7 @@ type content struct {
 	Body string
 }
 
+// GenerateHTML generate site html (index.html) from markdown file
 func GenerateHTML() (err error) {
 	// options
 	readmePath := "./README.md"
