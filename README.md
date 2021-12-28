@@ -1425,6 +1425,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [linker](https://github.com/logrange/linker) - A reflection based dependency injection and inversion of control library with components lifecycle support.
 * [nject](https://github.com/muir/nject) - A type safe, reflective framework for libraries, tests, and http endpoints, and service startup.
 * [wire](https://github.com/Fs02/wire) - Strict Runtime Dependency Injection for Golang.
+* [google/wire](https://github.com/google/wire) - Automated Initialization in Go
 
 **[⬆ back to top](#contents)**
 
