@@ -1420,12 +1420,13 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [fx](https://github.com/uber-go/fx) - A dependency injection based application framework for Go (built on top of dig).
 * [gocontainer](https://github.com/vardius/gocontainer) - Simple Dependency Injection Container.
 * [goioc/di](https://github.com/goioc/di) - Spring-inspired Dependency Injection Container.
+* [google/wire](https://github.com/google/wire) - Automated Initialization in Go
 * [HnH/di](https://github.com/HnH/di) - DI container library that is focused on clean API and flexibility.
 * [kinit](https://github.com/go-kata/kinit) - Customizable dependency injection container with the global mode, cascade initialization and panic-safe finalization.
 * [linker](https://github.com/logrange/linker) - A reflection based dependency injection and inversion of control library with components lifecycle support.
 * [nject](https://github.com/muir/nject) - A type safe, reflective framework for libraries, tests, and http endpoints, and service startup.
 * [wire](https://github.com/Fs02/wire) - Strict Runtime Dependency Injection for Golang.
-* [google/wire](https://github.com/google/wire) - Automated Initialization in Go
+
 
 **[⬆ back to top](#contents)**
 
