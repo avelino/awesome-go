@@ -926,7 +926,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [fuego](https://github.com/seborama/fuego) - Functional Experiment in Go.
 * [go-underscore](https://github.com/tobyhede/go-underscore) - Useful collection of helpfully functional Go collection utilities.
 * [gofp](https://github.com/rbrahul/gofp) - A lodash like powerful utility library for Golang.
-* [gomad](https://github.com/medmouine/gomad) - Common functional data and side effects manipulation/abstraction patterns in Golang.
+* [gomad](https://github.com/medmouine/gomad) - Light-weight data and side effects manipulation functional patterns in Golang.
 
 **[⬆ back to top](#contents)**
 
