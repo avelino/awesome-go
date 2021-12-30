@@ -1301,7 +1301,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [go-cluster](https://github.com/e-XpertSolutions/go-cluster) - Go implementation of the k-modes and k-prototypes clustering algorithms.
 * [go-deep](https://github.com/patrikeh/go-deep) - A feature-rich neural network library in Go.
 * [go-fann](https://github.com/white-pony/go-fann) - Go bindings for Fast Artificial Neural Networks(FANN) library.
-* [go-featureprocessing](https://github.com/nikolaydubina/go-featureprocessing) - Fast and convenient feature processing for low latency machine leraning in Go.
+* [go-featureprocessing](https://github.com/nikolaydubina/go-featureprocessing) - Fast and convenient feature processing for low latency machine learning in Go.
 * [go-galib](https://github.com/thoj/go-galib) - Genetic Algorithms library written in Go / golang.
 * [go-pr](https://github.com/daviddengcn/go-pr) - Pattern recognition package in Go lang.
 * [gobrain](https://github.com/goml/gobrain) - Neural Networks written in go.
