@@ -822,6 +822,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gval](https://github.com/PaesslerAG/gval) - A highly customizable expression language written in Go.
 * [metacall](https://github.com/metacall/core) - Cross-platform Polyglot Runtime which supports NodeJS, JavaScript, TypeScript, Python, Ruby, C#, WebAssembly, Java, Cobol and more.
 * [ngaro](https://github.com/db47h/ngaro) - Embeddable Ngaro VM implementation enabling scripting in Retro.
+* [prolog](https://github.com/ichiban/prolog) - Embeddable Prolog.
 * [purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go.
 * [tengo](https://github.com/d5/tengo) - Bytecode compiled script language for Go.
 
