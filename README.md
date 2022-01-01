@@ -238,6 +238,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [gaper](https://github.com/maxcnunes/gaper) - Builds and restarts a Go project when it crashes or some watched file changes.
 * [gilbert](https://go-gilbert.github.io) - Build system and task runner for Go projects.
 * [goyek](https://github.com/goyek/goyek) - Create build pipelines in Go.
+* [mage](https://github.com/magefile/mage) - Mage is a make/rake-like build tool using Go.
 * [mmake](https://github.com/tj/mmake) - Modern Make.
 * [realize](https://github.com/tockins/realize) - Go build system with file watchers and live reload. Run, build and watch file changes with custom paths.
 * [Task](https://github.com/go-task/task) - simple "Make" alternative.
