@@ -2433,6 +2433,7 @@ _**Unofficial** set of patterns for structuring projects._
 
 *Libraries for version control.*
 
+* [froggit-go](https://github.com/jfrog/froggit-go) - Froggit-Go is a Go library, allowing to perform actions on VCS providers. 
 * [gh](https://github.com/rjeczalik/gh) - Scriptable server and net/http middleware for GitHub Webhooks.
 * [git2go](https://github.com/libgit2/git2go) - Go bindings for libgit2.
 * [githooks](https://github.com/gabyx/githooks) - Per-repo and shared Git hooks with version control and auto update.
