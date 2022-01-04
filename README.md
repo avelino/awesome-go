@@ -2433,7 +2433,7 @@ _**Unofficial** set of patterns for structuring projects._
 
 *Libraries for version control.*
 
-* [froggit-go](https://github.com/jfrog/froggit-go) - Froggit-Go is a Go library, allowing to perform actions on VCS providers. 
+* [froggit-go](https://github.com/jfrog/froggit-go) - Froggit-Go is a Go library, allowing to perform actions on VCS providers.
 * [gh](https://github.com/rjeczalik/gh) - Scriptable server and net/http middleware for GitHub Webhooks.
 * [git2go](https://github.com/libgit2/git2go) - Go bindings for libgit2.
 * [githooks](https://github.com/gabyx/githooks) - Per-repo and shared Git hooks with version control and auto update.
@@ -2770,6 +2770,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [kcli](https://github.com/cswank/kcli) - Command line tool for inspecting kafka topics/partitions/messages.
 * [kool](https://github.com/kool-dev/kool) - Command line tool for managing Docker environments as an easy way.
 * [kubernetes](https://github.com/kubernetes/kubernetes) - Container Cluster Manager from Google.
+* [kwatch](https://github.com/abahmed/kwatch) - Monitor & detect crashes in your Kubernetes(K8s) cluster instantly.
 * [lstags](https://github.com/ivanilves/lstags) - Tool and API to sync Docker images across different registries.
 * [lwc](https://github.com/timdp/lwc) - A live-updating version of the UNIX wc command.
 * [manssh](https://github.com/xwjdsh/manssh) - manssh is a command line tool for managing your ssh alias config easily.
