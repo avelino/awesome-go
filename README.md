@@ -1427,7 +1427,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [nject](https://github.com/muir/nject) - A type safe, reflective framework for libraries, tests, and http endpoints, and service startup.
 * [wire](https://github.com/Fs02/wire) - Strict Runtime Dependency Injection for Golang.
 
-
 **[⬆ back to top](#contents)**
 
 ### Project Layout
