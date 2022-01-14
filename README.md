@@ -1177,6 +1177,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 *Libraries for scheduling jobs.*
 
+* [cheek](https://github.com/datarootsio/cheek) - A simple crontab like scheduler that aims to offer a KISS approach to job scheduling.
 * [clockwerk](https://github.com/onatm/clockwerk) - Go package to schedule periodic jobs using a simple, fluent syntax.
 * [cronticker](https://github.com/krayzpipes/cronticker) - A ticker implementation to support cron schedules.
 * [go-cron](https://github.com/rk/go-cron) - Simple Cron library for go that can execute closures or functions at varying intervals, from once a second to once a year on a specific date and time. Primarily for web applications and long running daemons.
