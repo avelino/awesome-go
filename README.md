@@ -964,6 +964,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [efaceconv](https://github.com/t0pep0/efaceconv) - Code generation tool for high performance conversion from interface{} to immutable type without allocations.
 * [gen](https://github.com/clipperhouse/gen) - Code generation tool for ‘generics’-like functionality.
 * [generis](https://github.com/senselogic/GENERIS) - Code generation tool providing generics, free-form macros, conditional compilation and HTML templating.
+* [genfuncs](https://github.com/nwillc/genfuncs) - Go 1.18 generics package inspired by Kotlin's Sequence.
 * [go-enum](https://github.com/abice/go-enum) - Code generation for enums from code comments.
 * [go-linq](https://github.com/ahmetalpbalkan/go-linq) - .NET LINQ-like query methods for Go.
 * [go-xray](https://github.com/pieterclaerhout/go-xray) - Helpers for making the use of reflection easier.
