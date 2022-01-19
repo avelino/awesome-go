@@ -794,6 +794,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 * [hermes](https://github.com/matcornic/hermes) - Golang package that generates clean, responsive HTML e-mails.
 * [mailchain](https://github.com/mailchain/mailchain) - Send encrypted emails to blockchain addresses written in Go.
 * [mailgun-go](https://github.com/mailgun/mailgun-go) - Go library for sending mail with the Mailgun API.
+* [mailx](https://github.com/valord577/mailx) - Mailx is a library that makes it easier to send email via SMTP. It is an enhancement of the golang standard library `net/smtp`.
 * [MailHog](https://github.com/mailhog/MailHog) - Email and SMTP testing with web and API interface.
 * [SendGrid](https://github.com/sendgrid/sendgrid-go) - SendGrid's Go library for sending email.
 * [smtp](https://github.com/mailhog/smtp) - SMTP server protocol state machine.
