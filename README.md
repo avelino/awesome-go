@@ -2323,6 +2323,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [go-health](https://github.com/Talento90/go-health) - Health package simplifies the way you add health check to your services.
 * [go-httpheader](https://github.com/mozillazg/go-httpheader) - Go library for encoding structs into Header fields.
 * [go-lock](https://github.com/viney-shih/go-lock) - go-lock is a lock library implementing read-write mutex and read-write trylock without starvation.
+* [go-pkg](https://github.com/chenquan/go-pkg) - A go toolkit.
 * [go-problemdetails](https://github.com/mvmaasakkers/go-problemdetails) - Go package for working with Problem Details.
 * [go-rate](https://github.com/beefsack/go-rate) - Timed rate limiter for Go.
 * [go-safe](https://github.com/kenkyu392/go-safe) - Panic-safe sandbox.
@@ -2425,7 +2426,6 @@ _**Unofficial** set of patterns for structuring projects._
 * [util](https://github.com/shomali11/util) - Collection of useful utility functions. (strings, concurrency, manipulations, ...).
 * [wuzz](https://github.com/asciimoo/wuzz) - Interactive cli tool for HTTP inspection.
 * [xferspdy](https://github.com/monmohan/xferspdy) - Xferspdy provides binary diff and patch library in golang.
-* [go-pkg](https://github.com/chenquan/go-pkg) - A go toolkit.
 
 **[⬆ back to top](#contents)**
 
