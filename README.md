@@ -2425,7 +2425,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [util](https://github.com/shomali11/util) - Collection of useful utility functions. (strings, concurrency, manipulations, ...).
 * [wuzz](https://github.com/asciimoo/wuzz) - Interactive cli tool for HTTP inspection.
 * [xferspdy](https://github.com/monmohan/xferspdy) - Xferspdy provides binary diff and patch library in golang.
-* [go-pkg](https://github.com/monmohan/xferspdy) - A go toolkit.
+* [go-pkg](https://github.com/chenquan/go-pkg) - A go toolkit.
 
 **[⬆ back to top](#contents)**
 
