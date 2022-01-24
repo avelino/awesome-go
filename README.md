@@ -118,6 +118,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Benchmarks](#benchmarks)
     - [Conferences](#conferences)
     - [E-Books](#e-books)
+        - [E-books for purchase](#e-books-for-purchase)
+        - [Free e-books](#free-e-books)
     - [Gophers](#gophers)
     - [Meetups](#meetups)
     - [Style Guides](#style-guides)
@@ -2920,7 +2922,7 @@ _**Unofficial** set of patterns for structuring projects._
 
 ## E-Books
 
-## E-books for purchase
+### E-books for purchase
 
 * [100 Go Mistakes: How to Avoid Them](https://www.manning.com/books/100-go-mistakes-how-to-avoid-them)
 * [Build an Orchestrator in Go](https://www.manning.com/books/build-an-orchestrator-in-go)
@@ -2929,7 +2931,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [Writing A Compiler In Go](https://compilerbook.com)
 * [Writing An Interpreter In Go](https://interpreterbook.com) - Book that introduces dozens of techniques for writing idiomatic, expressive, and efficient Go code that avoids common pitfalls.
 
-## Free e-books
+### Free e-books
 
 * [A Go Developer's Notebook](https://leanpub.com/GoNotebook/read)
 * [An Introduction to Programming in Go](http://www.golang-book.com/)
