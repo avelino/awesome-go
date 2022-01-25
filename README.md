@@ -2928,6 +2928,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [Build an Orchestrator in Go](https://www.manning.com/books/build-an-orchestrator-in-go)
 * [Continuous Delivery in Go](https://www.manning.com/books/continuous-delivery-in-go) - This practical guide to continuous delivery shows you how to rapidly establish an automated pipeline that will improve your testing, code quality, and final product.
 * [For the Love of Go](https://bitfieldconsulting.com/books/love) - An introductory book for Go beginners.
+* [The Power of Go: Tools](https://bitfieldconsulting.com/books/tools) - A guide to writing command-line tools in Go.
 * [Writing A Compiler In Go](https://compilerbook.com)
 * [Writing An Interpreter In Go](https://interpreterbook.com) - Book that introduces dozens of techniques for writing idiomatic, expressive, and efficient Go code that avoids common pitfalls.
 
