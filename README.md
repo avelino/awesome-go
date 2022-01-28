@@ -15,11 +15,11 @@
 
 	<sup>Special thanks to:</sup><br/><br/>
 
-	[![Doppler](https://github.com/avelino/awesome-go/raw/main/tmpl/assets/sponsors/doppler.png)](https://www.doppler.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=awesomego&utm_source=github)
+	[![Doppler](https://avelino.run/sponsors/doppler-logo.png)](https://www.doppler.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=awesomego&utm_source=github)
 
 	<a href="https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=awesomego&utm_source=github">
 		<div>
-			<img src="https://camo.githubusercontent.com/604b5653345cd8ccc38eb7d4102a7b97248066229fcb5c137a6c6c30af97a938/68747470733a2f2f73696e647265736f726875732e636f6d2f6173736574732f7468616e6b732f776f726b6f732d6c6f676f2d77686974652d62672e737667" width="200" alt="WorkOS">
+			<img src="https://avelino.run/sponsors/workos-logo-white-bg.svg" width="200" alt="WorkOS">
 		</div>
 		<b>Your app, enterprise-ready.</b>
 		<div>
