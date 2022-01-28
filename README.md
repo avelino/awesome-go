@@ -11,16 +11,17 @@
 
 ### Sponsorships
 
-<div align="center">
-
 <sup>Special thanks to:</sup><br/><br/>
-
-
+<div align="center">
 <a href="https://www.doppler.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=awesomego&utm_source=github">
 	<div>
 		<img src="https://avelino.run/sponsors/doppler-logo.png" width="200" alt="Doppler">
 	</div>
-</a>
+	<b>Quit struggling with scattered API keys and access controls.</b>
+	<div>
+        <sub>Keep your secrets in sync across environments, servers, and teams with Doppler.</sub>
+	</div>
+</a><br/>
 
 <a href="https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=awesomego&utm_source=github">
 	<div>
