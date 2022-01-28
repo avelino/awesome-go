@@ -18,7 +18,7 @@ To set this list apart from and complement the excellent [Go wiki Projects page]
 
 Please contribute links to packages/projects you have used or are familiar with. This will help ensure high-quality entries.
 
-If you removed our PR template you can find it [here](https://github.com/avelino/awesome-go/blob/master/.github/PULL_REQUEST_TEMPLATE.md).
+If you removed our PR template you can find it [here](https://github.com/avelino/awesome-go/blob/main/.github/PULL_REQUEST_TEMPLATE.md).
 
 
 ## Quality standards
