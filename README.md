@@ -15,7 +15,12 @@
 
 <sup>Special thanks to:</sup><br/><br/>
 
-[![Doppler](https://avelino.run/sponsors/doppler-logo.png)](https://www.doppler.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=awesomego&utm_source=github)
+
+<a href="https://www.doppler.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=awesomego&utm_source=github">
+	<div>
+		<img src="https://avelino.run/sponsors/doppler-logo.png" width="200" alt="Doppler">
+	</div>
+</a>
 
 <a href="https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=awesomego&utm_source=github">
 	<div>
