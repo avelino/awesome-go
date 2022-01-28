@@ -2879,6 +2879,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [nes](https://github.com/fogleman/nes) - Nintendo Entertainment System (NES) emulator written in Go.
 * [Orbit](https://github.com/gulien/orbit) - A simple tool for running commands and generating files from templates.
 * [peg](https://github.com/pointlander/peg) - Peg, Parsing Expression Grammar, is an implementation of a Packrat parser generator.
+* [Plik](https://github.com/root-gg/plik) - Plik is a temporary file upload system (Wetransfer like) in Go.
 * [protoncheck](https://github.com/servusdei2018/protoncheck) - ProtonMail module for waybar/polybar/yabar/i3blocks.
 * [restic](https://github.com/restic/restic) - De-duplicating backup program.
 * [scc](https://github.com/boyter/scc) - Sloc Cloc and Code, a very fast accurate code counter with complexity calculations and COCOMO estimates.
