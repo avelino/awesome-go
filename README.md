@@ -462,6 +462,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 *Generic datastructures and algorithms in Go.*
 
 * [algorithms](https://github.com/shady831213/algorithms) - Algorithms and data structures.CLRS study.
+* [bingo](https://github.com/iancmcc/bingo) - Fast, zero-allocation, lexicographical-order-preserving packing of native types to bytes.
 * [binpacker](https://github.com/zhuangsirui/binpacker) - Binary packer and unpacker helps user build custom binary stream.
 * [bit](https://github.com/yourbasic/bit) - Golang set data structure with bonus bit-twiddling functions.
 * [bitmap](https://github.com/kelindar/bitmap) - Dense, zero-allocation, SIMD-enabled bitmap/bitset in Go.
