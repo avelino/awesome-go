@@ -35,6 +35,18 @@
 	</div>
 </a><br/>
 
+<a href="https://keygen.sh/?utm_campaign=github_repo&utm_medium=referral&utm_content=awesomego&utm_source=github">
+	<div>
+		<img src="https://avelino.run/sponsors/keygen-logo.png" width="200" alt="keygen">
+	</div>
+	<b>A dead-simple software licensing and distribution API built for developers</b>
+	<div>
+		<sub>Securely license and distribute Go applications with a single API.</sub>
+		<br>
+		<sup>Add auto updates with only a few lines of code.</sup>
+	</div>
+</a><br/>
+
 [![Digital Ocean](https://avelino.run/sponsors/do_logo_horizontal_blue-210.png)](https://m.do.co/c/bd3b723c0a36?utm_medium=opensource&utm_source=awesome-go)
 </div>
 
