@@ -3095,7 +3095,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [Magnetico](https://github.com/boramalper/magnetico/wiki/magnetico-Design-Specification)
 * [Sourcegraph](https://about.sourcegraph.com/handbook/engineering/go_style_guide)
 * [Thanos](https://thanos.io/tip/contributing/coding-style-guide.md/)
-* [Trybe](https://github.com/betrybe/playbook-go) - In portuguese
+* [Trybe](https://github.com/betrybe/playbook-go) - In portuguese.
 * [Uber](https://github.com/uber-go/guide/blob/master/style.md)
 
 **[⬆ back to top](#contents)**
