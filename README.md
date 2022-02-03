@@ -3096,6 +3096,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [Sourcegraph](https://about.sourcegraph.com/handbook/engineering/go_style_guide)
 * [Thanos](https://thanos.io/tip/contributing/coding-style-guide.md/)
 * [Uber](https://github.com/uber-go/guide/blob/master/style.md)
+* [Trybe](https://github.com/betrybe/playbook-go) - In portuguese
 
 **[⬆ back to top](#contents)**
 
