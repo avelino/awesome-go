@@ -14,7 +14,8 @@ To set this list apart from and complement the excellent [Go wiki Projects page]
 - Descriptions should be clear, concise, and non-promotional;
 - Descriptions should follow the link, on the same line and end with a punctuation mark;
 - At least 3 items are needed to create a new category;
-- The package or project had to be maintained under **open source license** ( *we make a brief review of the code before the link enters the list* ), [see list of allowed licenses](https://opensource.org/licenses/alphabetical).
+- The package or project had to be maintained under **open source license** ( *we make a brief review of the code before the link enters the list* ), [see list of allowed licenses](https://opensource.org/licenses/alphabetical);
+- Remember to put a period `.` at end of the project description.
 
 Please contribute links to packages/projects you have used or are familiar with. This will help ensure high-quality entries.
 
