@@ -2672,6 +2672,8 @@ _Libraries and tools to implement Zero Trust architectures._
 
 ## Code Analysis
 
+_Source code analysis tools, also known as Static Application Security Testing (SAST) Tools._
+
 - [apicompat](https://github.com/bradleyfalzon/apicompat) - Checks recent changes to a Go project for backwards incompatible changes.
 - [ChainJacking](https://github.com/Checkmarx/chainjacking) - Find which of your Go lang direct GitHub dependencies is susceptible to ChainJacking attack.
 - [dupl](https://github.com/mibk/dupl) - Tool for code clone detection.
