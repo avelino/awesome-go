@@ -334,6 +334,8 @@ _Libraries for building standard or basic Command Line applications._
 - [acmd](https://github.com/cristalhq/acmd) - Simple, useful and opinionated CLI package in Go.
 - [argparse](https://github.com/akamensky/argparse) - Command line argument parser inspired by Python's argparse module.
 - [argv](https://github.com/cosiner/argv) - Go library to split command line string as arguments array using the bash syntax.
+- [carapace](https://github.com/rsteube/carapace) - Command argument completion generator for spf13/cobra.
+- [carapace-bin](https://github.com/rsteube/carapace-bin) - Multi-shell multi-command argument completer.
 - [cli](https://github.com/mkideal/cli) - Feature-rich and easy to use command-line package based on golang struct tags.
 - [cli](https://github.com/teris-io/cli) - Simple and complete API for building command line interfaces in Go.
 - [climax](https://github.com/tucnak/climax) - Alternative CLI with "human face", in spirit of Go command.
