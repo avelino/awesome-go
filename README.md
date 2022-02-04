@@ -1525,6 +1525,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [captcha](https://github.com/steambap/captcha) - Package captcha provides an easy to use, unopinionated API for captcha generation.
 * [conv](https://github.com/cstockton/go-conv) - Package conv provides fast and intuitive conversions across Go types.
 * [datacounter](https://github.com/miolini/datacounter) - Go counters for readers/writer/http.ResponseWriter.
+* [faker](github.com/neotoolkit/faker) - Fake data generator.
 * [faker](https://github.com/pioz/faker) - Random fake data and struct generator for Go.
 * [ffmt](https://github.com/go-ffmt/ffmt) - Beautify data display for Humans.
 * [gatus](https://github.com/TwinProduction/gatus) - Automated service health dashboard.
