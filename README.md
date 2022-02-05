@@ -1558,6 +1558,7 @@ _These libraries were placed here because none of the other categories seemed to
 - [metrics](https://github.com/pascaldekloe/metrics) - Library for metrics instrumentation and Prometheus exposition.
 - [morse](https://github.com/alwindoss/morse) - Library to convert to and from morse code.
 - [numa](https://github.com/lrita/numa) - NUMA is a utility library, which is written in go. It help us to write some NUMA-AWARED code.
+- [openapi](https://github.com/neotoolkit/openapi) - OpenAPI 3.x parser.
 - [pdfgen](https://github.com/hyperboloide/pdfgen) - HTTP service to generate PDF from Json requests.
 - [persian](https://github.com/mavihq/persian) - Some utilities for Persian language in go.
 - [sandid](https://github.com/aofei/sandid) - Every grain of sand on earth has its own ID.
