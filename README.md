@@ -2398,6 +2398,7 @@ _General utilities and tools to make your life easier._
 - [netbug](https://github.com/e-dard/netbug) - Easy remote profiling of your services.
 - [nfdump](https://github.com/chrispassas/nfdump) - Read nfdump netflow files.
 - [nostromo](https://github.com/pokanop/nostromo) - CLI for building powerful aliases.
+- [objwalker](https://github.com/rekby/objwalker) - Walk by go objects with reflection.
 - [okrun](https://github.com/xta/okrun) - go run error steamroller.
 - [olaf](https://github.com/btnguyen2k/olaf) - Twitter Snowflake implemented in Go.
 - [onecache](https://github.com/adelowo/onecache) - Caching library with support for multiple backend stores (Redis, Memcached, filesystem etc).
