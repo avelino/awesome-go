@@ -873,6 +873,7 @@ _Embedding other languages inside your go code._
 - [prolog](https://github.com/ichiban/prolog) - Embeddable Prolog.
 - [purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go.
 - [tengo](https://github.com/d5/tengo) - Bytecode compiled script language for Go.
+- [ThreadComputation](https://github.com/vulogov/ThreadComputation) - module for creaing non Turing complete DSL and query languages, based on threading macro and stack computation ideas.
 
 **[⬆ back to top](#contents)**
 
