@@ -1,0 +1,26 @@
+name: site-deploy
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  build:
+    name: Make and Deploy site
+    runs-on: ubuntu-latest
+    environment: netlify
+    container: golang:latest
+    steps:
+    - uses: actions/checkout@1.0.0
+    - name: Get dependencies
+      run: go get -v -t -d ./...
+    - name: Make awesome-go.com
+      run: go run make_site.go scripts.go
+    - name: deploy awesome-go.com
+      uses: jsmrcaga/action-netlify-deploy@v1.1.0
+      with:
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        NETLIFY_DEPLOY_TO_PROD: true
+        build_directory: tmpl

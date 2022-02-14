@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=device-width">
+    <title>{{.Title}} - Awesome Go / Golang</title>
+    <meta name="description" content="{{.Description}} - Awesome Go / Golang">
+    <meta name="keywords" content="{{.Title}}, golang, go, awesome, awesome-go, go framework, golang framework">
+    <meta name="twitter:card" value="summary">
+    <meta property="og:title" content="{{.Description}} - Awesome Go" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://awesome-go.com/{{.Slug}}" />
+    <meta property="og:image" content="https://awesome-go.com/assets/logo.png" />
+    <meta property="og:description" content="{{.Description}} - Awesome Go" />
+
+    <link rel="canonical" href="https://awesome-go.com/{{.Slug}}">
+
+    <link rel="stylesheet" type="text/css" href="/assets/fonts/firasans.css">
+    <link rel="stylesheet" type="text/css" href="/assets/normalize.css">
+    <link rel="stylesheet" type="text/css" href="/assets/awesome-go.css">
+</head>
+
+<body>
+    <div id="content">
+        <header>
+            <h1>
+                <a href="https://awesome-go.com/">
+                    <img align="right" src="https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png" alt="awesome-go" title="awesome-go" />
+                </a>
+                {{.Title}} - <a href="https://awesome-go.com/">Awesome Go</a>
+            </h1>
+
+            <p><em>{{.Description}}</em></p>
+
+            <p>
+                <a href="https://github.com/avelino/awesome-go/actions/workflows/tests.yaml?query=branch%3Amain" rel="nofollow"><img src="https://github.com/avelino/awesome-go/actions/workflows/tests.yaml/badge.svg?branch=main" alt="Build Status"></a>
+                <a href="https://github.com/sindresorhus/awesome" rel="nofollow"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" alt="Awesome"></a>
+                <a href="https://gophers.slack.com/messages/awesome" rel="nofollow"><img src="https://img.shields.io/badge/join-us%20on%20slack-gray.svg?longCache=true&amp;logo=slack&amp;colorB=red" alt="Slack Widget"></a>
+                <a href="https://app.netlify.com/sites/awesome-go/deploys" rel="nofollow"><img src="https://api.netlify.com/api/v1/badges/83a6dcbe-0da6-433e-b586-f68109286bd5/deploy-status" alt="Netlify Status"></a>
+                <a href="https://www.trackawesomelist.com/avelino/awesome-go/" rel="nofollow"><img src="https://www.trackawesomelist.com/badge.svg" alt="Track Awesome List"></a>
+            </p>
+
+            <p>
+                <a href="https://www.producthunt.com/posts/awesome-go?utm_source=badge-featured&amp;utm_medium=badge&amp;utm_souce=badge-awesome-go" rel="nofollow"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=291535&amp;theme=light" width="250" height="54" /></a>
+            </p>
+
+        </header>
+        <div>
+            <h3 id="sponsorships">Sponsorships</h3>
+            <p>
+                <div id="amzn-assoc-ad-ce1dd292-c6f0-4062-ac99-55bc005bbbf9"></div>
+                <script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=ce1dd292-c6f0-4062-ac99-55bc005bbbf9"></script>
+            </p>
+            <p>
+                <a href="https://www.doppler.com/?utm_campaign=github_repo&amp;utm_medium=referral&amp;utm_content=awesomego&amp;utm_source=github"><img src="https://github.com/avelino/awesome-go/raw/main/tmpl/assets/sponsors/doppler.png" alt="Doppler"></a>
+            </p>
+            <p>
+                <a href="https://m.do.co/c/bd3b723c0a36?utm_medium=opensource&amp;utm_source=awesome-go"><img src="https://avelino.run/sponsors/do_logo_horizontal_blue-210.png" alt="Digital Ocean"></a>
+            </p>
+        </div>
+
+        <i><a href="/#contents" alt="back to content menu" title="back to content menu">🗺️ back to content menu</a></i>
+
+        <ul>
+            {{range .Items}}
+            <li><a href="{{.Url}}" alt="Go to {{.Title}} link" title="Go to {{.Title}} link">{{.Description}}</a></li>
+            {{end}}
+        </ul>
+
+        <a href="https://www.netlify.com">
+            <img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" alt="Deploys by Netlify" />
+        </a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.0/marked.min.js" integrity="sha512-uggp1jOpxGjqTeS8Fit5x6+lqyJoIuXXn/VziVPlxBRnqZ0FhCaxsUnQsPL5PKylHr0KIoMtNbBIiU6n31dDTg==" crossorigin="anonymous"></script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-85465107-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
+</html>
