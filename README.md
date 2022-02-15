@@ -533,6 +533,7 @@ _Generic datastructures and algorithms in Go._
 - [slices](https://github.com/srfrog/slices) - Functions that operate on slices; like `package strings` but adapted to work with slices.
 - [timedmap](https://github.com/zekroTJA/timedmap) - Map with expiring key-value pairs.
 - [treap](https://github.com/perdata/treap) - Persistent, fast ordered map using tree heaps.
+- [treemap](https://github.com/igrmk/treemap) - Generic key-sorted map using a red-black tree under the hood.
 - [trie](https://github.com/derekparker/trie) - Trie implementation in Go.
 - [ttlcache](https://github.com/ReneKroon/ttlcache) - In-memory string-interface{} cache with various time-based expiration options and callbacks.
 - [typ](https://github.com/gurukami/typ) - Null Types, Safe primitive type conversion and fetching value from complex structures.
