@@ -2562,6 +2562,7 @@ _Full stack web frameworks._
 - [Macaron](https://github.com/go-macaron/macaron) - Macaron is a high productive and modular design web framework in Go.
 - [mango](https://github.com/paulbellamy/mango) - Mango is a modular web-application framework for Go, inspired by Rack, and PEP333.
 - [Microservice](https://github.com/claygod/microservice) - The framework for the creation of microservices, written in Golang.
+- [gominima](https://github.com/gominima/minima) - A simple, minimal and performant framework for go made to scale, with 0 external dependencies.
 - [neo](https://github.com/ivpusic/neo) - Neo is minimal and fast Go Web Framework with extremely simple API.
 - [patron](https://github.com/beatlabs/patron) - Patron is a microservice framework following best cloud practices with a focus on productivity.
 - [Resoursea](https://github.com/resoursea/api) - REST framework for quickly writing resource based services.
