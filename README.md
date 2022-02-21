@@ -538,6 +538,7 @@ _Generic datastructures and algorithms in Go._
 - [ttlcache](https://github.com/ReneKroon/ttlcache) - In-memory string-interface{} cache with various time-based expiration options and callbacks.
 - [typ](https://github.com/gurukami/typ) - Null Types, Safe primitive type conversion and fetching value from complex structures.
 - [willf/bloom](https://github.com/willf/bloom) - Go package implementing Bloom filters.
+- [xmm](https://github.com/heiyeluren/xmm) - XMM is a high performance third party memory manager for Go environments that is not affected by Gc and guarantees high performance. 
 
 **[⬆ back to top](#contents)**
 
