@@ -2552,7 +2552,7 @@ _Full stack web frameworks._
 - [Gearbox](https://github.com/abahmed/gearbox) - A web framework written in Go with a focus on high performance and memory optimization.
 - [Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity.
 - [Ginrpc](https://github.com/xxjwxc/ginrpc) - Gin parameter automatic binding tool,gin rpc tools.
-- [gin-vue-admin](https://github.com/NYTimes/gizmo) - Gin-vue-admin is a backstage management system based on vue and gin
+- [gin-vue-admin](https://github.com/NYTimes/gizmo) - Gin-vue-admin is a backstage management system based on vue and gin.
 - [Gizmo](https://github.com/NYTimes/gizmo) - Microservice toolkit used by the New York Times.
 - [go-json-rest](https://github.com/ant0ine/go-json-rest) - Quick and easy way to setup a RESTful JSON API.
 - [go-rest](https://github.com/ungerik/go-rest) - Small and evil REST framework for Go.
