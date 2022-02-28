@@ -2541,7 +2541,7 @@ _Full stack web frameworks._
 - [Air](https://github.com/aofei/air) - An ideally refined web framework for Go.
 - [appy](https://github.com/appist/appy) - An opinionated productive web framework that helps scaling business easier.
 - [Banjo](https://github.com/nsheremet/banjo) - Very simple and fast web framework for Go.
-- [Beego](https://github.com/astaxie/beego) - beego is an open-source, high-performance web framework for the Go programming language.
+- [Beego](https://github.com/beego/beego) - beego is an open-source, high-performance web framework for the Go programming language.
 - [Buffalo](https://gobuffalo.io) - Bringing the productivity of Rails to Go!
 - [Confetti Framework](https://confetti-framework.github.io/docs/) - Confetti is a Go web application framework with an expressive, elegant syntax. Confetti combines the elegance of Laravel and the simplicity of Go.
 - [Echo](https://github.com/labstack/echo) - High performance, minimalist Go web framework.
