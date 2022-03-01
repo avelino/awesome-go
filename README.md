@@ -55,7 +55,7 @@ _Special thanks to_
 </table>
 </div>
 
-**Awesome Go has no monthly fee**_, but we have employees who **work hard** to keep it running, with money raised we can repay the effort of each person involved! You can see how we calculate our billing and distribution as it is open to the entire community._
+**Awesome Go has no monthly fee**_, but we have employees who **work hard** to keep it running, with money raised we can repay the effort of each person involved! You can see how we calculate our billing and distribution as it is open to the entire community. Want to be a supporter of the project click [here](mailto:mailto:avelinorun+oss@gmail.com?subject=awesome-go%3A%20project%20support)._
 
 > A curated list of awesome Go frameworks, libraries and software. Inspired by [awesome-python](https://github.com/vinta/awesome-python).
 
@@ -1710,6 +1710,7 @@ _Libraries for working with various layers of the network._
 _Libraries for making HTTP requests._
 
 - [gentleman](https://github.com/h2non/gentleman) - Full-featured plugin-driven HTTP client library.
+- [go-cleanhttp](https://github.com/hashicorp/go-cleanhttp) - Get easily stdlib HTTP client, which does not share any state with other clients.
 - [go-http-client](https://github.com/bozd4g/go-http-client) - Make http calls simply and easily.
 - [go-req](https://github.com/wenerme/go-req) - Declarative golang HTTP client.
 - [go-retryablehttp](https://github.com/hashicorp/go-retryablehttp) - Retryable HTTP client in Go.
@@ -1744,7 +1745,6 @@ _Libraries for using OpenGL in Go._
 
 _Libraries that implement Object-Relational Mapping or datamapping techniques._
 
-- [beego orm](https://github.com/beego/beego) - Powerful orm framework for go. Support: pq/mysql/sqlite3.
 - [cacheme](https://github.com/Yiling-J/cacheme-go) - Schema based, typed Redis caching/memoize framework for Go.
 - [ent](https://github.com/facebook/ent) - An entity framework for Go. Simple, yet powerful ORM for modeling and querying data.
 - [go-firestorm](https://github.com/jschoedt/go-firestorm) - A simple ORM for Google/Firebase Cloud Firestore.
@@ -1982,6 +1982,7 @@ _Libraries and tools for binary serialization._
 - [SFTPGo](https://github.com/drakkan/sftpgo) - Fully featured and highly configurable SFTP server with optional FTP/S and WebDAV support. It can serve local filesystem and Cloud Storage backends such as S3 and Google Cloud Storage.
 - [simple-jwt-provider](https://github.com/leberKleber/simple-jwt-provider) - Simple and lightweight provider which exhibits JWTs, supports login, password-reset (via mail) and user management.
 - [Trickster](https://github.com/tricksterproxy/trickster) - HTTP reverse proxy cache and time series accelerator.
+- [Wish](https://github.com/charmbracelet/wish) - Make SSH apps, just like that!
 
 **[⬆ back to top](#contents)**
 
@@ -2540,7 +2541,7 @@ _Full stack web frameworks._
 - [Air](https://github.com/aofei/air) - An ideally refined web framework for Go.
 - [appy](https://github.com/appist/appy) - An opinionated productive web framework that helps scaling business easier.
 - [Banjo](https://github.com/nsheremet/banjo) - Very simple and fast web framework for Go.
-- [Beego](https://github.com/astaxie/beego) - beego is an open-source, high-performance web framework for the Go programming language.
+- [Beego](https://github.com/beego/beego) - beego is an open-source, high-performance web framework for the Go programming language.
 - [Buffalo](https://gobuffalo.io) - Bringing the productivity of Rails to Go!
 - [Confetti Framework](https://confetti-framework.github.io/docs/) - Confetti is a Go web application framework with an expressive, elegant syntax. Confetti combines the elegance of Laravel and the simplicity of Go.
 - [Echo](https://github.com/labstack/echo) - High performance, minimalist Go web framework.
