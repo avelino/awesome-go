@@ -10,59 +10,6 @@
 
 <a href="https://www.producthunt.com/posts/awesome-go?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-awesome-go" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=291535&theme=light" alt="awesome-go - Curated list awesome Go frameworks, libraries and software | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
-**Sponsorships:**
-
-_Special thanks to_
-
-<div align="center">
-<table cellpadding="5">
-<tbody align="center">
-<tr>
-<td colspan="2">
-<a href="https://www.doppler.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=awesomego&utm_source=github">
-<img src="https://avelino.run/sponsors/doppler-logo.png" width="200" alt="Doppler"><br/>
-<b>Quit struggling with scattered API keys and access controls.</b><br/>
-<sub>Keep your secrets in sync across environments, servers, and teams with Doppler.</sub>
-</a>
-</td>
-</tr>
-<tr>
-<td>
-<a href="https://workos.com/?utm_campaign=github_repo&utm_medium=referral&utm_content=awesomego&utm_source=github">
-<img src="https://avelino.run/sponsors/workos-logo-white-bg.svg" width="200" alt="WorkOS"><br/>
-<b>Your app, enterprise-ready.</b><br/>
-<sub>Start selling to enterprise customers with just a few lines of code.</sub><br/>
-<sup>Add Single Sign-On (and more) in minutes instead of months.</sup>
-</a>
-</td>
-<td>
-<a href="https://keygen.sh/?utm_campaign=github_repo&utm_medium=referral&utm_content=awesomego&utm_source=github">
-<img src="https://avelino.run/sponsors/keygen-logo.png" width="200" alt="keygen"><br/>
-<b>A dead-simple software licensing and distribution API built for developers</b><br/>
-<sub>Securely license and distribute Go applications with a single API.</sub><br>
-<sup>Add auto updates with only a few lines of code.</sup>
-</a>
-</td>
-</tr>
-<tr>
-<td colspan="2">
-<a href="https://m.do.co/c/bd3b723c0a36?utm_medium=opensource&utm_source=awesome-go">
-<img src="https://avelino.run/sponsors/do_logo_horizontal_blue-210.png" width="200" alt="Digital Ocean">
-</a>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-
-**Awesome Go has no monthly fee**_, but we have employees who **work hard** to keep it running, with money raised we can repay the effort of each person involved! You can see how we calculate our billing and distribution as it is open to the entire community. Want to be a supporter of the project click [here](mailto:mailto:avelinorun+oss@gmail.com?subject=awesome-go%3A%20project%20support)._
-
-> A curated list of awesome Go frameworks, libraries and software. Inspired by [awesome-python](https://github.com/vinta/awesome-python).
-
-**Contributing:**
-
-Please take a quick gander at the [contribution guidelines](https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md) first. Thanks to all [contributors](https://github.com/avelino/awesome-go/graphs/contributors); you rock!
-
 > _If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!_
 
 **Contents:**
