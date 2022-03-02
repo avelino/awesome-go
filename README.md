@@ -2539,6 +2539,7 @@ _Full stack web frameworks._
 - [aah](https://aahframework.org) - Scalable, performant, rapid development Web framework for Go.
 - [Aero](https://github.com/aerogo/aero) - High-performance web framework for Go, reaches top scores in Lighthouse.
 - [Air](https://github.com/aofei/air) - An ideally refined web framework for Go.
+- [Artifact](https://github.com/Shipu/artifact) - Artifact is a easiest and simple web framework written in Go (Golang) based on Gin. MongoDB supported.
 - [appy](https://github.com/appist/appy) - An opinionated productive web framework that helps scaling business easier.
 - [Banjo](https://github.com/nsheremet/banjo) - Very simple and fast web framework for Go.
 - [Beego](https://github.com/beego/beego) - beego is an open-source, high-performance web framework for the Go programming language.
