@@ -2721,7 +2721,7 @@ _Source code analysis tools, also known as Static Application Security Testing (
 - [gostatus](https://github.com/shurcooL/gostatus) - Command line tool, shows the status of repositories that contain Go packages.
 - [lint](https://github.com/surullabs/lint) - Run linters as part of go test.
 - [php-parser](https://github.com/z7zmey/php-parser) - A Parser for PHP written in Go.
-- [Scanmycode CE (Community Edition)](https://github.com/marcinguy/scanmycode-ce) - Code Scanning/SAST/Static Analysis/Linting using many tools/Scanners with One Report. Supports GO (vig GOSEC) scanning and also other tech stacks.
+- [Scanmycode CE (Community Edition)](https://github.com/marcinguy/scanmycode-ce) - Code Scanning/SAST/Static Analysis/Linting using many tools/Scanners with One Report. Supports GO (via GOSEC) scanning and also other tech stacks.
 - [staticcheck](https://github.com/dominikh/go-tools/tree/master/cmd/staticcheck) - staticcheck is `go vet` on steroids, applying a ton of static analysis checks you might be used to from tools like ReSharper for C#.
 - [tarp](https://github.com/verygoodsoftwarenotvirus/tarp) - tarp finds functions and methods without direct unit tests in Go source code.
 - [tickgit](https://github.com/augmentable-dev/tickgit) - CLI and go package for surfacing code comment TODOs (in any language) and applying a `git blame`to identify the author.
