@@ -2026,7 +2026,6 @@ _Libraries and tools for templating and lexing._
 - [Soy](https://github.com/robfig/soy) - Closure templates (aka Soy templates) for Go, following the [official spec](https://developers.google.com/closure/templates/).
 - [sprig](https://github.com/Masterminds/sprig) - Useful template functions for Go templates.
 - [tbd](https://github.com/lucasepe/tbd) - A really simple way to create text templates with placeholders - exposes extra builtin Git repo metadata.
-- [velvet](https://github.com/gobuffalo/velvet) - Complete handlebars implementation in Go.
 
 **[⬆ back to top](#contents)**
 
