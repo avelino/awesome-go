@@ -2014,7 +2014,6 @@ _Libraries and tools for templating and lexing._
 - [gospin](https://github.com/m1/gospin) - Article spinning and spintax/spinning syntax engine, useful for A/B, testing pieces of text/articles and creating more natural conversations.
 - [got](https://github.com/goradd/got) - A Go code generator inspired by Hero and Fasttemplate. Has include files, custom tag definitions, injected Go code, language translation, and more.
 - [goview](https://github.com/foolin/goview) - Goview is a lightweight, minimalist and idiomatic template library based on golang html/template for building Go web application.
-- [hero](https://github.com/shiyanhui/hero) - Hero is a handy, fast and powerful go template engine.
 - [jet](https://github.com/CloudyKit/jet) - Jet template engine.
 - [kasia.go](https://github.com/ziutek/kasia.go) - Templating system for HTML and other text documents - go implementation.
 - [liquid](https://github.com/osteele/liquid) - Go implementation of Shopify Liquid templates.
