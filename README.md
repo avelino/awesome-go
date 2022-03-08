@@ -2018,7 +2018,6 @@ _Libraries and tools for templating and lexing._
 - [kasia.go](https://github.com/ziutek/kasia.go) - Templating system for HTML and other text documents - go implementation.
 - [liquid](https://github.com/osteele/liquid) - Go implementation of Shopify Liquid templates.
 - [maroto](https://github.com/johnfercher/maroto) - A maroto way to create PDFs. Maroto is inspired in Bootstrap and uses gofpdf. Fast and simple.
-- [mustache](https://github.com/hoisie/mustache) - Go implementation of the Mustache template language.
 - [pongo2](https://github.com/flosch/pongo2) - Django-like template-engine for Go.
 - [quicktemplate](https://github.com/valyala/quicktemplate) - Fast, powerful, yet easy to use template engine. Converts templates into Go code and then compiles it.
 - [raymond](https://github.com/aymerick/raymond) - Complete handlebars implementation in Go.
