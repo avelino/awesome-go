@@ -2128,72 +2128,86 @@ _Libraries for testing codebases and generating test data._
 
 _Libraries for parsing and manipulating texts._
 
-- Specific Formats
+- Formatters
   - [align](https://github.com/Guitarbum722/align) - A general purpose application that aligns text.
-  - [allot](https://github.com/sbstjn/allot) - Placeholder and wildcard text parsing for CLI tools and bots.
+  - [go-fixedwidth](https://github.com/ianlopshire/go-fixedwidth) - Fixed-width text formatting (encoder/decoder with reflection).
+  - [go-humanize](https://github.com/dustin/go-humanize) - Formatters for time, numbers, and memory size to human readable format.
+  - [gotabulate](https://github.com/bndr/gotabulate) - Easily pretty-print your tabular data with Go.
+
+- Natural Language/Translation
+  - [bytes](https://github.com/labstack/gommon/tree/master/bytes) - Formats and parses numeric byte values (10K, 2M, 3G, etc.).
+  - [enca](https://github.com/endeveit/enca) - Minimal cgo bindings for [libenca](https://cihar.com/software/enca/).
+  - [go-runewidth](https://github.com/mattn/go-runewidth) - Functions to get fixed width of the character or string.
+  - [go-slugify](https://github.com/mozillazg/go-slugify) - Make pretty slug with multiple languages support.
+  - [gotext](https://github.com/leonelquinteros/gotext) - GNU gettext utilities for Go.
+  - [guesslanguage](https://github.com/endeveit/guesslanguage) - Functions to determine the natural language of a unicode text.
+  - [kace](https://github.com/codemodus/kace) - Common case conversions covering common initialisms.
+  - [normalize](https://github.com/avito-tech/normalize) - Sanitize, normalize and compare fuzzy text.
+  - [slug](https://github.com/gosimple/slug) - URL-friendly slugify with multiple languages support.
+  - [Slugify](https://github.com/avelino/slugify) - Go slugify application that handles string.
+  - [textwrap](https://github.com/isbm/textwrap) - Implementation of `textwrap` module from Python.
+  - [TySug](https://github.com/Dynom/TySug) - Alternative suggestions with respect to keyboard layouts.
+
+- Markup Languages
   - [bafi](https://github.com/mmalcek/bafi) - Universal JSON, BSON, YAML, XML translator to ANY format using templates.
   - [bbConvert](https://github.com/CalebQ42/bbConvert) - Converts bbCode to HTML that allows you to add support for custom bbCode tags.
   - [blackfriday](https://github.com/russross/blackfriday) - Markdown processor in Go.
-  - [bluemonday](https://github.com/microcosm-cc/bluemonday) - HTML Sanitizer.
+  - [github_flavored_markdown](https://godoc.org/github.com/shurcooL/github_flavored_markdown) - GitHub Flavored Markdown renderer (using blackfriday) with fenced code block highlighting, clickable header anchor links.
+  - [go-output-format](https://github.com/drewstinnett/go-output-format) - Output go structures into multiple formats (YAML/JSON/etc) in your command line app.
+  - [go-toml](https://github.com/pelletier/go-toml) - Go library for the TOML format with query support and handy cli tools.
+  - [html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown) - Convert HTML to Markdown. Even works with entire websites and can be extended through rules.
+  - [htmlquery](https://github.com/antchfx/htmlquery) - An XPath query package for HTML, lets you extract data or evaluate from HTML documents by an XPath expression.
+  - [goq](https://github.com/andrewstuart/goq) - Declarative unmarshaling of HTML using struct tags with jQuery syntax (uses GoQuery).
+  - [mxj](https://github.com/clbanning/mxj) - Encode / decode XML as JSON or map[string]interface{}; extract values with dot-notation paths and wildcards. Replaces x2j and j2x packages.
+  - [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
+
+- Parsers/Encoders/Decoders
+  - [allot](https://github.com/sbstjn/allot) - Placeholder and wildcard text parsing for CLI tools and bots.
   - [codetree](https://github.com/aerogo/codetree) - Parses indented code (python, pixy, scarlet, etc.) and returns a tree structure.
-  - [colly](https://github.com/asciimoo/colly) - Fast and Elegant Scraping Framework for Gophers.
   - [commonregex](https://github.com/mingrammer/commonregex) - A collection of common regular expressions for Go.
-  - [dataflowkit](https://github.com/slotix/dataflowkit) - Web scraping Framework to turn websites into structured data.
   - [did](https://github.com/ockam-network/did) - DID (Decentralized Identifiers) Parser and Stringer in Go.
   - [doi](https://github.com/hscells/doi) - Document object identifier (doi) parser in Go.
   - [editorconfig-core-go](https://github.com/editorconfig/editorconfig-core-go) - Editorconfig file parser and manipulator for Go.
-  - [enca](https://github.com/endeveit/enca) - Minimal cgo bindings for [libenca](https://cihar.com/software/enca/).
   - [encdec](https://github.com/mickep76/encdec) - Package provides a generic interface to encoders and decodersa.
-  - [genex](https://github.com/alixaxel/genex) - Count and expand Regular Expressions into all matching Strings.
-  - [github_flavored_markdown](https://godoc.org/github.com/shurcooL/github_flavored_markdown) - GitHub Flavored Markdown renderer (using blackfriday) with fenced code block highlighting, clickable header anchor links.
-  - [go-fixedwidth](https://github.com/ianlopshire/go-fixedwidth) - Fixed-width text formatting (encoder/decoder with reflection).
-  - [go-humanize](https://github.com/dustin/go-humanize) - Formatters for time, numbers, and memory size to human readable format.
-  - [go-nmea](https://github.com/adrianmo/go-nmea) - NMEA parser library for the Go language.
-  - [go-output-format](https://github.com/drewstinnett/go-output-format) - Output go structures into multiple formats (YAML/JSON/etc) in your command line app.
-  - [go-runewidth](https://github.com/mattn/go-runewidth) - Functions to get fixed width of the character or string.
-  - [go-slugify](https://github.com/mozillazg/go-slugify) - Make pretty slug with multiple languages support.
-  - [go-toml](https://github.com/pelletier/go-toml) - Go library for the TOML format with query support and handy cli tools.
-  - [go-vcard](https://github.com/emersion/go-vcard) - Parse and format vCard.
-  - [go-wildcard](https://github.com/IGLOU-EU/go-wildcard) - Simple and lightweight wildcard pattern matching.
-  - [go-zero-width](https://github.com/trubitsyn/go-zero-width) - Zero-width character detection and removal for Go.
   - [gofeed](https://github.com/mmcdole/gofeed) - Parse RSS and Atom feeds in Go.
   - [gographviz](https://github.com/awalterschulze/gographviz) - Parses the Graphviz DOT language.
-  - [gommon/bytes](https://github.com/labstack/gommon/tree/master/bytes) - Format bytes to string.
   - [gonameparts](https://github.com/polera/gonameparts) - Parses human names into individual name parts.
-  - [goq](https://github.com/andrewstuart/goq) - Declarative unmarshaling of HTML using struct tags with jQuery syntax (uses GoQuery).
-  - [GoQuery](https://github.com/PuerkitoBio/goquery) - GoQuery brings a syntax and a set of features similar to jQuery to the Go language.
-  - [goregen](https://github.com/zach-klippenstein/goregen) - Library for generating random strings from regular expressions.
-  - [gospider](https://github.com/zhshch2002/gospider) - A simple golang spider/scraping framework,build a spider in 3 lines. migrated from [goribot](https://github.com/zhshch2002/goribot)
-  - [gotext](https://github.com/leonelquinteros/gotext) - GNU gettext utilities for Go.
-  - [guesslanguage](https://github.com/endeveit/guesslanguage) - Functions to determine the natural language of a unicode text.
-  - [html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown) - Convert HTML to Markdown. Even works with entire websites and can be extended through rules.
-  - [htmlquery](https://github.com/antchfx/htmlquery) - An XPath query package for HTML, lets you extract data or evaluate from HTML documents by an XPath expression.
-  - [inject](https://github.com/facebookgo/inject) - Package inject provides a reflect based injector.
+  - [go-nmea](https://github.com/adrianmo/go-nmea) - NMEA parser library for the Go language.
+  - [go-vcard](https://github.com/emersion/go-vcard) - Parse and format vCard.
   - [ltsv](https://github.com/Wing924/ltsv) - High performance [LTSV (Labeled Tab Separated Value)](http://ltsv.org/) reader for Go.
-  - [mxj](https://github.com/clbanning/mxj) - Encode / decode XML as JSON or map[string]interface{}; extract values with dot-notation paths and wildcards. Replaces x2j and j2x packages.
-  - [normalize](https://github.com/avito-tech/normalize) - Sanitize, normalize and compare fuzzy text.
   - [omniparser](https://github.com/jf-tech/omniparser) - A versatile ETL library that parses text input (CSV/txt/JSON/XML/EDI/X12/EDIFACT/etc) in streaming fashion and transforms data into JSON output using data-driven schema.
-  - [pagser](https://github.com/foolin/pagser) - Pagser is a simple, extensible, configurable parse and deserialize html page to struct based on goquery and struct tags for golang crawler.
-  - [podcast](https://github.com/eduncan911/podcast) - iTunes Compliant and RSS 2.0 Podcast Generator in Golang
-  - [sdp](https://github.com/gortc/sdp) - SDP: Session Description Protocol [[RFC 4566](https://tools.ietf.org/html/rfc4566)].
-  - [sh](https://github.com/mvdan/sh) - Shell parser and formatter.
-  - [slug](https://github.com/gosimple/slug) - URL-friendly slugify with multiple languages support.
-  - [Slugify](https://github.com/avelino/slugify) - Go slugify application that handles string.
-  - [syndfeed](https://github.com/zhengchun/syndfeed) - A syndication feed for Atom 1.0 and RSS 2.0.
-  - [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
-- Utility
-  - [gofuckyourself](https://github.com/JoshuaDoes/gofuckyourself) - A sanitization-based swear filter for Go.
-  - [gotabulate](https://github.com/bndr/gotabulate) - Easily pretty-print your tabular data with Go.
-  - [kace](https://github.com/codemodus/kace) - Common case conversions covering common initialisms.
   - [parseargs-go](https://github.com/nproc/parseargs-go) - string argument parser that understands quotes and backslashes.
   - [parth](https://github.com/codemodus/parth) - URL path segmentation parsing.
-  - [radix](https://github.com/yourbasic/radix) - fast string sorting algorithm.
-  - [regroup](https://github.com/oriser/regroup) - Match regex expression named groups into go struct using struct tags and automatic parsing.
-  - [Tagify](https://github.com/zoomio/tagify) - Produces a set of tags from given source.
-  - [textwrap](https://github.com/isbm/textwrap) - Implementation of `textwrap` module from Python.
-  - [TySug](https://github.com/Dynom/TySug) - Alternative suggestions with respect to keyboard layouts.
+  - [sdp](https://github.com/gortc/sdp) - SDP: Session Description Protocol [[RFC 4566](https://tools.ietf.org/html/rfc4566)].
+  - [sh](https://github.com/mvdan/sh) - Shell parser and formatter.
   - [xj2go](https://github.com/stackerzzq/xj2go) - Convert xml or json to go struct.
+  
+- Regular Expressions
+  - [genex](https://github.com/alixaxel/genex) - Count and expand Regular Expressions into all matching Strings.
+  - [go-wildcard](https://github.com/IGLOU-EU/go-wildcard) - Simple and lightweight wildcard pattern matching.
+  - [goregen](https://github.com/zach-klippenstein/goregen) - Library for generating random strings from regular expressions.
+  - [regroup](https://github.com/oriser/regroup) - Match regex expression named groups into go struct using struct tags and automatic parsing.
+
+- Sanitation
+  - [bluemonday](https://github.com/microcosm-cc/bluemonday) - HTML Sanitizer.
+  - [gofuckyourself](https://github.com/JoshuaDoes/gofuckyourself) - A sanitization-based swear filter for Go.
+
+- Scrapers
+  - [colly](https://github.com/asciimoo/colly) - Fast and Elegant Scraping Framework for Gophers.
+  - [dataflowkit](https://github.com/slotix/dataflowkit) - Web scraping Framework to turn websites into structured data.
+  - [GoQuery](https://github.com/PuerkitoBio/goquery) - GoQuery brings a syntax and a set of features similar to jQuery to the Go language.
+  - [gospider](https://github.com/zhshch2002/gospider) - A simple golang spider/scraping framework,build a spider in 3 lines. migrated from [goribot](https://github.com/zhshch2002/goribot)
+  - [pagser](https://github.com/foolin/pagser) - Pagser is a simple, extensible, configurable parse and deserialize html page to struct based on goquery and struct tags for golang crawler.
+  - [Tagify](https://github.com/zoomio/tagify) - Produces a set of tags from given source.
   - [xurls](https://github.com/mvdan/xurls) - Extract urls from text.
+
+- RSS
+  - [podcast](https://github.com/eduncan911/podcast) - iTunes Compliant and RSS 2.0 Podcast Generator in Golang
+  - [syndfeed](https://github.com/zhengchun/syndfeed) - A syndication feed for Atom 1.0 and RSS 2.0.
+
+- Utility
+  - [go-zero-width](https://github.com/trubitsyn/go-zero-width) - Zero-width character detection and removal for Go.
+  - [radix](https://github.com/yourbasic/radix) - fast string sorting algorithm.
 
 **[⬆ back to top](#contents)**
 
