@@ -2155,9 +2155,9 @@ _Libraries for parsing and manipulating texts._
   - [github_flavored_markdown](https://godoc.org/github.com/shurcooL/github_flavored_markdown) - GitHub Flavored Markdown renderer (using blackfriday) with fenced code block highlighting, clickable header anchor links.
   - [go-output-format](https://github.com/drewstinnett/go-output-format) - Output go structures into multiple formats (YAML/JSON/etc) in your command line app.
   - [go-toml](https://github.com/pelletier/go-toml) - Go library for the TOML format with query support and handy cli tools.
+  - [goq](https://github.com/andrewstuart/goq) - Declarative unmarshaling of HTML using struct tags with jQuery syntax (uses GoQuery).
   - [html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown) - Convert HTML to Markdown. Even works with entire websites and can be extended through rules.
   - [htmlquery](https://github.com/antchfx/htmlquery) - An XPath query package for HTML, lets you extract data or evaluate from HTML documents by an XPath expression.
-  - [goq](https://github.com/andrewstuart/goq) - Declarative unmarshaling of HTML using struct tags with jQuery syntax (uses GoQuery).
   - [mxj](https://github.com/clbanning/mxj) - Encode / decode XML as JSON or map[string]interface{}; extract values with dot-notation paths and wildcards. Replaces x2j and j2x packages.
   - [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
 
@@ -2169,11 +2169,11 @@ _Libraries for parsing and manipulating texts._
   - [doi](https://github.com/hscells/doi) - Document object identifier (doi) parser in Go.
   - [editorconfig-core-go](https://github.com/editorconfig/editorconfig-core-go) - Editorconfig file parser and manipulator for Go.
   - [encdec](https://github.com/mickep76/encdec) - Package provides a generic interface to encoders and decodersa.
+  - [go-nmea](https://github.com/adrianmo/go-nmea) - NMEA parser library for the Go language.
+  - [go-vcard](https://github.com/emersion/go-vcard) - Parse and format vCard.
   - [gofeed](https://github.com/mmcdole/gofeed) - Parse RSS and Atom feeds in Go.
   - [gographviz](https://github.com/awalterschulze/gographviz) - Parses the Graphviz DOT language.
   - [gonameparts](https://github.com/polera/gonameparts) - Parses human names into individual name parts.
-  - [go-nmea](https://github.com/adrianmo/go-nmea) - NMEA parser library for the Go language.
-  - [go-vcard](https://github.com/emersion/go-vcard) - Parse and format vCard.
   - [ltsv](https://github.com/Wing924/ltsv) - High performance [LTSV (Labeled Tab Separated Value)](http://ltsv.org/) reader for Go.
   - [omniparser](https://github.com/jf-tech/omniparser) - A versatile ETL library that parses text input (CSV/txt/JSON/XML/EDI/X12/EDIFACT/etc) in streaming fashion and transforms data into JSON output using data-driven schema.
   - [parseargs-go](https://github.com/nproc/parseargs-go) - string argument parser that understands quotes and backslashes.
