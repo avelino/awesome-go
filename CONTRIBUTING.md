@@ -44,7 +44,7 @@ to provide them.
 One way to accomplish the above is to add badges to your project's README file.
 - Use https://pkg.go.dev/badge/ to create the pkg.go.dev link.
 - Go to https://goreportcard.com/ to generate a Go Report Card report, then click on the report badge in the upper right corner to see details on how to add the badge to your README.
-- Codecov, coveralls, and gocover all offer ways to create badges for code coverage reports. Another option is to generate a badge as part of a continuous integration process.
+- Codecov, coveralls, and gocover all offer ways to create badges for code coverage reports. Another option is to generate a badge as part of a continuous integration process. See [Code Coverage](COVERAGE.md) for an example.
 
 ## How to add an item to the list
 
