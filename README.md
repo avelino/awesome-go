@@ -116,6 +116,12 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Strings](#strings)
     - [Uncategorized](#uncategorized)
   - [Natural Language Processing](#natural-language-processing)
+    - [Language Detection](#language-detection)
+    - [Morphological Analyzers](#morphological-analyzers)
+    - [Slugifiers](#slugifiers)
+    - [Tokenizers](#tokenizers)
+    - [Translation](#translation)
+    - [Transliteration](#transliteration)
   - [Networking](#networking)
     - [HTTP Clients](#http-clients)
   - [OpenGL](#opengl)
@@ -132,6 +138,14 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
   - [Template Engines](#template-engines)
   - [Testing](#testing)
   - [Text Processing](#text-processing)
+    - [Formatters](#formatters)
+    - [Markup Languages](#markup-languages)
+    - [Parsers/Encoders/Decoders](#parsersencodersdecoders)
+    - [Regular Expressions](#regular-expressions)
+    - [Sanitation](#sanitation)
+    - [Scrapers](#scrapers)
+    - [RSS](#rss)
+    - [Utility/Miscellaneous](#utilitymiscellaneous)
   - [Third-party APIs](#third-party-apis)
   - [Utilities](#utilities)
   - [UUID](#uuid)
@@ -1594,11 +1608,6 @@ _Libraries for working with human languages._
 
 See also [Text Processing](#text-processing).
 
-### Slugifiers
-- [go-slugify](https://github.com/mozillazg/go-slugify) - Make pretty slug with multiple languages support.
-- [slug](https://github.com/gosimple/slug) - URL-friendly slugify with multiple languages support.
-- [Slugify](https://github.com/avelino/slugify) - Go slugify application that handles string.
-
 ### Language Detection
 - [detectlanguage](https://github.com/detectlanguage/detectlanguage-go) - Language Detection API Go Client. Supports batch requests, short phrase or single word language detection.
 - [getlang](https://github.com/rylans/getlang) - Fast natural language detection package.
@@ -1622,6 +1631,11 @@ See also [Text Processing](#text-processing).
 - [snowball](https://github.com/goodsign/snowball) - Snowball stemmer port (cgo wrapper) for Go. Provides word stem extraction functionality [Snowball native](http://snowball.tartarus.org/).
 - [spaGO](https://github.com/nlpodyssey/spago) - Self-contained Machine Learning and Natural Language Processing library in Go.
 
+### Slugifiers
+- [go-slugify](https://github.com/mozillazg/go-slugify) - Make pretty slug with multiple languages support.
+- [slug](https://github.com/gosimple/slug) - URL-friendly slugify with multiple languages support.
+- [Slugify](https://github.com/avelino/slugify) - Go slugify application that handles string.
+
 ### Tokenizers
 - [gojieba](https://github.com/yanyiwu/gojieba) - This is a Go implementation of [jieba](https://github.com/fxsjy/jieba) which a Chinese word splitting algorithm.
 - [gotokenizer](https://github.com/xujiajun/gotokenizer) - A tokenizer based on the dictionary and Bigram language models for Golang. (Now only support chinese segmentation)
@@ -1637,9 +1651,9 @@ See also [Text Processing](#text-processing).
 ### Translation
 - [go-i18n](https://github.com/nicksnyder/go-i18n/) - Package and an accompanying tool to work with localized text.
 - [go-localize](https://github.com/m1/go-localize) - Simple and easy to use i18n (Internationalization and localization) engine - used for translating locale strings.
-- [gotext](https://github.com/leonelquinteros/gotext) - GNU gettext utilities for Go.
 - [go-mystem](https://github.com/dveselov/mystem) - CGo bindings to Yandex.Mystem - russian morphology analyzer.
 - [go-pinyin](https://github.com/mozillazg/go-pinyin) - CN Hanzi to Hanyu Pinyin converter.
+- [gotext](https://github.com/leonelquinteros/gotext) - GNU gettext utilities for Go.
 - [icu](https://github.com/goodsign/icu) - Cgo binding for icu4c C library detection and conversion functions. Guaranteed compatibility with version 50.1.
 - [iuliia-go](https://github.com/mehanizm/iuliia-go) - Transliterate Cyrillic → Latin in every possible way.
 - [t](https://github.com/youthlin/t) - Another i18n pkg for golang, which follows GNU gettext style and supports .po/.mo files: `t.T (gettext)`, `t.N (ngettext)`, etc. And it contains a cmd tool [xtemplate](https://github.com/youthlin/t/blob/main/cmd/xtemplate), which can extract messages as a pot file from text/html template.
@@ -2214,9 +2228,9 @@ See also [Natural Language Processing](#natural-language-processing).
 - [syndfeed](https://github.com/zhengchun/syndfeed) - A syndication feed for Atom 1.0 and RSS 2.0.
 
 ### Utility/Miscellaneous
-- [kace](https://github.com/codemodus/kace) - Common case conversions covering common initialisms.
 - [go-runewidth](https://github.com/mattn/go-runewidth) - Functions to get fixed width of the character or string.
 - [go-zero-width](https://github.com/trubitsyn/go-zero-width) - Zero-width character detection and removal for Go.
+- [kace](https://github.com/codemodus/kace) - Common case conversions covering common initialisms.
 - [petrovich](https://github.com/striker2000/petrovich) - Petrovich is the library which inflects Russian names to given grammatical case.
 - [radix](https://github.com/yourbasic/radix) - Fast string sorting algorithm.
 - [TySug](https://github.com/Dynom/TySug) - Alternative suggestions with respect to keyboard layouts.
