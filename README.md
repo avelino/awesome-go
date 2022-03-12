@@ -2495,6 +2495,7 @@ _Libraries for validation._
 - [validate](https://github.com/gookit/validate) - Go package for data validation and filtering. support validate Map, Struct, Request(Form, JSON, url.Values, Uploaded Files) data and more features.
 - [validate](https://github.com/gobuffalo/validate) - This package provides a framework for writing validations for Go applications.
 - [validator](https://github.com/go-playground/validator) - Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving.
+- [Validator](https://github.com/go-the-way/validator) - A lightweight model validator written in Go.Contains VFs:Min, Max, MinLength, MaxLength, Length, Enum, Regex.
 
 **[⬆ back to top](#contents)**
 
@@ -2540,6 +2541,7 @@ _Full stack web frameworks._
 - [aah](https://aahframework.org) - Scalable, performant, rapid development Web framework for Go.
 - [Aero](https://github.com/aerogo/aero) - High-performance web framework for Go, reaches top scores in Lighthouse.
 - [Air](https://github.com/aofei/air) - An ideally refined web framework for Go.
+- [Anoweb](https://github.com/go-the-way/anoweb) - The lightweight and powerful web framework using the new way for Go.Another go the way.
 - [appy](https://github.com/appist/appy) - An opinionated productive web framework that helps scaling business easier.
 - [Banjo](https://github.com/nsheremet/banjo) - Very simple and fast web framework for Go.
 - [Beego](https://github.com/beego/beego) - beego is an open-source, high-performance web framework for the Go programming language.
