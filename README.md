@@ -70,7 +70,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 ## Contents
 
 - [Awesome Go](#awesome-go)
-  - [Contents](#contents)
   - [Audio and Music](#audio-and-music)
   - [Authentication and OAuth](#authentication-and-oauth)
   - [Blockchain](#blockchain)
