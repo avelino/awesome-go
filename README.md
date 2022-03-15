@@ -20,7 +20,7 @@ _Special thanks to_
 <table cellpadding="5">
 <tbody align="center">
 <tr>
-<td>
+<td style="width:50%">
 <a href="https://bit.ly/awesome-go-doppler">
 <img src="https://avelino.run/sponsors/doppler-logo.png" width="200" alt="Doppler"><br/>
 <b>Quit struggling with scattered API keys and access controls.</b><br/>
