@@ -53,7 +53,15 @@ _Special thanks to_
 </td>
 </tr>
 <tr>
-<td colspan="2">
+<td>
+<a href="https://go.cto.ai/3KJfMKv">
+<img src="https://avelino.run/sponsors/cto-logo.png" width="200" alt="cto.ai"><br/>
+<b>workflow smarter, not harder</b><br/>
+<sub>Make the switch from one-size-fits-all CI/CD to PaaS</sub><br/>
+<sup>workflows & turn k8s into a powerful developer experience</sup><br/>
+<sup>that will measurably increase developer productivity by 200%</sup>
+</td>
+<td>
 <a href="https://bit.ly/awesome-go-digitalocean">
 <img src="https://avelino.run/sponsors/do_logo_horizontal_blue-210.png" width="200" alt="Digital Ocean">
 </a>
@@ -2907,7 +2915,7 @@ _Software written in Go._
 - [lstags](https://github.com/ivanilves/lstags) - Tool and API to sync Docker images across different registries.
 - [lwc](https://github.com/timdp/lwc) - A live-updating version of the UNIX wc command.
 - [manssh](https://github.com/xwjdsh/manssh) - manssh is a command line tool for managing your ssh alias config easily.
-- [Mantil](https://github.com/mantil-io/mantil) - Go specific framework for building serverless applications on AWS that enables you to focus on pure Go code while Mantil takes care of the infrastructure. 
+- [Mantil](https://github.com/mantil-io/mantil) - Go specific framework for building serverless applications on AWS that enables you to focus on pure Go code while Mantil takes care of the infrastructure.
 - [Mizu](https://github.com/up9inc/mizu) - API traffic viewer for Kubernetes enabling you to view all API communication between microservices, multiprotocol support: HTTP1.1, HTTP/2, AMQP, Kafka, Redis.
 - [Moby](https://github.com/moby/moby) - Collaborative project for the container ecosystem to assemble container-based systems.
 - [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data.
