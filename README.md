@@ -1699,6 +1699,7 @@ _Libraries for working with various layers of the network._
 - [ftpserverlib](https://github.com/fclairamb/ftpserverlib) - Fully featured FTP server library.
 - [gaio](https://github.com/xtaci/gaio) - High performance async-io networking for Golang in proactor mode.
 - [gev](https://github.com/Allenxuxu/gev) - gev is a lightweight, fast non-blocking TCP network library based on Reactor mode.
+- [gldap](https://github.com/jimlambrt/gldap) - gldap provides an ldap server implementation and you provide handlers for its ldap operations.  
 - [gmqtt](https://github.com/DrmagicE/gmqtt) - Gmqtt is a flexible, high-performance MQTT broker library that fully implements the MQTT protocol V3.1.1.
 - [gnet](https://github.com/panjf2000/gnet) - `gnet` is a high-performance, lightweight, non-blocking, event-driven networking framework written in pure Go.
 - [gNxI](https://github.com/google/gnxi) - A collection of tools for Network Management that use the gNMI and gNOI protocols.
