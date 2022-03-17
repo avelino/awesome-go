@@ -1155,6 +1155,7 @@ _Toolkits_
 - [go-astilectron](https://github.com/asticode/go-astilectron) - Build cross platform GUI apps with GO and HTML/JS/CSS (powered by Electron).
 - [go-gtk](https://mattn.github.io/go-gtk/) - Go bindings for GTK.
 - [go-sciter](https://github.com/sciter-sdk/go-sciter) - Go bindings for Sciter: the Embeddable HTML/CSS/script engine for modern desktop UI development. Cross platform.
+- [goradd/html5tag](https://github.com/goradd/html5tag) - Library for outputting HTML5 tags.
 - [gotk3](https://github.com/gotk3/gotk3) - Go bindings for GTK3.
 - [gowd](https://github.com/dtylman/gowd) - Rapid and simple desktop UI development with GO, HTML, CSS and NW.js. Cross platform.
 - [qt](https://github.com/therecipe/qt) - Qt binding for Go (support for Windows / macOS / Linux / Android / iOS / Sailfish OS / Raspberry Pi).
