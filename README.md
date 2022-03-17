@@ -2565,6 +2565,7 @@ _Libraries for validation._
 - [validate](https://github.com/gookit/validate) - Go package for data validation and filtering. support validate Map, Struct, Request(Form, JSON, url.Values, Uploaded Files) data and more features.
 - [validate](https://github.com/gobuffalo/validate) - This package provides a framework for writing validations for Go applications.
 - [validator](https://github.com/go-playground/validator) - Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving.
+- [Validator](https://github.com/go-the-way/validator) - A lightweight model validator written in Go.Contains VFs:Min, Max, MinLength, MaxLength, Length, Enum, Regex.
 
 **[⬆ back to top](#contents)**
 
