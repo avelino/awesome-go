@@ -1628,6 +1628,7 @@ See also [Text Processing](#text-processing).
 - [detectlanguage](https://github.com/detectlanguage/detectlanguage-go) - Language Detection API Go Client. Supports batch requests, short phrase or single word language detection.
 - [getlang](https://github.com/rylans/getlang) - Fast natural language detection package.
 - [guesslanguage](https://github.com/endeveit/guesslanguage) - Functions to determine the natural language of a unicode text.
+- [spelling-corrector](https://github.com/jorelosorio/spelling-corrector) - A spelling corrector for Spanish / English language.
 - [whatlanggo](https://github.com/abadojack/whatlanggo) - Natural language detection package for Go. Supports 84 languages and 24 scripts (writing systems e.g. Latin, Cyrillic, etc).
 
 ### Morphological Analyzers
