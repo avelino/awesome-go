@@ -1054,6 +1054,7 @@ _Tools to enhance the language with features like generics via code generation._
 - [go-linq](https://github.com/ahmetalpbalkan/go-linq) - .NET LINQ-like query methods for Go.
 - [go-xray](https://github.com/pieterclaerhout/go-xray) - Helpers for making the use of reflection easier.
 - [goderive](https://github.com/awalterschulze/goderive) - Derives functions from input types.
+- [goradd/maps](https://github.com/goradd/maps) - A maps library using Go 1.18 generics, including safe maps and ordered maps.
 - [gotype](https://github.com/wzshiming/gotype) - Golang source code parsing, usage like reflect package.
 - [goverter](https://github.com/jmattheis/goverter) - Generate converters by defining an interface.
 - [GoWrap](https://github.com/hexdigest/gowrap) - Generate decorators for Go interfaces using simple templates.
