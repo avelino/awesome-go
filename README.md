@@ -2101,6 +2101,7 @@ _Libraries for testing codebases and generating test data._
   - [fixenv](https://github.com/rekby/fixenv) - Fixture manage engine, inspired by pytest fixtures.
   - [flute](https://github.com/suzuki-shunsuke/flute) - HTTP client testing framework.
   - [frisby](https://github.com/verdverm/frisby) - REST API testing framework.
+  - [gherkingen](https://github.com/hedhyw/gherkingen) - BDD boilerplate generator and framework.
   - [ginkgo](https://onsi.github.io/ginkgo/) - BDD Testing Framework for Go.
   - [gnomock](https://github.com/orlangure/gnomock) - integration testing with real dependencies (database, cache, even Kubernetes or AWS) running in Docker, without mocks.
   - [go-carpet](https://github.com/msoap/go-carpet) - Tool for viewing test coverage in terminal.
