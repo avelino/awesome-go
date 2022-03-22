@@ -104,8 +104,9 @@ func changeLinksInIndex(html string, query *goquery.Document) {
 		href, exists := s.Attr("href")
 		if exists {
 			uri := strings.SplitAfter(href, "#")
-			if len(uri) >= 2 {
-				html = strings.ReplaceAll(html, fmt.Sprintf(`href="%s"`, href), fmt.Sprintf(`href="%s"`, uri[1]))
+			if len(uri) >= 2 && uri[1] != "contents" {
+				html = strings.ReplaceAll(
+					html, fmt.Sprintf(`href="%s"`, href), fmt.Sprintf(`href="%s"`, uri[1]))
 			}
 		}
 	})
