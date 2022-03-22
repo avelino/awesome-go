@@ -2100,6 +2100,7 @@ _Libraries for testing codebases and generating test data._
   - [flute](https://github.com/suzuki-shunsuke/flute) - HTTP client testing framework.
   - [frisby](https://github.com/verdverm/frisby) - REST API testing framework.
   - [ginkgo](https://onsi.github.io/ginkgo/) - BDD Testing Framework for Go.
+  - [gherkingen](https://github.com/hedhyw/gherkingen) - BDD boilerplate generator and framework.
   - [gnomock](https://github.com/orlangure/gnomock) - integration testing with real dependencies (database, cache, even Kubernetes or AWS) running in Docker, without mocks.
   - [go-carpet](https://github.com/msoap/go-carpet) - Tool for viewing test coverage in terminal.
   - [go-cmp](https://github.com/google/go-cmp) - Package for comparing Go values in tests.
