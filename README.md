@@ -110,7 +110,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
   - [Forms](#forms)
   - [Functional](#functional)
   - [Game Development](#game-development)
-  - [Generation and Generics](#generation-and-generics)
+  - [Generators](#generators)
   - [Geographic](#geographic)
   - [Go Compilers](#go-compilers)
   - [Goroutines](#goroutines)
@@ -1043,9 +1043,9 @@ _Awesome game development libraries._
 
 **[⬆ back to top](#contents)**
 
-## Generation and Generics
+## Generators
 
-_Tools to enhance the language with features like generics via code generation._
+_Tools that generate Go code._
 
 - [efaceconv](https://github.com/t0pep0/efaceconv) - Code generation tool for high performance conversion from interface{} to immutable type without allocations.
 - [gen](https://github.com/clipperhouse/gen) - Code generation tool for ‘generics’-like functionality.
