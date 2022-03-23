@@ -517,7 +517,6 @@ _Generic datastructures and algorithms in Go._
 - [deque](https://github.com/gammazero/deque) - Fast ring-buffer deque (double-ended queue).
 - [dict](https://github.com/srfrog/dict) - Python-like dictionaries (dict) for Go.
 - [dsu](https://github.com/ihebu/dsu) - Disjoint Set data structure implementation in Go.
-- [encoding](https://github.com/zhenjl/encoding) - Integer Compression Libraries for Go.
 - [fsm](https://github.com/cocoonspace/fsm) - Finite-State Machine package.
 - [gdcache](https://github.com/ulovecode/gdcache) - A pure non-intrusive cache library implemented by golang, you can use it to implement your own distributed cache.
 - [go-adaptive-radix-tree](https://github.com/plar/go-adaptive-radix-tree) - Go implementation of Adaptive Radix Tree.
