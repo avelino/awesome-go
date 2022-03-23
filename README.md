@@ -533,7 +533,6 @@ _Generic datastructures and algorithms in Go._
 - [gofal](https://github.com/xxjwxc/gofal) - fractional api for Go.
 - [golang-set](https://github.com/deckarep/golang-set) - Thread-Safe and Non-Thread-Safe high-performance sets for Go.
 - [goset](https://github.com/zoumo/goset) - A useful Set collection implementation for Go.
-- [goskiplist](https://github.com/ryszard/goskiplist) - Skip list implementation in Go.
 - [gostl](https://github.com/liyue201/gostl) - Data structure and algorithm library for go, designed to provide functions similar to C++ STL.
 - [gota](https://github.com/kniren/gota) - Implementation of dataframes, series, and data wrangling methods for Go.
 - [goterator](https://github.com/yaa110/goterator) - Iterator implementation to provide map and reduce functionalities.
