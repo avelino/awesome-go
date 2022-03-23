@@ -59,7 +59,7 @@ _Special thanks to_
 </a>
 </td>
 <td>
-<a href="https://go.cto.ai/3KJfMKv">
+<a href="https://bit.ly/awesome-go-ctoai">
 <img src="https://avelino.run/sponsors/cto-logo.png" width="200" alt="cto.ai"><br/>
 <b>workflow smarter, not harder</b><br/>
 <sub>Make the switch from one-size-fits-all CI/CD to PaaS</sub><br/>
