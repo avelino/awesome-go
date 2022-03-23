@@ -501,7 +501,7 @@ _Generic datastructures and algorithms in Go._
 - [binpacker](https://github.com/zhuangsirui/binpacker) - Binary packer and unpacker helps user build custom binary stream.
 - [bit](https://github.com/yourbasic/bit) - Golang set data structure with bonus bit-twiddling functions.
 - [bitmap](https://github.com/kelindar/bitmap) - Dense, zero-allocation, SIMD-enabled bitmap/bitset in Go.
-- [bitset](https://github.com/willf/bitset) - Go package implementing bitsets.
+- [bitset](https://github.com/bits-and-blooms/bitset) - Go package implementing bitsets.
 - [bloom](https://github.com/zhenjl/bloom) - Bloom filters implemented in Go.
 - [bloom](https://github.com/yourbasic/bloom) - Golang Bloom filter implementation.
 - [bloomfilter](https://github.com/OldPanda/bloomfilter) - Yet another Bloomfilter implementation in Go, compatible with Java's Guava library.
