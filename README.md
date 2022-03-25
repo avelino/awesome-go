@@ -545,6 +545,7 @@ _Generic datastructures and algorithms in Go._
 - [iter](https://github.com/disksing/iter) - Go implementation of C++ STL iterators and algorithms.
 - [levenshtein](https://github.com/agext/levenshtein) - Levenshtein distance and similarity metrics with customizable edit costs and Winkler-like bonus for common prefix.
 - [levenshtein](https://github.com/agnivade/levenshtein) - Implementation to calculate levenshtein distance in Go.
+- [lru](https://github.com/floatdrop/lru) - Thread-safe LRU in-memory cache implementation with Go 1.18+ generics.
 - [memlog](https://github.com/embano1/memlog) - An easy to use, lightweight, thread-safe and append-only in-memory data structure inspired by Apache Kafka.
 - [merkle](https://github.com/bobg/merkle) - Space-efficient computation of Merkle root hashes and inclusion proofs.
 - [merkletree](https://github.com/cbergoon/merkletree) - Implementation of a merkle tree providing an efficient and secure verification of the contents of data structures.
