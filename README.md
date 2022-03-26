@@ -1014,6 +1014,7 @@ _Packages to support functional programming in Go._
 - [fuego](https://github.com/seborama/fuego) - Functional Experiment in Go.
 - [go-underscore](https://github.com/tobyhede/go-underscore) - Useful collection of helpfully functional Go collection utilities.
 - [gofp](https://github.com/rbrahul/gofp) - A lodash like powerful utility library for Golang.
+- [underscore](https://github.com/rjNemo/underscore) - Functional programming helpers for Go 1.18 and beyond.
 
 **[⬆ back to top](#contents)**
 
