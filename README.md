@@ -1255,6 +1255,7 @@ _Libraries for programming devices of the IoT._
 - [mainflux](https://github.com/Mainflux/mainflux) - Industrial IoT Messaging and Device Management Server.
 - [periph](https://periph.io/) - Peripherals I/O to interface with low-level board facilities.
 - [sensorbee](https://github.com/sensorbee/sensorbee) - Lightweight stream processing engine for IoT.
+- [webthings](https://github.com/dravenk/webthing-go) - Go implementation of a Web Thing server.
 
 **[⬆ back to top](#contents)**
 
