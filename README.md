@@ -2497,6 +2497,7 @@ _General utilities and tools to make your life easier._
 - [peco](https://github.com/peco/peco) - Simplistic interactive filtering tool.
 - [pgo](https://github.com/arthurkushman/pgo) - Convenient functions for PHP community.
 - [pm](https://github.com/VividCortex/pm) - Process (i.e. goroutine) manager with an HTTP API.
+- [pointer](https://github.com/xorcare/pointer) - Package pointer contains helper routines for simplifying the creation of optional fields of basic type.
 - [ptr](https://github.com/gotidy/ptr) - Package that provide functions for simplified creation of pointers from constants of basic types.
 - [rclient](https://github.com/zpatrick/rclient) - Readable, flexible, simple-to-use client for REST APIs.
 - [repeat](https://github.com/ssgreg/repeat) - Go implementation of different backoff strategies useful for retrying operations and heartbeating.
