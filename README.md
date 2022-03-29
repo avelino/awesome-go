@@ -214,7 +214,6 @@ _Libraries for manipulating audio._
 - [music-theory](https://github.com/go-music-theory/music-theory) - Music theory models in Go.
 - [Oto](https://github.com/hajimehoshi/oto) - A low-level library to play sound on multiple platforms.
 - [PortAudio](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library.
-- [portmidi](https://github.com/rakyll/portmidi) - Go bindings for PortMidi.
 
 **[⬆ back to top](#contents)**
 
