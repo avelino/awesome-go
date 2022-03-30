@@ -1768,6 +1768,7 @@ _Libraries for making HTTP requests._
 - [gentleman](https://github.com/h2non/gentleman) - Full-featured plugin-driven HTTP client library.
 - [go-cleanhttp](https://github.com/hashicorp/go-cleanhttp) - Get easily stdlib HTTP client, which does not share any state with other clients.
 - [go-http-client](https://github.com/bozd4g/go-http-client) - Make http calls simply and easily.
+- [go-otelroundtripper](https://github.com/NdoleStudio/go-otelroundtripper) - Go http.RoundTripper that emits open telemetry metrics for HTTP requests.
 - [go-req](https://github.com/wenerme/go-req) - Declarative golang HTTP client.
 - [go-retryablehttp](https://github.com/hashicorp/go-retryablehttp) - Retryable HTTP client in Go.
 - [grequests](https://github.com/levigross/grequests) - A Go "clone" of the great and famous Requests library.
