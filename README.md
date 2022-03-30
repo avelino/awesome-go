@@ -1520,7 +1520,7 @@ _Libraries for working with dependency injection._
 - [HnH/di](https://github.com/HnH/di) - DI container library that is focused on clean API and flexibility.
 - [kinit](https://github.com/go-kata/kinit) - Customizable dependency injection container with the global mode, cascade initialization and panic-safe finalization.
 - [linker](https://github.com/logrange/linker) - A reflection based dependency injection and inversion of control library with components lifecycle support.
-- [nject](https://github.com/muir/nject) - A type safe, reflective framework for libraries, tests, and http endpoints, and service startup.
+- [nject](https://github.com/muir/nject) - A type safe, reflective framework for libraries, tests, http endpoints, and service startup.
 - [wire](https://github.com/Fs02/wire) - Strict Runtime Dependency Injection for Golang.
 
 **[⬆ back to top](#contents)**
@@ -2723,6 +2723,7 @@ _Full stack web frameworks._
 - [httptreemux](https://github.com/dimfeld/httptreemux) - High-speed, flexible tree-based HTTP router for Go. Inspiration from httprouter.
 - [lars](https://github.com/go-playground/lars) - Is a lightweight, fast and extensible zero allocation HTTP router for Go used to create customizable frameworks.
 - [mux](https://github.com/gorilla/mux) - Powerful URL router and dispatcher for golang.
+- [nchi](https://github.com/muir/nchi) - chi-like router built on httprouter with dependency injection based middleware wrappers
 - [ngamux](https://github.com/ngamux/ngamux) - Simple HTTP router for Go.
 - [ozzo-routing](https://github.com/go-ozzo/ozzo-routing) - An extremely fast Go (golang) HTTP router that supports regular expression route matching. Comes with full support for building RESTful APIs.
 - [pure](https://github.com/go-playground/pure) - Is a lightweight HTTP router that sticks to the std "net/http" implementation.
