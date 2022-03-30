@@ -494,6 +494,7 @@ _Libraries for preprocessing CSS files._
 
 _Generic datastructures and algorithms in Go._
 
+- [2q](https://github.com/floatdrop/2q) - 2Q in-memory cache implementation.
 - [algorithms](https://github.com/shady831213/algorithms) - Algorithms and data structures.CLRS study.
 - [bingo](https://github.com/iancmcc/bingo) - Fast, zero-allocation, lexicographical-order-preserving packing of native types to bytes.
 - [binpacker](https://github.com/zhuangsirui/binpacker) - Binary packer and unpacker helps user build custom binary stream.
