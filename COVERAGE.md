@@ -7,9 +7,9 @@ generate a code coverage report without one of those services.
 
 This yaml file will run tests on multiple system configurations, but will produce
 a code coverage report on only one of those. It will then create a code coverage badge
-and add it to the Readme file.
+and add it to the README file.
 
-This file should be put in the .github/workflows directory of your repo. 
+This file should be put in the `.github/workflows` directory of your repo. 
 
 ```yaml
 name: Go  # The name of the workflow that will appear on Github
