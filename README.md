@@ -3256,7 +3256,6 @@ _Where to discover new Go libraries._
 
 ### Tutorials
 
-- [Implementing CRUD in Golang REST API with Mux & GORM](https://codewithmukesh.com/blog/implementing-crud-in-golang-rest-api/) - Building a CRUD Golang REST API from scratch using MUX, GORM, MySQL, Viper and clean folder seperation. Entire source code is also included!
 - [50 Shades of Go](https://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/) - Traps, Gotchas, and Common Mistakes for New Golang Devs.
 - [A Guide to Golang E-Commerce](https://snipcart.com/blog/golang-ecommerce-ponzu-cms-demo?utm_term=golang-ecommerce-ponzu-cms-demo) - Building a Golang site for e-commerce (demo included).
 - [A Tour of Go](https://tour.golang.org/) - Interactive tour of Go.
@@ -3289,6 +3288,7 @@ _Where to discover new Go libraries._
 - [How to Benchmark: dbq vs sqlx vs GORM](https://medium.com/@rocketlaunchr.cloud/how-to-benchmark-dbq-vs-sqlx-vs-gorm-e814caacecb5) - Learn how to benchmark in Go. As a case-study, we will benchmark dbq, sqlx and GORM.
 - [How To Deploy a Go Web Application with Docker](https://semaphoreci.com/community/tutorials/how-to-deploy-a-go-web-application-with-docker) - Learn how to use Docker for Go development and how to build production Docker images.
 - [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go) - Get started with Godog — a Behavior-driven development framework for building and testing Go applications.
+- [Implementing CRUD in Golang REST API with Mux & GORM](https://codewithmukesh.com/blog/implementing-crud-in-golang-rest-api/) - Building a CRUD Golang REST API from scratch using MUX, GORM, MySQL, Viper and clean folder seperation. Entire source code is also included!
 - [Learn Go with 1000+ Exercises](https://github.com/inancgumus/learngo) - Learn Go with thousands of examples, exercises, and quizzes.
 - [Learn Go with TDD](https://github.com/quii/learn-go-with-tests) - Learn Go with test-driven development.
 - [Learning Go by examples](https://dev.to/aurelievache/learning-go-by-examples-introduction-448n) - Serie of article in order to learn Golang language by concrete applications as example.
