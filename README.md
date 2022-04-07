@@ -555,7 +555,8 @@ _Libraries for preprocessing CSS files._
 ### Maps
 
 See also [Database](#database) for more complex key-value stores, and [Trees](#trees) for
-additional ordred map implementations.
+additional ordered map implementations.
+
 - [cmap](https://github.com/lrita/cmap) - a thread-safe concurrent map for go, support using `interface{}` as key and auto scale up shards.
 - [dict](https://github.com/srfrog/dict) - Python-like dictionaries (dict) for Go.
 
