@@ -1118,7 +1118,6 @@ _Awesome game development libraries._
 _Tools that generate Go code._
 
 - [efaceconv](https://github.com/t0pep0/efaceconv) - Code generation tool for high performance conversion from interface{} to immutable type without allocations.
-- [gen](https://github.com/clipperhouse/gen) - Code generation tool for ‘generics’-like functionality.
 - [generis](https://github.com/senselogic/GENERIS) - Code generation tool providing generics, free-form macros, conditional compilation and HTML templating.
 - [go-enum](https://github.com/abice/go-enum) - Code generation for enums from code comments.
 - [go-linq](https://github.com/ahmetalpbalkan/go-linq) - .NET LINQ-like query methods for Go.
