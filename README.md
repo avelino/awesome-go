@@ -1227,6 +1227,7 @@ _Toolkits_
 - [Wails](https://wails.app) - Mac, Windows, Linux desktop apps with HTML UI using built-in OS HTML renderer.
 - [walk](https://github.com/lxn/walk) - Windows application library kit for Go.
 - [webview](https://github.com/zserge/webview) - Cross-platform webview window with simple two-way JavaScript bindings (Windows / macOS / Linux).
+- [gio](https://gioui.org/) - A library for writing cross-platform immediate mode GUI-s in Go (support provided for Linux, Windows, macOS, Android, iOS, FreeBSD, OpenBSD, WebAssembly (experimental) )
 
 _Interaction_
 
