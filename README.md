@@ -520,7 +520,6 @@ _Libraries for preprocessing CSS files._
 - [binpacker](https://github.com/zhuangsirui/binpacker) - Binary packer and unpacker helps user build custom binary stream.
 - [bit](https://github.com/yourbasic/bit) - Golang set data structure with bonus bit-twiddling functions.
 - [crunch](https://github.com/superwhiskers/crunch) - Go package implementing buffers for handling various datatypes easily.
-- [encoding](https://github.com/zhenjl/encoding) - Integer Compression Libraries for Go.
 - [go-ef](https://github.com/amallia/go-ef) - A Go implementation of the Elias-Fano encoding.
 - [roaring](https://github.com/RoaringBitmap/roaring) - Go package implementing compressed bitsets.
 
