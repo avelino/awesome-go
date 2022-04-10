@@ -96,9 +96,31 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
   - [Configuration](#configuration)
   - [Continuous Integration](#continuous-integration)
   - [CSS Preprocessors](#css-preprocessors)
-  - [Data Structures](#data-structures)
+  - [Data Structures and Algorithms](#data-structures-and-algorithms)
+    - [Bit-packing and Compression](#bit-packing-and-compression)
+    - [Bit Sets](#bit-sets)
+    - [Bloom and Cuckoo Filters](#bloom-and-cuckoo-filters)
+    - [Data Structure and Algorithm Collections](#data-structure-and-algorithm-collections)
+    - [Iterators](#iterators)
+    - [Maps](#maps)
+    - [Miscellaneous Data Structures and Algorithms](#miscellaneous-data-structures-and-algorithms)
+    - [Nullable Types](#nullable-types)
+    - [Queues](#queues)
+    - [Sets](#sets)
+    - [Text Analysis](#text-analysis)
+    - [Trees](#trees)
+    - [Pipes](#pipes)
   - [Database](#database)
+    - [Caches](#caches)
+    - [Databases Implemented in Go](#databases-implemented-in-go)
+    - [Database Schema Migration](#database-schema-migration)
+    - [Database Tools](#database-tools)
+    - [SQL Query Builders](#sql-query-builders)
   - [Database Drivers](#database-drivers)
+    - [Interfaces to Multiple Backends](#interfaces-to-multiple-backends)
+    - [Relational Database Drivers](#relational-database-drivers)
+    - [NoSQL Database Drivers](#nosql-database-drivers)
+    - [Search and Analytic Databases](#search-and-analytic-databases)
   - [Date and Time](#date-and-time)
   - [Distributed Systems](#distributed-systems)
   - [Dynamic DNS](#dynamic-dns)
@@ -490,123 +512,165 @@ _Libraries for preprocessing CSS files._
 
 **[⬆ back to top](#contents)**
 
-## Data Structures
+## Data Structures and Algorithms
 
-_Generic datastructures and algorithms in Go._
+### Bit-packing and Compression
 
-- [2q](https://github.com/floatdrop/2q) - 2Q in-memory cache implementation.
-- [algorithms](https://github.com/shady831213/algorithms) - Algorithms and data structures.CLRS study.
 - [bingo](https://github.com/iancmcc/bingo) - Fast, zero-allocation, lexicographical-order-preserving packing of native types to bytes.
 - [binpacker](https://github.com/zhuangsirui/binpacker) - Binary packer and unpacker helps user build custom binary stream.
 - [bit](https://github.com/yourbasic/bit) - Golang set data structure with bonus bit-twiddling functions.
+- [crunch](https://github.com/superwhiskers/crunch) - Go package implementing buffers for handling various datatypes easily.
+- [go-ef](https://github.com/amallia/go-ef) - A Go implementation of the Elias-Fano encoding.
+- [roaring](https://github.com/RoaringBitmap/roaring) - Go package implementing compressed bitsets.
+
+### Bit Sets
+
 - [bitmap](https://github.com/kelindar/bitmap) - Dense, zero-allocation, SIMD-enabled bitmap/bitset in Go.
 - [bitset](https://github.com/bits-and-blooms/bitset) - Go package implementing bitsets.
+
+### Bloom and Cuckoo Filters
+
 - [bloom](https://github.com/bits-and-blooms/bloom) - Go package implementing Bloom filters.
 - [bloom](https://github.com/zhenjl/bloom) - Bloom filters implemented in Go.
 - [bloom](https://github.com/yourbasic/bloom) - Golang Bloom filter implementation.
 - [bloomfilter](https://github.com/OldPanda/bloomfilter) - Yet another Bloomfilter implementation in Go, compatible with Java's Guava library.
 - [boomfilters](https://github.com/tylertreat/BoomFilters) - Probabilistic data structures for processing continuous, unbounded streams.
+- [cuckoo-filter](https://github.com/linvon/cuckoo-filter) - Cuckoo filter: a comprehensive cuckoo filter, which is configurable and space optimized compared with other implements, and all features mentioned in original paper is available.
+- [cuckoofilter](https://github.com/seiflotfy/cuckoofilter) - Cuckoo filter: a good alternative to a counting bloom filter implemented in Go.
+- [ring](https://github.com/TheTannerRyan/ring) - Go implementation of a high performance, thread safe bloom filter.
+
+### Data Structure and Algorithm Collections
+
+- [algorithms](https://github.com/shady831213/algorithms) - Algorithms and data structures.CLRS study.
+- [go-datastructures](https://github.com/Workiva/go-datastructures) - Collection of useful, performant, and thread-safe data structures.
+- [gods](https://github.com/emirpasic/gods) - Go Data Structures. Containers, Sets, Lists, Stacks, Maps, BidiMaps, Trees, HashSet etc.
+- [gostl](https://github.com/liyue201/gostl) - Data structure and algorithm library for go, designed to provide functions similar to C++ STL.
+
+### Iterators
+
+- [goterator](https://github.com/yaa110/goterator) - Iterator implementation to provide map and reduce functionalities.
+- [iter](https://github.com/disksing/iter) - Go implementation of C++ STL iterators and algorithms.
+
+### Maps
+
+See also [Database](#database) for more complex key-value stores, and [Trees](#trees) for
+additional ordered map implementations.
+
 - [cmap](https://github.com/lrita/cmap) - a thread-safe concurrent map for go, support using `interface{}` as key and auto scale up shards.
+- [dict](https://github.com/srfrog/dict) - Python-like dictionaries (dict) for Go.
+
+### Miscellaneous Data Structures and Algorithms
+
 - [concurrent-writer](https://github.com/free/concurrent-writer) - Highly concurrent drop-in replacement for `bufio.Writer`.
 - [conjungo](https://github.com/InVisionApp/conjungo) - A small, powerful and flexible merge library.
 - [count-min-log](https://github.com/seiflotfy/count-min-log) - Go implementation Count-Min-Log sketch: Approximately counting with approximate counters (Like Count-Min sketch but using less memory).
-- [crunch](https://github.com/superwhiskers/crunch) - Go package implementing buffers for handling various datatypes easily.
-- [cuckoo-filter](https://github.com/linvon/cuckoo-filter) - Cuckoo filter: a comprehensive cuckoo filter, which is configurable and space optimized compared with other implements, and all features mentioned in original paper is available.
-- [cuckoofilter](https://github.com/seiflotfy/cuckoofilter) - Cuckoo filter: a good alternative to a counting bloom filter implemented in Go.
-- [deque](https://github.com/edwingeng/deque) - A highly optimized double-ended queue.
-- [deque](https://github.com/gammazero/deque) - Fast ring-buffer deque (double-ended queue).
-- [dict](https://github.com/srfrog/dict) - Python-like dictionaries (dict) for Go.
-- [dsu](https://github.com/ihebu/dsu) - Disjoint Set data structure implementation in Go.
-- [encoding](https://github.com/zhenjl/encoding) - Integer Compression Libraries for Go.
 - [fsm](https://github.com/cocoonspace/fsm) - Finite-State Machine package.
-- [gdcache](https://github.com/ulovecode/gdcache) - A pure non-intrusive cache library implemented by golang, you can use it to implement your own distributed cache.
-- [go-adaptive-radix-tree](https://github.com/plar/go-adaptive-radix-tree) - Go implementation of Adaptive Radix Tree.
-- [go-datastructures](https://github.com/Workiva/go-datastructures) - Collection of useful, performant, and thread-safe data structures.
-- [go-edlib](https://github.com/hbollon/go-edlib) - Go string comparison and edit distance algorithms library (Levenshtein, LCS, Hamming, Damerau levenshtein, Jaro-Winkler, etc.) compatible with Unicode.
-- [go-ef](https://github.com/amallia/go-ef) - A Go implementation of the Elias-Fano encoding.
 - [go-geoindex](https://github.com/hailocab/go-geoindex) - In-memory geo index.
-- [go-mcache](https://github.com/OrlovEvgeny/go-mcache) - Fast in-memory key:value store/cache library. Pointer caches.
 - [go-rquad](https://github.com/aurelien-rainone/go-rquad) - Region quadtrees with efficient point location and neighbour finding.
 - [go-tuple](https://github.com/barweiss/go-tuple) - Generic tuple implementation for Go 1.18+.
 - [go18ds](https://github.com/daichi-m/go18ds) - Go Data Structures using Go 1.18 generics.
-- [gocache](https://github.com/eko/gocache) - A complete Go cache library with mutiple stores (memory, memcache, redis, ...), chainable, loadable, metrics cache and more.
-- [goconcurrentqueue](https://github.com/enriquebris/goconcurrentqueue) - Concurrent FIFO queue.
-- [gods](https://github.com/emirpasic/gods) - Go Data Structures. Containers, Sets, Lists, Stacks, Maps, BidiMaps, Trees, HashSet etc.
 - [gofal](https://github.com/xxjwxc/gofal) - fractional api for Go.
-- [golang-set](https://github.com/deckarep/golang-set) - Thread-Safe and Non-Thread-Safe high-performance sets for Go.
-- [goset](https://github.com/zoumo/goset) - A useful Set collection implementation for Go.
-- [goskiplist](https://github.com/ryszard/goskiplist) - Skip list implementation in Go.
-- [gostl](https://github.com/liyue201/gostl) - Data structure and algorithm library for go, designed to provide functions similar to C++ STL.
 - [gota](https://github.com/kniren/gota) - Implementation of dataframes, series, and data wrangling methods for Go.
-- [goterator](https://github.com/yaa110/goterator) - Iterator implementation to provide map and reduce functionalities.
-- [hashsplit](http://github.com/bobg/hashsplit) - Split byte streams into chunks, and arrange chunks into trees, with boundaries determined by content, not position.
 - [hide](https://github.com/emvi/hide) - ID type with marshalling to/from hash to prevent sending IDs to clients.
 - [hilbert](https://github.com/google/hilbert) - Go package for mapping values to and from space-filling curves, such as Hilbert and Peano curves.
 - [hyperloglog](https://github.com/axiomhq/hyperloglog) - HyperLogLog implementation with Sparse, LogLog-Beta bias correction and TailCut space reduction.
-- [iter](https://github.com/disksing/iter) - Go implementation of C++ STL iterators and algorithms.
-- [levenshtein](https://github.com/agext/levenshtein) - Levenshtein distance and similarity metrics with customizable edit costs and Winkler-like bonus for common prefix.
-- [levenshtein](https://github.com/agnivade/levenshtein) - Implementation to calculate levenshtein distance in Go.
-- [memlog](https://github.com/embano1/memlog) - An easy to use, lightweight, thread-safe and append-only in-memory data structure inspired by Apache Kafka.
-- [merkle](https://github.com/bobg/merkle) - Space-efficient computation of Merkle root hashes and inclusion proofs.
-- [merkletree](https://github.com/cbergoon/merkletree) - Implementation of a merkle tree providing an efficient and secure verification of the contents of data structures.
-- [mspm](https://github.com/BlackRabbitt/mspm) - Multi-String Pattern Matching Algorithm for information retrieval.
+- [slices](https://github.com/srfrog/slices) - Functions that operate on slices; like `package strings` but adapted to work with slices.
+
+### Nullable Types
+
 - [nan](https://github.com/kak-tus/nan) - Zero allocation Nullable structures in one library with handy conversion functions, marshallers and unmarshallers.
 - [null](https://github.com/emvi/null) - Nullable Go types that can be marshalled/unmarshalled to/from JSON.
-- [ordered-concurrently](https://github.com/tejzpr/ordered-concurrently) - Go module that processes work concurrently and returns output in a channel in the order of input.
-- [parapipe](https://github.com/nazar256/parapipe) - FIFO Pipeline which parallels execution on each stage while maintaining the order of messages and results.
-- [parsefields](https://github.com/MonaxGT/parsefields) - Tools for parse JSON-like logs for collecting unique fields and events.
-- [pipeline](https://github.com/hyfather/pipeline) - An implementation of pipelines with fan-in and fan-out.
-- [ptrie](https://github.com/viant/ptrie) - An implementation of prefix tree.
-- [remember-go](https://github.com/rocketlaunchr/remember-go) - A universal interface for caching slow database queries (backed by redis, memcached, ristretto, or in-memory).
-- [ring](https://github.com/TheTannerRyan/ring) - Go implementation of a high performance, thread safe bloom filter.
-- [roaring](https://github.com/RoaringBitmap/roaring) - Go package implementing compressed bitsets.
+- [typ](https://github.com/gurukami/typ) - Null Types, Safe primitive type conversion and fetching value from complex structures.
+
+### Queues 
+
+- [deque](https://github.com/edwingeng/deque) - A highly optimized double-ended queue.
+- [deque](https://github.com/gammazero/deque) - Fast ring-buffer deque (double-ended queue).
+- [goconcurrentqueue](https://github.com/enriquebris/goconcurrentqueue) - Concurrent FIFO queue.
+- [memlog](https://github.com/embano1/memlog) - An easy to use, lightweight, thread-safe and append-only in-memory data structure inspired by Apache Kafka.
+
+### Sets
+
+- [dsu](https://github.com/ihebu/dsu) - Disjoint Set data structure implementation in Go.
+- [golang-set](https://github.com/deckarep/golang-set) - Thread-Safe and Non-Thread-Safe high-performance sets for Go.
+- [goset](https://github.com/zoumo/goset) - A useful Set collection implementation for Go.
 - [set](https://github.com/StudioSol/set) - Simple set data structure implementation in Go using LinkedHashMap.
+
+### Text Analysis
+
+- [bleve](https://github.com/blevesearch/bleve) - Modern text indexing library for go.
+- [go-adaptive-radix-tree](https://github.com/plar/go-adaptive-radix-tree) - Go implementation of Adaptive Radix Tree.
+- [go-edlib](https://github.com/hbollon/go-edlib) - Go string comparison and edit distance algorithms library (Levenshtein, LCS, Hamming, Damerau levenshtein, Jaro-Winkler, etc.) compatible with Unicode.
+- [levenshtein](https://github.com/agext/levenshtein) - Levenshtein distance and similarity metrics with customizable edit costs and Winkler-like bonus for common prefix.
+- [levenshtein](https://github.com/agnivade/levenshtein) - Implementation to calculate levenshtein distance in Go.
+- [mspm](https://github.com/BlackRabbitt/mspm) - Multi-String Pattern Matching Algorithm for information retrieval.
+- [parsefields](https://github.com/MonaxGT/parsefields) - Tools for parse JSON-like logs for collecting unique fields and events.
+- [ptrie](https://github.com/viant/ptrie) - An implementation of prefix tree.
+- [trie](https://github.com/derekparker/trie) - Trie implementation in Go.
+
+### Trees
+
+- [hashsplit](http://github.com/bobg/hashsplit) - Split byte streams into chunks, and arrange chunks into trees, with boundaries determined by content, not position.
+- [merkle](https://github.com/bobg/merkle) - Space-efficient computation of Merkle root hashes and inclusion proofs.
 - [skiplist](https://github.com/MauriceGit/skiplist) - Very fast Go Skiplist implementation.
 - [skiplist](https://github.com/gansidui/skiplist) - Skiplist implementation in Go.
-- [slices](https://github.com/srfrog/slices) - Functions that operate on slices; like `package strings` but adapted to work with slices.
-- [timedmap](https://github.com/zekroTJA/timedmap) - Map with expiring key-value pairs.
 - [treap](https://github.com/perdata/treap) - Persistent, fast ordered map using tree heaps.
 - [treemap](https://github.com/igrmk/treemap) - Generic key-sorted map using a red-black tree under the hood.
-- [trie](https://github.com/derekparker/trie) - Trie implementation in Go.
-- [ttlcache](https://github.com/jellydator/ttlcache) - An in-memory cache with item expiration and generics.
-- [typ](https://github.com/gurukami/typ) - Null Types, Safe primitive type conversion and fetching value from complex structures.
+
+### Pipes
+
+- [ordered-concurrently](https://github.com/tejzpr/ordered-concurrently) - Go module that processes work concurrently and returns output in a channel in the order of input.
+- [parapipe](https://github.com/nazar256/parapipe) - FIFO Pipeline which parallels execution on each stage while maintaining the order of messages and results.
+- [pipeline](https://github.com/hyfather/pipeline) - An implementation of pipelines with fan-in and fan-out.
 
 **[⬆ back to top](#contents)**
 
 ## Database
 
-_Databases implemented in Go._
+### Caches
+
+_Data stores with expiring records, in-memory distributed data stores, or in-memory subsets of file-based databases._
+- [2q](https://github.com/floatdrop/2q) - 2Q in-memory cache implementation.
+- [bcache](https://github.com/iwanbk/bcache) - Eventually consistent distributed in-memory  cache Go library.
+- [BigCache](https://github.com/allegro/bigcache) - Efficient key/value cache for gigabytes of data.
+- [cache](https://github.com/akyoto/cache) - In-memory key:value store with expiration time, 0 dependencies, <100 LoC, 100% coverage.
+- [cache2go](https://github.com/muesli/cache2go) - In-memory key:value cache which supports automatic invalidation based on timeouts.
+- [cachego](https://github.com/fabiorphp/cachego) - Golang Cache component for multiple drivers.
+- [clusteredBigCache](https://github.com/oaStuff/clusteredBigCache) - BigCache with clustering support and individual item expiration.
+- [couchcache](https://github.com/codingsince1985/couchcache) - RESTful caching micro-service backed by Couchbase server.
+- [fastcache](https://github.com/VictoriaMetrics/fastcache) - fast thread-safe inmemory cache for big number of entries. Minimizes GC overhead.
+- [GCache](https://github.com/bluele/gcache) - Cache library with support for expirable Cache, LFU, LRU and ARC.
+- [gdcache](https://github.com/ulovecode/gdcache) - A pure non-intrusive cache library implemented by golang, you can use it to implement your own distributed cache.
+- [go-mcache](https://github.com/OrlovEvgeny/go-mcache) - Fast in-memory key:value store/cache library. Pointer caches.
+- [gocache](https://github.com/eko/gocache) - A complete Go cache library with mutiple stores (memory, memcache, redis, ...), chainable, loadable, metrics cache and more.
+- [groupcache](https://github.com/golang/groupcache) - Groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
+- [remember-go](https://github.com/rocketlaunchr/remember-go) - A universal interface for caching slow database queries (backed by redis, memcached, ristretto, or in-memory).
+- [timedmap](https://github.com/zekroTJA/timedmap) - Map with expiring key-value pairs.
+- [ttlcache](https://github.com/jellydator/ttlcache) - An in-memory cache with item expiration and generics.
+- [ttlcache](https://github.com/cheshir/ttlcache) - In-memory key value storage with TTL for each record.
+
+
+### Databases Implemented in Go
 
 - [badger](https://github.com/dgraph-io/badger) - Fast key-value store in Go.
 - [bbolt](https://github.com/etcd-io/bbolt) - An embedded key/value database for Go.
-- [bcache](https://github.com/iwanbk/bcache) - Eventually consistent distributed in-memory  cache Go library.
-- [BigCache](https://github.com/allegro/bigcache) - Efficient key/value cache for gigabytes of data.
 - [Bitcask](https://git.mills.io/prologic/bitcask) - Bitcask is an embeddable, persistent and fast key-value (KV) database written in pure Go with predictable read/write performance, low latency and high throughput thanks to the bitcask on-disk layout (LSM+WAL).
 - [buntdb](https://github.com/tidwall/buntdb) - Fast, embeddable, in-memory key/value database for Go with custom indexing and spatial support.
-- [cache](https://github.com/akyoto/cache) - In-memory key:value store with expiration time, 0 dependencies, <100 LoC, 100% coverage.
-- [cache2go](https://github.com/muesli/cache2go) - In-memory key:value cache which supports automatic invalidation based on timeouts.
 - [clover](https://github.com/ostafen/clover) - A lightweight document-oriented NoSQL database written in pure Golang.
-- [clusteredBigCache](https://github.com/oaStuff/clusteredBigCache) - BigCache with clustering support and individual item expiration.
 - [cockroach](https://github.com/cockroachdb/cockroach) - Scalable, Geo-Replicated, Transactional Datastore.
 - [Coffer](https://github.com/claygod/coffer) - Simple ACID key-value database that supports transactions.
 - [column](https://github.com/kelindar/column) - High-performance, columnar, embeddable in-memory store with bitmap indexing and transactions.
-- [couchcache](https://github.com/codingsince1985/couchcache) - RESTful caching micro-service backed by Couchbase server.
 - [CovenantSQL](https://github.com/CovenantSQL/CovenantSQL) - CovenantSQL is a SQL database on blockchain.
 - [Databunker](https://github.com/paranoidguy/databunker) - Personally identifiable information (PII) storage service built to comply with GDPR and CCPA.
 - [dgraph](https://github.com/dgraph-io/dgraph) - Scalable, Distributed, Low Latency, High Throughput Graph Database.
 - [diskv](https://github.com/peterbourgon/diskv) - Home-grown disk-backed key-value store.
 - [dtf](https://github.com/dtm-labs/dtf) - A distributed transaction manager. Support XA, TCC, SAGA, Reliable Messages.
 - [eliasdb](https://github.com/krotik/eliasdb) - Dependency-free, transactional graph database with REST API, phrase search and SQL-like query language.
-- [fastcache](https://github.com/VictoriaMetrics/fastcache) - fast thread-safe inmemory cache for big number of entries. Minimizes GC overhead.
-- [GCache](https://github.com/bluele/gcache) - Cache library with support for expirable Cache, LFU, LRU and ARC.
-- [go-cache](https://github.com/pmylund/go-cache) - In-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications.
 - [godis](https://github.com/hdt3213/godis) - A Golang implemented high-performance Redis server and cluster.
 - [goleveldb](https://github.com/syndtr/goleveldb) - Implementation of the [LevelDB](https://github.com/google/leveldb) key/value database in Go.
-- [groupcache](https://github.com/golang/groupcache) - Groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
 - [hare](https://github.com/jameycribbs/hare) - A simple database management system that stores each table as a text file of line-delimited JSON.
 - [immudb](https://github.com/codenotary/immudb) - immudb is a lightweight, high-speed immutable database for systems and applications written in Go.
 - [influxdb](https://github.com/influxdb/influxdb) - Scalable datastore for metrics, events, and real-time analytics.
-- [Kivik](https://github.com/go-kivik/kivik) - Kivik provides a common Go and GopherJS client library for CouchDB, PouchDB, and similar databases.
 - [ledisdb](https://github.com/siddontang/ledisdb) - Ledisdb is a high performance NoSQL like Redis based on LevelDB.
 - [levigo](https://github.com/jmhodges/levigo) - Levigo is a Go wrapper for LevelDB.
 - [lotusdb](https://github.com/flower-corp/lotusdb) - Fast k/v database compatible with lsm and b+tree.
@@ -616,19 +680,17 @@ _Databases implemented in Go._
 - [piladb](https://github.com/fern4lvarez/piladb) - Lightweight RESTful database engine based on stack data structures.
 - [pogreb](https://github.com/akrylysov/pogreb) - Embedded key-value store for read-heavy workloads.
 - [prometheus](https://github.com/prometheus/prometheus) - Monitoring system and time series database.
-- [pudge](https://github.com/recoilme/pudge) - Fast and simple  key/value store written using Go's standard library.
+- [pudge](https://github.com/recoilme/pudge) - Fast and simple key/value store written using Go's standard library.
 - [rosedb](https://github.com/roseduan/rosedb) - An embedded k-v database based on LSM+WAL, supports string, list, hash, set, zset.
 - [rqlite](https://github.com/rqlite/rqlite) - The lightweight, distributed, relational database built on SQLite.
-- [Scribble](https://github.com/nanobox-io/golang-scribble) - Tiny flat file JSON store.
 - [tempdb](https://github.com/rafaeljesus/tempdb) - Key-value store for temporary items.
 - [tidb](https://github.com/pingcap/tidb) - TiDB is a distributed SQL database. Inspired by the design of Google F1.
 - [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
-- [ttlcache](https://github.com/cheshir/ttlcache) - In-memory key value storage with TTL for each record.
 - [unitdb](https://github.com/unit-io/unitdb) - Fast timeseries database for IoT, realtime messaging  applications. Access unitdb with pubsub over tcp or websocket using github.com/unit-io/unitd application.
 - [Vasto](https://github.com/chrislusf/vasto) - A distributed high-performance key-value store. On Disk. Eventual consistent. HA. Able to grow or shrink without service interruption.
 - [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) - fast, resource-effective and scalable open source time series database. May be used as long-term remote storage for Prometheus. Supports PromQL.
 
-_Database schema migration._
+### Database Schema Migration
 
 - [atlas](https://github.com/ariga/atlas) - A Database Toolkit. A CLI designed to help companies better work with their data.
 - [avro](https://github.com/khezen/avro) - Discover SQL schemas and convert them to AVRO schemas. Query SQL records into AVRO bytes.
@@ -650,10 +712,10 @@ _Database schema migration._
 - [sql-migrate](https://github.com/rubenv/sql-migrate) - Database migration tool. Allows embedding migrations into the application using go-bindata.
 - [sqlize](https://github.com/sunary/sqlize) - Database migration generator. Allows generate sql migration from model and existing sql by differ them.
 
-_Database tools._
+### Database Tools
 
 - [chproxy](https://github.com/Vertamedia/chproxy) - HTTP proxy for ClickHouse database.
-- [clickhouse-bulk](https://github.com/nikepan/clickhouse-bulk) - Collects small insterts and sends big requests to ClickHouse servers.
+- [clickhouse-bulk](https://github.com/nikepan/clickhouse-bulk) - Collects small inserts and sends big requests to ClickHouse servers.
 - [datagen](https://github.com/codingconcepts/datagen) - A fast data generator that's multi-table aware and supports multi-row DML.
 - [dbbench](https://github.com/sj14/dbbench) - Database benchmarking tool with support for several databases and scripts.
 - [go-mysql](https://github.com/siddontang/go-mysql) - Go toolset to handle MySQL protocol and replication.
@@ -670,7 +732,8 @@ _Database tools._
 - [rwdb](https://github.com/andizzle/rwdb) - rwdb provides read replica capability for multiple database servers setup.
 - [vitess](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
 
-_SQL query builder, libraries for building and using SQL._
+### SQL Query Builders
+_Libraries for building and using SQL._
 
 - [bqb](https://github.com/nullism/bqb) - Lightweight and easy to learn query builder.
 - [buildsqlx](https://github.com/arthurkushman/buildsqlx) - Go database query builder library for PostgreSQL.
@@ -700,69 +763,69 @@ _SQL query builder, libraries for building and using SQL._
 
 ## Database Drivers
 
-_Libraries for connecting and operating databases._
+### Interfaces to Multiple Backends
 
-- Relational Databases
-  - [avatica](https://github.com/apache/calcite-avatica-go) - Apache Avatica/Phoenix SQL driver for database/sql.
-  - [bgc](https://github.com/viant/bgc) - Datastore Connectivity for BigQuery for go.
-  - [firebirdsql](https://github.com/nakagami/firebirdsql) - Firebird RDBMS SQL driver for Go.
-  - [go-adodb](https://github.com/mattn/go-adodb) - Microsoft ActiveX Object DataBase driver for go that uses database/sql.
-  - [go-mssqldb](https://github.com/denisenkom/go-mssqldb) - Microsoft MSSQL driver for Go.
-  - [go-oci8](https://github.com/mattn/go-oci8) - Oracle driver for go that uses database/sql.
-  - [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) - MySQL driver for Go.
-  - [go-sqlite3](https://github.com/mattn/go-sqlite3) - SQLite3 driver for go that uses database/sql.
-  - [godror](https://github.com/godror/godror) - Oracle driver for Go, using the ODPI-C driver.
-  - [gofreetds](https://github.com/minus5/gofreetds) - Microsoft MSSQL driver. Go wrapper over [FreeTDS](https://www.freetds.org).
-  - [pgx](https://github.com/jackc/pgx) - PostgreSQL driver supporting features beyond those exposed by database/sql.
-  - [pig](https://github.com/alexeyco/pig) - Simple [pgx](https://github.com/jackc/pgx) wrapper to execute and [scan](https://github.com/georgysavva/scany) query results easily.
-  - [pq](https://github.com/lib/pq) - Pure Go Postgres driver for database/sql.
-  - [Sqinn-Go](https://github.com/cvilsmeier/sqinn-go) - SQLite with pure Go.
-  - [sqlhooks](https://github.com/qustavo/sqlhooks) - Attach hooks to any database/sql driver.
+- [cayley](https://github.com/google/cayley) - Graph database with support for multiple backends.
+- [dsc](https://github.com/viant/dsc) - Datastore connectivity for SQL, NoSQL, structured files.
+- [gokv](https://github.com/philippgille/gokv) - Simple key-value store abstraction and implementations for Go (Redis, Consul, etcd, bbolt, BadgerDB, LevelDB, Memcached, DynamoDB, S3, PostgreSQL, MongoDB, CockroachDB and many more).
 
-- NoSQL Databases
-  - [aerospike-client-go](https://github.com/aerospike/aerospike-client-go) - Aerospike client in Go language.
-  - [arangolite](https://github.com/solher/arangolite) - Lightweight golang driver for ArangoDB.
-  - [asc](https://github.com/viant/asc) - Datastore Connectivity for Aerospike for go.
-  - [forestdb](https://github.com/couchbase/goforestdb) - Go bindings for ForestDB.
-  - [go-couchbase](https://github.com/couchbase/go-couchbase) - Couchbase client in Go.
-  - [go-pilosa](https://github.com/pilosa/go-pilosa) - Go client library for Pilosa.
-  - [go-rejson](https://github.com/nitishm/go-rejson) - Golang client for redislabs' ReJSON module using Redigo golang client. Store and manipulate structs as JSON objects in redis with ease.
-  - [gocb](https://github.com/couchbase/gocb) - Official Couchbase Go SDK.
-  - [gocosmos](https://github.com/btnguyen2k/gocosmos) - REST client and standard `database/sql` driver for Azure Cosmos DB.
-  - [gocql](https://gocql.github.io) - Go language driver for Apache Cassandra.
-  - [godis](https://github.com/piaohao/godis) - redis client implement by golang, inspired by jedis.
-  - [godscache](https://github.com/defcronyke/godscache) - A wrapper for the Google Cloud Platform Go Datastore package that adds caching using memcached.
-  - [gomemcache](https://github.com/bradfitz/gomemcache/) - memcache client library for the Go programming language.
-  - [gorethink](https://github.com/dancannon/gorethink) - Go language driver for RethinkDB.
-  - [goriak](https://github.com/zegl/goriak) - Go language driver for Riak KV.
-  - [mgm](https://github.com/kamva/mgm) - MongoDB model-based ODM for Go (based on official MongoDB driver).
-  - [mgo](https://github.com/globalsign/mgo) - (unmaintained) MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
-  - [mongo-go-driver](https://github.com/mongodb/mongo-go-driver) - Official MongoDB driver for the Go language.
-  - [neo4j](https://github.com/cihangir/neo4j) - Neo4j Rest API Bindings for Golang.
-  - [Neo4j-GO](https://github.com/davemeehan/Neo4j-GO) - Neo4j REST Client in golang.
-  - [neoism](https://github.com/jmcvetta/neoism) - Neo4j client for Golang.
-  - [qmgo](https://github.com/qiniu/qmgo) - The MongoDB driver for Go. It‘s based on official MongoDB driver but easier to use like Mgo.
-  - [redeo](https://github.com/bsm/redeo) - Redis-protocol compatible TCP servers/services.
-  - [redigo](https://github.com/gomodule/redigo) - Redigo is a Go client for the Redis database.
-  - [redis](https://github.com/go-redis/redis) - Redis client for Golang.
-  - [rueidis](http://github.com/rueian/rueidis) - Fast Redis RESP3 client with auto pipelining and server-assisted client side caching.
-  - [xredis](https://github.com/shomali11/xredis) - Typesafe, customizable, clean & easy to use Redis client.
+### Relational Database Drivers
 
-- Search and Analytic Databases.
-  - [bleve](https://github.com/blevesearch/bleve) - Modern text indexing library for go.
-  - [elastic](https://github.com/olivere/elastic) - Elasticsearch client for Go.
-  - [elasticsql](https://github.com/cch123/elasticsql) - Convert sql to elasticsearch dsl in Go.
-  - [elastigo](https://github.com/mattbaird/elastigo) - Elasticsearch client library.
-  - [go-elasticsearch](https://github.com/elastic/go-elasticsearch) - Official Elasticsearch client for Go.
-  - [goes](https://github.com/OwnLocal/goes) - Library to interact with Elasticsearch.
-  - [riot](https://github.com/go-ego/riot) - Go Open Source, Distributed, Simple and efficient Search Engine.
-  - [skizze](https://github.com/seiflotfy/skizze) - probabilistic data-structures service and storage.
+- [avatica](https://github.com/apache/calcite-avatica-go) - Apache Avatica/Phoenix SQL driver for database/sql.
+- [bgc](https://github.com/viant/bgc) - Datastore Connectivity for BigQuery for go.
+- [firebirdsql](https://github.com/nakagami/firebirdsql) - Firebird RDBMS SQL driver for Go.
+- [go-adodb](https://github.com/mattn/go-adodb) - Microsoft ActiveX Object DataBase driver for go that uses database/sql.
+- [go-mssqldb](https://github.com/denisenkom/go-mssqldb) - Microsoft MSSQL driver for Go.
+- [go-oci8](https://github.com/mattn/go-oci8) - Oracle driver for go that uses database/sql.
+- [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) - MySQL driver for Go.
+- [go-sqlite3](https://github.com/mattn/go-sqlite3) - SQLite3 driver for go that uses database/sql.
+- [godror](https://github.com/godror/godror) - Oracle driver for Go, using the ODPI-C driver.
+- [gofreetds](https://github.com/minus5/gofreetds) - Microsoft MSSQL driver. Go wrapper over [FreeTDS](https://www.freetds.org).
+- [Kivik](https://github.com/go-kivik/kivik) - Kivik provides a common Go and GopherJS client library for CouchDB, PouchDB, and similar databases.
+- [pgx](https://github.com/jackc/pgx) - PostgreSQL driver supporting features beyond those exposed by database/sql.
+- [pig](https://github.com/alexeyco/pig) - Simple [pgx](https://github.com/jackc/pgx) wrapper to execute and [scan](https://github.com/georgysavva/scany) query results easily.
+- [pq](https://github.com/lib/pq) - Pure Go Postgres driver for database/sql.
+- [Sqinn-Go](https://github.com/cvilsmeier/sqinn-go) - SQLite with pure Go.
+- [sqlhooks](https://github.com/qustavo/sqlhooks) - Attach hooks to any database/sql driver.
 
-- Multiple Backends.
-  - [cachego](https://github.com/fabiorphp/cachego) - Golang Cache component for multiple drivers.
-  - [cayley](https://github.com/google/cayley) - Graph database with support for multiple backends.
-  - [dsc](https://github.com/viant/dsc) - Datastore connectivity for SQL, NoSQL, structured files.
-  - [gokv](https://github.com/philippgille/gokv) - Simple key-value store abstraction and implementations for Go (Redis, Consul, etcd, bbolt, BadgerDB, LevelDB, Memcached, DynamoDB, S3, PostgreSQL, MongoDB, CockroachDB and many more).
+### NoSQL Database Drivers
+
+- [aerospike-client-go](https://github.com/aerospike/aerospike-client-go) - Aerospike client in Go language.
+- [arangolite](https://github.com/solher/arangolite) - Lightweight golang driver for ArangoDB.
+- [asc](https://github.com/viant/asc) - Datastore Connectivity for Aerospike for go.
+- [forestdb](https://github.com/couchbase/goforestdb) - Go bindings for ForestDB.
+- [go-couchbase](https://github.com/couchbase/go-couchbase) - Couchbase client in Go.
+- [go-pilosa](https://github.com/pilosa/go-pilosa) - Go client library for Pilosa.
+- [go-rejson](https://github.com/nitishm/go-rejson) - Golang client for redislabs' ReJSON module using Redigo golang client. Store and manipulate structs as JSON objects in redis with ease.
+- [gocb](https://github.com/couchbase/gocb) - Official Couchbase Go SDK.
+- [gocosmos](https://github.com/btnguyen2k/gocosmos) - REST client and standard `database/sql` driver for Azure Cosmos DB.
+- [gocql](https://gocql.github.io) - Go language driver for Apache Cassandra.
+- [godis](https://github.com/piaohao/godis) - redis client implement by golang, inspired by jedis.
+- [godscache](https://github.com/defcronyke/godscache) - A wrapper for the Google Cloud Platform Go Datastore package that adds caching using memcached.
+- [gomemcache](https://github.com/bradfitz/gomemcache/) - memcache client library for the Go programming language.
+- [gorethink](https://github.com/dancannon/gorethink) - Go language driver for RethinkDB.
+- [goriak](https://github.com/zegl/goriak) - Go language driver for Riak KV.
+- [mgm](https://github.com/kamva/mgm) - MongoDB model-based ODM for Go (based on official MongoDB driver).
+- [mgo](https://github.com/globalsign/mgo) - (unmaintained) MongoDB driver for the Go language that implements a rich and well tested selection of features under a very simple API following standard Go idioms.
+- [mongo-go-driver](https://github.com/mongodb/mongo-go-driver) - Official MongoDB driver for the Go language.
+- [neo4j](https://github.com/cihangir/neo4j) - Neo4j Rest API Bindings for Golang.
+- [Neo4j-GO](https://github.com/davemeehan/Neo4j-GO) - Neo4j REST Client in golang.
+- [neoism](https://github.com/jmcvetta/neoism) - Neo4j client for Golang.
+- [qmgo](https://github.com/qiniu/qmgo) - The MongoDB driver for Go. It‘s based on official MongoDB driver but easier to use like Mgo.
+- [redeo](https://github.com/bsm/redeo) - Redis-protocol compatible TCP servers/services.
+- [redigo](https://github.com/gomodule/redigo) - Redigo is a Go client for the Redis database.
+- [redis](https://github.com/go-redis/redis) - Redis client for Golang.
+- [rueidis](http://github.com/rueian/rueidis) - Fast Redis RESP3 client with auto pipelining and server-assisted client side caching.
+- [xredis](https://github.com/shomali11/xredis) - Typesafe, customizable, clean & easy to use Redis client.
+
+### Search and Analytic Databases
+
+- [elastic](https://github.com/olivere/elastic) - Elasticsearch client for Go.
+- [elasticsql](https://github.com/cch123/elasticsql) - Convert sql to elasticsearch dsl in Go.
+- [elastigo](https://github.com/mattbaird/elastigo) - Elasticsearch client library.
+- [go-elasticsearch](https://github.com/elastic/go-elasticsearch) - Official Elasticsearch client for Go.
+- [goes](https://github.com/OwnLocal/goes) - Library to interact with Elasticsearch.
+- [skizze](https://github.com/seiflotfy/skizze) - probabilistic data-structures service and storage.
 
 **[⬆ back to top](#contents)**
 
@@ -1051,7 +1114,6 @@ _Awesome game development libraries._
 _Tools that generate Go code._
 
 - [efaceconv](https://github.com/t0pep0/efaceconv) - Code generation tool for high performance conversion from interface{} to immutable type without allocations.
-- [gen](https://github.com/clipperhouse/gen) - Code generation tool for ‘generics’-like functionality.
 - [generis](https://github.com/senselogic/GENERIS) - Code generation tool providing generics, free-form macros, conditional compilation and HTML templating.
 - [go-enum](https://github.com/abice/go-enum) - Code generation for enums from code comments.
 - [go-linq](https://github.com/ahmetalpbalkan/go-linq) - .NET LINQ-like query methods for Go.
@@ -1627,7 +1689,7 @@ _These libraries were placed here because none of the other categories seemed to
 
 _Libraries for working with human languages._
 
-See also [Text Processing](#text-processing).
+See also [Text Processing](#text-processing) and [Text Analysis](#text-analysis).
 
 ### Language Detection
 
@@ -2186,7 +2248,7 @@ _Libraries for testing codebases and generating test data._
 
 _Libraries for parsing and manipulating texts._
 
-See also [Natural Language Processing](#natural-language-processing).
+See also [Natural Language Processing](#natural-language-processing) and [Text Analysis](#text-analysis).
 
 ### Formatters
 
@@ -2953,6 +3015,7 @@ _Software written in Go._
 - [trubka](https://github.com/xitonix/trubka) - A CLI tool to manage and troubleshoot Apache Kafka clusters with the ability of generically publishing/consuming protocol buffer and plain text events to/from Kafka.
 - [uTask](https://github.com/ovh/utask) - Automation engine that models and executes business processes declared in yaml.
 - [Vegeta](https://github.com/tsenart/vegeta) - HTTP load testing tool and library. It's over 9000!
+- [wait-for](https://github.com/dnnrly/wait-for) - Wait for something to happen (from the command line) before continuing. Easy orchestration of Docker services and other things.
 - [webhook](https://github.com/adnanh/webhook) - Tool which allows user to create HTTP endpoints (hooks) that execute commands on the server.
 - [Wide](https://wide.b3log.org/login) - Web-based IDE for Teams using Golang.
 - [winrm-cli](https://github.com/masterzen/winrm-cli) - Cli tool to remotely execute commands on Windows machines.
