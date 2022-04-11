@@ -1075,6 +1075,7 @@ _Libraries for working with forms._
 
 _Packages to support functional programming in Go._
 
+- [fp-go](https://github.com/repeale/fp-go) - Collection of Functional Programming helpers powered by Golang 1.18+ generics.
 - [fpGo](https://github.com/TeaEntityLab/fpGo) - Monad, Functional Programming features for Golang.
 - [fuego](https://github.com/seborama/fuego) - Functional Experiment in Go.
 - [go-underscore](https://github.com/tobyhede/go-underscore) - Useful collection of helpfully functional Go collection utilities.
