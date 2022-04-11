@@ -23,10 +23,10 @@ To be on the list, project repositories should adhere to the following quality s
 - function as documented and expected;
 - be generally useful to the wider community of Go programmers;
 - be actively maintained with:
-  - Regular, recent commits;
-  - Or, for finished projects, issues and pull requests are responded to generally within 2 weeks;
+  - regular, recent commits;
+  - or, for finished projects, issues and pull requests are responded to generally within 2 weeks;
 - be stable or progressing toward stable;
-- be thoroughly documented (README, pkg.go.dev doc comments, etc.) in the english language, so everyone is able to understand the project's intention and how it works;
+- be thoroughly documented (README, pkg.go.dev doc comments, etc.) in the english language, so everyone is able to understand the project's intention and how it works. All public functions and types should have a Go style documentation header;
 - if the library/program is testable, then coverage should be >= 80% for non-data-related packages and >=90% for data related packages. (**Note**: the tests will be reviewed too. We will check your coverage manually if your package's coverage is just a benchmark results);
 - have at least one official version-numbered release that allows go.mod files to list the file by version number, of the form vX.X.X.
 
