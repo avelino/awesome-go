@@ -1940,6 +1940,7 @@ _Unofficial libraries for package and dependency management._
 - [api-fu](https://github.com/ccbrown/api-fu) - Comprehensive GraphQL implementation.
 - [dasel](https://github.com/tomwright/dasel) - Query and update data structures using selectors from the command line. Comparable to jq/yq but supports JSON, YAML, TOML and XML with zero runtime dependencies.
 - [gojsonq](https://github.com/thedevsaddam/gojsonq) - A simple Go package to Query over JSON Data.
+- [goven](https://github.com/SeldonIO/goven) - A drop-in query language for any database schema.
 - [gqlgen](https://github.com/99designs/gqlgen) - go generate based graphql server library.
 - [graphql](https://github.com/tmc/graphql) - graphql parser + utilities.
 - [graphql](https://github.com/neelance/graphql-go) - GraphQL server with a focus on ease of use.
