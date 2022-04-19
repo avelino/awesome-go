@@ -426,6 +426,7 @@ _Libraries for building standard or basic Command Line applications._
 - [urfave/cli](https://github.com/urfave/cli) - Simple, fast, and fun package for building command line apps in Go (formerly codegangsta/cli).
 - [wlog](https://github.com/dixonwille/wlog) - Simple logging interface that supports cross-platform color and concurrency.
 - [wmenu](https://github.com/dixonwille/wmenu) - Easy to use menu structure for cli applications that prompts users to make choices.
+- [zetools](https://github.com/tejzpr/zetools) - Unified Extensible Command line tools for common tasks
 
 **[⬆ back to top](#contents)**
 
