@@ -569,6 +569,7 @@ additional ordered map implementations.
 - [go-geoindex](https://github.com/hailocab/go-geoindex) - In-memory geo index.
 - [go-rquad](https://github.com/aurelien-rainone/go-rquad) - Region quadtrees with efficient point location and neighbour finding.
 - [go-tuple](https://github.com/barweiss/go-tuple) - Generic tuple implementation for Go 1.18+.
+- [go18ds](https://github.com/daichi-m/go18ds) - Go Data Structures using Go 1.18 generics.
 - [gofal](https://github.com/xxjwxc/gofal) - fractional api for Go.
 - [gota](https://github.com/kniren/gota) - Implementation of dataframes, series, and data wrangling methods for Go.
 - [hide](https://github.com/emvi/hide) - ID type with marshalling to/from hash to prevent sending IDs to clients.
