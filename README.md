@@ -2293,7 +2293,7 @@ See also [Natural Language Processing](#natural-language-processing) and [Text A
 - [did](https://github.com/ockam-network/did) - DID (Decentralized Identifiers) Parser and Stringer in Go.
 - [doi](https://github.com/hscells/doi) - Document object identifier (doi) parser in Go.
 - [editorconfig-core-go](https://github.com/editorconfig/editorconfig-core-go) - Editorconfig file parser and manipulator for Go.
-- [encdec](https://github.com/mickep76/encdec) - Package provides a generic interface to encoders and decodersa.
+- [encdec](https://github.com/mickep76/encdec) - Package provides a generic interface to encoders and decoders.
 - [go-fasttld](https://github.com/elliotwutingfeng/go-fasttld) - High performance top level domains (TLD) extraction module.
 - [go-nmea](https://github.com/adrianmo/go-nmea) - NMEA parser library for the Go language.
 - [go-vcard](https://github.com/emersion/go-vcard) - Parse and format vCard.
