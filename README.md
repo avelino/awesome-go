@@ -1092,6 +1092,7 @@ _Packages to support functional programming in Go._
 - [go-underscore](https://github.com/tobyhede/go-underscore) - Useful collection of helpfully functional Go collection utilities.
 - [gofp](https://github.com/rbrahul/gofp) - A lodash like powerful utility library for Golang.
 - [underscore](https://github.com/rjNemo/underscore) - Functional programming helpers for Go 1.18 and beyond.
+- [valor](https://github.com/phelmkamp/valor) - Generic option and result types that optionally contain a value.
 
 **[⬆ back to top](#contents)**
 
