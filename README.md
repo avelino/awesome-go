@@ -65,6 +65,7 @@ _Special thanks to_
 <sub>Make the switch from one-size-fits-all CI/CD to PaaS</sub><br/>
 <sup>workflows & turn k8s into a powerful developer experience</sup><br/>
 <sup>that will measurably increase developer productivity by 200%</sup>
+</a>
 </td>
 </tr>
 </tbody>
@@ -588,7 +589,7 @@ additional ordered map implementations.
 - [null](https://github.com/emvi/null) - Nullable Go types that can be marshalled/unmarshalled to/from JSON.
 - [typ](https://github.com/gurukami/typ) - Null Types, Safe primitive type conversion and fetching value from complex structures.
 
-### Queues 
+### Queues
 
 - [deque](https://github.com/edwingeng/deque) - A highly optimized double-ended queue.
 - [deque](https://github.com/gammazero/deque) - Fast ring-buffer deque (double-ended queue).
@@ -1182,6 +1183,7 @@ _Tools for managing and working with Goroutines._
 - [artifex](https://github.com/borderstech/artifex) - Simple in-memory job queue for Golang using worker-based dispatching.
 - [async](https://github.com/reugn/async) - An alternative sync library for Go (Future, Promise, Locks).
 - [async](https://github.com/studiosol/async) - A safe way to execute functions asynchronously, recovering them in case of panic.
+- [async-job](https://github.com/lab210-dev/async-job) - AsyncJob is an asynchronous queue job manager with light code, clear and speed.
 - [breaker](https://github.com/kamilsk/breaker) - Flexible mechanism to make execution flow interruptible.
 - [channelify](https://github.com/ddelizia/channelify) - Transform your function to return channels for easy and powerful parallel processing.
 - [concurrency-limiter](https://github.com/vivek-ng/concurrency-limiter) - Concurrency limiter with support for timeouts , dynamic priority and context cancellation of goroutines.
