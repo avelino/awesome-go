@@ -940,6 +940,7 @@ _Libraries and tools that implement email creation and sending._
 - [go-dkim](https://github.com/toorop/go-dkim) - DKIM library, to sign & verify email.
 - [go-email-validator](https://github.com/go-email-validator/go-email-validator) - Modular email validator for syntax, disposable, smtp, etc... checking.
 - [go-imap](https://github.com/emersion/go-imap) - IMAP library for clients and servers.
+- [go-mail](https://github.com/wneessen/go-mail) - A simple Go library for sending mails in Go.
 - [go-message](https://github.com/emersion/go-message) - Streaming library for the Internet Message Format and mail messages.
 - [go-premailer](https://github.com/vanng822/go-premailer) - Inline styling for HTML mail in Go.
 - [go-simple-mail](https://github.com/xhit/go-simple-mail) - Very simple package to send emails with SMTP Keep Alive and two timeouts: Connect and Send.
