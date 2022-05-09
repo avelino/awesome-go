@@ -1883,6 +1883,7 @@ _Libraries for using OpenGL in Go._
 _Libraries that implement Object-Relational Mapping or datamapping techniques._
 
 - [cacheme](https://github.com/Yiling-J/cacheme-go) - Schema based, typed Redis caching/memoize framework for Go.
+- [anorm](https://github.com/go-the-way/anorm) - An another generic ORM framework implementation using the new way for Go.
 - [ent](https://github.com/facebook/ent) - An entity framework for Go. Simple, yet powerful ORM for modeling and querying data.
 - [go-firestorm](https://github.com/jschoedt/go-firestorm) - A simple ORM for Google/Firebase Cloud Firestore.
 - [go-pg](https://github.com/go-pg/pg) - PostgreSQL ORM with focus on PostgreSQL specific features and performance.
