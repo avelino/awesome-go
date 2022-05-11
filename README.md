@@ -1154,6 +1154,7 @@ _Geographic tools and servers_
 - [Tile38](https://github.com/tidwall/tile38) - Geolocation DB with spatial index and realtime geofencing.
 - [Web-Mercator-Projection](https://github.com/jorelosorio/web-mercator-projection) A project to easily use and convert LonLat, Point and Tile to display info, markers, etc, in a map using the Web Mercator Projection.
 - [WGS84](https://github.com/wroge/wgs84) - Library for Coordinate Conversion and Transformation (ETRS89, OSGB36, NAD83, RGF93, Web Mercator, UTM).
+- [H3 GeoJSON](https://github.com/mmadfox/go-geojson2h3) - Conversion utilities between H3 indexes and GeoJSON.
 
 **[⬆ back to top](#contents)**
 
