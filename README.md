@@ -2133,6 +2133,7 @@ _Libraries and tools for stream processing and reactive programming._
 - [go-streams](https://github.com/reugn/go-streams) - Go stream processing library.
 - [machine](https://github.com/whitaker-io/machine) - Go library for writing and generating stream workers with built in metrics and traceability.
 - [stream](https://github.com/youthlin/stream) - Go Stream, like Java 8 Stream: Filter/Map/FlatMap/Peek/Sorted/ForEach/Reduce...
+- [streams](https://github.com/go-the-way/streams) - Basic Stream API written in Go.(Only supports Go1.18+)
 
 **[⬆ back to top](#contents)**
 
