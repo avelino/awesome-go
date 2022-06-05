@@ -1171,6 +1171,7 @@ _Geographic tools and servers_
 
 _Tools for compiling Go to other languages._
 
+- [c2go](https://github.com/goplus/c2go) - Convert C code to Go code.
 - [c4go](https://github.com/Konstantin8105/c4go) - Transpile C code to Go code.
 - [esp32](https://github.com/andygeiss/esp32-transpiler) - Transpile Go into Arduino code.
 - [f4go](https://github.com/Konstantin8105/f4go) - Transpile FORTRAN 77 code to Go code.
