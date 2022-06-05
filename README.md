@@ -2570,6 +2570,7 @@ _General utilities and tools to make your life easier._
 - [lets-go](https://github.com/aplescia-chwy/lets-go) - Go module that provides common utilities for Cloud Native REST API development. Also contains AWS Specific utilities.
 - [limiters](https://github.com/mennanov/limiters) - Rate limiters for distributed applications in Golang with configurable back-ends and distributed locks.
 - [lo](https://github.com/samber/lo) - A Lodash like Go library based on Go 1.18+ Generics (map, filter, contains, find...)
+- [loncha](https://github.com/kazu/loncha) - A high-performance slice Utilities.
 - [lrserver](https://github.com/jaschaephraim/lrserver) - LiveReload server for Go.
 - [mani](https://github.com/alajmo/mani) - CLI tool to help you manage multiple repositories.
 - [mc](https://github.com/minio/mc) - Minio Client provides minimal tools to work with Amazon S3 compatible cloud storage and filesystems.
