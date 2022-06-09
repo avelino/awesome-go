@@ -2442,7 +2442,6 @@ _Libraries for accessing third party APIs._
 - [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP.
 - [igdb](https://github.com/Henry-Sarabia/igdb) - Go client for the [Internet Game Database API](https://api.igdb.com/).
 - [jokeapi-go](https://github.com/icelain/jokeapi) - Go client for [JokeAPI](https://sv443.net/jokeapi/v2/).
-- [kanka](https://github.com/Henry-Sarabia/kanka) - Go client for the [Kanka API](https://kanka.io/en-US/docs/1.0).
 - [lark](https://github.com/chyroc/lark) - [Feishu](https://open.feishu.cn/)/[Lark](https://open.larksuite.com/) Open API Go SDK, Support ALL Open API and Event Callback.
 - [lastpass-go](https://github.com/ansd/lastpass-go) - Go client library for the [LastPass](https://www.lastpass.com/) API.
 - [libgoffi](https://github.com/clevabit/libgoffi) - Library adapter toolbox for native [libffi](https://sourceware.org/libffi/) integration
@@ -3265,7 +3264,6 @@ _Where to discover new Go libraries._
 - [Golang Gurgaon, India](https://www.meetup.com/Gurgaon-Go-Meetup/)
 - [Golang Hamburg - Germany](https://www.meetup.com/Go-User-Group-Hamburg/)
 - [Golang Israel](https://www.meetup.com/Go-Israel/)
-- [Golang Joinville - Brazil](https://www.meetup.com/Joinville-Go-Meetup/)
 - [Golang Kathmandu](https://www.meetup.com/Golang-Kathmandu/)
 - [Golang Korea](https://www.meetup.com/GDG-Golang-Korea/)
 - [Golang Lima - Peru](https://www.meetup.com/Golang-Peru/)
@@ -3273,7 +3271,6 @@ _Where to discover new Go libraries._
 - [Golang Marseille](https://www.meetup.com/fr-FR/Golang-Marseille/)
 - [Golang Melbourne](https://www.meetup.com/golang-mel/)
 - [Golang Mountain View](https://www.meetup.com/Golang-Mountain-View/)
-- [Golang New York](https://www.meetup.com/nycgolang/)
 - [Golang North East](https://www.meetup.com/en-AU/Golang-North-East/)
 - [Golang Paris](https://www.meetup.com/Golang-Paris/)
 - [Golang Poland](https://www.meetup.com/Golang-Poland/)
@@ -3347,7 +3344,6 @@ _Where to discover new Go libraries._
 - [Go Code Club](https://www.youtube.com/watch?v=nvoIPQYdx9g&list=PLEcwzBXTPUE_YQR7R0BRtHBYJ0LN3Y0i3) - A group of Gophers read and discuss a different Go project every week.
 - [Go Community on Hashnode](https://hashnode.com/n/go) - Community of Gophers on Hashnode.
 - [Go Forum](https://forum.golangbridge.org) - Forum to discuss Go.
-- [Go In 5 Minutes](https://www.goin5minutes.com/) - 5 minute screencasts focused on getting one thing done.
 - [Go Projects](https://github.com/golang/go/wiki/Projects) - List of projects on the Go community wiki.
 - [Go Proverbs](https://go-proverbs.github.io/) - Go Proverbs by Rob Pike.
 - [Go Report Card](https://goreportcard.com) - A report card for your Go package.
