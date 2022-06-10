@@ -3167,7 +3167,7 @@ _Where to discover new Go libraries._
 - [GopherCon](https://www.gophercon.com/) - Denver, USA.
 - [GopherCon Australia](https://gophercon.com.au/) - Sydney, Australia.
 - [GopherCon Brazil](https://gopherconbr.org) - Florianópolis, Brazil.
-- [GopherCon Europe](https://gophercon.is/) - Berlin, Germany.
+- [GopherCon Europe](https://gophercon.eu/) - Berlin, Germany.
 - [GopherCon India](https://www.gophercon.in/) - Pune, India.
 - [GopherCon Israel](https://www.gophercon.org.il/) - Tel Aviv, Israel.
 - [GopherCon Russia](https://www.gophercon-russia.ru) - Moscow, Russia.
