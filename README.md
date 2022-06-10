@@ -3174,7 +3174,6 @@ _Where to discover new Go libraries._
 - [GopherCon Singapore](https://gophercon.sg) - Mapletree Business City, Singapore.
 - [GopherCon UK](https://www.gophercon.co.uk/) - London, UK.
 - [GopherCon Vietnam](https://gophercon.vn/) - Ho Chi Minh City, Vietnam.
-- [GoWayFest](https://goway.io/) - Minsk, Belarus.
 - [GoWest Conference](https://www.gowestconf.com/) - Lehi, USA.
 
 **[⬆ back to top](#contents)**
