@@ -1078,6 +1078,7 @@ _Libraries for working with forms._
 - [form](https://github.com/go-playground/form) - Decodes url.Values into Go value(s) and Encodes Go value(s) into url.Values. Dual Array and Full map support.
 - [formam](https://github.com/monoculum/formam) - decode form's values into a struct.
 - [forms](https://github.com/albrow/forms) - Framework-agnostic library for parsing and validating form/JSON data which supports multipart forms and files.
+- [gbind](https://github.com/bdjimmy/gbind) - Bind data to any Go value. Can use built-in and custom expression binding capabilities; supports data validation
 - [gorilla/csrf](https://github.com/gorilla/csrf) - CSRF protection for Go web applications & services.
 - [httpin](https://github.com/ggicci/httpin) - Decode an HTTP request into a custom struct, including querystring, forms, HTTP headers, etc.
 - [nosurf](https://github.com/justinas/nosurf) - CSRF protection middleware for Go.
