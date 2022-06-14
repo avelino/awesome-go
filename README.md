@@ -3135,6 +3135,7 @@ _Software written in Go._
 - [snap](https://github.com/intelsdi-x/snap) - Powerful telemetry framework.
 - [Snitch](https://github.com/lucasgomide/snitch) - Simple way to notify your team and many tools when someone has deployed any application via Tsuru.
 - [Stack Up](https://github.com/pressly/sup) - Stack Up, a super simple deployment tool - just Unix - think of it like 'make' for a network of servers.
+- [sake](https://github.com/alajmo/sake) - sake is a command runner for local and remote hosts
 - [stew](https://github.com/marwanhawari/stew) - An independent package manager for compiled binaries.
 - [syncthing](https://syncthing.net/) - Open, decentralized file synchronization tool and protocol.
 - [tcpdog](https://github.com/mehrdadrad/tcpdog) - eBPF based TCP observability.
