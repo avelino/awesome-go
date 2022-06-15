@@ -2509,6 +2509,7 @@ _General utilities and tools to make your life easier._
 - [Deepcopier](https://github.com/ulule/deepcopier) - Simple struct copying for Go.
 - [delve](https://github.com/derekparker/delve) - Go debugger.
 - [dlog](https://github.com/kirillDanshin/dlog) - Compile-time controlled logger to make your release smaller without removing debug calls.
+- [EaseProbe](https://github.com/megaease/easeprobe) - A simple, standalone, and lightWeight tool that can do health/status checking daemon, support HTTP/TCP/SSH/Shell/Client/... probes, and Slack/Discord/Telegram/SMS... notification.
 - [equalizer](https://github.com/reugn/equalizer) - Quota manager and rate limiter collection for Go.
 - [ergo](https://github.com/cristianoliveira/ergo) - The management of multiple local services running over different ports made easy.
 - [evaluator](https://github.com/nullne/evaluator) - Evaluate an expression dynamicly based on s-expression. It's simple and easy to extend.
