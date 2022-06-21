@@ -980,6 +980,7 @@ _Embedding other languages inside your go code._
 - [goja](https://github.com/dop251/goja) - ECMAScript 5.1(+) implementation in Go.
 - [golua](https://github.com/aarzilli/golua) - Go bindings for Lua C API.
 - [gopher-lua](https://github.com/yuin/gopher-lua) - Lua 5.1 VM and compiler written in Go.
+- [gplasma](https://github.com/shoriwe/gplasma) - Ruby like embeddable programming language written in Go, Give it a try in the [playground](https://shoriwe.github.io/plasma/playground.html)
 - [gval](https://github.com/PaesslerAG/gval) - A highly customizable expression language written in Go.
 - [metacall](https://github.com/metacall/core) - Cross-platform Polyglot Runtime which supports NodeJS, JavaScript, TypeScript, Python, Ruby, C#, WebAssembly, Java, Cobol and more.
 - [ngaro](https://github.com/db47h/ngaro) - Embeddable Ngaro VM implementation enabling scripting in Retro.
