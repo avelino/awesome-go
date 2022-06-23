@@ -2207,6 +2207,7 @@ _Libraries for testing codebases and generating test data._
   - [go-cmp](https://github.com/google/go-cmp) - Package for comparing Go values in tests.
   - [go-hit](https://github.com/Eun/go-hit) - Hit is an http integration test framework written in golang.
   - [go-mutesting](https://github.com/zimmski/go-mutesting) - Mutation testing for Go source code.
+  - [go-mysql-test-container](https://github.com/arikama/go-mysql-test-container) - Golang MySQL testcontainer to help with MySQL integration testing.
   - [go-testdeep](https://github.com/maxatome/go-testdeep) - Extremely flexible golang deep comparison, extends the go testing package.
   - [go-testpredicate](https://github.com/maargenton/go-testpredicate) - Test predicate style assertions library with extensive diagnostics output.
   - [go-vcr](https://github.com/dnaeon/go-vcr) - Record and replay your HTTP interactions for fast, deterministic and accurate tests.
