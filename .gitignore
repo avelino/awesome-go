@@ -1,5 +1,6 @@
 tmpl/index.html
 awesome-go
+vendor
 
 # Folders
 .idea
