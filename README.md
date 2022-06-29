@@ -2608,7 +2608,6 @@ _General utilities and tools to make your life easier._
 - [reflectutils](https://github.com/muir/reflectutils) - Helpers for working with reflection: struct tag parsing; recursive walking; fill value from string.
 - [repeat](https://github.com/ssgreg/repeat) - Go implementation of different backoff strategies useful for retrying operations and heartbeating.
 - [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
-- [rerate](https://github.com/abo/rerate) - Redis-based rate counter and rate limiter for Go.
 - [rerun](https://github.com/ivpusic/rerun) - Recompiling and rerunning go apps when source changes.
 - [rest-go](https://github.com/edermanoel94/rest-go) - A package that provide many helpful methods for working with rest api.
 - [retry](https://github.com/kamilsk/retry) - The most advanced functional mechanism to perform actions repetitively until successful.
