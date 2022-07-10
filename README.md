@@ -2347,6 +2347,7 @@ See also [Natural Language Processing](#natural-language-processing) and [Text A
 - [go-wildcard](https://github.com/IGLOU-EU/go-wildcard) - Simple and lightweight wildcard pattern matching.
 - [goregen](https://github.com/zach-klippenstein/goregen) - Library for generating random strings from regular expressions.
 - [regroup](https://github.com/oriser/regroup) - Match regex expression named groups into go struct using struct tags and automatic parsing.
+- [rex](https://github.com/hedhyw/rex) - Regular expressions builder.
 
 ### Sanitation
 
