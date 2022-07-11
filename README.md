@@ -349,6 +349,7 @@ _Libraries for building Console Applications and Console User Interfaces._
 - [cfmt](https://github.com/i582/cfmt) - Simple and convenient formatted stylized output fully compatible with fmt library.
 - [chalk](https://github.com/ttacon/chalk) - Intuitive package for prettifying terminal/console output.
 - [colourize](https://github.com/TreyBastian/colourize) - Go library for ANSI colour text in terminals.
+- [crab-config-files-templating](https://github.com/alfiankan/crab-config-files-templating) - Dynamic configuration file templating tool for kubernetes manifest or general configuration files.
 - [ctc](https://github.com/wzshiming/ctc) - The non-invasive cross-platform terminal color library does not need to modify the Print method.
 - [go-ataman](https://github.com/workanator/go-ataman) - Go library for rendering ANSI colored text templates in terminals.
 - [go-colorable](https://github.com/mattn/go-colorable) - Colorable writer for windows.
