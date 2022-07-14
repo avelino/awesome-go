@@ -1535,6 +1535,7 @@ _Libraries that implement messaging systems._
 - [Bus](https://github.com/mustafaturan/bus) - Minimalist message bus implementation for internal communication.
 - [Centrifugo](https://github.com/centrifugal/centrifugo) - Real-time messaging (Websockets or SockJS) server in Go.
 - [Chanify](https://github.com/chanify/chanify) - A push notification server send message to your iOS devices.
+- [Channelize](https://github.com/hmdsefi/channelize) - A websocket framework to manage outbound streams. Allowing to have multiple channels per connection that includes public and private channels.
 - [Commander](https://github.com/jeroenrinzema/commander) - A high-level event driven consumer/producer supporting various "dialects" such as Apache Kafka.
 - [Confluent Kafka Golang Client](https://github.com/confluentinc/confluent-kafka-go) - confluent-kafka-go is Confluent's Golang client for Apache Kafka and the Confluent Platform.
 - [dbus](https://github.com/godbus/dbus) - Native Go bindings for D-Bus.
