@@ -2234,6 +2234,7 @@ _Libraries for testing codebases and generating test data._
   - [gosuite](https://github.com/pavlo/gosuite) - Brings lightweight test suites with setup/teardown facilities to `testing` by leveraging Go1.7's Subtests.
   - [got](https://github.com/ysmood/got) - An enjoyable golang test framework.
   - [gotest.tools](https://github.com/gotestyourself/gotest.tools) - A collection of packages to augment the go testing package and support common patterns.
+  - [gremlins](https://github.com/k3rn31/gremlins) - A mutation testing tool for Go.
   - [Hamcrest](https://github.com/rdrdr/hamcrest) - fluent framework for declarative Matcher objects that, when applied to input values, produce self-describing results.
   - [httpexpect](https://github.com/gavv/httpexpect) - Concise, declarative, and easy to use end-to-end HTTP and REST API testing.
   - [is](https://github.com/matryer/is) - Professional lightweight testing mini-framework for Go.
