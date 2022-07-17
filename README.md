@@ -1004,6 +1004,7 @@ _Libraries for handling errors._
 - [errors](https://github.com/neuronlabs/errors) - Simple golang error handling with classification primitives.
 - [errors](https://github.com/PumpkinSeed/errors) - The most simple error wrapper with awesome performance and minimal memory overhead.
 - [errors](https://github.com/bnkamalesh/errors) - Drop-in replacement for builtin Go errors. This is a minimal error handling package with custom error types, user friendly messages, Unwrap & Is. With very easy to use and straightforward helper functions.
+- [errors](https://github.com/cockroachdb/errors) - Go error library with error portability over the network.
 - [errorx](https://github.com/joomcode/errorx) - A feature rich error package with stack traces, composition of errors and more.
 - [exception](https://github.com/rbrahul/exception) - A simple utility package for exception handling with try-catch in Golang.
 - [Falcon](https://github.com/SonicRoshan/falcon) - A Simple Yet Highly Powerful Package For Error Handling.
