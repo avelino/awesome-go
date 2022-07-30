@@ -2054,7 +2054,7 @@ _Libraries for scientific computing and data analyzing._
 
 ## Security
 
-_Libraries that are used to help make your application more secure._
+_Libraries and tools that are used to help make your application more secure._
 
 - [acmetool](https://github.com/hlandau/acme) - ACME (Let's Encrypt) client tool with automatic renewal.
 - [acra](https://github.com/cossacklabs/acra) - Network encryption proxy to protect database-based applications from data leaks: strong selective encryption, SQL injections prevention, intrusion detection system.
@@ -2081,6 +2081,7 @@ _Libraries that are used to help make your application more secure._
 - [nacl](https://github.com/kevinburke/nacl) - Go implementation of the NaCL set of API's.
 - [optimus-go](https://github.com/pjebs/optimus-go) - ID hashing and Obfuscation using Knuth's Algorithm.
 - [passlib](https://github.com/hlandau/passlib) - Futureproof password hashing library.
+- [rönd](https://github.com/rond-authz/rond) - A lightweight container that allows you to distribute security policy enforcement throughout your application.
 - [secret](https://github.com/rsjethani/secret) - Prevent your secrets from leaking into logs, std* etc.
 - [secure](https://github.com/unrolled/secure) - HTTP middleware for Go that facilitates some quick security wins.
 - [secureio](https://github.com/xaionaro-go/secureio) - An keyexchanging+authenticating+encrypting wrapper and multiplexer for `io.ReadWriteCloser` based on XChaCha20-poly1305, ECDH and ED25519.
