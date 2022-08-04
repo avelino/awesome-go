@@ -645,7 +645,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [BigCache](https://github.com/allegro/bigcache) - Efficient key/value cache for gigabytes of data.
 - [cache](https://github.com/akyoto/cache) - In-memory key:value store with expiration time, 0 dependencies, <100 LoC, 100% coverage.
 - [cache2go](https://github.com/muesli/cache2go) - In-memory key:value cache which supports automatic invalidation based on timeouts.
-- [cachego](https://github.com/fabiorphp/cachego) - Golang Cache component for multiple drivers.
+- [cachego](https://github.com/faabiosr/cachego) - Golang Cache component for multiple drivers.
 - [clusteredBigCache](https://github.com/oaStuff/clusteredBigCache) - BigCache with clustering support and individual item expiration.
 - [couchcache](https://github.com/codingsince1985/couchcache) - RESTful caching micro-service backed by Couchbase server.
 - [fastcache](https://github.com/VictoriaMetrics/fastcache) - fast thread-safe inmemory cache for big number of entries. Minimizes GC overhead.
@@ -2796,6 +2796,7 @@ _Full stack web frameworks._
 
 - [client-timing](https://github.com/posener/client-timing) - An HTTP client for Server-Timing header.
 - [CORS](https://github.com/rs/cors) - Easily add CORS capabilities to your API.
+- [echo-middleware](https://github.com/faabiosr/echo-middleware) - Middleware for Echo framework with logging and metrics.
 - [formjson](https://github.com/rs/formjson) - Transparently handle JSON input as a standard form POST.
 - [go-fault](https://github.com/github/go-fault) - Fault injection middleware for Go.
 - [go-server-timing](https://github.com/mitchellh/go-server-timing) - Add/parse Server-Timing header.
@@ -2806,6 +2807,7 @@ _Full stack web frameworks._
 - [rk-grpc](https://github.com/rookie-ninja/rk-grpc) - Middleware for gRPC with logging, metrics, auth, tracing etc.
 - [Tollbooth](https://github.com/didip/tollbooth) - Rate limit HTTP request handler.
 - [XFF](https://github.com/sebest/xff) - Handle `X-Forwarded-For` header and friends.
+
 
 #### Libraries for creating HTTP middlewares
 
