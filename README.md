@@ -976,6 +976,7 @@ _Embedding other languages inside your go code._
 - [cel-go](https://github.com/google/cel-go) - Fast, portable, non-Turing complete expression evaluation with gradual typing.
 - [ecal](https://github.com/krotik/ecal) - A simple embeddable scripting language which supports concurrent event processing.
 - [expr](https://github.com/antonmedv/expr) - Expression evaluation engine for Go: fast, non-Turing complete, dynamic typing, static typing.
+- [gal](https://github.com/seborama/gal) - Go evAL - Customisable Go expression parser and evaluator.
 - [gentee](https://github.com/gentee/gentee) - Embeddable scripting programming language.
 - [gisp](https://github.com/jcla1/gisp) - Simple LISP in Go.
 - [go-duktape](https://github.com/olebedev/go-duktape) - Duktape JavaScript engine bindings for Go.
