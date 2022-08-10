@@ -797,6 +797,7 @@ _Libraries for building and using SQL._
 - [godror](https://github.com/godror/godror) - Oracle driver for Go, using the ODPI-C driver.
 - [gofreetds](https://github.com/minus5/gofreetds) - Microsoft MSSQL driver. Go wrapper over [FreeTDS](https://www.freetds.org).
 - [Kivik](https://github.com/go-kivik/kivik) - Kivik provides a common Go and GopherJS client library for CouchDB, PouchDB, and similar databases.
+- [KSQL](https://github.com/VinGarcia/ksql) - A Simple and Powerful Golang SQL Library
 - [pgx](https://github.com/jackc/pgx) - PostgreSQL driver supporting features beyond those exposed by database/sql.
 - [pig](https://github.com/alexeyco/pig) - Simple [pgx](https://github.com/jackc/pgx) wrapper to execute and [scan](https://github.com/georgysavva/scany) query results easily.
 - [pq](https://github.com/lib/pq) - Pure Go Postgres driver for database/sql.
