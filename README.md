@@ -1728,6 +1728,8 @@ _Libraries for working with human languages._
 
 See also [Text Processing](#text-processing) and [Text Analysis](#text-analysis).
 
+* [go-gpt3](https://github.com/sashabaranov/go-gpt3/) - GPT-3 API for Go.
+
 ### Language Detection
 
 - [detectlanguage](https://github.com/detectlanguage/detectlanguage-go) - Language Detection API Go Client. Supports batch requests, short phrase or single word language detection.
