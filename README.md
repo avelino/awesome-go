@@ -2802,6 +2802,7 @@ _Full stack web frameworks._
 - [formjson](https://github.com/rs/formjson) - Transparently handle JSON input as a standard form POST.
 - [go-fault](https://github.com/github/go-fault) - Fault injection middleware for Go.
 - [go-server-timing](https://github.com/mitchellh/go-server-timing) - Add/parse Server-Timing header.
+- [httplog](https://github.com/MadAppGang/httplog) - colored console logs for http requests with timings, real user IP and zap integration; integrated with all major web frameworks.
 - [Limiter](https://github.com/ulule/limiter) - Dead simple rate limit middleware for Go.
 - [ln-paywall](https://github.com/philippgille/ln-paywall) - Go middleware for monetizing APIs on a per-request basis with the Lightning Network (Bitcoin).
 - [mid](https://github.com/bobg/mid) - Miscellaneous HTTP middleware features: idiomatic error return from handlers; receive/respond with JSON data; request tracing; and more.
