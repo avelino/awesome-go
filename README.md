@@ -1425,6 +1425,7 @@ _Libraries for working with JSON._
 
 _Libraries for generating and working with log files._
 
+- [golog](https://github.com/bingoohuang/golog) - Flexible log configuration, compression archive, speed limit and fast integration.
 - [distillog](https://github.com/amoghe/distillog) - distilled levelled logging (think of it as stdlib + log levels).
 - [glg](https://github.com/kpango/glg) - glg is simple and fast leveled logging library for Go.
 - [glo](https://github.com/lajosbencz/glo) - PHP Monolog inspired logging facility with identical severity levels.
