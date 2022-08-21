@@ -620,6 +620,7 @@ additional ordered map implementations.
 
 ### Trees
 
+- [go-merkletree](https://github.com/txaty/go-merkletree) - High performance Golang Merkle Tree implementation (with parallel-run support).
 - [hashsplit](http://github.com/bobg/hashsplit) - Split byte streams into chunks, and arrange chunks into trees, with boundaries determined by content, not position.
 - [merkle](https://github.com/bobg/merkle) - Space-efficient computation of Merkle root hashes and inclusion proofs.
 - [skiplist](https://github.com/MauriceGit/skiplist) - Very fast Go Skiplist implementation.
