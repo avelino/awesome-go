@@ -55,13 +55,13 @@ func main() {
 		})
 	})
 
-	makeCategoryPages(objs)
-	linkCategoryPagesInIndex(string(input), query, objs)
+	makeSiteStruct(objs)
+	changeLinksInIndex(string(input), query, objs)
 
 	makeSitemap(objs)
 }
 
-func makeCategoryPages(objs map[string]*Object) {
+func makeSiteStruct(objs map[string]*Object) {
 	for _, obj := range objs {
 		folder := fmt.Sprintf("tmpl/%s", obj.Slug)
 		err := os.Mkdir(folder, 0755)
@@ -106,7 +106,7 @@ func makeObjById(selector string, s *goquery.Selection) (obj *Object) {
 	return
 }
 
-func linkCategoryPagesInIndex(html string, query *goquery.Document, objs map[string]*Object) {
+func changeLinksInIndex(html string, query *goquery.Document, objs map[string]*Object) {
 	query.Find("body #content ul li ul li a").Each(func(_ int, s *goquery.Selection) {
 		href, hrefExists := s.Attr("href")
 		if !hrefExists {
