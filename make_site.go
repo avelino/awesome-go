@@ -96,6 +96,9 @@ func makeObjById(selector string, s *goquery.Selection) (obj *Object) {
 			}
 			links = append(links, link)
 		})
+		if len(links) == 0 {
+			return
+		}
 		obj = &Object{
 			Slug:        slug.Generate(s.Text()),
 			Title:       s.Text(),
