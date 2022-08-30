@@ -47,7 +47,7 @@ func main() {
 			if !exists {
 				return
 			}
-			obj := makeObjById(selector, query.Find("body"))
+			obj := makeObjByID(selector, query.Find("body"))
 			if obj == nil {
 				return
 			}
@@ -81,7 +81,7 @@ func makeSitemap(objs map[string]*Object) {
 	t.Execute(f, objs)
 }
 
-func makeObjById(selector string, s *goquery.Selection) (obj *Object) {
+func makeObjByID(selector string, s *goquery.Selection) (obj *Object) {
 	s.Find(selector).Each(func(_ int, s *goquery.Selection) {
 		desc := s.NextFiltered("p")
 		ul := s.NextFilteredUntil("ul", "h2")
