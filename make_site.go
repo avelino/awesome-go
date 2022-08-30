@@ -41,7 +41,7 @@ func main() {
 	}
 
 	objs := make(map[string]*Object)
-	query.Find("body #content ul ul").First().Each(func(_ int, s *goquery.Selection) {
+	query.Find("body #contents").NextFiltered("ul").Find("ul").Each(func(_ int, s *goquery.Selection) {
 		s.Find("li a").Each(func(_ int, s *goquery.Selection) {
 			selector, exists := s.Attr("href")
 			if !exists {
