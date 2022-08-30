@@ -3,7 +3,6 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"io/ioutil"
 	"log"
 	"os"
 	"strings"
@@ -27,8 +26,11 @@ type Object struct {
 }
 
 func main() {
-	GenerateHTML()
-	input, err := ioutil.ReadFile("./tmpl/index.html")
+	err := GenerateHTML()
+	if err != nil {
+		panic(err)
+	}
+	input, err := os.ReadFile("./tmpl/index.html")
 	if err != nil {
 		panic(err)
 	}
@@ -38,22 +40,28 @@ func main() {
 		panic(err)
 	}
 
-	objs := []Object{}
+	objs := make(map[string]*Object)
 	query.Find("body #content ul ul").First().Each(func(_ int, s *goquery.Selection) {
-
 		s.Find("li a").Each(func(_ int, s *goquery.Selection) {
-			selector, _ := s.Attr("href")
+			selector, exists := s.Attr("href")
+			if !exists {
+				return
+			}
 			obj := makeObjById(selector, query.Find("body"))
-			objs = append(objs, obj)
+			if obj == nil {
+				return
+			}
+			objs[selector] = obj
 		})
 	})
 
-	makeSiteStruct(objs)
+	makeCategoryPages(objs)
+	linkCategoryPagesInIndex(string(input), query, objs)
+
 	makeSitemap(objs)
-	changeLinksInIndex(string(input), query)
 }
 
-func makeSiteStruct(objs []Object) {
+func makeCategoryPages(objs map[string]*Object) {
 	for _, obj := range objs {
 		folder := fmt.Sprintf("tmpl/%s", obj.Slug)
 		err := os.Mkdir(folder, 0755)
@@ -67,16 +75,16 @@ func makeSiteStruct(objs []Object) {
 	}
 }
 
-func makeSitemap(objs []Object) {
+func makeSitemap(objs map[string]*Object) {
 	t := template.Must(template.ParseFiles("tmpl/sitemap-tmpl.xml"))
 	f, _ := os.Create("tmpl/sitemap.xml")
 	t.Execute(f, objs)
 }
 
-func makeObjById(selector string, s *goquery.Selection) (obj Object) {
+func makeObjById(selector string, s *goquery.Selection) (obj *Object) {
 	s.Find(selector).Each(func(_ int, s *goquery.Selection) {
 		desc := s.NextFiltered("p")
-		ul := desc.NextFiltered("ul")
+		ul := s.NextFilteredUntil("ul", "h2")
 
 		links := []Link{}
 		ul.Find("li").Each(func(_ int, s *goquery.Selection) {
@@ -88,7 +96,7 @@ func makeObjById(selector string, s *goquery.Selection) (obj Object) {
 			}
 			links = append(links, link)
 		})
-		obj = Object{
+		obj = &Object{
 			Slug:        slug.Generate(s.Text()),
 			Title:       s.Text(),
 			Description: desc.Text(),
@@ -98,16 +106,23 @@ func makeObjById(selector string, s *goquery.Selection) (obj Object) {
 	return
 }
 
-func changeLinksInIndex(html string, query *goquery.Document) {
+func linkCategoryPagesInIndex(html string, query *goquery.Document, objs map[string]*Object) {
 	query.Find("body #content ul li ul li a").Each(func(_ int, s *goquery.Selection) {
+		href, hrefExists := s.Attr("href")
+		if !hrefExists {
+			return
+		}
 
-		href, exists := s.Attr("href")
-		if exists {
-			uri := strings.SplitAfter(href, "#")
-			if len(uri) >= 2 && uri[1] != "contents" {
-				html = strings.ReplaceAll(
-					html, fmt.Sprintf(`href="%s"`, href), fmt.Sprintf(`href="%s"`, uri[1]))
-			}
+		// do not replace links if no page has been created for it
+		_, objExists := objs[href]
+		if !objExists {
+			return
+		}
+
+		uri := strings.SplitAfter(href, "#")
+		if len(uri) >= 2 && uri[1] != "contents" {
+			html = strings.ReplaceAll(
+				html, fmt.Sprintf(`href="%s"`, href), fmt.Sprintf(`href="%s"`, uri[1]))
 		}
 	})
 
