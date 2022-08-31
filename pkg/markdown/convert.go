@@ -12,6 +12,7 @@ import (
 	"github.com/yuin/goldmark/util"
 )
 
+// ConvertMarkdownToHTML converts markdown byte slice to a HTML byte slice
 func ConvertMarkdownToHTML(markdown []byte) ([]byte, error) {
 	md := goldmark.New(
 		goldmark.WithExtensions(extension.GFM),
@@ -36,14 +37,17 @@ func ConvertMarkdownToHTML(markdown []byte) ([]byte, error) {
 	return buf.Bytes(), nil
 }
 
+// IDGenerator for goldmark to provide IDs more similar to GitHub's IDs on markdown parsing
 type IDGenerator struct {
 	used map[string]bool
 }
 
+// Generate an ID
 func (g *IDGenerator) Generate(value []byte, _ ast.NodeKind) []byte {
 	return []byte(slug.Generate(string(value)))
 }
 
+// Put an ID to the list of already used IDs
 func (g *IDGenerator) Put(value []byte) {
 	g.used[util.BytesToReadOnlyString(value)] = true
 }
