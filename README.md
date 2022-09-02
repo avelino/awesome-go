@@ -2162,10 +2162,10 @@ _Libraries and tools for binary serialization._
 _Libraries and tools for stream processing and reactive programming._
 
 - [go-streams](https://github.com/reugn/go-streams) - Go stream processing library.
+- [Go Streams API](https://github.com/mariomac/gostream) - A Go port of the Java Streams API. Type-safe and functional Go Streams processing for Go 1.18+, using generics.
 - [goio](https://github.com/primetalk/goio) - An implementation of IO, Stream, Fiber for Golang, inspired by awesome Scala libraries cats and fs2.
 - [machine](https://github.com/whitaker-io/machine) - Go library for writing and generating stream workers with built in metrics and traceability.
 - [stream](https://github.com/youthlin/stream) - Go Stream, like Java 8 Stream: Filter/Map/FlatMap/Peek/Sorted/ForEach/Reduce...
-- [Go Streams API](https://github.com/mariomac/gostream) - A Go port of the Java Streams API. Type-safe and functional Go Streams processing for Go 1.18+, using generics.
 
 **[⬆ back to top](#contents)**
 
