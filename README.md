@@ -705,6 +705,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 
 - [atlas](https://github.com/ariga/atlas) - A Database Toolkit. A CLI designed to help companies better work with their data.
 - [avro](https://github.com/khezen/avro) - Discover SQL schemas and convert them to AVRO schemas. Query SQL records into AVRO bytes.
+- [bytebase](https://github.com/bytebase/bytebase) - Safe database schema change and version control for DevOps teams.
 - [darwin](https://github.com/GuiaBolso/darwin) - Database schema evolution library for Go.
 - [go-fixtures](https://github.com/RichardKnop/go-fixtures) - Django style fixtures for Golang's excellent built-in database/sql library.
 - [go-pg-migrate](https://github.com/lawzava/go-pg-migrate) - CLI-friendly package for go-pg migrations management.
