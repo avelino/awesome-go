@@ -1436,6 +1436,7 @@ _Libraries for generating and working with log files._
 - [go-log](https://github.com/siddontang/go-log) - Log lib supports level and multi handlers.
 - [go-log](https://github.com/ian-kent/go-log) - Log4j implementation in Go.
 - [go-logger](https://github.com/apsdehal/go-logger) - Simple logger of Go Programs, with level handlers.
+- [golog](https://github.com/bingoohuang/golog) - Flexible log configuration, compression archive, speed limit and fast integration.
 - [gologger](https://github.com/sadlil/gologger) - Simple easy to use log lib for go, logs in Colored Console, Simple Console, File or Elasticsearch.
 - [gomol](https://github.com/aphistic/gomol) - Multiple-output, structured logging for Go with extensible logging outputs.
 - [gone/log](https://github.com/One-com/gone/tree/master/log) - Fast, extendable, full-featured, std-lib source compatible log library.
