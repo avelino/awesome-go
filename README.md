@@ -2625,6 +2625,7 @@ _General utilities and tools to make your life easier._
 - [ptr](https://github.com/gotidy/ptr) - Package that provide functions for simplified creation of pointers from constants of basic types.
 - [rclient](https://github.com/zpatrick/rclient) - Readable, flexible, simple-to-use client for REST APIs.
 - [reflectutils](https://github.com/muir/reflectutils) - Helpers for working with reflection: struct tag parsing; recursive walking; fill value from string.
+- [remote-touchpad](https://github.com/Unrud/remote-touchpad) - Control mouse and keyboard from a smartphone.
 - [repeat](https://github.com/ssgreg/repeat) - Go implementation of different backoff strategies useful for retrying operations and heartbeating.
 - [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
 - [rerun](https://github.com/ivpusic/rerun) - Recompiling and rerunning go apps when source changes.
