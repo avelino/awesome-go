@@ -1585,6 +1585,7 @@ _Libraries that implement messaging systems._
 - [sarama](https://github.com/Shopify/sarama) - Go library for Apache Kafka.
 - [Uniqush-Push](https://github.com/uniqush/uniqush-push) - Redis backed unified push service for server-side notifications to mobile devices.
 - [zmq4](https://github.com/pebbe/zmq4) - Go interface to ZeroMQ version 4. Also available for [version 3](https://github.com/pebbe/zmq3) and [version 2](https://github.com/pebbe/zmq2).
+- [Go-MediatR](https://github.com/mehdihadeli/Go-MediatR) - Mediator pattern implementation in Golang and helpful in creating CQRS based applications.
 
 **[⬆ back to top](#contents)**
 
