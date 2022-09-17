@@ -1212,6 +1212,7 @@ _Tools for managing and working with Goroutines._
 - [go-tools/multithreading](https://github.com/nikhilsaraf/go-tools) - Manage a pool of goroutines using this lightweight library with a simple API.
 - [go-trylock](https://github.com/subchen/go-trylock) - TryLock support on read-write lock for Golang.
 - [go-waitgroup](https://github.com/pieterclaerhout/go-waitgroup) - Like `sync.WaitGroup` with error handling and concurrency control.
+- [go-workerpool](https://github.com/zenthangplus/go-workerpool) - Inspired from Java Thread Pool, Go WorkerPool aims to control heavy Go Routines.
 - [go-workers](https://github.com/catmullet/go-workers) - Easily and safely run workers for large data processing pipelines.
 - [goccm](https://github.com/zenthangplus/goccm) - Go Concurrency Manager package limits the number of goroutines that allowed to run concurrently.
 - [gohive](https://github.com/loveleshsharma/gohive) - A highly performant and easy to use Goroutine pool for Go.
