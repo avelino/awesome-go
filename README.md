@@ -2909,6 +2909,7 @@ _Libraries and tools to implement Zero Trust architectures._
 _Source code analysis tools, also known as Static Application Security Testing (SAST) Tools._
 
 - [apicompat](https://github.com/bradleyfalzon/apicompat) - Checks recent changes to a Go project for backwards incompatible changes.
+- [asty](https://github.com/asty-org/asty) - Converts golang AST to JSON and JSON to AST.
 - [ChainJacking](https://github.com/Checkmarx/chainjacking) - Find which of your Go lang direct GitHub dependencies is susceptible to ChainJacking attack.
 - [dupl](https://github.com/mibk/dupl) - Tool for code clone detection.
 - [errcheck](https://github.com/kisielk/errcheck) - Errcheck is a program for checking for unchecked errors in Go programs.
