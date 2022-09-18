@@ -3439,7 +3439,7 @@ _Where to discover new Go libraries._
 - [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers) - Examples of Golang compared to Node.js for learning.
 - [Golang Tutorial Guide](https://www.freecodecamp.org/news/golang-tutorial-list-free-courses-learn-go-programming-language/) - A List of Free Courses to Learn the Go Programming Language.
 - [Golangbot](https://golangbot.com/learn-golang-series/) - Tutorials to get started with programming in Go.
-- [GolangCode](https://golangcode.com/) - Collection of code snippets and tutorials to help tackle every day issues.
+- [GopherCoding](https://gophercoding.com/) - Collection of code snippets and tutorials to help tackle every day issues.
 - [GopherSnippets](https://gophersnippets.com/) - Code snippets with tests and testable examples for the Go programming language.
 - [Gosamples](https://gosamples.dev/) - Collection of code snippets that let you solve everyday code problems.
 - [Hackr.io](https://hackr.io/tutorials/learn-golang) - Learn Go from the best online golang tutorials submitted & voted by the golang programming community.
