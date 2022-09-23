@@ -498,6 +498,7 @@ _Libraries for configuration parsing._
 _Tools for help with continuous integration._
 
 - [CDS](https://github.com/ovh/cds) - Enterprise-Grade CI/CD and DevOps Automation Open Source Platform.
+- [cifuzz](https://github.com/CodeIntelligenceTesting/cifuzz) - CLI tool that helps you to integrate and run fuzzing based tests into your project.
 - [drone](https://github.com/drone/drone) - Drone is a Continuous Integration platform built on Docker, written in Go.
 - [duci](https://github.com/duck8823/duci) - A simple ci server no needs domain specific languages.
 - [go-fuzz-action](https://github.com/jidicula/go-fuzz-action) - Use Go 1.18's built-in fuzz testing in GitHub Actions.
