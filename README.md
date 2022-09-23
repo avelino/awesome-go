@@ -881,6 +881,7 @@ _Libraries for working with dates and times._
 
 _Packages that help with building Distributed Systems._
 
+- [aperture](https://github.com/fluxninja/aperture) - Flow control and reliability management for modern cloud applications.
 - [arpc](https://github.com/lesismal/arpc) - More effective network communication, support two-way-calling, notify, broadcast.
 - [celeriac](https://github.com/svcavallar/celeriac.v1) - Library for adding support for interacting and monitoring Celery workers, tasks and events in Go.
 - [consistent](https://github.com/buraksezer/consistent) - Consistent hashing with bounded loads.
