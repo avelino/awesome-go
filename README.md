@@ -53,18 +53,9 @@ _Special thanks to_
 </td>
 </tr>
 <tr>
-<td>
+<td colspan="2">
 <a href="https://bit.ly/awesome-go-digitalocean">
 <img src="https://avelino.run/sponsors/do_logo_horizontal_blue-210.png" width="200" alt="Digital Ocean">
-</a>
-</td>
-<td>
-<a href="https://bit.ly/awesome-go-ctoai">
-<img src="https://avelino.run/sponsors/cto-logo.png" width="200" alt="cto.ai"><br/>
-<b>workflow smarter, not harder</b><br/>
-<sub>Make the switch from one-size-fits-all CI/CD to PaaS</sub><br/>
-<sup>workflows & turn k8s into a powerful developer experience</sup><br/>
-<sup>that will measurably increase developer productivity by 200%</sup>
 </a>
 </td>
 </tr>
