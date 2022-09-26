@@ -2695,6 +2695,7 @@ _General utilities and tools to make your life easier._
 - [wifiqr](https://github.com/reugn/wifiqr) - Wi-Fi QR Code Generator.
 - [wuzz](https://github.com/asciimoo/wuzz) - Interactive cli tool for HTTP inspection.
 - [xferspdy](https://github.com/monmohan/xferspdy) - Xferspdy provides binary diff and patch library in golang.
+- [contextplus](https://github.com/contextplus/contextplus) - Package contextplus provide more easy to use functions for contexts.
 
 **[⬆ back to top](#contents)**
 
