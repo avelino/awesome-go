@@ -354,6 +354,7 @@ _Libraries for building Console Applications and Console User Interfaces._
 - [mpb](https://github.com/vbauerster/mpb) - Multi progress bar for terminal applications.
 - [progressbar](https://github.com/schollz/progressbar) - Basic thread-safe progress bar that works in every OS.
 - [pterm](https://github.com/pterm/pterm) - A library to beautify console output on every platform with many combinable components.
+- [reactea](https://github.com/londek/reactea) - Rather simple Bubbletea companion for handling hierarchy and support for lifting state up.
 - [simpletable](https://github.com/alexeyco/simpletable) - Simple tables in terminal with Go.
 - [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
 - [tabby](https://github.com/cheynewallace/tabby) - A tiny library for super simple Golang tables.
@@ -654,7 +655,6 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [ttlcache](https://github.com/jellydator/ttlcache) - An in-memory cache with item expiration and generics.
 - [ttlcache](https://github.com/cheshir/ttlcache) - In-memory key value storage with TTL for each record.
 
-
 ### Databases Implemented in Go
 
 - [badger](https://github.com/dgraph-io/badger) - Fast key-value store in Go.
@@ -744,6 +744,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [vitess](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
 
 ### SQL Query Builders
+
 _Libraries for building and using SQL._
 
 - [bqb](https://github.com/nullism/bqb) - Lightweight and easy to learn query builder.
@@ -2817,7 +2818,6 @@ _Full stack web frameworks._
 - [rk-grpc](https://github.com/rookie-ninja/rk-grpc) - Middleware for gRPC with logging, metrics, auth, tracing etc.
 - [Tollbooth](https://github.com/didip/tollbooth) - Rate limit HTTP request handler.
 - [XFF](https://github.com/sebest/xff) - Handle `X-Forwarded-For` header and friends.
-
 
 #### Libraries for creating HTTP middlewares
 
