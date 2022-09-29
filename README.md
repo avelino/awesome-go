@@ -354,7 +354,7 @@ _Libraries for building Console Applications and Console User Interfaces._
 - [mpb](https://github.com/vbauerster/mpb) - Multi progress bar for terminal applications.
 - [progressbar](https://github.com/schollz/progressbar) - Basic thread-safe progress bar that works in every OS.
 - [pterm](https://github.com/pterm/pterm) - A library to beautify console output on every platform with many combinable components.
-- [reactea](https://github.com/londek/reactea) - Rather simple Bubbletea companion for handling hierarchy and support for lifting state up.
+- [reactea](https://github.com/londek/reactea) - Rather simple Bubble Tea companion for handling hierarchy and support for lifting state up.
 - [simpletable](https://github.com/alexeyco/simpletable) - Simple tables in terminal with Go.
 - [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
 - [tabby](https://github.com/cheynewallace/tabby) - A tiny library for super simple Golang tables.
