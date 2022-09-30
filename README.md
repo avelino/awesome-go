@@ -2916,7 +2916,8 @@ _Source code analysis tools, also known as Static Application Security Testing (
 - [apicompat](https://github.com/bradleyfalzon/apicompat) - Checks recent changes to a Go project for backwards incompatible changes.
 - [asty](https://github.com/asty-org/asty) - Converts golang AST to JSON and JSON to AST.
 - [ChainJacking](https://github.com/Checkmarx/chainjacking) - Find which of your Go lang direct GitHub dependencies is susceptible to ChainJacking attack.
-- [dupl](https://github.com/mibk/dupl) - Tool for code clone detection.
+- [Chronos](https://github.com/amit-davidson/Chronos) - Detects race conditions statically
+- [dupl](https://github.com/mibk/dupl)- [asty](https://github.com/asty-org/asty) - Converts golang AST to JSON and JSON to AST. - Tool for code clone detection.
 - [errcheck](https://github.com/kisielk/errcheck) - Errcheck is a program for checking for unchecked errors in Go programs.
 - [gcvis](https://github.com/davecheney/gcvis) - Visualise Go program GC trace data in real time.
 - [go-checkstyle](https://github.com/qiniu/checkstyle) - checkstyle is a style check tool like java checkstyle. This tool inspired by java checkstyle, golint. The style referred to some points in Go Code Review Comments.
