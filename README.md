@@ -1876,6 +1876,7 @@ _Libraries for working with various layers of the network._
 
 _Libraries for making HTTP requests._
 
+- [ctxhttp](https://golang.org/x/net/context/ctxhttp) - Library for performing context-aware HTTP requests.
 - [gentleman](https://github.com/h2non/gentleman) - Full-featured plugin-driven HTTP client library.
 - [go-cleanhttp](https://github.com/hashicorp/go-cleanhttp) - Get easily stdlib HTTP client, which does not share any state with other clients.
 - [go-http-client](https://github.com/bozd4g/go-http-client) - Make http calls simply and easily.
