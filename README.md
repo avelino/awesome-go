@@ -1477,6 +1477,7 @@ _Libraries for generating and working with log files._
 - [tail](https://github.com/hpcloud/tail) - Go package striving to emulate the features of the BSD tail program.
 - [xlog](https://github.com/xfxdev/xlog) - Plugin architecture and flexible log system for Go, with level ctrl, multiple log target and custom log format.
 - [xlog](https://github.com/rs/xlog) - Structured logger for `net/context` aware HTTP handlers with flexible dispatching.
+- [xylog](https://github.com/xybor-x/xylog) - Leveled and structured logging, dynamic fields, high performance, zone management, simple configuration, and readable syntax.
 - [yell](https://github.com/jfcg/yell) - Yet another minimalistic logging library.
 - [zap](https://github.com/uber-go/zap) - Fast, structured, leveled logging in Go.
 - [zerolog](https://github.com/rs/zerolog) - Zero-allocation JSON logger.
