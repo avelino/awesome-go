@@ -3447,5 +3447,7 @@ _Where to discover new Go libraries._
 - [The world’s easiest introduction to WebAssembly with Golang](https://medium.com/@martinolsansky/webassembly-with-golang-is-fun-b243c0e34f02)
 - [Working with Go](https://github.com/mkaz/working-with-go) - Intro to go for experienced programmers.
 - [Your basic Go](https://yourbasic.org/golang) - Huge collection of tutorials and how to's.
+- [Go Tutorial - W3Basic](https://www.w3basic.com/golang/) - A well organized and structured Golang Tutorials for Beginners and Professionals.
+
 
 **[⬆ back to top](#contents)**
