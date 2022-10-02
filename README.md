@@ -1963,6 +1963,7 @@ _Unofficial libraries for package and dependency management._
 - [gopm](https://github.com/gpmgo/gopm) - Go Package Manager.
 - [govendor](https://github.com/kardianos/govendor) - Go Package Manager. Go vendor tool that works with the standard vendor file.
 - [gpm](https://github.com/pote/gpm) - Barebones dependency manager for Go.
+- [gup](https://github.com/nao1215/gup) - Update binaries installed by "go install".
 - [johnny-deps](https://github.com/VividCortex/johnny-deps) - Minimal dependency version using Git.
 - [modgv](https://github.com/lucasepe/modgv) - Converts 'go mod graph' output into Graphviz's DOT language.
 - [mvn-golang](https://github.com/raydac/mvn-golang) - plugin that provides way for auto-loading of Golang SDK, dependency management and start build environment in Maven project infrastructure.
