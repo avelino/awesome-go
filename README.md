@@ -480,6 +480,7 @@ _Libraries for configuration parsing._
 - [typenv](https://github.com/diegomarangoni/typenv) - Minimalistic, zero dependency, typed environment variables library.
 - [uConfig](https://github.com/omeid/uconfig) - Lightweight, zero-dependency, and extendable configuration management.
 - [viper](https://github.com/spf13/viper) - Go configuration with fangs.
+- [xconf](https://github.com/actforgood/xconf) - Go configuration registry for an application having as source(s) files / env / remote systems and supporting formats like json / yaml / ini / properties / toml / plain.
 - [xdg](https://github.com/adrg/xdg) - Go implementation of the [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html) and [XDG user directories](https://wiki.archlinux.org/index.php/XDG_user_directories).
 - [xdg](https://github.com/OpenPeeDeeP/xdg) - Cross platform package that follows the [XDG Standard](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html).
 
@@ -1021,6 +1022,7 @@ _Libraries for handling files and file systems._
 - [afero](https://github.com/spf13/afero) - FileSystem Abstraction System for Go.
 - [afs](https://github.com/viant/afs) - Abstract File Storage (mem, scp, zip, tar, cloud: s3, gs) for Go.
 - [baraka](https://github.com/xis/baraka) - A library to process http file uploads easily.
+- [bigcsvreader](https://github.com/actforgood/bigcsvreader) - Offers a multi-threaded approach for reading a large CSV file in order to improve the time of reading and processing it.
 - [bigfile](https://github.com/bigfile/bigfile) - A file transfer system, support to manage files with http api, rpc call and ftp client.
 - [checksum](https://github.com/codingsince1985/checksum) - Compute message digest, like MD5, SHA256, SHA1, CRC or BLAKE2s, for large files.
 - [copy](https://github.com/otiai10/copy) - Copy directory recursively.
