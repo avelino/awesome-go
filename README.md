@@ -2097,6 +2097,7 @@ _Libraries that are used to help make your application more secure._
 - [ssh-vault](https://github.com/ssh-vault/ssh-vault) - encrypt/decrypt using ssh keys.
 - [sslmgr](https://github.com/adrianosela/sslmgr) - SSL certificates made easy with a high level wrapper around acme/autocert.
 - [themis](https://github.com/cossacklabs/themis) - high-level cryptographic library for solving typical data security tasks (secure data storage, secure messaging, zero-knowledge proof authentication), available for 14 languages, best fit for multi-platform apps.
+- [Amass](https://github.com/OWASP/Amass) - DNS Recon & enumeration
 
 **[⬆ back to top](#contents)**
 
