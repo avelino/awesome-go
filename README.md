@@ -1261,6 +1261,7 @@ _Toolkits_
 - [Wails](https://wails.app) - Mac, Windows, Linux desktop apps with HTML UI using built-in OS HTML renderer.
 - [walk](https://github.com/lxn/walk) - Windows application library kit for Go.
 - [webview](https://github.com/zserge/webview) - Cross-platform webview window with simple two-way JavaScript bindings (Windows / macOS / Linux).
+- [tview](https://github.com/rivo/tview) - Terminal UI library with rich, interactive widgets.
 
 _Interaction_
 
