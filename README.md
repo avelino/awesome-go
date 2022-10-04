@@ -2607,6 +2607,7 @@ _General utilities and tools to make your life easier._
 - [lrserver](https://github.com/jaschaephraim/lrserver) - LiveReload server for Go.
 - [mani](https://github.com/alajmo/mani) - CLI tool to help you manage multiple repositories.
 - [mc](https://github.com/minio/mc) - Minio Client provides minimal tools to work with Amazon S3 compatible cloud storage and filesystems.
+- [memlimiter](https://github.com/newcloudtechnologies/memlimiter) - An alternative memory limiter for Go based on GC tuning and request throttling.
 - [mergo](https://github.com/imdario/mergo) - Helper to merge structs and maps in Golang. Useful for configuration default values, avoiding messy if-statements.
 - [mimemagic](https://github.com/zRedShift/mimemagic) - Pure Go ultra performant MIME sniffing library/utility.
 - [mimesniffer](https://github.com/aofei/mimesniffer) - A MIME type sniffer for Go.
