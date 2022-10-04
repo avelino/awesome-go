@@ -2037,6 +2037,7 @@ _Libraries for scientific computing and data analyzing._
 - [go-dsp](https://github.com/mjibson/go-dsp) - Digital Signal Processing for Go.
 - [go-estimate](https://github.com/milosgajdos/go-estimate) - State estimation and filtering algorithms in Go.
 - [go-gt](https://github.com/ThePaw/go-gt) - Graph theory algorithms written in "Go" language.
+- [go-hep](https://github.com/go-hep/hep) - hep is a set of libraries and tools to perform High Energy Physics analyses with ease and Go.
 - [godesim](https://github.com/soypat/godesim) - Extended/multivariable ODE solver framework for event-based simulations with simple API.
 - [goent](https://github.com/kzahedi/goent) - GO Implementation of Entropy Measures.
 - [gohistogram](https://github.com/VividCortex/gohistogram) - Approximate histograms for data streams.
