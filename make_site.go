@@ -10,7 +10,7 @@ import (
 	"text/template"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/avelino/slugify"
+	"github.com/avelino/awesome-go/pkg/slug"
 )
 
 type Link struct {
@@ -89,7 +89,7 @@ func makeObjById(selector string, s *goquery.Selection) (obj Object) {
 			links = append(links, link)
 		})
 		obj = Object{
-			Slug:        slugify.Slugify(s.Text()),
+			Slug:        slug.Generate(s.Text()),
 			Title:       s.Text(),
 			Description: desc.Text(),
 			Items:       links,
