@@ -2856,6 +2856,7 @@ _**Unofficial** set of patterns for structuring projects._
 * [For the Love of Go](https://bitfieldconsulting.com/books) - A series of introductory books for Go beginners.
 * [Go 101](https://go101.org) - A book focusing on Go syntax/semantics and all kinds of details.
 * [Go Bootcamp](http://golangbootcamp.com)
+* [Go in Action, Second Edition](https://www.manning.com/books/go-in-action-second-edition)
 * [Go Succinctly](https://github.com/thedevsir/gosuccinctly) - in Persian.
 * [GoBooks](https://github.com/dariubs/GoBooks) - A curated list of Go books.
 * [gRPC Microservices in Go](https://www.manning.com/books/grpc-microservices-in-go) - Book abot how to build fast and secure gRPC-based microservices using Go.
