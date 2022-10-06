@@ -769,6 +769,7 @@ _Libraries for building and using SQL._
 - [sqrl](https://github.com/elgris/sqrl) - SQL query builder, fork of Squirrel with improved performance.
 - [Squalus](https://gitlab.com/qosenergy/squalus) - Thin layer over the Go SQL package that makes it easier to perform queries.
 - [Squirrel](https://github.com/Masterminds/squirrel) - Go library that helps you build SQL queries.
+- [superbasic](https://github.com/wroge/superbasic) - Alternative query building by compiling expressions into SQL templates.
 - [xo](https://github.com/knq/xo) - Generate idiomatic Go code for databases based on existing schema definitions or custom queries supporting PostgreSQL, MySQL, SQLite, Oracle, and Microsoft SQL Server.
 
 **[⬆ back to top](#contents)**
