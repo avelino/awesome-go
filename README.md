@@ -2236,7 +2236,7 @@ _Libraries for testing codebases and generating test data._
   - [gocheck](https://labix.org/gocheck) - More advanced testing framework alternative to gotest.
   - [GoConvey](https://github.com/smartystreets/goconvey/) - BDD-style framework with web UI and live reload.
   - [gocrest](https://github.com/corbym/gocrest) - Composable hamcrest-like matchers for Go assertions.
-  - [godog](https://github.com/DATA-DOG/godog) - Cucumber or Behat like BDD framework for Go.
+  - [godog](https://github.com/cucumber/godog) - Cucumber BDD framework for Go.
   - [gofight](https://github.com/appleboy/gofight) - API Handler Testing for Golang Router framework.
   - [gogiven](https://github.com/corbym/gogiven) - YATSPEC-like BDD testing framework for Go.
   - [gomatch](https://github.com/jfilipczyk/gomatch) - library created for testing JSON against patterns.
