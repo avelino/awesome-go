@@ -1970,6 +1970,7 @@ _Unofficial libraries for package and dependency management._
 - [modgv](https://github.com/lucasepe/modgv) - Converts 'go mod graph' output into Graphviz's DOT language.
 - [mvn-golang](https://github.com/raydac/mvn-golang) - plugin that provides way for auto-loading of Golang SDK, dependency management and start build environment in Maven project infrastructure.
 - [nut](https://github.com/jingweno/nut) - Vendor Go dependencies.
+- [semver](https://github.com/blang/semver) - Semantic Versioning (semver) library written in Go.
 - [VenGO](https://github.com/DamnWidget/VenGO) - create and manage exportable isolated go virtual environments.
 
 **[⬆ back to top](#contents)**
