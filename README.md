@@ -20,17 +20,11 @@ _Special thanks to_
 <table cellpadding="5">
 <tbody align="center">
 <tr>
-<td style="width:50%">
+<td colspan="2">
 <a href="https://bit.ly/awesome-go-doppler">
 <img src="https://avelino.run/sponsors/doppler-logo.png" width="200" alt="Doppler"><br/>
 <b>Quit struggling with scattered API keys and access controls.</b><br/>
 <sub>Keep your secrets in sync across environments, servers, and teams with Doppler.</sub>
-</a>
-</td>
-<td>
-<a href="https://bit.ly/awesome-go-xteam">
-<img src="https://avelino.run/sponsors/xteam-logo.png" width="200" alt="x-team"><br/>
-<b>Work from anywhere in the world with top tech companies like Riot Games, Coinbase, and Google.</b>
 </a>
 </td>
 </tr>
