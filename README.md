@@ -1302,7 +1302,6 @@ _Libraries for manipulating images._
 - [go-cairo](https://github.com/ungerik/go-cairo) - Go binding for the cairo graphics library.
 - [go-gd](https://github.com/bolknote/go-gd) - Go binding for GD library.
 - [go-nude](https://github.com/koyachi/go-nude) - Nudity detection with Go.
-- [go-opencv](https://github.com/lazywei/go-opencv) - Go bindings for OpenCV.
 - [go-webcolors](https://github.com/jyotiska/go-webcolors) - Port of webcolors library from Python to Go.
 - [go-webp](https://github.com/kolesa-team/go-webp) - Library for encode and decode webp pictures, using libwebp.
 - [gocv](https://github.com/hybridgroup/gocv) - Go package for computer vision using OpenCV 3.3+.
