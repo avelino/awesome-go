@@ -3402,6 +3402,7 @@ _Where to discover new Go libraries._
 - [studygolang](https://studygolang.com) - The community of studygolang in China.
 - [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
 - [TutorialEdge - Golang](https://tutorialedge.net/course/golang/)
+- [Explore Go Libraries & Projects](https://kandi.openweaver.com/explore/go) - Discover & find a curated list of popular & new Go libraries, top authors, trending project kits, discussions, tutorials & learning resources on kandi.
 
 **[⬆ back to top](#contents)**
 
