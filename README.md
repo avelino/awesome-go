@@ -3426,6 +3426,7 @@ _Where to discover new Go libraries._
 - [Go Language Tutorial](https://www.javatpoint.com/go-tutorial) - Learn Go language Tutorial.
 - [Go Tutorial](https://www.tutorialspoint.com/go/index.htm) - Learn Go programming.
 - [Go WebAssembly Tutorial - Building a Simple Calculator](https://tutorialedge.net/golang/go-webassembly-tutorial/)
+- [Go Web Examples](https://gowebexamples.com)
 - [go-clean-template](https://github.com/evrone/go-clean-template) - Clean Architecture template for Golang services.
 - [go-patterns](https://github.com/tmrts/go-patterns) - Curated list of Go design patterns, recipes and idioms.
 - [goapp](https://github.com/bnkamalesh/goapp) - An opinionated guideline to structure & develop a Go web application/service.
