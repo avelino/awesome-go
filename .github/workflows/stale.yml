@@ -13,7 +13,7 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         stale-pr-message: >
-          This PR has been automatically marked as closed because it has not had
+          This PR has been automatically marked as stale because it has not had
           recent activity. They will wait 15 days for your interaction, after
           that the PR will be closed.
           Please read more in https://github.com/avelino/awesome-go/blob/master/CONTRIBUTING.md

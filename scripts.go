@@ -2,25 +2,24 @@ package main
 
 import (
 	"bytes"
-	"fmt"
+	"html/template"
 	"io/ioutil"
 	"os"
-	"text/template"
 
 	"github.com/PuerkitoBio/goquery"
-	"github.com/gomarkdown/markdown"
-	"github.com/gomarkdown/markdown/parser"
-	"github.com/russross/blackfriday"
+	"github.com/avelino/awesome-go/pkg/markdown"
 )
 
 func readme() []byte {
-	input, err := ioutil.ReadFile("./README.md")
+	input, err := os.ReadFile("./README.md")
 	if err != nil {
 		panic(err)
 	}
-	html := fmt.Sprintf("<body>%s</body>", blackfriday.MarkdownCommon(input))
-	htmlByteArray := []byte(html)
-	return htmlByteArray
+	html, err := markdown.ConvertMarkdownToHTML(input)
+	if err != nil {
+		panic(err)
+	}
+	return html
 }
 
 func startQuery() *goquery.Document {
@@ -33,7 +32,7 @@ func startQuery() *goquery.Document {
 }
 
 type content struct {
-	Body string
+	Body template.HTML
 }
 
 // GenerateHTML generate site html (index.html) from markdown file
@@ -43,11 +42,8 @@ func GenerateHTML() (err error) {
 	tplPath := "tmpl/tmpl.html"
 	idxPath := "tmpl/index.html"
 	input, _ := ioutil.ReadFile(readmePath)
-	extensions := parser.CommonExtensions | parser.AutoHeadingIDs | parser.LaxHTMLBlocks
-	parser := parser.NewWithExtensions(extensions)
-
-	body := string(markdown.ToHTML(input, parser, nil))
-	c := &content{Body: body}
+	body, _ := markdown.ConvertMarkdownToHTML(input)
+	c := &content{Body: template.HTML(body)}
 	t := template.Must(template.ParseFiles(tplPath))
 	f, err := os.Create(idxPath)
 	t.Execute(f, c)
