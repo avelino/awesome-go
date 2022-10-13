@@ -20,17 +20,11 @@ _Special thanks to_
 <table cellpadding="5">
 <tbody align="center">
 <tr>
-<td style="width:50%">
+<td colspan="2">
 <a href="https://bit.ly/awesome-go-doppler">
 <img src="https://avelino.run/sponsors/doppler-logo.png" width="200" alt="Doppler"><br/>
 <b>Quit struggling with scattered API keys and access controls.</b><br/>
 <sub>Keep your secrets in sync across environments, servers, and teams with Doppler.</sub>
-</a>
-</td>
-<td>
-<a href="https://bit.ly/awesome-go-xteam">
-<img src="https://avelino.run/sponsors/xteam-logo.png" width="200" alt="x-team"><br/>
-<b>Work from anywhere in the world with top tech companies like Riot Games, Coinbase, and Google.</b>
 </a>
 </td>
 </tr>
@@ -498,7 +492,7 @@ _Tools for help with continuous integration._
 - [goveralls](https://github.com/mattn/goveralls) - Go integration for Coveralls.io continuous code coverage tracking system.
 - [overalls](https://github.com/go-playground/overalls) - Multi-Package go project coverprofile for tools like goveralls.
 - [roveralls](https://github.com/LawrenceWoodman/roveralls) - Recursive coverage testing tool.
-- [woodpecker](https://github.com/woodpecker-ci/woodpecker) - Woodpecker is a community fork of the Drone CI system. 
+- [woodpecker](https://github.com/woodpecker-ci/woodpecker) - Woodpecker is a community fork of the Drone CI system.
 
 **[⬆ back to top](#contents)**
 
@@ -1205,6 +1199,7 @@ _Tools for managing and working with Goroutines._
 - [conexec](https://github.com/ITcathyh/conexec) - A concurrent toolkit to help execute funcs concurrently in an efficient and safe way. It supports specifying the overall timeout to avoid blocking and uses goroutine pool to improve efficiency.
 - [cyclicbarrier](https://github.com/marusama/cyclicbarrier) - CyclicBarrier for golang.
 - [execpool](https://github.com/hexdigest/execpool) - A pool built around exec.Cmd that spins up a given number of processes in advance and attaches stdin and stdout to them when needed. Very similar to FastCGI or Apache Prefork MPM but works for any command.
+- [go-actor](https://github.com/vladopajic/go-actor) - A tiny library for writing concurrent programs using actor model.
 - [go-floc](https://github.com/workanator/go-floc) - Orchestrate goroutines with ease.
 - [go-flow](https://github.com/kamildrazkiewicz/go-flow) - Control goroutines execution order.
 - [go-tools/multithreading](https://github.com/nikhilsaraf/go-tools) - Manage a pool of goroutines using this lightweight library with a simple API.
@@ -2237,7 +2232,7 @@ _Libraries for testing codebases and generating test data._
   - [gocheck](https://labix.org/gocheck) - More advanced testing framework alternative to gotest.
   - [GoConvey](https://github.com/smartystreets/goconvey/) - BDD-style framework with web UI and live reload.
   - [gocrest](https://github.com/corbym/gocrest) - Composable hamcrest-like matchers for Go assertions.
-  - [godog](https://github.com/DATA-DOG/godog) - Cucumber or Behat like BDD framework for Go.
+  - [godog](https://github.com/cucumber/godog) - Cucumber BDD framework for Go.
   - [gofight](https://github.com/appleboy/gofight) - API Handler Testing for Golang Router framework.
   - [gogiven](https://github.com/corbym/gogiven) - YATSPEC-like BDD testing framework for Go.
   - [gomatch](https://github.com/jfilipczyk/gomatch) - library created for testing JSON against patterns.
@@ -2645,6 +2640,7 @@ _General utilities and tools to make your life easier._
 - [retry](https://github.com/percolate/retry) - A simple but highly configurable retry package for Go.
 - [retry](https://github.com/thedevsaddam/retry) - Simple and easy retry mechanism package for Go.
 - [retry](https://github.com/shafreeck/retry) - A pretty simple library to ensure your work to be done.
+- [retry-go](https://github.com/avast/retry-go) - Simple library for retry mechanism.
 - [retry-go](https://github.com/rafaeljesus/retry-go) - Retrying made simple and easy for golang.
 - [robustly](https://github.com/VividCortex/robustly) - Runs functions resiliently, catching and restarting panics.
 - [rospo](https://github.com/ferama/rospo) - Simple and reliable ssh tunnels with embedded ssh server in Golang.
@@ -2719,11 +2715,11 @@ _Libraries for validation._
 
 _Libraries for version control._
 
+- [cli](https://gitlab.com/gitlab-org/cli) - An open-source GitLab command line tool bringing GitLab's cool features to your command line.
 - [froggit-go](https://github.com/jfrog/froggit-go) - Froggit-Go is a Go library, allowing to perform actions on VCS providers.
 - [gh](https://github.com/rjeczalik/gh) - Scriptable server and net/http middleware for GitHub Webhooks.
 - [git2go](https://github.com/libgit2/git2go) - Go bindings for libgit2.
 - [githooks](https://github.com/gabyx/githooks) - Per-repo and shared Git hooks with version control and auto update.
-- [glab](https://github.com/profclems/glab) - An open-source GitLab command line tool bringing GitLab's cool features to your command line.
 - [go-git](https://github.com/go-git/go-git) - highly extensible Git implementation in pure Go.
 - [go-vcs](https://github.com/sourcegraph/go-vcs) - manipulate and inspect VCS repositories in Go.
 - [hercules](https://github.com/src-d/hercules) - gaining advanced insights from Git repository history.
