@@ -3447,6 +3447,7 @@ _Where to discover new Go libraries._
 - [Programming with Google Go](https://www.coursera.org/specializations/google-golang) - Coursera Specialization to learn about Go from scratch.
 - [Saving a Third of Our Memory by Re-ordering Go Struct Fields](https://qvault.io/golang/struct-field-ordering-memory/) - How inefficient field ordering in Go structs.
 - [The world’s easiest introduction to WebAssembly with Golang](https://medium.com/@martinolsansky/webassembly-with-golang-is-fun-b243c0e34f02)
+- [W3basic Go Tutorials](https://www.w3basic.com/golang/) - W3Basic provides an in-depth tutorial and well-organized content to learn Golang programming.
 - [Working with Go](https://github.com/mkaz/working-with-go) - Intro to go for experienced programmers.
 - [Your basic Go](https://yourbasic.org/golang) - Huge collection of tutorials and how to's.
 
