@@ -2127,6 +2127,7 @@ _Libraries and tools for binary serialization._
 
 ## Server Applications
 
+- [mail-checker](https://github.com/gospacedev/mail-checker) - Mail Checker extracts a domain's email DMARC and SPF records.
 - [algernon](https://github.com/xyproto/algernon) - HTTP/2 web server with built-in support for Lua, Markdown, GCSS and Amber.
 - [Caddy](https://github.com/caddyserver/caddy) - Caddy is an alternative, HTTP/2 web server that's easy to configure and use.
 - [consul](https://www.consul.io/) - Consul is a tool for service discovery, monitoring and configuration.
