@@ -2533,6 +2533,7 @@ _General utilities and tools to make your life easier._
 - [dbt](https://github.com/nikogura/dbt) - A framework for running self-updating signed binaries from a central, trusted repository.
 - [Death](https://github.com/vrecan/death) - Managing go application shutdown with signals.
 - [Deepcopier](https://github.com/ulule/deepcopier) - Simple struct copying for Go.
+- [dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a Docker image.
 - [delve](https://github.com/derekparker/delve) - Go debugger.
 - [dlog](https://github.com/kirillDanshin/dlog) - Compile-time controlled logger to make your release smaller without removing debug calls.
 - [EaseProbe](https://github.com/megaease/easeprobe) - A simple, standalone, and lightWeight tool that can do health/status checking daemon, support HTTP/TCP/SSH/Shell/Client/... probes, and Slack/Discord/Telegram/SMS... notification.
