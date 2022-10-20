@@ -1855,6 +1855,7 @@ _Libraries for working with various layers of the network._
 - [panoptes-stream](https://github.com/yahoo/panoptes-stream) - A cloud native distributed streaming network telemetry (gNMI, Juniper JTI and Cisco MDT).
 - [peerdiscovery](https://github.com/schollz/peerdiscovery) - Pure Go library for cross-platform local peer discovery using UDP multicast.
 - [portproxy](https://github.com/aybabtme/portproxy) - Simple TCP proxy which adds CORS support to API's which don't support it.
+- [psql-wire](https://github.com/jeroenrinzema/psql-wire) - PostgreSQL server wire protocol.
 - [publicip](https://github.com/polera/publicip) - Package publicip returns your public facing IPv4 address (internet egress).
 - [quic-go](https://github.com/lucas-clemente/quic-go) - An implementation of the QUIC protocol in pure Go.
 - [raw](https://github.com/mdlayher/raw) - Package raw enables reading and writing data at the device driver level for a network interface.
