@@ -2094,6 +2094,7 @@ _Libraries that are used to help make your application more secure._
 - [ssh-vault](https://github.com/ssh-vault/ssh-vault) - encrypt/decrypt using ssh keys.
 - [sslmgr](https://github.com/adrianosela/sslmgr) - SSL certificates made easy with a high level wrapper around acme/autocert.
 - [themis](https://github.com/cossacklabs/themis) - high-level cryptographic library for solving typical data security tasks (secure data storage, secure messaging, zero-knowledge proof authentication), available for 14 languages, best fit for multi-platform apps.
+- [XMT](https://github.com/iDigitalFlame/XMT) - Offensive security framework that specializes in identification, task management and execution while providing out-of-the-box C2 support with many customization options.
 
 **[⬆ back to top](#contents)**
 
