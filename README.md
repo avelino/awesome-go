@@ -3220,6 +3220,7 @@ _Where to discover new Go libraries._
 - [100 Go Mistakes: How to Avoid Them](https://www.manning.com/books/100-go-mistakes-how-to-avoid-them)
 - [Build an Orchestrator in Go](https://www.manning.com/books/build-an-orchestrator-in-go)
 - [Continuous Delivery in Go](https://www.manning.com/books/continuous-delivery-in-go) - This practical guide to continuous delivery shows you how to rapidly establish an automated pipeline that will improve your testing, code quality, and final product.
+- [Effective Go: Elegant, efficient, and testable code](https://www.manning.com/books/effective-go) - Unlock Go’s unique perspective on program design, and start writing simple, maintainable, and testable Go code.
 - [For the Love of Go](https://bitfieldconsulting.com/books/love) - An introductory book for Go beginners.
 - [Know Go: Generics](https://bitfieldconsulting.com/books/generics) - A guide to understanding and using generics in Go.
 - [The Power of Go: Tests](https://bitfieldconsulting.com/books/tests) - A guide to testing in Go.
