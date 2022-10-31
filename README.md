@@ -3240,6 +3240,7 @@ _Where to discover new Go libraries._
 - [Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/)
 - [Building Web Apps With Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/)
 - [Go 101](https://go101.org) - A book focusing on Go syntax/semantics and all kinds of details.
+- [Go AST Book (Chinese)](https://github.com/chai2010/go-ast-book) - A book focusing on Go `go/*` packages.
 - [Go Bootcamp](http://golangbootcamp.com)
 - [Go Succinctly](https://github.com/thedevsir/gosuccinctly) - in Persian.
 - [GoBooks](https://github.com/dariubs/GoBooks) - A curated list of Go books.
