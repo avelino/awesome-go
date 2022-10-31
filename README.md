@@ -2707,6 +2707,7 @@ _Libraries for validation._
 - [validate](https://github.com/gobuffalo/validate) - This package provides a framework for writing validations for Go applications.
 - [validator](https://github.com/go-playground/validator) - Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving.
 - [Validator](https://github.com/go-the-way/validator) - A lightweight model validator written in Go.Contains VFs:Min, Max, MinLength, MaxLength, Length, Enum, Regex.
+- [valix](https://github.com/marrow16/valix) Go package for validating requests
 
 **[⬆ back to top](#contents)**
 
