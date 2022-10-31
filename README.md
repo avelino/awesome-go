@@ -1653,6 +1653,7 @@ _**Unofficial** set of patterns for structuring projects._
 _Libraries for working with strings._
 
 - [bexp](https://github.com/mkungla/bexp) - Go implementation of Brace Expansion mechanism to generate arbitrary strings.
+- [caps](https://github.com/chanced/caps) - A case conversion library.
 - [go-formatter](https://gitlab.com/tymonx/go-formatter) - Implements **replacement fields** surrounded by curly braces `{}` format strings.
 - [gobeam/Stringy](https://github.com/gobeam/Stringy) - String manipulation library to convert string to camel case, snake case, kebab case / slugify etc.
 - [strutil](https://github.com/ozgio/strutil) - String utilities.
