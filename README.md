@@ -2491,6 +2491,7 @@ _Libraries for accessing third party APIs._
 - [spotify](https://github.com/rapito/go-spotify) - Go Library to access Spotify WEB API.
 - [steam](https://github.com/sostronk/go-steam) - Go Library to interact with Steam game servers.
 - [stripe](https://github.com/stripe/stripe-go) - Go client for the Stripe API.
+- [swag](https://github.com/zc2638/swag) - No comments, simple go wrapper to create swagger 2.0 compatible APIs. Support most routing frameworks, such as built-in, gin, chi, mux, echo, httprouter, fasthttp and more.
 - [textbelt](https://github.com/dietsche/textbelt) - Go client for the textbelt.com txt messaging API.
 - [translate](https://github.com/poorny/translate) - Go online translation package.
 - [Trello](https://github.com/adlio/trello) - Go wrapper for the Trello API.
