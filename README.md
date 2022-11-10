@@ -1975,6 +1975,7 @@ _Unofficial libraries for package and dependency management._
 
 ## Performance
 
+- [go-instrument](https://github.com/nikolaydubina/go-instrument) - Automatically add spans to all methods and functions.
 - [jaeger](https://github.com/jaegertracing/jaeger) - A distributed tracing system.
 - [pixie](https://github.com/pixie-labs/pixie) - No instrumentation tracing for Golang applications via eBPF.
 - [profile](https://github.com/pkg/profile) - Simple profiling support package for Go.
