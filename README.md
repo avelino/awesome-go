@@ -744,6 +744,7 @@ _Libraries for building and using SQL._
 
 - [bqb](https://github.com/nullism/bqb) - Lightweight and easy to learn query builder.
 - [buildsqlx](https://github.com/arthurkushman/buildsqlx) - Go database query builder library for PostgreSQL.
+- [builq](https://github.com/cristalhq/builq) - Easily build SQL queries in Go.
 - [dbq](https://github.com/rocketlaunchr/dbq) - Zero boilerplate database operations for Go.
 - [Dotsql](https://github.com/gchaincl/dotsql) - Go library that helps you keep sql files in one place and use them with ease.
 - [gendry](https://github.com/didi/gendry) - Non-invasive SQL builder and powerful data binder.
