@@ -3431,6 +3431,7 @@ _Where to discover new Go libraries._
 - [Made with Golang](https://madewithgolang.com/?ref=awesome-go)
 - [r/Golang](https://www.reddit.com/r/golang) - News about Go.
 - [studygolang](https://studygolang.com) - The community of studygolang in China.
+- [The Guide to Go](hhttps://freecontent.manning.com/the-guide-to-go/) - An excerpt from Go in Action, Second Edition.
 - [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
 - [TutorialEdge - Golang](https://tutorialedge.net/course/golang/)
 
