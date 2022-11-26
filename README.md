@@ -1354,7 +1354,6 @@ _Libraries for manipulating images._
 - [mpo](https://github.com/donatj/mpo) - Decoder and conversion tool for MPO 3D Photos.
 - [picfit](https://github.com/thoas/picfit) - An image resizing server written in Go.
 - [pt](https://github.com/fogleman/pt) - Path tracing engine written in Go.
-- [resize](https://github.com/nfnt/resize) - Image resizing for Go with common interpolation methods.
 - [rez](https://github.com/bamiaux/rez) - Image resizing in pure Go and SIMD.
 - [scout](https://github.com/jonoton/scout) - Scout is a standalone open source software solution for DIY video security.
 - [smartcrop](https://github.com/muesli/smartcrop) - Finds good crops for arbitrary images and crop sizes.
