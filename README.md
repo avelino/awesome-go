@@ -1584,6 +1584,7 @@ _Libraries that implement messaging systems._
 - [RapidMQ](https://github.com/sybrexsys/RapidMQ) - RapidMQ is a lightweight and reliable library for managing of the local messages queue.
 - [Ratus](https://github.com/hyperonym/ratus) - Ratus is a RESTful asynchronous task queue server.
 - [redisqueue](https://github.com/robinjoseph08/redisqueue) - redisqueue provides a producer and consumer of a queue that uses Redis streams.
+- [redispubsub](https://github.com/covrom/redispubsub) - Redis Streams queue driver for [gocloud.dev/pubsub](https://godoc.org/gocloud.dev/pubsub) package
 - [rmqconn](https://github.com/sbabiv/rmqconn) - RabbitMQ Reconnection. Wrapper over amqp.Connection and amqp.Dial. Allowing to do a reconnection when the connection is broken before forcing the call to the Close () method to be closed.
 - [sarama](https://github.com/Shopify/sarama) - Go library for Apache Kafka.
 - [Uniqush-Push](https://github.com/uniqush/uniqush-push) - Redis backed unified push service for server-side notifications to mobile devices.
