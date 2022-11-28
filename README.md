@@ -3340,6 +3340,7 @@ _Where to discover new Go libraries._
 - [Golang Питер](https://www.meetup.com/Golang-Peter/)
 - [GoSF - San Francisco, CA](https://www.meetup.com/golangsf)
 - [Istanbul Golang](https://www.meetup.com/Istanbul-Golang/)
+- [Nairobi Gophers](https://www.meetup.com/nairobi-gophers/)
 - [Seattle Go Programmers](https://www.meetup.com/golang/)
 - [Ukrainian Golang User Groups](https://www.meetup.com/uagolang/)
 - [Utah Go User Group](https://www.meetup.com/utahgophers/)
