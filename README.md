@@ -654,6 +654,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 
 ### Databases Implemented in Go
 
+- [arnedb](https://github.com/mgulsoy/arnedb) - An embedded document (NoSql) database implemented in pure Go. 
 - [badger](https://github.com/dgraph-io/badger) - Fast key-value store in Go.
 - [bbolt](https://github.com/etcd-io/bbolt) - An embedded key/value database for Go.
 - [Bitcask](https://git.mills.io/prologic/bitcask) - Bitcask is an embeddable, persistent and fast key-value (KV) database written in pure Go with predictable read/write performance, low latency and high throughput thanks to the bitcask on-disk layout (LSM+WAL).
