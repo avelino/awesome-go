@@ -1388,33 +1388,33 @@ _Libraries for working with JSON._
 - [ajson](https://github.com/spyzhov/ajson) - Abstract JSON for golang with JSONPath support.
 - [ask](https://github.com/simonnilsson/ask) - Easy access to nested values in maps and slices. Works in combination with encoding/json and other packages that "Unmarshal" arbitrary data into Go data-types.
 - [dynjson](https://github.com/cocoonspace/dynjson) - Client-customizable JSON formats for dynamic APIs.
-- [ej](https://github.com/lucassscaravelli/ej) - Write and read JSON from different sources succinctly.
+- [ej](https://github.com/lucassscaravelli/ej) - :skull: (2020-04-07) Write and read JSON from different sources succinctly.
 - [epoch](https://github.com/vtopc/epoch) - Contains primitives for marshaling/unmarshaling Unix timestamp/epoch to/from build-in time.Time type in JSON.
 - [fastjson](https://github.com/valyala/fastjson) - Fast JSON parser and validator for Go. No custom structs, no code generation, no reflection.
-- [gjo](https://github.com/skanehira/gjo) - Small utility to create JSON objects.
+- [gjo](https://github.com/skanehira/gjo) - :skull: (2020-04-23) Small utility to create JSON objects.
 - [GJSON](https://github.com/tidwall/gjson) - Get a JSON value with one line of code.
-- [go-jsonerror](https://github.com/ddymko/go-jsonerror) - Go-JsonError is ment to allow us to easily create json response errors that follow the JsonApi spec.
+- [go-jsonerror](https://github.com/ddymko/go-jsonerror) - :skull: (2019-10-03) Go-JsonError is ment to allow us to easily create json response errors that follow the JsonApi spec.
 - [go-respond](https://github.com/nicklaw5/go-respond) - Go package for handling common HTTP JSON responses.
-- [gojq](https://github.com/elgs/gojq) - JSON query in Golang.
-- [gojson](https://github.com/ChimeraCoder/gojson) - Automatically generate Go (golang) struct definitions from example JSON.
-- [JayDiff](https://github.com/yazgazan/jaydiff) - JSON diff utility written in Go.
+- [gojq](https://github.com/elgs/gojq) - :skull: (2020-11-20) JSON query in Golang.
+- [gojson](https://github.com/ChimeraCoder/gojson) - :skull: (2018-08-19) Automatically generate Go (golang) struct definitions from example JSON.
+- [JayDiff](https://github.com/yazgazan/jaydiff) -  JSON diff utility written in Go.
 - [jettison](https://github.com/wI2L/jettison) - Fast and flexible JSON encoder for Go.
 - [jscan](https://github.com/romshark/jscan) - High performance zero-allocation JSON iterator.
 - [JSON-to-Go](https://mholt.github.io/json-to-go/) - Convert JSON to Go struct.
 - [JSON-to-Proto](https://json-to-proto.github.io/) - Convert JSON to Protobuf online.
 - [json2go](https://github.com/m-zajac/json2go) - Advanced JSON to Go struct conversion. Provides package that can parse multiple JSON documents and create struct to fit them all.
-- [jsonapi-errors](https://github.com/AmuzaTkts/jsonapi-errors) - Go bindings based on the JSON API errors reference.
+- [jsonapi-errors](https://github.com/AmuzaTkts/jsonapi-errors) - :skull: (2016-11-17) Go bindings based on the JSON API errors reference.
 - [jsoncolor](https://github.com/neilotoole/jsoncolor) - Drop-in replacement for `encoding/json` that outputs colorized JSON.
 - [jsondiff](https://github.com/wI2L/jsondiff) - JSON diff library for Go based on RFC6902 (JSON Patch).
-- [jsonf](https://github.com/miolini/jsonf) - Console tool for highlighted formatting and struct query fetching JSON.
-- [jsongo](https://github.com/ricardolonga/jsongo) - Fluent API to make it easier to create Json objects.
-- [jsonhal](https://github.com/RichardKnop/jsonhal) - Simple Go package to make custom structs marshal into HAL compatible JSON responses.
+- [jsonf](https://github.com/miolini/jsonf) - :skull: (2020-12-13) Console tool for highlighted formatting and struct query fetching JSON.
+- [jsongo](https://github.com/ricardolonga/jsongo) - :skull: (2016-12-15) Fluent API to make it easier to create Json objects.
+- [jsonhal](https://github.com/RichardKnop/jsonhal) - :skull: (2018-11-01) Simple Go package to make custom structs marshal into HAL compatible JSON responses.
 - [jsonic](https://github.com/sinhashubham95/jsonic) - Utilities to handle and query JSON without defining structs in a type safe manner.
 - [jzon](https://github.com/zerosnake0/jzon) - JSON library with standard compatible API/behavior.
 - [kazaam](https://github.com/Qntfy/kazaam) - API for arbitrary transformation of JSON documents.
 - [mapslice-json](https://github.com/mickep76/mapslice-json) - Go MapSlice for ordered marshal/ unmarshal of maps in JSON.
 - [marshmallow](https://github.com/PerimeterX/marshmallow) - Performant JSON unmarshaling for flexible use cases.
-- [mp](https://github.com/sanbornm/mp) - Simple cli email parser. It currently takes stdin and outputs JSON.
+- [mp](https://github.com/sanbornm/mp) - :skull: (2016-05-11) Simple cli email parser. It currently takes stdin and outputs JSON.
 - [OjG](https://github.com/ohler55/ojg) - Optimized JSON for Go is a high performance parser with a variety of additional JSON tools including JSONPath.
 - [omg.jsonparser](https://github.com/dedalqq/omg.jsonparser) - Simple JSON parser with validation by condition via golang struct fields tags.
 - [ujson](https://github.com/olvrng/ujson) - Fast and minimal JSON parser and transformer that works on unstructured JSON.
