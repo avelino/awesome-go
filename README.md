@@ -1245,6 +1245,7 @@ _Libraries for handling errors._
 - [metaerr](https://github.com/quantumcycle/metaerr) - A library to create your custom error builders producing structured errors with metadata from different sources and optional stacktraces.
 - [multierr](https://github.com/uber-go/multierr) - Package for representing a list of errors as a single error.
 - [oops](https://github.com/samber/oops) - Error handling with context, stack trace and source fragments.
+- [simplerr](https://github.com/lobocv/simplerr) - Highly customizable, full-featured, yet simple, errors that enable handling through error codes and middleware.
 - [tracerr](https://github.com/ztrue/tracerr) - Golang errors with stack trace and source fragments.
 
 **[⬆ back to top](#contents)**
