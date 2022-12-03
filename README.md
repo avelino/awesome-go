@@ -2888,6 +2888,7 @@ _Full stack web frameworks._
 - [go-canvas](https://github.com/markfarnan/go-canvas) - Library to use HTML5 Canvas, with all drawing within go code.
 - [tinygo](https://github.com/tinygo-org/tinygo) - Go compiler for small places. Microcontrollers, WebAssembly, and command-line tools. Based on LLVM.
 - [vert](https://github.com/norunners/vert) - Interop between Go and JS values.
+- [waggy](https://github.com/syke99/waggy) - Easily write WAGI (WebAssembly Gateway Interface) API routers/hanlders in Go
 - [wasmbrowsertest](https://github.com/agnivade/wasmbrowsertest) - Run Go WASM tests in your browser.
 - [webapi](https://github.com/gowebapi/webapi) - Bindings for DOM and HTML generated from WebIDL.
 
