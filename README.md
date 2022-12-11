@@ -1113,6 +1113,7 @@ _Packages to support functional programming in Go._
 
 _Awesome game development libraries._
 
+- [AbyssEngine](https://github.com/OpenDiablo2/AbyssEngine) - A 2D ARPG game engine.
 - [Azul3D](https://github.com/azul3d/engine) - 3D game engine written in Go.
 - [Ebitengine](https://github.com/hajimehoshi/ebiten) - dead simple 2D game engine in Go.
 - [engo](https://github.com/EngoEngine/engo) - Engo is an open-source 2D game engine written in Go. It follows the Entity-Component-System paradigm.
