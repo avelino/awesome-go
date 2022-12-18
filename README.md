@@ -634,7 +634,7 @@ additional ordered map implementations.
 _Data stores with expiring records, in-memory distributed data stores, or in-memory subsets of file-based databases._
 
 - [2q](https://github.com/floatdrop/2q) - 2Q in-memory cache implementation.
-- [bcache](https://github.com/iwanbk/bcache) - Eventually consistent distributed in-memory  cache Go library.
+- [bcache](https://github.com/iwanbk/bcache) - Eventually consistent distributed in-memory cache Go library.
 - [BigCache](https://github.com/allegro/bigcache) - Efficient key/value cache for gigabytes of data.
 - [cache](https://github.com/akyoto/cache) - In-memory key:value store with expiration time, 0 dependencies, <100 LoC, 100% coverage.
 - [cache2go](https://github.com/muesli/cache2go) - In-memory key:value cache which supports automatic invalidation based on timeouts.
@@ -680,7 +680,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [lotusdb](https://github.com/flower-corp/lotusdb) - Fast k/v database compatible with lsm and b+tree.
 - [Milvus](https://github.com/milvus-io/milvus) - Milvus is a vector database for embedding management, analytics and search.
 - [moss](https://github.com/couchbase/moss) - Moss is a simple LSM key-value storage engine written in 100% Go.
-- [nutsdb](https://github.com/xujiajun/nutsdb) - Nutsdb is a simple, fast, embeddable, persistent key/value store written in pure Go. It supports fully serializable transactions and many data structures such as  list, set, sorted set.
+- [nutsdb](https://github.com/xujiajun/nutsdb) - Nutsdb is a simple, fast, embeddable, persistent key/value store written in pure Go. It supports fully serializable transactions and many data structures such as list, set, sorted set.
 - [objectbox-go](https://github.com/objectbox/objectbox-go) - High-performance embedded Object Database (NoSQL) with Go API.
 - [piladb](https://github.com/fern4lvarez/piladb) - Lightweight RESTful database engine based on stack data structures.
 - [pogreb](https://github.com/akrylysov/pogreb) - Embedded key-value store for read-heavy workloads.
@@ -691,7 +691,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [tempdb](https://github.com/rafaeljesus/tempdb) - Key-value store for temporary items.
 - [tidb](https://github.com/pingcap/tidb) - TiDB is a distributed SQL database. Inspired by the design of Google F1.
 - [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
-- [unitdb](https://github.com/unit-io/unitdb) - Fast timeseries database for IoT, realtime messaging  applications. Access unitdb with pubsub over tcp or websocket using github.com/unit-io/unitd application.
+- [unitdb](https://github.com/unit-io/unitdb) - Fast timeseries database for IoT, realtime messaging applications. Access unitdb with pubsub over tcp or websocket using github.com/unit-io/unitd application.
 - [Vasto](https://github.com/chrislusf/vasto) - A distributed high-performance key-value store. On Disk. Eventual consistent. HA. Able to grow or shrink without service interruption.
 - [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) - fast, resource-effective and scalable open source time series database. May be used as long-term remote storage for Prometheus. Supports PromQL.
 
@@ -709,7 +709,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [goose](https://github.com/pressly/goose) - Database migration tool. You can manage your database's evolution by creating incremental SQL or Go scripts.
 - [gorm-seeder](https://github.com/Kachit/gorm-seeder) - Simple database seeder for Gorm ORM.
 - [gormigrate](https://github.com/go-gormigrate/gormigrate) - Database schema migration helper for Gorm ORM.
-- [libschema](https://github.com/muir/libschema) - Define your migrations separately in each library.  Migrations for open source libraries.  MySQL & PostgreSQL.
+- [libschema](https://github.com/muir/libschema) - Define your migrations separately in each library. Migrations for open source libraries. MySQL & PostgreSQL.
 - [migrate](https://github.com/golang-migrate/migrate) - Database migrations. CLI and Golang library.
 - [migrator](https://github.com/lopezator/migrator) - Dead simple Go database migration library.
 - [migrator](https://github.com/larapulse/migrator) - MySQL database migrator designed to run migrations to your features and manage database schema update with intuitive go code.
@@ -741,6 +741,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [vitess](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
 
 ### SQL Query Builders
+
 _Libraries for building and using SQL._
 
 - [bqb](https://github.com/nullism/bqb) - Lightweight and easy to learn query builder.
@@ -1039,7 +1040,7 @@ _Libraries for handling files and file systems._
 - [pathtype](https://github.com/jonchun/pathtype) - Treat paths as their own type instead of using strings.
 - [pdfcpu](https://github.com/pdfcpu/pdfcpu) - PDF processor.
 - [skywalker](https://github.com/dixonwille/skywalker) - Package to allow one to concurrently go through a filesystem with ease.
-- [stl](https://gitlab.com/russoj88/stl) - Modules to read and write STL (stereolithography) files.  Concurrent algorithm for reading.
+- [stl](https://gitlab.com/russoj88/stl) - Modules to read and write STL (stereolithography) files. Concurrent algorithm for reading.
 - [tarfs](https://github.com/posener/tarfs) - Implementation of the [`FileSystem` interface](https://godoc.org/github.com/kr/fs#FileSystem) for tar files.
 - [todotxt](https://github.com/1set/todotxt) - Go library for Gina Trapani's [_todo.txt_](http://todotxt.org/) files, supports parsing and manipulating of task lists in the [_todo.txt_ format](https://github.com/todotxt/todo.txt).
 - [vfs](https://github.com/C2FO/vfs) - A pluggable, extensible, and opinionated set of filesystem functionality for Go across a number of filesystem types such as os, S3, and GCS.
@@ -1473,7 +1474,7 @@ _Libraries for generating and working with log files._
 - [slf4g](https://github.com/echocat/slf4g) - Simple Logging Facade for Golang: Simple structured logging; but powerful, extendable and customizable, with huge amount of learnings from decades of past logging frameworks.
 - [slog](https://github.com/gookit/slog) - Lightweight, configurable, extensible logger for Go.
 - [spew](https://github.com/davecgh/go-spew) - Implements a deep pretty printer for Go data structures to aid in debugging.
-- [sqldb-logger](https://github.com/simukti/sqldb-logger) - A logger for Go SQL database driver without modify existing *sql.DB stdlib usage.
+- [sqldb-logger](https://github.com/simukti/sqldb-logger) - A logger for Go SQL database driver without modify existing \*sql.DB stdlib usage.
 - [stdlog](https://github.com/alexcesaro/log) - Stdlog is an object-oriented library providing leveled logging. It is very useful for cron jobs.
 - [structy/log](https://github.com/structy/log) - A simple to use log system, minimalist but with features for debugging and differentiation of messages.
 - [tail](https://github.com/hpcloud/tail) - Go package striving to emulate the features of the BSD tail program.
@@ -1779,7 +1780,7 @@ See also [Text Processing](#text-processing) and [Text Analysis](#text-analysis)
 - [MMSEGO](https://github.com/awsong/MMSEGO) - This is a GO implementation of [MMSEG](http://technology.chtsai.org/mmseg/) which a Chinese word splitting algorithm.
 - [prose](https://github.com/jdkato/prose) - Library for text processing that supports tokenization, part-of-speech tagging, named-entity extraction, and more. English only.
 - [segment](https://github.com/blevesearch/segment) - Go library for performing Unicode Text Segmentation as described in [Unicode Standard Annex #29](https://www.unicode.org/reports/tr29/)
-- [sentences](https://github.com/neurosnap/sentences) - Sentence tokenizer:  converts text into a list of sentences.
+- [sentences](https://github.com/neurosnap/sentences) - Sentence tokenizer: converts text into a list of sentences.
 - [shamoji](https://github.com/osamingo/shamoji) - The shamoji is word filtering package written in Go.
 - [stemmer](https://github.com/dchest/stemmer) - Stemmer packages for Go programming language. Includes English and German stemmers.
 - [textcat](https://github.com/pebbe/textcat) - Go package for n-gram based text categorization, with support for utf-8 and raw text.
@@ -2092,7 +2093,7 @@ _Libraries that are used to help make your application more secure._
 - [nacl](https://github.com/kevinburke/nacl) - Go implementation of the NaCL set of API's.
 - [optimus-go](https://github.com/pjebs/optimus-go) - ID hashing and Obfuscation using Knuth's Algorithm.
 - [passlib](https://github.com/hlandau/passlib) - Futureproof password hashing library.
-- [secret](https://github.com/rsjethani/secret) - Prevent your secrets from leaking into logs, std* etc.
+- [secret](https://github.com/rsjethani/secret) - Prevent your secrets from leaking into logs, std\* etc.
 - [secure](https://github.com/unrolled/secure) - HTTP middleware for Go that facilitates some quick security wins.
 - [secureio](https://github.com/xaionaro-go/secureio) - An keyexchanging+authenticating+encrypting wrapper and multiplexer for `io.ReadWriteCloser` based on XChaCha20-poly1305, ECDH and ED25519.
 - [simple-scrypt](https://github.com/elithrar/simple-scrypt) - Scrypt package with a simple, obvious API and automatic cost calibration built-in.
@@ -2204,6 +2205,7 @@ _Libraries and tools for templating and lexing._
 _Libraries for testing codebases and generating test data._
 
 - Testing Frameworks
+
   - [apitest](https://apitest.dev) - Simple and extensible behavioural testing library for REST based services or HTTP handlers that supports mocking external http calls and rendering of sequence diagrams.
   - [assert](https://github.com/go-playground/assert) - Basic Assertion Library used along side native go testing, with building blocks for custom assertions.
   - [badio](https://github.com/cavaliercoder/badio) - Extensions to Go's `testing/iotest` package.
@@ -2269,6 +2271,7 @@ _Libraries for testing codebases and generating test data._
   - [wstest](https://github.com/posener/wstest) - Websocket client for unit-testing a websocket http.Handler.
 
 - Mock
+
   - [counterfeiter](https://github.com/maxbrunsfeld/counterfeiter) - Tool for generating self-contained mock objects.
   - [genmock](https://gitlab.com/so_literate/genmock) - Go mocking system with code generator for building calls of the interface methods.
   - [go-localstack](https://github.com/elgohr/go-localstack) - Tool for using localstack in AWS testing.
@@ -2287,11 +2290,13 @@ _Libraries for testing codebases and generating test data._
   - [timex](https://github.com/cabify/timex) - A test-friendly replacement for the native `time` package.
 
 - Fuzzing and delta-debugging/reducing/shrinking.
+
   - [go-fuzz](https://github.com/dvyukov/go-fuzz) - Randomized testing system.
   - [gofuzz](https://github.com/google/gofuzz) - Library for populating go objects with random values.
   - [Tavor](https://github.com/zimmski/tavor) - Generic fuzzing and delta-debugging framework.
 
 - Selenium and browser control tools.
+
   - [cdp](https://github.com/mafredri/cdp) - Type-safe bindings for the Chrome Debugging Protocol that can be used with browsers or other debug targets that implement it.
   - [chromedp](https://github.com/knq/chromedp) - a way to drive/test Chrome, Safari, Edge, Android Webviews, and other browsers supporting the Chrome Debugging Protocol.
   - [ggr](https://github.com/aerokube/ggr) - a lightweight server that routes and proxies Selenium WebDriver requests to multiple Selenium hubs.
@@ -2620,7 +2625,7 @@ _General utilities and tools to make your life easier._
 - [minquery](https://github.com/icza/minquery) - MongoDB / mgo.v2 query that supports efficient pagination (cursors to continue listing documents where we left off).
 - [moldova](https://github.com/StabbyCutyou/moldova) - Utility for generating random data based on an input template.
 - [mole](https://github.com/davrodpin/mole) - cli app to easily create ssh tunnels.
-- [mongo-go-pagination](https://github.com/gobeam/mongo-go-pagination) - Mongodb Pagination for official mongodb/mongo-go-driver package which supports  both normal queries and Aggregation pipelines.
+- [mongo-go-pagination](https://github.com/gobeam/mongo-go-pagination) - Mongodb Pagination for official mongodb/mongo-go-driver package which supports both normal queries and Aggregation pipelines.
 - [mssqlx](https://github.com/linxGnu/mssqlx) - Database client library, proxy for any master slave, master master structures. Lightweight and auto balancing in mind.
 - [multitick](https://github.com/VividCortex/multitick) - Multiplexor for aligned tickers.
 - [myhttp](https://github.com/inancgumus/myhttp) - Simple API to make HTTP GET requests with timeout support.
@@ -2712,7 +2717,6 @@ _Libraries for validation._
 - [govalidator](https://github.com/thedevsaddam/govalidator) - Validate Golang request data with simple rules. Highly inspired by Laravel's request validation.
 - [jio](https://github.com/faceair/jio) - jio is a json schema validator similar to [joi](https://github.com/hapijs/joi).
 - [ozzo-validation](https://github.com/go-ozzo/ozzo-validation) - Supports validation of various data types (structs, strings, maps, slices, etc.) with configurable and extensible validation rules specified in usual code constructs instead of struct tags.
-- [terraform-validator](https://github.com/thazelart/terraform-validator) - A norms and conventions validator for Terraform.
 - [validate](https://github.com/gookit/validate) - Go package for data validation and filtering. support validate Map, Struct, Request(Form, JSON, url.Values, Uploaded Files) data and more features.
 - [validate](https://github.com/gobuffalo/validate) - This package provides a framework for writing validations for Go applications.
 - [validator](https://github.com/go-playground/validator) - Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving.
@@ -3346,7 +3350,7 @@ _Where to discover new Go libraries._
 - [Utah Go User Group](https://www.meetup.com/utahgophers/)
 - [Women Who Go - San Francisco, CA](https://www.meetup.com/Women-Who-Go/)
 
-*Add the group of your city/country here (send **PR**)*
+_Add the group of your city/country here (send **PR**)_
 
 **[⬆ back to top](#contents)**
 
@@ -3415,7 +3419,7 @@ _Where to discover new Go libraries._
 - [Gophercises](https://gophercises.com/) - Free coding exercises for budding gophers.
 - [gowalker.org](https://gowalker.org) - Go Project API documentation.
 - [json2go](https://m-zajac.github.io/json2go) - Advanced JSON to Go struct conversion - online tool.
-- [justforfunc](https://www.youtube.com/c/justforfunc) - Youtube channel dedicated to Go programming language tips and tricks, hosted by  Francesc Campoy [@francesc](https://twitter.com/francesc).
+- [justforfunc](https://www.youtube.com/c/justforfunc) - Youtube channel dedicated to Go programming language tips and tricks, hosted by Francesc Campoy [@francesc](https://twitter.com/francesc).
 - [Learn Go Programming](https://blog.learngoprogramming.com) - Learn Go concepts with illustrations.
 - [Made with Golang](https://madewithgolang.com/?ref=awesome-go)
 - [r/Golang](https://www.reddit.com/r/golang) - News about Go.
