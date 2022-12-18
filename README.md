@@ -399,6 +399,7 @@ _Libraries for building standard or basic Command Line applications._
 - [go-flags](https://github.com/jessevdk/go-flags) - go command line option parser.
 - [go-getoptions](https://github.com/DavidGamba/go-getoptions) - Go option parser inspired by the flexibility of Perl’s GetOpt::Long.
 - [gocmd](https://github.com/devfacet/gocmd) - Go library for building command line applications.
+- [golang-cli-template](https://github.com/thazelart/golang-cli-template) - An opinionated template for new Golang cli projects.
 - [hiboot cli](https://github.com/hidevopsio/hiboot/tree/master/pkg/app/cli) - cli application framework with auto configuration and dependency injection.
 - [job](https://github.com/liujianping/job) - JOB, make your short-term command as a long-term job.
 - [kingpin](https://github.com/alecthomas/kingpin) - Command line and flag parser supporting sub commands (superseded by `kong`; see below).
