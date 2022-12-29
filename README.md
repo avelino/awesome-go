@@ -521,6 +521,7 @@ _Libraries for preprocessing CSS files._
 
 ### Bit Sets
 
+- [asciiset](https://github.com/elliotwutingfeng/asciiset) - ASCII character bitset.
 - [bitmap](https://github.com/kelindar/bitmap) - Dense, zero-allocation, SIMD-enabled bitmap/bitset in Go.
 - [bitset](https://github.com/bits-and-blooms/bitset) - Go package implementing bitsets.
 
