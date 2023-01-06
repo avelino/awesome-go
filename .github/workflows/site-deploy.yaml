@@ -5,6 +5,9 @@ on:
     branches:
       - 'main'
 
+permissions:
+  contents: read  #  to fetch code (actions/checkout)
+
 jobs:
   build:
     name: Make and Deploy site
@@ -12,7 +15,7 @@ jobs:
     environment: netlify
     container: golang:latest
     steps:
-    - uses: actions/checkout@1.0.0
+    - uses: actions/checkout@v3
     - name: Get dependencies
       run: go get -v -t -d ./...
     - name: Make awesome-go.com
