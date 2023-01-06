@@ -3236,6 +3236,7 @@ _Where to discover new Go libraries._
 * [GoBooks](https://github.com/dariubs/GoBooks) - A curated list of Go books.
 * [gRPC Microservices in Go](https://www.manning.com/books/grpc-microservices-in-go) - Book abot how to build fast and secure gRPC-based microservices using Go.
 * [How To Code in Go eBook](https://www.digitalocean.com/community/books/how-to-code-in-go-ebook) - A 600 page introduction to Go aimed at first time developers.
+* [Learn Go with Pocket-Sized Projects](https://www.manning.com/books/learn-go-with-pocket-sized-projects) - Learn Go by building handy tools and fun apps.
 * [Learning Go](https://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
 * [Network Programming With Go](https://jan.newmarch.name/go/)
 * [Practical Go Lessons](https://www.practical-go-lessons.com/)
