@@ -412,6 +412,7 @@ _Libraries for building standard or basic Command Line applications._
 - [sflags](https://github.com/octago/sflags) - Struct based flags generator for flag, urfave/cli, pflag, cobra, kingpin, and other libraries.
 - [strumt](https://github.com/antham/strumt) - Library to create prompt chain.
 - [subcmd](https://github.com/bobg/subcmd) - Another approach to parsing and running subcommands. Works alongside the standard `flag` package.
+- [survey](https://github.com/go-survey/survey) - Build interactive and accessible prompts with full support for windows and posix terminals.
 - [ts](https://github.com/liujianping/ts) - Timestamp convert & compare tool.
 - [ukautz/clif](https://github.com/ukautz/clif) - Small command line interface framework.
 - [urfave/cli](https://github.com/urfave/cli) - Simple, fast, and fun package for building command line apps in Go (formerly codegangsta/cli).
