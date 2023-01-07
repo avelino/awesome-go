@@ -3118,6 +3118,7 @@ _Software written in Go._
 
 - [Better Go Playground](https://goplay.tools) - Go playground with syntax highlight, code completion and other features.
 - [blocky](https://github.com/0xERR0R/blocky) - Fast and lightweight DNS proxy as ad-blocker for local network with many features.
+- [Bonzai](https://github.com/rwxrob/bonzai) Bonzai - It's like a modular, multicall BusyBox builder for Go with built in completion and embedded documentation support.
 - [borg](https://github.com/crufter/borg) - Terminal based search engine for bash snippets.
 - [boxed](https://github.com/tejo/boxed) - Dropbox based blog engine.
 - [Cherry](https://github.com/rafael-santiago/cherry) - Tiny webchat server in Go.
