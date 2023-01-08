@@ -2652,6 +2652,7 @@ _General utilities and tools to make your life easier._
 - [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
 - [rerun](https://github.com/ivpusic/rerun) - Recompiling and rerunning go apps when source changes.
 - [rest-go](https://github.com/edermanoel94/rest-go) - A package that provide many helpful methods for working with rest api.
+- [retrool](https://github.com/makssof/retrool) - Simple tool to repeat (or retry) some actions after some time for GoLang.
 - [retry](https://github.com/kamilsk/retry) - The most advanced functional mechanism to perform actions repetitively until successful.
 - [retry](https://github.com/percolate/retry) - A simple but highly configurable retry package for Go.
 - [retry](https://github.com/thedevsaddam/retry) - Simple and easy retry mechanism package for Go.
