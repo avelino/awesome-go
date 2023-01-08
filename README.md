@@ -392,6 +392,7 @@ _Libraries for building standard or basic Command Line applications._
 - [env](https://github.com/codingconcepts/env) - Tag-based environment configuration for structs.
 - [flag](https://github.com/cosiner/flag) - Simple but powerful command line option parsing library for Go supporting subcommand.
 - [flaggy](https://github.com/integrii/flaggy) - A robust and idiomatic flags package with excellent subcommand support.
+- [flags](https://github.com/reeflective/flags) - Generate cobra command trees from structs. Go-flags compliant tags. Advanced related CLI functionality.
 - [flagvar](https://github.com/sgreben/flagvar) - A collection of flag argument types for Go's standard `flag` package.
 - [go-andotp](https://github.com/grijul/go-andotp) - A CLI program to encrypt/decrypt [andOTP](https://github.com/andOTP/andOTP) files. Can be used as a library as well.
 - [go-arg](https://github.com/alexflint/go-arg) - Struct-based argument parsing in Go.
