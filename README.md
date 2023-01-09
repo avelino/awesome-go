@@ -1633,6 +1633,7 @@ _Libraries for working with dependency injection._
 - [linker](https://github.com/logrange/linker) - A reflection based dependency injection and inversion of control library with components lifecycle support.
 - [nject](https://github.com/muir/nject) - A type safe, reflective framework for libraries, tests, http endpoints, and service startup.
 - [wire](https://github.com/Fs02/wire) - Strict Runtime Dependency Injection for Golang.
+- [service](https://github.com/lab210-dev/service) - This package provides a simple way to manage services in a Go application. It allows you to register and retrieve services using Go interfaces.
 
 **[⬆ back to top](#contents)**
 
