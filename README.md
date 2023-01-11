@@ -379,6 +379,7 @@ _Libraries for building standard or basic Command Line applications._
 - [carapace-spec](https://github.com/rsteube/carapace-spec) - Define simple completions using a spec file.
 - [cli](https://github.com/mkideal/cli) - Feature-rich and easy to use command-line package based on golang struct tags.
 - [cli](https://github.com/teris-io/cli) - Simple and complete API for building command line interfaces in Go.
+- [clifr](https://github.com/avamsi/clifr) - Clifr automagically creates multilevel CLIs (using [Cobra](https://github.com/spf13/cobra)) from Go structs (similar to --and, inspired by-- [python-fire](https://github.com/google/python-fire)).
 - [climax](https://github.com/tucnak/climax) - Alternative CLI with "human face", in spirit of Go command.
 - [clîr](https://github.com/leaanthony/clir) - A Simple and Clear CLI library. Dependency free.
 - [cmd](https://github.com/posener/cmd) - Extends the standard `flag` package to support sub commands and more in idiomatic way.
