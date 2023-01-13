@@ -1886,6 +1886,7 @@ _Libraries for working with various layers of the network._
 
 _Libraries for making HTTP requests._
 
+- [chttp](https://github.com/spyzhov/chttp) - Golang HTTP client wrapper with the middleware layer.
 - [gentleman](https://github.com/h2non/gentleman) - Full-featured plugin-driven HTTP client library.
 - [go-cleanhttp](https://github.com/hashicorp/go-cleanhttp) - Get easily stdlib HTTP client, which does not share any state with other clients.
 - [go-http-client](https://github.com/bozd4g/go-http-client) - Make http calls simply and easily.
