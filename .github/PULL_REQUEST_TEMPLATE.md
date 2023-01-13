@@ -5,7 +5,7 @@
 - repo link (github.com, gitlab.com, etc):
 - pkg.go.dev:
 - goreportcard.com:
-- coverage service link ([codecov](https://codecov.io/), [coveralls](https://coveralls.io/), [gocover](http://gocover.io/) etc.):
+- coverage service link ([codecov](https://codecov.io/), [coveralls](https://coveralls.io/), etc.):
 
 **Note**: _that new categories can be added only when there are 3 packages or more._
 
