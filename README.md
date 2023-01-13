@@ -2944,7 +2944,6 @@ _Source code analysis tools, also known as Static Application Security Testing (
 - [go-mod-outdated](https://github.com/psampaz/go-mod-outdated) - An easy way to find outdated dependencies of your Go projects.
 - [go-outdated](https://github.com/firstrow/go-outdated) - Console application that displays outdated packages.
 - [goast-viewer](https://github.com/yuroyoro/goast-viewer) - Web based Golang AST visualizer.
-- [GoCover.io](https://gocover.io/) - GoCover.io offers the code coverage of any golang package as a service.
 - [goimports](https://godoc.org/golang.org/x/tools/cmd/goimports) - Tool to fix (add, remove) your Go imports automatically.
 - [golang-ifood-sdk](https://github.com/arxdsilva/golang-ifood-sdk) - iFood API SDK.
 - [golines](https://github.com/segmentio/golines) - Formatter that automatically shortens long lines in Go code.
