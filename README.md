@@ -1027,6 +1027,7 @@ _Libraries for handling files and file systems._
 - [checksum](https://github.com/codingsince1985/checksum) - Compute message digest, like MD5, SHA256, SHA1, CRC or BLAKE2s, for large files.
 - [copy](https://github.com/otiai10/copy) - Copy directory recursively.
 - [flop](https://github.com/homedepot/flop) - File operations library which aims to mirror feature parity with [GNU cp](https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html).
+- [fsdd](https://github.com/paepckehh/fsdd) - File System Data Deduplication, inode based (all unix fs), manages and deduplicate your gomod cache. 
 - [gdu](https://github.com/dundee/gdu) - Disk usage analyzer with console interface.
 - [go-csv-tag](https://github.com/artonge/go-csv-tag) - Load csv file using tag.
 - [go-decent-copy](https://github.com/hugocarreira/go-decent-copy) - Copy files for humans.
