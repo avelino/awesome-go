@@ -1704,7 +1704,7 @@ _These libraries were placed here because none of the other categories seemed to
 - [gosms](https://github.com/haxpax/gosms) - Your own local SMS gateway in Go that can be used to send SMS.
 - [gotoprom](https://github.com/cabify/gotoprom) - Type-safe metrics builder wrapper library for the official Prometheus client.
 - [gountries](https://github.com/pariz/gountries) - Package that exposes country and subdivision data.
-- [gtree](https://github.com/ddddddO/gtree) - Provide CLI and Package for tree output and directories creation from Markdown or programmatically.
+- [gtree](https://github.com/ddddddO/gtree) - Provide CLI, Package and Web for tree output and directories creation from Markdown or programmatically.
 - [health](https://github.com/alexliesenfeld/health) - A simple and flexible health check library for Go.
 - [health](https://github.com/dimiro1/health) - Easy to use, extensible health check library.
 - [healthcheck](https://github.com/etherlabsio/healthcheck) - An opinionated and concurrent health-check HTTP handler for RESTful services.
