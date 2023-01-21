@@ -160,17 +160,17 @@ func testRepoState(toRun bool, href string, client *http.Client, staleRepos *[]s
 		}
 		defer resp.Body.Close()
 		json.NewDecoder(resp.Body).Decode(&repoResp)
-		if resp.StatusCode == 301 {
+		if resp.StatusCode == http.StatusMovedPermanently {
 			*staleRepos = append(*staleRepos, href+movedPermanently)
-			log.Printf("%s returned 301", href)
+			log.Printf("%s returned %d", href, resp.StatusCode)
 			isRepoAdded = true
 		}
-		if resp.StatusCode == 302 && !isRepoAdded {
+		if resp.StatusCode == http.StatusFound && !isRepoAdded {
 			*staleRepos = append(*staleRepos, href+status302)
-			log.Printf("%s returned 302", href)
+			log.Printf("%s returned %d", href, resp.StatusCode)
 			isRepoAdded = true
 		}
-		if resp.StatusCode >= 400 && !isRepoAdded {
+		if resp.StatusCode >= http.StatusBadRequest && !isRepoAdded {
 			*staleRepos = append(*staleRepos, href+deadLinkMessage)
 			log.Printf("%s might not exist!", href)
 			isRepoAdded = true

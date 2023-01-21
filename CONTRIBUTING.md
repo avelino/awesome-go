@@ -5,7 +5,7 @@ We appreciate and recognize [all contributors](https://github.com/avelino/awesom
 
 > Please be aware that we want to accept your contribution, but we have **some rules to keep the minimum quality** 
 of the packages listed here. All reviews are **not personal feedback**, 
-even if you are a _developer reviewing your contribution_. **Sorry if we can't meet your expectations, we do our best**.
+even if you are a _developer reviewing your contribution_. **Sorry if we can't meet your expectations; we do our best**.
 
 - **To add, remove, or change things on the list:** Submit a pull request
 
@@ -16,7 +16,7 @@ Please contribute links to packages/projects you have used or are familiar with.
 
 ## Quality standards
 
-To be on the list, project repositories should adhere to the following quality standards 
+To be on the list, project repositories should adhere to the following quality standards. 
 (https://goreportcard.com/report/github.com/ **github_user** / **github_repo**):
 
 - have an **open source license**, [see list of allowed licenses](https://opensource.org/licenses/alphabetical);
@@ -26,9 +26,9 @@ To be on the list, project repositories should adhere to the following quality s
   - regular, recent commits;
   - or, for finished projects, issues and pull requests are responded to generally within 2 weeks;
 - be stable or progressing toward stable;
-- be thoroughly documented (README, pkg.go.dev doc comments, etc.) in the english language, so everyone is able to understand the project's intention and how it works. All public functions and types should have a Go style documentation header;
-- if the library/program is testable, then coverage should be >= 80% for non-data-related packages and >=90% for data related packages. (**Note**: the tests will be reviewed too. We will check your coverage manually if your package's coverage is just a benchmark results);
-- have at least one official version-numbered release that allows go.mod files to list the file by version number, of the form vX.X.X.
+- be thoroughly documented (README, pkg.go.dev doc comments, etc.) in the English language, so everyone is able to understand the project's intention and how it works. All public functions and types should have a Go-style documentation header;
+- if the library/program is testable, then coverage should be >= 80% for non-data-related packages and >=90% for data-related packages. (**Note**: the tests will be reviewed too. We will check your coverage manually if your package's coverage is just a benchmark result);
+- have at least one official version-numbered release that allows go.mod files to list the file by version number of the form vX.X.X.
 
 Categories must have at least 3 items.
 
@@ -54,8 +54,8 @@ Open a pull request against the README.md document that adds the repository to t
 - The added item should be in alphabetical order within its category.
 - The link should be the name of the package or project.
 - Descriptions should be clear, concise, and non-promotional.
-- Descriptions should follow the link, on the same line and end with a punctuation mark.
-- Remember to put a period `.` at end of the project description.
+- Descriptions should follow the link on the same line and end with a punctuation mark.
+- Remember to put a period `.` at the end of the project description.
 
 If you are creating a new category, move the projects that apply to the new category, ensuring
 that the resulting list has at least 3 projects in every category and that the categories are alphabetized.
@@ -75,36 +75,36 @@ You are an awesome project now! Feel encouraged to tell others about it by addin
 ## Maintenance expectations for projects listed here
 
 To prevent removal from awesome-go, your project must maintain the following quality standards.
-- Development should be on-going and maintain code quality. Official releases should be at least once a year if the project is ongoing.
+- Development should be ongoing and maintain code quality. Official releases should be at least once a year if the project is ongoing.
 - Or, if development has halted because the project is mature and stable, that can be demonstrated by having no bug reports in the Issues list that are older than 6 months.
 - All links to quality reports should be to the most recent official release or current ongoing development.
 
 Highly recommended but not required:
 - A continuous integration process be part of the ongoing development process
-- That the project uses a pull-request process and the owners do not commit directly to the repository
+- That the project uses a pull-request process, and the owners do not commit directly to the repository
 - That the pull-request process requires the continuous-integration tests pass before a pull request can be merged
 
 ## How to remove an item from the list
 
 - Open a pull request that deletes the line of the project in question.
 - Delete the submission template and substitute a description of which criteria the project is not meeting. It should be a combination of the following.
-  - The project has not made an official release within the last year and it has open issues.
+  - The project has not made an official release within the last year and has open issues.
   - The project is not responding to bug reports issued within 6 months of submission.
   - The project is not meeting quality standards as indicated by the Go Report Card or Code Coverage tests.
   - The quality standard links have been removed from the documentation.
   - The project is no longer open-sourced.
-  - The project is not compatible with any Go version issued within the last year (there is hopefully an open PR about this at the project).
+  - The project is incompatible with any Go version issued within the last year (there is hopefully an open PR about this at the project).
 
-If the project is hosted on Github, include a link to the project's submitter and/or author so
+If the project is hosted on GitHub, include a link to the project's submitter and/or author so
 that they will be notified of the desire to remove the project and have an opportunity to respond.
 The link should be of the form @githubID.
 
-If the project is not hosted on Github, open an issue at the project in question's repository linking to the PR 
+If the project is not hosted on GitHub, open an issue at the project in question's repository linking to the PR 
 and stating the following:
 
 >This project is currently listed at awesome-go at https://github.com/avelino/awesome-go. 
 However, it appears that the project is not maintaining the quality standards required to continue to be listed at the awesome-go project.
-This project is schedule to be removed within 2 weeks of this posting. To continue to be listed at awesome-go, please respond at:
+This project is scheduled to be removed within 2 weeks of this posting. To continue to be listed at awesome-go, please respond at:
   -- link to above PR --
   
 Then, comment on your PR at awesome-go with a link to the removal issue at the project.
@@ -124,7 +124,7 @@ Please open an issue if you would like to discuss anything that could be improve
 
 Removal changes will not be applied until they have been pending for a minimum of 1 week (7 days). This grace window benefits projects that may be going through a temporary transition but are otherwise worthy of being on the list.
 
-Thanks everyone!
+Thanks, everyone!
 
 ## How decision are made
 

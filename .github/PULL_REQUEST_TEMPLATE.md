@@ -5,12 +5,12 @@
 - repo link (github.com, gitlab.com, etc):
 - pkg.go.dev:
 - goreportcard.com:
-- coverage service link ([codecov](https://codecov.io/), [coveralls](https://coveralls.io/), [gocover](http://gocover.io/) etc.):
+- coverage service link ([codecov](https://codecov.io/), [coveralls](https://coveralls.io/), etc.):
 
 **Note**: _that new categories can be added only when there are 3 packages or more._
 
 **Make sure that you've checked the boxes below that apply before you submit PR.**
-_Not every repository (project) will require every option, but most projects should. Check the Contribution Guidelines for detials._
+_Not every repository (project) will require every option, but most projects should. Check the Contribution Guidelines for details._
 
 - [ ] The package has been added to the list in alphabetical order.
 - [ ] The package has an appropriate description with correct grammar.
