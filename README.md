@@ -545,6 +545,7 @@ _Libraries for preprocessing CSS files._
 
 ### Iterators
 
+- [chain](https://github.com/lostinsoba/chain) - Lower and Upper Bounds Generator.
 - [goterator](https://github.com/yaa110/goterator) - Iterator implementation to provide map and reduce functionalities.
 - [iter](https://github.com/disksing/iter) - Go implementation of C++ STL iterators and algorithms.
 
