@@ -319,6 +319,7 @@ _Libraries and tools help with build automation._
 - [realize](https://github.com/tockins/realize) - Go build a system with file watchers and live to reload. Run, build and watch file changes with custom paths.
 - [Task](https://github.com/go-task/task) - simple "Make" alternative.
 - [taskctl](https://github.com/taskctl/taskctl) - Concurrent task runner.
+- [xc](https://github.com/joerdav/xc) - Task runner with README.md defined tasks, executable markdown.
 
 **[⬆ back to top](#contents)**
 
