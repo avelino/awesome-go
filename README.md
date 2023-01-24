@@ -82,7 +82,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
   - [Configuration](#configuration)
   - [Continuous Integration](#continuous-integration)
   - [CSS Preprocessors](#css-preprocessors)
-  - [Data Integration](#data-integration)
+  - [Data Integration Frameworks](#data-integration-frameworks)
   - [Data Structures and Algorithms](#data-structures-and-algorithms)
     - [Bit-packing and Compression](#bit-packing-and-compression)
     - [Bit Sets](#bit-sets)
