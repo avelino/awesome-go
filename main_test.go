@@ -69,6 +69,7 @@ func TestSeparator(t *testing.T) {
 		}
 	}
 }
+
 func TestGenerateHTML(t *testing.T) {
 	err := GenerateHTML(readmePath, outIndexFile)
 	if err != nil {

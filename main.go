@@ -3,6 +3,7 @@ package main
 import (
 	"bytes"
 	"fmt"
+	cp "github.com/otiai10/copy"
 	"os"
 	"path/filepath"
 	"strings"
@@ -27,15 +28,21 @@ type Object struct {
 
 // Source
 const readmePath = "README.md"
+const assetsDir = "tmpl/assets"
 
 // Templates
+const tplPath = "tmpl/tmpl.html"
 const tmplCategory = "tmpl/cat-tmpl.html"
 const tmplSitemap = "tmpl/sitemap-tmpl.xml"
 
 // Output
+
+// NOTE: trailing slash is required
 const outDir = "out/"
-const outIndexFile = "index.html"
-const outSitemapFile = "sitemap.xml"
+
+var outAssetsDir = filepath.Join(outDir, "assets")
+var outIndexFile = filepath.Join(outDir, "index.html")
+var outSitemapFile = filepath.Join(outDir, "sitemap.xml")
 
 func main() {
 	outIndexAbs := filepath.Join(outDir, outIndexFile)
@@ -44,7 +51,7 @@ func main() {
 		panic(err)
 	}
 
-	input, err := os.ReadFile(outIndexAbs)
+	input, err := os.ReadFile(outIndexFile)
 	if err != nil {
 		panic(err)
 	}
@@ -77,6 +84,10 @@ func main() {
 	changeLinksInIndex(string(input), query, objs)
 
 	makeSitemap(objs)
+
+	if err := cp.Copy(assetsDir, outAssetsDir); err != nil {
+		panic(err)
+	}
 }
 
 func mkdirAll(path string) error {
@@ -101,15 +112,15 @@ func mkdirAll(path string) error {
 
 func makeSiteStruct(objs map[string]*Object) error {
 	for _, obj := range objs {
-		outDir := filepath.Join(outDir, obj.Slug)
-		if err := mkdirAll(outDir); err != nil {
+		categoryDir := filepath.Join(outDir, obj.Slug)
+		if err := mkdirAll(categoryDir); err != nil {
 			return err
 		}
 
 		// FIXME: embed templates
 		// FIXME: parse templates once at start
 		t := template.Must(template.ParseFiles(tmplCategory))
-		f, err := os.Create(filepath.Join(outDir, "index.html"))
+		f, err := os.Create(filepath.Join(categoryDir, "index.html"))
 		if err != nil {
 			return err
 		}
@@ -124,7 +135,7 @@ func makeSiteStruct(objs map[string]*Object) error {
 
 func makeSitemap(objs map[string]*Object) {
 	t := template.Must(template.ParseFiles(tmplSitemap))
-	f, _ := os.Create(filepath.Join(outDir, outSitemapFile))
+	f, _ := os.Create(outSitemapFile)
 	t.Execute(f, objs)
 }
 
@@ -176,5 +187,5 @@ func changeLinksInIndex(html string, query *goquery.Document, objs map[string]*O
 		}
 	})
 
-	os.WriteFile(filepath.Join(outDir, outIndexFile), []byte(html), 0644)
+	os.WriteFile(outIndexFile, []byte(html), 0644)
 }
