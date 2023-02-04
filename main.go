@@ -3,8 +3,8 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"log"
 	"os"
+	"path/filepath"
 	"strings"
 	"text/template"
 
@@ -25,15 +25,30 @@ type Object struct {
 	Items       []Link
 }
 
+// Source
+const readmePath = "README.md"
+
+// Templates
+const tmplCategory = "tmpl/cat-tmpl.html"
+const tmplSitemap = "tmpl/sitemap-tmpl.xml"
+
+// Output
+const outDir = "out/"
+const outIndexFile = "index.html"
+const outSitemapFile = "sitemap.xml"
+
 func main() {
-	err := GenerateHTML()
+	outIndexAbs := filepath.Join(outDir, outIndexFile)
+	err := GenerateHTML(readmePath, outIndexAbs)
 	if err != nil {
 		panic(err)
 	}
-	input, err := os.ReadFile("./tmpl/index.html")
+
+	input, err := os.ReadFile(outIndexAbs)
 	if err != nil {
 		panic(err)
 	}
+
 	buf := bytes.NewBuffer(input)
 	query, err := goquery.NewDocumentFromReader(buf)
 	if err != nil {
@@ -55,29 +70,61 @@ func main() {
 		})
 	})
 
-	makeSiteStruct(objs)
+	if err := makeSiteStruct(objs); err != nil {
+		// FIXME: remove all panics
+		panic(err)
+	}
 	changeLinksInIndex(string(input), query, objs)
 
 	makeSitemap(objs)
 }
 
-func makeSiteStruct(objs map[string]*Object) {
+func mkdirAll(path string) error {
+	_, err := os.Stat(path)
+	// NOTE: directory is exists
+	if err == nil {
+		return nil
+	}
+
+	// NOTE: unknown error
+	if !os.IsNotExist(err) {
+		return err
+	}
+
+	// NOTE: directory is not exists
+	if err := os.MkdirAll(path, 0o755); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func makeSiteStruct(objs map[string]*Object) error {
 	for _, obj := range objs {
-		folder := fmt.Sprintf("tmpl/%s", obj.Slug)
-		err := os.Mkdir(folder, 0755)
-		if err != nil {
-			log.Println(err)
+		outDir := filepath.Join(outDir, obj.Slug)
+		if err := mkdirAll(outDir); err != nil {
+			return err
 		}
 
-		t := template.Must(template.ParseFiles("tmpl/cat-tmpl.html"))
-		f, _ := os.Create(fmt.Sprintf("%s/index.html", folder))
-		t.Execute(f, obj)
+		// FIXME: embed templates
+		// FIXME: parse templates once at start
+		t := template.Must(template.ParseFiles(tmplCategory))
+		f, err := os.Create(filepath.Join(outDir, "index.html"))
+		if err != nil {
+			return err
+		}
+
+		if err := t.Execute(f, obj); err != nil {
+			return err
+		}
 	}
+
+	return nil
 }
 
 func makeSitemap(objs map[string]*Object) {
-	t := template.Must(template.ParseFiles("tmpl/sitemap-tmpl.xml"))
-	f, _ := os.Create("tmpl/sitemap.xml")
+	t := template.Must(template.ParseFiles(tmplSitemap))
+	f, _ := os.Create(filepath.Join(outDir, outSitemapFile))
 	t.Execute(f, objs)
 }
 
@@ -129,5 +176,5 @@ func changeLinksInIndex(html string, query *goquery.Document, objs map[string]*O
 		}
 	})
 
-	os.WriteFile("./tmpl/index.html", []byte(html), 0644)
+	os.WriteFile(filepath.Join(outDir, outIndexFile), []byte(html), 0644)
 }
