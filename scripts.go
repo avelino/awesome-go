@@ -36,16 +36,30 @@ type content struct {
 }
 
 // GenerateHTML generate site html (index.html) from markdown file
-func GenerateHTML() (err error) {
+func GenerateHTML(srcFilename, outFilename string) error {
 	// options
-	readmePath := "./README.md"
-	tplPath := "tmpl/tmpl.html"
-	idxPath := "tmpl/index.html"
-	input, _ := ioutil.ReadFile(readmePath)
-	body, _ := markdown.ConvertMarkdownToHTML(input)
+	const tplPath = "tmpl/tmpl.html"
+
+	input, err := ioutil.ReadFile(srcFilename)
+	if err != nil {
+		return err
+	}
+
+	body, err := markdown.ConvertMarkdownToHTML(input)
+	if err != nil {
+		return err
+	}
+
 	c := &content{Body: template.HTML(body)}
 	t := template.Must(template.ParseFiles(tplPath))
-	f, err := os.Create(idxPath)
-	t.Execute(f, c)
-	return
+	f, err := os.Create(outFilename)
+	if err != nil {
+		return err
+	}
+
+	if err := t.Execute(f, c); err != nil {
+		return err
+	}
+
+	return nil
 }
