@@ -45,8 +45,18 @@ var outIndexFile = filepath.Join(outDir, "index.html")
 var outSitemapFile = filepath.Join(outDir, "sitemap.xml")
 
 func main() {
-	outIndexAbs := filepath.Join(outDir, outIndexFile)
-	err := GenerateHTML(readmePath, outIndexAbs)
+	// Cleanup and re-create output directory
+	{
+		if err := os.RemoveAll(outDir); err != nil {
+			panic(err)
+		}
+
+		if err := mkdirAll(outDir); err != nil {
+			panic(err)
+		}
+	}
+
+	err := GenerateHTML(readmePath, outIndexFile)
 	if err != nil {
 		panic(err)
 	}
