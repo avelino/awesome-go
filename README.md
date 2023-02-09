@@ -1117,6 +1117,7 @@ _Packages to support functional programming in Go._
 _Awesome game development libraries._
 
 - [Azul3D](https://github.com/azul3d/engine) - 3D game engine written in Go.
+- [due](https://github.com/dobyte/due) - A lightweight distributed game server framework written in Go language
 - [Ebitengine](https://github.com/hajimehoshi/ebiten) - dead simple 2D game engine in Go.
 - [engo](https://github.com/EngoEngine/engo) - Engo is an open-source 2D game engine written in Go. It follows the Entity-Component-System paradigm.
 - [fantasyname](https://github.com/s0rg/fantasyname) - Fantasy names generator.
