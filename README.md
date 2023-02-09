@@ -1135,6 +1135,7 @@ _Awesome game development libraries._
 - [raylib-go](https://github.com/gen2brain/raylib-go) - Go bindings for [raylib](https://www.raylib.com/), a simple and easy-to-use library to learn videogames programming.
 - [termloop](https://github.com/JoelOtter/termloop) - Terminal-based game engine for Go, built on top of Termbox.
 - [tile](https://github.com/kelindar/tile) - Data-oriented and cache-friendly 2D Grid library (TileMap), includes pathfinding, observers and import/export.
+- [due](https://github.com/dobyte/due) - A lightweight distributed game server framework developed based on Go language.
 
 **[⬆ back to top](#contents)**
 
