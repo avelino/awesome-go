@@ -571,6 +571,7 @@ additional ordered map implementations.
 - [go-tuple](https://github.com/barweiss/go-tuple) - Generic tuple implementation for Go 1.18+.
 - [go18ds](https://github.com/daichi-m/go18ds) - Go Data Structures using Go 1.18 generics.
 - [gofal](https://github.com/xxjwxc/gofal) - fractional api for Go.
+- [gogu](https://github.com/esimov/gogu) - A comprehensive, reusable and efficient concurrent-safe generics utility functions and data structures library.
 - [gota](https://github.com/kniren/gota) - Implementation of dataframes, series, and data wrangling methods for Go.
 - [hide](https://github.com/emvi/hide) - ID type with marshalling to/from hash to prevent sending IDs to clients.
 - [hilbert](https://github.com/google/hilbert) - Go package for mapping values to and from space-filling curves, such as Hilbert and Peano curves.
