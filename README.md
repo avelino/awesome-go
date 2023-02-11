@@ -1318,6 +1318,7 @@ _Libraries for manipulating images._
 - [gocv](https://github.com/hybridgroup/gocv) - Go package for computer vision using OpenCV 3.3+.
 - [goimagehash](https://github.com/corona10/goimagehash) - Go Perceptual image hashing package.
 - [goimghdr](https://github.com/corona10/goimghdr) - The imghdr module determines the type of image contained in a file for Go.
+- [gomp](https://github.com/esimov/gomp) - Alpha compositing operations and blending modes in Go.
 - [govatar](https://github.com/o1egl/govatar) - Library and CMD tool for generating funny avatars.
 - [govips](https://github.com/davidbyttow/govips) - A lightning fast image processing and resizing library for Go.
 - [gowitness](https://github.com/sensepost/gowitness) - Screenshoting webpages using go and headless chrome on command line.
