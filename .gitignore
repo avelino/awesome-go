@@ -1,6 +1,5 @@
 out/
 awesome-go
-vendor
 
 # Folders
 .idea
