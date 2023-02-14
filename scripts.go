@@ -15,7 +15,7 @@ func readme() []byte {
 	if err != nil {
 		panic(err)
 	}
-	html, err := markdown.ConvertMarkdownToHTML(input)
+	html, err := markdown.ToHTML(input)
 	if err != nil {
 		panic(err)
 	}
@@ -42,7 +42,7 @@ func GenerateHTML(srcFilename, outFilename string) error {
 		return err
 	}
 
-	body, err := markdown.ConvertMarkdownToHTML(input)
+	body, err := markdown.ToHTML(input)
 	if err != nil {
 		return err
 	}

@@ -12,8 +12,8 @@ import (
 	"github.com/yuin/goldmark/util"
 )
 
-// ConvertMarkdownToHTML converts markdown byte slice to a HTML byte slice
-func ConvertMarkdownToHTML(markdown []byte) ([]byte, error) {
+// ToHTML converts markdown byte slice to a HTML byte slice
+func ToHTML(markdown []byte) ([]byte, error) {
 	md := goldmark.New(
 		goldmark.WithExtensions(extension.GFM),
 		goldmark.WithParserOptions(
