@@ -20,7 +20,6 @@ type Link struct {
 	Description string
 }
 
-// FIXME: rename to Category
 type Category struct {
 	Title       string
 	Slug        string
