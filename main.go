@@ -104,7 +104,10 @@ func renderAll() error {
 		// FIXME: remove all panics
 		return fmt.Errorf("unable to render categories: %w", err)
 	}
-	changeLinksInIndex(string(input), query, objs)
+
+	if err := rewriteLinksInIndex(query, objs); err != nil {
+		return fmt.Errorf("unable to rewrite links in index: %w", err)
+	}
 
 	makeSitemap(objs)
 
@@ -216,7 +219,7 @@ func makeObjByID(selector string, s *goquery.Selection) (*Object, error) {
 	return &obj, nil
 }
 
-func changeLinksInIndex(html string, query *goquery.Document, objs map[string]Object) {
+func rewriteLinksInIndex(query *goquery.Document, objs map[string]Object) error {
 	query.Find("body #content ul li ul li a").Each(func(_ int, s *goquery.Selection) {
 		href, hrefExists := s.Attr("href")
 		if !hrefExists {
@@ -234,15 +237,19 @@ func changeLinksInIndex(html string, query *goquery.Document, objs map[string]Ob
 		// FIXME: parse url
 		uri := strings.SplitAfter(href, "#")
 		if len(uri) >= 2 && uri[1] != "contents" {
-			// FIXME: use s.SetAttr
-			html = strings.ReplaceAll(
-				html,
-				fmt.Sprintf(`href="%s"`, href),
-				fmt.Sprintf(`href="%s"`, uri[1]),
-			)
+			s.SetAttr("href", uri[1])
 		}
 	})
 
 	fmt.Printf("Rewrite links in Index file: %s\n", outIndexFile)
-	_ = os.WriteFile(outIndexFile, []byte(html), 0644)
+	resultHtml, err := query.Html()
+	if err != nil {
+		return fmt.Errorf("unable to render html: %w", err)
+	}
+
+	if err := os.WriteFile(outIndexFile, []byte(resultHtml), 0644); err != nil {
+		return fmt.Errorf("unable to rewrite index file: %w", err)
+	}
+
+	return nil
 }
