@@ -75,7 +75,7 @@ func main() {
 		panic(err)
 	}
 
-	objs := make(map[string]*Object)
+	objs := make(map[string]Object)
 	query.Find("body #contents").NextFiltered("ul").Find("ul").Each(func(_ int, s *goquery.Selection) {
 		s.Find("li a").Each(func(_ int, s *goquery.Selection) {
 			selector, exists := s.Attr("href")
@@ -86,7 +86,7 @@ func main() {
 			if obj == nil {
 				return
 			}
-			objs[selector] = obj
+			objs[selector] = *obj
 		})
 	})
 
@@ -127,7 +127,7 @@ func mkdirAll(path string) error {
 	return nil
 }
 
-func makeSiteStruct(objs map[string]*Object) error {
+func makeSiteStruct(objs map[string]Object) error {
 	for _, obj := range objs {
 		categoryDir := filepath.Join(outDir, obj.Slug)
 		if err := mkdirAll(categoryDir); err != nil {
@@ -152,7 +152,7 @@ func makeSiteStruct(objs map[string]*Object) error {
 	return nil
 }
 
-func makeSitemap(objs map[string]*Object) {
+func makeSitemap(objs map[string]Object) {
 	// FIXME: handle error
 	f, _ := os.Create(outSitemapFile)
 	fmt.Printf("Render Sitemap to: %s\n", outSitemapFile)
@@ -188,7 +188,7 @@ func makeObjByID(selector string, s *goquery.Selection) (obj *Object) {
 	return
 }
 
-func changeLinksInIndex(html string, query *goquery.Document, objs map[string]*Object) {
+func changeLinksInIndex(html string, query *goquery.Document, objs map[string]Object) {
 	query.Find("body #content ul li ul li a").Each(func(_ int, s *goquery.Selection) {
 		href, hrefExists := s.Attr("href")
 		if !hrefExists {
