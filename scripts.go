@@ -8,10 +8,6 @@ import (
 	"github.com/avelino/awesome-go/pkg/markdown"
 )
 
-type content struct {
-	Body template.HTML
-}
-
 // ConvertAndRenderIndex generate site html (index.html) from markdown file
 func ConvertAndRenderIndex(srcFilename, outFilename string) error {
 	input, err := os.ReadFile(srcFilename)
@@ -24,14 +20,16 @@ func ConvertAndRenderIndex(srcFilename, outFilename string) error {
 		return err
 	}
 
-	c := &content{Body: template.HTML(body)}
 	f, err := os.Create(outFilename)
 	if err != nil {
 		return err
 	}
 
 	fmt.Printf("Write Index file: %s\n", outIndexFile)
-	if err := tplIndex.Execute(f, c); err != nil {
+	data := map[string]interface{}{
+		"Body": template.HTML(body),
+	}
+	if err := tplIndex.Execute(f, data); err != nil {
 		return err
 	}
 
