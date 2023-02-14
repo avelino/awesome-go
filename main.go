@@ -50,30 +50,37 @@ var outIndexFile = filepath.Join(outDir, "index.html")
 var outSitemapFile = filepath.Join(outDir, "sitemap.xml")
 
 func main() {
+	if err := renderAll(); err != nil {
+		panic(err)
+	}
+}
+
+// FIXME: choose a better name
+func renderAll() error {
 	// Cleanup and re-create output directory
 	{
 		if err := os.RemoveAll(outDir); err != nil {
-			panic(err)
+			return fmt.Errorf("unable to remove target dir: %w", err)
 		}
 
 		if err := mkdirAll(outDir); err != nil {
-			panic(err)
+			return fmt.Errorf("unable to create target dir: %w", err)
 		}
 	}
 
 	err := ConvertAndRenderIndex(readmePath, outIndexFile)
 	if err != nil {
-		panic(err)
+		return fmt.Errorf("unable to convert markdown to html: %w", err)
 	}
 
 	input, err := os.ReadFile(outIndexFile)
 	if err != nil {
-		panic(err)
+		return fmt.Errorf("unable to read converted html: %w", err)
 	}
 
 	query, err := goquery.NewDocumentFromReader(bytes.NewReader(input))
 	if err != nil {
-		panic(err)
+		return fmt.Errorf("unable to create goquery instance: %w", err)
 	}
 
 	objs := make(map[string]Object)
@@ -83,6 +90,7 @@ func main() {
 			if !exists {
 				return
 			}
+
 			obj, err := makeObjByID(selector, query.Find("body"))
 			if err != nil {
 				return
@@ -94,7 +102,7 @@ func main() {
 
 	if err := makeSiteStruct(objs); err != nil {
 		// FIXME: remove all panics
-		panic(err)
+		return fmt.Errorf("unable to render categories: %w", err)
 	}
 	changeLinksInIndex(string(input), query, objs)
 
@@ -104,9 +112,11 @@ func main() {
 		dstFilename := filepath.Join(outDir, filepath.Base(srcFilename))
 		fmt.Printf("Copy static file: %s -> %s\n", srcFilename, dstFilename)
 		if err := cp.Copy(srcFilename, dstFilename); err != nil {
-			panic(err)
+			return fmt.Errorf("unable to copy static file `%s` to `%s`: %w", srcFilename, dstFilename, err)
 		}
 	}
+
+	return nil
 }
 
 func mkdirAll(path string) error {
