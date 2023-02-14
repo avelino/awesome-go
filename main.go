@@ -26,25 +26,23 @@ type Object struct {
 	Items       []Link
 }
 
-// Source
+// Source files
 const readmePath = "README.md"
 
-// NOTE: this files should be copied as is to outDir directory
+// This files should be copied 'as is' to outDir directory
 var staticFiles = []string{
 	"tmpl/assets",
 	"tmpl/_redirects",
 	"tmpl/robots.txt",
 }
 
-// Templates
+// Template files
 const tplPath = "tmpl/tmpl.html"
 const tmplCategory = "tmpl/cat-tmpl.html"
 const tmplSitemap = "tmpl/sitemap-tmpl.xml"
 
-// Output
-
-// NOTE: trailing slash is required
-const outDir = "out/"
+// Output files
+const outDir = "out/" // NOTE: trailing slash is required
 
 var outIndexFile = filepath.Join(outDir, "index.html")
 var outSitemapFile = filepath.Join(outDir, "sitemap.xml")
