@@ -8,8 +8,8 @@ import (
 	"github.com/avelino/awesome-go/pkg/markdown"
 )
 
-// convertAndRenderIndex generate site html (index.html) from markdown file
-func convertAndRenderIndex(srcFilename, outFilename string) error {
+// renderIndex generate site html (index.html) from markdown file
+func renderIndex(srcFilename, outFilename string) error {
 	input, err := os.ReadFile(srcFilename)
 	if err != nil {
 		return err
