@@ -101,7 +101,6 @@ func renderAll() error {
 	})
 
 	if err := renderCategories(objs); err != nil {
-		// FIXME: remove all panics
 		return fmt.Errorf("unable to render categories: %w", err)
 	}
 
