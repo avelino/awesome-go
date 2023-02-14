@@ -68,7 +68,7 @@ func renderAll() error {
 		}
 	}
 
-	err := ConvertAndRenderIndex(readmePath, outIndexFile)
+	err := convertAndRenderIndex(readmePath, outIndexFile)
 	if err != nil {
 		return fmt.Errorf("unable to convert markdown to html: %w", err)
 	}

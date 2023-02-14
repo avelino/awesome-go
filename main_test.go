@@ -94,7 +94,7 @@ func TestSeparator(t *testing.T) {
 }
 
 func TestConvertAndRenderIndex(t *testing.T) {
-	err := ConvertAndRenderIndex(readmePath, outIndexFile)
+	err := convertAndRenderIndex(readmePath, outIndexFile)
 	if err != nil {
 		t.Errorf("html generate error '%s'", err.Error())
 	}
