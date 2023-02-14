@@ -79,33 +79,39 @@ func renderAll() error {
 		return fmt.Errorf("unable to read converted html: %w", err)
 	}
 
-	query, err := goquery.NewDocumentFromReader(bytes.NewReader(input))
+	doc, err := goquery.NewDocumentFromReader(bytes.NewReader(input))
 	if err != nil {
 		return fmt.Errorf("unable to create goquery instance: %w", err)
 	}
 
 	objs := make(map[string]Object)
-	query.Find("body #contents").NextFiltered("ul").Find("ul").Each(func(_ int, s *goquery.Selection) {
-		s.Find("li a").Each(func(_ int, s *goquery.Selection) {
-			selector, exists := s.Attr("href")
-			if !exists {
-				return
-			}
+	doc.
+		Find("body #contents").
+		NextFiltered("ul").
+		Find("ul").
+		Each(func(_ int, selUl *goquery.Selection) {
+			selUl.
+				Find("li a").
+				Each(func(_ int, s *goquery.Selection) {
+					selector, exists := s.Attr("href")
+					if !exists {
+						return
+					}
 
-			obj, err := makeObjByID(selector, query.Find("body"))
-			if err != nil {
-				return
-			}
+					obj, err := makeObjByID(selector, doc)
+					if err != nil {
+						return
+					}
 
-			objs[selector] = *obj
+					objs[selector] = *obj
+				})
 		})
-	})
 
 	if err := renderCategories(objs); err != nil {
 		return fmt.Errorf("unable to render categories: %w", err)
 	}
 
-	if err := rewriteLinksInIndex(query, objs); err != nil {
+	if err := rewriteLinksInIndex(doc, objs); err != nil {
 		return fmt.Errorf("unable to rewrite links in index: %w", err)
 	}
 
@@ -200,11 +206,11 @@ func renderSitemap(objs map[string]Object) error {
 	return nil
 }
 
-func makeObjByID(selector string, s *goquery.Selection) (*Object, error) {
+func makeObjByID(selector string, doc *goquery.Document) (*Object, error) {
 	var obj Object
 	var err error
 
-	s.Find(selector).Each(func(_ int, selCatHeader *goquery.Selection) {
+	doc.Find(selector).Each(func(_ int, selCatHeader *goquery.Selection) {
 		selDescr := selCatHeader.NextFiltered("p")
 		// FIXME: bug. this would select links from all neighboring
 		//   sub-categories until the next category. To prevent this we should
@@ -243,30 +249,32 @@ func makeObjByID(selector string, s *goquery.Selection) (*Object, error) {
 	return &obj, nil
 }
 
-func rewriteLinksInIndex(query *goquery.Document, objs map[string]Object) error {
-	query.Find("body #content ul li ul li a").Each(func(_ int, s *goquery.Selection) {
-		href, hrefExists := s.Attr("href")
-		if !hrefExists {
-			// FIXME: looks like is an error. Tag `a` in our case always
-			//   	  should have `href` attr.
-			return
-		}
+func rewriteLinksInIndex(doc *goquery.Document, objs map[string]Object) error {
+	doc.
+		Find("body #content ul li ul li a").
+		Each(func(_ int, s *goquery.Selection) {
+			href, hrefExists := s.Attr("href")
+			if !hrefExists {
+				// FIXME: looks like is an error. Tag `a` in our case always
+				//   	  should have `href` attr.
+				return
+			}
 
-		// do not replace links if no page has been created for it
-		_, objExists := objs[href]
-		if !objExists {
-			return
-		}
+			// do not replace links if no page has been created for it
+			_, objExists := objs[href]
+			if !objExists {
+				return
+			}
 
-		// FIXME: parse url
-		uri := strings.SplitAfter(href, "#")
-		if len(uri) >= 2 && uri[1] != "contents" {
-			s.SetAttr("href", uri[1])
-		}
-	})
+			// FIXME: parse url
+			uri := strings.SplitAfter(href, "#")
+			if len(uri) >= 2 && uri[1] != "contents" {
+				s.SetAttr("href", uri[1])
+			}
+		})
 
 	fmt.Printf("Rewrite links in Index file: %s\n", outIndexFile)
-	resultHtml, err := query.Html()
+	resultHtml, err := doc.Html()
 	if err != nil {
 		return fmt.Errorf("unable to render html: %w", err)
 	}
