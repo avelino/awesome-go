@@ -139,13 +139,12 @@ func mkdirAll(path string) error {
 
 	// NOTE: unknown error
 	if !os.IsNotExist(err) {
-		return err
+		return fmt.Errorf("unexpected result of dir stat: %w", err)
 	}
 
 	// NOTE: directory is not exists
-	// FIXME: fix rights
-	if err := os.MkdirAll(path, 0o755); err != nil {
-		return err
+	if err := os.MkdirAll(path, 0755); err != nil {
+		return fmt.Errorf("unable to midirAll: %w", err)
 	}
 
 	return nil
@@ -155,7 +154,7 @@ func renderCategories(objs map[string]Object) error {
 	for _, obj := range objs {
 		categoryDir := filepath.Join(outDir, obj.Slug)
 		if err := mkdirAll(categoryDir); err != nil {
-			return err
+			return fmt.Errorf("unable to create category dir `%s`: %w", categoryDir, err)
 		}
 
 		// FIXME: embed templates
@@ -165,7 +164,7 @@ func renderCategories(objs map[string]Object) error {
 
 		buf := bytes.NewBuffer(nil)
 		if err := tplCategoryIndex.Execute(buf, obj); err != nil {
-			return err
+			return fmt.Errorf("unable to render category `%s`: %w", categoryDir, err)
 		}
 
 		// Sanitize HTML. This is not necessary, but allows to have content
@@ -173,16 +172,17 @@ func renderCategories(objs map[string]Object) error {
 		{
 			query, err := goquery.NewDocumentFromReader(buf)
 			if err != nil {
-				return err
+				// FIXME: remove `unable to` from all fmt.Errorf
+				return fmt.Errorf("unable to create goquery instance for `%s`: %w", categoryDir, err)
 			}
 
 			html, err := query.Html()
 			if err != nil {
-				return err
+				return fmt.Errorf("unable to render goquery html for `%s`: %w", categoryDir, err)
 			}
 
 			if err := os.WriteFile(categoryIndexFilename, []byte(html), 0644); err != nil {
-				return err
+				return fmt.Errorf("unable to write category file `%s`: %w", categoryDir, err)
 			}
 		}
 	}
