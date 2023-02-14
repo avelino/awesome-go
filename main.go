@@ -153,15 +153,29 @@ func renderCategories(objs map[string]Object) error {
 		// FIXME: embed templates
 		// FIXME: parse templates once at start
 		categoryIndexFilename := filepath.Join(categoryDir, "index.html")
-		f, err := os.Create(categoryIndexFilename)
-		if err != nil {
+		fmt.Printf("Write category Index file: %s\n", categoryIndexFilename)
+
+		buf := bytes.NewBuffer(nil)
+		if err := tplCategoryIndex.Execute(buf, obj); err != nil {
 			return err
 		}
 
-		fmt.Printf("Write category Index file: %s\n", categoryIndexFilename)
+		// Sanitize HTML. This is not necessary, but allows to have content
+		// of all html files in same style.
+		{
+			query, err := goquery.NewDocumentFromReader(buf)
+			if err != nil {
+				return err
+			}
 
-		if err := tplCategoryIndex.Execute(f, obj); err != nil {
-			return err
+			html, err := query.Html()
+			if err != nil {
+				return err
+			}
+
+			if err := os.WriteFile(categoryIndexFilename, []byte(html), 0644); err != nil {
+				return err
+			}
 		}
 	}
 
