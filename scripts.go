@@ -3,7 +3,6 @@ package main
 import (
 	"bytes"
 	"html/template"
-	"io/ioutil"
 	"os"
 
 	"github.com/PuerkitoBio/goquery"
@@ -11,7 +10,7 @@ import (
 )
 
 func readme() []byte {
-	input, err := os.ReadFile("./README.md")
+	input, err := os.ReadFile(readmePath)
 	if err != nil {
 		panic(err)
 	}
@@ -37,7 +36,7 @@ type content struct {
 
 // GenerateHTML generate site html (index.html) from markdown file
 func GenerateHTML(srcFilename, outFilename string) error {
-	input, err := ioutil.ReadFile(srcFilename)
+	input, err := os.ReadFile(srcFilename)
 	if err != nil {
 		return err
 	}
