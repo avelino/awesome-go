@@ -122,6 +122,7 @@ func mkdirAll(path string) error {
 	}
 
 	// NOTE: directory is not exists
+	// FIXME: fix rights
 	if err := os.MkdirAll(path, 0o755); err != nil {
 		return err
 	}
