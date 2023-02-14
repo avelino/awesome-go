@@ -100,7 +100,7 @@ func renderAll() error {
 		})
 	})
 
-	if err := makeSiteStruct(objs); err != nil {
+	if err := renderCategories(objs); err != nil {
 		// FIXME: remove all panics
 		return fmt.Errorf("unable to render categories: %w", err)
 	}
@@ -143,7 +143,7 @@ func mkdirAll(path string) error {
 	return nil
 }
 
-func makeSiteStruct(objs map[string]Object) error {
+func renderCategories(objs map[string]Object) error {
 	for _, obj := range objs {
 		categoryDir := filepath.Join(outDir, obj.Slug)
 		if err := mkdirAll(categoryDir); err != nil {
