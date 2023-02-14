@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"errors"
 	"fmt"
 	cp "github.com/otiai10/copy"
 	"os"
@@ -82,10 +83,11 @@ func main() {
 			if !exists {
 				return
 			}
-			obj := makeObjByID(selector, query.Find("body"))
-			if obj == nil {
+			obj, err := makeObjByID(selector, query.Find("body"))
+			if err != nil {
 				return
 			}
+
 			objs[selector] = *obj
 		})
 	})
@@ -160,12 +162,15 @@ func makeSitemap(objs map[string]Object) {
 	_ = tplSitemap.Execute(f, objs)
 }
 
-func makeObjByID(selector string, s *goquery.Selection) (obj *Object) {
+func makeObjByID(selector string, s *goquery.Selection) (*Object, error) {
+	var obj Object
+	var err error
+
 	s.Find(selector).Each(func(_ int, s *goquery.Selection) {
 		desc := s.NextFiltered("p")
 		ul := s.NextFilteredUntil("ul", "h2")
 
-		links := []Link{}
+		var links []Link
 		ul.Find("li").Each(func(_ int, s *goquery.Selection) {
 			url, _ := s.Find("a").Attr("href")
 			link := Link{
@@ -175,17 +180,24 @@ func makeObjByID(selector string, s *goquery.Selection) (obj *Object) {
 			}
 			links = append(links, link)
 		})
+		// FIXME: In this case we would have an empty category in main index.html with link to 404 page.
 		if len(links) == 0 {
+			err = errors.New("object has no links")
 			return
 		}
-		obj = &Object{
+		obj = Object{
 			Slug:        slug.Generate(s.Text()),
 			Title:       s.Text(),
 			Description: desc.Text(),
 			Items:       links,
 		}
 	})
-	return
+
+	if err != nil {
+		return nil, fmt.Errorf("unable to build an object: %w", err)
+	}
+
+	return &obj, nil
 }
 
 func changeLinksInIndex(html string, query *goquery.Document, objs map[string]Object) {
