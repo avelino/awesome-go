@@ -62,8 +62,7 @@ func renderAll() error {
 		return fmt.Errorf("unable to drop-create out dir: %w", err)
 	}
 
-	err := renderIndex(readmePath, outIndexFile)
-	if err != nil {
+	if err := renderIndex(readmePath, outIndexFile); err != nil {
 		return fmt.Errorf("unable to convert markdown to html: %w", err)
 	}
 
