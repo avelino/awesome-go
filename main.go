@@ -207,7 +207,7 @@ func extractCategories(doc *goquery.Document) (map[string]Category, error) {
 						return
 					}
 
-					category, err := makeCategoryByID(selector, doc)
+					category, err := extractCategory(doc, selector)
 					if err != nil {
 						return
 					}
@@ -220,7 +220,7 @@ func extractCategories(doc *goquery.Document) (map[string]Category, error) {
 	return categories, nil
 }
 
-func makeCategoryByID(selector string, doc *goquery.Document) (*Category, error) {
+func extractCategory(doc *goquery.Document, selector string) (*Category, error) {
 	var category Category
 	var err error
 
