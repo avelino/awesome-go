@@ -192,6 +192,8 @@ func changeLinksInIndex(html string, query *goquery.Document, objs map[string]*O
 	query.Find("body #content ul li ul li a").Each(func(_ int, s *goquery.Selection) {
 		href, hrefExists := s.Attr("href")
 		if !hrefExists {
+			// FIXME: looks like is an error. Tag `a` in our case always
+			//   	  should have `href` attr.
 			return
 		}
 
@@ -201,10 +203,15 @@ func changeLinksInIndex(html string, query *goquery.Document, objs map[string]*O
 			return
 		}
 
+		// FIXME: parse url
 		uri := strings.SplitAfter(href, "#")
 		if len(uri) >= 2 && uri[1] != "contents" {
+			// FIXME: use s.SetAttr
 			html = strings.ReplaceAll(
-				html, fmt.Sprintf(`href="%s"`, href), fmt.Sprintf(`href="%s"`, uri[1]))
+				html,
+				fmt.Sprintf(`href="%s"`, href),
+				fmt.Sprintf(`href="%s"`, uri[1]),
+			)
 		}
 	})
 
