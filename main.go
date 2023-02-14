@@ -76,28 +76,10 @@ func renderAll() error {
 		return fmt.Errorf("unable to create goquery instance: %w", err)
 	}
 
-	objs := make(map[string]Object)
-	doc.
-		Find("body #contents").
-		NextFiltered("ul").
-		Find("ul").
-		Each(func(_ int, selUl *goquery.Selection) {
-			selUl.
-				Find("li a").
-				Each(func(_ int, s *goquery.Selection) {
-					selector, exists := s.Attr("href")
-					if !exists {
-						return
-					}
-
-					obj, err := makeObjByID(selector, doc)
-					if err != nil {
-						return
-					}
-
-					objs[selector] = *obj
-				})
-		})
+	objs, err := extractObjects(doc)
+	if err != nil {
+		return fmt.Errorf("unable to extract categories: %w", err)
+	}
 
 	if err := renderCategories(objs); err != nil {
 		return fmt.Errorf("unable to render categories: %w", err)
@@ -133,6 +115,34 @@ func dropCreateDir(dir string) error {
 	}
 
 	return nil
+}
+
+func extractObjects(doc *goquery.Document) (map[string]Object, error) {
+	objs := make(map[string]Object)
+	doc.
+		Find("body #contents").
+		NextFiltered("ul").
+		Find("ul").
+		Each(func(_ int, selUl *goquery.Selection) {
+			selUl.
+				Find("li a").
+				Each(func(_ int, s *goquery.Selection) {
+					selector, exists := s.Attr("href")
+					if !exists {
+						return
+					}
+
+					obj, err := makeObjByID(selector, doc)
+					if err != nil {
+						return
+					}
+
+					objs[selector] = *obj
+				})
+		})
+
+	// FIXME: handle error
+	return objs, nil
 }
 
 func mkdirAll(path string) error {
