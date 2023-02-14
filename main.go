@@ -166,16 +166,21 @@ func makeObjByID(selector string, s *goquery.Selection) (*Object, error) {
 	var obj Object
 	var err error
 
-	s.Find(selector).Each(func(_ int, s *goquery.Selection) {
-		desc := s.NextFiltered("p")
-		ul := s.NextFilteredUntil("ul", "h2")
+	s.Find(selector).Each(func(_ int, selCatHeader *goquery.Selection) {
+		selDescr := selCatHeader.NextFiltered("p")
+		// FIXME: bug. this would select links from all neighboring
+		//   sub-categories until the next category. To prevent this we should
+		//   find only first ul
+		ul := selCatHeader.NextFilteredUntil("ul", "h2")
 
 		var links []Link
-		ul.Find("li").Each(func(_ int, s *goquery.Selection) {
-			url, _ := s.Find("a").Attr("href")
+		ul.Find("li").Each(func(_ int, selLi *goquery.Selection) {
+			selLink := selLi.Find("a")
+			url, _ := selLink.Attr("href")
 			link := Link{
-				Title:       s.Find("a").Text(),
-				Description: s.Text(),
+				Title: selLink.Text(),
+				// FIXME: Title contains only title but description contains Title + description
+				Description: selLi.Text(),
 				Url:         url,
 			}
 			links = append(links, link)
@@ -186,9 +191,9 @@ func makeObjByID(selector string, s *goquery.Selection) (*Object, error) {
 			return
 		}
 		obj = Object{
-			Slug:        slug.Generate(s.Text()),
-			Title:       s.Text(),
-			Description: desc.Text(),
+			Slug:        slug.Generate(selCatHeader.Text()),
+			Title:       selCatHeader.Text(),
+			Description: selDescr.Text(),
 			Items:       links,
 		}
 	})
