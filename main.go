@@ -108,7 +108,9 @@ func renderAll() error {
 		return fmt.Errorf("unable to rewrite links in index: %w", err)
 	}
 
-	makeSitemap(objs)
+	if err := renderSitemap(objs); err != nil {
+		return fmt.Errorf("unable to render sitemap: %w", err)
+	}
 
 	for _, srcFilename := range staticFiles {
 		dstFilename := filepath.Join(outDir, filepath.Base(srcFilename))
@@ -181,12 +183,20 @@ func renderCategories(objs map[string]Object) error {
 	return nil
 }
 
-func makeSitemap(objs map[string]Object) {
+func renderSitemap(objs map[string]Object) error {
 	// FIXME: handle error
-	f, _ := os.Create(outSitemapFile)
+	f, err := os.Create(outSitemapFile)
+	if err != nil {
+		return fmt.Errorf("unable to create sitemap file `%s`: %w", outSitemapFile, err)
+	}
+
 	fmt.Printf("Render Sitemap to: %s\n", outSitemapFile)
 
-	_ = tplSitemap.Execute(f, objs)
+	if err := tplSitemap.Execute(f, objs); err != nil {
+		return fmt.Errorf("unable to render sitemap: %w", err)
+	}
+
+	return nil
 }
 
 func makeObjByID(selector string, s *goquery.Selection) (*Object, error) {
