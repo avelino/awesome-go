@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"fmt"
 	"html/template"
 	"os"
 
@@ -53,6 +54,7 @@ func GenerateHTML(srcFilename, outFilename string) error {
 		return err
 	}
 
+	fmt.Printf("Write Index file: %s\n", outIndexFile)
 	if err := t.Execute(f, c); err != nil {
 		return err
 	}

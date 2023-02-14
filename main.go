@@ -139,10 +139,13 @@ func makeSiteStruct(objs map[string]*Object) error {
 		// FIXME: embed templates
 		// FIXME: parse templates once at start
 		t := template.Must(template.ParseFiles(tmplCategory))
-		f, err := os.Create(filepath.Join(categoryDir, "index.html"))
+		categoryIndexFilename := filepath.Join(categoryDir, "index.html")
+		f, err := os.Create(categoryIndexFilename)
 		if err != nil {
 			return err
 		}
+
+		fmt.Printf("Write category Index file: %s\n", categoryIndexFilename)
 
 		if err := t.Execute(f, obj); err != nil {
 			return err
@@ -154,8 +157,11 @@ func makeSiteStruct(objs map[string]*Object) error {
 
 func makeSitemap(objs map[string]*Object) {
 	t := template.Must(template.ParseFiles(tmplSitemap))
+	// FIXME: handle error
 	f, _ := os.Create(outSitemapFile)
-	t.Execute(f, objs)
+	fmt.Printf("Render Sitemap to: %s\n", outSitemapFile)
+
+	_ = t.Execute(f, objs)
 }
 
 func makeObjByID(selector string, s *goquery.Selection) (obj *Object) {
@@ -206,5 +212,6 @@ func changeLinksInIndex(html string, query *goquery.Document, objs map[string]*O
 		}
 	})
 
-	os.WriteFile(outIndexFile, []byte(html), 0644)
+	fmt.Printf("Rewrite links in Index file: %s\n", outIndexFile)
+	_ = os.WriteFile(outIndexFile, []byte(html), 0644)
 }
