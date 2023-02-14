@@ -25,7 +25,7 @@ type Category struct {
 	Title       string
 	Slug        string
 	Description string
-	Items       []Link
+	Links       []Link
 }
 
 // Source files
@@ -254,7 +254,7 @@ func makeCategoryByID(selector string, doc *goquery.Document) (*Category, error)
 			Slug:        slug.Generate(selCatHeader.Text()),
 			Title:       selCatHeader.Text(),
 			Description: selDescr.Text(),
-			Items:       links,
+			Links:       links,
 		}
 
 		return true
