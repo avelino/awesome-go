@@ -61,7 +61,7 @@ func main() {
 		}
 	}
 
-	err := GenerateHTML(readmePath, outIndexFile)
+	err := ConvertAndRenderIndex(readmePath, outIndexFile)
 	if err != nil {
 		panic(err)
 	}

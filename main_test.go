@@ -94,7 +94,7 @@ func TestSeparator(t *testing.T) {
 }
 
 func TestGenerateHTML(t *testing.T) {
-	err := GenerateHTML(readmePath, outIndexFile)
+	err := ConvertAndRenderIndex(readmePath, outIndexFile)
 	if err != nil {
 		t.Errorf("html generate error '%s'", err.Error())
 	}
