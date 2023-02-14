@@ -28,7 +28,13 @@ type Object struct {
 
 // Source
 const readmePath = "README.md"
-const assetsDir = "tmpl/assets"
+
+// NOTE: this files should be copied as is to outDir directory
+var staticFiles = []string{
+	"tmpl/assets",
+	"tmpl/_redirects",
+	"tmpl/robots.txt",
+}
 
 // Templates
 const tplPath = "tmpl/tmpl.html"
@@ -40,7 +46,6 @@ const tmplSitemap = "tmpl/sitemap-tmpl.xml"
 // NOTE: trailing slash is required
 const outDir = "out/"
 
-var outAssetsDir = filepath.Join(outDir, "assets")
 var outIndexFile = filepath.Join(outDir, "index.html")
 var outSitemapFile = filepath.Join(outDir, "sitemap.xml")
 
@@ -95,8 +100,12 @@ func main() {
 
 	makeSitemap(objs)
 
-	if err := cp.Copy(assetsDir, outAssetsDir); err != nil {
-		panic(err)
+	for _, srcFilename := range staticFiles {
+		dstFilename := filepath.Join(outDir, filepath.Base(srcFilename))
+		fmt.Printf("Copy static file: %s -> %s\n", srcFilename, dstFilename)
+		if err := cp.Copy(srcFilename, dstFilename); err != nil {
+			panic(err)
+		}
 	}
 }
 
