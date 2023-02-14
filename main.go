@@ -58,15 +58,8 @@ func main() {
 
 // FIXME: choose a better name
 func renderAll() error {
-	// Cleanup and re-create output directory
-	{
-		if err := os.RemoveAll(outDir); err != nil {
-			return fmt.Errorf("unable to remove target dir: %w", err)
-		}
-
-		if err := mkdirAll(outDir); err != nil {
-			return fmt.Errorf("unable to create target dir: %w", err)
-		}
+	if err := dropCreateDir(outDir); err != nil {
+		return fmt.Errorf("unable to drop-create out dir: %w", err)
 	}
 
 	err := renderIndex(readmePath, outIndexFile)
@@ -125,6 +118,19 @@ func renderAll() error {
 		if err := cp.Copy(srcFilename, dstFilename); err != nil {
 			return fmt.Errorf("unable to copy static file `%s` to `%s`: %w", srcFilename, dstFilename, err)
 		}
+	}
+
+	return nil
+}
+
+// dropCreateDir drop and create output directory
+func dropCreateDir(dir string) error {
+	if err := os.RemoveAll(dir); err != nil {
+		return fmt.Errorf("unable to remove dir: %w", err)
+	}
+
+	if err := mkdirAll(dir); err != nil {
+		return fmt.Errorf("unable to create dir: %w", err)
 	}
 
 	return nil
