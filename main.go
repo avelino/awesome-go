@@ -21,7 +21,7 @@ type Link struct {
 }
 
 // FIXME: rename to Category
-type Object struct {
+type Category struct {
 	Title       string
 	Slug        string
 	Description string
@@ -76,20 +76,20 @@ func renderAll() error {
 		return fmt.Errorf("unable to create goquery instance: %w", err)
 	}
 
-	objs, err := extractObjects(doc)
+	categories, err := extractCategories(doc)
 	if err != nil {
 		return fmt.Errorf("unable to extract categories: %w", err)
 	}
 
-	if err := renderCategories(objs); err != nil {
+	if err := renderCategories(categories); err != nil {
 		return fmt.Errorf("unable to render categories: %w", err)
 	}
 
-	if err := rewriteLinksInIndex(doc, objs); err != nil {
+	if err := rewriteLinksInIndex(doc, categories); err != nil {
 		return fmt.Errorf("unable to rewrite links in index: %w", err)
 	}
 
-	if err := renderSitemap(objs); err != nil {
+	if err := renderSitemap(categories); err != nil {
 		return fmt.Errorf("unable to render sitemap: %w", err)
 	}
 
@@ -117,8 +117,8 @@ func dropCreateDir(dir string) error {
 	return nil
 }
 
-func extractObjects(doc *goquery.Document) (map[string]Object, error) {
-	objs := make(map[string]Object)
+func extractCategories(doc *goquery.Document) (map[string]Category, error) {
+	categories := make(map[string]Category)
 	doc.
 		Find("body #contents").
 		NextFiltered("ul").
@@ -132,17 +132,17 @@ func extractObjects(doc *goquery.Document) (map[string]Object, error) {
 						return
 					}
 
-					obj, err := makeObjByID(selector, doc)
+					category, err := makeCategoryByID(selector, doc)
 					if err != nil {
 						return
 					}
 
-					objs[selector] = *obj
+					categories[selector] = *category
 				})
 		})
 
 	// FIXME: handle error
-	return objs, nil
+	return categories, nil
 }
 
 func mkdirAll(path string) error {
@@ -165,9 +165,9 @@ func mkdirAll(path string) error {
 	return nil
 }
 
-func renderCategories(objs map[string]Object) error {
-	for _, obj := range objs {
-		categoryDir := filepath.Join(outDir, obj.Slug)
+func renderCategories(categories map[string]Category) error {
+	for _, category := range categories {
+		categoryDir := filepath.Join(outDir, category.Slug)
 		if err := mkdirAll(categoryDir); err != nil {
 			return fmt.Errorf("unable to create category dir `%s`: %w", categoryDir, err)
 		}
@@ -178,7 +178,7 @@ func renderCategories(objs map[string]Object) error {
 		fmt.Printf("Write category Index file: %s\n", categoryIndexFilename)
 
 		buf := bytes.NewBuffer(nil)
-		if err := tplCategoryIndex.Execute(buf, obj); err != nil {
+		if err := tplCategoryIndex.Execute(buf, category); err != nil {
 			return fmt.Errorf("unable to render category `%s`: %w", categoryDir, err)
 		}
 
@@ -205,7 +205,7 @@ func renderCategories(objs map[string]Object) error {
 	return nil
 }
 
-func renderSitemap(objs map[string]Object) error {
+func renderSitemap(categories map[string]Category) error {
 	// FIXME: handle error
 	f, err := os.Create(outSitemapFile)
 	if err != nil {
@@ -214,18 +214,18 @@ func renderSitemap(objs map[string]Object) error {
 
 	fmt.Printf("Render Sitemap to: %s\n", outSitemapFile)
 
-	if err := tplSitemap.Execute(f, objs); err != nil {
+	if err := tplSitemap.Execute(f, categories); err != nil {
 		return fmt.Errorf("unable to render sitemap: %w", err)
 	}
 
 	return nil
 }
 
-func makeObjByID(selector string, doc *goquery.Document) (*Object, error) {
-	var obj Object
+func makeCategoryByID(selector string, doc *goquery.Document) (*Category, error) {
+	var category Category
 	var err error
 
-	doc.Find(selector).Each(func(_ int, selCatHeader *goquery.Selection) {
+	doc.Find(selector).EachWithBreak(func(_ int, selCatHeader *goquery.Selection) bool {
 		selDescr := selCatHeader.NextFiltered("p")
 		// FIXME: bug. this would select links from all neighboring
 		//   sub-categories until the next category. To prevent this we should
@@ -246,25 +246,28 @@ func makeObjByID(selector string, doc *goquery.Document) (*Object, error) {
 		})
 		// FIXME: In this case we would have an empty category in main index.html with link to 404 page.
 		if len(links) == 0 {
-			err = errors.New("object has no links")
-			return
+			err = errors.New("category does not contain links")
+			return false
 		}
-		obj = Object{
+
+		category = Category{
 			Slug:        slug.Generate(selCatHeader.Text()),
 			Title:       selCatHeader.Text(),
 			Description: selDescr.Text(),
 			Items:       links,
 		}
+
+		return true
 	})
 
 	if err != nil {
-		return nil, fmt.Errorf("unable to build an object: %w", err)
+		return nil, fmt.Errorf("unable to build a category: %w", err)
 	}
 
-	return &obj, nil
+	return &category, nil
 }
 
-func rewriteLinksInIndex(doc *goquery.Document, objs map[string]Object) error {
+func rewriteLinksInIndex(doc *goquery.Document, categories map[string]Category) error {
 	doc.
 		Find("body #content ul li ul li a").
 		Each(func(_ int, s *goquery.Selection) {
@@ -276,8 +279,8 @@ func rewriteLinksInIndex(doc *goquery.Document, objs map[string]Object) error {
 			}
 
 			// do not replace links if no page has been created for it
-			_, objExists := objs[href]
-			if !objExists {
+			_, catExists := categories[href]
+			if !catExists {
 				return
 			}
 
