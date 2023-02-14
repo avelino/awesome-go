@@ -116,34 +116,6 @@ func dropCreateDir(dir string) error {
 	return nil
 }
 
-func extractCategories(doc *goquery.Document) (map[string]Category, error) {
-	categories := make(map[string]Category)
-	doc.
-		Find("body #contents").
-		NextFiltered("ul").
-		Find("ul").
-		Each(func(_ int, selUl *goquery.Selection) {
-			selUl.
-				Find("li a").
-				Each(func(_ int, s *goquery.Selection) {
-					selector, exists := s.Attr("href")
-					if !exists {
-						return
-					}
-
-					category, err := makeCategoryByID(selector, doc)
-					if err != nil {
-						return
-					}
-
-					categories[selector] = *category
-				})
-		})
-
-	// FIXME: handle error
-	return categories, nil
-}
-
 func mkdirAll(path string) error {
 	_, err := os.Stat(path)
 	// NOTE: directory is exists
@@ -218,6 +190,34 @@ func renderSitemap(categories map[string]Category) error {
 	}
 
 	return nil
+}
+
+func extractCategories(doc *goquery.Document) (map[string]Category, error) {
+	categories := make(map[string]Category)
+	doc.
+		Find("body #contents").
+		NextFiltered("ul").
+		Find("ul").
+		Each(func(_ int, selUl *goquery.Selection) {
+			selUl.
+				Find("li a").
+				Each(func(_ int, s *goquery.Selection) {
+					selector, exists := s.Attr("href")
+					if !exists {
+						return
+					}
+
+					category, err := makeCategoryByID(selector, doc)
+					if err != nil {
+						return
+					}
+
+					categories[selector] = *category
+				})
+		})
+
+	// FIXME: handle error
+	return categories, nil
 }
 
 func makeCategoryByID(selector string, doc *goquery.Document) (*Category, error) {
