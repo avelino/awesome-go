@@ -1,6 +1,8 @@
 package main
 
 import (
+	"bytes"
+	"github.com/avelino/awesome-go/pkg/markdown"
 	"os"
 	"regexp"
 	"sort"
@@ -16,8 +18,29 @@ var (
 	reLinkWithDescription = regexp.MustCompile(`\* \[.*\]\(.*\) - \S.*[\.\!]`)
 )
 
+func helpGetReadmeHTML() []byte {
+	input, err := os.ReadFile(readmePath)
+	if err != nil {
+		panic(err)
+	}
+	html, err := markdown.ToHTML(input)
+	if err != nil {
+		panic(err)
+	}
+	return html
+}
+
+func helpBuildQuery() *goquery.Document {
+	buf := bytes.NewBuffer(helpGetReadmeHTML())
+	query, err := goquery.NewDocumentFromReader(buf)
+	if err != nil {
+		panic(err)
+	}
+	return query
+}
+
 func TestAlpha(t *testing.T) {
-	query := startQuery()
+	query := helpBuildQuery()
 	query.Find("body > ul").Each(func(i int, s *goquery.Selection) {
 		if i != 0 {
 			// skip content menu
@@ -30,7 +53,7 @@ func TestAlpha(t *testing.T) {
 }
 
 func TestDuplicatedLinks(t *testing.T) {
-	query := startQuery()
+	query := helpBuildQuery()
 	links := make(map[string]bool, 0)
 	query.Find("body li > a:first-child").Each(func(_ int, s *goquery.Selection) {
 		t.Run(s.Text(), func(t *testing.T) {

@@ -215,7 +215,7 @@ func testCommitAge(toRun bool, href string, client *http.Client, staleRepos *[]s
 	return false
 }
 func testStaleRepository() {
-	query := startQuery()
+	query := helpBuildQuery()
 	var staleRepos []string
 	addressedRepositories := make(map[string]bool)
 	oauth := os.Getenv("OAUTH_TOKEN")
