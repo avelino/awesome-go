@@ -12,8 +12,8 @@ type content struct {
 	Body template.HTML
 }
 
-// GenerateHTML generate site html (index.html) from markdown file
-func GenerateHTML(srcFilename, outFilename string) error {
+// ConvertAndRenderIndex generate site html (index.html) from markdown file
+func ConvertAndRenderIndex(srcFilename, outFilename string) error {
 	input, err := os.ReadFile(srcFilename)
 	if err != nil {
 		return err
