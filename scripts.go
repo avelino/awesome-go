@@ -1,35 +1,12 @@
 package main
 
 import (
-	"bytes"
 	"fmt"
 	"html/template"
 	"os"
 
-	"github.com/PuerkitoBio/goquery"
 	"github.com/avelino/awesome-go/pkg/markdown"
 )
-
-func readme() []byte {
-	input, err := os.ReadFile(readmePath)
-	if err != nil {
-		panic(err)
-	}
-	html, err := markdown.ToHTML(input)
-	if err != nil {
-		panic(err)
-	}
-	return html
-}
-
-func startQuery() *goquery.Document {
-	buf := bytes.NewBuffer(readme())
-	query, err := goquery.NewDocumentFromReader(buf)
-	if err != nil {
-		panic(err)
-	}
-	return query
-}
 
 type content struct {
 	Body template.HTML
