@@ -1,7 +1,7 @@
 package main
 
 import (
-	"io/ioutil"
+	"os"
 	"regexp"
 	"sort"
 	"strings"
@@ -49,7 +49,7 @@ func TestDuplicatedLinks(t *testing.T) {
 // Test if an entry has description, it must be separated from link with ` - `
 func TestSeparator(t *testing.T) {
 	var matched, containsLink, noDescription bool
-	input, err := ioutil.ReadFile("./README.md")
+	input, err := os.ReadFile(readmePath)
 	if err != nil {
 		panic(err)
 	}
