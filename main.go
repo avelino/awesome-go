@@ -36,10 +36,11 @@ var staticFiles = []string{
 	"tmpl/robots.txt",
 }
 
-// Template files
-const tplPath = "tmpl/tmpl.html"
-const tmplCategory = "tmpl/cat-tmpl.html"
-const tmplSitemap = "tmpl/sitemap-tmpl.xml"
+// TODO: embed
+// Templates
+var tplIndex = template.Must(template.ParseFiles("tmpl/tmpl.html"))
+var tplCategoryIndex = template.Must(template.ParseFiles("tmpl/cat-tmpl.html"))
+var tplSitemap = template.Must(template.ParseFiles("tmpl/sitemap-tmpl.xml"))
 
 // Output files
 const outDir = "out/" // NOTE: trailing slash is required
@@ -69,8 +70,7 @@ func main() {
 		panic(err)
 	}
 
-	buf := bytes.NewBuffer(input)
-	query, err := goquery.NewDocumentFromReader(buf)
+	query, err := goquery.NewDocumentFromReader(bytes.NewReader(input))
 	if err != nil {
 		panic(err)
 	}
@@ -136,7 +136,6 @@ func makeSiteStruct(objs map[string]*Object) error {
 
 		// FIXME: embed templates
 		// FIXME: parse templates once at start
-		t := template.Must(template.ParseFiles(tmplCategory))
 		categoryIndexFilename := filepath.Join(categoryDir, "index.html")
 		f, err := os.Create(categoryIndexFilename)
 		if err != nil {
@@ -145,7 +144,7 @@ func makeSiteStruct(objs map[string]*Object) error {
 
 		fmt.Printf("Write category Index file: %s\n", categoryIndexFilename)
 
-		if err := t.Execute(f, obj); err != nil {
+		if err := tplCategoryIndex.Execute(f, obj); err != nil {
 			return err
 		}
 	}
@@ -154,12 +153,11 @@ func makeSiteStruct(objs map[string]*Object) error {
 }
 
 func makeSitemap(objs map[string]*Object) {
-	t := template.Must(template.ParseFiles(tmplSitemap))
 	// FIXME: handle error
 	f, _ := os.Create(outSitemapFile)
 	fmt.Printf("Render Sitemap to: %s\n", outSitemapFile)
 
-	_ = t.Execute(f, objs)
+	_ = tplSitemap.Execute(f, objs)
 }
 
 func makeObjByID(selector string, s *goquery.Selection) (obj *Object) {

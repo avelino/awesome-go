@@ -48,14 +48,13 @@ func GenerateHTML(srcFilename, outFilename string) error {
 	}
 
 	c := &content{Body: template.HTML(body)}
-	t := template.Must(template.ParseFiles(tplPath))
 	f, err := os.Create(outFilename)
 	if err != nil {
 		return err
 	}
 
 	fmt.Printf("Write Index file: %s\n", outIndexFile)
-	if err := t.Execute(f, c); err != nil {
+	if err := tplIndex.Execute(f, c); err != nil {
 		return err
 	}
 
