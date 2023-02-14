@@ -18,11 +18,13 @@ import (
 	"golang.org/x/oauth2"
 )
 
-const issueTemplate = `
+const issueTemplateContent = `
 {{range .}}
 - [ ] {{.}}
 {{end}}
 `
+
+var issueTemplate = template.Must(template.New("issue").Parse(issueTemplateContent))
 
 var reGithubRepo = regexp.MustCompile("https://github.com/[a-zA-Z0-9-._]+/[a-zA-Z0-9-._]+$")
 var githubGETREPO = "https://api.github.com/repos%s"
@@ -38,7 +40,7 @@ const movedPermanently = " status code 301 received"
 const status302 = " status code 302 received"
 const archived = " repository has been archived"
 
-//LIMIT specifies the max number of repositories that are added in a single run of the script
+// LIMIT specifies the max number of repositories that are added in a single run of the script
 var LIMIT = 10
 var ctr = 0
 
@@ -77,13 +79,8 @@ func getRepositoriesFromBody(body string) []string {
 }
 func generateIssueBody(repositories []string) (string, error) {
 	var writer bytes.Buffer
-	t := template.New("issue")
-	temp, err := t.Parse(issueTemplate)
-	if err != nil {
-		log.Print("Failed to generate template")
-		return "", err
-	}
-	err = temp.Execute(&writer, repositories)
+
+	err := issueTemplate.Execute(&writer, repositories)
 	if err != nil {
 		log.Print("Failed to generate template")
 		return "", err
