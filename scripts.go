@@ -33,5 +33,9 @@ func renderIndex(srcFilename, outFilename string) error {
 		return err
 	}
 
+	if err := f.Close(); err != nil {
+		return fmt.Errorf("unable to close index file: %w", err)
+	}
+
 	return nil
 }
