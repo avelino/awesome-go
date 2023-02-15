@@ -154,7 +154,7 @@ func containsOpenIssue(link string, openIssues map[string]bool) bool {
 	return ok
 }
 
-func getRepoStates(toRun bool, href string, client *http.Client) ([]string, bool) {
+func checkRepoAvailability(toRun bool, href string, client *http.Client) ([]string, bool) {
 	if !toRun {
 		return nil, false
 	}
@@ -306,7 +306,7 @@ func TestStaleRepository(t *testing.T) {
 			}
 
 			// FIXME: this is `or` expression. Probably we need `and`?
-			warnings, isRepoAdded := getRepoStates(true, href, client)
+			warnings, isRepoAdded := checkRepoAvailability(true, href, client)
 			staleRepos = append(staleRepos, warnings...)
 
 			warnings, isRepoAdded = checkRepoCommitActivity(!isRepoAdded, href, client)
