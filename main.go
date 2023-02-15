@@ -58,45 +58,45 @@ func main() {
 // FIXME: choose a better name
 func renderAll() error {
 	if err := dropCreateDir(outDir); err != nil {
-		return fmt.Errorf("unable to drop-create out dir: %w", err)
+		return fmt.Errorf("drop-create out dir: %w", err)
 	}
 
 	if err := renderIndex(readmePath, outIndexFile); err != nil {
-		return fmt.Errorf("unable to convert markdown to html: %w", err)
+		return fmt.Errorf("convert markdown to html: %w", err)
 	}
 
 	input, err := os.ReadFile(outIndexFile)
 	if err != nil {
-		return fmt.Errorf("unable to read converted html: %w", err)
+		return fmt.Errorf("read converted html: %w", err)
 	}
 
 	doc, err := goquery.NewDocumentFromReader(bytes.NewReader(input))
 	if err != nil {
-		return fmt.Errorf("unable to create goquery instance: %w", err)
+		return fmt.Errorf("create goquery instance: %w", err)
 	}
 
 	categories, err := extractCategories(doc)
 	if err != nil {
-		return fmt.Errorf("unable to extract categories: %w", err)
+		return fmt.Errorf("extract categories: %w", err)
 	}
 
 	if err := renderCategories(categories); err != nil {
-		return fmt.Errorf("unable to render categories: %w", err)
+		return fmt.Errorf("render categories: %w", err)
 	}
 
 	if err := rewriteLinksInIndex(doc, categories); err != nil {
-		return fmt.Errorf("unable to rewrite links in index: %w", err)
+		return fmt.Errorf("rewrite links in index: %w", err)
 	}
 
 	if err := renderSitemap(categories); err != nil {
-		return fmt.Errorf("unable to render sitemap: %w", err)
+		return fmt.Errorf("render sitemap: %w", err)
 	}
 
 	for _, srcFilename := range staticFiles {
 		dstFilename := filepath.Join(outDir, filepath.Base(srcFilename))
 		fmt.Printf("Copy static file: %s -> %s\n", srcFilename, dstFilename)
 		if err := cp.Copy(srcFilename, dstFilename); err != nil {
-			return fmt.Errorf("unable to copy static file `%s` to `%s`: %w", srcFilename, dstFilename, err)
+			return fmt.Errorf("copy static file `%s` to `%s`: %w", srcFilename, dstFilename, err)
 		}
 	}
 
@@ -106,11 +106,11 @@ func renderAll() error {
 // dropCreateDir drop and create output directory
 func dropCreateDir(dir string) error {
 	if err := os.RemoveAll(dir); err != nil {
-		return fmt.Errorf("unable to remove dir: %w", err)
+		return fmt.Errorf("remove dir: %w", err)
 	}
 
 	if err := mkdirAll(dir); err != nil {
-		return fmt.Errorf("unable to create dir: %w", err)
+		return fmt.Errorf("create dir: %w", err)
 	}
 
 	return nil
@@ -130,7 +130,7 @@ func mkdirAll(path string) error {
 
 	// NOTE: directory is not exists
 	if err := os.MkdirAll(path, 0755); err != nil {
-		return fmt.Errorf("unable to midirAll: %w", err)
+		return fmt.Errorf("midirAll: %w", err)
 	}
 
 	return nil
@@ -140,17 +140,16 @@ func renderCategories(categories map[string]Category) error {
 	for _, category := range categories {
 		categoryDir := filepath.Join(outDir, category.Slug)
 		if err := mkdirAll(categoryDir); err != nil {
-			return fmt.Errorf("unable to create category dir `%s`: %w", categoryDir, err)
+			return fmt.Errorf("create category dir `%s`: %w", categoryDir, err)
 		}
 
 		// FIXME: embed templates
-		// FIXME: parse templates once at start
 		categoryIndexFilename := filepath.Join(categoryDir, "index.html")
 		fmt.Printf("Write category Index file: %s\n", categoryIndexFilename)
 
 		buf := bytes.NewBuffer(nil)
 		if err := tplCategoryIndex.Execute(buf, category); err != nil {
-			return fmt.Errorf("unable to render category `%s`: %w", categoryDir, err)
+			return fmt.Errorf("render category `%s`: %w", categoryDir, err)
 		}
 
 		// Sanitize HTML. This is not necessary, but allows to have content
@@ -158,17 +157,16 @@ func renderCategories(categories map[string]Category) error {
 		{
 			doc, err := goquery.NewDocumentFromReader(buf)
 			if err != nil {
-				// FIXME: remove `unable to` from all fmt.Errorf
-				return fmt.Errorf("unable to create goquery instance for `%s`: %w", categoryDir, err)
+				return fmt.Errorf("create goquery instance for `%s`: %w", categoryDir, err)
 			}
 
 			html, err := doc.Html()
 			if err != nil {
-				return fmt.Errorf("unable to render goquery html for `%s`: %w", categoryDir, err)
+				return fmt.Errorf("render goquery html for `%s`: %w", categoryDir, err)
 			}
 
 			if err := os.WriteFile(categoryIndexFilename, []byte(html), 0644); err != nil {
-				return fmt.Errorf("unable to write category file `%s`: %w", categoryDir, err)
+				return fmt.Errorf("write category file `%s`: %w", categoryDir, err)
 			}
 		}
 	}
@@ -180,13 +178,13 @@ func renderSitemap(categories map[string]Category) error {
 	// FIXME: handle error
 	f, err := os.Create(outSitemapFile)
 	if err != nil {
-		return fmt.Errorf("unable to create sitemap file `%s`: %w", outSitemapFile, err)
+		return fmt.Errorf("create sitemap file `%s`: %w", outSitemapFile, err)
 	}
 
 	fmt.Printf("Render Sitemap to: %s\n", outSitemapFile)
 
 	if err := tplSitemap.Execute(f, categories); err != nil {
-		return fmt.Errorf("unable to render sitemap: %w", err)
+		return fmt.Errorf("render sitemap: %w", err)
 	}
 
 	return nil
@@ -260,7 +258,7 @@ func extractCategory(doc *goquery.Document, selector string) (*Category, error) 
 	})
 
 	if err != nil {
-		return nil, fmt.Errorf("unable to build a category: %w", err)
+		return nil, fmt.Errorf("build a category: %w", err)
 	}
 
 	return &category, nil
@@ -293,11 +291,11 @@ func rewriteLinksInIndex(doc *goquery.Document, categories map[string]Category) 
 	fmt.Printf("Rewrite links in Index file: %s\n", outIndexFile)
 	resultHtml, err := doc.Html()
 	if err != nil {
-		return fmt.Errorf("unable to render html: %w", err)
+		return fmt.Errorf("render html: %w", err)
 	}
 
 	if err := os.WriteFile(outIndexFile, []byte(resultHtml), 0644); err != nil {
-		return fmt.Errorf("unable to rewrite index file: %w", err)
+		return fmt.Errorf("rewrite index file: %w", err)
 	}
 
 	return nil
