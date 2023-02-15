@@ -185,33 +185,33 @@ func getRepoStates(toRun bool, href string, client *http.Client) ([]string, bool
 
 	var isRepoAdded bool
 
-	var staleRepos []string
+	var warnings []string
 	if resp.StatusCode == http.StatusMovedPermanently {
-		staleRepos = append(staleRepos, href+movedPermanently)
+		warnings = append(warnings, href+movedPermanently)
 		log.Printf("%s returned %d", href, resp.StatusCode)
 		isRepoAdded = true
 	}
 
 	if resp.StatusCode == http.StatusFound && !isRepoAdded {
-		staleRepos = append(staleRepos, href+status302)
+		warnings = append(warnings, href+status302)
 		log.Printf("%s returned %d", href, resp.StatusCode)
 		isRepoAdded = true
 	}
 
 	if resp.StatusCode >= http.StatusBadRequest && !isRepoAdded {
-		staleRepos = append(staleRepos, href+deadLinkMessage)
+		warnings = append(warnings, href+deadLinkMessage)
 		log.Printf("%s might not exist!", href)
 		isRepoAdded = true
 	}
 
 	if repoResp.Archived && !isRepoAdded {
-		staleRepos = append(staleRepos, href+archived)
+		warnings = append(warnings, href+archived)
 		log.Printf("%s is archived!", href)
 		isRepoAdded = true
 	}
 
-	// FIXME: expression `(len(staleRepos) > 0) == isRepoAdded` is always true.
-	return staleRepos, isRepoAdded
+	// FIXME: expression `(len(warnings) > 0) == isRepoAdded` is always true.
+	return warnings, isRepoAdded
 }
 
 func checkRepoCommitActivity(toRun bool, href string, client *http.Client) ([]string, bool) {
@@ -306,11 +306,11 @@ func TestStaleRepository(t *testing.T) {
 			}
 
 			// FIXME: this is `or` expression. Probably we need `and`?
-			staleRepos2, isRepoAdded := getRepoStates(true, href, client)
-			staleRepos = append(staleRepos, staleRepos2...)
+			warnings, isRepoAdded := getRepoStates(true, href, client)
+			staleRepos = append(staleRepos, warnings...)
 
-			staleRepos2, isRepoAdded = checkRepoCommitActivity(!isRepoAdded, href, client)
-			staleRepos = append(staleRepos, staleRepos2...)
+			warnings, isRepoAdded = checkRepoCommitActivity(!isRepoAdded, href, client)
+			staleRepos = append(staleRepos, warnings...)
 
 			if isRepoAdded {
 				ctr++
