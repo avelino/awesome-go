@@ -111,19 +111,17 @@ func createIssue(t *testing.T, staleRepos []string, client *http.Client) {
 	buf := bytes.NewBuffer(nil)
 	requireNoErr(t, json.NewEncoder(buf).Encode(newIssue), "failed to encode json req")
 
-	req, err := http.NewRequest("POST", githubPOSTISSUES, buf)
+	req, err := http.NewRequest(http.MethodPost, githubPOSTISSUES, buf)
 	requireNoErr(t, err, "failed to create request")
 
 	_, roundTripErr := client.Do(req)
 	requireNoErr(t, roundTripErr, "failed to send request")
 }
 
-// FIXME: remove pointer from map
 func getAllFlaggedRepositories(t *testing.T, client *http.Client) map[string]bool {
 	t.Helper()
 
-	// FIXME: replace to http.MethodGet
-	req, err := http.NewRequest("GET", awesomeGoGETISSUES, nil)
+	req, err := http.NewRequest(http.MethodGet, awesomeGoGETISSUES, nil)
 	requireNoErr(t, err, "failed to create request")
 
 	res, err := client.Do(req)
@@ -156,7 +154,7 @@ func checkRepoAvailability(toRun bool, href string, client *http.Client) ([]stri
 
 	ownerRepo := strings.ReplaceAll(href, "https://github.com", "")
 	apiCall := fmt.Sprintf(githubGETREPO, ownerRepo)
-	req, err := http.NewRequest("GET", apiCall, nil)
+	req, err := http.NewRequest(http.MethodGet, apiCall, nil)
 	if err != nil {
 		log.Printf("Failed at repository %s\n", href)
 		return nil, false
@@ -216,7 +214,7 @@ func checkRepoCommitActivity(toRun bool, href string, client *http.Client) ([]st
 
 	ownerRepo := strings.ReplaceAll(href, "https://github.com", "")
 	apiCall := fmt.Sprintf(githubGETCOMMITS, ownerRepo)
-	req, err := http.NewRequest("GET", apiCall, nil)
+	req, err := http.NewRequest(http.MethodGet, apiCall, nil)
 	if err != nil {
 		log.Printf("Failed at repository %s\n", href)
 		return nil, false
