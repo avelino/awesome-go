@@ -18,30 +18,44 @@ var (
 	reLinkWithDescription = regexp.MustCompile(`\* \[.*\]\(.*\) - \S.*[\.\!]`)
 )
 
-func helpGetReadmeHTML() []byte {
-	input, err := os.ReadFile(readmePath)
-	if err != nil {
-		panic(err)
+func requireNoErr(t *testing.T, err error, msg string) {
+	// FIXME: replace to github.com/stretchr/testify
+	t.Helper()
+
+	if msg == "" {
+		msg = "unknown error"
 	}
+
+	if err != nil {
+		t.Fatalf("Received unexpected error [%s]: %+v", msg, err)
+	}
+}
+
+func getReadmeHTML(t *testing.T) []byte {
+	t.Helper()
+
+	input, err := os.ReadFile(readmePath + "asdasd")
+	requireNoErr(t, err, "readme file should be exists")
+
 	html, err := markdown.ToHTML(input)
-	if err != nil {
-		panic(err)
-	}
+	requireNoErr(t, err, "markdown should be rendered to html")
+
 	return html
 }
 
-func helpBuildQuery() *goquery.Document {
-	buf := bytes.NewBuffer(helpGetReadmeHTML())
-	query, err := goquery.NewDocumentFromReader(buf)
-	if err != nil {
-		panic(err)
-	}
-	return query
+func goqueryFromReadme(t *testing.T) *goquery.Document {
+	t.Helper()
+
+	buf := bytes.NewBuffer(getReadmeHTML(t))
+	doc, err := goquery.NewDocumentFromReader(buf)
+	requireNoErr(t, err, "html must be valid for goquery")
+
+	return doc
 }
 
 func TestAlpha(t *testing.T) {
-	query := helpBuildQuery()
-	query.Find("body > ul").Each(func(i int, s *goquery.Selection) {
+	doc := goqueryFromReadme(t)
+	doc.Find("body > ul").Each(func(i int, s *goquery.Selection) {
 		if i != 0 {
 			// skip content menu
 			// TODO: the sub items (with 3 hash marks `###`) are staying in
@@ -53,9 +67,9 @@ func TestAlpha(t *testing.T) {
 }
 
 func TestDuplicatedLinks(t *testing.T) {
-	query := helpBuildQuery()
+	doc := goqueryFromReadme(t)
 	links := make(map[string]bool, 0)
-	query.Find("body li > a:first-child").Each(func(_ int, s *goquery.Selection) {
+	doc.Find("body li > a:first-child").Each(func(_ int, s *goquery.Selection) {
 		t.Run(s.Text(), func(t *testing.T) {
 			href, ok := s.Attr("href")
 			if !ok {

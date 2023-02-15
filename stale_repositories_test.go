@@ -214,8 +214,9 @@ func testCommitAge(toRun bool, href string, client *http.Client, staleRepos *[]s
 	}
 	return false
 }
-func testStaleRepository() {
-	query := helpBuildQuery()
+
+func TestStaleRepository(t *testing.T) {
+	doc := goqueryFromReadme(t)
 	var staleRepos []string
 	addressedRepositories := make(map[string]bool)
 	oauth := os.Getenv("OAUTH_TOKEN")
@@ -234,7 +235,7 @@ func testStaleRepository() {
 		log.Println("Failed to get existing issues. Exiting...")
 		return
 	}
-	query.Find("body li > a:first-child").EachWithBreak(func(_ int, s *goquery.Selection) bool {
+	doc.Find("body li > a:first-child").EachWithBreak(func(_ int, s *goquery.Selection) bool {
 		href, ok := s.Attr("href")
 		if !ok {
 			log.Println("expected to have href")
@@ -262,8 +263,4 @@ func testStaleRepository() {
 		return true
 	})
 	createIssue(staleRepos, client)
-}
-
-func TestStaleRepository(t *testing.T) {
-	testStaleRepository()
 }
