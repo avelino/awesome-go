@@ -87,9 +87,8 @@ func TestDuplicatedLinks(t *testing.T) {
 func TestSeparator(t *testing.T) {
 	var matched, containsLink, noDescription bool
 	input, err := os.ReadFile(readmePath)
-	if err != nil {
-		panic(err)
-	}
+	requireNoErr(t, err, "readme should be exists")
+
 	lines := strings.Split(string(input), "\n")
 	for _, line := range lines {
 		line = strings.Trim(line, " ")
@@ -109,9 +108,7 @@ func TestSeparator(t *testing.T) {
 
 func TestRenderIndex(t *testing.T) {
 	err := renderIndex(readmePath, outIndexFile)
-	if err != nil {
-		t.Errorf("html generate error '%s'", err.Error())
-	}
+	requireNoErr(t, err, "html should be rendered")
 }
 
 func testList(t *testing.T, list *goquery.Selection) {
