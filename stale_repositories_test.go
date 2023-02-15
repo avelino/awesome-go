@@ -149,11 +149,6 @@ func getAllFlaggedRepositories(t *testing.T, client *http.Client) map[string]boo
 	return addressedRepositories
 }
 
-func containsOpenIssue(link string, openIssues map[string]bool) bool {
-	_, ok := openIssues[link]
-	return ok
-}
-
 func checkRepoAvailability(toRun bool, href string, client *http.Client) ([]string, bool) {
 	if !toRun {
 		return nil, false
@@ -294,14 +289,12 @@ func TestStaleRepository(t *testing.T) {
 				return false
 			}
 
-			issueExists := containsOpenIssue(href, addressedRepositories)
-			if issueExists {
+			if _, issueExists := addressedRepositories[href]; issueExists {
 				log.Printf("issue already exists for %s\n", href)
 				return true
 			}
 
-			isGithubRepo := reGithubRepo.MatchString(href)
-			if !isGithubRepo {
+			if !reGithubRepo.MatchString(href) {
 				log.Printf("%s non-github repo not currently handled", href)
 			}
 
