@@ -177,7 +177,10 @@ func testRepoState(toRun bool, href string, client *http.Client, staleRepos *[]s
 	defer resp.Body.Close()
 
 	var repoResp repo
-	json.NewDecoder(resp.Body).Decode(&repoResp)
+	if err := json.NewDecoder(resp.Body).Decode(&repoResp); err != nil {
+		return false
+	}
+
 	isRepoAdded := false
 
 	if resp.StatusCode == http.StatusMovedPermanently {
