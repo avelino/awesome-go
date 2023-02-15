@@ -26,7 +26,7 @@ const issueTemplateContent = `
 
 var issueTemplate = template.Must(template.New("issue").Parse(issueTemplateContent))
 
-// FIXME: replace to official github client
+// FIXME: use official github client
 var reGithubRepo = regexp.MustCompile("https://github.com/[a-zA-Z0-9-._]+/[a-zA-Z0-9-._]+$")
 var githubGETREPO = "https://api.github.com/repos%s"
 var githubGETCOMMITS = "https://api.github.com/repos%s/commits"
@@ -34,7 +34,9 @@ var githubPOSTISSUES = "https://api.github.com/repos/avelino/awesome-go/issues"
 
 // FIXME: use https
 var awesomeGoGETISSUES = "http://api.github.com/repos/avelino/awesome-go/issues" //only returns open issues
-// FIXME: time.Hour * ...
+// FIXME: variable has type Duration, but contains a number. we should use
+//
+//	time.Hour * ... or change type of variable
 var numberOfYears time.Duration = 1
 var timeNow = time.Now()
 var issueTitle = fmt.Sprintf("Investigate repositories with more than 1 year without update - %s", timeNow.Format("2006-01-02"))
