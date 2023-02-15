@@ -31,22 +31,16 @@ func requireNoErr(t *testing.T, err error, msg string) {
 	}
 }
 
-func getReadmeHTML(t *testing.T) []byte {
+func goqueryFromReadme(t *testing.T) *goquery.Document {
 	t.Helper()
 
-	input, err := os.ReadFile(readmePath + "asdasd")
+	input, err := os.ReadFile(readmePath)
 	requireNoErr(t, err, "readme file should be exists")
 
 	html, err := markdown.ToHTML(input)
 	requireNoErr(t, err, "markdown should be rendered to html")
 
-	return html
-}
-
-func goqueryFromReadme(t *testing.T) *goquery.Document {
-	t.Helper()
-
-	buf := bytes.NewBuffer(getReadmeHTML(t))
+	buf := bytes.NewBuffer(html)
 	doc, err := goquery.NewDocumentFromReader(buf)
 	requireNoErr(t, err, "html must be valid for goquery")
 
