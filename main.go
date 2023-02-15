@@ -156,13 +156,13 @@ func renderCategories(categories map[string]Category) error {
 		// Sanitize HTML. This is not necessary, but allows to have content
 		// of all html files in same style.
 		{
-			query, err := goquery.NewDocumentFromReader(buf)
+			doc, err := goquery.NewDocumentFromReader(buf)
 			if err != nil {
 				// FIXME: remove `unable to` from all fmt.Errorf
 				return fmt.Errorf("unable to create goquery instance for `%s`: %w", categoryDir, err)
 			}
 
-			html, err := query.Html()
+			html, err := doc.Html()
 			if err != nil {
 				return fmt.Errorf("unable to render goquery html for `%s`: %w", categoryDir, err)
 			}
