@@ -154,9 +154,9 @@ func containsOpenIssue(link string, openIssues map[string]bool) bool {
 	return ok
 }
 
-func testRepoState(toRun bool, href string, client *http.Client, staleRepos *[]string) bool {
+func getRepoStates(toRun bool, href string, client *http.Client) ([]string, bool) {
 	if !toRun {
-		return false
+		return nil, false
 	}
 
 	ownerRepo := strings.ReplaceAll(href, "https://github.com", "")
@@ -164,13 +164,13 @@ func testRepoState(toRun bool, href string, client *http.Client, staleRepos *[]s
 	req, err := http.NewRequest("GET", apiCall, nil)
 	if err != nil {
 		log.Printf("Failed at repository %s\n", href)
-		return false
+		return nil, false
 	}
 
 	resp, err := client.Do(req)
 	if err != nil {
 		log.Printf("Failed at repository %s\n", href)
-		return false
+		return nil, false
 	}
 
 	defer resp.Body.Close()
@@ -180,36 +180,38 @@ func testRepoState(toRun bool, href string, client *http.Client, staleRepos *[]s
 	}
 
 	if err := json.NewDecoder(resp.Body).Decode(&repoResp); err != nil {
-		return false
+		return nil, false
 	}
 
-	isRepoAdded := false
+	var isRepoAdded bool
 
+	var staleRepos []string
 	if resp.StatusCode == http.StatusMovedPermanently {
-		*staleRepos = append(*staleRepos, href+movedPermanently)
+		staleRepos = append(staleRepos, href+movedPermanently)
 		log.Printf("%s returned %d", href, resp.StatusCode)
 		isRepoAdded = true
 	}
 
 	if resp.StatusCode == http.StatusFound && !isRepoAdded {
-		*staleRepos = append(*staleRepos, href+status302)
+		staleRepos = append(staleRepos, href+status302)
 		log.Printf("%s returned %d", href, resp.StatusCode)
 		isRepoAdded = true
 	}
 
 	if resp.StatusCode >= http.StatusBadRequest && !isRepoAdded {
-		*staleRepos = append(*staleRepos, href+deadLinkMessage)
+		staleRepos = append(staleRepos, href+deadLinkMessage)
 		log.Printf("%s might not exist!", href)
 		isRepoAdded = true
 	}
 
 	if repoResp.Archived && !isRepoAdded {
-		*staleRepos = append(*staleRepos, href+archived)
+		staleRepos = append(staleRepos, href+archived)
 		log.Printf("%s is archived!", href)
 		isRepoAdded = true
 	}
 
-	return isRepoAdded
+	// FIXME: expression `(len(staleRepos) > 0) == isRepoAdded` is always true.
+	return staleRepos, isRepoAdded
 }
 
 func testCommitAge(toRun bool, href string, client *http.Client, staleRepos *[]string) bool {
@@ -300,8 +302,10 @@ func TestStaleRepository(t *testing.T) {
 				log.Printf("%s non-github repo not currently handled", href)
 			}
 
-			// FIXME: this is `or` expression. Probably we need `and`
-			isRepoAdded := testRepoState(true, href, client, &staleRepos)
+			// FIXME: this is `or` expression. Probably we need `and`?
+			staleRepos2, isRepoAdded := getRepoStates(true, href, client)
+			staleRepos = append(staleRepos, staleRepos2...)
+
 			isRepoAdded = testCommitAge(!isRepoAdded, href, client, &staleRepos)
 			if isRepoAdded {
 				ctr++
