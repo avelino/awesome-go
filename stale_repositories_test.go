@@ -123,7 +123,7 @@ func createIssue(t *testing.T, staleRepos []string, client *http.Client) {
 }
 
 // FIXME: remove pointer from map
-func getAllFlaggedRepositories(t *testing.T, client *http.Client, flaggedRepositories *map[string]bool) error {
+func getAllFlaggedRepositories(t *testing.T, client *http.Client) map[string]bool {
 	t.Helper()
 
 	// FIXME: replace to http.MethodGet
@@ -138,6 +138,7 @@ func getAllFlaggedRepositories(t *testing.T, client *http.Client, flaggedReposit
 	var issues []issue
 	requireNoErr(t, json.NewDecoder(res.Body).Decode(&issues), "failed to unmarshal response")
 
+	addressedRepositories := make(map[string]bool)
 	for _, issue := range issues {
 		if issue.Title != issueTitle {
 			continue
@@ -145,11 +146,11 @@ func getAllFlaggedRepositories(t *testing.T, client *http.Client, flaggedReposit
 
 		repos := getRepositoriesFromBody(issue.Body)
 		for _, repo := range repos {
-			(*flaggedRepositories)[repo] = true
+			addressedRepositories[repo] = true
 		}
 	}
 
-	return nil
+	return addressedRepositories
 }
 
 func containsOpenIssue(link string, openIssues map[string]bool) bool {
@@ -169,11 +170,13 @@ func testRepoState(toRun bool, href string, client *http.Client, staleRepos *[]s
 		log.Printf("Failed at repository %s\n", href)
 		return false
 	}
+
 	resp, err := client.Do(req)
 	if err != nil {
 		log.Printf("Failed at repository %s\n", href)
 		return false
 	}
+
 	defer resp.Body.Close()
 
 	var repoResp repo
@@ -269,10 +272,8 @@ func TestStaleRepository(t *testing.T) {
 		client = oauth2.NewClient(context.Background(), tokenSource)
 	}
 
-	addressedRepositories := make(map[string]bool)
 	// FIXME: return addressedRepositories, no need to pass
-	err := getAllFlaggedRepositories(t, client, &addressedRepositories)
-	requireNoErr(t, err, "failed to get existing issues")
+	addressedRepositories := getAllFlaggedRepositories(t, client)
 
 	var staleRepos []string
 	doc.
