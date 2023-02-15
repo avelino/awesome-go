@@ -81,54 +81,57 @@ func getRepositoriesFromBody(body string) []string {
 	}
 	return links
 }
-func generateIssueBody(repositories []string) (string, error) {
-	var writer bytes.Buffer
+func generateIssueBody(t *testing.T, repositories []string) (string, error) {
+	t.Helper()
 
-	err := issueTemplate.Execute(&writer, repositories)
-	if err != nil {
-		log.Print("Failed to generate template")
-		return "", err
-	}
-	issueBody := writer.String()
-	return issueBody, nil
+	buf := bytes.NewBuffer(nil)
+	err := issueTemplate.Execute(buf, repositories)
+	requireNoErr(t, err, "Failed to generate template")
+
+	return buf.String(), nil
 }
-func createIssue(staleRepos []string, client *http.Client) {
+
+func createIssue(t *testing.T, staleRepos []string, client *http.Client) {
+	t.Helper()
+
 	if len(staleRepos) == 0 {
 		log.Print("NO STALE REPOSITORIES")
 		return
 	}
-	body, err := generateIssueBody(staleRepos)
-	if err != nil {
-		log.Print("Failed at CreateIssue")
-		return
-	}
+
+	body, err := generateIssueBody(t, staleRepos)
+	requireNoErr(t, err, "failed to generate issue body")
+
 	newIssue := &issue{
 		Title: issueTitle,
 		Body:  body,
 	}
 	buf := new(bytes.Buffer)
-	json.NewEncoder(buf).Encode(newIssue)
+	requireNoErr(t, json.NewEncoder(buf).Encode(newIssue), "failed to encode json req")
+
 	req, err := http.NewRequest("POST", githubPOSTISSUES, buf)
-	if err != nil {
-		log.Print("Failed at CreateIssue")
-		return
-	}
-	client.Do(req)
+	requireNoErr(t, err, "failed to create request")
+
+	_, roundTripErr := client.Do(req)
+	requireNoErr(t, roundTripErr, "failed to send request")
 }
-func getAllFlaggedRepositories(client *http.Client, flaggedRepositories *map[string]bool) error {
+
+// FIXME: remove pointer from map
+func getAllFlaggedRepositories(t *testing.T, client *http.Client, flaggedRepositories *map[string]bool) error {
+	t.Helper()
+
+	// FIXME: replace to http.MethodGet
 	req, err := http.NewRequest("GET", awesomeGoGETISSUES, nil)
-	if err != nil {
-		log.Print("Failed to get all issues")
-		return err
-	}
+	requireNoErr(t, err, "failed to create request")
+
 	res, err := client.Do(req)
-	if err != nil {
-		log.Print("Failed to get all issues")
-		return err
-	}
-	target := []issue{}
+	requireNoErr(t, err, "failed to send request")
+
+	var target []issue
 	defer res.Body.Close()
-	json.NewDecoder(res.Body).Decode(&target)
+
+	requireNoErr(t, json.NewDecoder(res.Body).Decode(&target), "failed to unmarshal response")
+
 	for _, i := range target {
 		if i.Title == issueTitle {
 			repos := getRepositoriesFromBody(i.Body)
@@ -148,8 +151,6 @@ func testRepoState(toRun bool, href string, client *http.Client, staleRepos *[]s
 		ownerRepo := strings.ReplaceAll(href, "https://github.com", "")
 		apiCall := fmt.Sprintf(githubGETREPO, ownerRepo)
 		req, err := http.NewRequest("GET", apiCall, nil)
-		var repoResp repo
-		isRepoAdded := false
 		if err != nil {
 			log.Printf("Failed at repository %s\n", href)
 			return false
@@ -160,7 +161,10 @@ func testRepoState(toRun bool, href string, client *http.Client, staleRepos *[]s
 			return false
 		}
 		defer resp.Body.Close()
+
+		var repoResp repo
 		json.NewDecoder(resp.Body).Decode(&repoResp)
+		isRepoAdded := false
 		if resp.StatusCode == http.StatusMovedPermanently {
 			*staleRepos = append(*staleRepos, href+movedPermanently)
 			log.Printf("%s returned %d", href, resp.StatusCode)
@@ -222,7 +226,6 @@ func testCommitAge(toRun bool, href string, client *http.Client, staleRepos *[]s
 func TestStaleRepository(t *testing.T) {
 	doc := goqueryFromReadme(t)
 	var staleRepos []string
-	addressedRepositories := make(map[string]bool)
 	oauth := os.Getenv("OAUTH_TOKEN")
 	client := &http.Client{}
 	if oauth == "" {
@@ -233,12 +236,10 @@ func TestStaleRepository(t *testing.T) {
 		}
 		client = oauth2.NewClient(context.Background(), tokenSource)
 	}
-	err := getAllFlaggedRepositories(client, &addressedRepositories)
+	addressedRepositories := make(map[string]bool)
+	err := getAllFlaggedRepositories(t, client, &addressedRepositories)
+	requireNoErr(t, err, "failed to get existing issues")
 
-	if err != nil {
-		log.Println("Failed to get existing issues. Exiting...")
-		return
-	}
 	doc.Find("body li > a:first-child").EachWithBreak(func(_ int, s *goquery.Selection) bool {
 		href, ok := s.Attr("href")
 		if !ok {
@@ -255,6 +256,7 @@ func TestStaleRepository(t *testing.T) {
 		} else {
 			isGithubRepo := reGithubRepo.MatchString(href)
 			if isGithubRepo {
+				// FIXME: this is `or` expression. Probably we need `and`
 				isRepoAdded := testRepoState(true, href, client, &staleRepos)
 				isRepoAdded = testCommitAge(!isRepoAdded, href, client, &staleRepos)
 				if isRepoAdded {
@@ -266,5 +268,5 @@ func TestStaleRepository(t *testing.T) {
 		}
 		return true
 	})
-	createIssue(staleRepos, client)
+	createIssue(t, staleRepos, client)
 }
