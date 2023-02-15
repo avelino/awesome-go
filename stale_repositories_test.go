@@ -51,10 +51,12 @@ var ctr = 0
 type tokenSource struct {
 	AccessToken string
 }
+
 type issue struct {
 	Title string `json:"title"`
 	Body  string `json:"body"`
 }
+
 type repo struct {
 	Archived bool `json:"archived"`
 }
@@ -65,6 +67,7 @@ func (t *tokenSource) Token() (*oauth2.Token, error) {
 	}
 	return token, nil
 }
+
 func getRepositoriesFromBody(body string) []string {
 	links := strings.Split(body, "- ")
 	for idx, link := range links {
@@ -81,6 +84,7 @@ func getRepositoriesFromBody(body string) []string {
 	}
 	return links
 }
+
 func generateIssueBody(t *testing.T, repositories []string) (string, error) {
 	t.Helper()
 
@@ -142,10 +146,12 @@ func getAllFlaggedRepositories(t *testing.T, client *http.Client, flaggedReposit
 	}
 	return nil
 }
+
 func containsOpenIssue(link string, openIssues map[string]bool) bool {
 	_, ok := openIssues[link]
 	return ok
 }
+
 func testRepoState(toRun bool, href string, client *http.Client, staleRepos *[]string) bool {
 	if toRun {
 		ownerRepo := strings.ReplaceAll(href, "https://github.com", "")
@@ -189,6 +195,7 @@ func testRepoState(toRun bool, href string, client *http.Client, staleRepos *[]s
 	}
 	return false
 }
+
 func testCommitAge(toRun bool, href string, client *http.Client, staleRepos *[]string) bool {
 	if toRun {
 		var respObj []map[string]interface{}
