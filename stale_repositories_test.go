@@ -59,10 +59,6 @@ type issue struct {
 	Body  string `json:"body"`
 }
 
-type repo struct {
-	Archived bool `json:"archived"`
-}
-
 func (t *tokenSource) Token() (*oauth2.Token, error) {
 	return &oauth2.Token{
 		AccessToken: t.AccessToken,
@@ -179,7 +175,10 @@ func testRepoState(toRun bool, href string, client *http.Client, staleRepos *[]s
 
 	defer resp.Body.Close()
 
-	var repoResp repo
+	var repoResp struct {
+		Archived bool `json:"archived"`
+	}
+
 	if err := json.NewDecoder(resp.Body).Decode(&repoResp); err != nil {
 		return false
 	}
