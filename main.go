@@ -248,12 +248,14 @@ func extractCategory(doc *goquery.Document, selector string) (*Category, error) 
 			url, _ := selLink.Attr("href")
 			link := Link{
 				Title: selLink.Text(),
-				// FIXME: Title contains only title but description contains Title + description
+				// FIXME(kazhuravlev): Title contains only title but
+				// 	description contains Title + description
 				Description: selLi.Text(),
 				Url:         url,
 			}
 			links = append(links, link)
 		})
+
 		// FIXME: In this case we would have an empty category in main index.html with link to 404 page.
 		if len(links) == 0 {
 			err = errors.New("category does not contain links")
