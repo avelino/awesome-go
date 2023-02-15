@@ -175,7 +175,6 @@ func renderCategories(categories map[string]Category) error {
 }
 
 func renderSitemap(categories map[string]Category) error {
-	// FIXME: handle error
 	f, err := os.Create(outSitemapFile)
 	if err != nil {
 		return fmt.Errorf("create sitemap file `%s`: %w", outSitemapFile, err)
@@ -192,29 +191,43 @@ func renderSitemap(categories map[string]Category) error {
 
 func extractCategories(doc *goquery.Document) (map[string]Category, error) {
 	categories := make(map[string]Category)
+	var rootErr error
+
 	doc.
 		Find("body #contents").
 		NextFiltered("ul").
 		Find("ul").
-		Each(func(_ int, selUl *goquery.Selection) {
+		EachWithBreak(func(_ int, selUl *goquery.Selection) bool {
+			if rootErr != nil {
+				return false
+			}
+
 			selUl.
 				Find("li a").
-				Each(func(_ int, s *goquery.Selection) {
+				EachWithBreak(func(_ int, s *goquery.Selection) bool {
 					selector, exists := s.Attr("href")
 					if !exists {
-						return
+						return true
 					}
 
 					category, err := extractCategory(doc, selector)
 					if err != nil {
-						return
+						rootErr = fmt.Errorf("extract category: %w", err)
+						return false
 					}
 
 					categories[selector] = *category
+
+					return true
 				})
+
+			return true
 		})
 
-	// FIXME: handle error
+	if rootErr != nil {
+		return nil, fmt.Errorf("extract categories: %w", rootErr)
+	}
+
 	return categories, nil
 }
 
