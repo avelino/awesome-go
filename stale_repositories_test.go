@@ -214,9 +214,9 @@ func getRepoStates(toRun bool, href string, client *http.Client) ([]string, bool
 	return staleRepos, isRepoAdded
 }
 
-func testCommitAge(toRun bool, href string, client *http.Client, staleRepos *[]string) bool {
+func checkRepoCommitActivity(toRun bool, href string, client *http.Client) ([]string, bool) {
 	if !toRun {
-		return false
+		return nil, false
 	}
 
 	ownerRepo := strings.ReplaceAll(href, "https://github.com", "")
@@ -224,7 +224,7 @@ func testCommitAge(toRun bool, href string, client *http.Client, staleRepos *[]s
 	req, err := http.NewRequest("GET", apiCall, nil)
 	if err != nil {
 		log.Printf("Failed at repository %s\n", href)
-		return false
+		return nil, false
 	}
 
 	since := timeNow.Add(-1 * 365 * 24 * numberOfYears * time.Hour)
@@ -237,23 +237,26 @@ func testCommitAge(toRun bool, href string, client *http.Client, staleRepos *[]s
 	resp, err := client.Do(req)
 	if err != nil {
 		log.Printf("Failed at repository %s\n", href)
-		return false
+		return nil, false
 	}
 
 	defer resp.Body.Close()
 
 	var respObj []map[string]interface{}
+	// FIXME: handle error in all that cases
 	json.NewDecoder(resp.Body).Decode(&respObj)
 
-	isRepoAdded := false
+	var warnings []string
+	var isRepoAdded bool
 	isAged := len(respObj) == 0
 	if isAged {
 		log.Printf("%s has not had a commit in a while", href)
-		*staleRepos = append(*staleRepos, href)
+		warnings = append(warnings, href)
 		isRepoAdded = true
 	}
 
-	return isRepoAdded
+	// FIXME: expression `(len(warnings) > 0) == isRepoAdded` is always true.
+	return warnings, isRepoAdded
 }
 
 func TestStaleRepository(t *testing.T) {
@@ -306,7 +309,9 @@ func TestStaleRepository(t *testing.T) {
 			staleRepos2, isRepoAdded := getRepoStates(true, href, client)
 			staleRepos = append(staleRepos, staleRepos2...)
 
-			isRepoAdded = testCommitAge(!isRepoAdded, href, client, &staleRepos)
+			staleRepos2, isRepoAdded = checkRepoCommitActivity(!isRepoAdded, href, client)
+			staleRepos = append(staleRepos, staleRepos2...)
+
 			if isRepoAdded {
 				ctr++
 			}
