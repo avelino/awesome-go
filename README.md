@@ -2288,6 +2288,7 @@ _Libraries for testing codebases and generating test data._
   - [govcr](https://github.com/seborama/govcr) - HTTP mock for Golang: record and replay HTTP interactions for offline testing.
   - [hoverfly](https://github.com/SpectoLabs/hoverfly) - HTTP(S) proxy for recording and simulating REST/SOAP APIs with extensible middleware and easy-to-use CLI.
   - [httpmock](https://github.com/jarcoal/httpmock) - Easy mocking of HTTP responses from external resources.
+  - [httpmockserver](https://github.com/ybbus/httpmockserver) - HTTP Mock Server that provides an easy way to mock external http resources with plenty of validators and matchers.
   - [minimock](https://github.com/gojuno/minimock) - Mock generator for Go interfaces.
   - [mockery](https://github.com/vektra/mockery) - Tool to generate Go interfaces.
   - [mockhttp](https://github.com/tv42/mockhttp) - Mock object for Go http.ResponseWriter.
