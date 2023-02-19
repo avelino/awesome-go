@@ -2168,6 +2168,7 @@ _Libraries and tools for binary serialization._
 - [simple-jwt-provider](https://github.com/leberKleber/simple-jwt-provider) - Simple and lightweight provider which exhibits JWTs, supports login, password-reset (via mail) and user management.
 - [Trickster](https://github.com/tricksterproxy/trickster) - HTTP reverse proxy cache and time series accelerator.
 - [Wish](https://github.com/charmbracelet/wish) - Make SSH apps, just like that!
+- [Snapify](https://github.com/s4kibs4mi/snapify) - A RESTful API service to take screenshot of any webpage using headless browser.
 
 **[⬆ back to top](#contents)**
 
