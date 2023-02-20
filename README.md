@@ -734,6 +734,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [hasql](https://golang.yandex/hasql) - Library for accessing multi-host SQL database installations.
 - [kingshard](https://github.com/flike/kingshard) - kingshard is a high performance proxy for MySQL powered by Golang.
 - [octillery](https://github.com/knocknote/octillery) - Go package for sharding databases ( Supports every ORM or raw SQL ).
+- [onedump](https://github.com/liweiyi88/onedump) - Database backup from different drivers to different destinations with one command and configuration.
 - [orchestrator](https://github.com/github/orchestrator) - MySQL replication topology manager & visualizer.
 - [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable) - Advanced scheduling for PostgreSQL.
 - [pgweb](https://github.com/sosedoff/pgweb) - Web-based PostgreSQL database browser.
