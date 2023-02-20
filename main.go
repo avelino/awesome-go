@@ -49,13 +49,12 @@ var outIndexFile = filepath.Join(outDir, "index.html")
 var outSitemapFile = filepath.Join(outDir, "sitemap.xml")
 
 func main() {
-	if err := renderAll(); err != nil {
+	if err := buildStaticSite(); err != nil {
 		panic(err)
 	}
 }
 
-// FIXME: choose a better name
-func renderAll() error {
+func buildStaticSite() error {
 	if err := dropCreateDir(outDir); err != nil {
 		return fmt.Errorf("drop-create out dir: %w", err)
 	}
