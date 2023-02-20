@@ -38,9 +38,9 @@ var staticFiles = []string{
 
 // TODO: embed
 // Templates
-var tplIndex = template.Must(template.ParseFiles("tmpl/tmpl.html"))
-var tplCategoryIndex = template.Must(template.ParseFiles("tmpl/cat-tmpl.html"))
-var tplSitemap = template.Must(template.ParseFiles("tmpl/sitemap-tmpl.xml"))
+var tplIndex = template.Must(template.ParseFiles("tmpl/index.tmpl.html"))
+var tplCategoryIndex = template.Must(template.ParseFiles("tmpl/category-index.tmpl.html"))
+var tplSitemap = template.Must(template.ParseFiles("tmpl/sitemap.tmpl.xml"))
 
 // Output files
 const outDir = "out/" // NOTE: trailing slash is required
