@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 	cp "github.com/otiai10/copy"
+	"net/url"
 	"os"
 	"path/filepath"
-	"strings"
 	"text/template"
 
 	"github.com/PuerkitoBio/goquery"
@@ -280,28 +280,39 @@ func extractCategory(doc *goquery.Document, selector string) (*Category, error) 
 }
 
 func rewriteLinksInIndex(doc *goquery.Document, categories map[string]Category) error {
+	var iterErr error
 	doc.
 		Find("body #content ul li ul li a").
-		Each(func(_ int, s *goquery.Selection) {
+		EachWithBreak(func(_ int, s *goquery.Selection) bool {
 			href, hrefExists := s.Attr("href")
 			if !hrefExists {
 				// FIXME: looks like is an error. Tag `a` in our case always
 				//   	  should have `href` attr.
-				return
+				return true
 			}
 
 			// do not replace links if no page has been created for it
 			_, catExists := categories[href]
 			if !catExists {
-				return
+				return true
 			}
 
-			// FIXME: parse url
-			uri := strings.SplitAfter(href, "#")
-			if len(uri) >= 2 && uri[1] != "contents" {
-				s.SetAttr("href", uri[1])
+			linkUrl, err := url.Parse(href)
+			if err != nil {
+				iterErr = err
+				return false
 			}
+
+			if linkUrl.Fragment != "" && linkUrl.Fragment != "contents" {
+				s.SetAttr("href", linkUrl.Fragment)
+			}
+
+			return true
 		})
+
+	if iterErr != nil {
+		return iterErr
+	}
 
 	fmt.Printf("Rewrite links in Index file: %s\n", outIndexFile)
 	resultHtml, err := doc.Html()
