@@ -33,7 +33,6 @@ const readmePath = "README.md"
 // This files should be copied 'as is' to outDir directory
 var staticFiles = []string{
 	"tmpl/assets",
-	"tmpl/_redirects",
 	"tmpl/robots.txt",
 }
 
