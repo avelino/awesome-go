@@ -1,0 +1,22 @@
+name: Check For Stale Repositories
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0'
+
+permissions:
+  contents: read  #  to fetch code (actions/checkout)
+
+jobs:
+  build:
+    name: Running test
+    runs-on: ubuntu-latest
+    container: golang:latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Get dependencies
+      run: go get -v -t -d ./...
+    - name: run script
+      run: go test stale_repositories_test.go scripts.go
+      env:
+        OAUTH_TOKEN: ${{secrets.OAUTH_TOKEN}}
