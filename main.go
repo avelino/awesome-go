@@ -4,7 +4,9 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
+	"github.com/avelino/awesome-go/pkg/markdown"
 	cp "github.com/otiai10/copy"
+	template2 "html/template"
 	"net/url"
 	"os"
 	"path/filepath"
@@ -320,6 +322,38 @@ func rewriteLinksInIndex(doc *goquery.Document, categories map[string]Category) 
 
 	if err := os.WriteFile(outIndexFile, []byte(resultHtml), 0644); err != nil {
 		return fmt.Errorf("rewrite index file: %w", err)
+	}
+
+	return nil
+}
+
+// renderIndex generate site html (index.html) from markdown file
+func renderIndex(srcFilename, outFilename string) error {
+	input, err := os.ReadFile(srcFilename)
+	if err != nil {
+		return err
+	}
+
+	body, err := markdown.ToHTML(input)
+	if err != nil {
+		return err
+	}
+
+	f, err := os.Create(outFilename)
+	if err != nil {
+		return err
+	}
+
+	fmt.Printf("Write Index file: %s\n", outIndexFile)
+	data := map[string]interface{}{
+		"Body": template2.HTML(body),
+	}
+	if err := tplIndex.Execute(f, data); err != nil {
+		return err
+	}
+
+	if err := f.Close(); err != nil {
+		return fmt.Errorf("close index file: %w", err)
 	}
 
 	return nil
