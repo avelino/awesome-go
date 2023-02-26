@@ -1,4 +1,4 @@
-/* Package main contains code for generate static site. */
+// Package main contains code for generate static site.
 package main
 
 import (
