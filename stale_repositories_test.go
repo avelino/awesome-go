@@ -237,7 +237,9 @@ func checkRepoCommitActivity(toRun bool, href string, client *http.Client) ([]st
 
 	var respObj []map[string]interface{}
 	// FIXME: handle error in all that cases
-	json.NewDecoder(resp.Body).Decode(&respObj)
+	if err := json.NewDecoder(resp.Body).Decode(&respObj); err != nil {
+		return nil, false
+	}
 
 	var warnings []string
 	var isRepoAdded bool
@@ -296,7 +298,7 @@ func TestStaleRepository(t *testing.T) {
 				log.Printf("%s non-github repo not currently handled", href)
 			}
 
-			// FIXME: this is `or` expression. Probably we need `and`?
+			// FIXME: this is `or` expres24sion. Probably we need `and`?
 			warnings, isRepoAdded := checkRepoAvailability(true, href, client)
 			staleRepos = append(staleRepos, warnings...)
 
