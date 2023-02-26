@@ -101,6 +101,8 @@ func TestSeparator(t *testing.T) {
 }
 
 func TestRenderIndex(t *testing.T) {
+	requireNoErr(t, mkdirAll(outDir), "output dir should exists")
+
 	err := renderIndex(readmePath, outIndexFile)
 	requireNoErr(t, err, "html should be rendered")
 }
