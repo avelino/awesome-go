@@ -1,3 +1,4 @@
+/* Package main contains code for generate static site. */
 package main
 
 import (
@@ -16,12 +17,14 @@ import (
 	"github.com/avelino/awesome-go/pkg/slug"
 )
 
+// Link contains info about awesome url
 type Link struct {
 	Title       string
-	Url         string
+	URL         string
 	Description string
 }
 
+// Category describe link category
 type Category struct {
 	Title       string
 	Slug        string
@@ -251,7 +254,7 @@ func extractCategory(doc *goquery.Document, selector string) (*Category, error) 
 				// FIXME(kazhuravlev): Title contains only title but
 				// 	description contains Title + description
 				Description: selLi.Text(),
-				Url:         url,
+				URL:         url,
 			}
 			links = append(links, link)
 		})
@@ -297,14 +300,14 @@ func rewriteLinksInIndex(doc *goquery.Document, categories map[string]Category) 
 				return true
 			}
 
-			linkUrl, err := url.Parse(href)
+			linkURL, err := url.Parse(href)
 			if err != nil {
 				iterErr = err
 				return false
 			}
 
-			if linkUrl.Fragment != "" && linkUrl.Fragment != "contents" {
-				s.SetAttr("href", linkUrl.Fragment)
+			if linkURL.Fragment != "" && linkURL.Fragment != "contents" {
+				s.SetAttr("href", linkURL.Fragment)
 			}
 
 			return true
@@ -315,12 +318,12 @@ func rewriteLinksInIndex(doc *goquery.Document, categories map[string]Category) 
 	}
 
 	fmt.Printf("Rewrite links in Index file: %s\n", outIndexFile)
-	resultHtml, err := doc.Html()
+	resultHTML, err := doc.Html()
 	if err != nil {
 		return fmt.Errorf("render html: %w", err)
 	}
 
-	if err := os.WriteFile(outIndexFile, []byte(resultHtml), 0644); err != nil {
+	if err := os.WriteFile(outIndexFile, []byte(resultHTML), 0644); err != nil {
 		return fmt.Errorf("rewrite index file: %w", err)
 	}
 
