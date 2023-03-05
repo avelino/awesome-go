@@ -270,6 +270,7 @@ _Tools for building blockchains._
 - [gossamer](https://github.com/ChainSafe/gossamer) - A Go implementation of the Polkadot Host.
 - [solana-go](https://github.com/gagliardetto/solana-go) - Go library to interface with Solana JSON RPC and WebSocket interfaces.
 - [tendermint](https://github.com/tendermint/tendermint) - High-performance middleware for transforming a state machine written in any programming language into a Byzantine Fault Tolerant replicated state machine using the Tendermint consensus and blockchain protocols.
+- [wallet-tracker](https://github.com/aydinnyunus/wallet-tracker) - Detect real scammers with Wallet-Tracker CLI from anywhere.
 
 **[⬆ back to top](#contents)**
 
@@ -1035,6 +1036,7 @@ _Libraries for handling files and file systems._
 - [bigfile](https://github.com/bigfile/bigfile) - A file transfer system, support to manage files with http api, rpc call and ftp client.
 - [checksum](https://github.com/codingsince1985/checksum) - Compute message digest, like MD5, SHA256, SHA1, CRC or BLAKE2s, for large files.
 - [copy](https://github.com/otiai10/copy) - Copy directory recursively.
+- [exiflooter](https://github.com/aydinnyunus/exifLooter) - ExifLooter finds geolocation on all image urls and directories also integrates with OpenStreetMap
 - [flop](https://github.com/homedepot/flop) - File operations library which aims to mirror feature parity with [GNU cp](https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html).
 - [gdu](https://github.com/dundee/gdu) - Disk usage analyzer with console interface.
 - [go-csv-tag](https://github.com/artonge/go-csv-tag) - Load csv file using tag.
