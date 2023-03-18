@@ -1,5 +1,3 @@
-name: Check for Spammy Issues
-
 on:
   issue:
     types: [opened]
