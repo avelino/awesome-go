@@ -3,14 +3,12 @@ We appreciate and recognize [all contributors](https://github.com/avelino/awesom
 
 # Contribution Guidelines
 
-> Please be aware that we want to accept your contribution, but we have **some rules to keep the minimum quality** 
-of the packages listed here. All reviews are **not personal feedback**, 
-even if you are a _developer reviewing your contribution_. **Sorry if we can't meet your expectations; we do our best**.
+> Please be aware that we want to accept your contribution, but we have **some rules to keep the minimum quality** of the packages listed here. All reviews are **not personal feedback**, even if you are a _developer reviewing your contribution_. **Sorry, if we can't meet your expectations; we do our best**.
 
 - **To add, remove, or change things on the list:** Submit a pull request
 
 To set this list apart from and complement the excellent [Go wiki Projects page](https://golang.org/wiki/Projects), 
-and other lists, awesome-go is a specially curated list for high-quality, actively maintained Go packages and resources.
+and other lists, awesome-go is a specially curated list of high-quality, actively maintained Go packages and resources.
 
 Please contribute links to packages/projects you have used or are familiar with. This will help ensure high-quality entries.
 
@@ -43,7 +41,7 @@ to provide them.
 
 One way to accomplish the above is to add badges to your project's README file.
 - Use https://pkg.go.dev/badge/ to create the pkg.go.dev link.
-- Go to https://goreportcard.com/ to generate a Go Report Card report, then click on the report badge in the upper right corner to see details on how to add the badge to your README.
+- Go to https://goreportcard.com/ to generate a Go Report Card report, then click on the report badge in the upper-right corner to see details on how to add the badge to your README.
 - Codecov, coveralls, and gocover all offer ways to create badges for code coverage reports. Another option is to generate a badge as part of a continuous integration process. See [Code Coverage](COVERAGE.md) for an example.
 
 ## How to add an item to the list
@@ -58,13 +56,13 @@ Open a pull request against the README.md document that adds the repository to t
 - Remember to put a period `.` at the end of the project description.
 
 If you are creating a new category, move the projects that apply to the new category, ensuring
-that the resulting list has at least 3 projects in every category and that the categories are alphabetized.
+that the resulting list has at least 3 projects in every category, and that the categories are alphabetized.
 
 Fill out the template in your PR with the links asked for. If you accidentally remove the PR template from the submission, you can find it [here](https://github.com/avelino/awesome-go/blob/main/.github/PULL_REQUEST_TEMPLATE.md).
 
 
 ## Congrats, your project got accepted - what now?
-You are an awesome project now! Feel encouraged to tell others about it by adding one of these badges:  
+You are an outstanding project now! Feel encouraged to tell others about it by adding one of these badges:  
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)  
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)
 
@@ -80,9 +78,9 @@ To prevent removal from awesome-go, your project must maintain the following qua
 - All links to quality reports should be to the most recent official release or current ongoing development.
 
 Highly recommended but not required:
-- A continuous integration process be part of the ongoing development process
+- A continuous integration process to be part of the ongoing development process
 - That the project uses a pull-request process, and the owners do not commit directly to the repository
-- That the pull-request process requires the continuous-integration tests pass before a pull request can be merged
+- That the pull-request process requires the continuous-integration tests to pass before a pull request can be merged
 
 ## How to remove an item from the list
 
@@ -120,12 +118,12 @@ that the PR will be closed.
 
 ## Reporting issues
 
-Please open an issue if you would like to discuss anything that could be improved or have suggestions for making the list a more valuable resource. We realize sometimes packages fall into abandonment or have breaking builds for extended periods of time, so if you see that, feel free to change its listing or let us know. We also realize that sometimes projects are just going through transitions or are more experimental in nature. These can still be cool, but we can indicate them as transitory or experimental.
+Please open an issue if you would like to discuss anything that could be improved or have suggestions for making the list a more valuable resource. We realize sometimes packages fall into abandonment or have breaking builds for extended periods of time, so if you see that, feel free to change its listing, or please let us know. We also realize that sometimes projects are just going through transitions or are more experimental in nature. These can still be cool, but we can indicate them as transitory or experimental.
 
-Removal changes will not be applied until they have been pending for a minimum of 1 week (7 days). This grace window benefits projects that may be going through a temporary transition but are otherwise worthy of being on the list.
+Removal changes will not be applied until they have been pending for a minimum of 1 week (7 days). This grace window benefits projects that may be going through a temporary transition, but are otherwise worthy of being on the list.
 
 Thanks, everyone!
 
-## How decision are made
+## How decisions are made
 
 The official group of maintainers has the final decision on what PRs are accepted. Discussions are made openly in issues. Decisions are made by consensus.
