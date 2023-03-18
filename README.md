@@ -20,15 +20,6 @@ _Special thanks to_
 <table cellpadding="5">
 <tbody align="center">
 <tr>
-<td colspan="2">
-<a href="https://bit.ly/awesome-go-doppler">
-<img src="https://avelino.run/sponsors/doppler-logo.png" width="200" alt="Doppler"><br/>
-<b>Quit struggling with scattered API keys and access controls.</b><br/>
-<sub>Keep your secrets in sync across environments, servers, and teams with Doppler.</sub>
-</a>
-</td>
-</tr>
-<tr>
 <td>
 <a href="https://bit.ly/awesome-go-workos">
 <img src="https://avelino.run/sponsors/workos-logo-white-bg.svg" width="200" alt="WorkOS"><br/>
