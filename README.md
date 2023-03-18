@@ -1401,6 +1401,7 @@ _Libraries for working with JSON._
 - [go-respond](https://github.com/nicklaw5/go-respond) - Go package for handling common HTTP JSON responses.
 - [gojq](https://github.com/elgs/gojq) - JSON query in Golang.
 - [gojson](https://github.com/ChimeraCoder/gojson) - Automatically generate Go (golang) struct definitions from example JSON.
+- [htmljson](https://github.com/nikolaydubina/htmljson) - Rich rendering of JSON as HTML in Go.
 - [JayDiff](https://github.com/yazgazan/jaydiff) - JSON diff utility written in Go.
 - [jettison](https://github.com/wI2L/jettison) - Fast and flexible JSON encoder for Go.
 - [jscan](https://github.com/romshark/jscan) - High performance zero-allocation JSON iterator.
