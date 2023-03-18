@@ -1,5 +1,6 @@
+name: Issues spammy check
 on:
-  issue:
+  issues:
     types: [opened]
 
 jobs:
