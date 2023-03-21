@@ -857,6 +857,7 @@ _Libraries for working with dates and times._
 - [go-week](https://github.com/stoewer/go-week) - An efficient package to work with ISO8601 week dates.
 - [gostradamus](https://github.com/bykof/gostradamus) - A Go package for working with dates.
 - [iso8601](https://github.com/relvacode/iso8601) - Efficiently parse ISO8601 date-times without regex.
+- [jalali](https://github.com/mshafiee/jalali) - Comprehensive Jalali (Persian) calendar library compatible with Go's standard time package.
 - [kair](https://github.com/GuilhermeCaruso/kair) - Date and Time - Golang Formatting Library.
 - [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
 - [NullTime](https://github.com/kirillDanshin/nulltime) - Nullable `time.Time`.
