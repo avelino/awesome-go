@@ -19,7 +19,7 @@ jobs:
     - name: Get dependencies
       run: go get -v -t -d ./...
     - name: Make awesome-go.com
-      run: go run make_site.go scripts.go
+      run: go run .
     - name: deploy awesome-go.com
       uses: jsmrcaga/action-netlify-deploy@v1.1.0
       with:
