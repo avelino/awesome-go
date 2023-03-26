@@ -1,0 +1,24 @@
+name: Fist comment in new pull request
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  commentCreated:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first comment
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: 1
+          body: |
+            Thank you for contributing with [awesome-go](https://awesome-go.com/), we will revise your contribution as soon as possible.
+            
+            Make sure you add the links in the body of the pull request that are requested in the [contribution guide](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md):
+            - godoc.org or pkg.go.dev
+            - goreportcard.com
+            - coverage
+            
+            > your project is about to be approved, it's under revision, it may take a few days
