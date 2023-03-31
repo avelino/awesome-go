@@ -3390,6 +3390,12 @@ _Add the group of your city/country here (send **PR**)_
 
 **[⬆ back to top](#contents)**
 
+### Mastodon
+
+- [@golang_discussions](https://mastodon.social/@golang_discussions)
+
+**[⬆ back to top](#contents)**
+
 ### Reddit
 
 - [r/golang](https://www.reddit.com/r/golang/)
