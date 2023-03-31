@@ -3389,6 +3389,7 @@ _Add the group of your city/country here (send **PR**)_
 - [@golangch](https://twitter.com/golangch)
 - [@golangflow](https://twitter.com/golangflow)
 - [@golangweekly](https://twitter.com/golangweekly)
+- [@GoDiscussions](https://twitter.com/GoDiscussions)
 
 **[⬆ back to top](#contents)**
 
