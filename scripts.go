@@ -37,9 +37,6 @@ type content struct {
 
 // GenerateHTML generate site html (index.html) from markdown file
 func GenerateHTML(srcFilename, outFilename string) error {
-	// options
-	const tplPath = "tmpl/tmpl.html"
-
 	input, err := ioutil.ReadFile(srcFilename)
 	if err != nil {
 		return err
