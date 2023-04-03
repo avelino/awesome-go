@@ -12,7 +12,7 @@ jobs:
         uses: peter-evans/create-or-update-comment@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          issue-number: 1
+          issue-number: ${{ github.event.pull_request.number }}
           body: |
             Thank you for contributing with [awesome-go](https://awesome-go.com/), we will revise your contribution as soon as possible.
             
