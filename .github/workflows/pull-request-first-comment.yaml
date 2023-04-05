@@ -7,11 +7,12 @@ on:
 jobs:
   commentCreated:
     runs-on: ubuntu-latest
+    environment: action
     steps:
       - name: first comment
         uses: peter-evans/create-or-update-comment@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           issue-number: ${{ github.event.pull_request.number }}
           body: |
             Thank you for contributing with [awesome-go](https://awesome-go.com/), we will revise your contribution as soon as possible.
