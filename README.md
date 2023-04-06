@@ -387,6 +387,7 @@ _Libraries for building standard or basic Command Line applications._
 - [flag](https://github.com/cosiner/flag) - Simple but powerful command line option parsing library for Go supporting subcommand.
 - [flaggy](https://github.com/integrii/flaggy) - A robust and idiomatic flags package with excellent subcommand support.
 - [flagvar](https://github.com/sgreben/flagvar) - A collection of flag argument types for Go's standard `flag` package.
+- [gabbro](https://github.com/Akecel/gabbro) - Gabbro is a Cross-Platefrom CLI written in Go allowing a simplified interaction with the IGDB API.
 - [go-andotp](https://github.com/grijul/go-andotp) - A CLI program to encrypt/decrypt [andOTP](https://github.com/andOTP/andOTP) files. Can be used as a library as well.
 - [go-arg](https://github.com/alexflint/go-arg) - Struct-based argument parsing in Go.
 - [go-commander](https://github.com/yitsushi/go-commander) - Go library to simplify CLI workflow.
