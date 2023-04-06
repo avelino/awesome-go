@@ -3424,6 +3424,7 @@ _Add the group of your city/country here (send **PR**)_
 - [Golang Flow](https://golangflow.io) - Post Updates, News, Packages and more.
 - [Golang News](https://golangnews.com) - Links and news about Go programming.
 - [Golang Resources](https://golangresources.com) - A curation of the best articles, exercises, talks and videos to learn Go.
+- [Golang Weekly](https://discu.eu/weekly/golang/) - Each monday projects, tutorials and articles about Go.
 - [golang-graphics](https://github.com/mholt/golang-graphics) - Collection of Go images, graphics, and art.
 - [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - Go mailing list.
 - [Google Plus Community](https://plus.google.com/communities/114112804251407510571) - The Google+ community for #golang enthusiasts.
@@ -3438,7 +3439,6 @@ _Add the group of your city/country here (send **PR**)_
 - [studygolang](https://studygolang.com) - The community of studygolang in China.
 - [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
 - [TutorialEdge - Golang](https://tutorialedge.net/course/golang/)
-- [Golang Weekly](https://discu.eu/weekly/golang/) - Each monday projects, tutorials and articles about Go.
 
 **[⬆ back to top](#contents)**
 
