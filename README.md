@@ -2225,6 +2225,7 @@ _Libraries for testing codebases and generating test data._
   - [dsunit](https://github.com/viant/dsunit) - Datastore testing for SQL, NoSQL, structured files.
   - [embedded-postgres](https://github.com/fergusstrange/embedded-postgres) - Run a real Postgres database locally on Linux, OSX or Windows as part of another Go application or test.
   - [endly](https://github.com/viant/endly) - Declarative end to end functional testing.
+  - [ezdc](https://github.com/lynchborg/ezdc) - Test harness for running docker compose.
   - [fixenv](https://github.com/rekby/fixenv) - Fixture manage engine, inspired by pytest fixtures.
   - [fluentassert](https://github.com/fluentassert/verify) - Extensible, type-safe, fluent assertion Go library.
   - [flute](https://github.com/suzuki-shunsuke/flute) - HTTP client testing framework.
