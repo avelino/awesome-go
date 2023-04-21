@@ -8,6 +8,8 @@ jobs:
   commentCreated:
     runs-on: ubuntu-latest
     environment: action
+    env:
+      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
     steps:
       - name: first comment
         uses: peter-evans/create-or-update-comment@v2
