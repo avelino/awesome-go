@@ -1628,10 +1628,10 @@ _Libraries for working with dependency injection._
 - [dig](https://github.com/uber-go/dig) - A reflection based dependency injection toolkit for Go.
 - [dingo](https://github.com/i-love-flamingo/dingo) - A dependency injection toolkit for Go, based on Guice.
 - [do](https://github.com/samber/do) - A dependency injection framework based on Generics.
-- [fx](https://github.com/uber-go/fx) - A dependency injection based application framework for Go (built on top of dig).
+- [fx](https://github.com/uber-go/fx) - A dependency injection based application framework for Go (built on top of dig).\
+- [go-ioc](https://github.com/dgawlik/go-ioc) - A minimalist Ioc Container for Go.
 - [gocontainer](https://github.com/vardius/gocontainer) - Simple Dependency Injection Container.
 - [goioc/di](https://github.com/goioc/di) - Spring-inspired Dependency Injection Container.
-- [go-ioc](https://github.com/dgawlik/go-ioc) - A minimalist Ioc Container for Go.
 - [GoLobby/Container](https://github.com/golobby/container) - GoLobby Container is a lightweight yet powerful IoC dependency injection container for the Go programming language.
 - [google/wire](https://github.com/google/wire) - Automated Initialization in Go.
 - [HnH/di](https://github.com/HnH/di) - DI container library that is focused on clean API and flexibility.
