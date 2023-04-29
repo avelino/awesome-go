@@ -3041,6 +3041,7 @@ _Plugin for text editors and IDEs._
 - [richgo](https://github.com/kyoh86/richgo) - Enrich `go test` outputs with text decorations.
 - [roumon](https://github.com/becheran/roumon) - Monitor current state of all active goroutines via a command line interface.
 - [rts](https://github.com/galeone/rts) - RTS: response to struct. Generates Go structs from server responses.
+- [textra](https://github.com/ravsii/textra) - Extract Go struct field names, types and tags for filtering and exporting.
 - [typex](https://github.com/dtgorski/typex) - Examine Go types and their transitive dependencies, alternatively export results as TypeScript value objects (or types) declaration.
 
 **[⬆ back to top](#contents)**
