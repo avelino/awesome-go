@@ -2982,6 +2982,7 @@ _Source code analysis tools, also known as Static Application Security Testing (
 - [unconvert](https://github.com/mdempsky/unconvert) - Remove unnecessary type conversions from Go source.
 - [unused](https://github.com/dominikh/go-tools/tree/master/cmd/unused) - unused checks Go code for unused constants, variables, functions and types.
 - [usestdlibvars](https://github.com/sashamelentyev/usestdlibvars) - A linter that detect the possibility to use variables/constants from the Go standard library.
+- [vaccum](https://github.com/daveshanley/vacuum) - An ultra-super-fast, lightweight OpenAPI linter and quality checking tool.
 - [validate](https://github.com/mccoyst/validate) - Automatically validates struct fields with tags.
 
 **[⬆ back to top](#contents)**
