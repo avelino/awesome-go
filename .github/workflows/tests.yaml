@@ -6,14 +6,17 @@ on:
       - 'main'
   pull_request:
 
+permissions:
+  contents: read  #  to fetch code (actions/checkout)
+
 jobs:
   build:
     name: Running test
     runs-on: ubuntu-latest
     container: golang:latest
     steps:
-    - uses: actions/checkout@1.0.0
+    - uses: actions/checkout@v3
     - name: Get dependencies
       run: go get -v -t -d ./...
     - name: Run tests
-      run: go test repo_test.go scripts.go
+      run: go test main_test.go main.go

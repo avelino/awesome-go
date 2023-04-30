@@ -12,7 +12,7 @@ We invite all those who participate in Awesome Go to help us create safe and pos
 
 A supplemental goal of this Code of Conduct is to increase open source citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community.
 
-Communities mirror the societies in which they exist and positive action is essential to counteract the many forms of inequality and abuses of power that exist in society.
+Communities mirror the societies in which they exist, and positive action is essential to counteract the many forms of inequality and abuses of power that exist in society.
 
 If you see someone who is making an extra effort to ensure our community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, we want to know.
 
@@ -20,28 +20,28 @@ If you see someone who is making an extra effort to ensure our community is welc
 
 The following behaviors are expected and requested of all community members:
 
-*   Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.
-*   Exercise consideration and respect in your speech and actions.
-*   Attempt collaboration before conflict.
-*   Refrain from demeaning, discriminatory, or harassing behavior and speech.
-*   Be mindful of your surroundings and of your fellow participants. Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
-*   Remember that community event venues may be shared with members of the public; please be respectful to all patrons of these locations.
+* Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.
+* Exercise consideration and respect in your speech and actions.
+* Attempt collaboration before conflict.
+* Refrain from demeaning, discriminatory, or harassing behavior and speech.
+* Be mindful of your surroundings and of your fellow participants. Alert community leaders if you notice a dangerous situation, someone distressed, or violations of this Code of Conduct, even if they seem inconsequential.
+* Remember that community event venues may be shared with members of the public; please be respectful to all patrons of these locations.
 
 ## 4. Unacceptable Behavior
 
 The following behaviors are considered harassment and are unacceptable within our community:
 
-*   Violence, threats of violence or violent language directed against another person.
-*   Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language.
-*   Posting or displaying sexually explicit or violent material.
-*   Posting or threatening to post other people’s personally identifying information ("doxing").
-*   Personal insults, particularly those related to gender, sexual orientation, race, religion, or disability.
-*   Inappropriate photography or recording.
-*   Inappropriate physical contact. You should have someone’s consent before touching them.
-*   Unwelcome sexual attention. This includes, sexualized comments or jokes; inappropriate touching, groping, and unwelcomed sexual advances.
-*   Deliberate intimidation, stalking or following (online or in person).
-*   Advocating for, or encouraging, any of the above behavior.
-*   Sustained disruption of community events, including talks and presentations.
+* Violence, threats of violence or violent language directed against another person.
+* Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language.
+* Posting or displaying sexually explicit or violent material.
+* Posting or threatening to post other people’s personally identifying information ("doxing").
+* Personal insults, particularly those related to gender, sexual orientation, race, religion, or disability.
+* Inappropriate photography or recording.
+* Inappropriate physical contact. You should have someone’s consent before touching them.
+* Unwelcome sexual attention. This includes, sexualized comments or jokes; inappropriate touching, groping, and unwelcomed sexual advances.
+* Deliberate intimidation, stalking or following (online or in person).
+* Advocating for, or encouraging, any of the above behavior.
+* Sustained disruption of community events, including talks and presentations.
 
 ## 5. Consequences of Unacceptable Behavior
 
@@ -49,11 +49,11 @@ Unacceptable behavior from any community member, including sponsors and those wi
 
 Anyone asked to stop unacceptable behavior is expected to comply immediately.
 
-If a community member engages in unacceptable behavior, the community organizers may take any action they deem appropriate, up to and including a temporary ban or permanent expulsion from the community without warning (and without refund in the case of a paid event).
+If a community member engages in unacceptable behavior, the community organizers may take any action they deem appropriate, up to and including a temporary ban or permanent expulsion from the community unexpected (and without refund in the case of a paid event).
 
 ## 6. Reporting Guidelines
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible. t@avelino.xxx.
+If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible.
 
 [Reporting Guidelines](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md#contribution-guidelines)
 
@@ -73,7 +73,7 @@ This code of conduct and its related procedures also applies to unacceptable beh
 
 ## 9. Contact info
 
-t@avelino.xxx
+avelinorun AT gmail DOT com
 
 ## 10. License and attribution
 
@@ -81,4 +81,4 @@ This Code of Conduct is distributed under a [Creative Commons Attribution-ShareA
 
 Portions of text derived from the [Django Code of Conduct](https://www.djangoproject.com/conduct/) and the [Geek Feminism Anti-Harassment Policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy).
 
-Retrieved on November 22, 2016 from [http://citizencodeofconduct.org/](http://citizencodeofconduct.org/)
+Retrieved on November 22, 2016

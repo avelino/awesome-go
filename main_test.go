@@ -1,7 +1,9 @@
 package main
 
 import (
-	"io/ioutil"
+	"bytes"
+	"github.com/avelino/awesome-go/pkg/markdown"
+	"os"
 	"regexp"
 	"sort"
 	"strings"
@@ -16,9 +18,38 @@ var (
 	reLinkWithDescription = regexp.MustCompile(`\* \[.*\]\(.*\) - \S.*[\.\!]`)
 )
 
+func requireNoErr(t *testing.T, err error, msg string) {
+	// FIXME: replace to github.com/stretchr/testify
+	t.Helper()
+
+	if msg == "" {
+		msg = "unknown error"
+	}
+
+	if err != nil {
+		t.Fatalf("Received unexpected error [%s]: %+v", msg, err)
+	}
+}
+
+func goqueryFromReadme(t *testing.T) *goquery.Document {
+	t.Helper()
+
+	input, err := os.ReadFile(readmePath)
+	requireNoErr(t, err, "readme file should be exists")
+
+	html, err := markdown.ToHTML(input)
+	requireNoErr(t, err, "markdown should be rendered to html")
+
+	buf := bytes.NewBuffer(html)
+	doc, err := goquery.NewDocumentFromReader(buf)
+	requireNoErr(t, err, "html must be valid for goquery")
+
+	return doc
+}
+
 func TestAlpha(t *testing.T) {
-	query := startQuery()
-	query.Find("body > ul").Each(func(i int, s *goquery.Selection) {
+	doc := goqueryFromReadme(t)
+	doc.Find("body > ul").Each(func(i int, s *goquery.Selection) {
 		if i != 0 {
 			// skip content menu
 			// TODO: the sub items (with 3 hash marks `###`) are staying in
@@ -30,9 +61,9 @@ func TestAlpha(t *testing.T) {
 }
 
 func TestDuplicatedLinks(t *testing.T) {
-	query := startQuery()
+	doc := goqueryFromReadme(t)
 	links := make(map[string]bool, 0)
-	query.Find("body li > a:first-child").Each(func(_ int, s *goquery.Selection) {
+	doc.Find("body li > a:first-child").Each(func(_ int, s *goquery.Selection) {
 		t.Run(s.Text(), func(t *testing.T) {
 			href, ok := s.Attr("href")
 			if !ok {
@@ -49,10 +80,9 @@ func TestDuplicatedLinks(t *testing.T) {
 // Test if an entry has description, it must be separated from link with ` - `
 func TestSeparator(t *testing.T) {
 	var matched, containsLink, noDescription bool
-	input, err := ioutil.ReadFile("./README.md")
-	if err != nil {
-		panic(err)
-	}
+	input, err := os.ReadFile(readmePath)
+	requireNoErr(t, err, "readme should be exists")
+
 	lines := strings.Split(string(input), "\n")
 	for _, line := range lines {
 		line = strings.Trim(line, " ")
@@ -69,11 +99,12 @@ func TestSeparator(t *testing.T) {
 		}
 	}
 }
-func TestGenerateHTML(t *testing.T) {
-	err := GenerateHTML()
-	if err != nil {
-		t.Errorf("html generate error '%s'", err.Error())
-	}
+
+func TestRenderIndex(t *testing.T) {
+	requireNoErr(t, mkdirAll(outDir), "output dir should exists")
+
+	err := renderIndex(readmePath, outIndexFile)
+	requireNoErr(t, err, "html should be rendered")
 }
 
 func testList(t *testing.T, list *goquery.Selection) {
