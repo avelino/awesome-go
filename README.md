@@ -1406,6 +1406,7 @@ _Libraries for working with JSON._
 - [GJSON](https://github.com/tidwall/gjson) - Get a JSON value with one line of code.
 - [go-jsonerror](https://github.com/ddymko/go-jsonerror) - Go-JsonError is meant to allow us to easily create json response errors that follow the JsonApi spec.
 - [go-respond](https://github.com/nicklaw5/go-respond) - Go package for handling common HTTP JSON responses.
+- [gojmapr](https://github.com/limiu82214/gojmapr) - Get simple struct from complex json by json path.
 - [gojq](https://github.com/elgs/gojq) - JSON query in Golang.
 - [gojson](https://github.com/ChimeraCoder/gojson) - Automatically generate Go (golang) struct definitions from example JSON.
 - [htmljson](https://github.com/nikolaydubina/htmljson) - Rich rendering of JSON as HTML in Go.
