@@ -3092,6 +3092,7 @@ _Software written in Go._
 - [go-rocket-update](https://github.com/mouuff/go-rocket-update) - A simple way to make self updating Go applications - Supports Github and Gitlab.
 - [go-selfupdate](https://github.com/sanbornm/go-selfupdate) - Enable your Go applications to self update.
 - [gobrew](https://github.com/cryptojuice/gobrew) - gobrew lets you easily switch between multiple versions of go.
+- [gobrew](https://github.com/kevincobain2000/gobrew) - Go version manager. Super simple tool to install and manage Go versions. Install go without root. Gobrew doesn't require shell rehash.
 - [godbg](https://github.com/sirnewton01/godbg) - Web-based gdb front-end application.
 - [Gogs](https://gogs.io/) - A Self Hosted Git Service in the Go Programming Language.
 - [gonative](https://github.com/inconshreveable/gonative) - Tool which creates a build of Go that can cross compile to all platforms while still using the Cgo-enabled versions of the stdlib packages.
