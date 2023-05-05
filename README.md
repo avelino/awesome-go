@@ -1703,6 +1703,7 @@ _These libraries were placed here because none of the other categories seemed to
 - [bitio](https://github.com/icza/bitio) - Highly optimized bit-level Reader and Writer for Go.
 - [browscap_go](https://github.com/digitalcrab/browscap_go) - GoLang Library for [Browser Capabilities Project](https://browscap.org/).
 - [captcha](https://github.com/steambap/captcha) - Package captcha provides an easy to use, unopinionated API for captcha generation.
+- [common](https://github.com/kubeservice-stack/common) - A library for server framework.
 - [conv](https://github.com/cstockton/go-conv) - Package conv provides fast and intuitive conversions across Go types.
 - [datacounter](https://github.com/miolini/datacounter) - Go counters for readers/writer/http.ResponseWriter.
 - [faker](https://github.com/neotoolkit/faker) - Fake data generator.
