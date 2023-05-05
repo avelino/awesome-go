@@ -1,4 +1,4 @@
-name: Fist comment in new pull request
+name: First comment in new pull request
 
 on:
   pull_request:
