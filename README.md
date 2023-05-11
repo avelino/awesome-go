@@ -2804,6 +2804,7 @@ _Full stack web frameworks._
 - [Buffalo](https://gobuffalo.io) - Bringing the productivity of Rails to Go!
 - [Confetti Framework](https://confetti-framework.github.io/docs/) - Confetti is a Go web application framework with an expressive, elegant syntax. Confetti combines the elegance of Laravel and the simplicity of Go.
 - [Echo](https://github.com/labstack/echo) - High performance, minimalist Go web framework.
+- [EntKit](https://github.com/entkit/entkit) - A framework based on the Ent framework and GraphQL, focused on generating flexible React UIs such as admin dashboards and frontend UIs with authentication and authorization.
 - [Fiber](https://github.com/gofiber/fiber) - An Express.js inspired web framework build on Fasthttp.
 - [Fireball](https://github.com/zpatrick/fireball) - More "natural" feeling web framework.
 - [Flamingo](https://github.com/i-love-flamingo/flamingo) - Framework for pluggable web projects. Including a concept for modules and offering features for DI, Configareas, i18n, template engines, graphql, observability, security, events, routing & reverse routing etc.
