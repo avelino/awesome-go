@@ -1733,6 +1733,7 @@ _These libraries were placed here because none of the other categories seemed to
 - [llvm](https://github.com/llir/llvm) - Library for interacting with LLVM IR in pure Go.
 - [metrics](https://github.com/pascaldekloe/metrics) - Library for metrics instrumentation and Prometheus exposition.
 - [morse](https://github.com/alwindoss/morse) - Library to convert to and from morse code.
+- [Neargo](https://github.com/refaldyrk/neargo) - Module Or Library to get near data by Lat And Lon Using Haversine Algorithm.
 - [numa](https://github.com/lrita/numa) - NUMA is a utility library, which is written in go. It help us to write some NUMA-AWARED code.
 - [openapi](https://github.com/neotoolkit/openapi) - OpenAPI 3.x parser.
 - [pdfgen](https://github.com/hyperboloide/pdfgen) - HTTP service to generate PDF from Json requests.
