@@ -7,14 +7,16 @@ on:
 jobs:
   commentCreated:
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
     environment: action
     env:
-      GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: first comment
-        uses: peter-evans/create-or-update-comment@v2
+        uses: peter-evans/create-or-update-comment@v3
         with:
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           issue-number: ${{ github.event.pull_request.number }}
           body: |
             Thank you for contributing with [awesome-go](https://awesome-go.com/), we will revise your contribution as soon as possible.
