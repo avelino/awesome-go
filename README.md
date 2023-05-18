@@ -922,7 +922,7 @@ _Packages that help with building Distributed Systems._
 - [pglock](https://cirello.io/pglock) - PostgreSQL-backed distributed locking implementation.
 - [pjrpc](https://gitlab.com/pjrpc/pjrpc) - Golang JSON-RPC Server-Client with Protobuf spec.
 - [raft](https://github.com/hashicorp/raft) - Golang implementation of the Raft consensus protocol, by HashiCorp.
-- [raft](https://github.com/coreos/etcd/tree/master/raft) - Go implementation of the Raft consensus protocol, by CoreOS.
+- [raft](https://github.com/etcd-io/raft) - Go implementation of the Raft consensus protocol, by CoreOS.
 - [rain](https://github.com/cenkalti/rain) - BitTorrent client and library.
 - [redis-lock](https://github.com/bsm/redislock) - Simplified distributed locking implementation using Redis.
 - [resgate](https://resgate.io/) - Realtime API Gateway for building REST, real time, and RPC APIs, where all clients are synchronized seamlessly.
@@ -1357,7 +1357,7 @@ _Libraries for programming devices of the IoT._
 
 - [connectordb](https://github.com/connectordb/connectordb) - Open-Source Platform for Quantified Self & IoT.
 - [devices](https://github.com/goiot/devices) - Suite of libraries for IoT devices, experimental for x/exp/io.
-- [ekuiper](https://github.com/if-edge/ekuiper) - Lightweight data stream processing engine for IoT edge.
+- [ekuiper](https://github.com/lf-edge/ekuiper) - Lightweight data stream processing engine for IoT edge.
 - [eywa](https://github.com/xcodersun/eywa) - Project Eywa is essentially a connection manager that keeps track of connected devices.
 - [flogo](https://github.com/tibcosoftware/flogo) - Project Flogo is an Open Source Framework for IoT Edge Apps & Integration.
 - [gatt](https://github.com/paypal/gatt) - Gatt is a Go package for building Bluetooth Low Energy peripherals.
@@ -2110,7 +2110,7 @@ _Libraries that are used to help make your application more secure._
 - [go-yara](https://github.com/hillu/go-yara) - Go Bindings for [YARA](https://github.com/plusvic/yara), the "pattern matching swiss knife for malware researchers (and everyone else)".
 - [goArgonPass](https://github.com/dwin/goArgonPass) - Argon2 password hash and verification designed to be compatible with existing Python and PHP implementations.
 - [goSecretBoxPassword](https://github.com/dwin/goSecretBoxPassword) - A probably paranoid package for securely hashing and encrypting passwords.
-- [Interpol](https://bitbucket.org/vahidi/interpol) - Rule-based data generator for fuzzing and penetration testing.
+- [Interpol](https://github.com/avahidi/interpol) - Rule-based data generator for fuzzing and penetration testing.
 - [lego](https://github.com/go-acme/lego) - Pure Go ACME client library and CLI tool (for use with Let's Encrypt).
 - [memguard](https://github.com/awnumar/memguard) - A pure Go library for handling sensitive values in memory.
 - [nacl](https://github.com/kevinburke/nacl) - Go implementation of the NaCL set of API's.
@@ -2835,7 +2835,7 @@ _Full stack web frameworks._
 - [patron](https://github.com/beatlabs/patron) - Patron is a microservice framework following best cloud practices with a focus on productivity.
 - [Pulse](https://github.com/gopulse/pulse) - Pulse is an HTTP web framework written in Go (Golang)
 - [Resoursea](https://github.com/resoursea/api) - REST framework for quickly writing resource based services.
-- [REST Layer](https://rest-layer.io) - Framework to build REST/GraphQL API on top of databases with mostly configuration over code.
+- [REST Layer](https://github.com/rs/rest-layer) - Framework to build REST/GraphQL API on top of databases with mostly configuration over code.
 - [Revel](https://github.com/revel/revel) - High-productivity web framework for the Go language.
 - [rex](https://github.com/goanywhere/rex) - Rex is a library for modular development built upon gorilla/mux, fully compatible with `net/http`.
 - [rk-boot](https://github.com/rookie-ninja/rk-boot) - A bootstrapper library for building enterprise go microservice with Gin and gRPC quickly and easily.
@@ -2980,7 +2980,6 @@ _Source code analysis tools, also known as Static Application Security Testing (
 - [GoLint](https://github.com/golang/lint) - Golint is a linter for Go source code.
 - [GoPlantUML](https://github.com/jfeliu007/goplantuml) - Library and CLI that generates text plantump class diagram containing information about structures and interfaces with the relationship among them.
 - [goreturns](https://sourcegraph.com/github.com/sqs/goreturns) - Adds zero-value return statements to match the func return types.
-- [gosimple](https://github.com/dominikh/go-tools/tree/master/cmd/gosimple) - gosimple is a linter for Go source code that specialises on simplifying code.
 - [gostatus](https://github.com/shurcooL/gostatus) - Command line tool, shows the status of repositories that contain Go packages.
 - [lint](https://github.com/surullabs/lint) - Run linters as part of go test.
 - [php-parser](https://github.com/z7zmey/php-parser) - A Parser for PHP written in Go.
@@ -2988,7 +2987,6 @@ _Source code analysis tools, also known as Static Application Security Testing (
 - [tickgit](https://github.com/augmentable-dev/tickgit) - CLI and go package for surfacing code comment TODOs (in any language) and applying a `git blame`to identify the author.
 - [todocheck](https://github.com/preslavmihaylov/todocheck) - Static code analyser which links TODO comments in code with issues in your issue tracker.
 - [unconvert](https://github.com/mdempsky/unconvert) - Remove unnecessary type conversions from Go source.
-- [unused](https://github.com/dominikh/go-tools/tree/master/cmd/unused) - unused checks Go code for unused constants, variables, functions and types.
 - [usestdlibvars](https://github.com/sashamelentyev/usestdlibvars) - A linter that detect the possibility to use variables/constants from the Go standard library.
 - [vaccum](https://github.com/daveshanley/vacuum) - An ultra-super-fast, lightweight OpenAPI linter and quality checking tool.
 - [validate](https://github.com/mccoyst/validate) - Automatically validates struct fields with tags.
@@ -3248,8 +3246,6 @@ _Where to discover new Go libraries._
 
 ## Conferences
 
-- [Capital Go](http://www.capitalgolang.com) - Washington, D.C., USA.
-- [dotGo](https://www.dotgo.eu) - Paris, France.
 - [GoCon](https://gocon.connpass.com/) - Tokyo, Japan.
 - [GoDays](https://www.godays.io/) - Berlin, Germany.
 - [GoLab](https://golab.io/) - Florence, Italy.
@@ -3380,9 +3376,7 @@ _Where to discover new Go libraries._
 - [Golang Turkey](https://kommunity.com/goturkiye)
 - [Golang Vancouver, BC](https://www.meetup.com/golangvan/)
 - [Golang Vienna, Austria](https://www.meetup.com/viennago/)
-- [Golang Казань](https://www.meetup.com/GolangKazan/)
 - [Golang Москва](https://www.meetup.com/Golang-Moscow/)
-- [Golang Питер](https://www.meetup.com/Golang-Peter/)
 - [GoSF - San Francisco, CA](https://www.meetup.com/golangsf)
 - [Istanbul Golang](https://www.meetup.com/Istanbul-Golang/)
 - [Seattle Go Programmers](https://www.meetup.com/golang/)
@@ -3402,7 +3396,7 @@ _Add the group of your city/country here (send **PR**)_
 - [Google](https://google.github.io/styleguide/go/)
 - [Hyperledger](https://github.com/hyperledger/fabric/blob/release-1.4/docs/source/style-guides/go-style.rst)
 - [Magnetico](https://github.com/boramalper/magnetico/wiki/magnetico-Design-Specification)
-- [Sourcegraph](https://about.sourcegraph.com/handbook/engineering/go_style_guide)
+- [Sourcegraph](https://docs.sourcegraph.com/dev/background-information/languages/go)
 - [Thanos](https://thanos.io/tip/contributing/coding-style-guide.md/)
 - [Trybe](https://github.com/betrybe/playbook-go/blob/main/README_EN.md)
 - [Uber](https://github.com/uber-go/guide/blob/master/style.md)
