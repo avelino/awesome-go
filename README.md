@@ -836,6 +836,10 @@ _Libraries for building and using SQL._
 - [rueidis](http://github.com/rueian/rueidis) - Fast Redis RESP3 client with auto pipelining and server-assisted client side caching.
 - [xredis](https://github.com/shomali11/xredis) - Typesafe, customizable, clean & easy to use Redis client.
 
+### Multi Paradigm Database Drivers
+
+- [surrealdb.go](https://github.com/surrealdb/surrealdb.go) - SurrealDB Driver for Go.
+
 ### Search and Analytic Databases
 
 - [elastic](https://github.com/olivere/elastic) - Elasticsearch client for Go.
