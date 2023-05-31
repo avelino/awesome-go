@@ -2948,9 +2948,9 @@ _Libraries and tools for manipulating XML._
 
 - [XML-Comp](https://github.com/xml-comp/xml-comp) - Simple command line XML comparer that generates diffs of folders, files and tags.
 - [xml2map](https://github.com/sbabiv/xml2map) - XML to MAP converter written Golang.
+- [xmlquery](https://github.com/antchfx/xmlquery) - An XPath query package for XML documents.
 - [xmlwriter](https://github.com/shabbyrobe/xmlwriter) - Procedural XML generation API based on libxml2's xmlwriter module.
 - [xpath](https://github.com/antchfx/xpath) - XPath package for Go.
-- [xquery](https://github.com/antchfx/xquery) - XQuery lets you extract data from HTML/XML documents using XPath expression.
 - [zek](https://github.com/miku/zek) - Generate a Go struct from XML.
 
 ## Zero Trust
