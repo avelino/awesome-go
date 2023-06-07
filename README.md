@@ -31,7 +31,7 @@ _Special thanks to_
 <td>
 <a href="https://bit.ly/awesome-go-keygen">
 <img src="https://avelino.run/sponsors/keygen-logo.png" width="200" alt="keygen"><br/>
-<b>A dead-simple software licensing and distribution API built for developers</b><br/>
+<b>An open, source-available software licensing and distribution API.</b><br/>
 <sub>Securely license and distribute Go applications with a single API.</sub><br>
 <sup>Add auto updates with only a few lines of code.</sup>
 </a>
