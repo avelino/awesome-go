@@ -1508,6 +1508,7 @@ _Libraries for generating and working with log files._
 - [xylog](https://github.com/xybor-x/xylog) - Leveled and structured logging, dynamic fields, high performance, zone management, simple configuration, and readable syntax.
 - [yell](https://github.com/jfcg/yell) - Yet another minimalistic logging library.
 - [zap](https://github.com/uber-go/zap) - Fast, structured, leveled logging in Go.
+- [zax](https://github.com/yuseferi/zax) - Integrate Context with Zap logger, which leads to more flexibility in Go logging.
 - [zerolog](https://github.com/rs/zerolog) - Zero-allocation JSON logger.
 - [zkits-logger](https://github.com/edoger/zkits-logger) - A powerful zero-dependency JSON logger.
 
