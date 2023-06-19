@@ -537,6 +537,7 @@ _Libraries for preprocessing CSS files._
 ### Data Structure and Algorithm Collections
 
 - [algorithms](https://github.com/shady831213/algorithms) - Algorithms and data structures.CLRS study.
+- [exp](https://github.com/smallnest/exp) - Collection of generic data structures not in standard library and golang.org/x/exp.
 - [go-datastructures](https://github.com/Workiva/go-datastructures) - Collection of useful, performant, and thread-safe data structures.
 - [gods](https://github.com/emirpasic/gods) - Go Data Structures. Containers, Sets, Lists, Stacks, Maps, BidiMaps, Trees, HashSet etc.
 - [gostl](https://github.com/liyue201/gostl) - Data structure and algorithm library for go, designed to provide functions similar to C++ STL.
