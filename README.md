@@ -1107,6 +1107,7 @@ _Libraries for working with forms._
 
 - [bind](https://github.com/robfig/bind) - Bind form data to any Go values.
 - [binding](https://github.com/mholt/binding) - Binds form and JSON data from net/http Request to struct.
+- [checker](https://github.com/cinar/checker) - Checker helps validating user input through rules defined in struct tags or directly through functions.
 - [conform](https://github.com/leebenson/conform) - Keeps user input in check. Trims, sanitizes & scrubs data based on struct tags.
 - [form](https://github.com/go-playground/form) - Decodes url.Values into Go value(s) and Encodes Go value(s) into url.Values. Dual Array and Full map support.
 - [formam](https://github.com/monoculum/formam) - decode form's values into a struct.
