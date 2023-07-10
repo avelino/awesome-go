@@ -2550,7 +2550,7 @@ _Libraries for accessing third party APIs._
 - [wit-go](https://github.com/wit-ai/wit-go) - Go client for wit.ai HTTP API.
 - [ynab](https://github.com/brunomvsouza/ynab.go) - Go wrapper for the YNAB API.
 - [zooz](https://github.com/gojuno/go-zooz) - Go client for the Zooz API.
-
+- [newsdata-io](https://github.com/newsdataapi) - Go client for [NewsData.io News API](https://newsdata.io/))
 **[⬆ back to top](#contents)**
 
 ## Utilities
