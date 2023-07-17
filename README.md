@@ -3190,7 +3190,6 @@ _Software written in Go._
 - [GoLand](https://jetbrains.com/go) - Full featured cross-platform Go IDE.
 - [Gor](https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time.
 - [Guora](https://github.com/meloalright/guora) - A self-hosted Quora like web application written in Go.
-- [Hex-Monscape](https://github.com/Haraj-backend/hex-monscape) - Simple web game as reference for Hexagonal Architecture.
 - [hoofli](https://github.com/dnnrly/hoofli) - Generate PlantUML diagrams from Chrome or Firefox network inspections.
 - [hotswap](https://github.com/edwingeng/hotswap) - A complete solution to reload your go code without restarting your server, interrupting or blocking any ongoing procedure.
 - [hugo](https://gohugo.io/) - Fast and Modern Static Website Engine.
@@ -3515,6 +3514,7 @@ _Add the group of your city/country here (send **PR**)_
 - [GopherSnippets](https://gophersnippets.com/) - Code snippets with tests and testable examples for the Go programming language.
 - [Gosamples](https://gosamples.dev/) - Collection of code snippets that let you solve everyday code problems.
 - [Hackr.io](https://hackr.io/tutorials/learn-golang) - Learn Go from the best online golang tutorials submitted & voted by the golang programming community.
+- [Hex Monscape](https://github.com/Haraj-backend/hex-monscape) - Getting started guidelines in writing maintainable code using Hexagonal Architecture.
 - [How to Benchmark: dbq vs sqlx vs GORM](https://medium.com/@rocketlaunchr.cloud/how-to-benchmark-dbq-vs-sqlx-vs-gorm-e814caacecb5) - Learn how to benchmark in Go. As a case-study, we will benchmark dbq, sqlx and GORM.
 - [How To Deploy a Go Web Application with Docker](https://semaphoreci.com/community/tutorials/how-to-deploy-a-go-web-application-with-docker) - Learn how to use Docker for Go development and how to build production Docker images.
 - [How to Use Godog for Behavior-driven Development in Go](https://semaphoreci.com/community/tutorials/how-to-use-godog-for-behavior-driven-development-in-go) - Get started with Godog — a Behavior-driven development framework for building and testing Go applications.
