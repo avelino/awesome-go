@@ -3190,7 +3190,7 @@ _Software written in Go._
 - [GoLand](https://jetbrains.com/go) - Full featured cross-platform Go IDE.
 - [Gor](https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time.
 - [Guora](https://github.com/meloalright/guora) - A self-hosted Quora like web application written in Go.
-- [Hex-Monscape](https://github.com/Haraj-backend/hex-monscapte) - Simple web game as reference for Hexagonal Architecture.
+- [Hex-Monscape](https://github.com/Haraj-backend/hex-monscape) - Simple web game as reference for Hexagonal Architecture.
 - [hoofli](https://github.com/dnnrly/hoofli) - Generate PlantUML diagrams from Chrome or Firefox network inspections.
 - [hotswap](https://github.com/edwingeng/hotswap) - A complete solution to reload your go code without restarting your server, interrupting or blocking any ongoing procedure.
 - [hugo](https://gohugo.io/) - Fast and Modern Static Website Engine.
