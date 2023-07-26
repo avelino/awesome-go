@@ -2713,6 +2713,7 @@ _General utilities and tools to make your life easier._
 - [slice](https://github.com/psampaz/slice) - Type-safe functions for common Go slice operations.
 - [sliceconv](https://github.com/Henry-Sarabia/sliceconv) - Slice conversion between primitive types.
 - [slicer](https://github.com/leaanthony/slicer) - Makes working with slices easier.
+- [snowflake](https://github.com/fish-tennis/snowflake) - an implement of snowflake, use atomic instead of mutex.
 - [sorty](https://github.com/jfcg/sorty) - Fast Concurrent / Parallel Sorting.
 - [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package.
 - [sshman](https://github.com/shoobyban/sshman) - SSH Manager for authorized_keys files on multiple remote servers.
