@@ -1,7 +1,7 @@
 ---
 engines:
   rubocop:
-    enabled: true
+    enabled: false
   golint:
     enabled: true
   gofmt:
