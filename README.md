@@ -2696,13 +2696,13 @@ _General utilities and tools to make your life easier._
 - [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
 - [rerun](https://github.com/ivpusic/rerun) - Recompiling and rerunning go apps when source changes.
 - [rest-go](https://github.com/edermanoel94/rest-go) - A package that provide many helpful methods for working with rest api.
+- [retrier](https://github.com/craigpastro/retrier) - A simple Go (Golang) library for retries featuring generics.
 - [retry](https://github.com/kamilsk/retry) - The most advanced functional mechanism to perform actions repetitively until successful.
 - [retry](https://github.com/percolate/retry) - A simple but highly configurable retry package for Go.
 - [retry](https://github.com/thedevsaddam/retry) - Simple and easy retry mechanism package for Go.
 - [retry](https://github.com/shafreeck/retry) - A pretty simple library to ensure your work to be done.
 - [retry-go](https://github.com/avast/retry-go) - Simple library for retry mechanism.
 - [retry-go](https://github.com/rafaeljesus/retry-go) - Retrying made simple and easy for golang.
-- [retrier](https://github.com/craigpastro/retrier) - A simple Go (Golang) library for retries featuring generics.
 - [robustly](https://github.com/VividCortex/robustly) - Runs functions resiliently, catching and restarting panics.
 - [rospo](https://github.com/ferama/rospo) - Simple and reliable ssh tunnels with embedded ssh server in Golang.
 - [scan](https://github.com/blockloop/scan) - Scan golang `sql.Rows` directly to structs, slices, or primitive types.
