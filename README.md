@@ -3163,6 +3163,7 @@ _Software written in Go._
 - [webhook](https://github.com/adnanh/webhook) - Tool which allows user to create HTTP endpoints (hooks) that execute commands on the server.
 - [Wide](https://wide.b3log.org/login) - Web-based IDE for Teams using Golang.
 - [winrm-cli](https://github.com/masterzen/winrm-cli) - Cli tool to remotely execute commands on Windows machines.
+- [yock](https://github.com/Ansurfen/yock) - Yock is a solution of cross platform to compose distributed build stream.
 
 **[⬆ back to top](#contents)**
 
