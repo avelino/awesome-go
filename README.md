@@ -326,7 +326,7 @@ _Libraries for building Console Applications and Console User Interfaces._
 - [asciigraph](https://github.com/guptarohit/asciigraph) - Go package to make lightweight ASCII line graph ╭┈╯ in command line apps with no other dependencies.
 - [aurora](https://github.com/logrusorgru/aurora) - ANSI terminal colors that support fmt.Printf/Sprintf.
 - [box-cli-maker](https://github.com/Delta456/box-cli-maker) - Make Highly Customized Boxes for your CLI.
-- [bubble-table](https://github.com/Everras/bubble-table) - An interactive table component for bubbletea.
+- [bubble-table](https://github.com/Evertras/bubble-table) - An interactive table component for bubbletea.
 - [bubbles](https://github.com/charmbracelet/bubbles) - TUI components for bubbletea.
 - [bubbletea](https://github.com/charmbracelet/bubbletea) - Go framework to build terminal apps, based on The Elm Architecture.
 - [cfmt](https://github.com/mingrammer/cfmt) - Contextual fmt inspired by bootstrap color classes.
