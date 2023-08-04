@@ -8,7 +8,6 @@ jobs:
   commentCreated:
     runs-on: ubuntu-latest
     permissions:
-      issues: write
       pull-requests: write
     environment: action
     env:
