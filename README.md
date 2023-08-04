@@ -196,7 +196,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Reddit](#reddit)
   - [Websites](#websites)
     - [Tutorials](#tutorials)
-    - [Guided Learning](#guided-learning)
+    - [Guided Learning Paths](#guided-learning)
 
 **[⬆ back to top](#contents)**
 
