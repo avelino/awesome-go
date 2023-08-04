@@ -2633,6 +2633,7 @@ _General utilities and tools to make your life easier._
 - [golog](https://github.com/mlimaloureiro/golog) - Easy and lightweight CLI tool to time track your tasks.
 - [gopencils](https://github.com/bndr/gopencils) - Small and simple package to easily consume REST APIs.
 - [goplaceholder](https://github.com/michiwend/goplaceholder) - a small golang lib to generate placeholder images.
+- [go-qr](https://github.com/piglig/go-qr) - A native, high-quality and minimalistic QR code generator.
 - [goreadability](https://github.com/philipjkim/goreadability) - Webpage summary extractor using Facebook Open Graph and arc90's readability.
 - [goreleaser](https://github.com/goreleaser/goreleaser) - Deliver Go binaries as fast and easily as possible.
 - [goreporter](https://github.com/wgliang/goreporter) - Golang tool that does static analysis, unit testing, code review and generate code quality report.
@@ -2732,7 +2733,6 @@ _General utilities and tools to make your life easier._
 - [wifiqr](https://github.com/reugn/wifiqr) - Wi-Fi QR Code Generator.
 - [wuzz](https://github.com/asciimoo/wuzz) - Interactive cli tool for HTTP inspection.
 - [xferspdy](https://github.com/monmohan/xferspdy) - Xferspdy provides binary diff and patch library in golang.
-- [go-qr](https://github.com/piglig/go-qr) - A native, high-quality and minimalistic QR code generator.
 
 **[⬆ back to top](#contents)**
 
