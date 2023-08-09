@@ -978,6 +978,7 @@ _Libraries and tools that implement email creation and sending._
 - [smtp](https://github.com/mailhog/smtp) - SMTP server protocol state machine.
 - [smtpmock](https://github.com/mocktools/go-smtp-mock) - Lightweight configurable multithreaded fake SMTP server. Mimic any SMTP behaviour for your test environment.
 - [truemail-go](https://github.com/truemail-rb/truemail-go) - Configurable Golang email validator/verifier. Verify email via Regex, DNS, SMTP and even more.
+- [go-pst](https://github.com/mooijtech/go-pst) - Personal Storage Table implementation in Go/Golang
 
 **[⬆ back to top](#contents)**
 
@@ -1771,6 +1772,15 @@ _Libraries for working with human languages._
 
 See also [Text Processing](#text-processing) and [Text Analysis](#text-analysis).
 
+### Machine Learning
+
+- [spaGO](https://github.com/nlpodyssey/spago) - Self-contained Machine Learning and Natural Language Processing library in Go.
+- [cybertron](https://github.com/nlpodyssey/cybertron) - Cybertron: the home planet of the Transformers in Go
+- [llama.go](https://github.com/gotzmann/llama.go) - llama.go is like llama.cpp in pure Golang!
+- [go-llama.cpp](https://github.com/go-skynet/go-llama.cpp) - LLama.cpp golang bindings
+- [transformer](https://github.com/sugarme/transformer) - NLP transformers written in Go
+- [gotch](https://github.com/sugarme/gotch) - Go binding for Pytorch C++ API (libtorch)
+
 ### Language Detection
 
 - [detectlanguage](https://github.com/detectlanguage/detectlanguage-go) - Language Detection API Go Client. Supports batch requests, short phrase or single word language detection.
@@ -1795,7 +1805,6 @@ See also [Text Processing](#text-processing) and [Text Analysis](#text-analysis)
 - [porter2](https://github.com/zhenjl/porter2) - Really fast Porter 2 stemmer.
 - [RAKE.go](https://github.com/afjoseph/RAKE.Go) - Go port of the Rapid Automatic Keyword Extraction Algorithm (RAKE).
 - [snowball](https://github.com/goodsign/snowball) - Snowball stemmer port (cgo wrapper) for Go. Provides word stem extraction functionality [Snowball native](http://snowball.tartarus.org/).
-- [spaGO](https://github.com/nlpodyssey/spago) - Self-contained Machine Learning and Natural Language Processing library in Go.
 - [spelling-corrector](https://github.com/jorelosorio/spellingcorrector) - A spelling corrector for the Spanish language or create your own.
 
 ### Slugifiers
@@ -1816,6 +1825,7 @@ See also [Text Processing](#text-processing) and [Text Analysis](#text-analysis)
 - [shamoji](https://github.com/osamingo/shamoji) - The shamoji is word filtering package written in Go.
 - [stemmer](https://github.com/dchest/stemmer) - Stemmer packages for Go programming language. Includes English and German stemmers.
 - [textcat](https://github.com/pebbe/textcat) - Go package for n-gram based text categorization, with support for utf-8 and raw text.
+- [tokenizer](https://github.com/sugarme/tokenizer) -  NLP tokenizers written in Go language
 
 ### Translation
 
