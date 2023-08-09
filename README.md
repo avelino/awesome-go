@@ -955,10 +955,14 @@ _Tools for updating dynamic DNS records._
 
 _Libraries and tools that implement email creation and sending._
 
+- [Hectane](https://github.com/hectane/hectane) - Lightweight SMTP client providing an HTTP API.
+- [MailHog](https://github.com/mailhog/MailHog) - Email and SMTP testing with web and API interface.
+- [Mailpit](https://github.com/axllent/mailpit) - Email and SMTP testing tool for developers.
+- [SendGrid](https://github.com/sendgrid/sendgrid-go) - SendGrid's Go library for sending email.
 - [chasquid](https://blitiri.com.ar/p/chasquid) - SMTP server written in Go.
 - [douceur](https://github.com/aymerick/douceur) - CSS inliner for your HTML emails.
-- [email](https://github.com/jordan-wright/email) - A robust and flexible email library for Go.
 - [email-verifier](https://github.com/AfterShip/email-verifier) - A Go library for email verification without sending any emails.
+- [email](https://github.com/jordan-wright/email) - A robust and flexible email library for Go.
 - [go-dkim](https://github.com/toorop/go-dkim) - DKIM library, to sign & verify email.
 - [go-email-normalizer](https://github.com/dimuska139/go-email-normalizer) - Golang library for providing a canonical representation of email address.
 - [go-email-validator](https://github.com/go-email-validator/go-email-validator) - Modular email validator for syntax, disposable, smtp, etc... checking.
@@ -966,19 +970,15 @@ _Libraries and tools that implement email creation and sending._
 - [go-mail](https://github.com/wneessen/go-mail) - A simple Go library for sending mails in Go.
 - [go-message](https://github.com/emersion/go-message) - Streaming library for the Internet Message Format and mail messages.
 - [go-premailer](https://github.com/vanng822/go-premailer) - Inline styling for HTML mail in Go.
+- [go-pst](https://github.com/mooijtech/go-pst) - Personal Storage Table implementation in Go/Golang
 - [go-simple-mail](https://github.com/xhit/go-simple-mail) - Very simple package to send emails with SMTP Keep Alive and two timeouts: Connect and Send.
-- [Hectane](https://github.com/hectane/hectane) - Lightweight SMTP client providing an HTTP API.
 - [hermes](https://github.com/matcornic/hermes) - Golang package that generates clean, responsive HTML e-mails.
 - [mailchain](https://github.com/mailchain/mailchain) - Send encrypted emails to blockchain addresses written in Go.
 - [mailgun-go](https://github.com/mailgun/mailgun-go) - Go library for sending mail with the Mailgun API.
-- [MailHog](https://github.com/mailhog/MailHog) - Email and SMTP testing with web and API interface.
-- [Mailpit](https://github.com/axllent/mailpit) - Email and SMTP testing tool for developers.
 - [mailx](https://github.com/valord577/mailx) - Mailx is a library that makes it easier to send email via SMTP. It is an enhancement of the golang standard library `net/smtp`.
-- [SendGrid](https://github.com/sendgrid/sendgrid-go) - SendGrid's Go library for sending email.
 - [smtp](https://github.com/mailhog/smtp) - SMTP server protocol state machine.
 - [smtpmock](https://github.com/mocktools/go-smtp-mock) - Lightweight configurable multithreaded fake SMTP server. Mimic any SMTP behaviour for your test environment.
 - [truemail-go](https://github.com/truemail-rb/truemail-go) - Configurable Golang email validator/verifier. Verify email via Regex, DNS, SMTP and even more.
-- [go-pst](https://github.com/mooijtech/go-pst) - Personal Storage Table implementation in Go/Golang
 
 **[⬆ back to top](#contents)**
 
@@ -1522,8 +1522,13 @@ _Libraries for generating and working with log files._
 
 _Libraries for Machine Learning._
 
-- [bayesian](https://github.com/jbrukh/bayesian) - Naive Bayesian Classification for Golang.
 - [CloudForest](https://github.com/ryanbressler/CloudForest) - Fast, flexible, multi-threaded ensembles of decision trees for machine learning in pure Go.
+- [GoLearn](https://github.com/sjwhitworth/golearn) - General Machine Learning library for Go.
+- [GoMind](https://github.com/surenderthakran/gomind) - A simplistic Neural Network Library in Go.
+- [Goptuna](https://github.com/c-bata/goptuna) - Bayesian optimization framework for black-box functions written in Go. Everything will be optimized.
+- [Varis](https://github.com/Xamber/Varis) - Golang Neural Network.
+- [bayesian](https://github.com/jbrukh/bayesian) - Naive Bayesian Classification for Golang.
+- [cybertron](https://github.com/nlpodyssey/cybertron) - Cybertron: the home planet of the Transformers in Go
 - [ddt](https://github.com/sgrodriguez/ddt) - Dynamic decision tree, create trees defining customizable rules.
 - [eaopt](https://github.com/MaxHalford/eaopt) - An evolutionary optimization library.
 - [evoli](https://github.com/khezen/evoli) - Genetic Algorithm and Particle Swarm Optimization library.
@@ -1533,22 +1538,22 @@ _Libraries for Machine Learning._
 - [go-fann](https://github.com/white-pony/go-fann) - Go bindings for Fast Artificial Neural Networks(FANN) library.
 - [go-featureprocessing](https://github.com/nikolaydubina/go-featureprocessing) - Fast and convenient feature processing for low latency machine learning in Go.
 - [go-galib](https://github.com/thoj/go-galib) - Genetic Algorithms library written in Go / golang.
+- [go-llama.cpp](https://github.com/go-skynet/go-llama.cpp) - LLama.cpp golang bindings
 - [go-pr](https://github.com/daviddengcn/go-pr) - Pattern recognition package in Go lang.
+- [goRecommend](https://github.com/timkaye11/goRecommend) - Recommendation Algorithms library written in Go.
 - [gobrain](https://github.com/goml/gobrain) - Neural Networks written in go.
 - [godist](https://github.com/e-dard/godist) - Various probability distributions, and associated methods.
 - [goga](https://github.com/tomcraven/goga) - Genetic algorithm library for Go.
-- [GoLearn](https://github.com/sjwhitworth/golearn) - General Machine Learning library for Go.
 - [golinear](https://github.com/danieldk/golinear) - liblinear bindings for Go.
-- [GoMind](https://github.com/surenderthakran/gomind) - A simplistic Neural Network Library in Go.
 - [goml](https://github.com/cdipaolo/goml) - On-line Machine Learning in Go.
 - [gonet](https://github.com/dathoangnd/gonet) - Neural Network for Go.
-- [Goptuna](https://github.com/c-bata/goptuna) - Bayesian optimization framework for black-box functions written in Go. Everything will be optimized.
-- [goRecommend](https://github.com/timkaye11/goRecommend) - Recommendation Algorithms library written in Go.
 - [gorgonia](https://github.com/gorgonia/gorgonia) - graph-based computational library like Theano for Go that provides primitives for building various machine learning and neural network algorithms.
 - [gorse](https://github.com/zhenghaoz/gorse) - An offline recommender system backend based on collaborative filtering written in Go.
 - [goscore](https://github.com/asafschers/goscore) - Go Scoring API for PMML.
 - [gosseract](https://github.com/otiai10/gosseract) - Go package for OCR (Optical Character Recognition), by using Tesseract C++ library.
+- [gotch](https://github.com/sugarme/gotch) - Go binding for Pytorch C++ API (libtorch)
 - [libsvm](https://github.com/datastream/libsvm) - libsvm golang version derived work based on LIBSVM 3.14.
+- [llama.go](https://github.com/gotzmann/llama.go) - llama.go is like llama.cpp in pure Golang!
 - [m2cgen](https://github.com/BayesWitnesses/m2cgen) - A CLI tool to transpile trained classic ML models into a native Go code with zero dependencies, written in Python with Go language support.
 - [neat](https://github.com/jinyeom/neat) - Plug-and-play, parallel Go framework for NeuroEvolution of Augmenting Topologies (NEAT).
 - [neural-go](https://github.com/schuyler/neural-go) - Multilayer perceptron network implemented in Go, with training via backpropagation.
@@ -1558,8 +1563,9 @@ _Libraries for Machine Learning._
 - [randomforest](https://github.com/malaschitz/randomForest) - Easy to use Random Forest library for Go.
 - [regommend](https://github.com/muesli/regommend) - Recommendation & collaborative filtering engine.
 - [shield](https://github.com/eaigner/shield) - Bayesian text classifier with flexible tokenizers and storage backends for Go.
+- [spaGO](https://github.com/nlpodyssey/spago) - Self-contained Machine Learning and Natural Language Processing library in Go.
 - [tfgo](https://github.com/galeone/tfgo) - Easy to use Tensorflow bindings: simplifies the usage of the official Tensorflow Go bindings. Define computational graphs in Go, load and execute models trained in Python.
-- [Varis](https://github.com/Xamber/Varis) - Golang Neural Network.
+- [transformer](https://github.com/sugarme/transformer) - NLP transformers written in Go
 
 **[⬆ back to top](#contents)**
 
@@ -1771,15 +1777,6 @@ _These libraries were placed here because none of the other categories seemed to
 _Libraries for working with human languages._
 
 See also [Text Processing](#text-processing) and [Text Analysis](#text-analysis).
-
-### Machine Learning
-
-- [spaGO](https://github.com/nlpodyssey/spago) - Self-contained Machine Learning and Natural Language Processing library in Go.
-- [cybertron](https://github.com/nlpodyssey/cybertron) - Cybertron: the home planet of the Transformers in Go
-- [llama.go](https://github.com/gotzmann/llama.go) - llama.go is like llama.cpp in pure Golang!
-- [go-llama.cpp](https://github.com/go-skynet/go-llama.cpp) - LLama.cpp golang bindings
-- [transformer](https://github.com/sugarme/transformer) - NLP transformers written in Go
-- [gotch](https://github.com/sugarme/gotch) - Go binding for Pytorch C++ API (libtorch)
 
 ### Language Detection
 
