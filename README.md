@@ -1117,6 +1117,7 @@ _Packages to support functional programming in Go._
 - [fp-go](https://github.com/repeale/fp-go) - Collection of Functional Programming helpers powered by Golang 1.18+ generics.
 - [fpGo](https://github.com/TeaEntityLab/fpGo) - Monad, Functional Programming features for Golang.
 - [fuego](https://github.com/seborama/fuego) - Functional Experiment in Go.
+- [go-functional](https://github.com/BooleanCat/go-functional) - Functional programming in Go using generics
 - [go-underscore](https://github.com/tobyhede/go-underscore) - Useful collection of helpfully functional Go collection utilities.
 - [gofp](https://github.com/rbrahul/gofp) - A lodash like powerful utility library for Golang.
 - [mo](https://github.com/samber/mo) - Monads and popular FP abstractions, based on Go 1.18+ Generics (Option, Result, Either...).
