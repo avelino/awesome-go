@@ -21,6 +21,6 @@ _Not every repository (project) will require every option, but most projects sho
 - [ ] The repo has a version-numbered release and a go.mod file.
 - [ ] I have read the [Contribution Guidelines](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md#contribution-guidelines), [Maintainers Note](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md#maintainers) and [Quality Standards](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md#quality-standards).
 - [ ] The repo has a continuous integration process that automatically runs tests that must pass before new pull requests are merged.
-- [ ] The authors of the project do not commit directly to the repo, but rather use pull requests that run the continuous-integration process.
+- [ ] Continuous integration is used to attempt to catch issues prior to releasing this package to end-users.
 
 Thanks for your PR, you're awesome! :+1:
