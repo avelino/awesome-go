@@ -1393,6 +1393,7 @@ _Libraries for scheduling jobs._
 - [go-quartz](https://github.com/reugn/go-quartz) - Simple, zero-dependency scheduling library for Go.
 - [gocron](https://github.com/go-co-op/gocron) - Easy and fluent Go job scheduling. This is an actively maintained fork of [jasonlvhit/gocron](https://github.com/jasonlvhit/gocron).
 - [goflow](https://github.com/fieldryand/goflow) - A simple but powerful DAG scheduler and dashboard.
+- [gointerlock](https://github.com/ehsaniara/gointerlock) - Centralized Lock for Distributed Scheduler/Task stopwatch for Go (Supports Redis, DynamoDb, Postgres lock).
 - [gron](https://github.com/roylee0704/gron) - Define time-based tasks using a simple Go API and Gron’s scheduler will run them accordingly.
 - [gronx](https://github.com/adhocore/gronx) - Cron expression parser, task runner and daemon consuming crontab like task list.
 - [JobRunner](https://github.com/bamzi/jobrunner) - Smart and featureful cron job scheduler with job queuing and live monitoring built in.
