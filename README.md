@@ -1259,6 +1259,7 @@ _Tools for managing and working with Goroutines._
 - [tunny](https://github.com/Jeffail/tunny) - Goroutine pool for golang.
 - [worker-pool](https://github.com/vardius/worker-pool) - goworker is a Go simple async worker pool.
 - [workerpool](https://github.com/gammazero/workerpool) - Goroutine pool that limits the concurrency of task execution, not the number of tasks queued.
+- [conditional-batch-worker](https://github.com/plzzzzg/conditional-batch-worker) - A batch worker that collects tasks and executes them when conditions are met for Go.
 
 **[⬆ back to top](#contents)**
 
