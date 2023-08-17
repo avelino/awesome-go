@@ -764,6 +764,7 @@ _Libraries for building and using SQL._
 - [godbal](https://github.com/xujiajun/godbal) - Database Abstraction Layer (dbal) for go. Support SQL builder and get result easily.
 - [goqu](https://github.com/doug-martin/goqu) - Idiomatic SQL builder and query library.
 - [gosql](https://github.com/twharmon/gosql) - SQL Query builder with better null values support.
+- [Hotcoal](https://github.com/motrboat/hotcoal) - Secure your handcrafted SQL against injection.
 - [igor](https://github.com/galeone/igor) - Abstraction layer for PostgreSQL that supports advanced functionality and uses gorm-like syntax.
 - [jet](https://github.com/go-jet/jet) - Framework for writing type-safe SQL queries in Go, with ability to easily convert database query result into desired arbitrary object structure.
 - [ormlite](https://github.com/pupizoid/ormlite) - Lightweight package containing some ORM-like features and helpers for sqlite databases.
