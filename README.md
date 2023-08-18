@@ -2621,6 +2621,7 @@ _General utilities and tools to make your life easier._
 - [go-lock](https://github.com/viney-shih/go-lock) - go-lock is a lock library implementing read-write mutex and read-write trylock without starvation.
 - [go-pkg](https://github.com/chenquan/go-pkg) - A go toolkit.
 - [go-problemdetails](https://github.com/mvmaasakkers/go-problemdetails) - Go package for working with Problem Details.
+- [go-qr](https://github.com/piglig/go-qr) - A native, high-quality and minimalistic QR code generator.
 - [go-rate](https://github.com/beefsack/go-rate) - Timed rate limiter for Go.
 - [go-sitemap-generator](https://github.com/ikeikeikeike/go-sitemap-generator) - XML Sitemap generator written in Go.
 - [go-trigger](https://github.com/sadlil/go-trigger) - Go-lang global event triggerer, Register Events with an id and trigger the event from anywhere from your project.
