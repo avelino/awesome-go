@@ -2565,6 +2565,7 @@ _Libraries for accessing third party APIs._
 
 _General utilities and tools to make your life easier._
 
+- [air](https://github.com/cosmtrek/air) - Air - Live reload for Go apps.
 - [apm](https://github.com/topfreegames/apm) - Process manager for Golang applications with an HTTP API.
 - [backscanner](https://github.com/icza/backscanner) - A scanner similar to bufio.Scanner, but it reads and returns lines in reverse order, starting at a given position and going backward.
 - [beyond](https://github.com/wesovilabs/beyond) - The Go tool that will drive you to the AOP world!
