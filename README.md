@@ -3545,6 +3545,7 @@ _Add the group of your city/country here (send **PR**)_
 - [W3basic Go Tutorials](https://www.w3basic.com/golang/) - W3Basic provides an in-depth tutorial and well-organized content to learn Golang programming.
 - [Working with Go](https://github.com/mkaz/working-with-go) - Intro to go for experienced programmers.
 - [Your basic Go](https://yourbasic.org/golang) - Huge collection of tutorials and how to's.
+- [How to use golang private modules with docker](https://medium.com/@lightsoffire/how-to-use-golang-private-modules-with-docker-553ff43fa117) - Introduction to golang private modules and use inside docker
 
 **[⬆ back to top](#contents)**
 
