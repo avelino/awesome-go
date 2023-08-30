@@ -2310,6 +2310,7 @@ _Libraries for testing codebases and generating test data._
   - [Testify](https://github.com/stretchr/testify) - Sacred extension to the standard go testing package.
   - [testmd](https://godoc.org/github.com/tvastar/test/cmd/testmd) - Convert markdown snippets into testable go code.
   - [testsql](https://github.com/zhulongcheng/testsql) - Generate test data from SQL files before testing and clear it after finished.
+  - [testsuite](https://github.com/berlin-ab/testsuite) - Define test suites with setup and teardown behavior using the standard Go testing package.
   - [testza](https://github.com/MarvinJWendt/testza) - Full-featured test framework with nice colorized output.
   - [trial](https://github.com/jgroeneveld/trial) - Quick and easy extendable assertions without introducing much boilerplate.
   - [Tt](https://github.com/vcaesar/tt) - Simple and colorful test tools.
