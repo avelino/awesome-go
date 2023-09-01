@@ -2632,7 +2632,7 @@ _General utilities and tools to make your life easier._
 - [go-sitemap-generator](https://github.com/ikeikeikeike/go-sitemap-generator) - XML Sitemap generator written in Go.
 - [go-trigger](https://github.com/sadlil/go-trigger) - Go-lang global event triggerer, Register Events with an id and trigger the event from anywhere from your project.
 - [go-type](https://github.com/mikekonan/go-types) - Library providing Go types for store/validation and transfer of ISO-4217, ISO-3166, and other types.
-- [go-utils](https://github.com/sinhashubham95/go-utils) - Fully Tested, Benchmarked and Error Free Set of Utilities for Go.
+- [go-utils](https://github.com/sinhashubham95/go-utils) - Fully Tested, Benchmarked and Error-Free Set of Utilities for Go.
 - [goback](https://github.com/carlescere/goback) - Go simple exponential backoff package.
 - [goctx](https://github.com/zerosnake0/goctx) - Get your context value with high performance.
 - [godaemon](https://github.com/VividCortex/godaemon) - Utility to write daemons.
