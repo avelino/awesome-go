@@ -1082,6 +1082,8 @@ _Packages for accounting and finance._
 - [go-finance](https://github.com/pieterclaerhout/go-finance) - Module to fetch exchange rates, check VAT numbers via VIES and check IBAN bank account numbers.
 - [go-finnhub](https://github.com/m1/go-finnhub) - Client for stock market, forex and crypto data from finnhub.io. Access real-time financial market data from 60+ stock exchanges, 10 forex brokers, and 15+ crypto exchanges.
 - [go-money](https://github.com/rhymond/go-money) - Implementation of Fowler's Money pattern.
+- [gotrade](https://github.com/cyanly/gotrade) - A FIX protocol electronic trading and order management system written in Golang, structured for typical multi-asset instituional use.
+- [ledger](https://github.com/formancehq/ledger) - A programmable financial ledger that provides a foundation for money-moving applications.
 - [money](https://github.com/govalues/money) - Immutable monetary amounts and exchange rates with panic-free arithmetic.
 - [ofxgo](https://github.com/aclindsa/ofxgo) - Query OFX servers and/or parse the responses (with example command-line client).
 - [orderbook](https://github.com/i25959341/orderbook) - Matching Engine for Limit Order Book in Golang.
@@ -1351,6 +1353,7 @@ _Libraries for manipulating images._
 - [mort](https://github.com/aldor007/mort) - Storage and image processing server written in Go.
 - [mpo](https://github.com/donatj/mpo) - Decoder and conversion tool for MPO 3D Photos.
 - [picfit](https://github.com/thoas/picfit) - An image resizing server written in Go.
+- [primitive](https://github.com/fogleman/primitive) - Reproducing images with geometric primitives.
 - [pt](https://github.com/fogleman/pt) - Path tracing engine written in Go.
 - [resize](https://github.com/nfnt/resize) - Image resizing for Go with common interpolation methods.
 - [rez](https://github.com/bamiaux/rez) - Image resizing in pure Go and SIMD.
