@@ -1684,6 +1684,7 @@ _**Unofficial** set of patterns for structuring projects._
 - [golang-templates/seed](https://github.com/golang-templates/seed) - Go application GitHub repository template.
 - [insidieux/inizio](https://github.com/insidieux/inizio) - Golang project layout generator with plugins.
 - [modern-go-application](https://github.com/sagikazarmark/modern-go-application) - Go application boilerplate and example applying modern practices.
+- [nunu](https://github.com/go-nunu/nunu) - Nunu is a scaffolding tool for building Go applications. 
 - [pagoda](https://github.com/mikestefanello/pagoda) - Rapid, easy full-stack web development starter kit built in Go.
 - [scaffold](https://github.com/catchplay/scaffold) - Scaffold generates a starter Go project layout. Lets you focus on business logic implemented.
 - [wangyoucao577/go-project-layout](https://github.com/wangyoucao577/go-project-layout) - Set of practices and discussions on how to structure Go project layout.
