@@ -990,6 +990,8 @@ _Libraries and tools that implement email creation and sending._
 _Libraries and tools that implement instant messaging._
 
 - [WukongIM](https://github.com/WuKongIM/WuKongIM) - a high-performance universal communication service
+ 
+**[⬆ back to top](#contents)**
 
 ## Embeddable Scripting Languages
 
