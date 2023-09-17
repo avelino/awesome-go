@@ -102,6 +102,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
   - [Distributed Systems](#distributed-systems)
   - [Dynamic DNS](#dynamic-dns)
   - [Email](#email)
+  - [Instant Messaging](#instant-messaging)
   - [Embeddable Scripting Languages](#embeddable-scripting-languages)
   - [Error Handling](#error-handling)
   - [File Handling](#file-handling)
@@ -983,6 +984,12 @@ _Libraries and tools that implement email creation and sending._
 - [truemail-go](https://github.com/truemail-rb/truemail-go) - Configurable Golang email validator/verifier. Verify email via Regex, DNS, SMTP and even more.
 
 **[⬆ back to top](#contents)**
+
+## Instant Messaging
+
+_Libraries and tools that implement instant messaging._
+
+- [WukongIM](https://github.com/WuKongIM/WuKongIM) - a high-performance universal communication service
 
 ## Embeddable Scripting Languages
 
