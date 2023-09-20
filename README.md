@@ -1391,6 +1391,7 @@ _Libraries for scheduling jobs._
 
 - [cdule](https://github.com/deepaksinghvi/cdule) - Job scheduler library with database support
 - [cheek](https://github.com/datarootsio/cheek) - A simple crontab like scheduler that aims to offer a KISS approach to job scheduling.
+- [go-clock](https://github.com/itbasis/go-clock) - Clock is a small library for mocking time in Go.
 - [clockwerk](https://github.com/onatm/clockwerk) - Go package to schedule periodic jobs using a simple, fluent syntax.
 - [cronticker](https://github.com/krayzpipes/cronticker) - A ticker implementation to support cron schedules.
 - [Dagu](https://github.com/dagu-go/dagu) - No-code workflow executor. it executes DAGs defined in a simple YAML format.
