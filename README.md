@@ -3159,6 +3159,7 @@ _Software written in Go._
 - [ostent](https://github.com/ostrost/ostent) - collects and displays system metrics and optionally relays to Graphite and/or InfluxDB.
 - [Packer](https://github.com/mitchellh/packer) - Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.
 - [Pewpew](https://github.com/bengadbois/pewpew) - Flexible HTTP command line stress tester.
+- [PipeCD](https://github.com/pipe-cd/pipecd) - A GitOps-style continuous delivery platform that provides consistent deployment and operations experience for any applications.
 - [Pomerium](https://github.com/pomerium/pomerium) - Pomerium is an identity-aware access proxy.
 - [Rodent](https://github.com/alouche/rodent) - Rodent helps you manage Go versions, projects and track dependencies.
 - [s3-proxy](https://github.com/oxyno-zeta/s3-proxy) - S3 Proxy with GET, PUT and DELETE methods and authentication (OpenID Connect and Basic Auth).
