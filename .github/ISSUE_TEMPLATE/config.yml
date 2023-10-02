@@ -1,0 +1,7 @@
+contact_links:
+  - name: Feature request
+    url: https://github.com/avelino/awesome-go/discussions/new?category=ideas
+    about: Suggest an idea for awesome-go
+  - name: Questions & Help
+    url: https://github.com/avelino/awesome-go/discussions/new?category=q-a
+    about: Ask a question about awesome-go

@@ -1,0 +1,14 @@
+name: Issues spammy check
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  mark-as-spam:
+    name: Remove issues with spammy
+    runs-on: ubuntu-latest
+    steps:
+      - name: close issue
+        uses: balevine/mark-as-spam@v1.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

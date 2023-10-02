@@ -1,0 +1,27 @@
+name: Bug Report
+description: Report a bug encountered
+labels: ["bug", "pending-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you very much for opening a bug report at awesome-go.
+
+        If you have a feature idea or need help, please go to [our Forum](https://github.com/avelino/awesome-go/discussions).
+        before opening the issue we recommend that you read our [contribution guide](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md), there we talk about how you can contribute to awesome-go.
+  - type: checkboxes
+    id: confirm-search
+    attributes:
+      label: Search first
+      description: Please search [existing issues](https://github.com/avelino/awesome-go/issues) and the [awesome-go forum](https://github.com/avelino/awesome-go/discussions) before reporting.
+      options:
+        - label: I searched and no similar issues were found
+          required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What Happened?
+      description: |
+        Please provide as much info as possible. Not doing so may result in your bug not being addressed in a timely manner.
+    validations:
+      required: true
