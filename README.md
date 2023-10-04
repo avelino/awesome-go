@@ -1254,7 +1254,7 @@ _Tools for managing and working with Goroutines._
 - [kyoo](https://github.com/dirkaholic/kyoo) - Provides an unlimited job queue and concurrent worker pools.
 - [neilotoole/errgroup](https://github.com/neilotoole/errgroup) - Drop-in alternative to `sync/errgroup`, limited to a pool of N worker goroutines.
 - [nursery](https://github.com/arunsworld/nursery) - Structured concurrency in Go.
-- [oversight](https://cirello.io/oversight) - Oversight is a complete implementation of the Erlang supervision trees.
+- [oversight](https://pkg.go.dev/cirello.io/oversight) - Oversight is a complete implementation of the Erlang supervision trees.
 - [parallel-fn](https://github.com/rafaeljesus/parallel-fn) - Run functions in parallel.
 - [pond](https://github.com/alitto/pond) - Minimalistic and High-performance goroutine worker pool written in Go.
 - [pool](https://github.com/go-playground/pool) - Limited consumer goroutine or unlimited goroutine pool for easier goroutine handling and cancellation.
@@ -3297,7 +3297,7 @@ _Where to discover new Go libraries._
 - [GopherCon Australia](https://gophercon.com.au/) - Sydney, Australia.
 - [GopherCon Brazil](https://gopherconbr.org) - Florianópolis, Brazil.
 - [GopherCon Europe](https://gophercon.eu/) - Berlin, Germany.
-- [GopherCon India](https://www.gophercon.in/) - Pune, India.
+- [GopherCon India](https://gopherconindia.org/) - Pune, India.
 - [GopherCon Israel](https://www.gophercon.org.il/) - Tel Aviv, Israel.
 - [GopherCon Russia](https://www.gophercon-russia.ru) - Moscow, Russia.
 - [GopherCon Singapore](https://gophercon.sg) - Mapletree Business City, Singapore.
