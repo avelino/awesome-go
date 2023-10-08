@@ -161,6 +161,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [RSS](#rss)
     - [Utility/Miscellaneous](#utilitymiscellaneous)
   - [Third-party APIs](#third-party-apis)
+  - [Trading](#trading)
   - [Utilities](#utilities)
   - [UUID](#uuid)
   - [Validation](#validation)
@@ -2577,6 +2578,10 @@ _Libraries for accessing third party APIs._
 
 **[⬆ back to top](#contents)**
 
+## Trading
+_Packages that help you in analysis and developing tools
+
+- [talib](https://github.com/markcheno/go-talib) - Go Implementation of Technical Analysis Library (ta-lib)
 ## Utilities
 
 _General utilities and tools to make your life easier._
