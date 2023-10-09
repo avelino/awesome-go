@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  web:
+    build: .
+    volumes:
+      - .:/usr/src/app
+    command: go run ./main.go
