@@ -1022,7 +1022,6 @@ _Libraries for handling errors._
 - [eris](https://github.com/rotisserie/eris) - A better way to handle, trace, and log errors in Go. Compatible with the standard error library and github.com/pkg/errors.
 - [errlog](https://github.com/snwfdhmp/errlog) - Hackable package that determines responsible source code for an error (and some other fast-debugging features). Pluggable to any logger in-place.
 - [errors](https://github.com/emperror/errors) - Drop-in replacement for the standard library errors package and github.com/pkg/errors. Provides various error handling primitives.
-- [errors](https://github.com/pkg/errors) - Package that provides simple error handling primitives.
 - [errors](https://github.com/neuronlabs/errors) - Simple golang error handling with classification primitives.
 - [errors](https://github.com/PumpkinSeed/errors) - The most simple error wrapper with awesome performance and minimal memory overhead.
 - [errors](https://github.com/bnkamalesh/errors) - Drop-in replacement for builtin Go errors. This is a minimal error handling package with custom error types, user friendly messages, Unwrap & Is. With very easy to use and straightforward helper functions.
@@ -1177,6 +1176,7 @@ _Tools that generate Go code._
 - [GoWrap](https://github.com/hexdigest/gowrap) - Generate decorators for Go interfaces using simple templates.
 - [interfaces](https://github.com/rjeczalik/interfaces) - Command line tool for generating interface definitions.
 - [jennifer](https://github.com/dave/jennifer) - Generate arbitrary Go code without templates.
+- [oapi-codegen](https://github.com/deepmap/oapi-codegen) - This package contains a set of utilities for generating Go boilerplate code for services based on OpenAPI 3.0 API definitions.
 - [typeregistry](https://github.com/xiaoxin01/typeregistry) - A library to create type dynamically.
 
 **[⬆ back to top](#contents)**
@@ -1289,6 +1289,7 @@ _Toolkits_
 - [gowd](https://github.com/dtylman/gowd) - Rapid and simple desktop UI development with GO, HTML, CSS and NW.js. Cross platform.
 - [qt](https://github.com/therecipe/qt) - Qt binding for Go (support for Windows / macOS / Linux / Android / iOS / Sailfish OS / Raspberry Pi).
 - [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go. Cross platform.
+- [unison](https://github.com/richardwilkes/unison) - A unified graphical user experience toolkit for Go desktop applications. macOS, Windows, and Linux are supported.
 - [Wails](https://wails.io) - Mac, Windows, Linux desktop apps with HTML UI using built-in OS HTML renderer.
 - [walk](https://github.com/lxn/walk) - Windows application library kit for Go.
 - [webview](https://github.com/zserge/webview) - Cross-platform webview window with simple two-way JavaScript bindings (Windows / macOS / Linux).
@@ -1668,6 +1669,7 @@ _Libraries for working with dependency injection._
 - [goioc/di](https://github.com/goioc/di) - Spring-inspired Dependency Injection Container.
 - [GoLobby/Container](https://github.com/golobby/container) - GoLobby Container is a lightweight yet powerful IoC dependency injection container for the Go programming language.
 - [gontainer](https://github.com/NVIDIA/gontainer) - A dependency injection service container for Go projects.
+- [gontainer/gontainer](https://github.com/gontainer/gontainer) - A YAML-based Dependency Injection container for GO. It supports dependencies' scopes, and auto-detection of circular dependencies. Gontainer is concurrent-safe.
 - [google/wire](https://github.com/google/wire) - Automated Initialization in Go.
 - [HnH/di](https://github.com/HnH/di) - DI container library that is focused on clean API and flexibility.
 - [kinit](https://github.com/go-kata/kinit) - Customizable dependency injection container with the global mode, cascade initialization and panic-safe finalization.
@@ -1933,6 +1935,7 @@ _Libraries for working with various layers of the network._
 
 _Libraries for making HTTP requests._
 
+- [fast-shot](https://github.com/opus-domini/fast-shot) - Hit your API targets with rapid-fire precision using Go's fastest and simple HTTP Client.
 - [gentleman](https://github.com/h2non/gentleman) - Full-featured plugin-driven HTTP client library.
 - [go-cleanhttp](https://github.com/hashicorp/go-cleanhttp) - Get easily stdlib HTTP client, which does not share any state with other clients.
 - [go-http-client](https://github.com/bozd4g/go-http-client) - Make http calls simply and easily.
@@ -2508,6 +2511,7 @@ _Libraries for accessing third party APIs._
 - [go-openai](https://github.com/sashabaranov/go-openai) - OpenAI ChatGPT, DALL·E, Whisper API library for Go.
 - [go-openproject](https://github.com/manuelbcd/go-openproject) - Go client library for interacting with [OpenProject](https://docs.openproject.org/api/) API.
 - [go-postman-collection](https://github.com/rbretecher/go-postman-collection) - Go module to work with [Postman Collections](https://learning.getpostman.com/docs/postman/collections/creating-collections/) (compatible with Insomnia).
+- [go-redoc](https://github.com/mvrilo/go-redoc) - Embedded OpenAPI/Swagger documentation ui for Go using [ReDoc](https://redocly.com/).
 - [go-restcountries](https://github.com/chriscross0/go-restcountries) - Go library for the [REST Countries API](https://countrylayer.com/).
 - [go-sophos](https://github.com/esurdam/go-sophos) - Go client library for the [Sophos UTM REST API](https://www.sophos.com/en-us/medialibrary/PDFs/documentation/UTMonAWS/Sophos-UTM-RESTful-API.pdf?la=en) with zero dependencies.
 - [go-sptrans](https://github.com/sergioaugrod/go-sptrans) - Go client library for the SPTrans Olho Vivo API.
@@ -3150,8 +3154,12 @@ _Software written in Go._
 - [Hey](https://github.com/rakyll/hey) - Hey is a tiny program that sends some load to a web application.
 - [httpref](https://github.com/dnnrly/httpref) - httpref is a handy CLI reference for HTTP methods, status codes, headers, and TCP and UDP ports.
 - [jcli](https://github.com/jenkins-zh/jenkins-cli) - Jenkins CLI allows you manage your Jenkins as an easy way.
+- [k3d](https://github.com/k3d-io/k3d) - Little helper to run CNCF's k3s in Docker.
+- [k3s](https://github.com/k3s-io/k3s) - Lightweight Kubernetes.
+- [k6](https://github.com/grafana/k6) - A modern load testing tool, using Go and JavaScript.
 - [kala](https://github.com/ajvb/kala) - Simplistic, modern, and performant job scheduler.
 - [kcli](https://github.com/cswank/kcli) - Command line tool for inspecting kafka topics/partitions/messages.
+- [kind](https://github.com/kubernetes-sigs/kind) - Kubernetes IN Docker - local clusters for testing Kubernetes.
 - [ko](https://github.com/google/ko) - Command line tool for building and deploying Go applications on Kubernetes
 - [kool](https://github.com/kool-dev/kool) - Command line tool for managing Docker environments as an easy way.
 - [kubernetes](https://github.com/kubernetes/kubernetes) - Container Cluster Manager from Google.
@@ -3162,6 +3170,7 @@ _Software written in Go._
 - [lwc](https://github.com/timdp/lwc) - A live-updating version of the UNIX wc command.
 - [manssh](https://github.com/xwjdsh/manssh) - manssh is a command line tool for managing your ssh alias config easily.
 - [Mantil](https://github.com/mantil-io/mantil) - Go specific framework for building serverless applications on AWS that enables you to focus on pure Go code while Mantil takes care of the infrastructure.
+- [minikube](https://github.com/kubernetes/minikube) - Run Kubernetes locally.
 - [Moby](https://github.com/moby/moby) - Collaborative project for the container ecosystem to assemble container-based systems.
 - [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data.
 - [ostent](https://github.com/ostrost/ostent) - collects and displays system metrics and optionally relays to Graphite and/or InfluxDB.
@@ -3208,6 +3217,7 @@ _Software written in Go._
 - [dp](https://github.com/scryinfo/dp) - Through SDK for data exchange with blockchain, developers can get easy access to DAPP development.
 - [drive](https://github.com/odeke-em/drive) - Google Drive client for the commandline.
 - [Duplicacy](https://github.com/gilbertchen/duplicacy) - A cross-platform network and cloud backup tool based on the idea of lock-free deduplication.
+- [fjira](https://github.com/mk-5/fjira) - A fuzzy-search based terminal UI application for Attlasian Jira
 - [Gebug](https://github.com/moshebe/gebug) - A tool that makes debugging of Dockerized Go applications super easy by enabling Debugger and Hot-Reload features, seamlessly.
 - [gfile](https://github.com/Antonito/gfile) - Securely transfer files between two computers, without any third party, over WebRTC.
 - [Go Package Store](https://github.com/shurcooL/Go-Package-Store) - App that displays updates for the Go packages in your GOPATH.
@@ -3339,6 +3349,7 @@ _Where to discover new Go libraries._
 - [Go 101](https://go101.org) - A book focusing on Go syntax/semantics and all kinds of details.
 - [Go AST Book (Chinese)](https://github.com/chai2010/go-ast-book) - A book focusing on Go `go/*` packages.
 - [Go Succinctly](https://github.com/thedevsir/gosuccinctly) - in Persian.
+- [Go with the domain](https://threedots.tech/go-with-the-domain/) - A book showing how to apply DDD, Clean Architecture, and CQRS by practical refactoring.
 - [GoBooks](https://github.com/dariubs/GoBooks) - A curated list of Go books.
 - [How To Code in Go eBook](https://www.digitalocean.com/community/books/how-to-code-in-go-ebook) - A 600 page introduction to Go aimed at first time developers.
 - [Learning Go](https://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
