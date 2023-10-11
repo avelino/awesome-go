@@ -1177,6 +1177,7 @@ _Tools that generate Go code._
 - [GoWrap](https://github.com/hexdigest/gowrap) - Generate decorators for Go interfaces using simple templates.
 - [interfaces](https://github.com/rjeczalik/interfaces) - Command line tool for generating interface definitions.
 - [jennifer](https://github.com/dave/jennifer) - Generate arbitrary Go code without templates.
+- [oapi-codegen](https://github.com/deepmap/oapi-codegen) - This package contains a set of utilities for generating Go boilerplate code for services based on OpenAPI 3.0 API definitions
 - [typeregistry](https://github.com/xiaoxin01/typeregistry) - A library to create type dynamically.
 
 **[⬆ back to top](#contents)**
@@ -1192,7 +1193,6 @@ _Geographic tools and servers_
 - [H3 GeoJSON](https://github.com/mmadfox/go-geojson2h3) - Conversion utilities between H3 indexes and GeoJSON.
 - [H3GeoDist](https://github.com/mmadfox/go-h3geo-dist) - Distribution of Uber H3geo cells by virtual nodes.
 - [mbtileserver](https://github.com/consbio/mbtileserver) - A simple Go-based server for map tiles stored in mbtiles format.
-- [oapi-codegen](https://github.com/deepmap/oapi-codegen) - This package contains a set of utilities for generating Go boilerplate code for services based on OpenAPI 3.0 API definitions
 - [osm](https://github.com/paulmach/osm) - Library for reading, writing and working with OpenStreetMap data and APIs.
 - [pbf](https://github.com/maguro/pbf) - OpenStreetMap PBF golang encoder/decoder.
 - [S2 geojson](https://github.com/pantrif/s2-geojson) - Convert geojson to s2 cells & demonstrating some S2 geometry features on map.
