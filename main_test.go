@@ -2,7 +2,7 @@ package main
 
 import (
 	"bytes"
-	"github.com/avelino/awesome-go/pkg/markdown"
+	_ "embed"
 	"os"
 	"regexp"
 	"sort"
@@ -10,6 +10,7 @@ import (
 	"testing"
 
 	"github.com/PuerkitoBio/goquery"
+	"github.com/avelino/awesome-go/pkg/markdown"
 )
 
 var (
@@ -124,6 +125,7 @@ func checkAlphabeticOrder(t *testing.T, s *goquery.Selection) {
 	sorted := make([]string, len(items))
 	copy(sorted, items)
 	sort.Strings(sorted)
+
 	for k, item := range items {
 		if item != sorted[k] {
 			t.Errorf("expected '%s' but actual is '%s'", sorted[k], item)
@@ -132,4 +134,13 @@ func checkAlphabeticOrder(t *testing.T, s *goquery.Selection) {
 	if t.Failed() {
 		t.Logf("expected order is:\n%s", strings.Join(sorted, "\n"))
 	}
+}
+
+func TestReadTemplate(t *testing.T) {
+	t.Run("readTemplateOK", func(t *testing.T) {
+		tmpl := readTemplate("tmpl/index.tmpl.html")
+		if tmpl == "" {
+			t.Errorf("expected not nil but actual is nil")
+		}
+	})
 }

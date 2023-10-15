@@ -3,15 +3,19 @@ package main
 
 import (
 	"bytes"
+	"embed"
 	"errors"
 	"fmt"
-	"github.com/avelino/awesome-go/pkg/markdown"
-	cp "github.com/otiai10/copy"
 	template2 "html/template"
 	"net/url"
 	"os"
 	"path/filepath"
 	"text/template"
+
+	"github.com/avelino/awesome-go/pkg/markdown"
+	cp "github.com/otiai10/copy"
+
+	_ "embed"
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/avelino/awesome-go/pkg/slug"
@@ -41,11 +45,15 @@ var staticFiles = []string{
 	"tmpl/robots.txt",
 }
 
-// TODO: embed
+//go:embed tmpl/*.tmpl.html tmpl/*.tmpl.xml
+var content embed.FS
+
 // Templates
-var tplIndex = template.Must(template.ParseFiles("tmpl/index.tmpl.html"))
-var tplCategoryIndex = template.Must(template.ParseFiles("tmpl/category-index.tmpl.html"))
-var tplSitemap = template.Must(template.ParseFiles("tmpl/sitemap.tmpl.xml"))
+var (
+	tplIndex         = template.Must(template.New("index").Parse(readTemplate("tmpl/index.tmpl.html")))
+	tplCategoryIndex = template.Must(template.New("categoryIndex").Parse(readTemplate("tmpl/category-index.tmpl.html")))
+	tplSitemap       = template.Must(template.New("sitemap").Parse(readTemplate("tmpl/sitemap.tmpl.xml")))
+)
 
 // Output files
 const outDir = "out/" // NOTE: trailing slash is required
@@ -360,4 +368,12 @@ func renderIndex(srcFilename, outFilename string) error {
 	}
 
 	return nil
+}
+
+func readTemplate(templatePath string) string {
+	templateContent, err := content.ReadFile(templatePath)
+	if err != nil {
+		panic(err)
+	}
+	return string(templateContent)
 }
