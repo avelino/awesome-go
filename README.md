@@ -3573,6 +3573,7 @@ _Add the group of your city/country here (send **PR**)_
 - [W3basic Go Tutorials](https://www.w3basic.com/golang/) - W3Basic provides an in-depth tutorial and well-organized content to learn Golang programming.
 - [Working with Go](https://github.com/mkaz/working-with-go) - Intro to go for experienced programmers.
 - [Your basic Go](https://yourbasic.org/golang) - Huge collection of tutorials and how to's.
+- [Clean Architecture with S.O.L.I.D Principles](https://github.com/DoWithLogic/golang-clean-architecture) -  implementation of Clean Architecture with S.O.L.I.D Principles in Go.
 
 **[⬆ back to top](#contents)**
 
