@@ -2723,6 +2723,7 @@ _General utilities and tools to make your life easier._
 - [rest-go](https://github.com/edermanoel94/rest-go) - A package that provide many helpful methods for working with rest api.
 - [retry](https://github.com/kamilsk/retry) - The most advanced functional mechanism to perform actions repetitively until successful.
 - [retry](https://github.com/percolate/retry) - A simple but highly configurable retry package for Go.
+- [retry](https://github.com/rbrahul/retry) - A reliable retry library to build fault-tolerant system.
 - [retry](https://github.com/thedevsaddam/retry) - Simple and easy retry mechanism package for Go.
 - [retry](https://github.com/shafreeck/retry) - A pretty simple library to ensure your work to be done.
 - [retry-go](https://github.com/avast/retry-go) - Simple library for retry mechanism.
