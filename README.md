@@ -213,7 +213,8 @@ _Libraries for manipulating audio._
 - [minimp3](https://github.com/tosone/minimp3) - Lightweight MP3 decoder library.
 - [Oto](https://github.com/hajimehoshi/oto) - A low-level library to play sound on multiple platforms.
 - [PortAudio](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library.
-
+- [Vorbis](https://github.com/mccoyst/vorbis) - Go bindings for the Vorbis decoder library.
+  
 **[⬆ back to top](#contents)**
 
 ## Authentication and OAuth
