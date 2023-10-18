@@ -594,6 +594,7 @@ additional ordered map implementations.
 - [goconcurrentqueue](https://github.com/enriquebris/goconcurrentqueue) - Concurrent FIFO queue.
 - [memlog](https://github.com/embano1/memlog) - An easy to use, lightweight, thread-safe and append-only in-memory data structure inspired by Apache Kafka.
 - [queue](https://github.com/adrianbrad/queue) - Multiple thread-safe, generic queue implementations for Go.
+- [goka](https://github.com/lovoo/goka) - a compact yet powerful distributed stream processing library for Apache Kafka written in Go. 
 
 ### Sets
 
