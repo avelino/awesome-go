@@ -171,6 +171,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
       - [Actual middlewares](#actual-middlewares)
       - [Libraries for creating HTTP middlewares](#libraries-for-creating-http-middlewares)
     - [Routers](#routers)
+    - [UI](#ui)
   - [WebAssembly](#webassembly)
   - [Windows](#windows)
   - [XML](#xml)
@@ -576,7 +577,7 @@ additional ordered map implementations.
 - [hide](https://github.com/emvi/hide) - ID type with marshalling to/from hash to prevent sending IDs to clients.
 - [hilbert](https://github.com/google/hilbert) - Go package for mapping values to and from space-filling curves, such as Hilbert and Peano curves.
 - [hyperloglog](https://github.com/axiomhq/hyperloglog) - HyperLogLog implementation with Sparse, LogLog-Beta bias correction and TailCut space reduction.
-- [plinko](https://github.com/shipt/plinko) - A finite state machine and workflow orchestrator that compiles for fast execution, easy debugging, auto-generated documentation. Includes advanced features such as side-effect hooks. 
+- [plinko](https://github.com/shipt/plinko) - A finite state machine and workflow orchestrator that compiles for fast execution, easy debugging, auto-generated documentation. Includes advanced features such as side-effect hooks.
 - [quadtree](https://github.com/s0rg/quadtree) - Generic, zero-alloc, 100%-test covered quadtree.
 - [slices](https://github.com/srfrog/slices) - Functions that operate on slices; like `package strings` but adapted to work with slices.
 - [slices](https://github.com/twharmon/slices) - Pure, generic functions for slices.
@@ -1694,7 +1695,7 @@ _**Unofficial** set of patterns for structuring projects._
 - [golang-templates/seed](https://github.com/golang-templates/seed) - Go application GitHub repository template.
 - [insidieux/inizio](https://github.com/insidieux/inizio) - Golang project layout generator with plugins.
 - [modern-go-application](https://github.com/sagikazarmark/modern-go-application) - Go application boilerplate and example applying modern practices.
-- [nunu](https://github.com/go-nunu/nunu) - Nunu is a scaffolding tool for building Go applications. 
+- [nunu](https://github.com/go-nunu/nunu) - Nunu is a scaffolding tool for building Go applications.
 - [pagoda](https://github.com/mikestefanello/pagoda) - Rapid, easy full-stack web development starter kit built in Go.
 - [scaffold](https://github.com/catchplay/scaffold) - Scaffold generates a starter Go project layout. Lets you focus on business logic implemented.
 - [wangyoucao577/go-project-layout](https://github.com/wangyoucao577/go-project-layout) - Set of practices and discussions on how to structure Go project layout.
@@ -2398,7 +2399,7 @@ See also [Natural Language Processing](#natural-language-processing) and [Text A
 - [goq](https://github.com/andrewstuart/goq) - Declarative unmarshaling of HTML using struct tags with jQuery syntax (uses GoQuery).
 - [html-to-markdown](https://github.com/JohannesKaufmann/html-to-markdown) - Convert HTML to Markdown. Even works with entire websites and can be extended through rules.
 - [htmlquery](https://github.com/antchfx/htmlquery) - An XPath query package for HTML, lets you extract data or evaluate from HTML documents by an XPath expression.
-- [htmlyaml](https://github.com/nikolaydubina/htmlyaml) -  Rich rendering of YAML as HTML in Go
+- [htmlyaml](https://github.com/nikolaydubina/htmlyaml) - Rich rendering of YAML as HTML in Go
 - [mxj](https://github.com/clbanning/mxj) - Encode / decode XML as JSON or map[string]interface{}; extract values with dot-notation paths and wildcards. Replaces x2j and j2x packages.
 - [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
 
@@ -2961,6 +2962,12 @@ _Full stack web frameworks._
 - [violetear](https://github.com/nbari/violetear) - Go HTTP router.
 - [xmux](https://github.com/rs/xmux) - High performance muxer based on `httprouter` with `net/context` support.
 - [xujiajun/gorouter](https://github.com/xujiajun/gorouter) - A simple and fast HTTP router for Go.
+
+**[⬆ back to top](#contents)**
+
+### UI
+
+[`elem-go`](https://github.com/chasefleming/elem-go) is a Go library for programmatically creating HTML elements. It emphasizes type safety and provides an intuitive interface for element generation and attribute management.
 
 **[⬆ back to top](#contents)**
 
@@ -3529,7 +3536,7 @@ _Add the group of your city/country here (send **PR**)_
 - [A Comprehensive Guide to Structured Logging in Go](https://betterstack.com/community/guides/logging/logging-in-go/) - Delve deep into the world of structured logging in Go with a specific focus on recently accepted slog proposal which aims to bring high performance structured logging with levels to the standard library.
 - [A Guide to Golang E-Commerce](https://snipcart.com/blog/golang-ecommerce-ponzu-cms-demo?utm_term=golang-ecommerce-ponzu-cms-demo) - Building a Golang site for e-commerce (demo included).
 - [A Tour of Go](https://tour.golang.org/) - Interactive tour of Go.
-- [Build a Database in 1000 lines of code]( https://link.medium.com/O9YQlx89Htb) - Build a NoSQL Database From Zero in 1000 Lines of Code.
+- [Build a Database in 1000 lines of code](https://link.medium.com/O9YQlx89Htb) - Build a NoSQL Database From Zero in 1000 Lines of Code.
 - [Build web application with Golang](https://github.com/astaxie/build-web-application-with-golang) - Golang ebook intro how to build a web app with golang.
 - [Building and Testing a REST API in Go with Gorilla Mux and PostgreSQL](https://semaphoreci.com/community/tutorials/building-and-testing-a-rest-api-in-go-with-gorilla-mux-and-postgresql) - We’ll write an API with the help of the powerful Gorilla Mux.
 - [Building Go Web Applications and Microservices Using Gin](https://semaphoreci.com/community/tutorials/building-go-web-applications-and-microservices-using-gin) - Get familiar with Gin and find out how it can help you reduce boilerplate code and build a request handling pipeline.
