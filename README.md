@@ -60,6 +60,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 ## Contents
 
+<details>
+<summary>Expand contents</summary>
+
 - [Awesome Go](#awesome-go)
   - [Contents](#contents)
   - [Audio and Music](#audio-and-music)
@@ -199,6 +202,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Guided Learning Paths](#guided-learning)
 
 **[⬆ back to top](#contents)**
+
+</details>
 
 ## Audio and Music
 
