@@ -53,6 +53,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 ## Contents
 
+<details>
+<summary>Expand contents</summary>
+
 - [Awesome Go](#awesome-go)
   - [Contents](#contents)
   - [Actor Model](#actor-model)
@@ -226,6 +229,8 @@ _Libraries for building programs that leverage AI._
 - [OllamaFarm](https://github.com/presbrey/ollamafarm) - Manage, load-balance, and failover packs of Ollamas.
 
 **[⬆ back to top](#contents)**
+
+</details>
 
 ## Audio and Music
 
