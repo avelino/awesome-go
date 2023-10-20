@@ -5,13 +5,14 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/avelino/awesome-go/pkg/markdown"
-	cp "github.com/otiai10/copy"
 	template2 "html/template"
 	"net/url"
 	"os"
 	"path/filepath"
 	"text/template"
+
+	"github.com/avelino/awesome-go/pkg/markdown"
+	cp "github.com/otiai10/copy"
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/avelino/awesome-go/pkg/slug"
@@ -241,8 +242,8 @@ func extractCategory(doc *goquery.Document, selector string) (*Category, error) 
 	doc.Find(selector).EachWithBreak(func(_ int, selCatHeader *goquery.Selection) bool {
 		selDescr := selCatHeader.NextFiltered("p")
 		// FIXME: bug. this would select links from all neighboring
-		//   sub-categories until the next category. To prevent this we should
-		//   find only first ul
+		// sub-categories until the next category. To prevent this we should
+		// find only first ul
 		ul := selCatHeader.NextFilteredUntil("ul", "h2")
 
 		var links []Link
