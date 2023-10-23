@@ -943,7 +943,7 @@ _Packages that help with building Distributed Systems._
 - [sleuth](https://github.com/ursiform/sleuth) - Library for master-less p2p auto-discovery and RPC between HTTP services (using [ZeroMQ](https://github.com/zeromq/libzmq)).
 - [Temporal](https://github.com/temporalio/sdk-go) - Durable execution system for making code fault-tolerant and simple.
 - [torrent](https://github.com/anacrolix/torrent) - BitTorrent client package.
-- [trpc-go](https://github.com/trpc-group/trpc-go) -  The Go language implementation of tRPC, is a battle-tested microservices framework that has been extensively validated in production environments. It not only delivers high performance but also offers ease of use and testability.
+- [trpc-go](https://github.com/trpc-group/trpc-go) - The Go language implementation of tRPC, is a pluggable, high-performance RPC framework that has been extensively validated in production environments. It not only delivers high performance but also offers ease of use and testability.
 
 **[⬆ back to top](#contents)**
 
