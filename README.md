@@ -196,7 +196,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Reddit](#reddit)
   - [Websites](#websites)
     - [Tutorials](#tutorials)
-    - [Guided Learning Paths](#guided-learning)
+    - [Guided Learning](#guided-learning)
 
 **[⬆ back to top](#contents)**
 
@@ -263,6 +263,7 @@ _Tools for building blockchains._
 - [gossamer](https://github.com/ChainSafe/gossamer) - A Go implementation of the Polkadot Host.
 - [solana-go](https://github.com/gagliardetto/solana-go) - Go library to interface with Solana JSON RPC and WebSocket interfaces.
 - [tendermint](https://github.com/tendermint/tendermint) - High-performance middleware for transforming a state machine written in any programming language into a Byzantine Fault Tolerant replicated state machine using the Tendermint consensus and blockchain protocols.
+- [kubo](https://github.com/ipfs/kubo) - A blockchain framework implemented in Go. It provides content-addressable storage which can be used for decentralized storage in DApps. It is based on the IPFS protocol.
 
 **[⬆ back to top](#contents)**
 
