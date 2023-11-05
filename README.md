@@ -1378,6 +1378,7 @@ _Libraries for manipulating images._
 
 _Libraries for programming devices of the IoT._
 
+- [awesome-tinygo](https://github.com/soypat/awesome-tinygo) - A curated list of awesome TinyGo projects and libraries. Inspired by awesome-go.
 - [connectordb](https://github.com/connectordb/connectordb) - Open-Source Platform for Quantified Self & IoT.
 - [devices](https://github.com/goiot/devices) - Suite of libraries for IoT devices, experimental for x/exp/io.
 - [ekuiper](https://github.com/lf-edge/ekuiper) - Lightweight data stream processing engine for IoT edge.
