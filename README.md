@@ -3387,7 +3387,7 @@ _Where to discover new Go libraries._
 
 ## Meetups
 
-- [Bärner Go Meetup - Berne, Switzerland](https://www.meetup.com/berner-go-meetup/)
+- [Berne Go Meetup, Switzerland](https://www.meetup.com/berner-go-meetup/)
 - [Basel Go Meetup](https://www.meetup.com/Basel-Go-Meetup/)
 - [Belfast Gophers](https://www.meetup.com/Belfast-Gophers/)
 - [Belgrade Golang Meetup](https://www.meetup.com/golang-serbia/)
