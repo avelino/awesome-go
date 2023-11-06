@@ -3387,12 +3387,12 @@ _Where to discover new Go libraries._
 
 ## Meetups
 
-- [Berne Go Meetup, Switzerland](https://www.meetup.com/berner-go-meetup/)
 - [Basel Go Meetup](https://www.meetup.com/Basel-Go-Meetup/)
 - [Belfast Gophers](https://www.meetup.com/Belfast-Gophers/)
 - [Belgrade Golang Meetup](https://www.meetup.com/golang-serbia/)
 - [Berlin Golang](https://www.meetup.com/golang-users-berlin/)
 - [Brisbane Gophers](https://www.meetup.com/Brisbane-Golang-Meetup/)
+- [Bärner Go Meetup - Berne, Switzerland](https://www.meetup.com/berner-go-meetup/)
 - [Canberra Gophers](https://www.meetup.com/Canberra-Gophers/)
 - [Go Language NYC](https://www.meetup.com/golanguagenewyork/)
 - [Go London User Group](https://www.meetup.com/Go-London-User-Group/)
