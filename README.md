@@ -2461,7 +2461,6 @@ See also [Natural Language Processing](#natural-language-processing) and [Text A
 ### RSS
 
 - [podcast](https://github.com/eduncan911/podcast) - iTunes Compliant and RSS 2.0 Podcast Generator in Golang
-- [syndfeed](https://github.com/zhengchun/syndfeed) - A syndication feed for Atom 1.0 and RSS 2.0.
 
 ### Utility/Miscellaneous
 
