@@ -3062,6 +3062,7 @@ _Plugin for text editors and IDEs._
 - [GoSublime](https://github.com/DisposaBoy/GoSublime) - Golang plugin collection for the text editor SublimeText 3 providing code completion and other IDE-like features.
 - [gounit-vim](https://github.com/hexdigest/gounit-vim) - Vim plugin for generating Go tests based on the function's or method's signature.
 - [theia-go-extension](https://github.com/theia-ide/theia-go-extension) - Go language support for the Theia IDE.
+- [tooltitude](https://marketplace.visualstudio.com/items?itemName=tooltitudeteam.tooltitude) - Productivity extension for Go complementing vscode go, providing reference/implementation/implementer count code lenses, code actions, and other features.
 - [vim-compiler-go](https://github.com/rjohnsondev/vim-compiler-go) - Vim plugin to highlight syntax errors on save.
 - [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim.
 - [vscode-go](https://github.com/golang/vscode-go) - Extension for Visual Studio Code (VS Code) which provides support for the Go language.
