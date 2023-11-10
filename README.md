@@ -1390,6 +1390,7 @@ _Libraries for programming devices of the IoT._
 - [mainflux](https://github.com/Mainflux/mainflux) - Industrial IoT Messaging and Device Management Server.
 - [periph](https://periph.io/) - Peripherals I/O to interface with low-level board facilities.
 - [sensorbee](https://github.com/sensorbee/sensorbee) - Lightweight stream processing engine for IoT.
+- [wizgo](https://github.com/achetronic/wizgo) - An extensive Wiz Connected client library for Go.
 
 **[⬆ back to top](#contents)**
 
