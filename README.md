@@ -206,6 +206,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 _Libraries for building programs that leverage AI._
 
 - [langchaingo](https://github.com/tmc/langchaingo) - LangChainGo is a framework for developing applications powered by language models.
+- [LocalAI](https://github.com/mudler/LocalAI) - Open Source OpenAI alternative, self-host AI models.
+- [Ollama](https://github.com/jmorganca/ollama) - Run large language models locally.
 
 **[⬆ back to top](#contents)**
 
