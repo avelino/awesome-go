@@ -376,6 +376,7 @@ _Libraries for building standard or basic Command Line applications._
 - [carapace](https://github.com/rsteube/carapace) - Command argument completion generator for spf13/cobra.
 - [carapace-bin](https://github.com/rsteube/carapace-bin) - Multi-shell multi-command argument completer.
 - [carapace-spec](https://github.com/rsteube/carapace-spec) - Define simple completions using a spec file.
+- [cli](https://github.com/mitchellh/cli) - Library for implementing command-line interfaces. powers the [Terraform CLI](https://github.com/hashicorp/terraform).
 - [cli](https://github.com/mkideal/cli) - Feature-rich and easy to use command-line package based on golang struct tags.
 - [cli](https://github.com/teris-io/cli) - Simple and complete API for building command line interfaces in Go.
 - [climax](https://github.com/tucnak/climax) - Alternative CLI with "human face", in spirit of Go command.
