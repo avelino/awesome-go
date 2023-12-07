@@ -976,6 +976,7 @@ _Libraries and tools that implement email creation and sending._
 - [go-simple-mail](https://github.com/xhit/go-simple-mail) - Very simple package to send emails with SMTP Keep Alive and two timeouts: Connect and Send.
 - [Hectane](https://github.com/hectane/hectane) - Lightweight SMTP client providing an HTTP API.
 - [hermes](https://github.com/matcornic/hermes) - Golang package that generates clean, responsive HTML e-mails.
+- [Maddy](https://github.com/foxcpp/maddy) - All-in-one (SMTP, IMAP, DKIM, DMARC, MTA-STS, DANE) email server
 - [mailchain](https://github.com/mailchain/mailchain) - Send encrypted emails to blockchain addresses written in Go.
 - [mailgun-go](https://github.com/mailgun/mailgun-go) - Go library for sending mail with the Mailgun API.
 - [MailHog](https://github.com/mailhog/MailHog) - Email and SMTP testing with web and API interface.
