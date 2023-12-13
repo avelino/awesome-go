@@ -17,6 +17,6 @@ jobs:
     - name: Get dependencies
       run: go get -v -t -d ./...
     - name: run script
-      run: go test stale_repositories_test.go scripts.go
+      run: go test stale_repositories_test.go
       env:
         OAUTH_TOKEN: ${{secrets.OAUTH_TOKEN}}
