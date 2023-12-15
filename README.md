@@ -78,11 +78,11 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Bit Sets](#bit-sets)
     - [Bloom and Cuckoo Filters](#bloom-and-cuckoo-filters)
     - [Data Structure and Algorithm Collections](#data-structure-and-algorithm-collections)
+    - [Enum](#enum)
     - [Iterators](#iterators)
     - [Maps](#maps)
     - [Miscellaneous Data Structures and Algorithms](#miscellaneous-data-structures-and-algorithms)
     - [Nullable Types](#nullable-types)
-    - [Enum](#enum)
     - [Queues](#queues)
     - [Sets](#sets)
     - [Text Analysis](#text-analysis)
@@ -545,6 +545,10 @@ _Libraries for preprocessing CSS files._
 - [gods](https://github.com/emirpasic/gods) - Go Data Structures. Containers, Sets, Lists, Stacks, Maps, BidiMaps, Trees, HashSet etc.
 - [gostl](https://github.com/liyue201/gostl) - Data structure and algorithm library for go, designed to provide functions similar to C++ STL.
 
+### Enum
+
+- [goenum](https://github.com/lvyahui8/goenum) - A common enumeration struct based on generics and reflection that allows you to quickly define enumerations and use a set of useful default methods.
+
 ### Iterators
 
 - [goterator](https://github.com/yaa110/goterator) - Iterator implementation to provide map and reduce functionalities.
@@ -589,10 +593,6 @@ additional ordered map implementations.
 - [null](https://github.com/emvi/null) - Nullable Go types that can be marshalled/unmarshalled to/from JSON.
 - [typ](https://github.com/gurukami/typ) - Null Types, Safe primitive type conversion and fetching value from complex structures.
 
-
-### Enum
-
-- [goenum](https://github.com/lvyahui8/goenum) - A common enumeration struct based on generics and reflection that allows you to quickly define enumerations and use a set of useful default methods.
 
 ### Queues
 
