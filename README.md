@@ -588,7 +588,6 @@ additional ordered map implementations.
 - [null](https://github.com/emvi/null) - Nullable Go types that can be marshalled/unmarshalled to/from JSON.
 - [typ](https://github.com/gurukami/typ) - Null Types, Safe primitive type conversion and fetching value from complex structures.
 
-
 ### Queues
 
 - [deque](https://github.com/edwingeng/deque) - A highly optimized double-ended queue.
