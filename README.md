@@ -78,7 +78,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Bit Sets](#bit-sets)
     - [Bloom and Cuckoo Filters](#bloom-and-cuckoo-filters)
     - [Data Structure and Algorithm Collections](#data-structure-and-algorithm-collections)
-    - [Enum](#enum)
     - [Iterators](#iterators)
     - [Maps](#maps)
     - [Miscellaneous Data Structures and Algorithms](#miscellaneous-data-structures-and-algorithms)
@@ -544,10 +543,6 @@ _Libraries for preprocessing CSS files._
 - [go-datastructures](https://github.com/Workiva/go-datastructures) - Collection of useful, performant, and thread-safe data structures.
 - [gods](https://github.com/emirpasic/gods) - Go Data Structures. Containers, Sets, Lists, Stacks, Maps, BidiMaps, Trees, HashSet etc.
 - [gostl](https://github.com/liyue201/gostl) - Data structure and algorithm library for go, designed to provide functions similar to C++ STL.
-
-### Enum
-
-- [goenum](https://github.com/lvyahui8/goenum) - A common enumeration struct based on generics and reflection that allows you to quickly define enumerations and use a set of useful default methods.
 
 ### Iterators
 
@@ -1755,6 +1750,7 @@ _These libraries were placed here because none of the other categories seemed to
 - [go-openapi](https://github.com/go-openapi) - Collection of packages to parse and utilize open-api schemas.
 - [go-resiliency](https://github.com/eapache/go-resiliency) - Resiliency patterns for golang.
 - [go-unarr](https://github.com/gen2brain/go-unarr) - Decompression library for RAR, TAR, ZIP and 7z archives.
+- [goenum](https://github.com/lvyahui8/goenum) - A common enumeration struct based on generics and reflection that allows you to quickly define enumerations and use a set of useful default methods.
 - [gofakeit](https://github.com/brianvoe/gofakeit) - Random data generator written in go.
 - [gommit](https://github.com/antham/gommit) - Analyze git commit messages to ensure they follow defined patterns.
 - [gopsutil](https://github.com/shirou/gopsutil) - Cross-platform library for retrieving process and system utilization(CPU, Memory, Disks, etc).
