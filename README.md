@@ -82,6 +82,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
     - [Maps](#maps)
     - [Miscellaneous Data Structures and Algorithms](#miscellaneous-data-structures-and-algorithms)
     - [Nullable Types](#nullable-types)
+    - [Enum](#enum)
     - [Queues](#queues)
     - [Sets](#sets)
     - [Text Analysis](#text-analysis)
@@ -587,6 +588,11 @@ additional ordered map implementations.
 - [nan](https://github.com/kak-tus/nan) - Zero allocation Nullable structures in one library with handy conversion functions, marshallers and unmarshallers.
 - [null](https://github.com/emvi/null) - Nullable Go types that can be marshalled/unmarshalled to/from JSON.
 - [typ](https://github.com/gurukami/typ) - Null Types, Safe primitive type conversion and fetching value from complex structures.
+
+
+### Enum
+
+- [goenum](https://github.com/lvyahui8/goenum) - A common enumeration struct based on generics and reflection that allows you to quickly define enumerations and use a set of useful default methods.
 
 ### Queues
 
