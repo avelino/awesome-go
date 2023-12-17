@@ -3075,6 +3075,7 @@ _Plugin for text editors and IDEs._
 
 ## Go Generate Tools
 
+- [envdoc](https://github.com/g4s8/envdoc) -  generate documentation for environment variables from Go source files.
 - [generic](https://github.com/usk81/generic) - flexible data type for Go.
 - [genny](https://github.com/cheekybits/genny) - Elegant generics for Go.
 - [gocontracts](https://github.com/Parquery/gocontracts) - brings design-by-contract to Go by synchronizing the code with the documentation.
