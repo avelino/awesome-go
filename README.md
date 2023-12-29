@@ -676,6 +676,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 
 ### Databases Implemented in Go
 
+- [SigLens](https://github.com/siglens/siglens) - Open source alternative to Splunk/DataDog that is 100x more efficient.
 - [badger](https://github.com/dgraph-io/badger) - Fast key-value store in Go.
 - [bbolt](https://github.com/etcd-io/bbolt) - An embedded key/value database for Go.
 - [Bitcask](https://git.mills.io/prologic/bitcask) - Bitcask is an embeddable, persistent and fast key-value (KV) database written in pure Go with predictable read/write performance, low latency and high throughput thanks to the bitcask on-disk layout (LSM+WAL).
@@ -860,6 +861,7 @@ _Libraries for building and using SQL._
 
 ### Search and Analytic Databases
 
+- [SigLens](https://github.com/siglens/siglens) - Open source alternative to Splunk/DataDog that is 100x more efficient.
 - [clickhouse-go](https://github.com/ClickHouse/clickhouse-go/) - ClickHouse SQL client for Go with a `database/sql` compatibility.
 - [elastic](https://github.com/olivere/elastic) - Elasticsearch client for Go.
 - [elasticsql](https://github.com/cch123/elasticsql) - Convert sql to elasticsearch dsl in Go.
