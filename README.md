@@ -676,7 +676,6 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 
 ### Databases Implemented in Go
 
-- [SigLens](https://github.com/siglens/siglens) - Open source alternative to Splunk/DataDog that is 100x more efficient.
 - [badger](https://github.com/dgraph-io/badger) - Fast key-value store in Go.
 - [bbolt](https://github.com/etcd-io/bbolt) - An embedded key/value database for Go.
 - [Bitcask](https://git.mills.io/prologic/bitcask) - Bitcask is an embeddable, persistent and fast key-value (KV) database written in pure Go with predictable read/write performance, low latency and high throughput thanks to the bitcask on-disk layout (LSM+WAL).
@@ -713,6 +712,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [regatta](https://github.com/jamf/regatta) - Fast, simple, geo-distributed KV store built for cloud native era.
 - [rosedb](https://github.com/roseduan/rosedb) - An embedded k-v database based on LSM+WAL, supports string, list, hash, set, zset.
 - [rqlite](https://github.com/rqlite/rqlite) - The lightweight, distributed, relational database built on SQLite.
+- [SigLens](https://github.com/siglens/siglens) - Open source alternative to Splunk/DataDog that is 100x more efficient.
 - [tempdb](https://github.com/rafaeljesus/tempdb) - Key-value store for temporary items.
 - [tidb](https://github.com/pingcap/tidb) - TiDB is a distributed SQL database. Inspired by the design of Google F1.
 - [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
@@ -861,13 +861,13 @@ _Libraries for building and using SQL._
 
 ### Search and Analytic Databases
 
-- [SigLens](https://github.com/siglens/siglens) - Open source alternative to Splunk/DataDog that is 100x more efficient.
 - [clickhouse-go](https://github.com/ClickHouse/clickhouse-go/) - ClickHouse SQL client for Go with a `database/sql` compatibility.
 - [elastic](https://github.com/olivere/elastic) - Elasticsearch client for Go.
 - [elasticsql](https://github.com/cch123/elasticsql) - Convert sql to elasticsearch dsl in Go.
 - [elastigo](https://github.com/mattbaird/elastigo) - Elasticsearch client library.
 - [go-elasticsearch](https://github.com/elastic/go-elasticsearch) - Official Elasticsearch client for Go.
 - [goes](https://github.com/OwnLocal/goes) - Library to interact with Elasticsearch.
+- [SigLens](https://github.com/siglens/siglens) - Open source alternative to Splunk/DataDog that is 100x more efficient.
 - [skizze](https://github.com/seiflotfy/skizze) - probabilistic data-structures service and storage.
 
 **[⬆ back to top](#contents)**
