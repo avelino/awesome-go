@@ -1571,6 +1571,7 @@ _Libraries for Machine Learning._
 - [goml](https://github.com/cdipaolo/goml) - On-line Machine Learning in Go.
 - [gonet](https://github.com/dathoangnd/gonet) - Neural Network for Go.
 - [Goptuna](https://github.com/c-bata/goptuna) - Bayesian optimization framework for black-box functions written in Go. Everything will be optimized.
+- [Goras](https://github.com/JoshPattman/goras) - High-level machine learning library like the Keras functional API, built on Gorgonia.
 - [goRecommend](https://github.com/timkaye11/goRecommend) - Recommendation Algorithms library written in Go.
 - [gorgonia](https://github.com/gorgonia/gorgonia) - graph-based computational library like Theano for Go that provides primitives for building various machine learning and neural network algorithms.
 - [gorse](https://github.com/zhenghaoz/gorse) - An offline recommender system backend based on collaborative filtering written in Go.
