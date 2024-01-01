@@ -5,12 +5,12 @@
 - repo link (github.com, gitlab.com, etc):
 - pkg.go.dev:
 - goreportcard.com:
-- coverage service link ([codecov](https://codecov.io/), [coveralls](https://coveralls.io/), [gocover](http://gocover.io/) etc.):
+- coverage service link ([codecov](https://codecov.io/), [coveralls](https://coveralls.io/), etc.):
 
 **Note**: _that new categories can be added only when there are 3 packages or more._
 
 **Make sure that you've checked the boxes below that apply before you submit PR.**
-_Not every repository (project) will require every option, but most projects should. Check the Contribution Guidelines for detials._
+_Not every repository (project) will require every option, but most projects should. Check the Contribution Guidelines for details._
 
 - [ ] The package has been added to the list in alphabetical order.
 - [ ] The package has an appropriate description with correct grammar.
@@ -21,6 +21,6 @@ _Not every repository (project) will require every option, but most projects sho
 - [ ] The repo has a version-numbered release and a go.mod file.
 - [ ] I have read the [Contribution Guidelines](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md#contribution-guidelines), [Maintainers Note](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md#maintainers) and [Quality Standards](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md#quality-standards).
 - [ ] The repo has a continuous integration process that automatically runs tests that must pass before new pull requests are merged.
-- [ ] The authors of the project do not commit directly to the repo, but rather use pull requests that run the continuous-integration process.
+- [ ] Continuous integration is used to attempt to catch issues prior to releasing this package to end-users.
 
 Thanks for your PR, you're awesome! :+1:
