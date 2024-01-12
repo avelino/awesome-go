@@ -60,6 +60,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 ## Contents
 
+<details>
+<summary>Expand contents</summary>
+
 - [Awesome Go](#awesome-go)
   - [Contents](#contents)
   - [Artificial Intelligence](#artificial-intelligence)
@@ -210,6 +213,8 @@ _Libraries for building programs that leverage AI._
 - [Ollama](https://github.com/jmorganca/ollama) - Run large language models locally.
 
 **[⬆ back to top](#contents)**
+
+</details>
 
 ## Audio and Music
 
