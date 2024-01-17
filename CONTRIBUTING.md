@@ -66,6 +66,13 @@ that the resulting list has at least 3 projects in every category, and that the 
 
 Fill out the template in your PR with the links asked for. If you accidentally remove the PR template from the submission, you can find it [here](https://github.com/avelino/awesome-go/blob/main/.github/PULL_REQUEST_TEMPLATE.md).
 
+## Contributions to ``/impl`` - implementation of algorithms and utility programs
+
+Open a pull request against ```/impl``` directory that fix or add feature.
+
+- The pull request should add one and only feature or any fix.
+- You must make sure to test changes locally.
+- Assign @pacifiquem on the PR or Issue for quick review.
 
 ## Congrats, your project got accepted - what now?
 You are an outstanding project now! Feel encouraged to tell others about it by adding one of these badges:  
