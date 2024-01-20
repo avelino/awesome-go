@@ -6,7 +6,7 @@ import (
 	"crypto/sha256"
 	"crypto/sha512"
 	"fmt"
-	"io/ioutil"
+	"os"
 	"log"
 )
 
@@ -17,7 +17,7 @@ func main() {
 	*/
 
 	// Get bytes from file
-	data, err := ioutil.ReadFile("test.txt")
+	data, err := os.ReadFile("test.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

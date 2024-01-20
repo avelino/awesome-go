@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
+	"io"
 	"log"
 	"os"
 )
@@ -20,7 +20,7 @@ func main() {
 	}
 
 	// os.File.Read(), io.ReadFull(), ioutil.ReadAll() ve io.ReadAtLeast() da kullanılabilir
-	data, err := ioutil.ReadAll(file)
+	data, err := io.ReadAll(file)
 	if err != nil {
 		log.Fatal(err)
 	}
