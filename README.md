@@ -327,6 +327,7 @@ _Libraries and tools help with build automation._
 - [Task](https://github.com/go-task/task) - simple "Make" alternative.
 - [taskctl](https://github.com/taskctl/taskctl) - Concurrent task runner.
 - [xc](https://github.com/joerdav/xc) - Task runner with README.md defined tasks, executable markdown.
+- [gob](https://github.com/kcmvp/gob) - [Gradle](https://docs.gradle.org/)/[Maven](https://maven.apache.org/) like build tool for Go projects.
 
 **[⬆ back to top](#contents)**
 
