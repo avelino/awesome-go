@@ -3450,7 +3450,6 @@ _Where to discover new Go libraries._
 - [Golang Lyon](https://www.meetup.com/Golang-Lyon/)
 - [Golang Marseille](https://www.meetup.com/fr-FR/Golang-Marseille/)
 - [Golang Melbourne](https://www.meetup.com/golang-mel/)
-- [Golang Mountain View](https://www.meetup.com/Golang-Mountain-View/)
 - [Golang North East](https://www.meetup.com/en-AU/Golang-North-East/)
 - [Golang Paris](https://www.meetup.com/Golang-Paris/)
 - [Golang Poland](https://www.meetup.com/Golang-Poland/)
