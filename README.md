@@ -1390,6 +1390,7 @@ _Libraries for manipulating images._
 - [stegify](https://github.com/DimitarPetrov/stegify) - Go tool for LSB steganography, capable of hiding any file within an image.
 - [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
 - [tga](https://github.com/ftrvxmtrx/tga) - Package tga is a TARGA image format decoder/encoder.
+- [transformimgs](https://github.com/Pixboost/transformimgs) - Transformimgs resizes and optimises images for Web using next-generation formats.
 - [webp-server](https://github.com/mehdipourfar/webp-server) - Simple and minimal image server capable of storing, resizing, converting and caching images.
 
 **[⬆ back to top](#contents)**
