@@ -1257,6 +1257,7 @@ _Tools for managing and working with Goroutines._
 - [flowmatic](https://github.com/carlmjohnson/flowmatic) - Structured concurrency made easy.
 - [go-accumulator](https://github.com/nar10z/go-accumulator) - Solution for accumulation of events and their subsequent processing.
 - [go-actor](https://github.com/vladopajic/go-actor) - A tiny library for writing concurrent programs using actor model.
+- [go-dag](https://github.com/rhosocial/go-dag) - A framework developed in Go that manages the execution of workflows described by directed acyclic graphs.
 - [go-floc](https://github.com/workanator/go-floc) - Orchestrate goroutines with ease.
 - [go-flow](https://github.com/kamildrazkiewicz/go-flow) - Control goroutines execution order.
 - [go-tools/multithreading](https://github.com/nikhilsaraf/go-tools) - Manage a pool of goroutines using this lightweight library with a simple API.
