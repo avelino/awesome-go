@@ -3217,6 +3217,7 @@ _Software written in Go._
 - [Pewpew](https://github.com/bengadbois/pewpew) - Flexible HTTP command line stress tester.
 - [PipeCD](https://github.com/pipe-cd/pipecd) - A GitOps-style continuous delivery platform that provides consistent deployment and operations experience for any applications.
 - [Pomerium](https://github.com/pomerium/pomerium) - Pomerium is an identity-aware access proxy.
+- [Risor](https://github.com/risor-io/risor) - Risor is a scripting language and CLI for DevOps and the Go ecosystem. Built-in modules make scripting easy for AWS, K8s, Vault, GitHub Actions, and more.
 - [Rodent](https://github.com/alouche/rodent) - Rodent helps you manage Go versions, projects and track dependencies.
 - [s3-proxy](https://github.com/oxyno-zeta/s3-proxy) - S3 Proxy with GET, PUT and DELETE methods and authentication (OpenID Connect and Basic Auth).
 - [s3gof3r](https://github.com/rlmcpherson/s3gof3r) - Small utility/library optimized for high speed transfer of large objects into and out of Amazon S3.
