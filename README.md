@@ -1701,6 +1701,7 @@ _Libraries for working with dependency injection._
 - [linker](https://github.com/logrange/linker) - A reflection based dependency injection and inversion of control library with components lifecycle support.
 - [nject](https://github.com/muir/nject) - A type safe, reflective framework for libraries, tests, http endpoints, and service startup.
 - [wire](https://github.com/Fs02/wire) - Strict Runtime Dependency Injection for Golang.
+- [kod](https://github.com/go-kod/kod) - A generics based dependency injection framework for Go.
 
 **[⬆ back to top](#contents)**
 
