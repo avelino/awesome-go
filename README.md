@@ -2171,6 +2171,7 @@ _Libraries that are used to help make your application more secure._
 - [CertMagic](https://github.com/caddyserver/certmagic) - Mature, robust, and powerful ACME client integration for fully-managed TLS certificate issuance and renewal.
 - [Coraza](https://github.com/corazawaf/coraza) - Enterprise-ready, modsecurity and OWASP CRS compatible WAF library.
 - [dongle](https://github.com/golang-module/dongle) - A simple, semantic and developer-friendly golang package for encoding&decoding and encryption&decryption.
+- [encid](https://github.com/bobg/encid) - Encode and decode encrypted integer IDs.
 - [firewalld-rest](https://github.com/prashantgupta24/firewalld-rest) - A rest application to dynamically update firewalld rules on a linux server.
 - [go-generate-password](https://github.com/m1/go-generate-password) - Password generator that can be used on the cli or as a library.
 - [go-htpasswd](https://github.com/tg123/go-htpasswd) - Apache htpasswd Parser for Go.
