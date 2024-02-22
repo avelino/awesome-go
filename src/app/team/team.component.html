@@ -1,0 +1,74 @@
+<div class="column-layout group">
+  <div class="column-layout group_1">
+    <h5 class="h5">
+      Team Members
+    </h5>
+    <p class="text">
+      64 People
+    </p>
+  </div>
+  <div class="row-layout group_2">
+    <igx-card *ngFor="let item of dashboardDataAllTeamMembers" class="card">
+      <igx-card-header>
+        <h3 igxCardHeaderTitle>
+        </h3>
+        <h5 igxCardHeaderSubtitle>
+        </h5>
+      </igx-card-header>
+      <igx-card-content class="body-content">
+        <div class="column-layout group_3">
+          <div class="column-layout group_4">
+            <img [src]="item.Photo" class="image" />
+            <div class="row-layout group_5">
+              <p class="ig-typography__subtitle-2 text_1">
+                {{ item.FirstName }}
+              </p>
+              <p class="ig-typography__subtitle-2 text_2">
+                {{ item.LastName }}
+              </p>
+            </div>
+            <p class="ig-typography__overline text_3">
+              {{ item.Position }}
+            </p>
+          </div>
+          <div class="row-layout group_6">
+            <div class="column-layout group_7">
+              <p class="ig-typography__overline text_3">
+                Department
+              </p>
+              <p class="ig-typography__subtitle-2 text_3">
+                {{ item.Department }}
+              </p>
+            </div>
+            <div class="column-layout group_7">
+              <p class="ig-typography__overline text_3">
+                HIRE DATE
+              </p>
+              <p class="ig-typography__subtitle-2 text_3">
+                {{ item.HireDate }}
+              </p>
+            </div>
+          </div>
+          <div class="column-layout group_8">
+            <div class="row-layout group_9">
+              <igx-icon class="icon">
+                mail
+              </igx-icon>
+              <a target="_blank" class="ig-typography__body-2 hyperlink">
+                {{ item.Email }}
+              </a>
+            </div>
+            <div class="row-layout group_9">
+              <igx-icon class="icon">
+                phone_android
+              </igx-icon>
+              <p class="ig-typography__body-2 text_4">
+                {{ item.Phone }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </igx-card-content>
+    </igx-card>
+  </div>
+</div>
