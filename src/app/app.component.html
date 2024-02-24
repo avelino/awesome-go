@@ -1,0 +1,283 @@
+<div class="row-layout group">
+  <div class="row-layout group_1">
+    <div class="column-layout left-panel">
+      <div class="column-layout logo-and-nav">
+        <div class="row-layout logo">
+          <img src="/assets/LogoHR.svg" class="image" />
+          <p class="ig-typography__subtitle-2 text">
+            HR
+          </p>
+          <p class="ig-typography__subtitle-2 text_1">
+            CORP
+          </p>
+        </div>
+        <igx-list class="navigation">
+          <igx-list-item [isHeader]="false" routerLink="/dashboard">
+            <span igxListThumbnail>
+              <igx-avatar shape="circle" class="avatar avatar_1">
+                <igx-icon>
+                  dashboard
+                </igx-icon>
+              </igx-avatar>
+            </span>
+            <span igxListLine>
+              <p class="ig-typography__subtitle-2 text_2">
+                DASHBOARD
+              </p>
+            </span>
+          </igx-list-item>
+          <igx-list-item [isHeader]="false" routerLink="/team">
+            <span igxListThumbnail>
+              <igx-avatar shape="circle" class="avatar avatar_2">
+                <igx-icon>
+                  people
+                </igx-icon>
+              </igx-avatar>
+            </span>
+            <span igxListLine>
+              <p class="ig-typography__subtitle-2 text_3">
+                TEAM
+              </p>
+            </span>
+          </igx-list-item>
+          <igx-list-item [isHeader]="false" routerLink="/events">
+            <span igxListThumbnail>
+              <igx-avatar shape="circle" class="avatar avatar_3">
+                <igx-icon>
+                  stars
+                </igx-icon>
+              </igx-avatar>
+            </span>
+            <span igxListLine>
+              <p class="ig-typography__subtitle-2 text_3">
+                EVENTS
+              </p>
+            </span>
+          </igx-list-item>
+          <igx-list-item [isHeader]="false" *ngIf="listItemVisible" [igxToggleAction]="settings">
+            <span igxListThumbnail>
+              <igx-avatar shape="circle" class="avatar avatar_4">
+                <igx-icon>
+                  settings
+                </igx-icon>
+              </igx-avatar>
+            </span>
+            <span igxListLine>
+              <p class="ig-typography__subtitle-2 text_3">
+                SETTINGS
+              </p>
+            </span>
+          </igx-list-item>
+        </igx-list>
+      </div>
+      <div class="column-layout user">
+        <igx-avatar src="/assets/Avatar13.png" size="large" shape="circle" class="avatar"></igx-avatar>
+        <p class="ig-typography__subtitle-2 text_4">
+          Sandy Anderson
+        </p>
+        <p class="ig-typography__caption text_5">
+          UX DESIGN LEAD
+        </p>
+      </div>
+      <div class="column-layout background">
+        <div class="row-layout group_2">
+          <button igxButton="flat" igxRipple [igxToggleAction]="settings" class="button">
+            <igx-icon>
+              settings
+            </igx-icon>
+            <span>Settings</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="view-container">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="column-layout right-panel">
+    <div class="column-layout group_3">
+      <div class="row-layout group_4">
+        <h6 class="h6">
+          Calendar
+        </h6>
+        <button igxButton="icon" igxRipple class="button_1">
+          <igx-icon>
+            notifications
+          </igx-icon>
+        </button>
+      </div>
+      <igx-list class="navigation">
+        <igx-list-item [isHeader]="true">July 1st</igx-list-item>
+        <igx-list-item [isHeader]="false">
+          <span igxListLine>
+            <div class="row-layout logo">
+              <p class="ig-typography__subtitle-1 text_6">
+                10 AM
+              </p>
+              <div class="column-layout group_5">
+                <p class="ig-typography__overline text_5">
+                  TRAINING
+                </p>
+                <p class="ig-typography__subtitle-2 text_7">
+                  Intro to Scrum
+                </p>
+              </div>
+            </div>
+          </span>
+        </igx-list-item>
+        <igx-list-item [isHeader]="false">
+          <span igxListLine>
+            <div class="row-layout logo">
+              <p class="ig-typography__subtitle-1 text_6">
+                12 PM
+              </p>
+              <div class="column-layout group_6">
+                <p class="ig-typography__overline text_5">
+                  OFFICE HOURS
+                </p>
+                <p class="ig-typography__subtitle-2 text_7">
+                  Customers Q&amp;A
+                </p>
+              </div>
+            </div>
+          </span>
+        </igx-list-item>
+        <igx-list-item [isHeader]="true">July 5th</igx-list-item>
+        <igx-list-item [isHeader]="false">
+          <span igxListLine>
+            <div class="row-layout logo">
+              <p class="ig-typography__subtitle-1 text_6">
+                10 AM
+              </p>
+              <div class="column-layout group_7">
+                <p class="ig-typography__overline text_5">
+                  HR CORP
+                </p>
+                <p class="ig-typography__subtitle-2 text_7">
+                  Company Meeting
+                </p>
+              </div>
+            </div>
+          </span>
+        </igx-list-item>
+        <igx-list-item [isHeader]="false">
+          <span igxListLine>
+            <div class="row-layout logo">
+              <p class="ig-typography__subtitle-1 text_6">
+                12 PM
+              </p>
+              <div class="column-layout group_8">
+                <p class="ig-typography__overline text_5">
+                  TRAINING
+                </p>
+                <p class="ig-typography__subtitle-2 text_7">
+                  Managing People
+                </p>
+              </div>
+            </div>
+          </span>
+        </igx-list-item>
+      </igx-list>
+    </div>
+    <div class="column-layout group_9">
+      <h6 class="h6_1">
+        New Team Members
+      </h6>
+      <igx-list class="navigation">
+        <igx-list-item [isHeader]="false" *ngFor="let item of dashboardDataNewTeamMembersList">
+          <span igxListLine>
+            <div class="row-layout logo">
+              <igx-avatar [src]="item.Photo" shape="circle" class="avatar"></igx-avatar>
+              <div class="column-layout group_10">
+                <div class="row-layout group_11">
+                  <p class="ig-typography__subtitle-2 text_8">
+                    {{ item.Name }}
+                  </p>
+                </div>
+                <p class="ig-typography__overline text_5">
+                  {{ item.Position }}
+                </p>
+              </div>
+            </div>
+          </span>
+        </igx-list-item>
+      </igx-list>
+    </div>
+  </div>
+</div>
+<igx-dialog [closeOnOutsideSelect]="true" [closeOnEscape]="true" #settings>
+  <igx-dialog-title>
+    <h5>
+      Settings
+    </h5>
+  </igx-dialog-title>
+  <ng-container>
+    <div class="column-layout group_12">
+      <div class="column-layout group_13">
+        <p class="ig-typography__subtitle-2 text_2">
+          THEME
+        </p>
+        <div class="row-layout group_13">
+          <igx-card class="card">
+            <igx-card-media height="113px" class="media-content">
+              <img src="/assets/theme-light.svg" class="image_1" />
+            </igx-card-media>
+            <igx-card-header>
+              <h3 igxCardHeaderTitle>
+              </h3>
+              <h5 igxCardHeaderSubtitle>
+                Default
+              </h5>
+            </igx-card-header>
+          </igx-card>
+          <igx-card type="outlined" class="card">
+            <igx-card-media height="113px" class="media-content">
+              <img src="/assets/theme-dark.svg" class="image_1" />
+            </igx-card-media>
+            <igx-card-header>
+              <h3 igxCardHeaderTitle>
+              </h3>
+              <h5 igxCardHeaderSubtitle>
+                Dark
+              </h5>
+            </igx-card-header>
+          </igx-card>
+        </div>
+      </div>
+      <div class="column-layout group_13">
+        <p class="ig-typography__subtitle-2 text_2">
+          APPLICATION
+        </p>
+        <div class="column-layout group_14">
+          <igx-checkbox labelPosition="after" class="user-input">
+            Auto-start application
+          </igx-checkbox>
+          <igx-checkbox labelPosition="after" class="user-input">
+            Open application in the background
+          </igx-checkbox>
+          <igx-checkbox labelPosition="after" [checked]="true" class="user-input">
+            On close, keep the application running
+          </igx-checkbox>
+        </div>
+      </div>
+      <div class="column-layout group_13">
+        <p class="ig-typography__subtitle-2 text_2">
+          NOTIFICATIONS
+        </p>
+        <div class="column-layout group_14">
+          <igx-switch [(ngModel)]="checked" class="user-input">
+            Enable Notifications
+          </igx-switch>
+          <igx-switch class="user-input">
+            Play sound for notifications
+          </igx-switch>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+  <igx-dialog-actions>
+    <button igxButton="raised" igxRipple [igxToggleAction]="settings" class="button_2">
+      Done
+    </button>
+  </igx-dialog-actions>
+</igx-dialog>

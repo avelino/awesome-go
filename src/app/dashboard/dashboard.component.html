@@ -1,0 +1,122 @@
+<div class="row-layout group">
+  <div class="column-layout group_1">
+    <div class="column-layout group_2">
+      <div class="row-layout group_3">
+        <div class="column-layout group_4">
+          <h5 class="h5">
+            Good Morning, Sandy!
+          </h5>
+          <p class="text">
+            Your Highlights
+          </p>
+        </div>
+      </div>
+      <div class="row-layout group_5">
+        <igx-card type="outlined" class="card">
+          <igx-card-media height="200px" class="media-content">
+            <img src="/assets/Illustration1.svg" class="image" />
+          </igx-card-media>
+          <igx-card-header>
+            <h3 igxCardHeaderTitle>
+              Team Stats
+            </h3>
+            <h5 igxCardHeaderSubtitle>
+              2010-2022
+            </h5>
+          </igx-card-header>
+          <igx-card-actions class="actions-content">
+            <ng-container igxStart>
+              <button igxButton="flat" igxRipple class="button">
+                Details
+              </button>
+            </ng-container>
+            <ng-container igxEnd>
+              <button igxButton="icon" igxRipple class="button_1">
+                <igx-icon>
+                  add_alert
+                </igx-icon>
+              </button>
+            </ng-container>
+          </igx-card-actions>
+        </igx-card>
+        <igx-card type="outlined" class="card">
+          <igx-card-media height="200px" class="media-content">
+            <img src="/assets/Illustration2.svg" class="image" />
+          </igx-card-media>
+          <igx-card-header>
+            <h3 igxCardHeaderTitle>
+              Ideation Workshop
+            </h3>
+            <h5 igxCardHeaderSubtitle>
+              View Proposals
+            </h5>
+          </igx-card-header>
+          <igx-card-actions class="actions-content">
+            <ng-container igxStart>
+              <button igxButton="flat" igxRipple class="button">
+                Details
+              </button>
+            </ng-container>
+            <ng-container igxEnd>
+              <button igxButton="icon" igxRipple class="button_1">
+                <igx-icon>
+                  add_alert
+                </igx-icon>
+              </button>
+            </ng-container>
+          </igx-card-actions>
+        </igx-card>
+        <igx-card type="outlined" class="card">
+          <igx-card-media height="200px" class="media-content">
+            <img src="/assets/Illustration3.svg" class="image" />
+          </igx-card-media>
+          <igx-card-header>
+            <h3 igxCardHeaderTitle>
+              Upcoming Training
+            </h3>
+            <h5 igxCardHeaderSubtitle>
+              July 2022
+            </h5>
+          </igx-card-header>
+          <igx-card-actions class="actions-content">
+            <ng-container igxStart>
+              <button igxButton="flat" igxRipple class="button">
+                Details
+              </button>
+            </ng-container>
+            <ng-container igxEnd>
+              <button igxButton="icon" igxRipple class="button_1">
+                <igx-icon>
+                  add_alert
+                </igx-icon>
+              </button>
+            </ng-container>
+          </igx-card-actions>
+        </igx-card>
+      </div>
+    </div>
+    <div class="row-layout group_6">
+      <div class="column-layout group_7">
+        <h6 class="h6">
+          Current Team Members
+        </h6>
+        <igx-grid [data]="dashboardDataTeamMembersGrid" primaryKey="FirstName" displayDensity="cosy" [allowFiltering]="true" filterMode="excelStyleFilter" class="grid">
+          <igx-column field="FirstName" dataType="string" header="FirstName" [sortable]="true" [selectable]="false"></igx-column>
+          <igx-column field="LastName" dataType="string" header="LastName" [sortable]="true" [selectable]="false"></igx-column>
+          <igx-column field="HireDate" dataType="string" header="HireDate" [sortable]="true" [selectable]="false"></igx-column>
+          <igx-column field="ID" dataType="number" header="ID" [sortable]="true" [selectable]="false"></igx-column>
+          <igx-column field="Department" dataType="string" header="Department" [sortable]="true" [selectable]="false"></igx-column>
+          <igx-column field="Position" dataType="string" header="Position" [sortable]="true" [selectable]="false"></igx-column>
+          <igx-column field="Email" dataType="string" header="Email" [sortable]="true" [selectable]="false"></igx-column>
+          <igx-column field="Phone" dataType="string" header="Phone" [sortable]="true" [selectable]="false"></igx-column>
+        </igx-grid>
+      </div>
+      <div class="column-layout group_8">
+        <h6 class="h6">
+          Team Growth
+        </h6>
+        <igx-category-chart [dataSource]="dashboardDataTeamGrowth" chartType="area" computedPlotAreaMarginMode="series" class="category-chart"></igx-category-chart>
+      </div>
+    </div>
+  </div>
+</div>

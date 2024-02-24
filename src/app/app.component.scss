@@ -1,0 +1,376 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: auto;
+}
+.row-layout {
+  display: flex;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: auto;
+  position: relative;
+  min-width: 50px;
+  min-height: 768px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.left-panel {
+  background-color: #F8F6F5;
+  border-color: #EDE9E5;
+  border-width: 0px 2px 0px 0px;
+  border-style: solid;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  padding: 40px 0 0;
+  width: 240px;
+  min-width: 240px;
+  min-height: 50px;
+  max-width: 240px;
+  flex-shrink: 0;
+}
+.logo-and-nav {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 64px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.logo {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+}
+.user {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  bottom: 280px;
+  position: absolute;
+  margin: 64px 24px 0;
+  min-width: 50px;
+  min-height: 50px;
+}
+.background {
+  background-image: url("/assets/background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: flex-end;
+  align-items: stretch;
+  align-content: flex-start;
+  bottom: 0;
+  position: absolute;
+  width: 240px;
+  height: 370px;
+  min-width: 50px;
+  min-height: 330px;
+  max-width: 240px;
+  max-height: 370px;
+}
+.group_2 {
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 0 12px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.right-panel {
+  background-color: #F8F6F5;
+  border-color: #EDE9E5;
+  border-width: 0px 0px 0px 2px;
+  border-style: solid;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: auto;
+  width: 280px;
+  min-width: 280px;
+  max-width: 280px;
+}
+.group_3 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 40px 24px 24px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.group_4 {
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 0 16px 16px;
+  min-width: 50px;
+}
+.group_5 {
+  border-color: hsla(var(--ig-error-500));
+  border-width: 0px 0px 0px 4px;
+  border-style: solid;
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 0 0 16px;
+  height: 40px;
+  min-height: 40px;
+  max-height: 40px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_6 {
+  border-color: hsla(var(--ig-primary-500));
+  border-width: 0px 0px 0px 4px;
+  border-style: solid;
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 0 0 16px;
+  height: 40px;
+  min-height: 40px;
+  max-height: 40px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_7 {
+  border-color: hsla(var(--ig-secondary-500));
+  border-width: 0px 0px 0px 4px;
+  border-style: solid;
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 0 0 16px;
+  height: 40px;
+  min-height: 40px;
+  max-height: 40px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_8 {
+  border-color: hsla(var(--ig-success-500));
+  border-width: 0px 0px 0px 4px;
+  border-style: solid;
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 0 0 16px;
+  height: 40px;
+  min-height: 40px;
+  max-height: 40px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_9 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 24px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_10 {
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 0 0 16px;
+  height: 40px;
+  min-height: 40px;
+  max-height: 40px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_11 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+}
+.group_12 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 32px;
+  position: relative;
+  min-width: 400px;
+  min-height: 50px;
+}
+.group_13 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.card {
+  height: max-content;
+  flex-shrink: 0;
+}
+.group_14 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.image {
+  object-fit: cover;
+  width: 28px;
+  height: 28px;
+  min-width: 0;
+  min-height: 0;
+  max-width: 28px;
+  max-height: 28px;
+  flex-shrink: 0;
+}
+.text {
+  color: hsla(var(--ig-secondary-300));
+  margin: 2px 0 0 8px;
+  height: max-content;
+  min-width: min-content;
+}
+.text_1 {
+  color: hsla(var(--ig-secondary-800));
+  margin: 2px 0 0 4px;
+  height: max-content;
+  min-width: min-content;
+}
+.avatar {
+  --igx-avatar-background: transparent;
+}
+.text_2 {
+  color: hsla(var(--ig-secondary-500));
+  height: max-content;
+  min-width: min-content;
+}
+.text_3 {
+  color: hsla(var(--ig-secondary-200));
+  height: max-content;
+  min-width: min-content;
+}
+.text_4 {
+  text-align: center;
+  color: hsla(var(--ig-secondary-900));
+  height: max-content;
+  min-width: min-content;
+}
+.text_5 {
+  color: hsla(var(--ig-secondary-300));
+  height: max-content;
+  min-width: min-content;
+}
+.h6 {
+  color: hsla(var(--ig-secondary-600));
+  height: max-content;
+  min-width: min-content;
+}
+.text_6 {
+  color: hsla(var(--ig-secondary-800));
+  margin: 0 20px 0 0;
+  height: max-content;
+  min-width: min-content;
+}
+.text_7 {
+  color: hsla(var(--ig-secondary-800));
+  height: max-content;
+  min-width: min-content;
+}
+.h6_1 {
+  color: hsla(var(--ig-secondary-600));
+  margin: 16px 0 16px 16px;
+  height: max-content;
+  min-width: min-content;
+}
+.text_8 {
+  color: hsla(var(--ig-secondary-800));
+  margin: 0 6px 0 0;
+  height: max-content;
+  min-width: min-content;
+}
+.image_1 {
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+.avatar_1::part(base) {
+  --igx-avatar-color: hsla(var(--ig-secondary-500));
+}
+.avatar_2::part(base) {
+  --igx-avatar-color: hsla(var(--ig-secondary-200));
+}
+.avatar_3::part(base) {
+  --igx-avatar-color: hsla(var(--ig-secondary-200));
+}
+.avatar_4::part(base) {
+  --igx-avatar-color: hsla(var(--ig-secondary-200));
+}
+.media-content {
+  min-height: 113px;
+  max-height: 113px;
+}
+.navigation {
+  height: max-content;
+  min-width: max-content;
+}
+.button {
+  --igx-button-foreground: #E2D4DF;
+  height: max-content;
+  flex-shrink: 0;
+}
+.button_1 {
+  --igx-button-foreground: hsla(var(--ig-surface-500));
+  --igx-button-background: hsla(var(--ig-secondary-400));
+}
+.user-input {
+  width: max-content;
+  height: max-content;
+}
+.button_2 {
+  margin: 0 8px 8px 0;
+  height: max-content;
+}
+.view-container {
+  overflow: auto;
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  flex-grow: 1;
+}
