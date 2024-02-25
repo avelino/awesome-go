@@ -2026,8 +2026,8 @@ _Libraries that implement Object-Relational Mapping or datamapping techniques._
 - [Prisma](https://github.com/prisma/prisma-client-go) - Prisma Client Go, Typesafe database access for Go.
 - [reform](https://github.com/go-reform/reform) - Better ORM for Go, based on non-empty interfaces and code generation.
 - [rel](https://github.com/go-rel/rel) - Modern Database Access Layer for Golang - Testable, Extendable and Crafted Into a Clean and Elegant API.
-- [sqlp2](https://github.com/valord577/sqlp2) - SQL mapper framework for Golang like `MyBatis`.
 - [SQLBoiler](https://github.com/volatiletech/sqlboiler) - ORM generator. Generate a featureful and blazing-fast ORM tailored to your database schema.
+- [sqlp2](https://github.com/valord577/sqlp2) - SQL mapper framework for Golang like `MyBatis`.
 - [upper.io/db](https://github.com/upper/db) - Single interface for interacting with different data sources through the use of adapters that wrap mature database drivers.
 - [XORM](https://gitea.com/xorm/xorm) - Simple and powerful ORM for Go. (Support: MySQL, MyMysql, PostgreSQL, Tidb, SQLite3, MsSql and Oracle).
 - [Zoom](https://github.com/albrow/zoom) - Blazing-fast datastore and querying engine built on Redis.
