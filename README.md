@@ -3149,6 +3149,7 @@ _Plugin for text editors and IDEs._
 - [rts](https://github.com/galeone/rts) - RTS: response to struct. Generates Go structs from server responses.
 - [textra](https://github.com/ravsii/textra) - Extract Go struct field names, types and tags for filtering and exporting.
 - [typex](https://github.com/dtgorski/typex) - Examine Go types and their transitive dependencies, alternatively export results as TypeScript value objects (or types) declaration.
+- [podinfo](https://github.com/stefanprodan/podinfo) - Podinfo is a tiny web application made with Go that showcases best practices of running microservices in Kubernetes. Podinfo is used by CNCF projects like Flux and Flagger for end-to-end testing and workshops
 
 **[⬆ back to top](#contents)**
 
