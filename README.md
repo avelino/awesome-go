@@ -1692,6 +1692,7 @@ _Libraries for working with dependency injection._
 
 - [alice](https://github.com/magic003/alice) - Additive dependency injection container for Golang.
 - [boot-go](http://github.com/boot-go/boot) - Component-based development with dependency injection using reflections for Go developers.
+- [cosban/di](https://gitlab.com/cosban/di) - A code generation based dependency injection wiring tool.
 - [di](https://github.com/goava/di) - A dependency injection container for go programming language.
 - [dig](https://github.com/uber-go/dig) - A reflection based dependency injection toolkit for Go.
 - [dingo](https://github.com/i-love-flamingo/dingo) - A dependency injection toolkit for Go, based on Guice.
