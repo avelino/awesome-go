@@ -1039,6 +1039,7 @@ _Embedding other languages inside your go code._
 - [purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go.
 - [starlark-go](https://github.com/google/starlark-go) - Go implementation of Starlark: Python-like language with deterministic evaluation and hermetic execution.
 - [tengo](https://github.com/d5/tengo) - Bytecode compiled script language for Go.
+- [Wa/凹语言](https://github.com/wa-lang/wa) - The Wa Programming Language embedded in Go.
 
 **[⬆ back to top](#contents)**
 
