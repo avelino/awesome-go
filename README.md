@@ -1656,6 +1656,7 @@ _Libraries that implement messaging systems._
 - [oplog](https://github.com/dailymotion/oplog) - Generic oplog/replication system for REST APIs.
 - [pubsub](https://github.com/tuxychandru/pubsub) - Simple pubsub package for go.
 - [Quamina](https://github.com/timbray/quamina) - Fast pattern-matching for filtering messages and events.
+- [rabbitroutine](https://github.com/furdarius/rabbitroutine) - Lightweight library that handles RabbitMQ auto-reconnect and publishing retries. The library takes into account the need to re-declare entities in RabbitMQ after reconnection. 
 - [rabbus](https://github.com/rafaeljesus/rabbus) - A tiny wrapper over amqp exchanges and queues.
 - [rabtap](https://github.com/jandelgado/rabtap) - RabbitMQ swiss army knife cli app.
 - [RapidMQ](https://github.com/sybrexsys/RapidMQ) - RapidMQ is a lightweight and reliable library for managing of the local messages queue.
@@ -1666,7 +1667,6 @@ _Libraries that implement messaging systems._
 - [Uniqush-Push](https://github.com/uniqush/uniqush-push) - Redis backed unified push service for server-side notifications to mobile devices.
 - [Watermill](https://github.com/ThreeDotsLabs/watermill) - Working efficiently with message streams. Building event driven applications, enabling event sourcing, RPC over messages, sagas. Can use conventional pub/sub implementations like Kafka or RabbitMQ, but also HTTP or MySQL binlog.
 - [zmq4](https://github.com/pebbe/zmq4) - Go interface to ZeroMQ version 4. Also available for [version 3](https://github.com/pebbe/zmq3) and [version 2](https://github.com/pebbe/zmq2).
-- [rabbitroutine](https://github.com/furdarius/rabbitroutine) - Lightweight library that handles RabbitMQ auto-reconnect and publishing retries. The library takes into account the need to re-declare entities in RabbitMQ after reconnection. 
 
 **[⬆ back to top](#contents)**
 
