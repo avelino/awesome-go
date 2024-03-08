@@ -1,4 +1,4 @@
-## We want to ensure high quality of the packages. Make sure that you've checked the boxes below before you submit PR.
+## We want to ensure high quality of the packages. Make sure that you've checked the boxes below before sending a pull request.
 
 - [ ] I have read the [Contribution Guidelines](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md#contribution-guidelines)
 - [ ] I have read the [Maintainers Note](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md#maintainers)
