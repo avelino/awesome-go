@@ -461,6 +461,7 @@ _Libraries for configuration parsing._
 - [fig](https://github.com/kkyr/fig) - Tiny library for reading configuration from a file and from environment variables (with validation & defaults).
 - [gcfg](https://github.com/go-gcfg/gcfg) - read INI-style configuration files into Go structs; supports user-defined types and subsections.
 - [genv](https://github.com/sakirsensoy/genv) - Read environment variables easily with dotenv support.
+- [go-array](https://github.com/deatil/go-array) - A Go package that read or set data from map, slice or json.
 - [go-aws-ssm](https://github.com/PaddleHQ/go-aws-ssm) - Go package that fetches parameters from AWS System Manager - Parameter Store.
 - [go-conf](https://github.com/ThomasObenaus/go-conf) - Simple library for application configuration based on annotated structs. It supports reading the configuration from environment variables, config files and command line parameters.
 - [go-ini](https://github.com/subpop/go-ini) - A Go package that marshals and unmarshals INI-files.
