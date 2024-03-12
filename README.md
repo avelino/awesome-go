@@ -459,7 +459,6 @@ _Libraries for configuration parsing._
 - [envconfig](https://github.com/vrischmann/envconfig) - Read your configuration from environment variables.
 - [envh](https://github.com/antham/envh) - Helpers to manage environment variables.
 - [fig](https://github.com/kkyr/fig) - Tiny library for reading configuration from a file and from environment variables (with validation & defaults).
-- [gcfg](https://github.com/go-gcfg/gcfg) - read INI-style configuration files into Go structs; supports user-defined types and subsections.
 - [genv](https://github.com/sakirsensoy/genv) - Read environment variables easily with dotenv support.
 - [go-aws-ssm](https://github.com/PaddleHQ/go-aws-ssm) - Go package that fetches parameters from AWS System Manager - Parameter Store.
 - [go-cfg](https://github.com/dsbasko/go-cfg) - The library provides a unified way to read configuration data into a structure from various sources, such as env, flags, and configuration files (.json, .yaml, .toml, .env).
