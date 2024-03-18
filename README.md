@@ -3390,7 +3390,6 @@ _Where to discover new Go libraries._
 - [Creative DIY Microcontroller Project With TinyGo and WebAssembly](https://www.packtpub.com/product/creative-diy-microcontroller-projects-with-tinygo-and-webassembly/9781800560208) - An introduction into the TinyGo compiler with projects involving Arduino and WebAssembly.
 - [Effective Go: Elegant, efficient, and testable code](https://www.manning.com/books/effective-go) - Unlock Go’s unique perspective on program design, and start writing simple, maintainable, and testable Go code.
 - [For the Love of Go](https://bitfieldconsulting.com/books/love) - An introductory book for Go beginners.
-- [Go Faster](https://leanpub.com/gofaster) - This book seeks to shorten your learning curve and help you become a proficient Go programmer, faster.
 - [Go in Practice, Second Edition](https://www.manning.com/books/go-in-practice-second-edition)  - Your practical guide on the ins-and-outs of Go development, covering the standard library and the most important tools from Go’s powerful ecosystem.
 - [Know Go: Generics](https://bitfieldconsulting.com/books/generics) - A guide to understanding and using generics in Go.
 - [Lets-Go](https://lets-go.alexedwards.net) - A step-by-step guide to creating fast, secure and maintanable web applications with Go.
@@ -3408,6 +3407,7 @@ _Where to discover new Go libraries._
 - [Building Web Apps With Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/)
 - [Go 101](https://go101.org) - A book focusing on Go syntax/semantics and all kinds of details.
 - [Go AST Book (Chinese)](https://github.com/chai2010/go-ast-book) - A book focusing on Go `go/*` packages.
+- [Go Faster](https://leanpub.com/gofaster) - This book seeks to shorten your learning curve and help you become a proficient Go programmer, faster.
 - [Go Succinctly](https://github.com/thedevsir/gosuccinctly) - in Persian.
 - [Go with the domain](https://threedots.tech/go-with-the-domain/) - A book showing how to apply DDD, Clean Architecture, and CQRS by practical refactoring.
 - [GoBooks](https://github.com/dariubs/GoBooks) - A curated list of Go books.
