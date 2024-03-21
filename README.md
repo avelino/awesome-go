@@ -498,6 +498,7 @@ _Libraries for configuration parsing._
 - [xdg](https://github.com/adrg/xdg) - Go implementation of the [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html) and [XDG user directories](https://wiki.archlinux.org/index.php/XDG_user_directories).
 - [xdg](https://github.com/OpenPeeDeeP/xdg) - Cross platform package that follows the [XDG Standard](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html).
 - [dotenv](https://github.com/talut/dotenv) - Go library for managing environment variables. It provides a set of functions to retrieve environment variables with different types, including string, boolean, integer, float, and duration.
+
 **[⬆ back to top](#contents)**
 
 ## Continuous Integration
