@@ -566,7 +566,7 @@ _Libraries for preprocessing CSS files._
 
 - [goterator](https://github.com/yaa110/goterator) - Iterator implementation to provide map and reduce functionalities.
 - [iter](https://github.com/disksing/iter) - Go implementation of C++ STL iterators and algorithms.
-- [goiter](https://github.com/hsldymq/goiter) - goiter provides many iterator helper functions base on rangefunc feature.
+- [goiter](https://github.com/hsldymq/goiter) - goiter provides iterator helper functions base on rangefunc feature for common scenarios.
 
 ### Maps
 
