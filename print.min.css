@@ -1,0 +1,18 @@
+/*!
+print.css -- css stylesheet used on www.gnu.org
+
+Copyright (C) 2006, 2007, 2014, 2020 Free Software Foundation
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+*/#header,#navigation,#links,#toplinks,#fsf-links,#back-to-top,#translations,#searcher,.unprintable,#mission-statement,#Disclaimer,#education-content,.edu-breadcrumb,.anchor-reference-id,.back,.skip,#fsf-frame,#languages,#navlinks,.breadcrumb,.backtotop{display:none}.inner{width:100%}body{font-family:Baskerville,Georgia,Garamond,Times,serif;font-size:11pt!important;border:0}h1,h2,h3,h4,h5,h6{border:0;font-family:Baskerville,Georgia,Garamond,Times,serif}div,p,ul,dl,ol{width:auto!important}ul,ol,dl{padding-right:.5em}ul{list-style-type:square}.documentDescription{font-weight:bold}pre{border:1pt dotted black;white-space:pre;font-size:8pt;overflow:auto;padding:1em 0}table,td,th{padding:.3em;border:1pt solid black!important;border-collapse:collapse}table#gpl-compat-matrix td,th.gpl-matrix-border{text-align:center}th.gpl-matrix-license{text-align:right}tr.gpl-matrix-use-type{border-top:.2em solid black}a{color:Black!important;padding:0!important;text-decoration:none!important}a:link,a:visited{color:#520;background:transparent}
