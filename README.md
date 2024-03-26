@@ -452,6 +452,7 @@ _Libraries for configuration parsing._
 - [configuro](https://github.com/sherifabdlnaby/configuro) - opinionated configuration loading & validation framework from ENV and Files focused towards 12-Factor compliant applications.
 - [confita](https://github.com/heetch/confita) - Load configuration in cascade from multiple backends into a struct.
 - [conflate](https://github.com/the4thamigo-uk/conflate) - Library/tool to merge multiple JSON/YAML/TOML files from arbitrary URLs, validation against a JSON schema, and application of default values defined in the schema.
+- [dotenv](https://github.com/talut/dotenv) - Go library for managing environment variables. It provides a set of functions to retrieve environment variables with different types, including string, boolean, integer, float, and duration also adds cache.
 - [env](https://github.com/caarlos0/env) - Parse environment variables to Go structs (with defaults).
 - [env](https://github.com/junk1tm/env) - A lightweight package for loading environment variables into structs.
 - [envcfg](https://github.com/tomazk/envcfg) - Un-marshaling environment variables to Go structs.
