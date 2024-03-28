@@ -702,6 +702,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [eliasdb](https://github.com/krotik/eliasdb) - Dependency-free, transactional graph database with REST API, phrase search and SQL-like query language.
 - [godis](https://github.com/hdt3213/godis) - A Golang implemented high-performance Redis server and cluster.
 - [goleveldb](https://github.com/syndtr/goleveldb) - Implementation of the [LevelDB](https://github.com/google/leveldb) key/value database in Go.
+- [graviton](https://github.com/deroproject/graviton) - ZFS for key-value stores. Graviton Database is simple, fast, versioned, authenticated, embeddable key-value store database in pure GOLANG.
 - [hare](https://github.com/jameycribbs/hare) - A simple database management system that stores each table as a text file of line-delimited JSON.
 - [immudb](https://github.com/codenotary/immudb) - immudb is a lightweight, high-speed immutable database for systems and applications written in Go.
 - [influxdb](https://github.com/influxdb/influxdb) - Scalable datastore for metrics, events, and real-time analytics.
