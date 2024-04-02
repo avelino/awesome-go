@@ -2391,10 +2391,9 @@ _Libraries for testing codebases and generating test data._
   - [minimock](https://github.com/gojuno/minimock) - Mock generator for Go interfaces.
   - [mockery](https://github.com/vektra/mockery) - Tool to generate Go interfaces.
   - [mockhttp](https://github.com/tv42/mockhttp) - Mock object for Go http.ResponseWriter.
-  - [mockit](https://github.com/pasdam/mockit) - Allows functions and method easy mocking, without defining new types; it's similar to Mockito for Java.
-  - [monkey](https://github.com/awterman/monkey) - One line to mock functions/methods/variables in place without dependency injection or code generation.
-  - [mooncake](https://github.com/GuilhermeCaruso/mooncake) - A simple way to generate mocks for multiple purposes
+  - [mooncake](https://github.com/GuilhermeCaruso/mooncake) - A simple way to generate mocks for multiple purposes.
   - [timex](https://github.com/cabify/timex) - A test-friendly replacement for the native `time` package.
+  - [xgo](https://github.com/xhd2015/xgo) - A general pureposed function mocking library.
 
 - Fuzzing and delta-debugging/reducing/shrinking.
 
