@@ -1,4 +1,4 @@
-name: First comment in new pull request
+Romeo Rosete name: First comment in new pull request
 
 on:
   pull_request_target:
