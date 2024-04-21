@@ -369,7 +369,7 @@ _Libraries for building Console Applications and Console User Interfaces._
 - [simpletable](https://github.com/alexeyco/simpletable) - Simple tables in a terminal with Go.
 - [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
 - [tabby](https://github.com/cheynewallace/tabby) - A tiny library for super simple Golang tables.
-- [table](https://github.com/tomlazar/table) - Small library for terminal color based tables .
+- [table](https://github.com/tomlazar/table) - Small library for terminal color based tables.
 - [tabular](https://github.com/InVisionApp/tabular) - Print ASCII tables from command line utilities without the need to pass large sets of data to the API.
 - [termbox-go](https://github.com/nsf/termbox-go) - Termbox is a library for creating cross-platform text-based interfaces.
 - [termdash](https://github.com/mum4k/termdash) - Go terminal dashboard based on **termbox-go** and inspired by [termui](https://github.com/gizak/termui).
@@ -445,7 +445,7 @@ _Libraries for configuration parsing._
 - [aconfig](https://github.com/cristalhq/aconfig) - Simple, useful and opinionated config loader.
 - [cleanenv](https://github.com/ilyakaznacheev/cleanenv) - Minimalistic configuration reader (from files, ENV, and wherever you want).
 - [config](https://github.com/JeremyLoy/config) - Cloud native application configuration. Bind ENV to structs in only two lines.
-- [config](https://github.com/num30/config) - configure you app using file, environment variables, or flags in two lines of code
+- [config](https://github.com/num30/config) - configure your app using file, environment variables, or flags in two lines of code
 - [config](https://github.com/olebedev/config) - JSON or YAML configuration wrapper with environment variables and flags parsing.
 - [configuration](https://github.com/BoRuDar/configuration) - Library for initializing configuration structs from env variables, files, flags and 'default' tag.
 - [configure](https://github.com/paked/configure) - Provides configuration through multiple sources, including JSON, flags and environment variables.
@@ -470,15 +470,15 @@ _Libraries for configuration parsing._
 - [godotenv](https://github.com/joho/godotenv) - Go port of Ruby's dotenv library (Loads environment variables from `.env`).
 - [gofigure](https://github.com/ian-kent/gofigure) - Go application configuration made easy.
 - [GoLobby/Config](https://github.com/golobby/config) - GoLobby Config is a lightweight yet powerful configuration manager for the Go programming language.
-- [gone/jconf](https://github.com/One-com/gone/tree/master/jconf) - Modular JSON configuration. Keep you config structs along with the code they configure and delegate parsing to submodules without sacrificing full config serialization.
+- [gone/jconf](https://github.com/One-com/gone/tree/master/jconf) - Modular JSON configuration. Keep your config structs along with the code they configure and delegate parsing to submodules without sacrificing full config serialization.
 - [gonfig](https://github.com/milad-abbasi/gonfig) - Tag-based configuration parser which loads values from different providers into typesafe struct.
 - [gookit/config](https://github.com/gookit/config) - application config manage(load,get,set). support JSON, YAML, TOML, INI, HCL. multi file load, data override merge.
-- [harvester](https://github.com/beatlabs/harvester) - Harvester, a easy to use static and dynamic configuration package supporting seeding, env vars and Consul integration.
+- [harvester](https://github.com/beatlabs/harvester) - Harvester, an easy to use static and dynamic configuration package supporting seeding, env vars and Consul integration.
 - [hjson](https://github.com/hjson/hjson-go) - Human JSON, a configuration file format for humans. Relaxed syntax, fewer mistakes, more comments.
 - [hocon](https://github.com/gurkankaymak/hocon) - Configuration library for working with the HOCON(a human-friendly JSON superset) format, supports features like environment variables, referencing other values, comments and multiple files.
 - [ingo](https://github.com/schachmat/ingo) - Flags persisted in an ini-like config file.
 - [ini](https://github.com/go-ini/ini) - Go package to read and write INI files.
-- [ini](https://github.com/wlevene/ini) - INI Parser & Write Library, Unmarshal to Struct,Marshal to Json,Write File,watch file.
+- [ini](https://github.com/wlevene/ini) - INI Parser & Write Library, Unmarshal to Struct, Marshal to Json, Write File, watch file.
 - [joshbetz/config](https://github.com/joshbetz/config) - Small configuration library for Go that parses environment variables, JSON files, and reloads automatically on SIGHUP.
 - [kelseyhightower/envconfig](https://github.com/kelseyhightower/envconfig) - Go library for managing configuration data from environment variables.
 - [koanf](https://github.com/knadh/koanf) - Light weight, extensible library for reading config in Go applications. Built in support for JSON, TOML, YAML, env, command line.
@@ -552,7 +552,7 @@ _Libraries for preprocessing CSS files._
 - [bloom](https://github.com/yourbasic/bloom) - Golang Bloom filter implementation.
 - [bloomfilter](https://github.com/OldPanda/bloomfilter) - Yet another Bloomfilter implementation in Go, compatible with Java's Guava library.
 - [boomfilters](https://github.com/tylertreat/BoomFilters) - Probabilistic data structures for processing continuous, unbounded streams.
-- [cuckoo-filter](https://github.com/linvon/cuckoo-filter) - Cuckoo filter: a comprehensive cuckoo filter, which is configurable and space optimized compared with other implements, and all features mentioned in original paper is available.
+- [cuckoo-filter](https://github.com/linvon/cuckoo-filter) - Cuckoo filter: a comprehensive cuckoo filter, which is configurable and space optimized compared with other implements, and all features mentioned in original paper are available.
 - [cuckoofilter](https://github.com/seiflotfy/cuckoofilter) - Cuckoo filter: a good alternative to a counting bloom filter implemented in Go.
 - [ring](https://github.com/TheTannerRyan/ring) - Go implementation of a high performance, thread safe bloom filter.
 
@@ -708,7 +708,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [influxdb](https://github.com/influxdb/influxdb) - Scalable datastore for metrics, events, and real-time analytics.
 - [ledisdb](https://github.com/siddontang/ledisdb) - Ledisdb is a high performance NoSQL like Redis based on LevelDB.
 - [levigo](https://github.com/jmhodges/levigo) - Levigo is a Go wrapper for LevelDB.
-- [libradb](https://github.com/amit-davidson/LibraDB) - LibraDB is a simple database with less then 1000 lines of code for learning.
+- [libradb](https://github.com/amit-davidson/LibraDB) - LibraDB is a simple database with less than 1000 lines of code for learning.
 - [LinDB](https://github.com/lindb/lindb) - LinDB is a scalable, high performance, high availability distributed time series database.
 - [lotusdb](https://github.com/flower-corp/lotusdb) - Fast k/v database compatible with lsm and b+tree.
 - [Milvus](https://github.com/milvus-io/milvus) - Milvus is a vector database for embedding management, analytics and search.
@@ -1261,7 +1261,7 @@ _Tools for managing and working with Goroutines._
 - [breaker](https://github.com/kamilsk/breaker) - Flexible mechanism to make execution flow interruptible.
 - [channelify](https://github.com/ddelizia/channelify) - Transform your function to return channels for easy and powerful parallel processing.
 - [conc](https://github.com/sourcegraph/conc) - `conc` is your toolbelt for structured concurrency in go, making common tasks easier and safer.
-- [concurrency-limiter](https://github.com/vivek-ng/concurrency-limiter) - Concurrency limiter with support for timeouts , dynamic priority and context cancellation of goroutines.
+- [concurrency-limiter](https://github.com/vivek-ng/concurrency-limiter) - Concurrency limiter with support for timeouts, dynamic priority and context cancellation of goroutines.
 - [conexec](https://github.com/ITcathyh/conexec) - A concurrent toolkit to help execute funcs concurrently in an efficient and safe way. It supports specifying the overall timeout to avoid blocking and uses goroutine pool to improve efficiency.
 - [cyclicbarrier](https://github.com/marusama/cyclicbarrier) - CyclicBarrier for golang.
 - [execpool](https://github.com/hexdigest/execpool) - A pool built around exec.Cmd that spins up a given number of processes in advance and attaches stdin and stdout to them when needed. Very similar to FastCGI or Apache Prefork MPM but works for any command.
