@@ -1184,6 +1184,7 @@ _Awesome game development libraries._
 - [Harfang3D](https://github.com/harfang3d/harfang3d) - 3D engine for the Go language, works on Windows and Linux ([Harfang on Go.dev](https://github.com/harfang3d/harfang-go)).
 - [Leaf](https://github.com/name5566/leaf) - Lightweight game server framework.
 - [nano](https://github.com/lonng/nano) - Lightweight, facility, high performance golang based game server framework.
+- [cherry](https://github.com/cherry-game/cherry) - Actor model game server framework based on golang
 - [Oak](https://github.com/oakmound/oak) - Pure Go game engine.
 - [Pitaya](https://github.com/topfreegames/pitaya) - Scalable game server framework with clustering support and client libraries for iOS, Android, Unity and others through the C SDK.
 - [Pixel](https://github.com/faiface/pixel) - Hand-crafted 2D game library in Go.
