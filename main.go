@@ -44,7 +44,7 @@ var staticFiles = []string{
 }
 
 // Templates
-//go:embed tmpl
+//go:embed tmpl/*.tmpl.html tmpl/*.tmpl.xml
 var tplFs embed.FS
 
 var tpl = template.Must(template.ParseFS(tplFs, "tmpl/*.tmpl.html", "tmpl/*.tmpl.xml"))
