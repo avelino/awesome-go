@@ -2872,6 +2872,7 @@ _Libraries for version control._
 _Libraries for manipulating video._
 
 - [gmf](https://github.com/3d0c/gmf) - Go bindings for FFmpeg av\* libraries.
+- [go-astiav](https://github.com/asticode/go-astiav) - Better C bindings for ffmpeg in GO.
 - [go-astisub](https://github.com/asticode/go-astisub) - Manipulate subtitles in GO (.srt, .stl, .ttml, .webvtt, .ssa/.ass, teletext, .smi, etc.).
 - [go-astits](https://github.com/asticode/go-astits) - Parse and demux MPEG Transport Streams (.ts) natively in GO.
 - [go-m3u8](https://github.com/etherlabsio/go-m3u8) - Parser and generator library for Apple m3u8 playlists. Actively maintained version of quangngotan95/go-m3u8 with improvements and latest HLS playlist parsing compatibility.
