@@ -2078,6 +2078,7 @@ _Unofficial libraries for package and dependency management._
 
 - [go-instrument](https://github.com/nikolaydubina/go-instrument) - Automatically add spans to all methods and functions.
 - [jaeger](https://github.com/jaegertracing/jaeger) - A distributed tracing system.
+- [memorize](https://github.com/emad-elsaid/memoize) - Generic function memoizer with 0 memory allocations, concurrency safe, and duplicate function call suppression.
 - [pixie](https://github.com/pixie-labs/pixie) - No instrumentation tracing for Golang applications via eBPF.
 - [profile](https://github.com/pkg/profile) - Simple profiling support package for Go.
 - [statsviz](https://github.com/arl/statsviz) - Live visualization of your Go application runtime statistics.
