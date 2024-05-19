@@ -1045,6 +1045,7 @@ _Embedding other languages inside your go code._
 - [starlark-go](https://github.com/google/starlark-go) - Go implementation of Starlark: Python-like language with deterministic evaluation and hermetic execution.
 - [starlet](https://github.com/1set/starlet) - Go wrapper for [starlark-go](https://github.com/google/starlark-go) that simplifies script execution, offers data conversion, and useful Starlark libraries and extensions.
 - [tengo](https://github.com/d5/tengo) - Bytecode compiled script language for Go.
+- [Wa/凹语言](https://github.com/wa-lang/wa) - The Wa Programming Language embedded in Go.
 
 **[⬆ back to top](#contents)**
 
