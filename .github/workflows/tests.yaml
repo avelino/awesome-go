@@ -20,5 +20,7 @@ jobs:
       run: go get -v -t -d ./...
     - name: Run tests
       run: go test -coverprofile=cover.out main_test.go main.go
+    - name: Install Vim
+      run: apt-get update; apt-get install -y vim;
     - name: Go Beautiful HTML Coverage
       uses: gha-common/go-beautiful-html-coverage@v1
