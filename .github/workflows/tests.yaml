@@ -17,6 +17,8 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Get dependencies
-      run: go get -v -t -d ./...
+      run: go get -v -t -d -coverprofile=cover.out ./...
+    - name: Go Beautiful HTML Coverage
+      uses: gha-common/go-beautiful-html-coverage@v1
     - name: Run tests
       run: go test main_test.go main.go
