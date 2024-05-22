@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestConvertMarkdownToHTML(t *testing.T) {
+func TestToHTML(t *testing.T) {
 	input := []byte(
 		`## some headline
 followed by some paragraph with [a link](https://example.local)
@@ -46,12 +46,12 @@ and some list:</p>
 <p><a href="https://example.local">embedded HTML is allowed</a></p>`,
 	)
 
-	got, err := ConvertMarkdownToHTML(input)
+	got, err := ToHTML(input)
 	if err != nil {
-		t.Errorf("ConvertMarkdownToHTML() error = %v", err)
+		t.Errorf("ToHTML() error = %v", err)
 		return
 	}
 	if strings.TrimSpace(string(got)) != strings.TrimSpace(string(expected)) {
-		t.Errorf("ConvertMarkdownToHTML() got = %v, want %v", string(got), string(expected))
+		t.Errorf("ToHTML() got = %v, want %v", string(got), string(expected))
 	}
 }
