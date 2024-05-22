@@ -152,6 +152,11 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
   - [Stream Processing](#stream-processing)
   - [Template Engines](#template-engines)
   - [Testing](#testing)
+    - [Testing Frameworks](#testing-frameworks)
+    - [Mock](#mock)
+    - [Fuzzing and delta-debugging/reducing/shrinking](#fuzzing-and-delta-debuggingreducingshrinking)
+    - [Selenium and browser control tools](#selenium-and-browser-control-tools)
+    - [Fail injection](#fail-injection)
   - [Text Processing](#text-processing)
     - [Formatters](#formatters)
     - [Markup Languages](#markup-languages)
@@ -2319,106 +2324,106 @@ _Libraries and tools for templating and lexing._
 
 _Libraries for testing codebases and generating test data._
 
-- Testing Frameworks
+### Testing Frameworks
 
-  - [apitest](https://apitest.dev) - Simple and extensible behavioural testing library for REST based services or HTTP handlers that supports mocking external http calls and rendering of sequence diagrams.
-  - [assert](https://github.com/go-playground/assert) - Basic Assertion Library used along side native go testing, with building blocks for custom assertions.
-  - [badio](https://github.com/cavaliercoder/badio) - Extensions to Go's `testing/iotest` package.
-  - [baloo](https://github.com/h2non/baloo) - Expressive and versatile end-to-end HTTP API testing made easy.
-  - [be](https://github.com/carlmjohnson/be) - The minimalist generic test assertion library.
-  - [biff](https://github.com/fulldump/biff) - Bifurcation testing framework, BDD compatible.
-  - [charlatan](https://github.com/percolate/charlatan) - Tool to generate fake interface implementations for tests.
-  - [commander](https://github.com/SimonBaeumer/commander) - Tool for testing cli applications on windows, linux and osx.
-  - [cupaloy](https://github.com/bradleyjkemp/cupaloy) - Simple snapshot testing addon for your test framework.
-  - [dbcleaner](https://github.com/khaiql/dbcleaner) - Clean database for testing purpose, inspired by `database_cleaner` in Ruby.
-  - [dsunit](https://github.com/viant/dsunit) - Datastore testing for SQL, NoSQL, structured files.
-  - [embedded-postgres](https://github.com/fergusstrange/embedded-postgres) - Run a real Postgres database locally on Linux, OSX or Windows as part of another Go application or test.
-  - [endly](https://github.com/viant/endly) - Declarative end to end functional testing.
-  - [fixenv](https://github.com/rekby/fixenv) - Fixture manage engine, inspired by pytest fixtures.
-  - [fluentassert](https://github.com/fluentassert/verify) - Extensible, type-safe, fluent assertion Go library.
-  - [flute](https://github.com/suzuki-shunsuke/flute) - HTTP client testing framework.
-  - [frisby](https://github.com/verdverm/frisby) - REST API testing framework.
-  - [gherkingen](https://github.com/hedhyw/gherkingen) - BDD boilerplate generator and framework.
-  - [ginkgo](https://onsi.github.io/ginkgo/) - BDD Testing Framework for Go.
-  - [gnomock](https://github.com/orlangure/gnomock) - integration testing with real dependencies (database, cache, even Kubernetes or AWS) running in Docker, without mocks.
-  - [go-carpet](https://github.com/msoap/go-carpet) - Tool for viewing test coverage in terminal.
-  - [go-cmp](https://github.com/google/go-cmp) - Package for comparing Go values in tests.
-  - [go-hit](https://github.com/Eun/go-hit) - Hit is an http integration test framework written in golang.
-  - [go-mutesting](https://github.com/zimmski/go-mutesting) - Mutation testing for Go source code.
-  - [go-mysql-test-container](https://github.com/arikama/go-mysql-test-container) - Golang MySQL testcontainer to help with MySQL integration testing.
-  - [go-snaps](http://github.com/gkampitakis/go-snaps) - Jest-like snapshot testing in Golang.
-  - [go-testdeep](https://github.com/maxatome/go-testdeep) - Extremely flexible golang deep comparison, extends the go testing package.
-  - [go-testpredicate](https://github.com/maargenton/go-testpredicate) - Test predicate style assertions library with extensive diagnostics output.
-  - [go-vcr](https://github.com/dnaeon/go-vcr) - Record and replay your HTTP interactions for fast, deterministic and accurate tests.
-  - [goblin](https://github.com/franela/goblin) - Mocha like testing framework of Go.
-  - [goc](https://github.com/qiniu/goc) - Goc is a comprehensive coverage testing system for The Go Programming Language.
-  - [gocheck](https://labix.org/gocheck) - More advanced testing framework alternative to gotest.
-  - [GoConvey](https://github.com/smartystreets/goconvey/) - BDD-style framework with web UI and live reload.
-  - [gocrest](https://github.com/corbym/gocrest) - Composable hamcrest-like matchers for Go assertions.
-  - [godog](https://github.com/cucumber/godog) - Cucumber BDD framework for Go.
-  - [gofight](https://github.com/appleboy/gofight) - API Handler Testing for Golang Router framework.
-  - [gogiven](https://github.com/corbym/gogiven) - YATSPEC-like BDD testing framework for Go.
-  - [gomatch](https://github.com/jfilipczyk/gomatch) - library created for testing JSON against patterns.
-  - [gomega](https://onsi.github.io/gomega/) - Rspec like matcher/assertion library.
-  - [Gont](https://github.com/stv0g/gont) - Go network testing toolkit for testing building complex network topologies using Linux namespaces.
-  - [gospecify](https://github.com/stesla/gospecify) - This provides a BDD syntax for testing your Go code. It should be familiar to anybody who has used libraries such as rspec.
-  - [gosuite](https://github.com/pavlo/gosuite) - Brings lightweight test suites with setup/teardown facilities to `testing` by leveraging Go1.7's Subtests.
-  - [got](https://github.com/ysmood/got) - An enjoyable golang test framework.
-  - [gotest.tools](https://github.com/gotestyourself/gotest.tools) - A collection of packages to augment the go testing package and support common patterns.
-  - [Hamcrest](https://github.com/rdrdr/hamcrest) - fluent framework for declarative Matcher objects that, when applied to input values, produce self-describing results.
-  - [httpexpect](https://github.com/gavv/httpexpect) - Concise, declarative, and easy to use end-to-end HTTP and REST API testing.
-  - [is](https://github.com/matryer/is) - Professional lightweight testing mini-framework for Go.
-  - [jsonassert](https://github.com/kinbiko/jsonassert) - Package for verifying that your JSON payloads are serialized correctly.
-  - [omg.testingtools](https://github.com/dedalqq/omg.testingtools) - The simple library for change a values of private fields for testing.
-  - [restit](https://github.com/yookoala/restit) - Go micro framework to help writing RESTful API integration test.
-  - [schema](https://github.com/jgroeneveld/schema) - Quick and easy expression matching for JSON schemas used in requests and responses.
-  - [stop-and-go](https://github.com/elgohr/stop-and-go) - Testing helper for concurrency.
-  - [testcase](https://github.com/adamluzsi/testcase) - Idiomatic testing framework for Behavior Driven Development.
-  - [testcontainers-go](https://github.com/testcontainers/testcontainers-go) - A Go package that makes it simple to create and clean up container-based dependencies for automated integration/smoke tests. The clean, easy-to-use API enables developers to programmatically define containers that should be run as part of a test and clean up those resources when the test is done.
-  - [testfixtures](https://github.com/go-testfixtures/testfixtures) - A helper for Rails' like test fixtures to test database applications.
-  - [Testify](https://github.com/stretchr/testify) - Sacred extension to the standard go testing package.
-  - [testsql](https://github.com/zhulongcheng/testsql) - Generate test data from SQL files before testing and clear it after finished.
-  - [testza](https://github.com/MarvinJWendt/testza) - Full-featured test framework with nice colorized output.
-  - [trial](https://github.com/jgroeneveld/trial) - Quick and easy extendable assertions without introducing much boilerplate.
-  - [Tt](https://github.com/vcaesar/tt) - Simple and colorful test tools.
-  - [wstest](https://github.com/posener/wstest) - Websocket client for unit-testing a websocket http.Handler.
+- [apitest](https://apitest.dev) - Simple and extensible behavioural testing library for REST based services or HTTP handlers that supports mocking external http calls and rendering of sequence diagrams.
+- [assert](https://github.com/go-playground/assert) - Basic Assertion Library used along side native go testing, with building blocks for custom assertions.
+- [badio](https://github.com/cavaliercoder/badio) - Extensions to Go's `testing/iotest` package.
+- [baloo](https://github.com/h2non/baloo) - Expressive and versatile end-to-end HTTP API testing made easy.
+- [be](https://github.com/carlmjohnson/be) - The minimalist generic test assertion library.
+- [biff](https://github.com/fulldump/biff) - Bifurcation testing framework, BDD compatible.
+- [charlatan](https://github.com/percolate/charlatan) - Tool to generate fake interface implementations for tests.
+- [commander](https://github.com/SimonBaeumer/commander) - Tool for testing cli applications on windows, linux and osx.
+- [cupaloy](https://github.com/bradleyjkemp/cupaloy) - Simple snapshot testing addon for your test framework.
+- [dbcleaner](https://github.com/khaiql/dbcleaner) - Clean database for testing purpose, inspired by `database_cleaner` in Ruby.
+- [dsunit](https://github.com/viant/dsunit) - Datastore testing for SQL, NoSQL, structured files.
+- [embedded-postgres](https://github.com/fergusstrange/embedded-postgres) - Run a real Postgres database locally on Linux, OSX or Windows as part of another Go application or test.
+- [endly](https://github.com/viant/endly) - Declarative end to end functional testing.
+- [fixenv](https://github.com/rekby/fixenv) - Fixture manage engine, inspired by pytest fixtures.
+- [fluentassert](https://github.com/fluentassert/verify) - Extensible, type-safe, fluent assertion Go library.
+- [flute](https://github.com/suzuki-shunsuke/flute) - HTTP client testing framework.
+- [frisby](https://github.com/verdverm/frisby) - REST API testing framework.
+- [gherkingen](https://github.com/hedhyw/gherkingen) - BDD boilerplate generator and framework.
+- [ginkgo](https://onsi.github.io/ginkgo/) - BDD Testing Framework for Go.
+- [gnomock](https://github.com/orlangure/gnomock) - integration testing with real dependencies (database, cache, even Kubernetes or AWS) running in Docker, without mocks.
+- [go-carpet](https://github.com/msoap/go-carpet) - Tool for viewing test coverage in terminal.
+- [go-cmp](https://github.com/google/go-cmp) - Package for comparing Go values in tests.
+- [go-hit](https://github.com/Eun/go-hit) - Hit is an http integration test framework written in golang.
+- [go-mutesting](https://github.com/zimmski/go-mutesting) - Mutation testing for Go source code.
+- [go-mysql-test-container](https://github.com/arikama/go-mysql-test-container) - Golang MySQL testcontainer to help with MySQL integration testing.
+- [go-snaps](http://github.com/gkampitakis/go-snaps) - Jest-like snapshot testing in Golang.
+- [go-testdeep](https://github.com/maxatome/go-testdeep) - Extremely flexible golang deep comparison, extends the go testing package.
+- [go-testpredicate](https://github.com/maargenton/go-testpredicate) - Test predicate style assertions library with extensive diagnostics output.
+- [go-vcr](https://github.com/dnaeon/go-vcr) - Record and replay your HTTP interactions for fast, deterministic and accurate tests.
+- [goblin](https://github.com/franela/goblin) - Mocha like testing framework of Go.
+- [goc](https://github.com/qiniu/goc) - Goc is a comprehensive coverage testing system for The Go Programming Language.
+- [gocheck](https://labix.org/gocheck) - More advanced testing framework alternative to gotest.
+- [GoConvey](https://github.com/smartystreets/goconvey/) - BDD-style framework with web UI and live reload.
+- [gocrest](https://github.com/corbym/gocrest) - Composable hamcrest-like matchers for Go assertions.
+- [godog](https://github.com/cucumber/godog) - Cucumber BDD framework for Go.
+- [gofight](https://github.com/appleboy/gofight) - API Handler Testing for Golang Router framework.
+- [gogiven](https://github.com/corbym/gogiven) - YATSPEC-like BDD testing framework for Go.
+- [gomatch](https://github.com/jfilipczyk/gomatch) - library created for testing JSON against patterns.
+- [gomega](https://onsi.github.io/gomega/) - Rspec like matcher/assertion library.
+- [Gont](https://github.com/stv0g/gont) - Go network testing toolkit for testing building complex network topologies using Linux namespaces.
+- [gospecify](https://github.com/stesla/gospecify) - This provides a BDD syntax for testing your Go code. It should be familiar to anybody who has used libraries such as rspec.
+- [gosuite](https://github.com/pavlo/gosuite) - Brings lightweight test suites with setup/teardown facilities to `testing` by leveraging Go1.7's Subtests.
+- [got](https://github.com/ysmood/got) - An enjoyable golang test framework.
+- [gotest.tools](https://github.com/gotestyourself/gotest.tools) - A collection of packages to augment the go testing package and support common patterns.
+- [Hamcrest](https://github.com/rdrdr/hamcrest) - fluent framework for declarative Matcher objects that, when applied to input values, produce self-describing results.
+- [httpexpect](https://github.com/gavv/httpexpect) - Concise, declarative, and easy to use end-to-end HTTP and REST API testing.
+- [is](https://github.com/matryer/is) - Professional lightweight testing mini-framework for Go.
+- [jsonassert](https://github.com/kinbiko/jsonassert) - Package for verifying that your JSON payloads are serialized correctly.
+- [omg.testingtools](https://github.com/dedalqq/omg.testingtools) - The simple library for change a values of private fields for testing.
+- [restit](https://github.com/yookoala/restit) - Go micro framework to help writing RESTful API integration test.
+- [schema](https://github.com/jgroeneveld/schema) - Quick and easy expression matching for JSON schemas used in requests and responses.
+- [stop-and-go](https://github.com/elgohr/stop-and-go) - Testing helper for concurrency.
+- [testcase](https://github.com/adamluzsi/testcase) - Idiomatic testing framework for Behavior Driven Development.
+- [testcontainers-go](https://github.com/testcontainers/testcontainers-go) - A Go package that makes it simple to create and clean up container-based dependencies for automated integration/smoke tests. The clean, easy-to-use API enables developers to programmatically define containers that should be run as part of a test and clean up those resources when the test is done.
+- [testfixtures](https://github.com/go-testfixtures/testfixtures) - A helper for Rails' like test fixtures to test database applications.
+- [Testify](https://github.com/stretchr/testify) - Sacred extension to the standard go testing package.
+- [testsql](https://github.com/zhulongcheng/testsql) - Generate test data from SQL files before testing and clear it after finished.
+- [testza](https://github.com/MarvinJWendt/testza) - Full-featured test framework with nice colorized output.
+- [trial](https://github.com/jgroeneveld/trial) - Quick and easy extendable assertions without introducing much boilerplate.
+- [Tt](https://github.com/vcaesar/tt) - Simple and colorful test tools.
+- [wstest](https://github.com/posener/wstest) - Websocket client for unit-testing a websocket http.Handler.
 
-- Mock
+### Mock
 
-  - [counterfeiter](https://github.com/maxbrunsfeld/counterfeiter) - Tool for generating self-contained mock objects.
-  - [genmock](https://gitlab.com/so_literate/genmock) - Go mocking system with code generator for building calls of the interface methods.
-  - [go-localstack](https://github.com/elgohr/go-localstack) - Tool for using localstack in AWS testing.
-  - [go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) - Mock SQL driver for testing database interactions.
-  - [go-txdb](https://github.com/DATA-DOG/go-txdb) - Single transaction based database driver mainly for testing purposes.
-  - [gock](https://github.com/h2non/gock) - Versatile HTTP mocking made easy.
-  - [gomock](https://github.com/golang/mock) - Mocking framework for the Go programming language.
-  - [govcr](https://github.com/seborama/govcr) - HTTP mock for Golang: record and replay HTTP interactions for offline testing.
-  - [hoverfly](https://github.com/SpectoLabs/hoverfly) - HTTP(S) proxy for recording and simulating REST/SOAP APIs with extensible middleware and easy-to-use CLI.
-  - [httpmock](https://github.com/jarcoal/httpmock) - Easy mocking of HTTP responses from external resources.
-  - [minimock](https://github.com/gojuno/minimock) - Mock generator for Go interfaces.
-  - [mockery](https://github.com/vektra/mockery) - Tool to generate Go interfaces.
-  - [mockhttp](https://github.com/tv42/mockhttp) - Mock object for Go http.ResponseWriter.
-  - [mooncake](https://github.com/GuilhermeCaruso/mooncake) - A simple way to generate mocks for multiple purposes.
-  - [timex](https://github.com/cabify/timex) - A test-friendly replacement for the native `time` package.
-  - [xgo](https://github.com/xhd2015/xgo) - A general pureposed function mocking library.
+- [counterfeiter](https://github.com/maxbrunsfeld/counterfeiter) - Tool for generating self-contained mock objects.
+- [genmock](https://gitlab.com/so_literate/genmock) - Go mocking system with code generator for building calls of the interface methods.
+- [go-localstack](https://github.com/elgohr/go-localstack) - Tool for using localstack in AWS testing.
+- [go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) - Mock SQL driver for testing database interactions.
+- [go-txdb](https://github.com/DATA-DOG/go-txdb) - Single transaction based database driver mainly for testing purposes.
+- [gock](https://github.com/h2non/gock) - Versatile HTTP mocking made easy.
+- [gomock](https://github.com/golang/mock) - Mocking framework for the Go programming language.
+- [govcr](https://github.com/seborama/govcr) - HTTP mock for Golang: record and replay HTTP interactions for offline testing.
+- [hoverfly](https://github.com/SpectoLabs/hoverfly) - HTTP(S) proxy for recording and simulating REST/SOAP APIs with extensible middleware and easy-to-use CLI.
+- [httpmock](https://github.com/jarcoal/httpmock) - Easy mocking of HTTP responses from external resources.
+- [minimock](https://github.com/gojuno/minimock) - Mock generator for Go interfaces.
+- [mockery](https://github.com/vektra/mockery) - Tool to generate Go interfaces.
+- [mockhttp](https://github.com/tv42/mockhttp) - Mock object for Go http.ResponseWriter.
+- [mooncake](https://github.com/GuilhermeCaruso/mooncake) - A simple way to generate mocks for multiple purposes.
+- [timex](https://github.com/cabify/timex) - A test-friendly replacement for the native `time` package.
+- [xgo](https://github.com/xhd2015/xgo) - A general pureposed function mocking library.
 
-- Fuzzing and delta-debugging/reducing/shrinking.
+## Fuzzing and delta-debugging/reducing/shrinking
 
-  - [go-fuzz](https://github.com/dvyukov/go-fuzz) - Randomized testing system.
-  - [gofuzz](https://github.com/google/gofuzz) - Library for populating go objects with random values.
-  - [Tavor](https://github.com/zimmski/tavor) - Generic fuzzing and delta-debugging framework.
+- [go-fuzz](https://github.com/dvyukov/go-fuzz) - Randomized testing system.
+- [gofuzz](https://github.com/google/gofuzz) - Library for populating go objects with random values.
+- [Tavor](https://github.com/zimmski/tavor) - Generic fuzzing and delta-debugging framework.
 
-- Selenium and browser control tools.
+## Selenium and browser control tools
 
-  - [cdp](https://github.com/mafredri/cdp) - Type-safe bindings for the Chrome Debugging Protocol that can be used with browsers or other debug targets that implement it.
-  - [chromedp](https://github.com/knq/chromedp) - a way to drive/test Chrome, Safari, Edge, Android Webviews, and other browsers supporting the Chrome Debugging Protocol.
-  - [ggr](https://github.com/aerokube/ggr) - a lightweight server that routes and proxies Selenium WebDriver requests to multiple Selenium hubs.
-  - [playwright-go](https://github.com/mxschmitt/playwright-go) - browser automation library to control Chromium, Firefox and WebKit with a single API.
-  - [rod](https://github.com/go-rod/rod) - A Devtools driver to make web automation and scraping easy.
-  - [selenoid](https://github.com/aerokube/selenoid) - alternative Selenium hub server that launches browsers within containers.
+- [cdp](https://github.com/mafredri/cdp) - Type-safe bindings for the Chrome Debugging Protocol that can be used with browsers or other debug targets that implement it.
+- [chromedp](https://github.com/knq/chromedp) - a way to drive/test Chrome, Safari, Edge, Android Webviews, and other browsers supporting the Chrome Debugging Protocol.
+- [ggr](https://github.com/aerokube/ggr) - a lightweight server that routes and proxies Selenium WebDriver requests to multiple Selenium hubs.
+- [playwright-go](https://github.com/mxschmitt/playwright-go) - browser automation library to control Chromium, Firefox and WebKit with a single API.
+- [rod](https://github.com/go-rod/rod) - A Devtools driver to make web automation and scraping easy.
+- [selenoid](https://github.com/aerokube/selenoid) - alternative Selenium hub server that launches browsers within containers.
 
-- Fail injection
-  - [failpoint](https://github.com/pingcap/failpoint) - An implementation of [failpoints](https://www.freebsd.org/cgi/man.cgi?query=fail) for Golang.
+### Fail injection
+- [failpoint](https://github.com/pingcap/failpoint) - An implementation of [failpoints](https://www.freebsd.org/cgi/man.cgi?query=fail) for Golang.
 
 **[⬆ back to top](#contents)**
 
