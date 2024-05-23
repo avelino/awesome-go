@@ -7,7 +7,8 @@ on:
   pull_request:
 
 permissions:
-  contents: read  #  to fetch code (actions/checkout)
+  pull-requests: write   # required for posting comments
+  contents: write        # required for git push
 
 jobs:
   build:
