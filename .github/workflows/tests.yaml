@@ -21,7 +21,8 @@ jobs:
       id: verify-changed-files
       uses: tj-actions/verify-changed-files@v20
       with:
-        files: !*.md
+        files: |
+          !*.md
     - name: Get dependencies
       if: steps.verify-changed-files.outputs.files_changed == 'true'
       run: go get -v -t -d ./...
