@@ -17,11 +17,20 @@ jobs:
     container: golang:latest
     steps:
     - uses: actions/checkout@v3
+    - name: Verify Changed files
+      id: verify-changed-files
+      uses: tj-actions/verify-changed-files@v20
+      with:
+        files: "!*.md"
     - name: Get dependencies
+      if: steps.verify-changed-files.outputs.files_changed == 'true'
       run: go get -v -t -d ./...
     - name: Run tests
+      if: steps.verify-changed-files.outputs.files_changed == 'true'
       run: go test -coverprofile=cover.out main_test.go main.go
     - name: Install Vim
+      if: steps.verify-changed-files.outputs.files_changed == 'true'
       run: apt-get update; apt-get install -y vim;
     - name: Go Beautiful HTML Coverage
+      if: steps.verify-changed-files.outputs.files_changed == 'true'
       uses: gha-common/go-beautiful-html-coverage@v1
