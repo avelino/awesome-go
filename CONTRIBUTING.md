@@ -1,6 +1,7 @@
 This resource was made by the Go community and wouldn't be possible without you! 
 We appreciate and recognize [all contributors](https://github.com/avelino/awesome-go/graphs/contributors).
 
+
 # Contribution Guidelines
 
 > Please be aware that we want to accept your contribution, but we have **some rules to keep the minimum quality** of the packages listed here. All reviews are **not personal feedback**, even if you are a _developer reviewing your contribution_. **Sorry, if we can't meet your expectations; we do our best**.
@@ -11,6 +12,9 @@ To set this list apart from and complement the excellent [Go wiki Projects page]
 and other lists, awesome-go is a specially curated list of high-quality, actively maintained Go packages and resources.
 
 Please contribute links to packages/projects you have used or are familiar with. This will help ensure high-quality entries.
+
+> the maintainers do not work full-time on the project, meaning that we do not have a set periodicity for reviewing contributions - rest assured that we will do our best to review and eventually accept contributions
+
 
 ## Quality standards
 
@@ -30,6 +34,7 @@ To be on the list, project repositories should adhere to the following quality s
 
 Categories must have at least 3 items.
 
+
 ## Preparing for review
 
 Projects listed must have the following in their documentation. When submitting, you will be asked
@@ -43,6 +48,7 @@ One way to accomplish the above is to add badges to your project's README file.
 - Use https://pkg.go.dev/badge/ to create the pkg.go.dev link.
 - Go to https://goreportcard.com/ to generate a Go Report Card report, then click on the report badge in the upper-right corner to see details on how to add the badge to your README.
 - Codecov, coveralls, and gocover all offer ways to create badges for code coverage reports. Another option is to generate a badge as part of a continuous integration process. See [Code Coverage](COVERAGE.md) for an example.
+
 
 ## How to add an item to the list
 
@@ -70,6 +76,8 @@ You are an outstanding project now! Feel encouraged to tell others about it by a
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)  
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)
 ```
+
+
 ## Maintenance expectations for projects listed here
 
 To prevent removal from awesome-go, your project must maintain the following quality standards.
@@ -81,6 +89,7 @@ Highly recommended but not required:
 - A continuous integration process to be part of the ongoing development process
 - That the project uses a pull-request process, and the owners do not commit directly to the repository
 - That the pull-request process requires the continuous-integration tests to pass before a pull request can be merged
+
 
 ## How to remove an item from the list
 
@@ -107,6 +116,7 @@ This project is scheduled to be removed within 2 weeks of this posting. To conti
   
 Then, comment on your PR at awesome-go with a link to the removal issue at the project.
 
+
 ## Maintainers
 
 To make sure every PR is checked, we have [team maintainers](MAINTAINERS). Every PR MUST be reviewed by at least one maintainer before it can get merged.
@@ -124,6 +134,35 @@ Removal changes will not be applied until they have been pending for a minimum o
 
 Thanks, everyone!
 
+
 ## How decisions are made
 
 The official group of maintainers has the final decision on what PRs are accepted. Discussions are made openly in issues. Decisions are made by consensus.
+
+
+## How to become a contributor?
+
+awesome-go is an open source project (created and maintained by the community), we are always open to new people to help us review the contributions (pull requests), **you don't need permission** or _name on the maintainers list_ to review a contribution and mark it as **LGTM**.
+
+> Before you do anything, please read [this topic](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md#quality-standards) very carefully.
+
+Now that you've read it, let's go!
+
+Go into the pull requests (PR) and look at the following aspects:
+
+* **shared links in the body of the PR:** they need to be valid and follow the quality specified above
+* **check that the link added to `README.md`** is the same as the link to the repository mentioned in the body of the PR.
+* **is it in the correct category?**
+
+If everything is OK, mark the PR as approved, [read this documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request#starting-a-review) on how to do it.
+
+**Welcome to awesome-go!**
+
+
+## How to become an ~~"official maintainer"~~?
+
+We don't give this name to people who are allowed to accept the PR.
+
+If you are a person who is constantly active in reviewing PR and contributing to the project, you will be invited by a maintainer.
+
+> **remember:** if you stop contributing with awesome-go for a long time, you will automatically be removed from the list of maintainers.
