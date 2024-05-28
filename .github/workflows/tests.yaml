@@ -24,7 +24,6 @@ jobs:
         files: |
           !*.md
     - name: Get dependencies
-      if: steps.verify-changed-files.outputs.files_changed == 'true'
       run: go get -v -t -d ./...
     - name: Run tests
       run: go test -coverprofile=cover.out main_test.go main.go
