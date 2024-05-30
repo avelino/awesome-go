@@ -410,7 +410,6 @@ _Libraries for building standard or basic Command Line applications._
 - [Dnote](https://github.com/dnote/dnote) - A simple command line notebook with multi-device sync.
 - [elvish](https://github.com/elves/elvish) - An expressive programming language and a versatile interactive shell.
 - [env](https://github.com/codingconcepts/env) - Tag-based environment configuration for structs.
-- [evans](https://github.com/ktr0731/evans) - Evans: more expressive universal gRPC client.
 - [flag](https://github.com/cosiner/flag) - Simple but powerful command line option parsing library for Go supporting subcommand.
 - [flaggy](https://github.com/integrii/flaggy) - A robust and idiomatic flags package with excellent subcommand support.
 - [flagvar](https://github.com/sgreben/flagvar) - A collection of flag argument types for Go's standard `flag` package.
@@ -941,6 +940,7 @@ _Packages that help with building Distributed Systems._
 - [dynamolock](https://cirello.io/dynamolock) - DynamoDB-backed distributed locking implementation.
 - [dynatomic](https://github.com/tylfin/dynatomic) - A library for using DynamoDB as an atomic counter.
 - [emitter-io](https://github.com/emitter-io/emitter) - High performance, distributed, secure and low latency publish-subscribe platform built with MQTT, Websockets and love.
+- [evans](https://github.com/ktr0731/evans) - Evans: more expressive universal gRPC client.
 - [failured](https://github.com/andy2046/failured) - adaptive accrual failure detector for distributed systems.
 - [flowgraph](https://github.com/vectaport/flowgraph) - flow-based programming package.
 - [gleam](https://github.com/chrislusf/gleam) - Fast and scalable distributed map/reduce system written in pure Go and Luajit, combining Go's high concurrency with Luajit's high performance, runs standalone or distributed.
