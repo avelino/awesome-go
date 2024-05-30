@@ -325,6 +325,7 @@ _Libraries for building and working with bots._
 _Libraries and tools help with build automation._
 
 - [1build](https://github.com/gopinath-langote/1build) - Command line tool to frictionlessly manage project-specific commands.
+- [air](https://github.com/cosmtrek/air) - Air - Live reload for Go apps.
 - [anko](https://github.com/GuilhermeCaruso/anko) - Simple application watcher for multiple programming languages.
 - [gaper](https://github.com/maxcnunes/gaper) - Builds and restarts a Go project when it crashes or some watched file changes.
 - [gilbert](https://go-gilbert.github.io) - Build system and task runner for Go projects.
@@ -2648,7 +2649,6 @@ _Libraries for accessing third party APIs._
 
 _General utilities and tools to make your life easier._
 
-- [air](https://github.com/cosmtrek/air) - Air - Live reload for Go apps.
 - [apm](https://github.com/topfreegames/apm) - Process manager for Golang applications with an HTTP API.
 - [backscanner](https://github.com/icza/backscanner) - A scanner similar to bufio.Scanner, but it reads and returns lines in reverse order, starting at a given position and going backward.
 - [beyond](https://github.com/wesovilabs/beyond) - The Go tool that will drive you to the AOP world!
