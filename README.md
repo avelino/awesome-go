@@ -2406,8 +2406,8 @@ _Libraries for testing codebases and generating test data._
 - [minimock](https://github.com/gojuno/minimock) - Mock generator for Go interfaces.
 - [mockery](https://github.com/vektra/mockery) - Tool to generate Go interfaces.
 - [mockhttp](https://github.com/tv42/mockhttp) - Mock object for Go http.ResponseWriter.
-- [moq](https://github.com/matryer/moq) - Utility that generates a struct from any interface. The struct can be used in test code as a mock of the interface.
 - [mooncake](https://github.com/GuilhermeCaruso/mooncake) - A simple way to generate mocks for multiple purposes.
+- [moq](https://github.com/matryer/moq) - Utility that generates a struct from any interface. The struct can be used in test code as a mock of the interface.
 - [timex](https://github.com/cabify/timex) - A test-friendly replacement for the native `time` package.
 - [xgo](https://github.com/xhd2015/xgo) - A general pureposed function mocking library.
 
