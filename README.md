@@ -2687,7 +2687,6 @@ _General utilities and tools to make your life easier._
 - [moldova](https://github.com/StabbyCutyou/moldova) - Utility for generating random data based on an input template.
 - [mole](https://github.com/davrodpin/mole) - cli app to easily create ssh tunnels.
 - [mongo-go-pagination](https://github.com/gobeam/mongo-go-pagination) - Mongodb Pagination for official mongodb/mongo-go-driver package which supports both normal queries and Aggregation pipelines.
-- [moq] (https://github.com/matryer/moq) - Utility that generates a struct from any interface. The struct can be used in test code as a mock of the interface.
 - [mssqlx](https://github.com/linxGnu/mssqlx) - Database client library, proxy for any master slave, master master structures. Lightweight and auto balancing in mind.
 - [multitick](https://github.com/VividCortex/multitick) - Multiplexor for aligned tickers.
 - [myhttp](https://github.com/inancgumus/myhttp) - Simple API to make HTTP GET requests with timeout support.
@@ -3063,6 +3062,7 @@ _Plugin for text editors and IDEs._
 - [gotests](https://github.com/cweill/gotests) - Generate Go tests from your source code.
 - [gounit](https://github.com/hexdigest/gounit) - Generate Go tests using your own templates.
 - [hasgo](https://github.com/DylanMeeus/hasgo) - Generate Haskell inspired functions for your slices.
+- [moq] (https://github.com/matryer/moq) - Utility that generates a struct from any interface. The struct can be used in test code as a mock of the interface.
 - [options-gen](https://github.com/kazhuravlev/options-gen) - Functional options described by Dave Cheney's post "Functional options for friendly APIs".
 - [re2dfa](https://gitlab.com/opennota/re2dfa) - Transform regular expressions into finite state machines and output Go source code.
 - [sqlgen](https://github.com/anqiansong/sqlgen) - Generate gorm, xorm, sqlx, bun, sql code from SQL file or DSN.
