@@ -7,7 +7,7 @@ on:
   pull_request:
 
 permissions:
-  pull-requests: write   # required for posting comments
+  pull-requests: write   # required for posting comments (test)
   contents: write        # required for git push
 
 jobs:
