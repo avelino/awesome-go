@@ -5,6 +5,9 @@ on:
     branches:
       - 'main'
 
+permissions:
+  contents: read  #  to fetch code (actions/checkout)
+
 jobs:
   build:
     name: Make and Deploy site
@@ -12,15 +15,15 @@ jobs:
     environment: netlify
     container: golang:latest
     steps:
-    - uses: actions/checkout@1.0.0
+    - uses: actions/checkout@v3
     - name: Get dependencies
       run: go get -v -t -d ./...
     - name: Make awesome-go.com
-      run: go run make_site.go scripts.go
+      run: go run .
     - name: deploy awesome-go.com
       uses: jsmrcaga/action-netlify-deploy@v1.1.0
       with:
         NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
         NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
         NETLIFY_DEPLOY_TO_PROD: true
-        build_directory: tmpl
+        build_directory: out
