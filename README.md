@@ -107,7 +107,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
   - [Error Handling](#error-handling)
   - [File Handling](#file-handling)
   - [Financial](#financial)
-  - [Fs](#fs)
+  - [Forms](#forms)
   - [Functional](#functional)
   - [Game Development](#game-development)
   - [Generators](#generators)
