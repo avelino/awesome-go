@@ -516,7 +516,7 @@ _Tools for help with continuous integration._
 
 - [Bencher](https://bencher.dev/) - A suite of continuous benchmarking tools designed to catch performance regressions in CI.
 - [CDS](https://github.com/ovh/cds) - Enterprise-Grade CI/CD and DevOps Automation Open Source Platform.
-- [dot](https://github.com/opnlabs/dot) - A minimal, local first continuous integration system that uses Docker to run jobs concurrently in stages. 
+- [dot](https://github.com/opnlabs/dot) - A minimal, local first continuous integration system that uses Docker to run jobs concurrently in stages.
 - [drone](https://github.com/drone/drone) - Drone is a Continuous Integration platform built on Docker, written in Go.
 - [go-beautiful-html-coverage](https://github.com/gha-common/go-beautiful-html-coverage) - A GitHub Action to track code coverage in your pull requests, with a beautiful HTML preview, for free.
 - [go-fuzz-action](https://github.com/jidicula/go-fuzz-action) - Use Go 1.18's built-in fuzz testing in GitHub Actions.
@@ -607,7 +607,7 @@ additional ordered map implementations.
 - [hide](https://github.com/emvi/hide) - ID type with marshalling to/from hash to prevent sending IDs to clients.
 - [hilbert](https://github.com/google/hilbert) - Go package for mapping values to and from space-filling curves, such as Hilbert and Peano curves.
 - [hyperloglog](https://github.com/axiomhq/hyperloglog) - HyperLogLog implementation with Sparse, LogLog-Beta bias correction and TailCut space reduction.
-- [plinko](https://github.com/shipt/plinko) - A finite state machine and workflow orchestrator that compiles for fast execution, easy debugging, auto-generated documentation. Includes advanced features such as side-effect hooks. 
+- [plinko](https://github.com/shipt/plinko) - A finite state machine and workflow orchestrator that compiles for fast execution, easy debugging, auto-generated documentation. Includes advanced features such as side-effect hooks.
 - [quadtree](https://github.com/s0rg/quadtree) - Generic, zero-alloc, 100%-test covered quadtree.
 - [slices](https://github.com/srfrog/slices) - Functions that operate on slices; like `package strings` but adapted to work with slices.
 - [slices](https://github.com/twharmon/slices) - Pure, generic functions for slices.
@@ -691,6 +691,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [nscache](https://github.com/no-src/nscache) - A Go caching framework that supports multiple data source drivers.
 - [otter](https://github.com/maypok86/otter) - A high performance lockless cache for Go. Many times faster than Ristretto and friends.
 - [remember-go](https://github.com/rocketlaunchr/remember-go) - A universal interface for caching slow database queries (backed by redis, memcached, ristretto, or in-memory).
+- [sturdyc](https://github.com/creativecreature/sturdyc) - A caching library with advanced concurrency features designed to make I/O heavy applications both robust and highly performant.
 - [theine](https://github.com/Yiling-J/theine-go) - High performance, near optimal in-memory cache with proactive TTL expiration and generics.
 - [timedmap](https://github.com/zekroTJA/timedmap) - Map with expiring key-value pairs.
 - [ttlcache](https://github.com/jellydator/ttlcache) - An in-memory cache with item expiration and generics.
@@ -1754,7 +1755,7 @@ _**Unofficial** set of patterns for structuring projects._
 - [golang-templates/seed](https://github.com/golang-templates/seed) - Go application GitHub repository template.
 - [insidieux/inizio](https://github.com/insidieux/inizio) - Golang project layout generator with plugins.
 - [modern-go-application](https://github.com/sagikazarmark/modern-go-application) - Go application boilerplate and example applying modern practices.
-- [nunu](https://github.com/go-nunu/nunu) - Nunu is a scaffolding tool for building Go applications. 
+- [nunu](https://github.com/go-nunu/nunu) - Nunu is a scaffolding tool for building Go applications.
 - [pagoda](https://github.com/mikestefanello/pagoda) - Rapid, easy full-stack web development starter kit built in Go.
 - [scaffold](https://github.com/catchplay/scaffold) - Scaffold generates a starter Go project layout. Lets you focus on business logic implemented.
 - [wangyoucao577/go-project-layout](https://github.com/wangyoucao577/go-project-layout) - Set of practices and discussions on how to structure Go project layout.
@@ -2713,7 +2714,7 @@ _General utilities and tools to make your life easier._
 - [go-funk](https://github.com/thoas/go-funk) - Modern Go utility library which provides helpers (map, find, contains, filter, chunk, reverse, ...).
 - [go-health](https://github.com/Talento90/go-health) - Health package simplifies the way you add health check to your services.
 - [go-httpheader](https://github.com/mozillazg/go-httpheader) - Go library for encoding structs into Header fields.
-- [go-lambda-cleanup](https://github.com/karl-cardenas-coding/go-lambda-cleanup) - A CLI for removing unused or previous versions of AWS Lambdas. 
+- [go-lambda-cleanup](https://github.com/karl-cardenas-coding/go-lambda-cleanup) - A CLI for removing unused or previous versions of AWS Lambdas.
 - [go-lock](https://github.com/viney-shih/go-lock) - go-lock is a lock library implementing read-write mutex and read-write trylock without starvation.
 - [go-pattern-match](https://github.com/PhakornKiong/go-pattern-match) - A Pattern matching library inspired by ts-pattern.
 - [go-pkg](https://github.com/chenquan/go-pkg) - A go toolkit.
