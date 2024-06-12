@@ -691,7 +691,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [nscache](https://github.com/no-src/nscache) - A Go caching framework that supports multiple data source drivers.
 - [otter](https://github.com/maypok86/otter) - A high performance lockless cache for Go. Many times faster than Ristretto and friends.
 - [remember-go](https://github.com/rocketlaunchr/remember-go) - A universal interface for caching slow database queries (backed by redis, memcached, ristretto, or in-memory).
-- [sturdyc](https://github.com/creativecreature/sturdyc) - A caching library with advanced concurrency features designed to make I/O heavy applications both robust and highly performant.
+- [sturdyc](https://github.com/creativecreature/sturdyc) - A caching library with advanced concurrency features designed to make I/O heavy applications robust and highly performant.
 - [theine](https://github.com/Yiling-J/theine-go) - High performance, near optimal in-memory cache with proactive TTL expiration and generics.
 - [timedmap](https://github.com/zekroTJA/timedmap) - Map with expiring key-value pairs.
 - [ttlcache](https://github.com/jellydator/ttlcache) - An in-memory cache with item expiration and generics.
