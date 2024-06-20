@@ -1945,6 +1945,7 @@ _Libraries for working with various layers of the network._
 - [gnet](https://github.com/fish-tennis/gnet) - `gnet` is a high-performance networking framework,especially for game servers.
 - [gNxI](https://github.com/google/gnxi) - A collection of tools for Network Management that use the gNMI and gNOI protocols.
 - [go-getter](https://github.com/hashicorp/go-getter) - Go library for downloading files or directories from various sources using a URL.
+- [go-ipam](https://github.com/metal-stack/go-ipam) - Go package to handle IP address management. It can operate on networks, prefixes and IPs.
 - [go-powerdns](https://github.com/joeig/go-powerdns) - PowerDNS API bindings for Golang.
 - [go-sse](https://github.com/lampctl/go-sse) - Go client and server implementation of HTML server-sent events.
 - [go-stun](https://github.com/ccding/go-stun) - Go implementation of the STUN client (RFC 3489 and RFC 5389).
