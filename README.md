@@ -2489,6 +2489,7 @@ See also [Natural Language Processing](#natural-language-processing) and [Text A
 - [go-fasttld](https://github.com/elliotwutingfeng/go-fasttld) - High performance effective top level domains (eTLD) extraction module.
 - [go-nmea](https://github.com/adrianmo/go-nmea) - NMEA parser library for the Go language.
 - [go-vcard](https://github.com/emersion/go-vcard) - Parse and format vCard.
+- [godump](https://github.com/yassinebenaid/godump) - Pretty print any GO variable with ease, an alternative to Go's `fmt.Printf("%#v")`.
 - [gofeed](https://github.com/mmcdole/gofeed) - Parse RSS and Atom feeds in Go.
 - [gographviz](https://github.com/awalterschulze/gographviz) - Parses the Graphviz DOT language.
 - [gonameparts](https://github.com/polera/gonameparts) - Parses human names into individual name parts.
@@ -2503,7 +2504,6 @@ See also [Natural Language Processing](#natural-language-processing) and [Text A
 - [tokenizer](https://github.com/bzick/tokenizer) - Parse any string, slice or infinite buffer to any tokens.
 - [when](https://github.com/olebedev/when) - Natural EN and RU language date/time parser with pluggable rules.
 - [xj2go](https://github.com/stackerzzq/xj2go) - Convert xml or json to go struct.
-- [godump](https://github.com/yassinebenaid/godump) - Pretty print any GO variable with ease, an alternative to Go's `fmt.Printf("%#v")`.
 
 ### Regular Expressions
 
