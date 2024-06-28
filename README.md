@@ -1206,7 +1206,8 @@ _Awesome game development libraries._
 - [nano](https://github.com/lonng/nano) - Lightweight, facility, high performance golang based game server framework.
 - [Oak](https://github.com/oakmound/oak) - Pure Go game engine.
 - [Pitaya](https://github.com/topfreegames/pitaya) - Scalable game server framework with clustering support and client libraries for iOS, Android, Unity and others through the C SDK.
-- [Pixel](https://github.com/faiface/pixel) - Hand-crafted 2D game library in Go.
+- [Pixel](https://github.com/faiface/pixel) - Hand-crafted 2D game library in Go (not under active development anymore).
+- [Pixel 2](https://github.com/gopxl/pixel) - Hand-crafted 2D game library in Go (revived fork of the original [Pixel](https://github.com/faiface/pixel)).
 - [prototype](https://github.com/gonutz/prototype) - Cross-platform (Windows/Linux/Mac) library for creating desktop games using a minimal API.
 - [raylib-go](https://github.com/gen2brain/raylib-go) - Go bindings for [raylib](https://www.raylib.com/), a simple and easy-to-use library to learn videogames programming.
 - [termloop](https://github.com/JoelOtter/termloop) - Terminal-based game engine for Go, built on top of Termbox.
