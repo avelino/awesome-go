@@ -585,8 +585,10 @@ See also [Database](#database) for more complex key-value stores, and [Trees](#t
 additional ordered map implementations.
 
 - [cmap](https://github.com/lrita/cmap) - a thread-safe concurrent map for go, support using `interface{}` as key and auto scale up shards.
+- [concurrent-map](https://github.com/orcaman/concurrent-map) - A thread-safe concurrent map for go, provides a high-performance solution to this by sharding the map with minimal time spent waiting for locks.
 - [dict](https://github.com/srfrog/dict) - Python-like dictionaries (dict) for Go.
 - [goradd/maps](https://github.com/goradd/maps) - Go 1.18+ generic map interface for maps; safe maps; ordered maps; ordered, safe maps; etc.
+- [haxmap](https://github.com/alphadose/haxmap) - Fastest and most memory efficient golang concurrent hashmap.
 
 ### Miscellaneous Data Structures and Algorithms
 
