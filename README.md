@@ -463,8 +463,6 @@ _Libraries for configuration parsing._
 - [env](https://github.com/caarlos0/env) - Parse environment variables to Go structs (with defaults).
 - [env](https://github.com/junk1tm/env) - A lightweight package for loading environment variables into structs.
 - [env](https://github.com/syntaqx/env) - An environment utility package with support for unmarshaling into structs
-- [envcfg](https://github.com/tomazk/envcfg) - Un-marshaling environment variables to Go structs.
-- [envconf](https://github.com/ian-kent/envconf) - Configuration from environment.
 - [envconfig](https://github.com/vrischmann/envconfig) - Read your configuration from environment variables.
 - [envh](https://github.com/antham/envh) - Helpers to manage environment variables.
 - [fig](https://github.com/kkyr/fig) - Tiny library for reading configuration from a file and from environment variables (with validation & defaults).
