@@ -1714,7 +1714,7 @@ _Libraries for working with Microsoft Excel._
 
 _Libraries for working with Microsoft Word._
 
-- [godocx](https://github.com/gomutex/godocx) - Golang library for reading and writing Microsoft Word (Docx) files. 
+- [godocx](https://github.com/gomutex/godocx) - Library for reading and writing Microsoft Word (Docx) files. 
 
 **[⬆ back to top](#contents)**
 
