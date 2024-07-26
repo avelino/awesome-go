@@ -2740,6 +2740,7 @@ _General utilities and tools to make your life easier._
 - [gofn](https://github.com/tiendc/gofn) - High performance utility functions written using Generics for Go 1.18+.
 - [gohper](https://github.com/cosiner/gohper) - Various tools/modules help for development.
 - [golarm](https://github.com/msempere/golarm) - Fire alarms with system events.
+- [golibs](https://github.com/SimonWaldherr/golibs) - a collection of helpful functions, e.g. type conversion, caching, image processing, … .
 - [golog](https://github.com/mlimaloureiro/golog) - Easy and lightweight CLI tool to time track your tasks.
 - [gopencils](https://github.com/bndr/gopencils) - Small and simple package to easily consume REST APIs.
 - [goplaceholder](https://github.com/michiwend/goplaceholder) - a small golang lib to generate placeholder images.
