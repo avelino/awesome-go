@@ -114,3 +114,7 @@ h1 > a img {
   font-size: 9px;
   line-height: 1;
 }
+
+td {
+  padding: 6px;
+}
