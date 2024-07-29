@@ -3269,7 +3269,7 @@ _Software written in Go._
 - [kubernetes](https://github.com/kubernetes/kubernetes) - Container Cluster Manager from Google.
 - [kubeshark](https://github.com/kubeshark/kubeshark) - API traffic analyzer for Kubernetes, inspired by Wireshark, purposely built for Kubernetes.
 - [KubeVela](https://github.com/kubevela/kubevela) - Cloud native application delivery.
-- [kubevpn](https://github.com/kubenetworks/kubevpn) - VPN tools to connect kubernetes cluster network and proxy workloads inbound traffic to local PC with service mesh.
+- [KubeVPN](https://github.com/kubenetworks/kubevpn) - KubeVPN offers a Cloud-Native Dev Environment that seamlessly connects to your Kubernetes cluster network.
 - [KusionStack](https://github.com/KusionStack/kusion) - A unified programmable configuration techstack to deliver modern app in 'platform as code' and 'infra as code' approach.
 - [kwatch](https://github.com/abahmed/kwatch) - Monitor & detect crashes in your Kubernetes(K8s) cluster instantly.
 - [lstags](https://github.com/ivanilves/lstags) - Tool and API to sync Docker images across different registries.
