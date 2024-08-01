@@ -2964,7 +2964,7 @@ _Full stack web frameworks._
 - [WebGo](https://github.com/bnkamalesh/webgo) - A micro-framework to build web apps; with handler chaining, middleware and context injection. With standard library compliant HTTP handlers(i.e. http.HandlerFunc).
 - [YARF](https://github.com/yarf-framework/yarf) - Fast micro-framework designed to build REST APIs and web services in a fast and simple way.
 - [Yokai](https://github.com/ankorstore/yokai) - Simple, modular, and observable Go framework for backend applications.
-- [go-api-boot](https://github.com/SaiNageswarS/go-api-boot) - A gRpc first micro-service framework with ODM support for Mongo, support for AWS/Azure/Google cloud resources and automatic dependency injection wiring using Google Wire via the go-api-boot CLI. Further, grpc-web is supported out of box without any additional need of proxy and all gRpc APIs can be accessed from browser.
+- [go-api-boot](https://github.com/SaiNageswarS/go-api-boot) - A gRpc-first micro-service framework. Features include ODM support for Mongo, cloud resource support (AWS/Azure/Google), and automatic dependency injection. Additionally, grpc-web is supported directly, enabling browser access to all gRpc APIs without a proxy.
 
 **[⬆ back to top](#contents)**
 
