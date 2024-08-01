@@ -2925,6 +2925,7 @@ _Full stack web frameworks._
 - [Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity.
 - [Ginrpc](https://github.com/xxjwxc/ginrpc) - Gin parameter automatic binding tool,gin rpc tools.
 - [Gizmo](https://github.com/NYTimes/gizmo) - Microservice toolkit used by the New York Times.
+- [go-api-boot](https://github.com/SaiNageswarS/go-api-boot) - A gRpc-first micro-service framework. Features include ODM support for Mongo, cloud resource support (AWS/Azure/Google), and automatic dependency injection. Additionally, grpc-web is supported directly, enabling browser access to all gRpc APIs without a proxy.
 - [go-json-rest](https://github.com/ant0ine/go-json-rest) - Quick and easy way to setup a RESTful JSON API.
 - [go-rest](https://github.com/ungerik/go-rest) - Small and evil REST framework for Go.
 - [Goa](https://github.com/goadesign/goa) - Goa provides a holistic approach for developing remote APIs and microservices in Go.
@@ -2964,7 +2965,6 @@ _Full stack web frameworks._
 - [WebGo](https://github.com/bnkamalesh/webgo) - A micro-framework to build web apps; with handler chaining, middleware and context injection. With standard library compliant HTTP handlers(i.e. http.HandlerFunc).
 - [YARF](https://github.com/yarf-framework/yarf) - Fast micro-framework designed to build REST APIs and web services in a fast and simple way.
 - [Yokai](https://github.com/ankorstore/yokai) - Simple, modular, and observable Go framework for backend applications.
-- [go-api-boot](https://github.com/SaiNageswarS/go-api-boot) - A gRpc-first micro-service framework. Features include ODM support for Mongo, cloud resource support (AWS/Azure/Google), and automatic dependency injection. Additionally, grpc-web is supported directly, enabling browser access to all gRpc APIs without a proxy.
 
 **[⬆ back to top](#contents)**
 
