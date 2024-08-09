@@ -210,6 +210,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 _Libraries for building programs that leverage AI._
 
+- [chromem-go](https://github.com/philippgille/chromem-go) - Embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence.
 - [langchaingo](https://github.com/tmc/langchaingo) - LangChainGo is a framework for developing applications powered by language models.
 - [LocalAI](https://github.com/mudler/LocalAI) - Open Source OpenAI alternative, self-host AI models.
 - [Ollama](https://github.com/jmorganca/ollama) - Run large language models locally.
