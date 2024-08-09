@@ -2726,6 +2726,7 @@ _General utilities and tools to make your life easier._
 - [go-countries](https://github.com/mikekonan/go-countries) - Lightweight lookup over ISO-3166 codes.
 - [go-dry](https://github.com/ungerik/go-dry) - DRY (don't repeat yourself) package for Go.
 - [go-funk](https://github.com/thoas/go-funk) - Modern Go utility library which provides helpers (map, find, contains, filter, chunk, reverse, ...).
+- [go-gs](https://github.com/dsbasko/go-gs) - A simple library for convenient work with graceful shutdown.
 - [go-health](https://github.com/Talento90/go-health) - Health package simplifies the way you add health check to your services.
 - [go-httpheader](https://github.com/mozillazg/go-httpheader) - Go library for encoding structs into Header fields.
 - [go-lambda-cleanup](https://github.com/karl-cardenas-coding/go-lambda-cleanup) - A CLI for removing unused or previous versions of AWS Lambdas.
