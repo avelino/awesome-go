@@ -2501,6 +2501,7 @@ See also [Natural Language Processing](#natural-language-processing) and [Text A
 - [encdec](https://github.com/mickep76/encdec) - Package provides a generic interface to encoders and decoders.
 - [go-fasttld](https://github.com/elliotwutingfeng/go-fasttld) - High performance effective top level domains (eTLD) extraction module.
 - [go-nmea](https://github.com/adrianmo/go-nmea) - NMEA parser library for the Go language.
+- [go-querystring](https://github.com/google/go-querystring) - Go library for encoding structs into URL query parameters.
 - [go-vcard](https://github.com/emersion/go-vcard) - Parse and format vCard.
 - [godump](https://github.com/yassinebenaid/godump) - Pretty print any GO variable with ease, an alternative to Go's `fmt.Printf("%#v")`.
 - [gofeed](https://github.com/mmcdole/gofeed) - Parse RSS and Atom feeds in Go.
