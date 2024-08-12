@@ -1691,6 +1691,7 @@ _Libraries that implement messaging systems._
 - [oplog](https://github.com/dailymotion/oplog) - Generic oplog/replication system for REST APIs.
 - [pubsub](https://github.com/tuxychandru/pubsub) - Simple pubsub package for go.
 - [Quamina](https://github.com/timbray/quamina) - Fast pattern-matching for filtering messages and events.
+- [rabbitroutine](https://github.com/furdarius/rabbitroutine) - Lightweight library that handles RabbitMQ auto-reconnect and publishing retries. The library takes into account the need to re-declare entities in RabbitMQ after reconnection. 
 - [rabbus](https://github.com/rafaeljesus/rabbus) - A tiny wrapper over amqp exchanges and queues.
 - [rabtap](https://github.com/jandelgado/rabtap) - RabbitMQ swiss army knife cli app.
 - [RapidMQ](https://github.com/sybrexsys/RapidMQ) - RapidMQ is a lightweight and reliable library for managing of the local messages queue.
