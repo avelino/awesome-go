@@ -1170,6 +1170,7 @@ _Libraries for working with forms._
 - [nosurf](https://github.com/justinas/nosurf) - CSRF protection middleware for Go.
 - [qs](https://github.com/sonh/qs) - Go module for encoding structs into URL query parameters.
 - [queryparam](https://github.com/tomwright/queryparam) - Decode `url.Values` into usable struct values of standard or custom types.
+- [xtractr](https://github.com/syke99/xtractr) - Unmarshal both path and query parameters directly to structs, including time, sql.Null* (except for sql.NullByte), and nested struct fields
 
 **[⬆ back to top](#contents)**
 
