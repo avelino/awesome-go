@@ -2865,6 +2865,7 @@ _General utilities and tools to make your life easier._
 
 _Libraries for working with UUIDs._
 
+- [fastuuid](https://github.com/rekby/fastuuid) - Fast generate UUIDv4 as string or bytes.
 - [goid](https://github.com/jakehl/goid) - Generate and Parse RFC4122 compliant V4 UUIDs.
 - [gouid](https://github.com/twharmon/gouid) - Generate cryptographically secure random string IDs with just one allocation.
 - [nanoid](https://github.com/aidarkhanov/nanoid) - A tiny and efficient Go unique string ID generator.
