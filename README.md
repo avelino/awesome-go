@@ -3455,6 +3455,33 @@ _Where to discover new Go libraries._
 
 ## E-Books
 
+* [100 Go Mistakes: How to Avoid Them](https://www.manning.com/books/100-go-mistakes-how-to-avoid-them)Spot errors in your Go code you didn’t even know you were making and boost your productivity by avoiding common mistakes and pitfalls.
+* [A Go Developer's Notebook](https://leanpub.com/GoNotebook/read)
+* [An Introduction to Programming in Go](http://www.golang-book.com/)
+* [Build an Orchestrator in Go](https://www.manning.com/books/build-an-orchestrator-in-go)Understand Kubernetes and other orchestration systems deeply by building your own using Go and the Docker API.
+* [Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/)
+* [Building Web Apps With Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/)
+* [Continuous Delivery in Go](https://www.manning.com/books/continuous-delivery-in-go) This practical guide to continuous delivery shows you how to rapidly establish an automated pipeline that will improve your testing, code quality, and final product.
+* [Effective Go](https://www.manning.com/books/effective-go) Unlock Go’s unique perspective on program design, and start writing simple, maintainable, and testable Go code.
+* [For the Love of Go](https://bitfieldconsulting.com/books) - A series of introductory books for Go beginners.
+* [Go 101](https://go101.org) - A book focusing on Go syntax/semantics and all kinds of details.
+* [Go Bootcamp](http://golangbootcamp.com)
+* [Go in Action, Second Edition](https://www.manning.com/books/go-in-action-second-edition)
+* [Go Succinctly](https://github.com/thedevsir/gosuccinctly) - in Persian.
+* [GoBooks](https://github.com/dariubs/GoBooks) - A curated list of Go books.
+* [gRPC Microservices in Go](https://www.manning.com/books/grpc-microservices-in-go) - Book abot how to build fast and secure gRPC-based microservices using Go.
+* [How To Code in Go eBook](https://www.digitalocean.com/community/books/how-to-code-in-go-ebook) - A 600 page introduction to Go aimed at first time developers.
+* [Learn Go with Pocket-Sized Projects](https://www.manning.com/books/learn-go-with-pocket-sized-projects) - Learn Go by building handy tools and fun apps.
+* [Learning Go](https://www.miek.nl/downloads/Go/Learning-Go-latest.pdf)
+* [Network Programming With Go](https://jan.newmarch.name/go/)
+* [Practical Go Lessons](https://www.practical-go-lessons.com/)
+* [Spaceship Go A Journey to the Standard Library](https://blasrodri.github.io/spaceship-go-gh-pages/)
+* [The Go Programming Language](https://www.gopl.io/)
+* [The Golang Standard Library by Example (Chinese)](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
+* [Web Application with Go the Anti-Textbook](https://github.com/thewhitetulip/web-dev-golang-anti-textbook/)
+* [Writing A Compiler In Go](https://compilerbook.com)
+* [Writing An Interpreter In Go](https://interpreterbook.com) - Book that introduces dozens of techniques for writing idiomatic, expressive, and efficient Go code that avoids common pitfalls.
+
 ### E-books for purchase
 
 - [100 Go Mistakes: How to Avoid Them](https://www.manning.com/books/100-go-mistakes-how-to-avoid-them)
@@ -3466,6 +3493,7 @@ _Where to discover new Go libraries._
 - [For the Love of Go](https://bitfieldconsulting.com/books/love) - An introductory book for Go beginners.
 - [Go in Practice, Second Edition](https://www.manning.com/books/go-in-practice-second-edition)  - Your practical guide on the ins-and-outs of Go development, covering the standard library and the most important tools from Go’s powerful ecosystem.
 - [Know Go: Generics](https://bitfieldconsulting.com/books/generics) - A guide to understanding and using generics in Go.
+- [Learn Concurrent Programming with Go](https://www.manning.com/books/learn-concurrent-programming-with-go) - An easy-to-read tutorial about how to use concurrency to improve the performance of Go applications.
 - [Lets-Go](https://lets-go.alexedwards.net) - A step-by-step guide to creating fast, secure and maintanable web applications with Go.
 - [Lets-Go-Further](https://lets-go-further.alexedwards.net) - Advanced patterns for building APIs and web applications in Go.
 - [The Power of Go: Tests](https://bitfieldconsulting.com/books/tests) - A guide to testing in Go.
@@ -3652,6 +3680,7 @@ _Add the group of your city/country here (send **PR**)_
 - [pkg.go.dev](https://pkg.go.dev/) - Documentation for open source Go packages.
 - [r/Golang](https://www.reddit.com/r/golang) - News about Go.
 - [studygolang](https://studygolang.com) - The community of studygolang in China.
+- [The Guide to Go](hhttps://freecontent.manning.com/the-guide-to-go/) - An excerpt from Go in Action, Second Edition.
 - [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
 - [TutorialEdge - Golang](https://tutorialedge.net/course/golang/)
 
@@ -3698,6 +3727,7 @@ _Add the group of your city/country here (send **PR**)_
 - [Learn Go with 1000+ Exercises](https://github.com/inancgumus/learngo) - Learn Go with thousands of examples, exercises, and quizzes.
 - [Learn Go with TDD](https://github.com/quii/learn-go-with-tests) - Learn Go with test-driven development.
 - [Learning Go by examples](https://dev.to/aurelievache/learning-go-by-examples-introduction-448n) - Series of articles in order to learn Golang language by concrete applications as example.
+- [Modern Concurrency with Go](https://freecontent.manning.com/modern-concurrency-with-go/) - An excerpt from Learn Concurrent Programming with Go by James Cutajar.
 - [Microservices with Go](https://www.youtube.com/playlist?list=PLmD8u-IFdreyh6EUfevBcbiuCKzFk0EW_) - Dive deep into building microservices using Go, including gRPC.
 - [package main](https://www.youtube.com/packagemain) - YouTube channel about Programming in Go.
 - [Programming with Google Go](https://www.coursera.org/specializations/google-golang) - Coursera Specialization to learn about Go from scratch.
