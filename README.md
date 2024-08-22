@@ -1840,6 +1840,7 @@ _These libraries were placed here because none of the other categories seemed to
 - [go-openapi](https://github.com/go-openapi) - Collection of packages to parse and utilize open-api schemas.
 - [go-resiliency](https://github.com/eapache/go-resiliency) - Resiliency patterns for golang.
 - [go-unarr](https://github.com/gen2brain/go-unarr) - Decompression library for RAR, TAR, ZIP and 7z archives.
+- [goenum](https://github.com/lvyahui8/goenum) - A common enumeration struct based on generics and reflection that allows you to quickly define enumerations and use a set of useful default methods.
 - [gofakeit](https://github.com/brianvoe/gofakeit) - Random data generator written in go.
 - [gommit](https://github.com/antham/gommit) - Analyze git commit messages to ensure they follow defined patterns.
 - [gopsutil](https://github.com/shirou/gopsutil) - Cross-platform library for retrieving process and system utilization(CPU, Memory, Disks, etc).
