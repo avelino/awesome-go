@@ -943,7 +943,6 @@ _Libraries for working with dates and times._
 - [iso8601](https://github.com/relvacode/iso8601) - Efficiently parse ISO8601 date-times without regex.
 - [kair](https://github.com/GuilhermeCaruso/kair) - Date and Time - Golang Formatting Library.
 - [now](https://github.com/jinzhu/now) - Now is a time toolkit for golang.
-- [NullTime](https://github.com/kirillDanshin/nulltime) - Nullable `time.Time`.
 - [strftime](https://github.com/awoodbeck/strftime) - C99-compatible strftime formatter.
 - [timespan](https://github.com/SaidinWoT/timespan) - For interacting with intervals of time, defined as a start time and a duration.
 - [timeutil](https://github.com/leekchan/timeutil) - Useful extensions (Timedelta, Strftime, ...) to the golang's time package.
