@@ -412,8 +412,6 @@ _Libraries for building standard or basic Command Line applications._
 - [carapace](https://github.com/rsteube/carapace) - Command argument completion generator for spf13/cobra.
 - [carapace-bin](https://github.com/rsteube/carapace-bin) - Multi-shell multi-command argument completer.
 - [carapace-spec](https://github.com/rsteube/carapace-spec) - Define simple completions using a spec file.
-- [cli](https://github.com/mkideal/cli) - Feature-rich and easy to use command-line package based on golang struct tags.
-- [cli](https://github.com/teris-io/cli) - Simple and complete API for building command line interfaces in Go.
 - [climax](https://github.com/tucnak/climax) - Alternative CLI with "human face", in spirit of Go command.
 - [clîr](https://github.com/leaanthony/clir) - A Simple and Clear CLI library. Dependency free.
 - [cmd](https://github.com/posener/cmd) - Extends the standard `flag` package to support sub commands and more in idiomatic way.
@@ -440,6 +438,7 @@ _Libraries for building standard or basic Command Line applications._
 - [liner](https://github.com/peterh/liner) - Go readline-like library for command-line interfaces.
 - [mcli](https://github.com/jxskiss/mcli) - A minimal but very powerful cli library for Go.
 - [mitchellh/cli](https://github.com/mitchellh/cli) - Go library for implementing command-line interfaces.
+- [mkideal/cli](https://github.com/mkideal/cli) - Feature-rich and easy to use command-line package based on golang struct tags.
 - [mow.cli](https://github.com/jawher/mow.cli) - Go library for building CLI applications with sophisticated flag and argument parsing and validation.
 - [ops](https://github.com/nanovms/ops) - Unikernel Builder/Orchestrator.
 - [pflag](https://github.com/spf13/pflag) - Drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags.
@@ -449,6 +448,7 @@ _Libraries for building standard or basic Command Line applications._
 - [strumt](https://github.com/antham/strumt) - Library to create prompt chain.
 - [subcmd](https://github.com/bobg/subcmd) - Another approach to parsing and running subcommands. Works alongside the standard `flag` package.
 - [survey](https://github.com/go-survey/survey) - Build interactive and accessible prompts with full support for windows and posix terminals.
+- [teris-io/cli](https://github.com/teris-io/cli) - Simple and complete API for building command line interfaces in Go.
 - [ts](https://github.com/liujianping/ts) - Timestamp convert & compare tool.
 - [ukautz/clif](https://github.com/ukautz/clif) - Small command line interface framework.
 - [urfave/cli](https://github.com/urfave/cli) - Simple, fast, and fun package for building command line apps in Go (formerly codegangsta/cli).
