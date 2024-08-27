@@ -1,0 +1,31 @@
+name: First comment in new pull request
+
+on:
+  pull_request_target:
+    types: [opened]
+
+jobs:
+  commentCreated:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      issues: write
+    environment: action
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: first comment
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            Thank you for contributing to [awesome-go](https://awesome-go.com/). We will review your contribution as soon as possible.
+            
+            Make sure you add the links in the body of the pull request that are requested in the [contribution guide](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md):
+            - repo link
+            - pkg.go.dev
+            - goreportcard.com
+            - coverage
+            
+            > Your project is under review. It may take a few days to be approved.
