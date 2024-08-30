@@ -2028,6 +2028,7 @@ _Libraries for working with various layers of the network._
 - [tcp_server](https://github.com/firstrow/tcp_server) - Go library for building tcp servers faster.
 - [tcpack](https://github.com/lim-yoona/tcpack) - tcpack is an application protocol based on TCP to Pack and Unpack bytes stream in go program.
 - [tspool](https://github.com/two/tspool) - A TCP Library use worker pool to improve performance and protect your server.
+- [tun2socks](https://github.com/xjasonlyu/tun2socks) - A pure go implementation of tun2socks powered by [gVisor](https://gvisor.dev/) TCP/IP stack.
 - [utp](https://github.com/anacrolix/utp) - Go uTP micro transport protocol implementation.
 - [vssh](https://github.com/yahoo/vssh) - Go library for building network and server automation over SSH protocol.
 - [water](https://github.com/songgao/water) - Simple TUN/TAP library.
