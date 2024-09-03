@@ -3711,6 +3711,7 @@ _Add the group of your city/country here (send **PR**)_
 - [go-clean-template](https://github.com/evrone/go-clean-template) - Clean Architecture template for Golang services.
 - [go-patterns](https://github.com/tmrts/go-patterns) - Curated list of Go design patterns, recipes and idioms.
 - [goapp](https://github.com/bnkamalesh/goapp) - An opinionated guideline to structure & develop a Go web application/service.
+- [golang-examples](https://github.com/SimonWaldherr/golang-examples) - Many examples to learn Golang.
 - [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers) - Examples of Golang compared to Node.js for learning.
 - [Golang Tutorial Guide](https://www.freecodecamp.org/news/golang-tutorial-list-free-courses-learn-go-programming-language/) - A List of Free Courses to Learn the Go Programming Language.
 - [Golangbot](https://golangbot.com/learn-golang-series/) - Tutorials to get started with programming in Go.
