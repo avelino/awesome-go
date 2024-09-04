@@ -1132,6 +1132,7 @@ _Libraries for handling files and file systems._
 - [go-decent-copy](https://github.com/hugocarreira/go-decent-copy) - Copy files for humans.
 - [go-exiftool](https://github.com/barasher/go-exiftool) - Go bindings for ExifTool, the well-known library used to extract as much metadata as possible (EXIF, IPTC, ...) from files (pictures, PDF, office, ...).
 - [go-gtfs](https://github.com/artonge/go-gtfs) - Load gtfs files in go.
+- [go-wkhtmltopdf](https://github.com/SebastiaanKlippert/go-wkhtmltopdf) - A package to convert an HTML template to a PDF file.
 - [gofs](https://github.com/no-src/gofs) - A cross-platform real-time file synchronization tool out of the box.
 - [gut/yos](https://github.com/1set/gut) - Simple and reliable package for file operations like copy/move/diff/list on files, directories and symbolic links.
 - [higgs](https://github.com/dastoori/higgs) - A tiny cross-platform Go library to hide/unhide files and directories.
