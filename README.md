@@ -715,6 +715,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [groupcache](https://github.com/golang/groupcache) - Groupcache is a caching and cache-filling library, intended as a replacement for memcached in many cases.
 - [icache](https://github.com/mdaliyan/icache) - A High Performance, Generic, thread-safe, zero-dependency cache package.
 - [imcache](https://github.com/erni27/imcache) - A generic in-memory cache Go library. It supports expiration, sliding expiration, max entries limit, eviction callbacks and sharding.
+- [incache](https://github.com/WIttyJudge/incache) -  Thread-safe in-memory caching library for Go with expiration time, metrics and more.
 - [nscache](https://github.com/no-src/nscache) - A Go caching framework that supports multiple data source drivers.
 - [otter](https://github.com/maypok86/otter) - A high performance lockless cache for Go. Many times faster than Ristretto and friends.
 - [remember-go](https://github.com/rocketlaunchr/remember-go) - A universal interface for caching slow database queries (backed by redis, memcached, ristretto, or in-memory).
