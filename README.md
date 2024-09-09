@@ -1761,6 +1761,7 @@ _Libraries for working with Microsoft Excel._
 _Libraries for working with dependency injection._
 
 - [alice](https://github.com/magic003/alice) - Additive dependency injection container for Golang.
+- [autowire](https://github.com/tiendc/autowire) - Dependency injection using Generics and reflection.
 - [boot-go](http://github.com/boot-go/boot) - Component-based development with dependency injection using reflections for Go developers.
 - [componego](https://github.com/componego/componego) - A dependency injection framework based on components, allowing dynamic dependency replacement without duplicating code in tests.
 - [cosban/di](https://gitlab.com/cosban/di) - A code generation based dependency injection wiring tool.
