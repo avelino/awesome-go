@@ -325,7 +325,7 @@ _Libraries for building and working with bots._
 - [micha](https://github.com/onrik/micha) - Go Library for Telegram bot api.
 - [olivia](https://github.com/olivia-ai/olivia) - A chatbot built with an artificial neural network.
 - [slack-bot](https://github.com/innogames/slack-bot) - Ready to use Slack Bot for lazy developers: Custom commands, Jenkins, Jira, Bitbucket, Github...
-- [slacker](https://github.com/shomali11/slacker) - Easy to use framework to create Slack bots.
+- [slacker](https://github.com/slack-io/slacker) - Easy to use framework to create Slack bots.
 - [slackscot](https://github.com/alexandre-normand/slackscot) - Another framework for building Slack bots.
 - [tbot](https://github.com/yanzay/tbot) - Telegram bot server with API similar to net/http.
 - [telebot](https://github.com/tucnak/telebot) - Telegram bot framework is written in Go.
