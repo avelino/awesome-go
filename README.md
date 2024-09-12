@@ -2309,7 +2309,7 @@ _Libraries for testing codebases and generating test data._
   - [Tt](https://github.com/vcaesar/tt) - Simple and colorful test tools.
   - [wstest](https://github.com/posener/wstest) - Websocket client for unit-testing a websocket http.Handler.
 
-- Mocks
+- Mock
 
   - [counterfeiter](https://github.com/maxbrunsfeld/counterfeiter) - Tool for generating self-contained mock objects.
   - [genmock](https://gitlab.com/so_literate/genmock) - Go mocking system with code generator for building calls of the interface methods.
@@ -2349,7 +2349,7 @@ _Libraries for testing codebases and generating test data._
 
 **[⬆ back to top](#contents)**
 
-## Text Processing
+## Text Processing.
 
 _Libraries for parsing and manipulating texts._
 
