@@ -1147,7 +1147,6 @@ _Libraries for handling files and file systems._
 - [pathtype](https://github.com/jonchun/pathtype) - Treat paths as their own type instead of using strings.
 - [pdfcpu](https://github.com/pdfcpu/pdfcpu) - PDF processor.
 - [skywalker](https://github.com/dixonwille/skywalker) - Package to allow one to concurrently go through a filesystem with ease.
-- [stl](https://gitlab.com/russoj88/stl) - Modules to read and write STL (stereolithography) files. Concurrent algorithm for reading.
 - [todotxt](https://github.com/1set/todotxt) - Go library for Gina Trapani's [_todo.txt_](http://todotxt.org/) files, supports parsing and manipulating of task lists in the [_todo.txt_ format](https://github.com/todotxt/todo.txt).
 - [vfs](https://github.com/C2FO/vfs) - A pluggable, extensible, and opinionated set of filesystem functionality for Go across a number of filesystem types such as os, S3, and GCS.
 
