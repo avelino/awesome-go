@@ -3637,7 +3637,6 @@ _Add the group of your city/country here (send **PR**)_
 - [@golang](https://twitter.com/golang)
 - [@golang_news](https://twitter.com/golang_news)
 - [@golangch](https://twitter.com/golangch)
-- [@golangflow](https://twitter.com/golangflow)
 - [@golangweekly](https://twitter.com/golangweekly)
 
 **[⬆ back to top](#contents)**
@@ -3668,7 +3667,6 @@ _Add the group of your city/country here (send **PR**)_
 - [go.dev](https://go.dev/) - A hub for Go developers.
 - [gocryforhelp](https://github.com/ninedraft/gocryforhelp) - Collection of Go projects that needs help. Good place to start your open-source way in Go.
 - [Golang Developer Jobs](https://golangjob.xyz) - Developer Jobs exclusively for Golang related Roles.
-- [Golang Flow](https://golangflow.io) - Post Updates, News, Packages and more.
 - [Golang News](https://golangnews.com) - Links and news about Go programming.
 - [Golang Resources](https://golangresources.com) - A curation of the best articles, exercises, talks and videos to learn Go.
 - [Golang Weekly](https://discu.eu/weekly/golang/) - Each monday projects, tutorials and articles about Go.
