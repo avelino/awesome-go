@@ -39,7 +39,7 @@ var awesomeGoGETISSUES = "http://api.github.com/repos/avelino/awesome-go/issues"
 //	time.Hour * ... or change type of variable
 var numberOfYears time.Duration = 1
 var timeNow = time.Now()
-var issueTitle = fmt.Sprintf("Investigate repositories with more than 1 year without update - %s", timeNow.Format("2006-01-02"))
+var issueTitle = fmt.Sprintf("Investigate repositories with more than 1 year without update - %s", timeNow.Format(time.DateOnly))
 
 const deadLinkMessage = " this repository might no longer exist! (status code >= 400 returned)"
 const movedPermanently = " status code 301 received"
