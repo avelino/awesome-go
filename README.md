@@ -2875,6 +2875,7 @@ _General utilities and tools to make your life easier._
 - [retry-go](https://github.com/rafaeljesus/retry-go) - Retrying made simple and easy for golang.
 - [robustly](https://github.com/VividCortex/robustly) - Runs functions resiliently, catching and restarting panics.
 - [rospo](https://github.com/ferama/rospo) - Simple and reliable ssh tunnels with embedded ssh server in Golang.
+- [safe](https://github.com/akramarenkov/safe) - Library that allows you to detect overflows in operations with integer numbers.
 - [scan](https://github.com/blockloop/scan) - Scan golang `sql.Rows` directly to structs, slices, or primitive types.
 - [scan](https://github.com/wroge/scan) - Scan sql rows into any type powered by generics.
 - [scany](https://github.com/georgysavva/scany) - Library for scanning data from a database into Go structs and more.
