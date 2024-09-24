@@ -615,6 +615,7 @@ additional ordered map implementations.
 
 - [cmap](https://github.com/lrita/cmap) - a thread-safe concurrent map for go, support using `interface{}` as key and auto scale up shards.
 - [dict](https://github.com/srfrog/dict) - Python-like dictionaries (dict) for Go.
+- [go-shelve](https://github.com/lucmq/go-shelve) - A persistent, map-like object for the Go programming language. Supports multiple embedded key-value stores.
 - [goradd/maps](https://github.com/goradd/maps) - Go 1.18+ generic map interface for maps; safe maps; ordered maps; ordered, safe maps; etc.
 
 ### Miscellaneous Data Structures and Algorithms
@@ -2222,6 +2223,7 @@ _Libraries for scientific computing and data analyzing._
 - [go-dsp](https://github.com/mjibson/go-dsp) - Digital Signal Processing for Go.
 - [go-estimate](https://github.com/milosgajdos/go-estimate) - State estimation and filtering algorithms in Go.
 - [go-gt](https://github.com/ThePaw/go-gt) - Graph theory algorithms written in "Go" language.
+- [go-hep](https://github.com/go-hep/hep) - A set of libraries and tools for performing High Energy Physics analyses with ease.
 - [godesim](https://github.com/soypat/godesim) - Extended/multivariable ODE solver framework for event-based simulations with simple API.
 - [goent](https://github.com/kzahedi/goent) - GO Implementation of Entropy Measures.
 - [gograph](https://github.com/hmdsefi/gograph) - A golang generic graph library that provides mathematical graph-theory and algorithms.
@@ -3029,6 +3031,7 @@ _Full stack web frameworks._
 - [Hertz](https://github.com/cloudwego/hertz) - A high-performance and strong-extensibility Go HTTP framework that helps developers build microservices.
 - [hiboot](https://github.com/hidevopsio/hiboot) - hiboot is a high performance web application framework with auto configuration and dependency injection support.
 - [Huma](https://github.com/danielgtaylor/huma/) - Framework for modern REST/GraphQL APIs with built-in OpenAPI 3, generated documentation, and a CLI.
+- [iWF](https://github.com/indeedeng/iwf) - iWF is an all-in-one platform for developing long-running business processes. It offers a convenient abstraction for utilizing databases, ElasticSearch, message queues, durable timers, and more, with a clean, simple, and user-friendly interface.
 - [Lit](https://github.com/jvcoutinho/lit) - Highly performant declarative web framework for Golang, aiming for simplicity and quality of life.
 - [Macaron](https://github.com/go-macaron/macaron) - Macaron is a high productive and modular design web framework in Go.
 - [mango](https://github.com/paulbellamy/mango) - Mango is a modular web-application framework for Go, inspired by Rack, and PEP333.
