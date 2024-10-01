@@ -2163,6 +2163,7 @@ _Unofficial libraries for package and dependency management._
 
 - [go-instrument](https://github.com/nikolaydubina/go-instrument) - Automatically add spans to all methods and functions.
 - [jaeger](https://github.com/jaegertracing/jaeger) - A distributed tracing system.
+- [mm-go](https://github.com/joetifa2003/mm-go) - Generic manual memory management for golang.
 - [pixie](https://github.com/pixie-labs/pixie) - No instrumentation tracing for Golang applications via eBPF.
 - [profile](https://github.com/pkg/profile) - Simple profiling support package for Go.
 - [statsviz](https://github.com/arl/statsviz) - Live visualization of your Go application runtime statistics.
@@ -2829,6 +2830,7 @@ _General utilities and tools to make your life easier._
 - [immortal](https://github.com/immortal/immortal) - \*nix cross-platform (OS agnostic) supervisor.
 - [intrinsic](https://github.com/mengzhuo/intrinsic) - Use x86 SIMD without writing any assembly code.
 - [jsend](https://github.com/clevergo/jsend) - JSend's implementation written in Go.
+- [json-log-viewer](https://github.com/hedhyw/json-log-viewer) - Interactive viewer for JSON logs.
 - [jump](https://github.com/gsamokovarov/jump) - Jump helps you navigate faster by learning your habits.
 - [just](https://github.com/kazhuravlev/just) - Just a collection of useful functions for working with generic data structures.
 - [koazee](https://github.com/wesovilabs/koazee) - Library inspired in Lazy evaluation and functional programming that takes the hassle out of working with arrays.
