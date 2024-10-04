@@ -2510,13 +2510,13 @@ _Libraries for testing codebases and generating test data._
 - [timex](https://github.com/cabify/timex) - A test-friendly replacement for the native `time` package.
 - [xgo](https://github.com/xhd2015/xgo) - A general pureposed function mocking library.
 
-## Fuzzing and delta-debugging/reducing/shrinking
+### Fuzzing and delta-debugging/reducing/shrinking
 
 - [go-fuzz](https://github.com/dvyukov/go-fuzz) - Randomized testing system.
 - [gofuzz](https://github.com/google/gofuzz) - Library for populating go objects with random values.
 - [Tavor](https://github.com/zimmski/tavor) - Generic fuzzing and delta-debugging framework.
 
-## Selenium and browser control tools
+### Selenium and browser control tools
 
 - [cdp](https://github.com/mafredri/cdp) - Type-safe bindings for the Chrome Debugging Protocol that can be used with browsers or other debug targets that implement it.
 - [chromedp](https://github.com/knq/chromedp) - a way to drive/test Chrome, Safari, Edge, Android Webviews, and other browsers supporting the Chrome Debugging Protocol.
