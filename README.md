@@ -159,8 +159,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
   - [Testing](#testing)
     - [Testing Frameworks](#testing-frameworks)
     - [Mock](#mock)
-  - [Fuzzing and delta-debugging/reducing/shrinking](#fuzzing-and-delta-debuggingreducingshrinking)
-  - [Selenium and browser control tools](#selenium-and-browser-control-tools)
+    - [Fuzzing and delta-debugging/reducing/shrinking](#fuzzing-and-delta-debuggingreducingshrinking)
+    - [Selenium and browser control tools](#selenium-and-browser-control-tools)
     - [Fail injection](#fail-injection)
   - [Text Processing](#text-processing)
     - [Formatters](#formatters)
@@ -2204,7 +2204,6 @@ _Unofficial libraries for package and dependency management._
 - [nject](https://github.com/muir/nject) - A type safe, reflective framework for libraries, tests, http endpoints, and service startup.
 - [objwalker](https://github.com/rekby/objwalker) - Walk by go objects with reflection.
 - [reflectutils](https://github.com/muir/reflectutils) - Helpers for working with reflection: struct tag parsing; recursive walking; fill value from string.
-- [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
 
 **[⬆ back to top](#contents)**
 
@@ -2560,6 +2559,7 @@ See also [Natural Language Processing](#natural-language-processing) and [Text A
 - [htmlyaml](https://github.com/nikolaydubina/htmlyaml) -  Rich rendering of YAML as HTML in Go
 - [htree](https://github.com/bobg/htree) - Traverse, navigate, filter, and otherwise process trees of [html.Node](https://pkg.go.dev/golang.org/x/net/html#Node) objects.
 - [mxj](https://github.com/clbanning/mxj) - Encode / decode XML as JSON or map[string]interface{}; extract values with dot-notation paths and wildcards. Replaces x2j and j2x packages.
+- [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
 
 ### Parsers/Encoders/Decoders
 
