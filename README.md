@@ -128,6 +128,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
   - [Messaging](#messaging)
   - [Microsoft Office](#microsoft-office)
     - [Microsoft Excel](#microsoft-excel)
+    - [Microsoft Word](#microsoft-word)
   - [Miscellaneous](#miscellaneous)
     - [Dependency Injection](#dependency-injection)
     - [Project Layout](#project-layout)
@@ -147,6 +148,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
   - [Package Management](#package-management)
   - [Performance](#performance)
   - [Query Language](#query-language)
+  - [Reflection](#reflection)
   - [Resource Embedding](#resource-embedding)
   - [Science and Data Analysis](#science-and-data-analysis)
   - [Security](#security)
@@ -157,8 +159,8 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
   - [Testing](#testing)
     - [Testing Frameworks](#testing-frameworks)
     - [Mock](#mock)
-    - [Fuzzing and delta-debugging/reducing/shrinking](#fuzzing-and-delta-debuggingreducingshrinking)
-    - [Selenium and browser control tools](#selenium-and-browser-control-tools)
+  - [Fuzzing and delta-debugging/reducing/shrinking](#fuzzing-and-delta-debuggingreducingshrinking)
+  - [Selenium and browser control tools](#selenium-and-browser-control-tools)
     - [Fail injection](#fail-injection)
   - [Text Processing](#text-processing)
     - [Formatters](#formatters)
@@ -1259,8 +1261,7 @@ _Tools that generate Go code._
 - [generis](https://github.com/senselogic/GENERIS) - Code generation tool providing generics, free-form macros, conditional compilation and HTML templating.
 - [go-enum](https://github.com/abice/go-enum) - Code generation for enums from code comments.
 - [go-linq](https://github.com/ahmetalpbalkan/go-linq) - .NET LINQ-like query methods for Go.
-- [goderive](https://github.com/awalterschulze/goderive) - Derives functions from input types.
-- [gotype](https://github.com/wzshiming/gotype) - Golang source code parsing, usage like reflect package.
+- [goderive](https://github.com/awalterschulze/goderive) - Derives functions from input types
 - [goverter](https://github.com/jmattheis/goverter) - Generate converters by defining an interface.
 - [GoWrap](https://github.com/hexdigest/gowrap) - Generate decorators for Go interfaces using simple templates.
 - [interfaces](https://github.com/rjeczalik/interfaces) - Command line tool for generating interface definitions.
@@ -1771,12 +1772,9 @@ _Libraries for working with Microsoft Word._
 _Libraries for working with dependency injection._
 
 - [alice](https://github.com/magic003/alice) - Additive dependency injection container for Golang.
-- [autowire](https://github.com/tiendc/autowire) - Dependency injection using Generics and reflection.
-- [boot-go](http://github.com/boot-go/boot) - Component-based development with dependency injection using reflections for Go developers.
 - [componego](https://github.com/componego/componego) - A dependency injection framework based on components, allowing dynamic dependency replacement without duplicating code in tests.
 - [cosban/di](https://gitlab.com/cosban/di) - A code generation based dependency injection wiring tool.
 - [di](https://github.com/goava/di) - A dependency injection container for go programming language.
-- [dig](https://github.com/uber-go/dig) - A reflection based dependency injection toolkit for Go.
 - [dingo](https://github.com/i-love-flamingo/dingo) - A dependency injection toolkit for Go, based on Guice.
 - [do](https://github.com/samber/do) - A dependency injection framework based on Generics.
 - [fx](https://github.com/uber-go/fx) - A dependency injection based application framework for Go (built on top of dig).
@@ -1789,8 +1787,6 @@ _Libraries for working with dependency injection._
 - [HnH/di](https://github.com/HnH/di) - DI container library that is focused on clean API and flexibility.
 - [kinit](https://github.com/go-kata/kinit) - Customizable dependency injection container with the global mode, cascade initialization and panic-safe finalization.
 - [kod](https://github.com/go-kod/kod) - A generics based dependency injection framework for Go.
-- [linker](https://github.com/logrange/linker) - A reflection based dependency injection and inversion of control library with components lifecycle support.
-- [nject](https://github.com/muir/nject) - A type safe, reflective framework for libraries, tests, http endpoints, and service startup.
 - [ore](https://github.com/firasdarwish/ore) - Lightweight, generic & simple dependency injection (DI) container.
 - [wire](https://github.com/Fs02/wire) - Strict Runtime Dependency Injection for Golang.
 
@@ -1862,7 +1858,6 @@ _These libraries were placed here because none of the other categories seemed to
 - [go-openapi](https://github.com/go-openapi) - Collection of packages to parse and utilize open-api schemas.
 - [go-resiliency](https://github.com/eapache/go-resiliency) - Resiliency patterns for golang.
 - [go-unarr](https://github.com/gen2brain/go-unarr) - Decompression library for RAR, TAR, ZIP and 7z archives.
-- [goenum](https://github.com/lvyahui8/goenum) - A common enumeration struct based on generics and reflection that allows you to quickly define enumerations and use a set of useful default methods.
 - [gofakeit](https://github.com/brianvoe/gofakeit) - Random data generator written in go.
 - [gommit](https://github.com/antham/gommit) - Analyze git commit messages to ensure they follow defined patterns.
 - [gopsutil](https://github.com/shirou/gopsutil) - Cross-platform library for retrieving process and system utilization(CPU, Memory, Disks, etc).
@@ -2190,6 +2185,26 @@ _Unofficial libraries for package and dependency management._
 - [rql](https://github.com/a8m/rql) - Resource Query Language for REST API.
 - [rqp](https://github.com/timsolov/rest-query-parser) - Query Parser for REST API. Filtering, validations, both `AND`, `OR` operations are supported directly in the query.
 - [straf](https://github.com/SonicRoshan/straf) - Easily Convert Golang structs to GraphQL objects.
+
+**[⬆ back to top](#contents)**
+
+## Reflection
+
+- [autowire](https://github.com/tiendc/autowire) - Dependency injection using Generics and reflection.
+- [boot-go](http://github.com/boot-go/boot) - Component-based development with dependency injection using reflections for Go developers.
+- [copy](https://github.com/gotidy/copy) - Package for fast copying structs of different types.
+- [Deepcopier](https://github.com/ulule/deepcopier) - Simple struct copying for Go.
+- [dig](https://github.com/uber-go/dig) - A reflection based dependency injection toolkit for Go.
+- [go-deepcopy](https://github.com/tiendc/go-deepcopy) - Fast deep copy library.
+- [go-fixedwidth](https://github.com/ianlopshire/go-fixedwidth) - Fixed-width text formatting (encoder/decoder with reflection).
+- [goenum](https://github.com/lvyahui8/goenum) - A common enumeration struct based on generics and reflection that allows you to quickly define enumerations and use a set of useful default methods.
+- [gotype](https://github.com/wzshiming/gotype) - Golang source code parsing, usage like reflect package.
+- [gpath](https://github.com/tenntenn/gpath) - Library to simplify access struct fields with Go's expression in reflection.
+- [linker](https://github.com/logrange/linker) - A reflection based dependency injection and inversion of control library with components lifecycle support.
+- [nject](https://github.com/muir/nject) - A type safe, reflective framework for libraries, tests, http endpoints, and service startup.
+- [objwalker](https://github.com/rekby/objwalker) - Walk by go objects with reflection.
+- [reflectutils](https://github.com/muir/reflectutils) - Helpers for working with reflection: struct tag parsing; recursive walking; fill value from string.
+- [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
 
 **[⬆ back to top](#contents)**
 
@@ -2527,7 +2542,6 @@ See also [Natural Language Processing](#natural-language-processing) and [Text A
 - [address](https://github.com/bojanz/address) - Handles address representation, validation and formatting.
 - [align](https://github.com/Guitarbum722/align) - A general purpose application that aligns text.
 - [bytes](https://github.com/labstack/gommon/tree/master/bytes) - Formats and parses numeric byte values (10K, 2M, 3G, etc.).
-- [go-fixedwidth](https://github.com/ianlopshire/go-fixedwidth) - Fixed-width text formatting (encoder/decoder with reflection).
 - [go-humanize](https://github.com/dustin/go-humanize) - Formatters for time, numbers, and memory size to human readable format.
 - [gotabulate](https://github.com/bndr/gotabulate) - Easily pretty-print your tabular data with Go.
 - [textwrap](https://github.com/isbm/textwrap) - Wraps text at end of lines. Implementation of `textwrap` module from Python.
@@ -2546,7 +2560,6 @@ See also [Natural Language Processing](#natural-language-processing) and [Text A
 - [htmlyaml](https://github.com/nikolaydubina/htmlyaml) -  Rich rendering of YAML as HTML in Go
 - [htree](https://github.com/bobg/htree) - Traverse, navigate, filter, and otherwise process trees of [html.Node](https://pkg.go.dev/golang.org/x/net/html#Node) objects.
 - [mxj](https://github.com/clbanning/mxj) - Encode / decode XML as JSON or map[string]interface{}; extract values with dot-notation paths and wildcards. Replaces x2j and j2x packages.
-- [toml](https://github.com/BurntSushi/toml) - TOML configuration format (encoder/decoder with reflection).
 
 ### Parsers/Encoders/Decoders
 
@@ -2751,7 +2764,6 @@ _General utilities and tools to make your life easier._
 - [config-file-validator](https://github.com/Boeing/config-file-validator) - Cross Platform tool to validate configuration files.
 - [contextplus](https://github.com/contextplus/contextplus) - Package contextplus provide more easy to use functions for contexts.
 - [cookie](https://github.com/syntaqx/cookie) - Cookie struct parsing and helper package.
-- [copy](https://github.com/gotidy/copy) - Package for fast copying structs of different types.
 - [copy-pasta](https://github.com/jutkko/copy-pasta) - Universal multi-workstation clipboard that uses S3 like backend for the storage.
 - [countries](https://github.com/biter777/countries) - Full implementation of ISO-3166-1, ISO-4217, ITU-T E.164, Unicode CLDR and IANA ccTLD standards.
 - [countries](https://github.com/pioz/countries) - All you need when you are working with countries in Go.
@@ -2762,7 +2774,6 @@ _General utilities and tools to make your life easier._
 - [cvt](https://github.com/shockerli/cvt) - Easy and safe convert any value to another type.
 - [dbt](https://github.com/nikogura/dbt) - A framework for running self-updating signed binaries from a central, trusted repository.
 - [Death](https://github.com/vrecan/death) - Managing go application shutdown with signals.
-- [Deepcopier](https://github.com/ulule/deepcopier) - Simple struct copying for Go.
 - [delve](https://github.com/derekparker/delve) - Go debugger.
 - [dive](https://github.com/wagoodman/dive) - A tool for exploring each layer in a Docker image.
 - [dlog](https://github.com/kirillDanshin/dlog) - Compile-time controlled logger to make your release smaller without removing debug calls.
@@ -2818,7 +2829,6 @@ _General utilities and tools to make your life easier._
 - [gostrutils](https://github.com/ik5/gostrutils) - Collections of string manipulation and conversion functions.
 - [gotenv](https://github.com/subosito/gotenv) - Load environment variables from `.env` or any `io.Reader` in Go.
 - [goval](https://github.com/maja42/goval) - Evaluate arbitrary expressions in Go.
-- [gpath](https://github.com/tenntenn/gpath) - Library to simplify access struct fields with Go's expression in reflection.
 - [graterm](https://github.com/skovtunenko/graterm) - Provides primitives to perform ordered (sequential/concurrent) GRAceful TERMination (aka shutdown) in Go application.
 - [grofer](https://github.com/pesos/grofer) - A system and resource monitoring tool written in Golang!
 - [gubrak](https://github.com/novalagung/gubrak) - Golang utility library with syntactic sugar. It's like lodash, but for golang.
@@ -2857,7 +2867,6 @@ _General utilities and tools to make your life easier._
 - [netbug](https://github.com/e-dard/netbug) - Easy remote profiling of your services.
 - [nfdump](https://github.com/chrispassas/nfdump) - Read nfdump netflow files.
 - [nostromo](https://github.com/pokanop/nostromo) - CLI for building powerful aliases.
-- [objwalker](https://github.com/rekby/objwalker) - Walk by go objects with reflection.
 - [okrun](https://github.com/xta/okrun) - go run error steamroller.
 - [olaf](https://github.com/btnguyen2k/olaf) - Twitter Snowflake implemented in Go.
 - [onecache](https://github.com/adelowo/onecache) - Caching library with support for multiple backend stores (Redis, Memcached, filesystem etc).
@@ -2869,7 +2878,6 @@ _General utilities and tools to make your life easier._
 - [pointer](https://github.com/xorcare/pointer) - Package pointer contains helper routines for simplifying the creation of optional fields of basic type.
 - [ptr](https://github.com/gotidy/ptr) - Package that provide functions for simplified creation of pointers from constants of basic types.
 - [rclient](https://github.com/zpatrick/rclient) - Readable, flexible, simple-to-use client for REST APIs.
-- [reflectutils](https://github.com/muir/reflectutils) - Helpers for working with reflection: struct tag parsing; recursive walking; fill value from string.
 - [remote-touchpad](https://github.com/Unrud/remote-touchpad) - Control mouse and keyboard from a smartphone.
 - [repeat](https://github.com/ssgreg/repeat) - Go implementation of different backoff strategies useful for retrying operations and heartbeating.
 - [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
