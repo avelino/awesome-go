@@ -2970,7 +2970,6 @@ _Libraries for version control._
 
 - [cli](https://gitlab.com/gitlab-org/cli) - An open-source GitLab command line tool bringing GitLab's cool features to your command line.
 - [froggit-go](https://github.com/jfrog/froggit-go) - Froggit-Go is a Go library, allowing to perform actions on VCS providers.
-- [gh](https://github.com/rjeczalik/gh) - Scriptable server and net/http middleware for GitHub Webhooks.
 - [git2go](https://github.com/libgit2/git2go) - Go bindings for libgit2.
 - [githooks](https://github.com/gabyx/githooks) - Per-repo and shared Git hooks with version control and auto update.
 - [go-git](https://github.com/go-git/go-git) - highly extensible Git implementation in pure Go.
