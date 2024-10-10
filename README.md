@@ -655,6 +655,7 @@ additional ordered map implementations.
 - [deque](https://github.com/edwingeng/deque) - A highly optimized double-ended queue.
 - [deque](https://github.com/gammazero/deque) - Fast ring-buffer deque (double-ended queue).
 - [goconcurrentqueue](https://github.com/enriquebris/goconcurrentqueue) - Concurrent FIFO queue.
+- [hatchet](https://github.com/hatchet-dev/hatchet) - Distributed, Fault-tolerant task queue.
 - [memlog](https://github.com/embano1/memlog) - An easy to use, lightweight, thread-safe and append-only in-memory data structure inspired by Apache Kafka.
 - [queue](https://github.com/adrianbrad/queue) - Multiple thread-safe, generic queue implementations for Go.
 
