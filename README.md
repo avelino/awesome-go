@@ -657,6 +657,7 @@ additional ordered map implementations.
 - [goconcurrentqueue](https://github.com/enriquebris/goconcurrentqueue) - Concurrent FIFO queue.
 - [memlog](https://github.com/embano1/memlog) - An easy to use, lightweight, thread-safe and append-only in-memory data structure inspired by Apache Kafka.
 - [queue](https://github.com/adrianbrad/queue) - Multiple thread-safe, generic queue implementations for Go.
+- [hatchet](https://github.com/hatchet-dev/hatchet) - Distributed,Fault-tolerant task queue 
 
 ### Sets
 
