@@ -811,8 +811,8 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [dynago](https://github.com/twharmon/dynago) - Simplify working with AWS DynamoDB.
 - [gatewayd](https://github.com/gatewayd-io/gatewayd) - Cloud-native database gateway and framework for building data-driven applications. Like API gateways, for databases.
 - [go-mysql](https://github.com/siddontang/go-mysql) - Go toolset to handle MySQL protocol and replication.
-- [gowal](github.com/vadiminshakov/gowal) - A simple implementation of Write-Ahead Logging (WAL).
 - [gorm-multitenancy](https://github.com/bartventer/gorm-multitenancy) - Multi-tenancy support for GORM managed databases.
+- [gowal](github.com/vadiminshakov/gowal) - A simple implementation of Write-Ahead Logging (WAL).
 - [hasql](https://golang.yandex/hasql) - Library for accessing multi-host SQL database installations.
 - [octillery](https://github.com/knocknote/octillery) - Go package for sharding databases ( Supports every ORM or raw SQL ).
 - [onedump](https://github.com/liweiyi88/onedump) - Database backup from different drivers to different destinations with one command and configuration.
