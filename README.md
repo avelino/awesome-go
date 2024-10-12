@@ -3030,6 +3030,7 @@ _Full stack web frameworks._
 - [Revel](https://github.com/revel/revel) - High-productivity web framework for the Go language.
 - [rk-boot](https://github.com/rookie-ninja/rk-boot) - A bootstrapper library for building enterprise go microservice with Gin and gRPC quickly and easily.
 - [rux](https://github.com/gookit/rux) - Simple and fast web framework for build golang HTTP applications.
+- [templui](https://github.com/axzilla/templui) - Modern UI Components for Go & Templ.
 - [uAdmin](https://github.com/uadmin/uadmin) - Fully featured web framework for Golang, inspired by Django.
 - [WebGo](https://github.com/naughtygopher/webgo) - A micro-framework to build web apps with handler chaining, middleware, and context injection. With standard library-compliant HTTP handlers (i.e., `http.HandlerFunc`)..
 - [Yokai](https://github.com/ankorstore/yokai) - Simple, modular, and observable Go framework for backend applications.
