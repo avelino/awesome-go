@@ -5,6 +5,8 @@ go 1.21
 require (
 	github.com/PuerkitoBio/goquery v1.8.1
 	github.com/avelino/slugify v0.0.0-20180501145920-855f152bd774
+	github.com/google/go-github/v63 v63.0.0
+	github.com/kr/pretty v0.3.1
 	github.com/otiai10/copy v1.14.0
 	github.com/yuin/goldmark v1.6.0
 	golang.org/x/oauth2 v0.15.0
@@ -13,6 +15,9 @@ require (
 require (
 	github.com/andybalholm/cascadia v1.3.1 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
+	github.com/google/go-querystring v1.1.0 // indirect
+	github.com/kr/text v0.2.0 // indirect
+	github.com/rogpeppe/go-internal v1.9.0 // indirect
 	golang.org/x/net v0.23.0 // indirect
 	golang.org/x/sync v0.3.0 // indirect
 	golang.org/x/sys v0.18.0 // indirect
