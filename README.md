@@ -3541,6 +3541,7 @@ _Where to discover new Go libraries._
 
 - [A Go Developer's Notebook](https://leanpub.com/GoNotebook/read)
 - [An Introduction to Programming in Go](http://www.golang-book.com/)
+- [Build a blockchain from scratch in Go with gRPC](https://github.com/volodymyrprokopyuk/go-blockchain) - The foundational and practical guide for effectively learning and progressively building a blockchain from scratch in Go with gRPC.
 - [Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/)
 - [Building Web Apps With Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/)
 - [Go 101](https://go101.org) - A book focusing on Go syntax/semantics and all kinds of details.
