@@ -1185,6 +1185,7 @@ _Packages for accounting and finance._
 - [techan](https://github.com/sdcoffey/techan) - Technical analysis library with advanced market analysis and trading strategies.
 - [ticker](https://github.com/achannarasappa/ticker) - Terminal stock watcher and stock position tracker.
 - [transaction](https://github.com/claygod/transaction) - Embedded transactional database of accounts, running in multithreaded mode.
+- [udecimal](https://github.com/quagmt/udecimal) - High performance, high precision, zero allocation fixed-point decimal library for financial applications.
 - [vat](https://github.com/dannyvankooten/vat) - VAT number validation & EU VAT rates.
 
 **[⬆ back to top](#contents)**
