@@ -2899,6 +2899,7 @@ _General utilities and tools to make your life easier._
 - [scan](https://github.com/wroge/scan) - Scan sql rows into any type powered by generics.
 - [scany](https://github.com/georgysavva/scany) - Library for scanning data from a database into Go structs and more.
 - [serve](https://github.com/syntaqx/serve) - A static http server anywhere you need.
+- [sesh](https://github.com/joshmedeski/sesh) - Sesh is a CLI that helps you create and manage tmux sessions quickly and easily using zoxide.
 - [set](https://github.com/nofeaturesonlybugs/set) - Performant and flexible struct mapping and loose type conversion.
 - [shutdown](https://github.com/ztrue/shutdown) - App shutdown hooks for `os.Signal` handling.
 - [silk](https://github.com/chrispassas/silk) - Read silk netflow files.
