@@ -1583,6 +1583,7 @@ _Libraries for generating and working with log files._
 - [go-logger](https://github.com/apsdehal/go-logger) - Simple logger of Go Programs, with level handlers.
 - [gomol](https://github.com/aphistic/gomol) - Multiple-output, structured logging for Go with extensible logging outputs.
 - [gone/log](https://github.com/One-com/gone/tree/master/log) - Fast, extendable, full-featured, std-lib source compatible log library.
+- [gzap](https://github.com/Flyingmn/gzap) - Based on zap, out of the box.
 - [httpretty](https://github.com/henvic/httpretty) - Pretty-prints your regular HTTP requests on your terminal for debugging (similar to http.DumpRequest).
 - [journald](https://github.com/ssgreg/journald) - Go implementation of systemd Journal's native API for logging.
 - [kemba](https://github.com/clok/kemba) - A tiny debug logging tool inspired by [debug](https://github.com/visionmedia/debug), great for CLI tools and applications.
