@@ -767,6 +767,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [pogreb](https://github.com/akrylysov/pogreb) - Embedded key-value store for read-heavy workloads.
 - [prometheus](https://github.com/prometheus/prometheus) - Monitoring system and time series database.
 - [pudge](https://github.com/recoilme/pudge) - Fast and simple key/value store written using Go's standard library.
+- [redka](https://github.com/nalgeon/redka) - Redis re-implemented with SQLite.
 - [rosedb](https://github.com/roseduan/rosedb) - An embedded k-v database based on LSM+WAL, supports string, list, hash, set, zset.
 - [rotom](https://github.com/xgzlucario/rotom) - A tiny Redis server built with Golang, compatible with RESP protocols.
 - [rqlite](https://github.com/rqlite/rqlite) - The lightweight, distributed, relational database built on SQLite.
