@@ -1734,6 +1734,7 @@ _Libraries that implement messaging systems._
 - [nsq-event-bus](https://github.com/rafaeljesus/nsq-event-bus) - A tiny wrapper around NSQ topic and channel.
 - [oplog](https://github.com/dailymotion/oplog) - Generic oplog/replication system for REST APIs.
 - [pubsub](https://github.com/tuxychandru/pubsub) - Simple pubsub package for go.
+- [pubsub](https://github.com/yaa110/pubsub) - Internal PubSub system for Golang, allowing messages to be published and subscribed to.
 - [Quamina](https://github.com/timbray/quamina) - Fast pattern-matching for filtering messages and events.
 - [rabbitroutine](https://github.com/furdarius/rabbitroutine) - Lightweight library that handles RabbitMQ auto-reconnect and publishing retries. The library takes into account the need to re-declare entities in RabbitMQ after reconnection. 
 - [rabbus](https://github.com/rafaeljesus/rabbus) - A tiny wrapper over amqp exchanges and queues.
