@@ -21,20 +21,12 @@ _Special thanks to_
 <table cellpadding="5">
 <tbody align="center">
 <tr>
-<td>
+<td colspan="2">
 <a href="https://bit.ly/awesome-go-workos">
 <img src="https://avelino.run/sponsors/workos-logo-white-bg.svg" width="200" alt="WorkOS"><br/>
 <b>Your app, enterprise-ready.</b><br/>
 <sub>Start selling to enterprise customers with just a few lines of code.</sub><br/>
 <sup>Add Single Sign-On (and more) in minutes instead of months.</sup>
-</a>
-</td>
-<td>
-<a href="https://bit.ly/awesome-go-keygen">
-<img src="https://avelino.run/sponsors/keygen-logo.png" width="200" alt="keygen"><br/>
-<b>An open, source-available software licensing and distribution API.</b><br/>
-<sub>Securely license and distribute Go applications with a single API.</sub><br>
-<sup>Add auto updates with only a few lines of code.</sup>
 </a>
 </td>
 </tr>
