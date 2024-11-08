@@ -200,6 +200,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
   - [Websites](#websites)
     - [Tutorials](#tutorials)
     - [Guided Learning](#guided-learning)
+- [Workflow Frameworks](#workflow-frameworks)
 
 **[⬆ back to top](#contents)**
 
@@ -1503,22 +1504,10 @@ _Libraries for scheduling jobs._
 - [gron](https://github.com/roylee0704/gron) - Define time-based tasks using a simple Go API and Gron’s scheduler will run them accordingly.
 - [gronx](https://github.com/adhocore/gronx) - Cron expression parser, task runner and daemon consuming crontab like task list.
 - [JobRunner](https://github.com/bamzi/jobrunner) - Smart and featureful cron job scheduler with job queuing and live monitoring built in.
-- [jobs](https://github.com/albrow/jobs) - Persistent and flexible background jobs library.
 - [leprechaun](https://github.com/kilgaloon/leprechaun) - Job scheduler that supports webhooks, crons and classic scheduling.
 - [sched](https://github.com/romshark/sched) - A job scheduler with the ability to fast-forward time.
 - [scheduler](https://github.com/carlescere/scheduler) - Cronjobs scheduling made easy.
 - [tasks](https://github.com/madflojo/tasks) - An easy to use in-process scheduler for recurring tasks in Go.
-
-**[⬆ back to top](#contents)**
-
-## Workflow Frameworks
-
-_Libraries for creating Workflows._
-- [Cadence-client](https://github.com/uber-go/cadence-client) - A framework for authoring workflows and activities running on top of the Cadence orchestration engine made by Uber.
-- [Dagu](https://github.com/dagu-go/dagu) - No-code workflow executor. it executes DAGs defined in a simple YAML format.
-- [go-dag](https://github.com/rhosocial/go-dag) - A framework developed in Go that manages the execution of workflows described by directed acyclic graphs.
-- [go-taskflow](https://github.com/noneback/go-taskflow) - A taskflow-like Programmatic DAG Task Execution Framework with integrated visualizer and profiler.
-- [workflow](https://github.com/luno/workflow) - A tech stack agnostic Event Driven Workflow framework.
 
 **[⬆ back to top](#contents)**
 
@@ -3784,5 +3773,17 @@ _Add the group of your city/country here (send **PR**)_
 - [The Go Developer Roadmap](https://roadmap.sh/golang) - A visual roadmap that new Go developers can follow through to help them learn Go.
 - [The Go Learning Path](https://tutorialedge.net/paths/golang/) - A guided learning path containing a mix of free and premium resources.
 - [The Go Skill Tree](https://labex.io/skilltrees/go) - A structured learning path that combines both free and premium resources.
+
+**[⬆ back to top](#contents)**
+
+
+## Workflow Frameworks
+
+_Libraries for creating Workflows._
+- [Cadence-client](https://github.com/uber-go/cadence-client) - A framework for authoring workflows and activities running on top of the Cadence orchestration engine made by Uber.
+- [Dagu](https://github.com/dagu-go/dagu) - No-code workflow executor. it executes DAGs defined in a simple YAML format.
+- [go-dag](https://github.com/rhosocial/go-dag) - A framework developed in Go that manages the execution of workflows described by directed acyclic graphs.
+- [go-taskflow](https://github.com/noneback/go-taskflow) - A taskflow-like Programmatic DAG Task Execution Framework with integrated visualizer and profiler.
+- [workflow](https://github.com/luno/workflow) - A tech stack agnostic Event Driven Workflow framework.
 
 **[⬆ back to top](#contents)**
