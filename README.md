@@ -2996,6 +2996,7 @@ _Libraries for manipulating video._
 - [libgosubs](https://github.com/wargarblgarbl/libgosubs) - Subtitle format support for go. Supports .srt, .ttml, and .ass.
 - [libvlc-go](https://github.com/adrg/libvlc-go) - Go bindings for libvlc 2.X/3.X/4.X (used by the VLC media player).
 - [m3u8](https://github.com/grafov/m3u8) - Parser and generator library of M3U8 playlists for Apple HLS.
+- [mp4ff](https://github.com/Eyevinn/mp4ff) - Library and tools for working with MP4 files containing video, audio, subtitles, or metadata.
 - [v4l](https://github.com/korandiz/v4l) - Video capture library for Linux, written in Go.
 
 **[⬆ back to top](#contents)**
