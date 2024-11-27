@@ -2355,6 +2355,7 @@ _Libraries and tools for binary serialization._
 - [dudeldu](https://github.com/krotik/dudeldu) - A simple SHOUTcast server.
 - [dummy](https://github.com/neotoolkit/dummy) - Run mock server based off an API contract with one command.
 - [Easegress](https://github.com/megaease/easegress) - A cloud native high availability/performance traffic orchestration system with observability and extensibility.
+- [Engity's Bifröst](https://bifroest.engity.org/) - Highly customizable SSH server with several ways to authorize a user how to execute its session (local or in containers).
 - [etcd](https://github.com/etcd-io/etcd) - Highly-available key value store for shared configuration and service discovery.
 - [Euterpe](https://github.com/ironsmile/euterpe) - Self-hosted music streaming server with built-in web UI and REST API.
 - [Fider](https://github.com/getfider/fider) - Fider is an open platform to collect and organize customer feedback.
