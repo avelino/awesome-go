@@ -614,6 +614,7 @@ additional ordered map implementations.
 - [dict](https://github.com/srfrog/dict) - Python-like dictionaries (dict) for Go.
 - [go-shelve](https://github.com/lucmq/go-shelve) - A persistent, map-like object for the Go programming language. Supports multiple embedded key-value stores.
 - [goradd/maps](https://github.com/goradd/maps) - Go 1.18+ generic map interface for maps; safe maps; ordered maps; ordered, safe maps; etc.
+- [concurrent-swiss-map](https://github.com/mhmtszr/concurrent-swiss-map) - A high-performance, thread-safe generic concurrent hash map implementation with Swiss Map.
 
 ### Miscellaneous Data Structures and Algorithms
 
