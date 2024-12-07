@@ -1810,6 +1810,7 @@ _**Unofficial** set of patterns for structuring projects._
 - [golang-templates/seed](https://github.com/golang-templates/seed) - Go application GitHub repository template.
 - [goxygen](https://github.com/shpota/goxygen) - Generate a modern Web project with Go and Angular, React, or Vue in seconds.
 - [insidieux/inizio](https://github.com/insidieux/inizio) - Golang project layout generator with plugins.
+- [kickstart.go](https://github.com/raeperd/kickstart.go) - Minimalistic single-file Go HTTP server template without third-party dependencies.
 - [modern-go-application](https://github.com/sagikazarmark/modern-go-application) - Go application boilerplate and example applying modern practices.
 - [nunu](https://github.com/go-nunu/nunu) - Nunu is a scaffolding tool for building Go applications.
 - [pagoda](https://github.com/mikestefanello/pagoda) - Rapid, easy full-stack web development starter kit built in Go.
