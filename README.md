@@ -2136,7 +2136,6 @@ _Official tooling for dependency and package management_
 
 _Official experimental tooling for package management_
 
-- [dep](https://github.com/golang/dep) - Go dependency tool.
 - [vgo](https://go.googlesource.com/vgo/) - Versioned Go.
 
 _Unofficial libraries for package and dependency management._
