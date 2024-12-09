@@ -2133,11 +2133,6 @@ _Official tooling for dependency and package management_
 
 - [go modules](https://golang.org/cmd/go/#hdr-Modules__module_versions__and_more) - Modules are the unit of source code interchange and versioning. The go command has direct support for working with modules, including recording and resolving dependencies on other modules.
 
-_Official experimental tooling for package management_
-
-- [dep](https://github.com/golang/dep) - Go dependency tool.
-- [vgo](https://go.googlesource.com/vgo/) - Versioned Go.
-
 _Unofficial libraries for package and dependency management._
 
 - [glide](https://github.com/Masterminds/glide) - Manage your golang vendor and vendored packages with ease. Inspired by tools like Maven, Bundler, and Pip.
