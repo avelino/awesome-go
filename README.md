@@ -2728,6 +2728,7 @@ _Libraries for accessing third party APIs._
 - [stripe](https://github.com/stripe/stripe-go) - Go client for the Stripe API.
 - [swag](https://github.com/zc2638/swag) - No comments, simple go wrapper to create swagger 2.0 compatible APIs. Support most routing frameworks, such as built-in, gin, chi, mux, echo, httprouter, fasthttp and more.
 - [textbelt](https://github.com/dietsche/textbelt) - Go client for the textbelt.com txt messaging API.
+- [tilda-go](https://github.com/dimuska139/tilda-go) - Go library for the [Tilda](https://tilda.cc/) API
 - [translate](https://github.com/poorny/translate) - Go online translation package.
 - [Trello](https://github.com/adlio/trello) - Go wrapper for the Trello API.
 - [TripAdvisor](https://github.com/mrbenosborne/tripadvisor-golang) - Go wrapper for the TripAdvisor API.
