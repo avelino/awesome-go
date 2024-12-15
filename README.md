@@ -2900,6 +2900,8 @@ _Libraries for accessing third party APIs._
 - [threads-go](https://github.com/tirthpatell/threads-go) - Go client library for the Meta Threads API with OAuth 2.0, rate limiting, and type-safe error handling.
 - [tilda-go](https://github.com/dimuska139/tilda-go) - Go library for the [Tilda](https://tilda.cc/) API.
 - [translate](https://github.com/poorny/translate) - Go online translation package.
+- [tilda-go](https://github.com/dimuska139/tilda-go) - Go library for the [Tilda](https://tilda.cc/) API
+- [translate](https://github.com/poorny/translate) - Go online translation package.
 - [Trello](https://github.com/adlio/trello) - Go wrapper for the Trello API.
 - [TripAdvisor](https://github.com/mrbenosborne/tripadvisor-golang) - Go wrapper for the TripAdvisor API.
 - [tumblr](https://github.com/mattcunningham/gumblr) - Go wrapper for the Tumblr v2 API.
