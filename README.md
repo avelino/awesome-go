@@ -2202,7 +2202,6 @@ _Unofficial libraries for package and dependency management._
 ## Resource Embedding
 
 - [debme](https://github.com/leaanthony/debme) - Create an `embed.FS` from an existing `embed.FS` subdirectory.
-- [esc](https://github.com/mjibson/esc) - Embeds files into Go programs and provides http.FileSystem interfaces to them.
 - [fileb0x](https://github.com/UnnoTed/fileb0x) - Simple tool to embed files in go with focus on "customization" and ease to use.
 - [go-resources](https://github.com/omeid/go-resources) - Unfancy resources embedding with Go.
 - [go.rice](https://github.com/GeertJohan/go.rice) - go.rice is a Go package that makes working with resources such as HTML, JS, CSS, images, and templates very easy.
