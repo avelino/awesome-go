@@ -2208,7 +2208,6 @@ _Unofficial libraries for package and dependency management._
 - [mule](https://github.com/wlbr/mule) - Embed external resources like images, movies ... into Go source code to create single file binaries using `go generate`. Focused on simplicity.
 - [packr](https://github.com/gobuffalo/packr) - The simple and easy way to embed static files into Go binaries.
 - [rebed](https://github.com/soypat/rebed) - Recreate folder structures and files from Go 1.16's `embed.FS` type
-- [statics](https://github.com/go-playground/statics) - Embeds static resources into go files for single binary compilation + works with http.FileSystem + symlinks.
 - [statik](https://github.com/rakyll/statik) - Embeds static files into a Go executable.
 - [templify](https://github.com/wlbr/templify) - Embed external template files into Go code to create single file binaries.
 - [vfsgen](https://github.com/shurcooL/vfsgen) - Generates a vfsdata.go file that statically implements the given virtual filesystem.
