@@ -1141,6 +1141,7 @@ _Libraries for handling files and file systems._
 - [go-gtfs](https://github.com/artonge/go-gtfs) - Load gtfs files in go.
 - [go-wkhtmltopdf](https://github.com/SebastiaanKlippert/go-wkhtmltopdf) - A package to convert an HTML template to a PDF file.
 - [gofs](https://github.com/no-src/gofs) - A cross-platform real-time file synchronization tool out of the box.
+- [gulter](https://github.com/adelowo/gulter) - A simple HTTP middleware to automatically handle all your file upload needs
 - [gut/yos](https://github.com/1set/gut) - Simple and reliable package for file operations like copy/move/diff/list on files, directories and symbolic links.
 - [higgs](https://github.com/dastoori/higgs) - A tiny cross-platform Go library to hide/unhide files and directories.
 - [iso9660](https://github.com/kdomanski/iso9660) - A package for reading and creating ISO9660 disk images
