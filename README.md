@@ -3172,7 +3172,6 @@ _Source code analysis tools, also known as Static Application Security Testing (
 - [go-cleanarch](https://github.com/roblaszczak/go-cleanarch) - go-cleanarch was created to validate Clean Architecture rules, like a The Dependency Rule and interaction between packages in your Go projects.
 - [go-critic](https://github.com/go-critic/go-critic) - source code linter that brings checks that are currently not implemented in other linters.
 - [go-mod-outdated](https://github.com/psampaz/go-mod-outdated) - An easy way to find outdated dependencies of your Go projects.
-- [go-outdated](https://github.com/firstrow/go-outdated) - Console application that displays outdated packages.
 - [goast-viewer](https://github.com/yuroyoro/goast-viewer) - Web based Golang AST visualizer.
 - [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports) - Tool to fix (add, remove) your Go imports automatically.
 - [golang-ifood-sdk](https://github.com/arxdsilva/golang-ifood-sdk) - iFood API SDK.
