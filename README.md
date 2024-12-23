@@ -425,12 +425,10 @@ _Libraries for building standard or basic Command Line applications._
 - [Dnote](https://github.com/dnote/dnote) - A simple command line notebook with multi-device sync.
 - [elvish](https://github.com/elves/elvish) - An expressive programming language and a versatile interactive shell.
 - [env](https://github.com/codingconcepts/env) - Tag-based environment configuration for structs.
-- [flag](https://github.com/cosiner/flag) - Simple but powerful command line option parsing library for Go supporting subcommand.
 - [flaggy](https://github.com/integrii/flaggy) - A robust and idiomatic flags package with excellent subcommand support.
 - [flagvar](https://github.com/sgreben/flagvar) - A collection of flag argument types for Go's standard `flag` package.
-- [go-andotp](https://github.com/grijul/go-andotp) - A CLI program to encrypt/decrypt [andOTP](https://github.com/andOTP/andOTP) files. Can be used as a library as well.
+- [getopt](https://github.com/jon-codes/getopt) - An accurate Go `getopt`, validated against the GNU libc implementation.
 - [go-arg](https://github.com/alexflint/go-arg) - Struct-based argument parsing in Go.
-- [go-commander](https://github.com/yitsushi/go-commander) - Go library to simplify CLI workflow.
 - [go-flags](https://github.com/jessevdk/go-flags) - go command line option parser.
 - [go-getoptions](https://github.com/DavidGamba/go-getoptions) - Go option parser inspired by the flexibility of Perl’s GetOpt::Long.
 - [gocmd](https://github.com/devfacet/gocmd) - Go library for building command line applications.
