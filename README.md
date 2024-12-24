@@ -2063,6 +2063,7 @@ _Libraries for working with various layers of the network._
 
 _Libraries for making HTTP requests._
 
+- [azuretls-client](https://github.com/Noooste/azuretls-client) -  An easy-to-use HTTP client 100% in Go to spoof TLS/JA3 and HTTP2 fingerprint
 - [fast-shot](https://github.com/opus-domini/fast-shot) - Hit your API targets with rapid-fire precision using Go's fastest and simple HTTP Client.
 - [gentleman](https://github.com/h2non/gentleman) - Full-featured plugin-driven HTTP client library.
 - [go-cleanhttp](https://github.com/hashicorp/go-cleanhttp) - Get easily stdlib HTTP client, which does not share any state with other clients.
