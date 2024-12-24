@@ -478,6 +478,7 @@ _Libraries for configuration parsing._
 - [env](https://github.com/syntaqx/env) - An environment utility package with support for unmarshaling into structs
 - [envconfig](https://github.com/vrischmann/envconfig) - Read your configuration from environment variables.
 - [envh](https://github.com/antham/envh) - Helpers to manage environment variables.
+- [envyaml](https://github.com/yuseferi/envyaml) - Yaml with environment variables reader. it helps to have secrets as environment variable but load them configs as structured Yaml.
 - [fig](https://github.com/kkyr/fig) - Tiny library for reading configuration from a file and from environment variables (with validation & defaults).
 - [genv](https://github.com/sakirsensoy/genv) - Read environment variables easily with dotenv support.
 - [go-array](https://github.com/deatil/go-array) - A Go package that read or set data from map, slice or json.
