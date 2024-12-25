@@ -740,7 +740,6 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [dgraph](https://github.com/dgraph-io/dgraph) - Scalable, Distributed, Low Latency, High Throughput Graph Database.
 - [diskv](https://github.com/peterbourgon/diskv) - Home-grown disk-backed key-value store.
 - [dolt](https://github.com/dolthub/dolt) - Dolt – It's Git for Data.
-- [dtf](https://github.com/dtm-labs/dtf) - A distributed transaction manager. Support XA, TCC, SAGA, Reliable Messages.
 - [eliasdb](https://github.com/krotik/eliasdb) - Dependency-free, transactional graph database with REST API, phrase search and SQL-like query language.
 - [godis](https://github.com/hdt3213/godis) - A Golang implemented high-performance Redis server and cluster.
 - [goleveldb](https://github.com/syndtr/goleveldb) - Implementation of the [LevelDB](https://github.com/google/leveldb) key/value database in Go.
