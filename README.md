@@ -373,6 +373,7 @@ _Libraries for building Console Applications and Console User Interfaces._
 - [colourize](https://github.com/TreyBastian/colourize) - Go library for ANSI colour text in terminals.
 - [crab-config-files-templating](https://github.com/alfiankan/crab-config-files-templating) - Dynamic configuration file templating tool for kubernetes manifest or general configuration files.
 - [ctc](https://github.com/wzshiming/ctc) - The non-invasive cross-platform terminal color library does not need to modify the Print method.
+- [fx](https://github.com/antonmedv/fx) - Terminal JSON viewer & processor.
 - [go-ataman](https://github.com/workanator/go-ataman) - Go library for rendering ANSI colored text templates in terminals.
 - [go-colorable](https://github.com/mattn/go-colorable) - Colorable writer for windows.
 - [go-colortext](https://github.com/daviddengcn/go-colortext) - Go library for color output in terminals.
@@ -1522,7 +1523,6 @@ _Libraries for working with JSON._
 - [ej](https://github.com/lucassscaravelli/ej) - Write and read JSON from different sources succinctly.
 - [epoch](https://github.com/vtopc/epoch) - Contains primitives for marshaling/unmarshalling Unix timestamp/epoch to/from build-in time.Time type in JSON.
 - [fastjson](https://github.com/valyala/fastjson) - Fast JSON parser and validator for Go. No custom structs, no code generation, no reflection.
-- [fx](https://github.com/antonmedv/fx) - Terminal JSON viewer & processor.
 - [gabs](https://github.com/Jeffail/gabs) - For parsing, creating and editing unknown or dynamic JSON in Go.
 - [gjo](https://github.com/skanehira/gjo) - Small utility to create JSON objects.
 - [GJSON](https://github.com/tidwall/gjson) - Get a JSON value with one line of code.
