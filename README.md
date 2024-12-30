@@ -870,6 +870,7 @@ _Libraries for building and using SQL._
 - [go-oci8](https://github.com/mattn/go-oci8) - Oracle driver for go that uses database/sql.
 - [go-sql-driver/mysql](https://github.com/go-sql-driver/mysql) - MySQL driver for Go.
 - [go-sqlite3](https://github.com/mattn/go-sqlite3) - SQLite3 driver for go that uses database/sql.
+- [go-sqlite3](https://github.com/ncruces/go-sqlite3) - This Go module is compatible with the database/sql driver. It allows embedding SQLite into your application, provides direct access to its C API, supports SQLite VFS, and also includes a GORM driver.
 - [godror](https://github.com/godror/godror) - Oracle driver for Go, using the ODPI-C driver.
 - [gofreetds](https://github.com/minus5/gofreetds) - Microsoft MSSQL driver. Go wrapper over [FreeTDS](https://www.freetds.org).
 - [KSQL](https://github.com/VinGarcia/ksql) - A Simple and Powerful Golang SQL Library
