@@ -2922,6 +2922,7 @@ _General utilities and tools to make your life easier._
 - [wifiqr](https://github.com/reugn/wifiqr) - Wi-Fi QR Code Generator.
 - [wuzz](https://github.com/asciimoo/wuzz) - Interactive cli tool for HTTP inspection.
 - [xferspdy](https://github.com/monmohan/xferspdy) - Xferspdy provides binary diff and patch library in golang.
+- [xpool](https://github.com/peczenyj/xpool) - Yet another golang type safe object pool using generics.
 - [yogo](https://github.com/antham/yogo) - Check yopmail mails from command line.
 
 **[⬆ back to top](#contents)**
