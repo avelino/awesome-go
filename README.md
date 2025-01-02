@@ -603,6 +603,7 @@ _Frameworks for performing ELT / ETL_
 
 ### Iterators
 
+- [goiter](https://github.com/hsldymq/goiter) - goiter provides iterator helper functions base on rangefunc feature for common scenarios.
 - [goterator](https://github.com/yaa110/goterator) - Iterator implementation to provide map and reduce functionalities.
 - [iter](https://github.com/disksing/iter) - Go implementation of C++ STL iterators and algorithms.
 
