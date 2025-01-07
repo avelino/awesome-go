@@ -3419,6 +3419,7 @@ _Software written in Go._
 - [joincap](https://github.com/assafmo/joincap) - Command-line utility for merging multiple pcap files together.
 - [JuiceFS](https://github.com/juicedata/juicefs) - Distributed POSIX file system built on top of Redis and AWS S3.
 - [Juju](https://jujucharms.com/) - Cloud-agnostic service deployment and orchestration - supports EC2, Azure, Openstack, MAAS and more.
+- [Layli](https://layli.app) - Draw pretty layout diagrams as code.
 - [Leaps](https://github.com/jeffail/leaps) - Pair programming service using Operational Transforms.
 - [lgo](https://github.com/yunabe/lgo) - Interactive Go programming with Jupyter. It supports code completion, code inspection and 100% Go compatibility.
 - [limetext](https://limetext.github.io) - Lime Text is a powerful and elegant text editor primarily developed in Go that aims to be a Free and open-source software successor to Sublime Text.
