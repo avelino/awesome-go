@@ -881,6 +881,7 @@ _Libraries for building and using SQL._
 - [pq](https://github.com/lib/pq) - Pure Go Postgres driver for database/sql.
 - [Sqinn-Go](https://github.com/cvilsmeier/sqinn-go) - SQLite with pure Go.
 - [sqlhooks](https://github.com/qustavo/sqlhooks) - Attach hooks to any database/sql driver.
+- [sqlite](https://pkg.go.dev/modernc.org/sqlite) - Package sqlite is a sql/database driver using a CGo-free port of the C SQLite3 library.
 - [surrealdb.go](https://github.com/surrealdb/surrealdb.go) - SurrealDB Driver for Go.
 - [ydb-go-sdk](https://github.com/ydb-platform/ydb-go-sdk) - native and database/sql driver YDB (Yandex Database)
 
