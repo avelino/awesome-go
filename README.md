@@ -820,6 +820,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [rwdb](https://github.com/andizzle/rwdb) - rwdb provides read replica capability for multiple database servers setup.
 - [vitess](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
 - [wescale](https://github.com/wesql/wescale) - WeScale is a database proxy designed to enhance the scalability, performance, security, and resilience of your applications.
+- [pgtype](https://github.com/jackc/pgtype) - implements Go types for over 70 PostgreSQL types.
 
 ### SQL Query Builders
 
