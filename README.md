@@ -1231,7 +1231,7 @@ _Packages to support functional programming in Go._
 
 _Awesome game development libraries._
 
-- [Azul3D](https://github.com/azul3d/engine) - 3D game engine written in Go.
+- [Arche](https://github.com/mlange-42/arche) - Archetype-based Entity Component System (ECS) for Go.
 - [Ebitengine](https://github.com/hajimehoshi/ebiten) - dead simple 2D game engine in Go.
 - [ecs](https://github.com/andygeiss/ecs) - Build your own Game-Engine based on the Entity Component System concept in Golang.
 - [engo](https://github.com/EngoEngine/engo) - Engo is an open-source 2D game engine written in Go. It follows the Entity-Component-System paradigm.
