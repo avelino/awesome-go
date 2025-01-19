@@ -139,6 +139,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
   - [ORM](#orm)
   - [Package Management](#package-management)
   - [Performance](#performance)
+  - [Programming Language](#programming-language)
   - [Query Language](#query-language)
   - [Reflection](#reflection)
   - [Resource Embedding](#resource-embedding)
@@ -425,7 +426,6 @@ _Libraries for building standard or basic Command Line applications._
 - [complete](https://github.com/posener/complete) - Write bash completions in Go + Go command bash completion.
 - [console](https://github.com/reeflective/console) Closed-loop application library for Cobra commands, with oh-my-posh prompts, and more.
 - [Dnote](https://github.com/dnote/dnote) - A simple command line notebook with multi-device sync.
-- [elvish](https://github.com/elves/elvish) - An expressive programming language and a versatile interactive shell.
 - [env](https://github.com/codingconcepts/env) - Tag-based environment configuration for structs.
 - [flaggy](https://github.com/integrii/flaggy) - A robust and idiomatic flags package with excellent subcommand support.
 - [flagvar](https://github.com/sgreben/flagvar) - A collection of flag argument types for Go's standard `flag` package.
@@ -1083,8 +1083,6 @@ _Embedding other languages inside your go code._
 - [cel-go](https://github.com/google/cel-go) - Fast, portable, non-Turing complete expression evaluation with gradual typing.
 - [ecal](https://github.com/krotik/ecal) - A simple embeddable scripting language which supports concurrent event processing.
 - [expr](https://github.com/antonmedv/expr) - Expression evaluation engine for Go: fast, non-Turing complete, dynamic typing, static typing.
-- [gentee](https://github.com/gentee/gentee) - Embeddable scripting programming language.
-- [gisp](https://github.com/jcla1/gisp) - Simple LISP in Go.
 - [go-duktape](https://github.com/olebedev/go-duktape) - Duktape JavaScript engine bindings for Go.
 - [go-lua](https://github.com/Shopify/go-lua) - Port of the Lua 5.2 VM to pure Go.
 - [go-php](https://github.com/deuill/go-php) - PHP bindings for Go.
@@ -2170,6 +2168,15 @@ _Unofficial libraries for package and dependency management._
 - [profile](https://github.com/pkg/profile) - Simple profiling support package for Go.
 - [statsviz](https://github.com/arl/statsviz) - Live visualization of your Go application runtime statistics.
 - [tracer](https://github.com/kamilsk/tracer) - Simple, lightweight tracing.
+
+**[⬆ back to top](#contents)**
+
+## Programming Language
+
+- [aurora](https://github.com/guiferpa/aurora) - :milky_way: Aurora programming language
+- [elvish](https://github.com/elves/elvish) - An expressive programming language and a versatile interactive shell.
+- [gentee](https://github.com/gentee/gentee) - Embeddable scripting programming language.
+- [gisp](https://github.com/jcla1/gisp) - Simple LISP in Go.
 
 **[⬆ back to top](#contents)**
 
