@@ -2007,6 +2007,7 @@ _Libraries for working with various layers of the network._
 - [gobgp](https://github.com/osrg/gobgp) - BGP implemented in the Go Programming Language.
 - [gopacket](https://github.com/google/gopacket) - Go library for packet processing with libpcap bindings.
 - [gopcap](https://github.com/akrennmair/gopcap) - Go wrapper for libpcap.
+- [GoProxy](https://github.com/elazarl/goproxy) - A library to create a customized HTTP/HTTPS proxy server using Go.
 - [goshark](https://github.com/sunwxg/goshark) - Package goshark use tshark to decode IP packet and create data struct to analyse packet.
 - [gosnmp](https://github.com/soniah/gosnmp) - Native Go library for performing SNMP actions.
 - [gotcp](https://github.com/gansidui/gotcp) - Go package for quickly writing tcp applications.
