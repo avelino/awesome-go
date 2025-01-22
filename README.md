@@ -320,7 +320,6 @@ _Libraries for building and working with bots._
 - [larry](https://github.com/ezeoleaf/larry) - Larry 🐦 is a really simple Twitter bot generator that tweets random repositories from Github built in Go.
 - [margelet](https://github.com/zhulik/margelet) - Framework for building Telegram bots.
 - [micha](https://github.com/onrik/micha) - Go Library for Telegram bot api.
-- [olivia](https://github.com/olivia-ai/olivia) - A chatbot built with an artificial neural network.
 - [slack-bot](https://github.com/innogames/slack-bot) - Ready to use Slack Bot for lazy developers: Custom commands, Jenkins, Jira, Bitbucket, Github...
 - [slacker](https://github.com/slack-io/slacker) - Easy to use framework to create Slack bots.
 - [slackscot](https://github.com/alexandre-normand/slackscot) - Another framework for building Slack bots.
