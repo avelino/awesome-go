@@ -273,7 +273,7 @@ _Libraries for implementing authentication schemes._
 - [otpgen](https://github.com/grijul/otpgen) - Library to generate TOTP/HOTP codes.
 - [otpgo](https://github.com/jltorresm/otpgo) - Time-Based One-Time Password (TOTP) and HMAC-Based One-Time Password (HOTP) library for Go.
 - [paseto](https://github.com/o1egl/paseto) - Golang implementation of Platform-Agnostic Security Tokens (PASETO).
-- [permissions2](https://github.com/xyproto/permissions2) - Library for keeping track of users, login states, and permissions. Uses secure cookies and bcrypt.
+- [permissions](https://github.com/xyproto/permissions) - Library for keeping track of users, login states, and permissions. Uses secure cookies and bcrypt.
 - [scope](https://github.com/SonicRoshan/scope) - Easily Manage OAuth2 Scopes In Go.
 - [scs](https://github.com/alexedwards/scs) - Session Manager for HTTP servers.
 - [securecookie](https://github.com/chmike/securecookie) - Efficient secure cookie encoding/decoding.
