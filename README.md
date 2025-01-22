@@ -2310,7 +2310,6 @@ _Libraries that are used to help make your application more secure._
 
 _Libraries and tools for binary serialization._
 
-- [asn1](https://github.com/PromonLogicalis/asn1) - Asn.1 BER and DER encoding library for golang.
 - [bambam](https://github.com/glycerine/bambam) - generator for Cap'n Proto schemas from go.
 - [bel](https://github.com/32leaves/bel) - Generate TypeScript interfaces from Go structs/interfaces. Useful for JSON RPC.
 - [binstruct](https://github.com/ghostiam/binstruct) - Golang binary decoder for mapping data into the structure.
