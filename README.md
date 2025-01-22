@@ -1582,7 +1582,6 @@ _Libraries for generating and working with log files._
 - [log](https://github.com/teris-io/log) - Structured log interface for Go cleanly separates logging facade from its implementation.
 - [log](https://github.com/heartwilltell/log) - Simple leveled logging wrapper around standard log package.
 - [log](https://github.com/no-src/log) - A simple logging framework out of the box.
-- [log-voyage](https://github.com/firstrow/logvoyage) - Full-featured logging saas written in golang.
 - [log15](https://github.com/inconshreveable/log15) - Simple, powerful logging for Go.
 - [logdump](https://github.com/ewwwwwqm/logdump) - Package for multi-level logging.
 - [logex](https://github.com/chzyer/logex) - Golang log lib, supports tracking and level, wrap by standard log lib.
