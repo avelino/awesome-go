@@ -3212,7 +3212,6 @@ _Plugin for text editors and IDEs._
 - [Go Doc](https://github.com/msyrus/vscode-go-doc) - A Visual Studio Code extension for showing definition in output and generating go doc.
 - [Go plugin for JetBrains IDEs](https://plugins.jetbrains.com/plugin/9568-go) - Go plugin for JetBrains IDEs.
 - [go-mode](https://github.com/dominikh/go-mode.el) - Go mode for GNU/Emacs.
-- [go-plus](https://github.com/joefitzgerald/go-plus) - Go (Golang) Package For Atom That Adds Autocomplete, Formatting, Syntax Checking, Linting and Vetting.
 - [gocode](https://github.com/nsf/gocode) - Autocompletion daemon for the Go programming language.
 - [goimports-reviser](https://github.com/incu6us/goimports-reviser) - Formatting tool for imports.
 - [goprofiling](https://marketplace.visualstudio.com/items?itemName=MaxMedia.go-prof) - This extension adds benchmark profiling support for the Go language to VS Code.
