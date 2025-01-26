@@ -718,6 +718,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [timedmap](https://github.com/zekroTJA/timedmap) - Map with expiring key-value pairs.
 - [ttlcache](https://github.com/jellydator/ttlcache) - An in-memory cache with item expiration and generics.
 - [ttlcache](https://github.com/cheshir/ttlcache) - In-memory key value storage with TTL for each record.
+- [easycache](https://github.com/hugocarreira/easycache) - A simple way to use in-memory cache in Golang (TTL/FIFO/LRU/LFU)
 
 ### Databases Implemented in Go
 
