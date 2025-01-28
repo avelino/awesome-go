@@ -1631,6 +1631,7 @@ _Libraries for generating and working with log files._
 _Libraries for Machine Learning._
 
 - [bayesian](https://github.com/jbrukh/bayesian) - Naive Bayesian Classification for Golang.
+- [catboost-cgo](https://github.com/mirecl/catboost-cgo) - CatBoost a fast, scalable, high performance Gradient Boosting on Decision Trees library. Golang using Cgo for blazing fast inference CatBoost Model.
 - [CloudForest](https://github.com/ryanbressler/CloudForest) - Fast, flexible, multi-threaded ensembles of decision trees for machine learning in pure Go.
 - [ddt](https://github.com/sgrodriguez/ddt) - Dynamic decision tree, create trees defining customizable rules.
 - [eaopt](https://github.com/MaxHalford/eaopt) - An evolutionary optimization library.
@@ -1669,7 +1670,6 @@ _Libraries for Machine Learning._
 - [shield](https://github.com/eaigner/shield) - Bayesian text classifier with flexible tokenizers and storage backends for Go.
 - [tfgo](https://github.com/galeone/tfgo) - Easy to use Tensorflow bindings: simplifies the usage of the official Tensorflow Go bindings. Define computational graphs in Go, load and execute models trained in Python.
 - [Varis](https://github.com/Xamber/Varis) - Golang Neural Network.
-- [catboost-cgo](https://github.com/mirecl/catboost-cgo) - CatBoost a fast, scalable, high performance Gradient Boosting on Decision Trees library. Golang using Cgo for blazing fast inference CatBoost Model.
 
 **[⬆ back to top](#contents)**
 
