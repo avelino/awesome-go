@@ -1892,7 +1892,7 @@ _These libraries were placed here because none of the other categories seemed to
 - [xdg](https://github.com/rkoesters/xdg) - FreeDesktop.org (xdg) Specs implemented in Go.
 - [xkg](https://github.com/go-xkg/xkg) - X Keyboard Grabber.
 - [xz](https://github.com/ulikunitz/xz) - Pure golang package for reading and writing xz-compressed files.
-
+- [fake-useragent](https://github.com/lib4u/fake-useragent) - Up-to-date simple useragent faker with real world database in Golang
 **[⬆ back to top](#contents)**
 
 ## Natural Language Processing
