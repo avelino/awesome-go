@@ -2068,6 +2068,7 @@ _Libraries for making HTTP requests._
 - [go-req](https://github.com/wenerme/go-req) - Declarative golang HTTP client.
 - [go-retryablehttp](https://github.com/hashicorp/go-retryablehttp) - Retryable HTTP client in Go.
 - [go-zoox/fetch](https://github.com/go-zoox/fetch) - A Powerful, Lightweight, Easy Http Client, inspired by Web Fetch API.
+- [Grequest](https://github.com/lib4u/grequest)  - Simple and lightweight golang package for http requests. based on powerful net/http
 - [grequests](https://github.com/levigross/grequests) - A Go "clone" of the great and famous Requests library.
 - [heimdall](https://github.com/gojektech/heimdall) - An enhanced http client with retry and hystrix capabilities.
 - [httpretry](https://github.com/ybbus/httpretry) - Enriches the default go HTTP client with retry functionality.
