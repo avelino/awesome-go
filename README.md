@@ -2375,6 +2375,7 @@ _Libraries and tools for stream processing and reactive programming._
 - [goio](https://github.com/primetalk/goio) - An implementation of IO, Stream, Fiber for Golang, inspired by awesome Scala libraries cats and fs2.
 - [machine](https://github.com/whitaker-io/machine) - Go library for writing and generating stream workers with built in metrics and traceability.
 - [stream](https://github.com/youthlin/stream) - Go Stream, like Java 8 Stream: Filter/Map/FlatMap/Peek/Sorted/ForEach/Reduce...
+- [go-etl](https://github.com/Breeze0806/go-etl) - A lightweight toolkit written in Go for data source extraction, transformation, and loading (ETL).
 
 **[⬆ back to top](#contents)**
 
