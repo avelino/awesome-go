@@ -970,6 +970,7 @@ _Packages that help with building Distributed Systems._
 - [dragonboat](https://github.com/lni/dragonboat) - A feature complete and high performance multi-group Raft library in Go.
 - [Dragonfly](https://github.com/dragonflyoss/Dragonfly2) - Provide efficient, stable and secure file distribution and image acceleration based on p2p technology to be the best practice and standard solution in cloud native architectures.
 - [drmaa](https://github.com/dgruber/drmaa) - Job submission library for cluster schedulers based on the DRMAA standard.
+- [dubbo-go](https://github.com/apache/dubbo-go) - Go implementation of triple protocol(a fully gRPC compatible and HTTP-friendly protocol) and the various features for building microservice architecture designed by Dubbo.
 - [dynamolock](https://cirello.io/dynamolock) - DynamoDB-backed distributed locking implementation.
 - [dynatomic](https://github.com/tylfin/dynatomic) - A library for using DynamoDB as an atomic counter.
 - [emitter-io](https://github.com/emitter-io/emitter) - High performance, distributed, secure and low latency publish-subscribe platform built with MQTT, Websockets and love.
@@ -989,7 +990,6 @@ _Packages that help with building Distributed Systems._
 - [go-pdu](https://github.com/pdupub/go-pdu) - A decentralized identity-based social network.
 - [go-sundheit](https://github.com/AppsFlyer/go-sundheit) - A library built to provide support for defining async service health checks for golang services.
 - [go-zero](https://github.com/tal-tech/go-zero) - A web and rpc framework. It's born to ensure the stability of the busy sites with resilient design. Builtin goctl greatly improves the development productivity.
-- [dubbo-go](https://github.com/apache/dubbo-go) - Go implementation of triple protocol(a fully gRPC compatible and HTTP-friendly protocol) and the various features for building microservice architecture designed by Dubbo.
 - [gorpc](https://github.com/valyala/gorpc) - Simple, fast and scalable RPC library for high load.
 - [grpc-go](https://github.com/grpc/grpc-go) - The Go language implementation of gRPC. HTTP/2 based RPC.
 - [hprose](https://github.com/hprose/hprose-golang) - Very newbility RPC Library, support 25+ languages now.
