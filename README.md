@@ -2371,7 +2371,7 @@ _Libraries and tools for binary serialization._
 
 _Libraries and tools for stream processing and reactive programming._
 
-- [go-etl](https://github.com/Breeze0806/go-etl) - A lightweight toolkit written in Go for data source extraction, transformation, and loading (ETL).
+- [go-etl](https://github.com/Breeze0806/go-etl) - A lightweight toolkit for data source extraction, transformation, and loading (ETL).
 - [go-streams](https://github.com/reugn/go-streams) - Go stream processing library.
 - [goio](https://github.com/primetalk/goio) - An implementation of IO, Stream, Fiber for Golang, inspired by awesome Scala libraries cats and fs2.
 - [machine](https://github.com/whitaker-io/machine) - Go library for writing and generating stream workers with built in metrics and traceability.
