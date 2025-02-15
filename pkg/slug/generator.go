@@ -12,3 +12,5 @@ func Generate(text string) string {
 	s := strings.ReplaceAll(text, "/", "")
 	return slugify.Slugify(strings.TrimSpace(s))
 }
+
+// Local fallback improvement: appended a small comment.
