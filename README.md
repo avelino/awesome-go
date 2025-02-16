@@ -3548,6 +3548,7 @@ _Where to discover new Go libraries._
 - [Berlin Golang](https://www.meetup.com/golang-users-berlin/)
 - [Brisbane Gophers](https://www.meetup.com/Brisbane-Golang-Meetup/)
 - [Bärner Go Meetup - Berne, Switzerland](https://www.meetup.com/berner-go-meetup/)
+- [Go Ireland - Dublin](https://www.meetup.com/goireland/)
 - [Go Language NYC](https://www.meetup.com/golanguagenewyork/)
 - [Go London User Group](https://www.meetup.com/Go-London-User-Group/)
 - [Go Remote Meetup](https://www.meetup.com/Go-Remote-Meetup/)
