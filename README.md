@@ -1254,7 +1254,7 @@ _Awesome game development libraries._
 _Tools that generate Go code._
 
 - [convergen](https://github.com/reedom/convergen) - Feature rich type-to-type copy code generator.
-- [copygen](https://github.com/switchupcb/copygen) - Generate type-to-type and type-based code without reflection.
+- [copygen](https://github.com/switchupcb/copygen) - Generate any code based on Go types, including type-to-type converters (copy code) without reflection by default.
 - [generis](https://github.com/senselogic/GENERIS) - Code generation tool providing generics, free-form macros, conditional compilation and HTML templating.
 - [go-enum](https://github.com/abice/go-enum) - Code generation for enums from code comments.
 - [go-enum-encoding](https://github.com/nikolaydubina/go-enum-encoding) - Code generation for enum encoding from code comments.
