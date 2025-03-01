@@ -1297,8 +1297,8 @@ _Geographic tools and servers_
 _Tools for compiling Go to other languages._
 
 - [c4go](https://github.com/Konstantin8105/c4go) - Transpile C code to Go code.
+- - [go2hx](https://github.com/go2hx/go2hx) - Compiler from Go to Haxe to Javascript/C++/Java/C#.
 - [gopherjs](https://github.com/gopherjs/gopherjs) - Compiler from Go to JavaScript.
-- [go2hx](https://github.com/go2hx/go2hx) - Compiler from Go to Haxe to Javascript/C++/Java/C#.
 
 **[⬆ back to top](#contents)**
 
