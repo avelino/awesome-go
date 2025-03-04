@@ -3213,7 +3213,6 @@ _Plugin for text editors and IDEs._
 
 - [envdoc](https://github.com/g4s8/envdoc) -  generate documentation for environment variables from Go source files.
 - [generic](https://github.com/usk81/generic) - flexible data type for Go.
-- [genny](https://github.com/cheekybits/genny) - Elegant generics for Go.
 - [gocontracts](https://github.com/Parquery/gocontracts) - brings design-by-contract to Go by synchronizing the code with the documentation.
 - [godal](https://github.com/mafulong/godal) - Generate orm models corresponding to golang by specifying sql ddl file, which can be used by gorm.
 - [gonerics](https://github.com/bouk/gonerics) - Idiomatic Generics in Go.
