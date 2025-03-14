@@ -3020,7 +3020,7 @@ _Full stack web frameworks._
 - [uAdmin](https://github.com/uadmin/uadmin) - Fully featured web framework for Golang, inspired by Django.
 - [WebGo](https://github.com/naughtygopher/webgo) - A micro-framework to build web apps with handler chaining, middleware, and context injection. With standard library-compliant HTTP handlers (i.e., `http.HandlerFunc`)..
 - [Yokai](https://github.com/ankorstore/yokai) - Simple, modular, and observable Go framework for backend applications.
-
+- [Thunder Framework](https://github.com/Raezil/Thunder) - A gRPC-Gateway-powered framework with Prisma, Kubernetes, and Go for scalable microservices.
 **[⬆ back to top](#contents)**
 
 ### Middlewares
