@@ -533,7 +533,7 @@ _Tools for help with continuous integration._
 - [go-beautiful-html-coverage](https://github.com/gha-common/go-beautiful-html-coverage) - A GitHub Action to track code coverage in your pull requests, with a beautiful HTML preview, for free.
 - [go-fuzz-action](https://github.com/jidicula/go-fuzz-action) - Use Go 1.18's built-in fuzz testing in GitHub Actions.
 - [go-semver-release](https://github.com/s0ders/go-semver-release) - Automate the semantic versioning of Git repositories.
-- [go-test-coverage](https://github.com/vladopajic/go-test-coverage) - Tool and GitHub action which reports issues when test coverage is below set threshold.
+- [go-test-coverage](https://github.com/marketplace/actions/go-test-coverage) - A GitHub Action which reports issues when test coverage is below set threshold.
 - [gomason](https://github.com/nikogura/gomason) - Test, Build, Sign, and Publish your go binaries from a clean workspace.
 - [gotestfmt](https://github.com/GoTestTools/gotestfmt) - go test output for humans.
 - [goveralls](https://github.com/mattn/goveralls) - Go integration for Coveralls.io continuous code coverage tracking system.
