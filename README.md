@@ -928,7 +928,7 @@ _Libraries for building and using SQL._
 _Libraries for working with dates and times._
 
 - [approx](https://github.com/goschtalt/approx) - A Duration extension supporting parsing/printing durations in days, weeks and years.
-- [carbon](https://github.com/golang-module/carbon) - A simple, semantic and developer-friendly golang package for datetime.
+- [carbon](https://github.com/dromara/carbon) - A simple, semantic and developer-friendly time package for golang.
 - [carbon](https://github.com/uniplaces/carbon) - Simple Time extension with a lot of util methods, ported from PHP Carbon library.
 - [cronrange](https://github.com/1set/cronrange) - Parses Cron-style time range expressions, checks if the given time is within any ranges.
 - [date](https://github.com/rickb777/date) - Augments Time for working with dates, date ranges, time spans, periods, and time-of-day.
