@@ -1294,8 +1294,10 @@ _Geographic tools and servers_
 
 ## Go Compilers
 
-_Tools for compiling Go to other languages._
+_Tools for compiling Go to other languages and vice-versa._
 
+
+- [bunster](https://github.com/yassinebenaid/bunster) - Compile shell scripts to Go.
 - [c4go](https://github.com/Konstantin8105/c4go) - Transpile C code to Go code.
 - [esp32](https://github.com/andygeiss/esp32-transpiler) - Transpile Go into Arduino code.
 - [f4go](https://github.com/Konstantin8105/f4go) - Transpile FORTRAN 77 code to Go code.
