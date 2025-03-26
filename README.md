@@ -3233,13 +3233,12 @@ _Plugin for text editors and IDEs._
 
 ## Go Tools
 
-- [colorgo](https://github.com/songgao/colorgo) - Wrapper around `go` command for colorized `go build` output.
 - [decouple](https://github.com/bobg/decouple) - Find “overspecified” function parameters that could be generalized with interface types.
-- [depth](https://github.com/KyleBanks/depth) - Visualize dependency trees of any package by analyzing imports.
 - [docs](https://github.com/go-oas/docs) - Automatically generate RESTful API documentation for GO projects - aligned with Open API Specification standard.
 - [go-callvis](https://github.com/TrueFurby/go-callvis) - Visualize call graph of your Go program using dot format.
 - [go-size-analyzer](https://github.com/Zxilly/go-size-analyzer) - Analyze and visualize the size of dependencies in compiled Golang binaries, providing insight into their impact on the final build.
 - [go-swagger](https://github.com/go-swagger/go-swagger) - Swagger 2.0 implementation for go. Swagger is a simple yet powerful representation of your RESTful API.
+- [go-template-playground](https://bartventer.github.io/go-template-playground/) - An interactive environment to create and test Go templates.
 - [godbg](https://github.com/tylerwince/godbg) - Implementation of Rusts `dbg!` macro for quick and easy debugging during development.
 - [gomodrun](https://github.com/dustinblackman/gomodrun/) - Go tool that executes and caches binaries included in go.mod files.
 - [gotemplate.io](https://gotemplate.io/) - Online tool to preview `text/template` templates live.
