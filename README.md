@@ -2257,7 +2257,7 @@ _Libraries for scientific computing and data analyzing._
 ## Security
 
 _Libraries that are used to help make your application more secure._
-
+- [argon2password](https://github.com/hlpmenu/argon2password) - Argon2password - Password Hashing & Comparision following OWASP recommendations 2025 +  Password Generation, Validation etc
 - [acmetool](https://github.com/hlandau/acme) - ACME (Let's Encrypt) client tool with automatic renewal.
 - [acopw-go](https://sr.ht/~jamesponddotco/acopw-go/) - Small cryptographically secure password generator package for Go.
 - [acra](https://github.com/cossacklabs/acra) - Network encryption proxy to protect database-based applications from data leaks: strong selective encryption, SQL injections prevention, intrusion detection system.
