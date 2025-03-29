@@ -2257,11 +2257,11 @@ _Libraries for scientific computing and data analyzing._
 ## Security
 
 _Libraries that are used to help make your application more secure._
-- [argon2password](https://github.com/hlpmenu/argon2password) - Argon2password - Password Hashing & Comparision following OWASP recommendations 2025 +  Password Generation, Validation etc
 - [acmetool](https://github.com/hlandau/acme) - ACME (Let's Encrypt) client tool with automatic renewal.
 - [acopw-go](https://sr.ht/~jamesponddotco/acopw-go/) - Small cryptographically secure password generator package for Go.
 - [acra](https://github.com/cossacklabs/acra) - Network encryption proxy to protect database-based applications from data leaks: strong selective encryption, SQL injections prevention, intrusion detection system.
 - [age](https://github.com/FiloSottile/age) - A simple, modern and secure encryption tool (and Go library) with small explicit keys, no config options, and UNIX-style composability.
+- [argon2password](https://github.com/hlpmenu/argon2password) - Argon2password - Password Hashing & Comparision following OWASP recommendations 2025 +  Password Generation, Validation etc
 - [argon2-hashing](https://github.com/andskur/argon2-hashing) - light wrapper around Go's argon2 package that closely mirrors with Go's standard library Bcrypt and simple-scrypt package.
 - [argon2pw](https://github.com/raja/argon2pw) - Argon2 password hash generation with constant-time password comparison.
 - [autocert](https://pkg.go.dev/golang.org/x/crypto/acme/autocert) - Auto provision Let's Encrypt certificates and start a TLS server.
