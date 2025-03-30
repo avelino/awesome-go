@@ -1735,6 +1735,7 @@ _Libraries that implement messaging systems._
 - [Watermill](https://github.com/ThreeDotsLabs/watermill) - Working efficiently with message streams. Building event driven applications, enabling event sourcing, RPC over messages, sagas. Can use conventional pub/sub implementations like Kafka or RabbitMQ, but also HTTP or MySQL binlog.
 - [zmq4](https://github.com/pebbe/zmq4) - Go interface to ZeroMQ version 4. Also available for [version 3](https://github.com/pebbe/zmq3) and [version 2](https://github.com/pebbe/zmq2).
 - [GoEventBus](https://github.com/Raezil/GoEventBus) -  Event sourcing library in Go.
+
 **[⬆ back to top](#contents)**
 
 ## Microsoft Office
