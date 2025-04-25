@@ -2848,6 +2848,7 @@ _General utilities and tools to make your life easier._
 - [okrun](https://github.com/xta/okrun) - go run error steamroller.
 - [olaf](https://github.com/btnguyen2k/olaf) - Twitter Snowflake implemented in Go.
 - [onecache](https://github.com/adelowo/onecache) - Caching library with support for multiple backend stores (Redis, Memcached, filesystem etc).
+- [optional](https://github.com/kazhuravlev/optional) - Optional struct fields and vars.
 - [panicparse](https://github.com/maruel/panicparse) - Groups similar goroutines and colorizes stack dump.
 - [pattern-match](https://github.com/alexpantyukhin/go-pattern-match) - Pattern matching library.
 - [peco](https://github.com/peco/peco) - Simplistic interactive filtering tool.
