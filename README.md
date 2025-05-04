@@ -1449,6 +1449,7 @@ _Libraries for manipulating images._
 - [mergi](https://github.com/noelyahan/mergi) - Tool & Go library for image manipulation (Merge, Crop, Resize, Watermark, Animate).
 - [mort](https://github.com/aldor007/mort) - Storage and image processing server written in Go.
 - [mpo](https://github.com/donatj/mpo) - Decoder and conversion tool for MPO 3D Photos.
+- [nativewebp](https://github.com/HugoSmits86/nativewebp) - Go native WebP encoder with zero external dependencies.
 - [picfit](https://github.com/thoas/picfit) - An image resizing server written in Go.
 - [pt](https://github.com/fogleman/pt) - Path tracing engine written in Go.
 - [rez](https://github.com/bamiaux/rez) - Image resizing in pure Go and SIMD.
