@@ -538,7 +538,6 @@ _Tools for help with continuous integration._
 
 _Libraries for preprocessing CSS files._
 
-- [gcss](https://github.com/yosssi/gcss) - Pure Go CSS Preprocessor.
 - [go-libsass](https://github.com/wellington/go-libsass) - Go wrapper to the 100% Sass compatible libsass project.
 
 **[⬆ back to top](#contents)**
