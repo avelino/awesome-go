@@ -630,6 +630,7 @@ additional ordered map implementations.
 
 ### Queues
 
+- [backlite](https://github.com/mikestefanello/backlite) - Type-safe, persistent, embedded task queues and background job runner w/ SQLite.
 - [deque](https://github.com/edwingeng/deque) - A highly optimized double-ended queue.
 - [deque](https://github.com/gammazero/deque) - Fast ring-buffer deque (double-ended queue).
 - [goconcurrentqueue](https://github.com/enriquebris/goconcurrentqueue) - Concurrent FIFO queue.
