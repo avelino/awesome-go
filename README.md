@@ -506,8 +506,8 @@ _Libraries for configuration parsing._
 - [uConfig](https://github.com/omeid/uconfig) - Lightweight, zero-dependency, and extendable configuration management.
 - [viper](https://github.com/spf13/viper) - Go configuration with fangs.
 - [xdg](https://github.com/adrg/xdg) - Go implementation of the [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/latest/) and [XDG user directories](https://wiki.archlinux.org/index.php/XDG_user_directories).
-- [xdg](https://github.com/OpenPeeDeeP/xdg) - Cross platform package that follows the [XDG Standard](https://specifications.freedesktop.org/basedir-spec/latest/).
 - [yamagiconf](https://github.com/romshark/yamagiconf) - The "safe subset" of YAML for Go configs.
+- [zerocfg](https://github.com/chaindead/zerocfg) - Zero-effort, concise configuration management that avoids boilerplate and repetitive code, supports multiple sources with priority overrides.
 
 **[⬆ back to top](#contents)**
 
@@ -538,7 +538,6 @@ _Tools for help with continuous integration._
 
 _Libraries for preprocessing CSS files._
 
-- [gcss](https://github.com/yosssi/gcss) - Pure Go CSS Preprocessor.
 - [go-libsass](https://github.com/wellington/go-libsass) - Go wrapper to the 100% Sass compatible libsass project.
 
 **[⬆ back to top](#contents)**
@@ -1566,7 +1565,6 @@ _Libraries for generating and working with log files._
 - [go-log](https://github.com/siddontang/go-log) - Log lib supports level and multi handlers.
 - [go-log](https://github.com/ian-kent/go-log) - Log4j implementation in Go.
 - [go-logger](https://github.com/apsdehal/go-logger) - Simple logger of Go Programs, with level handlers.
-- [gomol](https://github.com/aphistic/gomol) - Multiple-output, structured logging for Go with extensible logging outputs.
 - [gone/log](https://github.com/One-com/gone/tree/master/log) - Fast, extendable, full-featured, std-lib source compatible log library.
 - [httpretty](https://github.com/henvic/httpretty) - Pretty-prints your regular HTTP requests on your terminal for debugging (similar to http.DumpRequest).
 - [journald](https://github.com/ssgreg/journald) - Go implementation of systemd Journal's native API for logging.
