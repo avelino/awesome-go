@@ -3205,6 +3205,7 @@ _Plugin for text editors and IDEs._
 - [vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim.
 - [vscode-go](https://github.com/golang/vscode-go) - Extension for Visual Studio Code (VS Code) which provides support for the Go language.
 - [Watch](https://github.com/eaburns/Watch) - Runs a command in an acme win on file changes.
+- [dependi](https://github.com/filllabs/dependi) - A dependency management extension for Visual Studio Code supporting Go language
 
 **[⬆ back to top](#contents)**
 
