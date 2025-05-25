@@ -1257,6 +1257,7 @@ _Tools that generate Go code._
 - [interfaces](https://github.com/rjeczalik/interfaces) - Command line tool for generating interface definitions.
 - [jennifer](https://github.com/dave/jennifer) - Generate arbitrary Go code without templates.
 - [oapi-codegen](https://github.com/deepmap/oapi-codegen) - This package contains a set of utilities for generating Go boilerplate code for services based on OpenAPI 3.0 API definitions.
+- [typemeta](https://github.com/mike-jacks/typemeta) - A code generation tool for extracting type metadata from Go structs (without runtime reflection), ideal for building GraphQL/REST schemas, ORMs, and more.
 - [typeregistry](https://github.com/xiaoxin01/typeregistry) - A library to create type dynamically.
 
 **[⬆ back to top](#contents)**
