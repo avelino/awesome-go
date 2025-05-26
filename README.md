@@ -1797,6 +1797,7 @@ _**Unofficial** set of patterns for structuring projects._
 - [go-sample](https://github.com/zitryss/go-sample) - A sample layout for Go application projects with the real code.
 - [go-starter](https://github.com/allaboutapps/go-starter) - An opinionated production-ready RESTful JSON backend template, highly integrated with VSCode DevContainers.
 - [go-todo-backend](https://github.com/Fs02/go-todo-backend) - Go Todo Backend example using modular project layout for product microservice.
+- [goapp](https://github.com/naughtygopher/goapp) - An opinionated guideline to structure & develop a Go web application/service.
 - [gobase](https://github.com/wajox/gobase) - A simple skeleton for golang application with basic setup for real golang application.
 - [golang-standards/project-layout](https://github.com/golang-standards/project-layout) - Set of common historical and emerging project layout patterns in the Go ecosystem. Note: despite the org-name they do not represent official golang standards, see [this issue](https://github.com/golang-standards/project-layout/issues/117) for more information. Nonetheless, some may find the layout useful.
 - [golang-templates/seed](https://github.com/golang-templates/seed) - Go application GitHub repository template.
@@ -3702,7 +3703,6 @@ _Add the group of your city/country here (send **PR**)_
 - [Go WebAssembly Tutorial - Building a Simple Calculator](https://tutorialedge.net/golang/go-webassembly-tutorial/)
 - [go-clean-template](https://github.com/evrone/go-clean-template) - Clean Architecture template for Golang services.
 - [go-patterns](https://github.com/tmrts/go-patterns) - Curated list of Go design patterns, recipes and idioms.
-- [goapp](https://github.com/naughtygopher/goapp) - An opinionated guideline to structure & develop a Go web application/service.
 - [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers) - Examples of Golang compared to Node.js for learning.
 - [Golang Tutorial Guide](https://www.freecodecamp.org/news/golang-tutorial-list-free-courses-learn-go-programming-language/) - A List of Free Courses to Learn the Go Programming Language.
 - [golang-examples](https://github.com/SimonWaldherr/golang-examples) - Many examples to learn Golang.
