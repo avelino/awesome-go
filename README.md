@@ -794,8 +794,8 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [hasql](https://golang.yandex/hasql) - Library for accessing multi-host SQL database installations.
 - [octillery](https://github.com/knocknote/octillery) - Go package for sharding databases ( Supports every ORM or raw SQL ).
 - [onedump](https://github.com/liweiyi88/onedump) - Database backup from different drivers to different destinations with one command and configuration.
-- [pgrwl](https://github.com/hashmap-kz/pgrwl) - Cloud-Native PostgreSQL WAL receiver. Stream, compress, encrypt, upload, retain and monitor your WAL archive.
 - [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable) - Advanced scheduling for PostgreSQL.
+- [pgrwl](https://github.com/hashmap-kz/pgrwl) - Cloud-Native PostgreSQL WAL receiver. Stream, compress, encrypt, upload, retain and monitor your WAL archive.
 - [pgweb](https://github.com/sosedoff/pgweb) - Web-based PostgreSQL database browser.
 - [prep](https://github.com/hexdigest/prep) - Use prepared SQL statements without changing your code.
 - [pREST](https://github.com/prest/prest) - Simplify and accelerate development, ⚡ instant, realtime, high-performance on any Postgres application, existing or new.
