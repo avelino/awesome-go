@@ -523,7 +523,7 @@ _Tools for help with continuous integration._
 - [go-beautiful-html-coverage](https://github.com/gha-common/go-beautiful-html-coverage) - A GitHub Action to track code coverage in your pull requests, with a beautiful HTML preview, for free.
 - [go-fuzz-action](https://github.com/jidicula/go-fuzz-action) - Use Go 1.18's built-in fuzz testing in GitHub Actions.
 - [go-semver-release](https://github.com/s0ders/go-semver-release) - Automate the semantic versioning of Git repositories.
-- [go-test-coverage](https://github.com/vladopajic/go-test-coverage) - Tool and GitHub action which reports issues when test coverage is below set threshold.
+- [go-test-coverage](https://github.com/marketplace/actions/go-test-coverage) - A GitHub Action which reports issues when test coverage is below set threshold.
 - [gomason](https://github.com/nikogura/gomason) - Test, Build, Sign, and Publish your go binaries from a clean workspace.
 - [gotestfmt](https://github.com/GoTestTools/gotestfmt) - go test output for humans.
 - [goveralls](https://github.com/mattn/goveralls) - Go integration for Coveralls.io continuous code coverage tracking system.
@@ -2434,6 +2434,7 @@ _Libraries for testing codebases and generating test data._
 - [go-mutesting](https://github.com/zimmski/go-mutesting) - Mutation testing for Go source code.
 - [go-mysql-test-container](https://github.com/arikama/go-mysql-test-container) - Golang MySQL testcontainer to help with MySQL integration testing.
 - [go-snaps](http://github.com/gkampitakis/go-snaps) - Jest-like snapshot testing in Golang.
+- [go-test-coverage](https://github.com/vladopajic/go-test-coverage) - Tool that reports coverage of files below set threshold.
 - [go-testdeep](https://github.com/maxatome/go-testdeep) - Extremely flexible golang deep comparison, extends the go testing package.
 - [go-testpredicate](https://github.com/maargenton/go-testpredicate) - Test predicate style assertions library with extensive diagnostics output.
 - [go-vcr](https://github.com/dnaeon/go-vcr) - Record and replay your HTTP interactions for fast, deterministic and accurate tests.
