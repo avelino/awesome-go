@@ -2418,6 +2418,7 @@ _Libraries and tools for templating and lexing._
 - [sprout](https://github.com/go-sprout/sprout) - Useful template functions for Go templates.
 - [tbd](https://github.com/lucasepe/tbd) - A really simple way to create text templates with placeholders - exposes extra builtin Git repo metadata.
 - [templ](https://github.com/a-h/templ) - A HTML templating language that has great developer tooling.
+- [templator](https://github.com/alesr/templator) - A type-safe HTML template rendering engine for Go.
 
 **[⬆ back to top](#contents)**
 
