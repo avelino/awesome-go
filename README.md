@@ -2392,7 +2392,6 @@ _Libraries and tools for templating and lexing._
 - [maroto](https://github.com/johnfercher/maroto) - A maroto way to create PDFs. Maroto is inspired in Bootstrap and uses gofpdf. Fast and simple.
 - [pongo2](https://github.com/flosch/pongo2) - Django-like template-engine for Go.
 - [quicktemplate](https://github.com/valyala/quicktemplate) - Fast, powerful, yet easy to use template engine. Converts templates into Go code and then compiles it.
-- [raymond](https://github.com/aymerick/raymond) - Complete handlebars implementation in Go.
 - [Razor](https://github.com/sipin/gorazor) - Razor view engine for Golang.
 - [Soy](https://github.com/robfig/soy) - Closure templates (aka Soy templates) for Go, following the [official spec](https://developers.google.com/closure/templates/).
 - [sprout](https://github.com/go-sprout/sprout) - Useful template functions for Go templates.
