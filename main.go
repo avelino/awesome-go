@@ -3,6 +3,7 @@ package main
 
 import (
 	"bytes"
+	"embed"
 	"errors"
 	"fmt"
 	template2 "html/template"
@@ -42,11 +43,11 @@ var staticFiles = []string{
 	"tmpl/robots.txt",
 }
 
-// TODO: embed
 // Templates
-var tplIndex = template.Must(template.ParseFiles("tmpl/index.tmpl.html"))
-var tplCategoryIndex = template.Must(template.ParseFiles("tmpl/category-index.tmpl.html"))
-var tplSitemap = template.Must(template.ParseFiles("tmpl/sitemap.tmpl.xml"))
+//go:embed tmpl/*.tmpl.html tmpl/*.tmpl.xml
+var tplFs embed.FS
+
+var tpl = template.Must(template.ParseFS(tplFs, "tmpl/*.tmpl.html", "tmpl/*.tmpl.xml"))
 
 // Output files
 const outDir = "out/" // NOTE: trailing slash is required
@@ -152,7 +153,7 @@ func renderCategories(categories map[string]Category) error {
 		fmt.Printf("Write category Index file: %s\n", categoryIndexFilename)
 
 		buf := bytes.NewBuffer(nil)
-		if err := tplCategoryIndex.Execute(buf, category); err != nil {
+		if err := tpl.Lookup("category-index.tmpl.html").Execute(buf, category); err != nil {
 			return fmt.Errorf("render category `%s`: %w", categoryDir, err)
 		}
 
@@ -186,7 +187,7 @@ func renderSitemap(categories map[string]Category) error {
 
 	fmt.Printf("Render Sitemap to: %s\n", outSitemapFile)
 
-	if err := tplSitemap.Execute(f, categories); err != nil {
+	if err := tpl.Lookup("sitemap.tmpl.xml").Execute(f, categories); err != nil {
 		return fmt.Errorf("render sitemap: %w", err)
 	}
 
@@ -352,7 +353,7 @@ func renderIndex(srcFilename, outFilename string) error {
 	data := map[string]interface{}{
 		"Body": template2.HTML(body),
 	}
-	if err := tplIndex.Execute(f, data); err != nil {
+	if err := tpl.Lookup("index.tmpl.html").Execute(f, data); err != nil {
 		return err
 	}
 
