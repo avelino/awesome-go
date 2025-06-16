@@ -2192,6 +2192,7 @@ _Unofficial libraries for package and dependency management._
 - [gotype](https://github.com/wzshiming/gotype) - Golang source code parsing, usage like reflect package.
 - [gpath](https://github.com/tenntenn/gpath) - Library to simplify access struct fields with Go's expression in reflection.
 - [objwalker](https://github.com/rekby/objwalker) - Walk by go objects with reflection.
+- [reflectpro](https://github.com/gontainer/reflectpro) - Callers, copiers, getters and setters for go.
 - [reflectutils](https://github.com/muir/reflectutils) - Helpers for working with reflection: struct tag parsing; recursive walking; fill value from string.
 
 **[⬆ back to top](#contents)**
@@ -2864,8 +2865,6 @@ _General utilities and tools to make your life easier._
 - [pointer](https://github.com/xorcare/pointer) - Package pointer contains helper routines for simplifying the creation of optional fields of basic type.
 - [ptr](https://github.com/gotidy/ptr) - Package that provide functions for simplified creation of pointers from constants of basic types.
 - [rclient](https://github.com/zpatrick/rclient) - Readable, flexible, simple-to-use client for REST APIs.
-- [reflectpro](https://github.com/gontainer/reflectpro) - Callers, copiers, getters and setters for GO.
-- [reflectutils](https://github.com/muir/reflectutils) - Helpers for working with reflection: struct tag parsing; recursive walking; fill value from string.
 - [remote-touchpad](https://github.com/Unrud/remote-touchpad) - Control mouse and keyboard from a smartphone.
 - [repeat](https://github.com/ssgreg/repeat) - Go implementation of different backoff strategies useful for retrying operations and heartbeating.
 - [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
