@@ -1124,6 +1124,7 @@ _Libraries for handling files and file systems._
 - [baraka](https://github.com/xis/baraka) - A library to process http file uploads easily.
 - [checksum](https://github.com/codingsince1985/checksum) - Compute message digest, like MD5, SHA256, SHA1, CRC or BLAKE2s, for large files.
 - [copy](https://github.com/otiai10/copy) - Copy directory recursively.
+- [fastwalk](https://github.com/charlievieth/fastwalk) - Fast parallel directory traversal library (used by [fzf](https://github.com/junegunn/fzf)).
 - [flop](https://github.com/homedepot/flop) - File operations library which aims to mirror feature parity with [GNU cp](https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html).
 - [gdu](https://github.com/dundee/gdu) - Disk usage analyzer with console interface.
 - [go-csv-tag](https://github.com/artonge/go-csv-tag) - Load csv file using tag.
