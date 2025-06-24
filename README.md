@@ -813,7 +813,7 @@ _Libraries for building and using SQL._
 - [builq](https://github.com/cristalhq/builq) - Easily build SQL queries in Go.
 - [dbq](https://github.com/rocketlaunchr/dbq) - Zero boilerplate database operations for Go.
 - [Dotsql](https://github.com/gchaincl/dotsql) - Go library that helps you keep sql files in one place and use them with ease.
-- [FluentSQL](https://github.com/jivegroup/fluentsql) - Flexible and powerful SQL string builder for Go.
+- [FluentSQL](https://github.com/jivegroup/fluentsql) - Flexible SQL string builder for Go.
 - [gendry](https://github.com/didi/gendry) - Non-invasive SQL builder and powerful data binder.
 - [godbal](https://github.com/xujiajun/godbal) - Database Abstraction Layer (dbal) for go. Support SQL builder and get result easily.
 - [goqu](https://github.com/doug-martin/goqu) - Idiomatic SQL builder and query library.
