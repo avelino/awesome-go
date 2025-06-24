@@ -813,7 +813,7 @@ _Libraries for building and using SQL._
 - [builq](https://github.com/cristalhq/builq) - Easily build SQL queries in Go.
 - [dbq](https://github.com/rocketlaunchr/dbq) - Zero boilerplate database operations for Go.
 - [Dotsql](https://github.com/gchaincl/dotsql) - Go library that helps you keep sql files in one place and use them with ease.
-- [FluentSQL](https://github.com/jivegroup/fluentsql) - flexible and powerful SQL string builder for Go.
+- [FluentSQL](https://github.com/jivegroup/fluentsql) - Flexible and powerful SQL string builder for Go.
 - [gendry](https://github.com/didi/gendry) - Non-invasive SQL builder and powerful data binder.
 - [godbal](https://github.com/xujiajun/godbal) - Database Abstraction Layer (dbal) for go. Support SQL builder and get result easily.
 - [goqu](https://github.com/doug-martin/goqu) - Idiomatic SQL builder and query library.
@@ -3006,7 +3006,7 @@ _Full stack web frameworks._
 - [Flamingo](https://github.com/i-love-flamingo/flamingo) - Framework for pluggable web projects. Including a concept for modules and offering features for DI, Configareas, i18n, template engines, graphql, observability, security, events, routing & reverse routing etc.
 - [Flamingo Commerce](https://github.com/i-love-flamingo/flamingo-commerce) - Providing e-commerce features using clean architecture like DDD and ports and adapters, that you can use to build flexible e-commerce applications.
 - [Fuego](https://github.com/go-fuego/fuego) - The framework for busy Go developers! Web framework generating OpenAPI 3 spec from source code.
-- [gFly](https://github.com/jivegroup/gfly) - Laravel inspired web framework written in Go. Built on top of [FastHttp](https://github.com/valyala/fasthttp) - the fastest HTTP engine, [FluentSQL](https://github.com/jivegroup/fluentsql) - flexible and powerful SQL builder.
+- [gFly](https://github.com/jivegroup/gfly) - Laravel-inspired web framework written in Go. Built on top of [fasthttp](https://github.com/valyala/fasthttp) and [FluentSQL](https://github.com/jivegroup/fluentsql).
 - [Gin](https://github.com/gin-gonic/gin) - Gin is a web framework written in Go! It features a martini-like API with much better performance, up to 40 times faster. If you need performance and good productivity.
 - [Ginrpc](https://github.com/xxjwxc/ginrpc) - Gin parameter automatic binding tool,gin rpc tools.
 - [Goa](https://github.com/goadesign/goa) - Goa provides a holistic approach for developing remote APIs and microservices in Go.
