@@ -3284,6 +3284,7 @@ _Software written in Go._
 - [Ddosify](https://github.com/ddosify/ddosify) - High-performance load testing tool, written in Golang.
 - [decompose](https://github.com/s0rg/decompose) - tool to generate and process Docker containers connections graphs.
 - [DepCharge](https://github.com/centerorbit/depcharge) - Helps orchestrating the execution of commands across the many dependencies in larger projects.
+- [dish](https://github.com/thevxn/dish) - A lightweight, remotely configurable monitoring service.
 - [Docker](https://www.docker.com/) - Open platform for distributed applications for developers and sysadmins.
 - [docker-go-mingw](https://github.com/x1unix/docker-go-mingw) - Docker image for building Go binaries for Windows with MinGW toolchain.
 - [Dockerfile-Generator](https://github.com/ozankasikci/dockerfile-generator) - A go library and an executable that produces valid Dockerfiles using various input channels.
