@@ -631,7 +631,6 @@ additional ordered map implementations.
 
 - [deque](https://github.com/edwingeng/deque) - A highly optimized double-ended queue.
 - [deque](https://github.com/gammazero/deque) - Fast ring-buffer deque (double-ended queue).
-- [dgqueue](https://github.com/vodolaz095/dgqueue) - More performant variant of [dqueue](https://github.com/vodolaz095/dqueue) build with generics instead of typecasting.
 - [dqueue](https://github.com/vodolaz095/dqueue) - Simple, in memory, zero dependency and battle tested, thread-safe deferred queue.
 - [goconcurrentqueue](https://github.com/enriquebris/goconcurrentqueue) - Concurrent FIFO queue.
 - [hatchet](https://github.com/hatchet-dev/hatchet) - Distributed, Fault-tolerant task queue.
