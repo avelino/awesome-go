@@ -779,6 +779,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [migrate](https://github.com/golang-migrate/migrate) - Database migrations. CLI and Golang library.
 - [migrator](https://github.com/lopezator/migrator) - Dead simple Go database migration library.
 - [migrator](https://github.com/larapulse/migrator) - MySQL database migrator designed to run migrations to your features and manage database schema update with intuitive go code.
+- [schema](https://github.com/ahmadfaizk/schema) - A lightweight, expressive Go library for defining and applying SQL schema (DDL) programmatically.
 - [schema](https://github.com/adlio/schema) - Library to embed schema migrations for database/sql-compatible databases inside your Go binaries.
 - [skeema](https://github.com/skeema/skeema) - Pure-SQL schema management system for MySQL, with support for sharding and external online schema change tools.
 - [soda](https://github.com/gobuffalo/pop/tree/master/soda) - Database migration, creation, ORM, etc... for MySQL, PostgreSQL, and SQLite.
