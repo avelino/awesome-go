@@ -3211,6 +3211,7 @@ _Plugin for text editors and IDEs._
 - [coc-go language server extension for Vim/Neovim](https://github.com/josa42/coc-go) - This plugin adds [gopls](https://github.com/golang/tools/blob/master/gopls/README.md) features to Vim/Neovim.
 - [Go Doc](https://github.com/msyrus/vscode-go-doc) - A Visual Studio Code extension for showing definition in output and generating go doc.
 - [Go plugin for JetBrains IDEs](https://plugins.jetbrains.com/plugin/9568-go) - Go plugin for JetBrains IDEs.
+- [Go to Implementation (Golang)](https://marketplace.visualstudio.com/items?itemName=comerc.golang-go-to-impl&ssr=false#review-details) - VSCode Plugin for excludes mocks, tests, and other specified files.
 - [go-mode](https://github.com/dominikh/go-mode.el) - Go mode for GNU/Emacs.
 - [gocode](https://github.com/nsf/gocode) - Autocompletion daemon for the Go programming language.
 - [goimports-reviser](https://github.com/incu6us/goimports-reviser) - Formatting tool for imports.
