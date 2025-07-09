@@ -2927,6 +2927,7 @@ _Libraries for working with UUIDs._
 - [fastuuid](https://github.com/rekby/fastuuid) - Fast generate UUIDv4 as string or bytes.
 - [goid](https://github.com/jakehl/goid) - Generate and Parse RFC4122 compliant V4 UUIDs.
 - [gouid](https://github.com/twharmon/gouid) - Generate cryptographically secure random string IDs with just one allocation.
+- [guid](https://github.com/sdrapkin/guid) - Fast cryptographically safe Guid generator for Go (~10x faster than `uuid`).
 - [nanoid](https://github.com/aidarkhanov/nanoid) - A tiny and efficient Go unique string ID generator.
 - [sno](https://github.com/muyo/sno) - Compact, sortable and fast unique IDs with embedded metadata.
 - [ulid](https://github.com/oklog/ulid) - Go implementation of ULID (Universally Unique Lexicographically Sortable Identifier).
