@@ -1980,7 +1980,7 @@ See also [Text Processing](#text-processing) and [Text Analysis](#text-analysis)
 _Libraries for working with various layers of the network._
 
 - [arp](https://github.com/mdlayher/arp) - Package arp implements the ARP protocol, as described in RFC 826.
-- [bart](https://github.com/gaissmai/bart) - Package bart provides the fastest known IP to CIDR lookup in Go.
+- [bart](https://github.com/gaissmai/bart) - Package bart provides a Balanced-Routing-Table (BART) for very fast IP to CIDR lookups and more.
 - [buffstreams](https://github.com/stabbycutyou/buffstreams) - Streaming protocolbuffer data over TCP made easy.
 - [canopus](https://github.com/zubairhamed/canopus) - CoAP Client/Server implementation (RFC 7252).
 - [cidranger](https://github.com/yl2chen/cidranger) - Fast IP to CIDR lookup for Go.
