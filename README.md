@@ -330,6 +330,7 @@ _Libraries and tools help with build automation._
 - [1build](https://github.com/gopinath-langote/1build) - Command line tool to frictionlessly manage project-specific commands.
 - [air](https://github.com/cosmtrek/air) - Air - Live reload for Go apps.
 - [anko](https://github.com/GuilhermeCaruso/anko) - Simple application watcher for multiple programming languages.
+- [flow](https://github.com/flowexec/flow) - Local-first task runner with interactive TUI, secret management, and workspace organization.
 - [gaper](https://github.com/maxclaus/gaper) - Builds and restarts a Go project when it crashes or some watched file changes.
 - [gilbert](https://go-gilbert.github.io) - Build system and task runner for Go projects.
 - [gob](https://github.com/kcmvp/gob) - [Gradle](https://docs.gradle.org/)/[Maven](https://maven.apache.org/) like build tool for Go projects.
