@@ -461,6 +461,7 @@ _Libraries for configuration parsing._
 - [confiq](https://github.com/greencoda/confiq) - Structured data format to config struct decoder library for Go - supporting multiple data formats
 - [confita](https://github.com/heetch/confita) - Load configuration in cascade from multiple backends into a struct.
 - [conflate](https://github.com/the4thamigo-uk/conflate) - Library/tool to merge multiple JSON/YAML/TOML files from arbitrary URLs, validation against a JSON schema, and application of default values defined in the schema.
+- [enflag](https://github.com/atelpis/enflag) - Container-oriented, zero-dependency, generics-based config that unifies Env and Flag parsing in one call. No reflection, no struct tags — predictable and type-safe.
 - [env](https://github.com/caarlos0/env) - Parse environment variables to Go structs (with defaults).
 - [env](https://github.com/junk1tm/env) - A lightweight package for loading environment variables into structs.
 - [env](https://github.com/syntaqx/env) - An environment utility package with support for unmarshaling into structs
@@ -1296,7 +1297,6 @@ _Geographic tools and servers_
 ## Go Compilers
 
 _Tools for compiling Go to other languages and vice-versa._
-
 
 - [bunster](https://github.com/yassinebenaid/bunster) - Compile shell scripts to Go.
 - [c4go](https://github.com/Konstantin8105/c4go) - Transpile C code to Go code.
