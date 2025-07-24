@@ -1500,6 +1500,7 @@ _Libraries for scheduling jobs._
 - [cheek](https://github.com/bart6114/cheek) - A simple crontab like scheduler that aims to offer a KISS approach to job scheduling.
 - [clockwerk](https://github.com/onatm/clockwerk) - Go package to schedule periodic jobs using a simple, fluent syntax.
 - [cronticker](https://github.com/krayzpipes/cronticker) - A ticker implementation to support cron schedules.
+- [go-cron](https://github.com/pardnchiu/go-cron) - Job scheduler supporting standard cron expressions, custom descriptors, intervals, and task dependencies.
 - [go-cron](https://github.com/rk/go-cron) - Simple Cron library for go that can execute closures or functions at varying intervals, from once a second to once a year on a specific date and time. Primarily for web applications and long running daemons.
 - [go-quartz](https://github.com/reugn/go-quartz) - Simple, zero-dependency scheduling library for Go.
 - [gocron](https://github.com/go-co-op/gocron) - Easy and fluent Go job scheduling. This is an actively maintained fork of [jasonlvhit/gocron](https://github.com/jasonlvhit/gocron).
@@ -1511,7 +1512,6 @@ _Libraries for scheduling jobs._
 - [sched](https://github.com/romshark/sched) - A job scheduler with the ability to fast-forward time.
 - [scheduler](https://github.com/carlescere/scheduler) - Cronjobs scheduling made easy.
 - [tasks](https://github.com/madflojo/tasks) - An easy to use in-process scheduler for recurring tasks in Go.
-- [go-cron](https://github.com/pardnchiu/go-cron) - Job scheduler supporting standard cron expressions, custom descriptors, intervals, and task dependencies.
 
 **[⬆ back to top](#contents)**
 
