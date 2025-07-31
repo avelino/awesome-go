@@ -1808,9 +1808,9 @@ _**Unofficial** set of patterns for structuring projects._
 - [go-sample](https://github.com/zitryss/go-sample) - A sample layout for Go application projects with the real code.
 - [go-starter](https://github.com/allaboutapps/go-starter) - An opinionated production-ready RESTful JSON backend template, highly integrated with VSCode DevContainers.
 - [go-todo-backend](https://github.com/Fs02/go-todo-backend) - Go Todo Backend example using modular project layout for product microservice.
-- [golang-rest-api-template](https://github.com/MitulShah1/golang-rest-api-template) - Golang template for REST API with MySQL database, basic authentication, logging and cache.
 - [goapp](https://github.com/naughtygopher/goapp) - An opinionated guideline to structure & develop a Go web application/service.
 - [gobase](https://github.com/wajox/gobase) - A simple skeleton for golang application with basic setup for real golang application.
+- [golang-rest-api-template](https://github.com/MitulShah1/golang-rest-api-template) - Golang template for REST API with MySQL database, basic authentication, logging and cache.
 - [golang-standards/project-layout](https://github.com/golang-standards/project-layout) - Set of common historical and emerging project layout patterns in the Go ecosystem. Note: despite the org-name they do not represent official golang standards, see [this issue](https://github.com/golang-standards/project-layout/issues/117) for more information. Nonetheless, some may find the layout useful.
 - [golang-templates/seed](https://github.com/golang-templates/seed) - Go application GitHub repository template.
 - [goxygen](https://github.com/shpota/goxygen) - Generate a modern Web project with Go and Angular, React, or Vue in seconds.
