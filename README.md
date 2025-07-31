@@ -621,6 +621,7 @@ additional ordered map implementations.
 - [hide](https://github.com/emvi/hide) - ID type with marshalling to/from hash to prevent sending IDs to clients.
 - [hyperloglog](https://github.com/axiomhq/hyperloglog) - HyperLogLog implementation with Sparse, LogLog-Beta bias correction and TailCut space reduction.
 - [quadtree](https://github.com/s0rg/quadtree) - Generic, zero-alloc, 100%-test covered quadtree.
+- [skyline](https://github.com/gkoos/skyline) - Efficient Go library for skyline queries and Pareto-optimal point computation.
 - [slices](https://github.com/twharmon/slices) - Pure, generic functions for slices.
 
 ### Nullable Types
