@@ -1892,6 +1892,7 @@ _These libraries were placed here because none of the other categories seemed to
 - [shortid](https://github.com/teris-io/shortid) - Distributed generation of super short, unique, non-sequential, URL friendly IDs.
 - [shoutrrr](https://github.com/containrrr/shoutrrr) - Notification library providing easy access to various messaging services like slack, mattermost, gotify and smtp among others.
 - [sitemap-format](https://github.com/mingard/sitemap-format) - A simple sitemap generator, with a little syntactic sugar.
+- [spec](https://github.com/oaswrap/spec) - Lightweight, framework-agnostic OpenAPI 3.x specification builder.
 - [stateless](https://github.com/qmuntal/stateless) - A fluent library for creating state machines.
 - [stats](https://github.com/go-playground/stats) - Monitors Go MemStats + System stats such as Memory, Swap and CPU and sends via UDP anywhere you want for logging etc...
 - [turtle](https://github.com/hackebrot/turtle) - Emojis for Go.
