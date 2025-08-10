@@ -2784,7 +2784,7 @@ _General utilities and tools to make your life easier._
 - [filter](https://github.com/gookit/filter) - provide filtering, sanitizing, and conversion of Go data.
 - [fzf](https://github.com/junegunn/fzf) - Command-line fuzzy finder written in Go.
 - [generate](https://github.com/go-playground/generate) - runs go generate recursively on a specified path or environment variable and can filter by regex.
-- [ggc](https://github.com/bmf-san/ggc) - AboutA modern Git CLI tool with both traditional command-line and interactive incremental-search UI.
+- [ggc](https://github.com/bmf-san/ggc) - About a modern Git CLI tool with both traditional command-line and interactive incremental-search UI.
 - [ghokin](https://github.com/antham/ghokin) - Parallelized formatter with no external dependencies for gherkin (cucumber, behat...).
 - [git-time-metric](https://github.com/git-time-metric/gtm) - Simple, seamless, lightweight time tracking for Git.
 - [git-tools](https://github.com/kazhuravlev/git-tools) - Tool to help manage git tags.
