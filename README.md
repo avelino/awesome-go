@@ -1138,7 +1138,7 @@ _Libraries for handling files and file systems._
 - [go-exiftool](https://github.com/barasher/go-exiftool) - Go bindings for ExifTool, the well-known library used to extract as much metadata as possible (EXIF, IPTC, ...) from files (pictures, PDF, office, ...).
 - [go-gtfs](https://github.com/artonge/go-gtfs) - Load gtfs files in go.
 - [go-wkhtmltopdf](https://github.com/SebastiaanKlippert/go-wkhtmltopdf) - A package to convert an HTML template to a PDF file.
-- [goflat](https://github.com/lzambarda/goflat) - Context-aware generic flat file marshaller/unmarshaller.
+- [goflat](https://github.com/lzambarda/goflat) - Context-aware generic flat file marshaler/unmarshaler.
 - [gofs](https://github.com/no-src/gofs) - A cross-platform real-time file synchronization tool out of the box.
 - [gulter](https://github.com/adelowo/gulter) - A simple HTTP middleware to automatically handle all your file upload needs
 - [gut/yos](https://github.com/1set/gut) - Simple and reliable package for file operations like copy/move/diff/list on files, directories and symbolic links.
