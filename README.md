@@ -2385,7 +2385,7 @@ _Libraries and tools for stream processing and reactive programming._
 - [go-etl](https://github.com/Breeze0806/go-etl) - A lightweight toolkit for data source extraction, transformation, and loading (ETL).
 - [go-streams](https://github.com/reugn/go-streams) - Go stream processing library.
 - [goio](https://github.com/primetalk/goio) - An implementation of IO, Stream, Fiber for Golang, inspired by awesome Scala libraries cats and fs2.
-- [gostream](https://github.com/mariomac/gostream) - Type safe Stream processing library inspired in the Java Streams API.
+- [gostream](https://github.com/mariomac/gostream) - Type-safe stream processing library inspired by the Java Streams API.
 - [machine](https://github.com/whitaker-io/machine) - Go library for writing and generating stream workers with built in metrics and traceability.
 - [nibbler](https://github.com/naughtygopher/nibbler) - A lightweight package for micro batch processing.
 - [stream](https://github.com/youthlin/stream) - Go Stream, like Java 8 Stream: Filter/Map/FlatMap/Peek/Sorted/ForEach/Reduce...
