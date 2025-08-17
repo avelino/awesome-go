@@ -1362,6 +1362,7 @@ _Tools for managing and working with Goroutines._
 - [tunny](https://github.com/Jeffail/tunny) - Goroutine pool for golang.
 - [worker-pool](https://github.com/vardius/worker-pool) - goworker is a Go simple async worker pool.
 - [workerpool](https://github.com/gammazero/workerpool) - Goroutine pool that limits the concurrency of task execution, not the number of tasks queued.
+- [promise](https://github.com/fupengl/promise) - High-performance, type-safe Promise library for Go.
 
 **[⬆ back to top](#contents)**
 
