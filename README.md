@@ -3147,6 +3147,7 @@ _Libraries for creating Workflows._
 - [go-dag](https://github.com/rhosocial/go-dag) - A framework developed in Go that manages the execution of workflows described by directed acyclic graphs.
 - [go-taskflow](https://github.com/noneback/go-taskflow) - A taskflow-like General-purpose Task-parallel Programming Framework with integrated visualizer and profiler.
 - [workflow](https://github.com/luno/workflow) - A tech stack agnostic Event Driven Workflow framework.
+- [bpmn](https://github.com/olive-io/bpmn) - Lightweight BPMN 2.0 workflow engine implemented purely in Go.
 
 **[⬆ back to top](#contents)**
 
