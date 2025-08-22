@@ -2308,6 +2308,7 @@ _Libraries that are used to help make your application more secure._
 - [sslmgr](https://github.com/adrianosela/sslmgr) - SSL certificates made easy with a high level wrapper around acme/autocert.
 - [teler-waf](https://github.com/kitabisa/teler-waf) - teler-waf is a Go HTTP middleware that provide teler IDS functionality to protect against web-based attacks and improve the security of Go-based web applications. It is highly configurable and easy to integrate into existing Go applications.
 - [themis](https://github.com/cossacklabs/themis) - high-level cryptographic library for solving typical data security tasks (secure data storage, secure messaging, zero-knowledge proof authentication), available for 14 languages, best fit for multi-platform apps.
+- [XMT](https://github.com/iDigitalFlame/XMT) - Offensive security framework that specializes in identification, task management and execution while providing out-of-the-box C2 support with many customization options.
 
 **[⬆ back to top](#contents)**
 
