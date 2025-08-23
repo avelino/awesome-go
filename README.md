@@ -2744,6 +2744,7 @@ _Libraries for accessing third party APIs._
 
 _General utilities and tools to make your life easier._
 
+- [abstract](https://github.com/maxbolgarin/abstract) - Abstractions and utilities to get rid of boilerplate code in business logic.
 - [apm](https://github.com/topfreegames/apm) - Process manager for Golang applications with an HTTP API.
 - [backscanner](https://github.com/icza/backscanner) - A scanner similar to bufio.Scanner, but it reads and returns lines in reverse order, starting at a given position and going backward.
 - [bed](https://github.com/itchyny/bed) - A Vim-like binary editor written in Go.
