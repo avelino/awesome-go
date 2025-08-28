@@ -591,7 +591,7 @@ _Frameworks for performing ELT / ETL_
 
 ### Iterators
 
-- [enumerable](https://github.com/ahatornn/enumerable) - Functional data processing in Go with lazy iterators and generics — efficient, composable, and memory-friendly
+- [enumerable](https://github.com/ahatornn/enumerable) - Functional data processing in Go with lazy iterators and generics. Efficient, composable, and memory-friendly
 - [goterator](https://github.com/yaa110/goterator) - Iterator implementation to provide map and reduce functionalities.
 - [iter](https://github.com/disksing/iter) - Go implementation of C++ STL iterators and algorithms.
 
