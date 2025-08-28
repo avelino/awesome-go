@@ -593,9 +593,9 @@ _Frameworks for performing ELT / ETL_
 
 ### Iterators
 
+- [gloop](https://github.com/alvii147/gloop) - Convenient looping using Go's range-over-func feature.
 - [goterator](https://github.com/yaa110/goterator) - Iterator implementation to provide map and reduce functionalities.
 - [iter](https://github.com/disksing/iter) - Go implementation of C++ STL iterators and algorithms.
-- [gloop](https://github.com/alvii147/gloop) - Convenient looping using Go's range-over-func feature.
 
 ### Maps
 
