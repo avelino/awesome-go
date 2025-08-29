@@ -283,6 +283,7 @@ _Libraries for implementing authentication and authorization._
 - [sjwt](https://github.com/brianvoe/sjwt) - Simple jwt generator and parser.
 - [spicedb](https://github.com/authzed/spicedb) - A Zanzibar-inspired database that enables fine-grained authorization.
 - [x509proxy](https://github.com/vkuznet/x509proxy) - Library to handle X509 proxy certificates.
+- [go-githubauth](https://github.com/jferrl/go-githubauth) - Go package that provides utilities for GitHub authentication, including generating and using GitHub App tokens and installation tokens with Go generics support.
 
 **[⬆ back to top](#contents)**
 
