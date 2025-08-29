@@ -637,6 +637,7 @@ additional ordered map implementations.
 - [dqueue](https://github.com/vodolaz095/dqueue) - Simple, in memory, zero dependency and battle tested, thread-safe deferred queue.
 - [goconcurrentqueue](https://github.com/enriquebris/goconcurrentqueue) - Concurrent FIFO queue.
 - [hatchet](https://github.com/hatchet-dev/hatchet) - Distributed, Fault-tolerant task queue.
+- [list](https://github.com/koss-null/list) - A generic, thread-safe doubly linked list with full iterator support and an intrusive singly linked list for embedded use; a feature-rich replacement for container/list.
 - [memlog](https://github.com/embano1/memlog) - An easy to use, lightweight, thread-safe and append-only in-memory data structure inspired by Apache Kafka.
 - [queue](https://github.com/adrianbrad/queue) - Multiple thread-safe, generic queue implementations for Go.
 
