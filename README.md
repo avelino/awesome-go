@@ -252,6 +252,7 @@ _Libraries for implementing authentication and authorization._
 - [casbin](https://github.com/hsluoyz/casbin) - Authorization library that supports access control models like ACL, RBAC, and ABAC.
 - [cookiestxt](https://github.com/mengzhuo/cookiestxt) - provides a parser of cookies.txt file format.
 - [go-guardian](https://github.com/shaj13/go-guardian) - Go-Guardian is a golang library that provides a simple, clean, and idiomatic way to create powerful modern API and web authentication that supports LDAP, Basic, Bearer token, and Certificate based authentication.
+- [go-githubauth](https://github.com/jferrl/go-githubauth) - Go package that provides utilities for GitHub authentication, including generating and using GitHub App tokens and installation tokens with Go generics support.
 - [go-jose](https://github.com/go-jose/go-jose) - Fairly complete implementation of the JOSE working group's JSON Web Token, JSON Web Signatures, and JSON Web Encryption specs.
 - [goiabada](https://github.com/leodip/goiabada) - An open-source authentication and authorization server supporting OAuth2 and OpenID Connect.
 - [gologin](https://github.com/dghubble/gologin) - chainable handlers for login with OAuth1 and OAuth2 authentication providers.
@@ -283,7 +284,6 @@ _Libraries for implementing authentication and authorization._
 - [sjwt](https://github.com/brianvoe/sjwt) - Simple jwt generator and parser.
 - [spicedb](https://github.com/authzed/spicedb) - A Zanzibar-inspired database that enables fine-grained authorization.
 - [x509proxy](https://github.com/vkuznet/x509proxy) - Library to handle X509 proxy certificates.
-- [go-githubauth](https://github.com/jferrl/go-githubauth) - Go package that provides utilities for GitHub authentication, including generating and using GitHub App tokens and installation tokens with Go generics support.
 
 **[⬆ back to top](#contents)**
 
