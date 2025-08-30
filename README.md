@@ -3031,6 +3031,7 @@ _Full stack web frameworks._
 - [uAdmin](https://github.com/uadmin/uadmin) - Fully featured web framework for Golang, inspired by Django.
 - [WebGo](https://github.com/naughtygopher/webgo) - A micro-framework to build web apps with handler chaining, middleware, and context injection. With standard library-compliant HTTP handlers (i.e., `http.HandlerFunc`)..
 - [Yokai](https://github.com/ankorstore/yokai) - Simple, modular, and observable Go framework for backend applications.
+- [G3]((https://github.com/zhitoo/g3)) - G3 is a simple and fast micro web framework, inspired by h3.dev.
 
 **[⬆ back to top](#contents)**
 
