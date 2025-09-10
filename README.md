@@ -2490,6 +2490,7 @@ _Libraries for testing codebases and generating test data._
 - [httpmock](https://github.com/jarcoal/httpmock) - Easy mocking of HTTP responses from external resources.
 - [minimock](https://github.com/gojuno/minimock) - Mock generator for Go interfaces.
 - [mockery](https://github.com/vektra/mockery) - Tool to generate Go interfaces.
+- [mockfs](https://github.com/balinomad/go-mockfs) - Mock filesystem for Go testing with error injection and latency simulation, built on `testing/fstest.MapFS`.
 - [mockhttp](https://github.com/tv42/mockhttp) - Mock object for Go http.ResponseWriter.
 - [mooncake](https://github.com/GuilhermeCaruso/mooncake) - A simple way to generate mocks for multiple purposes.
 - [moq](https://github.com/matryer/moq) - Utility that generates a struct from any interface. The struct can be used in test code as a mock of the interface.
