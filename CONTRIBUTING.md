@@ -1,7 +1,7 @@
+# Contribution Guidelines
+
 This resource was made by the Go community and wouldn't be possible without you!
 We appreciate and recognize [all contributors](https://github.com/avelino/awesome-go/graphs/contributors).
-
-# Contribution Guidelines
 
 > Please be aware that we want to accept your contribution, but we have **some rules to keep the minimum quality** of the packages listed here. All reviews are **not personal feedback**, even if you are a _developer reviewing your contribution_. **Sorry, if we can't meet your expectations; we do our best**.
 
@@ -16,14 +16,14 @@ We appreciate and recognize [all contributors](https://github.com/avelino/awesom
 - [How to add an item to the list](#how-to-add-an-item-to-the-list)
   - [Examples of good and bad entries](#examples-of-good-and-bad-entries)
   - [PR body example](#pr-body-example)
-- [Congrats, your project got accepted - what now?](#congrats-your-project-got-accepted---what-now)
+- [Congrats, your project got accepted - what now](#congrats-your-project-got-accepted---what-now)
 - [Maintenance expectations for projects listed here](#maintenance-expectations-for-projects-listed-here)
 - [How to remove an item from the list](#how-to-remove-an-item-from-the-list)
 - [Maintainers](#maintainers)
 - [Reporting issues](#reporting-issues)
 - [How decisions are made](#how-decisions-are-made)
-- [How to become a contributor?](#how-to-become-a-contributor)
-- [How to become an ~~"official maintainer"~~?](#how-to-become-an-official-maintainer)
+- [How to become a contributor](#how-to-become-a-contributor)
+- [How to become an ~~"official maintainer"~~](#how-to-become-an-official-maintainer)
 
 ## Quick checklist
 
@@ -148,7 +148,7 @@ goreportcard.com: https://goreportcard.com/report/github.com/org/project
 Coverage: https://app.codecov.io/gh/org/project
 ```
 
-## Congrats, your project got accepted - what now?
+## Congrats, your project got accepted - what now
 
 You are an outstanding project now! Feel encouraged to tell others about it by adding one of these badges:
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)
@@ -218,7 +218,7 @@ Thanks, everyone!
 
 The official group of maintainers has the final decision on what PRs are accepted. Discussions are made openly in issues. Decisions are made by consensus.
 
-## How to become a contributor?
+## How to become a contributor
 
 awesome-go is an open source project (created and maintained by the community), we are always open to new people to help us review the contributions (pull requests), **you don't need permission** or _name on the maintainers list_ to review a contribution and mark it as **LGTM**.
 
@@ -236,7 +236,7 @@ If everything is OK, mark the PR as approved, [read this documentation](https://
 
 **Welcome to awesome-go!**
 
-## How to become an ~~"official maintainer"~~?
+## How to become an ~~"official maintainer"~~
 
 We don't give this name to people who are allowed to accept the PR.
 
