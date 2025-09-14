@@ -99,9 +99,10 @@ async function checkGithubRepo(repoUrl) {
   const hasGoMod = await fetchJson(`${base}/repos/${owner}/${repo}/contents/go.mod`, headers);
   const releases = await fetchJson(`${base}/repos/${owner}/${repo}/releases`, headers);
   const hasRelease = Array.isArray(releases) && releases.some((r) => /^v\d+\.\d+\.\d+/.test(r.tag_name || ''));
+  const hasGoModOk = Boolean(hasGoMod && hasGoMod.name === 'go.mod');
   return {
-    ok: Boolean(hasGoMod && hasGoMod.name === 'go.mod' && hasRelease),
-    reason: !hasGoMod ? 'missing go.mod' : !hasRelease ? 'missing semver release' : undefined,
+    ok: Boolean(hasGoModOk && hasRelease),
+    reason: !hasGoModOk ? 'missing go.mod' : !hasRelease ? 'missing semver release' : undefined,
   };
 }
 
