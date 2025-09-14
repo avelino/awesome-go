@@ -17,6 +17,15 @@ const https = require('https');
 
 const GITHUB_OUTPUT = process.env.GITHUB_OUTPUT;
 
+/**
+ * Read and parse the GitHub event JSON pointed to by GITHUB_EVENT_PATH.
+ *
+ * Attempts to read the file at the path given by the environment variable
+ * `GITHUB_EVENT_PATH` and return its parsed JSON object. If the file is
+ * missing, unreadable, or contains invalid JSON, returns an empty object.
+ *
+ * @returns {Object} The parsed event payload, or an empty object on error.
+ */
 function readEvent() {
   try {
     return JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8'));
@@ -25,11 +34,32 @@ function readEvent() {
   }
 }
 
+/**
+ * Extracts the first capture group from `body` using `regex` and returns it trimmed.
+ *
+ * @param {string} body - Input text to match against.
+ * @param {RegExp} regex - Regular expression that contains at least one capture group; the first group's value is returned.
+ * @return {string} The trimmed first capture group if matched, otherwise an empty string.
+ */
 function capture(body, regex) {
   const m = body.match(regex);
   return m && m[1] ? m[1].trim() : '';
 }
 
+/**
+ * Check whether a URL is reachable using an HTTP HEAD request with a GET fallback.
+ *
+ * Performs a HEAD request to the provided URL and:
+ * - resolves { ok: true, status } for 2xx–3xx responses,
+ * - resolves { ok: false, status } for 4xx responses,
+ * - for other responses (including redirects or servers that don't support HEAD) retries with GET and resolves { ok: boolean, status } based on the GET status.
+ * Network or request errors resolve to { ok: false }.
+ *
+ * The returned Promise never rejects; it always resolves with an object describing reachability.
+ *
+ * @param {string} url - The URL to check.
+ * @returns {Promise<{ok: boolean, status?: number}>} Reachability result; `status` is the HTTP status code when available.
+ */
 function httpHeadOrGet(url) {
   return new Promise((resolve) => {
     const req = https.request(url, { method: 'HEAD' }, (res) => {
@@ -52,6 +82,11 @@ function httpHeadOrGet(url) {
   });
 }
 
+/**
+ * Parse a GitHub repository URL and return its owner and repository name.
+ * @param {string} repoUrl - URL pointing to a GitHub repository (e.g. "https://github.com/owner/repo").
+ * @returns {{owner: string, repo: string}|null} An object with `owner` and `repo` when the URL is a valid GitHub repository path; otherwise `null`.
+ */
 function parseGithubRepo(repoUrl) {
   try {
     const u = new URL(repoUrl);
@@ -64,6 +99,17 @@ function parseGithubRepo(repoUrl) {
   }
 }
 
+/**
+ * Fetch JSON from the given URL via HTTPS GET and return the parsed object.
+ *
+ * Performs an HTTPS GET request to the provided URL and returns the parsed
+ * JSON body. If the response body is not valid JSON or a network error
+ * occurs, resolves to null.
+ *
+ * @param {string} url - The URL to fetch.
+ * @param {Object} [headers={}] - Optional HTTP headers to include in the request.
+ * @returns {Promise<Object|null>} The parsed JSON object, or null on error or invalid JSON.
+ */
 async function fetchJson(url, headers = {}) {
   return new Promise((resolve) => {
     https
@@ -82,6 +128,23 @@ async function fetchJson(url, headers = {}) {
   });
 }
 
+/**
+ * Validate a GitHub repository URL for Go project quality requirements.
+ *
+ * Performs API checks to ensure the repository exists, is not archived,
+ * contains a top-level `go.mod` file, and has at least one SemVer-formatted
+ * release (tag matching `^v\d+\.\d+\.\d+`).
+ *
+ * @param {string} repoUrl - A repository URL (expected to be a GitHub URL).
+ * @returns {Promise<{ok: boolean, reason?: string}>} Resolves with an object where
+ *   `ok` is true only if the repo is reachable, not archived, has `go.mod`, and
+ *   has a SemVer release. When `ok` is false, `reason` is one of:
+ *   - "invalid repo url"
+ *   - "repo api not reachable"
+ *   - "repo is archived"
+ *   - "missing go.mod"
+ *   - "missing semver release"
+ */
 async function checkGithubRepo(repoUrl) {
   const parsed = parseGithubRepo(repoUrl);
   if (!parsed) return { ok: false, reason: 'invalid repo url' };
@@ -106,6 +169,20 @@ async function checkGithubRepo(repoUrl) {
   };
 }
 
+/**
+ * Check a Go Report Card page for reachability and grade (pass if A- or better).
+ *
+ * Performs a HEAD/GET reachability check; if reachable, fetches the page and
+ * attempts to parse a `Grade: X` token (case-insensitive). Returns:
+ * - { ok: false, reason: 'unreachable' } if the initial reachability check fails.
+ * - { ok: false, reason: 'fetch error' } if the page fetch errors.
+ * - { ok: true, grade: 'unknown' } if the page is reachable but no grade is found.
+ * - { ok: true, grade: 'A'|'A+'|'A-'|... } for parsed grades; `ok` is true only
+ *   when the parsed grade is A, A+ or A- (passes), otherwise `ok` is false.
+ *
+ * @param {string} url - URL of the Go Report Card page to check.
+ * @return {Promise<Object>} Result object containing `ok` and either `grade` or `reason`.
+ */
 async function checkGoReportCard(url) {
   // Accept A- or better
   const res = await httpHeadOrGet(url);
@@ -128,21 +205,53 @@ async function checkGoReportCard(url) {
   });
 }
 
+/**
+ * Verify that a pkg.go.dev page is reachable.
+ *
+ * Performs an HTTP HEAD (with GET fallback) to the provided URL and returns an object indicating reachability.
+ *
+ * @param {string} url - The pkg.go.dev URL to check.
+ * @return {{ok: boolean}} An object with `ok: true` when the page is reachable, otherwise `{ok: false}`.
+ */
 async function checkPkgGoDev(url) {
   const res = await httpHeadOrGet(url);
   return { ok: res.ok };
 }
 
+/**
+ * Check whether a coverage service URL is reachable.
+ *
+ * @param {string} url - The coverage page URL to validate (e.g., Coveralls or Codecov link).
+ * @returns {{ok: boolean}} An object with `ok: true` if the URL responded successfully, otherwise `ok: false`.
+ */
 async function checkCoverage(url) {
   const res = await httpHeadOrGet(url);
   return { ok: res.ok };
 }
 
+/**
+ * Writes a named workflow output to the GitHub Actions GITHUB_OUTPUT file using a heredoc block.
+ *
+ * If the GITHUB_OUTPUT environment variable is unset, this is a no-op.
+ *
+ * @param {string} name - The output name (key) to write.
+ * @param {string} value - The output value; written between the heredoc delimiters.
+ */
 function setOutput(name, value) {
   if (!GITHUB_OUTPUT) return;
   fs.appendFileSync(GITHUB_OUTPUT, `${name}<<EOF\n${value}\nEOF\n`);
 }
 
+/**
+ * Run automated PR quality checks and emit GitHub Actions outputs.
+ *
+ * Reads the current PR body, extracts links for the repository (forge), pkg.go.dev,
+ * goreportcard, and coverage services, performs best-effort validations for each,
+ * and emits three GitHub Actions outputs: `comment` (markdown summary), `fail`
+ * ("true"/"false"), and `labels` (JSON array). The comment summarizes missing links
+ * and the result of each check; labels reflect missing information, coverage status,
+ * and overall quality pass/fail.
+ */
 async function main() {
   const event = readEvent();
   const body = (event.pull_request && event.pull_request.body) || '';
