@@ -87,7 +87,12 @@ async function checkGithubRepo(repoUrl) {
   if (!parsed) return { ok: false, reason: 'invalid repo url' };
   const { owner, repo } = parsed;
   const base = 'https://api.github.com';
-  const headers = { 'User-Agent': 'awesome-go-quality-check' };
+  const headers = { 
+    'User-Agent': 'awesome-go-quality-check',
+    'Accept': 'application/vnd.github+json',
+  };
+  const token = process.env.GITHUB_TOKEN;
+  if (token) headers.Authorization = `Bearer ${token}`;
   const repoData = await fetchJson(`${base}/repos/${owner}/${repo}`, headers);
   if (!repoData) return { ok: false, reason: 'repo api not reachable' };
   if (repoData.archived) return { ok: false, reason: 'repo is archived' };
