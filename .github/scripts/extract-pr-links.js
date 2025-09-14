@@ -9,6 +9,15 @@
 
 const fs = require('fs');
 
+/**
+ * Load and parse the GitHub event payload referenced by GITHUB_EVENT_PATH.
+ *
+ * Reads the file path from the GITHUB_EVENT_PATH environment variable and returns
+ * the parsed JSON object. If the env var is missing, the file does not exist,
+ * or the file contains invalid JSON, an empty object is returned.
+ *
+ * @return {Object} The parsed event payload, or an empty object on missing/invalid input.
+ */
 function readEventPayload() {
   const eventPath = process.env.GITHUB_EVENT_PATH;
   if (!eventPath || !fs.existsSync(eventPath)) {
@@ -22,11 +31,32 @@ function readEventPayload() {
   }
 }
 
+/**
+ * Extracts the first capturing group's text from `body` using `regex`.
+ *
+ * If `regex` matches and contains a capturing group, returns the first capture; otherwise returns an empty string.
+ *
+ * @param {string} body - Input text to search.
+ * @param {RegExp} regex - Regular expression with at least one capturing group.
+ * @return {string} The first captured substring, or an empty string if no match or no capture.
+ */
 function capture(body, regex) {
   const match = body.match(regex);
   return match && match[1] ? match[1] : '';
 }
 
+/**
+ * Build the multiline comment text summarizing the provided PR links.
+ *
+ * Any of the properties may be empty or undefined; missing values are replaced with the string `"not provided"`.
+ *
+ * @param {{repo?: string, pkg?: string, gorep?: string, coverage?: string}} links - URLs extracted from the PR body.
+ * @param {string} [links.repo] - Repository/forge link (e.g., GitHub/GitLab/Bitbucket).
+ * @param {string} [links.pkg] - pkg.go.dev URL.
+ * @param {string} [links.gorep] - goreportcard.com URL.
+ * @param {string} [links.coverage] - Coverage URL (e.g., coveralls.io or codecov.io).
+ * @returns {string} A single newline-joined string containing the formatted comment.
+ */
 function buildComment({ repo, pkg, gorep, coverage }) {
   const repoOut = repo || 'not provided';
   const pkgOut = pkg || 'not provided';
@@ -46,6 +76,17 @@ function buildComment({ repo, pkg, gorep, coverage }) {
   ].join('\n');
 }
 
+/**
+ * Orchestrates extraction of PR links from the GitHub event payload and emits a formatted comment.
+ *
+ * Reads the GitHub Actions event payload (via readEventPayload), extracts up to four URLs from the pull request body
+ * (a repository forge link, pkg.go.dev, goreportcard.com, and a coverage service URL) using predefined regexes,
+ * builds a multi-line comment with buildComment, and exposes it as the step output named `body`.
+ *
+ * Side effects:
+ * - If the GITHUB_OUTPUT environment variable is set, appends a `body<<EOF ... EOF` block to that file.
+ * - If GITHUB_OUTPUT is not set, prints the comment to stdout.
+ */
 function main() {
   const event = readEventPayload();
   const prBody = (event.pull_request && event.pull_request.body) || '';
