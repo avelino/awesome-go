@@ -5,6 +5,8 @@
   and writes a formatted comment to GITHUB_OUTPUT as `body=<comment>`.
 */
 
+'use strict';
+
 const fs = require('fs');
 
 function readEventPayload() {

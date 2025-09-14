@@ -10,6 +10,8 @@
   - Outputs a markdown report as `comment` and sets `fail=true` if critical checks fail
 */
 
+'use strict';
+
 const fs = require('fs');
 const https = require('https');
 
@@ -189,7 +191,6 @@ async function main() {
   const comment = [header, '', summary, '', note].join('\n');
 
   // Labels to reflect status
-  const knownLabels = ['quality:ok', 'quality:fail', 'needs-info', 'needs-coverage'];
   const labels = [];
   const missingInfo = (!repo || !pkg || !gorep);
   if (missingInfo) labels.push('needs-info');
