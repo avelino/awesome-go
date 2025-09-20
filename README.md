@@ -220,11 +220,11 @@ _Libraries for building programs that leverage AI._
 
 - [chromem-go](https://github.com/philippgille/chromem-go) - Embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence.
 - [fun](https://gitlab.com/tozd/go/fun) - The simplest but powerful way to use large language models (LLMs) in Go.
+- [go-utcp](https://github.com/universal-tool-calling-protocol/go-utcp) - Universal Tool Calling Protocol is alternative to MCP, a new way for AI agents to communicate with the tools (API). Agent calls tool directly via utcp.json
 - [langchaingo](https://github.com/tmc/langchaingo) - LangChainGo is a framework for developing applications powered by language models.
 - [LocalAI](https://github.com/mudler/LocalAI) - Open Source OpenAI alternative, self-host AI models.
 - [Ollama](https://github.com/jmorganca/ollama) - Run large language models locally.
 - [OllamaFarm](https://github.com/presbrey/ollamafarm) - Manage, load-balance, and failover packs of Ollamas
-- [go-utcp](https://github.com/universal-tool-calling-protocol/go-utcp) - Universal Tool Calling Protocol is alternative to MCP, a new way for AI agents to communicate with the tools (API). Agent calls tool directly via utcp.json
 
 **[⬆ back to top](#contents)**
 
