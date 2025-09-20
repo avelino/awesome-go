@@ -1316,7 +1316,7 @@ _Tools for compiling Go to other languages and vice-versa._
 
 _Tools for managing and working with Goroutines._
 
-- [anchor](https://github.com/kyuff/anchor) - Library to manage component lifetime in a microservice architecture.
+- [anchor](https://github.com/kyuff/anchor) - Library to manage component lifecycle in microservice architectures.
 - [ants](https://github.com/panjf2000/ants) - A high-performance and low-cost goroutine pool in Go.
 - [artifex](https://github.com/borderstech/artifex) - Simple in-memory job queue for Golang using worker-based dispatching.
 - [async](https://github.com/yaitoo/async) - An asynchronous task package with async/await style for Go.
