@@ -1243,6 +1243,7 @@ _Awesome game development libraries._
 - [Leaf](https://github.com/name5566/leaf) - Lightweight game server framework.
 - [nano](https://github.com/lonng/nano) - Lightweight, facility, high performance golang based game server framework.
 - [Oak](https://github.com/oakmound/oak) - Pure Go game engine.
+- [Pi](https://github.com/elgopher/pi) - Game engine for creating retro games for modern computers. Inspired by Pico-8 and powered by Ebitengine.
 - [Pitaya](https://github.com/topfreegames/pitaya) - Scalable game server framework with clustering support and client libraries for iOS, Android, Unity and others through the C SDK.
 - [Pixel](https://github.com/gopxl/pixel) - Hand-crafted 2D game library in Go.
 - [prototype](https://github.com/gonutz/prototype) - Cross-platform (Windows/Linux/Mac) library for creating desktop games using a minimal API.
