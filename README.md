@@ -62,6 +62,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
   - [Blockchain](#blockchain)
   - [Bot Building](#bot-building)
   - [Build Automation](#build-automation)
+  - [Cloud Native](#cloud-native)
   - [Command Line](#command-line)
     - [Advanced Console UIs](#advanced-console-uis)
     - [Standard CLI](#standard-cli)
@@ -341,6 +342,15 @@ _Libraries and tools help with build automation._
 - [Task](https://github.com/go-task/task) - simple "Make" alternative.
 - [taskctl](https://github.com/taskctl/taskctl) - Concurrent task runner.
 - [xc](https://github.com/joerdav/xc) - Task runner with README.md defined tasks, executable markdown.
+
+**[⬆ back to top](#contents)**
+
+## Cloud Native
+
+_Libraries for building Cloud Native Applications_
+
+- [cloud-native-app](https://github.com/andygeiss/cloud-native-app) - This app automates the process of bootstrapping a repository. It generates a project structure with everything you need to start coding right away. 
+- [cloud-native-utils](https://github.com/andygeiss/cloud-native-utils) - A collection of high-performance, modular utilities for enhancing testing, transactional consistency, efficiency, security and stability in cloud-native Go applications. 
 
 **[⬆ back to top](#contents)**
 
