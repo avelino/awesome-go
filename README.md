@@ -3182,6 +3182,7 @@ _Source code analysis tools, also known as Static Application Security Testing (
 - [golang-ifood-sdk](https://github.com/arxdsilva/golang-ifood-sdk) - iFood API SDK.
 - [golangci-lint](https://github.com/golangci/golangci-lint) – A fast Go linters runner. It runs linters in parallel, uses caching, supports `yaml` config, has integrations with all major IDE and has dozens of linters included.
 - [golines](https://github.com/segmentio/golines) - Formatter that automatically shortens long lines in Go code.
+- [gomsort](https://github.com/borovikovd/gomsort) - Go tool to sort methods within types for improved code readability based on call graph analysis.
 - [GoPlantUML](https://github.com/jfeliu007/goplantuml) - Library and CLI that generates text plantump class diagram containing information about structures and interfaces with the relationship among them.
 - [goreturns](https://github.com/sqs/goreturns) - Adds zero-value return statements to match the func return types.
 - [gostatus](https://github.com/shurcooL/gostatus) - Command line tool, shows the status of repositories that contain Go packages.
