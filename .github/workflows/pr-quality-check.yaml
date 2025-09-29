@@ -25,11 +25,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node .github/scripts/check-quality.js
       - name: Post quality report comment
-        uses: peter-evans/create-or-update-comment@v3
+        uses: marocchino/sticky-pull-request-comment@v2
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          issue-number: ${{ github.event.pull_request.number }}
-          body: ${{ steps.check.outputs.comment }}
+          header: pr-quality-check
+          message: ${{ steps.check.outputs.comment }}
       - name: Sync labels
         uses: actions-ecosystem/action-add-labels@v1
         if: ${{ steps.check.outputs.labels != '' }}
