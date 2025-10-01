@@ -1,3 +1,18 @@
+## ⚠️ AUTOMATED CHECK BYPASS REQUIRED
+
+**This PR is for repository infrastructure (.github/PULL_REQUEST_TEMPLATE.md), NOT a Go package addition.**
+
+**Failing Check Explanation:**
+- ✅ **Expected behavior**: Quality checks fail for infrastructure PRs
+- ❌ **Repo link: missing** → Not applicable (no Go package)
+- ❌ **pkg.go.dev: missing** → Not applicable (no Go package)  
+- ❌ **goreportcard: missing** → Not applicable (no Go package)
+- ❌ **coverage: missing** → Not applicable (no Go package)
+
+**@avelino** - Manual review needed to bypass automated package validation checks that don't apply to template modifications.
+
+---
+
 ## ⚠️ IMPORTANT: This is NOT a Package Addition
 
 **This PR modifies repository infrastructure (.github/PULL_REQUEST_TEMPLATE.md), not Go packages.**
