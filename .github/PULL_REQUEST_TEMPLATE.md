@@ -1,59 +1,57 @@
-## ⚠️ AUTOMATED CHECK BYPASS REQUIRED
-
-**This PR is for repository infrastructure (.github/PULL_REQUEST_TEMPLATE.md), NOT a Go package addition.**
-
-**Failing Check Explanation:**
-- ✅ **Expected behavior**: Quality checks fail for infrastructure PRs
-- ❌ **Repo link: missing** → Not applicable (no Go package)
-- ❌ **pkg.go.dev: missing** → Not applicable (no Go package)  
-- ❌ **goreportcard: missing** → Not applicable (no Go package)
-- ❌ **coverage: missing** → Not applicable (no Go package)
-
-**@avelino** - Manual review needed to bypass automated package validation checks that don't apply to template modifications.
-
----
-
-## ⚠️ IMPORTANT: This is NOT a Package Addition
-
-**This PR modifies repository infrastructure (.github/PULL_REQUEST_TEMPLATE.md), not Go packages.**
-
-The automated quality checks are designed for Go package additions and don't apply to this repository maintenance contribution. Manual maintainer review is needed to bypass the automated checks.
-
----
-
 ## Description
-This PR adds a comprehensive pull request template to improve contributor experience and maintain code quality standards.
+<!-- Provide a brief description of the changes in this PR -->
 
 ## Related Issue
-Fixes #5826
+<!-- Link to the issue this PR addresses -->
+Fixes #
 
 ## Type of Change
-- [x] Repository maintenance (CI, templates, etc.)
+<!-- Mark the relevant option with an "x" -->
+- [ ] Adding new package(s) to the awesome list
+- [ ] Updating existing package information
+- [ ] Removing outdated/broken packages
+- [ ] Documentation improvement
+- [ ] Repository maintenance (CI, templates, etc.)
+- [ ] Bug fix
+- [ ] Other: ___________
 
-## Changes Made
-- Updated `.github/PULL_REQUEST_TEMPLATE.md` with comprehensive template
-- Includes sections for all contribution types (packages, docs, bugs, maintenance)  
-- Preserves existing quality standards for package additions
-- Provides clear checklists and guidelines for contributors
-- Maintains awesome-go's rigorous package quality requirements
+---
 
-## Benefits
-- Ensures consistent PR structure across all contribution types
-- Helps maintainers review PRs faster
-- Improves contributor experience and project professionalism
-- Maintains awesome-go's high quality standards for package curation
+## For Package Additions/Updates Only
+<!-- Complete this section ONLY if you're adding or updating packages -->
 
-## Screenshots (if applicable)
-N/A - Template file modification
+### Quality Standards Checklist
+- [ ] I have read the [Contribution Guidelines](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md#contribution-guidelines)
+- [ ] I have read the [Maintainers Note](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md#maintainers)  
+- [ ] I have read the [Quality Standards](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md#quality-standards)
+
+### Package Quality Checklist (keep **only** for Go package submissions)
+- [ ] Repo URL: `https://github.com/<owner>/<repo>`
+- [ ] [pkg.go.dev](https://pkg.go.dev/) listing: `https://pkg.go.dev/<module>`
+- [ ] [Go Report Card](https://goreportcard.com/): `https://goreportcard.com/report/<owner>/<repo>` _(grade must be ≥ B)_
+- [ ] Tests: `go test ./...`
+- [ ] [Codecov](https://codecov.io/) / coverage evidence ≥ 80%
+
+### Content Quality
+- [ ] The package has been added to the list in alphabetical order
+- [ ] The package has an appropriate description with correct grammar
+- [ ] As far as I know, the package has not been listed here before
+
+---
 
 ## General Contribution Checklist
-- [x] I have performed a self-review of my changes
-- [x] My changes follow the project's style guidelines  
-- [x] I have tested my changes locally
-- [x] My changes generate no new warnings or errors
-- [x] I have updated documentation if necessary
+- [ ] I have performed a self-review of my changes
+- [ ] My changes follow the project's style guidelines
+- [ ] I have tested my changes locally
+- [ ] My changes generate no new warnings or errors
+- [ ] I have updated documentation if necessary
+
+## Screenshots (if applicable)
+<!-- Add screenshots to help explain your changes -->
 
 ## Additional Notes
-This template handles both package additions (with existing quality standards) and general contributions (documentation, bug fixes, maintenance), making it suitable for all types of PRs while preserving the project's commitment to quality.
+<!-- Add any additional information that might be helpful for reviewers -->
+
+---
 
 **Thanks for your PR, you're awesome!** :sunglasses:
