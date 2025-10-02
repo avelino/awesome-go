@@ -3751,3 +3751,16 @@ _Add the group of your city/country here (send **PR**)_
 - [The Go Skill Tree](https://labex.io/skilltrees/go) - A structured learning path that combines both free and premium resources.
 
 **[⬆ back to top](#contents)**
+
+
+
+
+
+
+## Contribution
+
+We welcome contributions! Please refer to our [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
