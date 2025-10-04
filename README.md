@@ -3753,7 +3753,8 @@ _Add the group of your city/country here (send **PR**)_
 - [The Go Learning Path](https://tutorialedge.net/paths/golang/) - A guided learning path containing a mix of free and premium resources.
 - [The Go Skill Tree](https://labex.io/skilltrees/go) - A structured learning path that combines both free and premium resources.
 
-## License
-This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
-
 **[⬆ back to top](#contents)**
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/avelino/awesome-go/blob/main/LICENSE) - see the LICENSE file for details.
