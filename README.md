@@ -3696,7 +3696,6 @@ _Add the group of your city/country here (send **PR**)_
 
 ### Tutorials
 
-- New Line
 - [50 Shades of Go](https://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/) - Traps, Gotchas, and Common Mistakes for New Golang Devs.
 - [A Comprehensive Guide to Structured Logging in Go](https://betterstack.com/community/guides/logging/logging-in-go/) - Delve deep into the world of structured logging in Go with a specific focus on recently accepted slog proposal which aims to bring high performance structured logging with levels to the standard library.
 - [A Guide to Golang E-Commerce](https://snipcart.com/blog/golang-ecommerce-ponzu-cms-demo?utm_term=golang-ecommerce-ponzu-cms-demo) - Building a Golang site for e-commerce (demo included).
@@ -3758,4 +3757,5 @@ _Add the group of your city/country here (send **PR**)_
 
 ## License
 
+This project is licensed under the [MIT License](https://github.com/avelino/awesome-go/blob/main/LICENSE) - see the LICENSE file for details.
 This project is licensed under the [MIT License](https://github.com/avelino/awesome-go/blob/main/LICENSE) - see the LICENSE file for details.
