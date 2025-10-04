@@ -231,6 +231,7 @@ _Libraries for building programs that leverage AI._
 
 _Libraries for manipulating audio._
 
+- [beep](https://github.com/faiface/beep) - A simple library for playback and audio manipulation.
 - [flac](https://github.com/mewkiz/flac) - Native Go FLAC encoder/decoder with support for FLAC streams.
 - [gaad](https://github.com/Comcast/gaad) - Native Go AAC bitstream parser.
 - [GoAudio](https://github.com/DylanMeeus/GoAudio) - Native Go Audio Processing Library.
