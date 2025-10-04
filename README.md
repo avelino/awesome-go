@@ -3755,6 +3755,10 @@ _Add the group of your city/country here (send **PR**)_
 
 **[⬆ back to top](#contents)**
 
+## Contribution
+
+We welcome contributions! Please refer to our [CONTRIBUTING.md](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md) for guidelines.
+
 ## License
 
 This project is licensed under the [MIT License](https://github.com/avelino/awesome-go/blob/main/LICENSE) - see the LICENSE file for details.
