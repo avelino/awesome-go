@@ -2641,7 +2641,7 @@ See also [Natural Language Processing](#natural-language-processing) and [Text A
 - [go-runewidth](https://github.com/mattn/go-runewidth) - Functions to get fixed width of the character or string.
 - [go-zero-width](https://github.com/trubitsyn/go-zero-width) - Zero-width character detection and removal for Go.
 - [kace](https://github.com/codemodus/kace) - Common case conversions covering common initialisms.
-- [lancet](https://github.com/duke-git/lancet) - A comprehensive utility functions library for Go inspired by Lodash.
+- [lancet](https://github.com/duke-git/lancet) - A comprehensive, Lodash-like utility library for Go.
 - [petrovich](https://github.com/striker2000/petrovich) - Petrovich is the library which inflects Russian names to given grammatical case.
 - [radix](https://github.com/yourbasic/radix) - Fast string sorting algorithm.
 - [TySug](https://github.com/Dynom/TySug) - Alternative suggestions with respect to keyboard layouts.
