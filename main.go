@@ -9,7 +9,6 @@ import (
 	"net/url"
 	"os"
 	"path/filepath"
-	"regexp"
 	"strings"
 	"text/template"
 
@@ -288,12 +287,11 @@ func extractCategory(doc *goquery.Document, selector string) (*Category, error) 
 				}
 			})
 			
-			// Remove only code elements that match tag pattern, preserve inline code like `net/http`
+			// Remove only code elements that are valid tags, preserve inline code like `net/http`, `[1]`, `[gin]`
 			clonedLi := selLi.Clone()
-			tagPattern := regexp.MustCompile(`^\[.+\]$`)
 			clonedLi.Find("code").Each(func(i int, codeEl *goquery.Selection) {
 				codeText := strings.TrimSpace(codeEl.Text())
-				if tagPattern.MatchString(codeText) {
+				if isValidTag(codeText) {
 					codeEl.Remove()
 				}
 			})
