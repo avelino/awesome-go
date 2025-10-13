@@ -9,6 +9,7 @@ import (
 	"net/url"
 	"os"
 	"path/filepath"
+	"regexp"
 	"strings"
 	"text/template"
 
@@ -287,9 +288,15 @@ func extractCategory(doc *goquery.Document, selector string) (*Category, error) 
 				}
 			})
 			
-			// Remove code elements (tags) from description to get clean text
+			// Remove only code elements that match tag pattern, preserve inline code like `net/http`
 			clonedLi := selLi.Clone()
-			clonedLi.Find("code").Remove()
+			tagPattern := regexp.MustCompile(`^\[.+\]$`)
+			clonedLi.Find("code").Each(func(i int, codeEl *goquery.Selection) {
+				codeText := strings.TrimSpace(codeEl.Text())
+				if tagPattern.MatchString(codeText) {
+					codeEl.Remove()
+				}
+			})
 			fullText := clonedLi.Text()
 			
 			// Remove the title from the beginning and trim

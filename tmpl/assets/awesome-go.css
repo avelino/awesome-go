@@ -132,7 +132,7 @@ td {
 
 .tag-lib {
     background: #e3f2fd;
-    color: #1976d2;
+    color: #0d47a1;
 }
 
 .tag-app {
@@ -147,7 +147,7 @@ td {
 
 .tag-stalled {
     background: #fff3e0;
-    color: #ef6c00;
+    color: #bf360c;
 }
 
 .tag-unmaintained {

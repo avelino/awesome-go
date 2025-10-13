@@ -58,7 +58,7 @@ This list supports optional tags to help categorize projects:
 - **Project Type**: `[lib]` for libraries, `[app]` for applications  
 - **Maintenance Status**: `[active]` (commits within 12 months), `[stalled]` (12-24 months), `[unmaintained]` (>24 months)
 
-Example: `- [gin](https://github.com/gin-gonic/gin) `[lib]` `[active]` - HTTP web framework written in Go.`
+Example: - [gin](https://github.com/gin-gonic/gin) `[lib]` `[active]` - HTTP web framework written in Go.
 
 ## Contents
 
