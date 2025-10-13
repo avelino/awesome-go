@@ -110,6 +110,9 @@ Open a pull request against the README.md document that adds the repository to t
 - Descriptions should be clear, concise, and non-promotional.
 - Descriptions should follow the link on the same line and end with a punctuation mark.
 - Remember to put a period `.` at the end of the project description.
+- **Optional tags** can be added between the link and description to categorize the project:
+  - **Project type**: `[lib]` for libraries, `[app]` for applications
+  - **Maintenance status**: `[active]` (commits within 12 months), `[stalled]` (12-24 months), `[unmaintained]` (>24 months)
 
 If you are creating a new category, move the projects that apply to the new category, ensuring
 that the resulting list has at least 3 projects in every category, and that the categories are alphabetized.
@@ -122,6 +125,13 @@ Good:
 
 ```md
 - [project-name](https://github.com/org/project) - Short, clear description.
+```
+
+Good with tags:
+
+```md
+- [gin](https://github.com/gin-gonic/gin) `[lib]` `[active]` - HTTP web framework written in Go.
+- [docker](https://github.com/docker/docker) `[app]` `[active]` - Platform for distributed applications.
 ```
 
 Bad (not alphabetical):

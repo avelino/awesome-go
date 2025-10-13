@@ -51,6 +51,15 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 > _If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!_
 
+**Tags:**
+
+This list supports optional tags to help categorize projects:
+
+- **Project Type**: `[lib]` for libraries, `[app]` for applications  
+- **Maintenance Status**: `[active]` (commits within 12 months), `[stalled]` (12-24 months), `[unmaintained]` (>24 months)
+
+Example: `- [gin](https://github.com/gin-gonic/gin) `[lib]` `[active]` - HTTP web framework written in Go.`
+
 ## Contents
 
 <details>
@@ -221,12 +230,12 @@ _Libraries for building actor-based programs._
 
 _Libraries for building programs that leverage AI._
 
-- [chromem-go](https://github.com/philippgille/chromem-go) - Embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence.
-- [fun](https://gitlab.com/tozd/go/fun) - The simplest but powerful way to use large language models (LLMs) in Go.
-- [langchaingo](https://github.com/tmc/langchaingo) - LangChainGo is a framework for developing applications powered by language models.
-- [LocalAI](https://github.com/mudler/LocalAI) - Open Source OpenAI alternative, self-host AI models.
-- [Ollama](https://github.com/jmorganca/ollama) - Run large language models locally.
-- [OllamaFarm](https://github.com/presbrey/ollamafarm) - Manage, load-balance, and failover packs of Ollamas.
+- [chromem-go](https://github.com/philippgille/chromem-go) `[lib]` `[active]` - Embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence.
+- [fun](https://gitlab.com/tozd/go/fun) `[lib]` `[active]` - The simplest but powerful way to use large language models (LLMs) in Go.
+- [langchaingo](https://github.com/tmc/langchaingo) `[lib]` `[active]` - LangChainGo is a framework for developing applications powered by language models.
+- [LocalAI](https://github.com/mudler/LocalAI) `[app]` `[active]` - Open Source OpenAI alternative, self-host AI models.
+- [Ollama](https://github.com/jmorganca/ollama) `[app]` `[active]` - Run large language models locally.
+- [OllamaFarm](https://github.com/presbrey/ollamafarm) `[app]` `[active]` - Manage, load-balance, and failover packs of Ollamas.
 
 **[⬆ back to top](#contents)**
 
@@ -236,17 +245,17 @@ _Libraries for building programs that leverage AI._
 
 _Libraries for manipulating audio._
 
-- [beep](https://github.com/faiface/beep) - A simple library for playback and audio manipulation.
-- [flac](https://github.com/mewkiz/flac) - Native Go FLAC encoder/decoder with support for FLAC streams.
-- [gaad](https://github.com/Comcast/gaad) - Native Go AAC bitstream parser.
-- [go-mpris](https://github.com/leberKleber/go-mpris) - Client for mpris dbus interfaces.
-- [GoAudio](https://github.com/DylanMeeus/GoAudio) - Native Go Audio Processing Library.
-- [gosamplerate](https://github.com/dh1tw/gosamplerate) - libsamplerate bindings for go.
-- [id3v2](https://github.com/bogem/id3v2) - ID3 decoding and encoding library for Go.
-- [malgo](https://github.com/gen2brain/malgo) - Mini audio library.
-- [minimp3](https://github.com/tosone/minimp3) - Lightweight MP3 decoder library.
-- [Oto](https://github.com/hajimehoshi/oto) - A low-level library to play sound on multiple platforms.
-- [PortAudio](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library.
+- [beep](https://github.com/faiface/beep) `[lib]` `[active]` - A simple library for playback and audio manipulation.
+- [flac](https://github.com/mewkiz/flac) `[lib]` `[active]` - Native Go FLAC encoder/decoder with support for FLAC streams.
+- [gaad](https://github.com/Comcast/gaad) `[lib]` `[active]` - Native Go AAC bitstream parser.
+- [go-mpris](https://github.com/leberKleber/go-mpris) `[lib]` `[active]` - Client for mpris dbus interfaces.
+- [GoAudio](https://github.com/DylanMeeus/GoAudio) `[lib]` `[active]` - Native Go Audio Processing Library.
+- [gosamplerate](https://github.com/dh1tw/gosamplerate) `[lib]` `[active]` - libsamplerate bindings for go.
+- [id3v2](https://github.com/bogem/id3v2) `[lib]` `[active]` - ID3 decoding and encoding library for Go.
+- [malgo](https://github.com/gen2brain/malgo) `[lib]` `[active]` - Mini audio library.
+- [minimp3](https://github.com/tosone/minimp3) `[lib]` `[active]` - Lightweight MP3 decoder library.
+- [Oto](https://github.com/hajimehoshi/oto) `[lib]` `[active]` - A low-level library to play sound on multiple platforms.
+- [PortAudio](https://github.com/gordonklaus/portaudio) `[lib]` `[active]` - Go bindings for the PortAudio audio I/O library.
 
 **[⬆ back to top](#contents)**
 
@@ -254,9 +263,9 @@ _Libraries for manipulating audio._
 
 _Libraries for implementing authentication and authorization._
 
-- [authboss](https://github.com/volatiletech/authboss) - Modular authentication system for the web. It tries to remove as much boilerplate and "hard things" as possible so that each time you start a new web project in Go, you can plug it in, configure it, and start building your app without having to build an authentication system each time.
-- [branca](https://github.com/essentialkaos/branca) - branca token [specification implementation](https://github.com/tuupola/branca-spec) for Golang 1.15+.
-- [casbin](https://github.com/hsluoyz/casbin) - Authorization library that supports access control models like ACL, RBAC, and ABAC.
+- [authboss](https://github.com/volatiletech/authboss) `[lib]` `[active]` - Modular authentication system for the web. It tries to remove as much boilerplate and "hard things" as possible so that each time you start a new web project in Go, you can plug it in, configure it, and start building your app without having to build an authentication system each time.
+- [branca](https://github.com/essentialkaos/branca) `[lib]` `[active]` - branca token [specification implementation](https://github.com/tuupola/branca-spec) for Golang 1.15+.
+- [casbin](https://github.com/hsluoyz/casbin) `[lib]` `[active]` - Authorization library that supports access control models like ACL, RBAC, and ABAC.
 - [cookiestxt](https://github.com/mengzhuo/cookiestxt) - provides a parser of cookies.txt file format.
 - [go-iam](https://github.com/melvinodsa/go-iam) - Developer-first Identity and Access Management system with a simple UI.
 - [go-jose](https://github.com/go-jose/go-jose) - Fairly complete implementation of the JOSE working group's JSON Web Token, JSON Web Signatures, and JSON Web Encryption specs.

@@ -4,12 +4,12 @@ package main
 import (
 	"bytes"
 	"embed"
-	"errors"
 	"fmt"
 	template2 "html/template"
 	"net/url"
 	"os"
 	"path/filepath"
+	"strings"
 	"text/template"
 
 	"github.com/avelino/awesome-go/pkg/markdown"
@@ -24,6 +24,7 @@ type Link struct {
 	Title       string
 	URL         string
 	Description string
+	Tags        []string
 }
 
 // Category describe link category
@@ -47,7 +48,9 @@ var staticFiles = []string{
 //go:embed tmpl/*.tmpl.html tmpl/*.tmpl.xml
 var tplFs embed.FS
 
-var tpl = template.Must(template.ParseFS(tplFs, "tmpl/*.tmpl.html", "tmpl/*.tmpl.xml"))
+var tpl = template.Must(template.New("").Funcs(template.FuncMap{
+	"upper": strings.ToUpper,
+}).ParseFS(tplFs, "tmpl/*.tmpl.html", "tmpl/*.tmpl.xml"))
 
 // Output files
 const outDir = "out/" // NOTE: trailing slash is required
@@ -106,6 +109,18 @@ func buildStaticSite() error {
 	}
 
 	return nil
+}
+
+// isValidTag checks if a tag is in the allowed list
+func isValidTag(tag string) bool {
+	validTags := map[string]bool{
+		"lib":          true,
+		"app":          true,
+		"active":       true,
+		"stalled":      true,
+		"unmaintained": true,
+	}
+	return validTags[tag]
 }
 
 // dropCreateDir drop and create output directory
@@ -198,14 +213,21 @@ func extractCategories(doc *goquery.Document) (map[string]Category, error) {
 	categories := make(map[string]Category)
 	var rootErr error
 
-	doc.
-		Find("body #contents").
-		NextFiltered("ul").
-		Find("ul").
-		EachWithBreak(func(_ int, selUl *goquery.Selection) bool {
-			if rootErr != nil {
-				return false
-			}
+	// Try multiple selectors to find the navigation structure
+	selector := doc.Find("body #contents").NextFiltered("details").Find("ul ul")
+	if selector.Length() == 0 {
+		selector = doc.Find("body #contents").NextFiltered("ul").Find("ul")
+	}
+	
+	// Post-fallback check: ensure we found a valid navigation structure
+	if selector.Length() == 0 {
+		return nil, fmt.Errorf("no navigation structure found with known selectors")
+	}
+	
+	selector.EachWithBreak(func(_ int, selUl *goquery.Selection) bool {
+		if rootErr != nil {
+			return false
+		}
 
 			selUl.
 				Find("li a").
@@ -238,7 +260,6 @@ func extractCategories(doc *goquery.Document) (map[string]Category, error) {
 
 func extractCategory(doc *goquery.Document, selector string) (*Category, error) {
 	var category Category
-	var err error
 
 	doc.Find(selector).EachWithBreak(func(_ int, selCatHeader *goquery.Selection) bool {
 		selDescr := selCatHeader.NextFiltered("p")
@@ -251,20 +272,44 @@ func extractCategory(doc *goquery.Document, selector string) (*Category, error) 
 		ul.Find("li").Each(func(_ int, selLi *goquery.Selection) {
 			selLink := selLi.Find("a")
 			url, _ := selLink.Attr("href")
+			title := selLink.Text()
+			
+			// Extract tags from code elements (which are converted from backticks)
+			var tags []string
+			selLi.Find("code").Each(func(_ int, codeEl *goquery.Selection) {
+				codeText := codeEl.Text()
+				// Check if it matches tag pattern [tagname]
+				if len(codeText) > 2 && codeText[0] == '[' && codeText[len(codeText)-1] == ']' {
+					tag := strings.ToLower(strings.TrimSpace(codeText[1 : len(codeText)-1]))
+					if isValidTag(tag) {
+						tags = append(tags, tag)
+					}
+				}
+			})
+			
+			// Remove code elements (tags) from description to get clean text
+			clonedLi := selLi.Clone()
+			clonedLi.Find("code").Remove()
+			fullText := clonedLi.Text()
+			
+			// Remove the title from the beginning and trim
+			description := strings.TrimSpace(strings.TrimPrefix(fullText, title))
+			// Remove leading dash if present
+			description = strings.TrimSpace(strings.TrimPrefix(description, "-"))
+			
 			link := Link{
-				Title: selLink.Text(),
-				// FIXME(kazhuravlev): Title contains only title but
-				// 	description contains Title + description
-				Description: selLi.Text(),
+				Title:       title,
+				Description: description,
 				URL:         url,
+				Tags:        tags,
 			}
 			links = append(links, link)
 		})
 
 		// FIXME: In this case we would have an empty category in main index.html with link to 404 page.
 		if len(links) == 0 {
-			err = errors.New("category does not contain links")
-			return false
+			// Skip categories without links instead of erroring
+			return true
 		}
 
 		category = Category{
@@ -276,10 +321,6 @@ func extractCategory(doc *goquery.Document, selector string) (*Category, error) 
 
 		return true
 	})
-
-	if err != nil {
-		return nil, fmt.Errorf("build a category: %w", err)
-	}
 
 	return &category, nil
 }
