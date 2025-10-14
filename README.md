@@ -748,7 +748,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [hare](https://github.com/jameycribbs/hare) - A simple database management system that stores each table as a text file of line-delimited JSON.
 - [immudb](https://github.com/codenotary/immudb) - immudb is a lightweight, high-speed immutable database for systems and applications written in Go.
 - [influxdb](https://github.com/influxdata/influxdb) - Scalable datastore for metrics, events, and real-time analytics.
-- [infux](https://github.com/VectroLabs/infux) - A high-performance, in-memory caching library for Go. [![GoDoc](https://pkg.go.dev/badge/github.com/VectroLabs/infux.svg)](https://pkg.go.dev/github.com/VectroLabs/infux) [![Go Report Card](https://goreportcard.com/badge/github.com/VectroLabs/infux)](https://goreportcard.com/report/github.com/VectroLabs/infux)
+- [infux](https://github.com/VectroLabs/infux) - A high-performance, in-memory caching library for Go.
 - [ledisdb](https://github.com/siddontang/ledisdb) - Ledisdb is a high performance NoSQL like Redis based on LevelDB.
 - [levigo](https://github.com/jmhodges/levigo) - Levigo is a Go wrapper for LevelDB.
 - [libradb](https://github.com/amit-davidson/LibraDB) - LibraDB is a simple database with less than 1000 lines of code for learning.
