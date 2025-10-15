@@ -1975,7 +1975,7 @@ See also [Text Processing](#text-processing) and [Text Analysis](#text-analysis)
 - [shamoji](https://github.com/osamingo/shamoji) - The shamoji is word filtering package written in Go.
 - [stemmer](https://github.com/dchest/stemmer) - Stemmer packages for Go programming language. Includes English and German stemmers.
 - [textcat](https://github.com/pebbe/textcat) - Go package for n-gram based text categorization, with support for utf-8 and raw text.
-- [tokgo](https://github.com/currybab/tokgo) - a Go tokenizer library designed for use with OpenAI models
+- [tokgo](https://github.com/currybab/tokgo) - a Go tokenizer library designed for use with OpenAI models.
 
 ### Translation
 
