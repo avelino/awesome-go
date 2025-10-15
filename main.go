@@ -57,7 +57,8 @@ var outSitemapFile = filepath.Join(outDir, "sitemap.xml")
 
 func main() {
 	if err := buildStaticSite(); err != nil {
-		panic(err)
+		fmt.Fprintf(os.Stderr, "build failed: %v\n", err)
+		os.Exit(1)
 	}
 }
 
