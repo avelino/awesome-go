@@ -2460,8 +2460,8 @@ _Libraries for testing codebases and generating test data._
 - [gnomock](https://github.com/orlangure/gnomock) - integration testing with real dependencies (database, cache, even Kubernetes or AWS) running in Docker, without mocks.
 - [go-carpet](https://github.com/msoap/go-carpet) - Tool for viewing test coverage in terminal.
 - [go-cmp](https://github.com/google/go-cmp) - Package for comparing Go values in tests.
-- [go-httpbin](https://github.com/mccutchen/go-httpbin) - HTTP testing and debugging tool with various endpoints for client testing.
 - [go-hit](https://github.com/Eun/go-hit) - Hit is an http integration test framework written in golang.
+- [go-httpbin](https://github.com/mccutchen/go-httpbin) - HTTP testing and debugging tool with various endpoints for client testing.
 - [go-mutesting](https://github.com/zimmski/go-mutesting) - Mutation testing for Go source code.
 - [go-mysql-test-container](https://github.com/arikama/go-mysql-test-container) - Golang MySQL testcontainer to help with MySQL integration testing.
 - [go-snaps](http://github.com/gkampitakis/go-snaps) - Jest-like snapshot testing in Golang.
