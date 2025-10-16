@@ -1906,6 +1906,7 @@ _These libraries were placed here because none of the other categories seemed to
 - [openapi](https://github.com/neotoolkit/openapi) - OpenAPI 3.x parser.
 - [pdfgen](https://github.com/hyperboloide/pdfgen) - HTTP service to generate PDF from Json requests.
 - [persian](https://github.com/mavihq/persian) - Some utilities for Persian language in go.
+- [purego](https://github.com/ebitengine/purego) - A library for calling C functions from Go without Cgo.
 - [sandid](https://github.com/aofei/sandid) - Every grain of sand on earth has its own ID.
 - [shellwords](https://github.com/Wing924/shellwords) - A Golang library to manipulate strings according to the word parsing rules of the UNIX Bourne shell.
 - [shortid](https://github.com/teris-io/shortid) - Distributed generation of super short, unique, non-sequential, URL friendly IDs.
