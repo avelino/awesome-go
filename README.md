@@ -1322,6 +1322,7 @@ _Tools for compiling Go to other languages and vice-versa._
 
 - [bunster](https://github.com/yassinebenaid/bunster) - Compile shell scripts to Go.
 - [c4go](https://github.com/Konstantin8105/c4go) - Transpile C code to Go code.
+- [cxgo](https://github.com/gotranspile/cxgo) - Transpile C code to Go code.
 - [esp32](https://github.com/andygeiss/esp32-transpiler) - Transpile Go into Arduino code.
 - [f4go](https://github.com/Konstantin8105/f4go) - Transpile FORTRAN 77 code to Go code.
 - [go2hx](https://github.com/go2hx/go2hx) - Compiler from Go to Haxe to Javascript/C++/Java/C#.
