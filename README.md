@@ -3733,6 +3733,7 @@ _Add the group of your city/country here (send **PR**)_
 - [json2go](https://m-zajac.github.io/json2go) - Advanced JSON to Go struct conversion - online tool.
 - [justforfunc](https://www.youtube.com/c/justforfunc) - Youtube channel dedicated to Go programming language tips and tricks, hosted by Francesc Campoy [@francesc](https://twitter.com/francesc).
 - [Learn Go Programming](https://blog.learngoprogramming.com) - Learn Go concepts with illustrations.
+- [Libs.tech](https://libs.tech/go) – Awesome Go libraries and hidden gems
 - [Made with Golang](https://madewithgolang.com/?ref=awesome-go)
 - [pkg.go.dev](https://pkg.go.dev/) - Documentation for open source Go packages.
 - [studygolang](https://studygolang.com) - The community of studygolang in China.
