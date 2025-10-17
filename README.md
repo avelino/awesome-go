@@ -3072,6 +3072,7 @@ _Full stack web frameworks._
 - [templui](https://github.com/axzilla/templui) - Modern UI Components for Go & Templ.
 - [uAdmin](https://github.com/uadmin/uadmin) - Fully featured web framework for Golang, inspired by Django.
 - [WebGo](https://github.com/naughtygopher/webgo) - A micro-framework to build web apps with handler chaining, middleware, and context injection. With standard library-compliant HTTP handlers (i.e., `http.HandlerFunc`)..
+- [Xun](https://github.com/yaitoo/xun) - Web framework built on Go's built-in html/template and net/http package’s router. It is designed to be lightweight, fast, and easy to use while providing a simple and intuitive API for building web applications with advanced features such as middleware, routing, and template rendering.
 - [Yokai](https://github.com/ankorstore/yokai) - Simple, modular, and observable Go framework for backend applications.
 
 **[⬆ back to top](#contents)**
