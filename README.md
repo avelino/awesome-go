@@ -553,6 +553,7 @@ _Tools for help with continuous integration._
 
 _Libraries for preprocessing CSS files._
 
+- [go-css](https://github.com/napsy/go-css) - A very simple CSS parser, written in Go.
 - [go-libsass](https://github.com/wellington/go-libsass) - Go wrapper to the 100% Sass compatible libsass project.
 
 **[⬆ back to top](#contents)**
