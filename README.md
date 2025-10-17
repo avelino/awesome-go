@@ -2401,6 +2401,7 @@ _Libraries and tools for stream processing and reactive programming._
 - [gostream](https://github.com/mariomac/gostream) - Type-safe stream processing library inspired by the Java Streams API.
 - [machine](https://github.com/whitaker-io/machine) - Go library for writing and generating stream workers with built in metrics and traceability.
 - [nibbler](https://github.com/naughtygopher/nibbler) - A lightweight package for micro batch processing.
+- [ro](https://github.com/samber/ro) - Reactive Programming: declarative and composable API for event-driven applications.
 - [stream](https://github.com/youthlin/stream) - Go Stream, like Java 8 Stream: Filter/Map/FlatMap/Peek/Sorted/ForEach/Reduce...
 - [StreamSQL](https://github.com/rulego/streamsql) - A lightweight streaming SQL engine for real-time data processing.
 
