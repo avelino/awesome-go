@@ -1,0 +1,42 @@
+name: PR Quality Checks
+
+on:
+  pull_request_target:
+    types: [opened, edited, synchronize, reopened]
+
+permissions:
+  pull-requests: write
+  contents: read
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    environment: action
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run quality checks
+        id: check
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node .github/scripts/check-quality.js
+      - name: Post quality report comment
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: pr-quality-check
+          message: ${{ steps.check.outputs.comment }}
+      - name: Sync labels
+        uses: actions-ecosystem/action-add-labels@v1
+        if: ${{ steps.check.outputs.labels != '' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: ${{ join(fromJson(steps.check.outputs.labels), '\n') }}
+      - name: Fail if critical checks failed
+        if: ${{ steps.check.outputs.fail == 'true' }}
+        run: |
+          echo "Critical quality checks failed."
+          exit 1
