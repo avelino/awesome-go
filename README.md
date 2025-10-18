@@ -1769,6 +1769,7 @@ _Libraries that implement messaging systems._
 
 _Libraries for working with Microsoft Excel._
 
+- [cellwalker](https://github.com/chonla/cellwalker) - Virtually traverse Excel cell by cell's name.
 - [excelize](https://github.com/xuri/excelize) - Golang library for reading and writing Microsoft Excel&trade; (XLSX) files.
 - [exl](https://github.com/go-the-way/exl) - Excel binding to struct written in Go.(Only supports Go1.18+)
 - [go-excel](https://github.com/szyhf/go-excel) - A simple and light reader to read a relate-db-like excel as a table.
