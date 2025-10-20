@@ -1,0 +1,46 @@
+name: "Update Leaderboard"
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  update-leaderboard:
+    if: github.event.pull_request.merged == true || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: read
+
+    steps:
+      - name: "Checkout main branch"
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: "Set up Node.js"
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: "Install dependencies"
+        run: npm install
+
+      - name: "Run TypeScript update script"
+        run: npx ts-node scripts/update-leaderboard.ts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Commit and push changes"
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs(leaderboard): update leaderboard.json"
+          file_pattern: "apps/web/public/leaderboard.json"
+          branch: main
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
