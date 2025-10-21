@@ -1,4 +1,4 @@
-name: "Update Leaderboard"
+name: "Update Contributors & Leaderboard"
 
 on:
   pull_request:
@@ -8,39 +8,36 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-leaderboard:
-    if: github.event.pull_request.merged == true || github.event_name == 'workflow_dispatch'
+  build-site:
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull-requests: read
 
     steps:
-      - name: "Checkout main branch"
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 0
 
-      - name: "Set up Node.js"
-        uses: actions/setup-node@v4
+      - name: Set up Go
+        uses: actions/setup-go@v4
         with:
-          node-version: "20"
-          cache: "npm"
+          go-version: "1.22"
 
-      - name: "Install dependencies"
-        run: npm install
+      - name: Build static site
+        run: go run main.go
 
-      - name: "Run TypeScript update script"
-        run: npx ts-node scripts/update-leaderboard.ts
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: "Commit and push changes"
+      - name: Commit and push leaderboard + contributors page
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "docs(leaderboard): update leaderboard.json"
-          file_pattern: "apps/web/public/leaderboard.json"
+          commit_message: "docs: update leaderboard & contributors"
+          file_pattern: |
+            leaderboard.json
+            out/contributors/index.html
           branch: main
           commit_user_name: "github-actions[bot]"
           commit_user_email: "github-actions[bot]@users.noreply.github.com"
-          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"

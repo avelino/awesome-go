@@ -1,0 +1,90 @@
+{{ define "contributors.tmpl.html" }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Awesome Go Contributors</title>
+<link rel="stylesheet" href="/assets/style.css">
+<style>
+body {
+  font-family: system-ui, sans-serif;
+  background: #fafafa;
+  margin: 0; padding: 2rem;
+  color: #333;
+}
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+}
+.card {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+.avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+.name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0366d6;
+  text-decoration: none;
+}
+.meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  font-size: 0.9rem;
+  color: #555;
+}
+.meta svg {
+  width: 14px;
+  height: 14px;
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Top Contributors</h1>
+  <div class="grid">
+    {{ range .Contributors }}
+    <div class="card">
+      <a href="{{ .HTMLURL }}"><img src="{{ .AvatarURL }}" class="avatar" alt="{{ .Login }}"></a>
+      <a href="{{ .HTMLURL }}" class="name">{{ .Login }}</a>
+      <div class="meta">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2h6v2m-3-5a3 3 0 100-6 3 3 0 000 6z" />
+        </svg>
+        {{ .Contributions }} contributions
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+</body>
+</html>
+{{ end }}

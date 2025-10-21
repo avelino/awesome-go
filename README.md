@@ -3785,14 +3785,7 @@ _Add the group of your city/country here (send **PR**)_
 
 ## Contribution
 
-[![Contributors](https://img.shields.io/github/contributors/avelino/awesome-go?style=for-the-badge)](https://github.com/avelino/awesome-go/graphs/contributors)
-
-<!-- Contributors avatars (auto-updating) -->
-<p align="left">
-  <a href="https://github.com/avelino/awesome-go/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=avelino/awesome-go" alt="Contributors" />
-  </a>
-</p>
+👉 Check out our live [Contributors Leaderboard](https://awesome-go.com/contributors)
 
 We welcome contributions! Please refer to our [CONTRIBUTING.md](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md) for guidelines.
 
