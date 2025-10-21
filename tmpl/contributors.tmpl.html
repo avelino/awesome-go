@@ -1,90 +1,197 @@
-{{ define "contributors.tmpl.html" }}
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Awesome Go Contributors</title>
-<link rel="stylesheet" href="/assets/style.css">
+<title>Awesome Go Contributors Leaderboard</title>
 <style>
-body {
-  font-family: system-ui, sans-serif;
-  background: #fafafa;
-  margin: 0; padding: 2rem;
-  color: #333;
-}
-.container {
-  max-width: 960px;
-  margin: auto;
-}
-h1 {
-  text-align: center;
-  font-weight: 600;
-  margin-bottom: 2rem;
-}
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 1.5rem;
-}
-.card {
-  background: white;
-  border: 1px solid #eee;
-  border-radius: 12px;
-  padding: 1rem;
-  text-align: center;
-  transition: transform .2s ease, box-shadow .2s ease;
-}
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
-}
-.avatar {
-  width: 72px;
-  height: 72px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 0.5rem;
-}
-.name {
-  font-size: 1rem;
-  font-weight: 600;
-  color: #0366d6;
-  text-decoration: none;
-}
-.meta {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 4px;
-  font-size: 0.9rem;
-  color: #555;
-}
-.meta svg {
-  width: 14px;
-  height: 14px;
-  opacity: 0.7;
-}
+  /* ---------- Global Styles ---------- */
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+  }
+  h1, h2 {
+    text-align: center;
+    margin: 30px 0 15px;
+    font-weight: 700;
+  }
+  h1 { font-size: 2.2em; color: #34495e; }
+  h2 { font-size: 1.6em; color: #2c3e50; }
+  .container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto 50px;
+  }
+
+  /* ---------- Total Contributors ---------- */
+  .total {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #34495e;
+    font-weight: 500;
+  }
+
+  /* ---------- Grid Styles ---------- */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+  }
+
+  /* ---------- Card Styles ---------- */
+  .card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px 15px;
+    text-align: center;
+    box-shadow: 0 6px 25px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    overflow: hidden;
+  }
+  .card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+  }
+  .card img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    background: #e1e4e8;
+    transition: transform 0.3s ease;
+  }
+  .card:hover img {
+    transform: scale(1.1);
+  }
+  .card h3 {
+    font-size: 16px;
+    margin: 5px 0 5px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card h3::before {
+    content: url('https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png');
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 6px;
+  }
+  .card p {
+    font-size: 13px;
+    color: #7f8c8d;
+    margin: 0;
+  }
+
+  /* ---------- Top 3 Special Styles ---------- */
+  .top1 { border: 3px solid #f1c40f; }
+  .top2 { border: 3px solid #bdc3c7; }
+  .top3 { border: 3px solid #cd7f32; }
+
+  .top1 .medal, .top2 .medal, .top3 .medal {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #fff;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    animation: bounce 1.5s infinite alternate;
+  }
+  .top2 .medal { background: silver; }
+  .top3 .medal { background: #cd7f32; }
+
+  /* ---------- Bounce Animation ---------- */
+  @keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-8px); }
+  }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 600px) {
+    .grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+    .card img { width: 70px; height: 70px; }
+  }
+
 </style>
 </head>
 <body>
+
+<h1>Awesome Go Contributors Leaderboard</h1>
+<div class="total">Total Contributors: {{ add (len .Top3) (len .Top10) (len .Top100) (len .Others) }}</div>
+
 <div class="container">
-  <h1>Top Contributors</h1>
+
+  {{ if gt (len .Top3) 0 }}
+  <h2>🏆 Top 3 Contributors</h2>
   <div class="grid">
-    {{ range .Contributors }}
-    <div class="card">
-      <a href="{{ .HTMLURL }}"><img src="{{ .AvatarURL }}" class="avatar" alt="{{ .Login }}"></a>
-      <a href="{{ .HTMLURL }}" class="name">{{ .Login }}</a>
-      <div class="meta">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2h6v2m-3-5a3 3 0 100-6 3 3 0 000 6z" />
-        </svg>
-        {{ .Contributions }} contributions
-      </div>
-    </div>
+    {{ range $index, $c := .Top3 }}
+    <a href="{{ $c.HTMLURL }}" target="_blank" class="card {{if eq $index 0}}top1{{else if eq $index 1}}top2{{else if eq $index 2}}top3{{end}}">
+      <div class="medal">{{ add $index 1 }}</div>
+      <img src="{{ $c.AvatarURL }}" alt="{{ $c.Login }}">
+      <h3>{{ $c.Login }}</h3>
+      <p>Contributions: {{ $c.Contributions }}</p>
+    </a>
     {{ end }}
   </div>
+  {{ end }}
+
+  {{ if gt (len .Top10) 0 }}
+  <h2>Next Top 10 Contributors</h2>
+  <div class="grid">
+    {{ range .Top10 }}
+    <a href="{{ .HTMLURL }}" target="_blank" class="card">
+      <img src="{{ .AvatarURL }}" alt="{{ .Login }}">
+      <h3>{{ .Login }}</h3>
+      <p>Contributions: {{ .Contributions }}</p>
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{ if gt (len .Top100) 0 }}
+  <h2>Next Top 100 Contributors</h2>
+  <div class="grid">
+    {{ range .Top100 }}
+    <a href="{{ .HTMLURL }}" target="_blank" class="card">
+      <img src="{{ .AvatarURL }}" alt="{{ .Login }}">
+      <h3>{{ .Login }}</h3>
+      <p>Contributions: {{ .Contributions }}</p>
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{ if gt (len .Others) 0 }}
+  <h2>Other Contributors</h2>
+  <div class="grid">
+    {{ range .Others }}
+    <a href="{{ .HTMLURL }}" target="_blank" class="card">
+      <img src="{{ .AvatarURL }}" alt="{{ .Login }}">
+      <h3>{{ .Login }}</h3>
+      <p>Contributions: {{ .Contributions }}</p>
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+
 </div>
 </body>
 </html>
-{{ end }}

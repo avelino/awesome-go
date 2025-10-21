@@ -1,19 +1,18 @@
-// Package main contains code for generate static site.
+// Package main contains code for generating a static site.
 package main
 
 import (
 	"bytes"
+	"context"
 	"embed"
 	"encoding/json"
 	"errors"
 	"fmt"
 	template2 "html/template"
+	"net/http"
 	"net/url"
 	"os"
-	"os/exec"
 	"path/filepath"
-	"strconv"
-	"strings"
 	"text/template"
 
 	"github.com/PuerkitoBio/goquery"
@@ -48,7 +47,7 @@ type Contributor struct {
 // Source files
 const readmePath = "README.md"
 
-// This files should be copied 'as is' to outDir directory
+// Static files to copy
 var staticFiles = []string{
 	"tmpl/assets",
 	"tmpl/robots.txt",
@@ -58,15 +57,31 @@ var staticFiles = []string{
 //go:embed tmpl/*.tmpl.html tmpl/*.tmpl.xml
 var tplFs embed.FS
 
-var tpl = template.Must(template.ParseFS(tplFs, "tmpl/*.tmpl.html", "tmpl/*.tmpl.xml"))
+var tpl = template.Must(template.New("").Funcs(template2.FuncMap{
+	"min": func(a, b int) int {
+		if a < b {
+			return a
+		}
+		return b
+	},
+	"add": func(nums ...int) int {
+		sum := 0
+		for _, n := range nums {
+			sum += n
+		}
+		return sum
+	},
+}).ParseFS(tplFs, "tmpl/*.tmpl.html", "tmpl/*.tmpl.xml"))
+
 
 // Output files
-const outDir = "out/" // NOTE: trailing slash is required
+const outDir = "out/"
 
 var (
 	outIndexFile       = filepath.Join(outDir, "index.html")
 	outSitemapFile     = filepath.Join(outDir, "sitemap.xml")
 	outContributorsDir = filepath.Join(outDir, "contributors")
+	leaderboardJSON    = filepath.Join(outDir, "leaderboard.json")
 )
 
 func main() {
@@ -111,19 +126,16 @@ func buildStaticSite() error {
 		return fmt.Errorf("render sitemap: %w", err)
 	}
 
-	// ✅ Generate leaderboard.json from git history
 	if err := generateLeaderboardJSON(); err != nil {
 		fmt.Printf("⚠️ Could not generate leaderboard.json: %v\n", err)
 	}
 
-	// ✅ Render contributors leaderboard page
 	if err := renderContributorsPage(); err != nil {
 		fmt.Printf("⚠️ Skipping contributors page: %v\n", err)
 	} else {
 		fmt.Println("✅ Contributors page generated successfully.")
 	}
 
-	// Copy static files
 	for _, srcFilename := range staticFiles {
 		dstFilename := filepath.Join(outDir, filepath.Base(srcFilename))
 		fmt.Printf("Copy static file: %s -> %s\n", srcFilename, dstFilename)
@@ -135,59 +147,68 @@ func buildStaticSite() error {
 	return nil
 }
 
-// ---------------------- Generate Leaderboard JSON ----------------------
-
-// ---------------------- Generate Leaderboard JSON ----------------------
-const leaderboardJSON = outDir + "leaderboard.json"
+// ---------------------- Generate Leaderboard JSON via GitHub API ----------------------
 
 func generateLeaderboardJSON() error {
-	out, err := exec.Command("git", "shortlog", "-sne").Output()
-	if err != nil {
-		return fmt.Errorf("git shortlog failed: %w", err)
-	}
+	repoOwner := "avelino"
+	repoName := "awesome-go"
 
 	var contributors []Contributor
-	lines := strings.Split(string(out), "\n")
-	for _, line := range lines {
-		line = strings.TrimSpace(line)
-		if line == "" {
-			continue
+	page := 1
+
+	for {
+		apiURL := fmt.Sprintf("https://api.github.com/repos/%s/%s/contributors?per_page=100&anon=1&page=%d", repoOwner, repoName, page)
+		req, _ := http.NewRequestWithContext(context.Background(), "GET", apiURL, nil)
+
+		if token := os.Getenv("GITHUB_TOKEN"); token != "" {
+			req.Header.Set("Authorization", "token "+token)
 		}
 
-		fields := strings.Fields(line)
-		if len(fields) < 2 {
-			continue
-		}
-
-		count, err := strconv.Atoi(fields[0])
+		resp, err := http.DefaultClient.Do(req)
 		if err != nil {
-			continue
+			return fmt.Errorf("fetch contributors: %w", err)
+		}
+		if resp.Body != nil {
+			defer resp.Body.Close()
 		}
 
-		nameEmail := strings.Join(fields[1:], " ")
-		emailStart := strings.LastIndex(nameEmail, "<")
-		login := strings.TrimSpace(nameEmail)
-		if emailStart != -1 {
-			login = strings.TrimSpace(nameEmail[:emailStart])
+		if resp.StatusCode != 200 {
+			return fmt.Errorf("github api error: status %d", resp.StatusCode)
 		}
 
-		contributors = append(contributors, Contributor{
-			Login:         login,
-			HTMLURL:       "", // Optional: can be populated via GitHub API
-			AvatarURL:     "", // Optional: can be populated via GitHub API
-			Contributions: count,
-		})
+		var pageContributors []Contributor
+		decoder := json.NewDecoder(resp.Body)
+		if err := decoder.Decode(&pageContributors); err != nil {
+			return fmt.Errorf("decode github contributors: %w", err)
+		}
+
+		if len(pageContributors) == 0 {
+			break
+		}
+
+		for i, c := range pageContributors {
+			if c.Login == "" {
+				pageContributors[i].Login = "Anonymous Contributor"
+				pageContributors[i].HTMLURL = "#"
+			}
+			if c.AvatarURL == "" {
+				// Use GitHub-style default identicon based on login
+				pageContributors[i].AvatarURL = fmt.Sprintf(
+					"https://avatars.githubusercontent.com/%s?v=4",
+					url.PathEscape(pageContributors[i].Login),
+				)
+			}
+		}		
+
+		contributors = append(contributors, pageContributors...)
+		page++
 	}
 
 	if len(contributors) == 0 {
-		return errors.New("no contributors found in git history")
+		return errors.New("no contributors found from GitHub API")
 	}
 
-	data, err := json.MarshalIndent(contributors, "", "  ")
-	if err != nil {
-		return fmt.Errorf("marshal leaderboard.json: %w", err)
-	}
-
+	data, _ := json.MarshalIndent(contributors, "", "  ")
 	if err := os.WriteFile(leaderboardJSON, data, 0644); err != nil {
 		return fmt.Errorf("write leaderboard.json: %w", err)
 	}
@@ -195,8 +216,6 @@ func generateLeaderboardJSON() error {
 	fmt.Printf("✅ Generated leaderboard.json with %d contributors → %s\n", len(contributors), leaderboardJSON)
 	return nil
 }
-
-
 
 // ---------------------- Core Build Steps ----------------------
 
@@ -261,7 +280,8 @@ func renderSitemap(categories map[string]Category) error {
 // ---------------------- Contributors Page ----------------------
 
 func renderContributorsPage() error {
-	data, err := os.ReadFile("leaderboard.json")
+	// Read leaderboard JSON
+	data, err := os.ReadFile(leaderboardJSON)
 	if err != nil {
 		return fmt.Errorf("read leaderboard.json: %w", err)
 	}
@@ -271,14 +291,45 @@ func renderContributorsPage() error {
 		return fmt.Errorf("parse leaderboard.json: %w", err)
 	}
 
-	if len(contributors) == 0 {
-		return fmt.Errorf("no contributors found")
+	if contributors == nil {
+		contributors = []Contributor{}
 	}
 
+	// Split contributors into sections
+	top3 := contributors
+	if len(top3) > 3 {
+		top3 = contributors[:3]
+	}
+
+	top10 := []Contributor{}
+	if len(contributors) > 3 {
+		if len(contributors) > 13 {
+			top10 = contributors[3:13]
+		} else {
+			top10 = contributors[3:]
+		}
+	}
+
+	top100 := []Contributor{}
+	if len(contributors) > 13 {
+		if len(contributors) > 113 {
+			top100 = contributors[13:113]
+		} else {
+			top100 = contributors[13:]
+		}
+	}
+
+	others := []Contributor{}
+	if len(contributors) > 113 {
+		others = contributors[113:]
+	}
+
+	// Ensure output directory exists
 	if err := mkdirAll(outContributorsDir); err != nil {
 		return fmt.Errorf("create contributors dir: %w", err)
 	}
 
+	// Create HTML file
 	outFile := filepath.Join(outContributorsDir, "index.html")
 	f, err := os.Create(outFile)
 	if err != nil {
@@ -288,8 +339,12 @@ func renderContributorsPage() error {
 
 	fmt.Println("Render Contributors Leaderboard →", outFile)
 
+	// Execute template
 	return tpl.Lookup("contributors.tmpl.html").Execute(f, map[string]interface{}{
-		"Contributors": contributors,
+		"Top3":    top3,
+		"Top10":   top10,
+		"Top100":  top100,
+		"Others":  others,
 	})
 }
 
@@ -409,9 +464,13 @@ func renderIndex(srcFilename, outFilename string) error {
 		return err
 	}
 	fmt.Printf("Write Index file: %s\n", outIndexFile)
+
+	// Pass an empty Contributors slice to avoid template panics
 	data := map[string]interface{}{
-		"Body": template2.HTML(body),
+		"Body":         template2.HTML(body),
+		"Contributors": []Contributor{},
 	}
+
 	if err := tpl.Lookup("index.tmpl.html").Execute(f, data); err != nil {
 		return err
 	}
