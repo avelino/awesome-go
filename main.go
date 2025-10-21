@@ -137,32 +137,66 @@ func buildStaticSite() error {
 
 // ---------------------- Generate Leaderboard JSON ----------------------
 
+// ---------------------- Generate Leaderboard JSON ----------------------
+const leaderboardJSON = outDir + "leaderboard.json"
+
 func generateLeaderboardJSON() error {
 	out, err := exec.Command("git", "shortlog", "-sne").Output()
 	if err != nil {
-		return err
+		return fmt.Errorf("git shortlog failed: %w", err)
 	}
 
 	var contributors []Contributor
-	for _, line := range strings.Split(string(out), "\n") {
+	lines := strings.Split(string(out), "\n")
+	for _, line := range lines {
 		line = strings.TrimSpace(line)
 		if line == "" {
 			continue
 		}
-		parts := strings.Fields(line)
-		count, _ := strconv.Atoi(parts[0])
-		login := strings.Join(parts[1:len(parts)-1], " ")
+
+		fields := strings.Fields(line)
+		if len(fields) < 2 {
+			continue
+		}
+
+		count, err := strconv.Atoi(fields[0])
+		if err != nil {
+			continue
+		}
+
+		nameEmail := strings.Join(fields[1:], " ")
+		emailStart := strings.LastIndex(nameEmail, "<")
+		login := strings.TrimSpace(nameEmail)
+		if emailStart != -1 {
+			login = strings.TrimSpace(nameEmail[:emailStart])
+		}
+
 		contributors = append(contributors, Contributor{
 			Login:         login,
-			HTMLURL:       "", // Optionally populate GitHub profile
-			AvatarURL:     "", // Optionally populate avatar
+			HTMLURL:       "", // Optional: can be populated via GitHub API
+			AvatarURL:     "", // Optional: can be populated via GitHub API
 			Contributions: count,
 		})
 	}
 
-	data, _ := json.MarshalIndent(contributors, "", "  ")
-	return os.WriteFile("leaderboard.json", data, 0644)
+	if len(contributors) == 0 {
+		return errors.New("no contributors found in git history")
+	}
+
+	data, err := json.MarshalIndent(contributors, "", "  ")
+	if err != nil {
+		return fmt.Errorf("marshal leaderboard.json: %w", err)
+	}
+
+	if err := os.WriteFile(leaderboardJSON, data, 0644); err != nil {
+		return fmt.Errorf("write leaderboard.json: %w", err)
+	}
+
+	fmt.Printf("✅ Generated leaderboard.json with %d contributors → %s\n", len(contributors), leaderboardJSON)
+	return nil
 }
+
+
 
 // ---------------------- Core Build Steps ----------------------
 
