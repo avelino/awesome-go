@@ -24,6 +24,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node .github/scripts/check-quality.js
+      - name: Debug quality check results
+        if: always()
+        run: |
+          echo "=== Quality Check Results ==="
+          echo "FAIL: ${{ steps.check.outputs.fail }}"
+          echo "LABELS: ${{ steps.check.outputs.labels }}"
+          echo "=== Quality Check Comment ==="
+          echo "${{ steps.check.outputs.comment }}"
+          echo "=== End Debug Output ==="
       - name: Post quality report comment
         uses: marocchino/sticky-pull-request-comment@v2
         with:
@@ -39,4 +48,5 @@ jobs:
         if: ${{ steps.check.outputs.fail == 'true' }}
         run: |
           echo "Critical quality checks failed."
+          echo "See debug output above for details."
           exit 1

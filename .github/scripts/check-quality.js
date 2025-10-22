@@ -14,6 +14,7 @@
 
 const fs = require('fs');
 const https = require('https');
+const core = require('@actions/core');
 
 const GITHUB_OUTPUT = process.env.GITHUB_OUTPUT;
 
@@ -238,8 +239,21 @@ async function checkCoverage(url) {
  * @param {string} value - The output value; written between the heredoc delimiters.
  */
 function setOutput(name, value) {
-  if (!GITHUB_OUTPUT) return;
-  fs.appendFileSync(GITHUB_OUTPUT, `${name}<<EOF\n${value}\nEOF\n`);
+  // Use @actions/core for reliable output setting
+  try {
+    core.setOutput(name, value);
+  } catch (e) {
+    console.warn(`Failed to set output via @actions/core: ${e.message}`);
+  }
+  
+  // Fallback to GITHUB_OUTPUT for older runners
+  if (GITHUB_OUTPUT) {
+    try {
+      fs.appendFileSync(GITHUB_OUTPUT, `${name}<<EOF\n${value}\nEOF\n`);
+    } catch (e) {
+      console.warn(`Failed to write to GITHUB_OUTPUT: ${e.message}`);
+    }
+  }
 }
 
 /**
@@ -267,37 +281,72 @@ async function main() {
   if (!repo) {
     results.push('- Repo link: missing');
     criticalFail = true;
+    console.log('❌ REPO CHECK FAILED: Missing repo link in PR body');
   } else {
     const r = await checkGithubRepo(repo);
-    if (!r.ok) { results.push(`- Repo: FAIL (${r.reason || 'unknown'})`); criticalFail = true; }
-    else { results.push('- Repo: OK'); repoOk = true; }
+    if (!r.ok) { 
+      results.push(`- Repo: FAIL (${r.reason || 'unknown'})`); 
+      criticalFail = true; 
+      console.log(`❌ REPO CHECK FAILED: ${r.reason || 'unknown'}`);
+    }
+    else { 
+      results.push('- Repo: OK'); 
+      repoOk = true; 
+      console.log('✅ REPO CHECK PASSED');
+    }
   }
 
   if (!pkg) {
     results.push('- pkg.go.dev: missing');
     criticalFail = true;
+    console.log('❌ PKG.GO.DEV CHECK FAILED: Missing pkg.go.dev link in PR body');
   } else {
     const r = await checkPkgGoDev(pkg);
-    if (!r.ok) { results.push('- pkg.go.dev: FAIL (unreachable)'); criticalFail = true; }
-    else { results.push('- pkg.go.dev: OK'); pkgOk = true; }
+    if (!r.ok) { 
+      results.push('- pkg.go.dev: FAIL (unreachable)'); 
+      criticalFail = true; 
+      console.log('❌ PKG.GO.DEV CHECK FAILED: URL unreachable');
+    }
+    else { 
+      results.push('- pkg.go.dev: OK'); 
+      pkgOk = true; 
+      console.log('✅ PKG.GO.DEV CHECK PASSED');
+    }
   }
 
   if (!gorep) {
     results.push('- goreportcard: missing');
     criticalFail = true;
+    console.log('❌ GOREPORTCARD CHECK FAILED: Missing goreportcard link in PR body');
   } else {
     const r = await checkGoReportCard(gorep);
-    if (!r.ok) { results.push(`- goreportcard: FAIL (${r.reason || r.grade || 'unreachable/low grade'})`); criticalFail = true; }
-    else { results.push(`- goreportcard: OK${r.grade ? ` (grade ${r.grade})` : ''}`); gorepOk = true; }
+    if (!r.ok) { 
+      results.push(`- goreportcard: FAIL (${r.reason || r.grade || 'unreachable/low grade'})`); 
+      criticalFail = true; 
+      console.log(`❌ GOREPORTCARD CHECK FAILED: ${r.reason || r.grade || 'unreachable/low grade'}`);
+    }
+    else { 
+      results.push(`- goreportcard: OK${r.grade ? ` (grade ${r.grade})` : ''}`); 
+      gorepOk = true; 
+      console.log(`✅ GOREPORTCARD CHECK PASSED: ${r.grade ? `Grade ${r.grade}` : 'OK'}`);
+    }
   }
 
   let coverageOk = false;
   if (!coverage) {
     results.push('- coverage: missing');
+    console.log('⚠️  COVERAGE CHECK: Missing coverage link (optional)');
   } else {
     const r = await checkCoverage(coverage);
-    if (!r.ok) { results.push('- coverage: FAIL (unreachable)'); }
-    else { results.push('- coverage: OK'); coverageOk = true; }
+    if (!r.ok) { 
+      results.push('- coverage: FAIL (unreachable)'); 
+      console.log('❌ COVERAGE CHECK FAILED: URL unreachable');
+    }
+    else { 
+      results.push('- coverage: OK'); 
+      coverageOk = true; 
+      console.log('✅ COVERAGE CHECK PASSED');
+    }
   }
 
   const header = 'Automated Quality Checks (from CONTRIBUTING minimum standards)';
@@ -313,16 +362,43 @@ async function main() {
   if (criticalFail) labels.push('quality:fail');
   if (!criticalFail && repoOk && pkgOk && gorepOk) labels.push('quality:ok');
 
+  // Log final results for debugging
+  console.log('🎯 FINAL QUALITY CHECK RESULTS:');
+  console.log(`   Overall Status: ${criticalFail ? '❌ FAILED' : '✅ PASSED'}`);
+  console.log(`   Missing Info: ${(!repo || !pkg || !gorep) ? 'YES' : 'NO'}`);
+  console.log(`   Coverage: ${coverageOk ? 'OK' : 'MISSING/FAILED'}`);
+  console.log(`   Labels: ${JSON.stringify(labels)}`);
+
   setOutput('comment', comment);
   setOutput('fail', criticalFail ? 'true' : 'false');
   setOutput('labels', JSON.stringify(labels));
 }
 
 main().catch((e) => {
+  console.error('💥 QUALITY CHECK SCRIPT CRASHED:', e.message);
+  console.error('📄 Stack trace:', e.stack);
+  
+  const crashComment = `## 💥 Quality Check Error
+
+The quality check script encountered an error:
+
+**Error:** ${e.message}
+
+**Stack trace:**
+\`\`\`
+${e.stack}
+\`\`\`
+
+Please review the script or contact maintainers.`;
+
   const msg = `Quality checks failed to run: ${e?.message || e}`;
+  console.log('🔍 QUALITY CHECK FAILED - Reason: Script crashed with error');
+  console.log('📝 Error details written to outputs for workflow');
+  
   if (GITHUB_OUTPUT) {
-    fs.appendFileSync(GITHUB_OUTPUT, `comment<<EOF\n${msg}\nEOF\n`);
+    fs.appendFileSync(GITHUB_OUTPUT, `comment<<EOF\n${crashComment}\nEOF\n`);
     fs.appendFileSync(GITHUB_OUTPUT, `fail<<EOF\ntrue\nEOF\n`);
+    fs.appendFileSync(GITHUB_OUTPUT, `labels<<EOF\n["quality-check-error"]\nEOF\n`);
   }
   process.exitCode = 0; // Do not crash the job here; let the fail step handle it
 });
