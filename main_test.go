@@ -395,8 +395,8 @@ func TestTagValidationEdgeCases(t *testing.T) {
 		},
 		{
 			name:        "Type signatures in description should be ignored",
-			description: "project-name [lib] - Function signature: func([string]interface{}) [error].",
-			shouldPass:  true,
+                        shouldPass:  false,
+                        reason:      "Without ' - ' separator, [error] is letters-only but invalid tag",
 			reason:      "Type signatures in description (after ' - ') should be ignored",
 		},
 		{
@@ -408,8 +408,8 @@ func TestTagValidationEdgeCases(t *testing.T) {
 		{
 			name:        "No tag separator",
 			description: "project-name [lib] [active] Description without separator [.go] [error]",
-			shouldPass:  true,
-			reason:      "Without ' - ' separator, entire text is tag zone, but non-letters ignored",
+                        shouldPass:  false,
+                        reason:      "Without ' - ' separator, [error] is letters-only but invalid tag",
 		},
 	}
 

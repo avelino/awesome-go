@@ -1,0 +1,19 @@
+{
+  "name": "awesome-go-quality-checks",
+  "version": "1.0.0",
+  "description": "Quality check scripts for awesome-go repository",
+  "main": ".github/scripts/check-quality.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.1"
+  },
+  "keywords": [
+    "awesome-go",
+    "quality-check",
+    "github-actions"
+  ],
+  "author": "awesome-go maintainers",
+  "license": "MIT"
+}
