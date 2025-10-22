@@ -325,10 +325,3 @@ Also has links.
 		t.Error("Empty Category should be skipped")
 	}
 }
-
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}
