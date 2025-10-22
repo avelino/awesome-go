@@ -34,6 +34,9 @@ type Category struct {
 	Links       []Link
 }
 
+// Sentinel errors
+var errCategoryNoLinks = errors.New("category does not contain links")
+
 // Source files
 const readmePath = "README.md"
 
@@ -220,7 +223,7 @@ func extractCategories(doc *goquery.Document) (map[string]Category, error) {
 
 					category, err := extractCategory(doc, selector)
 					if err != nil {
-						if err.Error() == "build a category: category does not contain links" {
+						if errors.Is(err, errCategoryNoLinks) {
 							return true
 						}
 						rootErr = fmt.Errorf("extract category: %w", err)
@@ -266,7 +269,7 @@ func extractCategory(doc *goquery.Document, selector string) (*Category, error) 
 
 		// FIXME: In this case we would have an empty category in main index.html with link to 404 page.
 		if len(links) == 0 {
-			err = errors.New("category does not contain links")
+			err = errCategoryNoLinks
 			return false
 		}
 
