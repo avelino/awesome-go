@@ -288,8 +288,11 @@ func extractCategories(doc *goquery.Document) (map[string]Category, error) {
 
 					category, err := extractCategory(doc, selector)
 					if err != nil {
-						// Skip entries without links (e.g. #contents, #awesome-go)
-						return true
+						if err.Error() == "build a category: category does not contain links" {
+							return true
+						}
+						rootErr = fmt.Errorf("extract category: %w", err)
+						return false
 					}
 
 					categories[selector] = *category
@@ -313,10 +316,7 @@ func extractCategory(doc *goquery.Document, selector string) (*Category, error) 
 
 	doc.Find(selector).EachWithBreak(func(_ int, selCatHeader *goquery.Selection) bool {
 		selDescr := selCatHeader.NextFiltered("p")
-		// FIXME: bug. this would select links from all neighboring
-		// sub-categories until the next category. To prevent this we should
-		// find only first ul
-		ul := selCatHeader.NextFilteredUntil("ul", "h2")
+		ul := selCatHeader.NextFilteredUntil("ul", "h2, h3")
 
 		var links []Link
 		ul.Find("li").Each(func(_ int, selLi *goquery.Selection) {
