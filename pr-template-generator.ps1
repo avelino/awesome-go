@@ -1,15 +1,21 @@
 ﻿function Generate-PRTemplate {
     param(
         [Parameter(Mandatory=$true)]
+        [ValidateNotNullOrEmpty()]
+        [ValidatePattern('^[a-zA-Z0-9]([a-zA-Z0-9-]*[a-zA-Z0-9])?$')]
         [string]$RepoOwner,
         
         [Parameter(Mandatory=$true)]
+        [ValidateNotNullOrEmpty()]
+        [ValidatePattern('^[a-zA-Z0-9._-]+$')]
         [string]$RepoName,
         
         [Parameter(Mandatory=$true)]
+        [ValidateNotNullOrEmpty()]
         [string]$PackageDescription,
         
-        [string]$CoverageService = "coveralls" # or "codecov"
+        [ValidateSet("coveralls", "codecov")]
+        [string]$CoverageService = "coveralls"
     )
     
     $template = @"
@@ -39,10 +45,9 @@ goreportcard.com: https://goreportcard.com/report/github.com/$RepoOwner/$RepoNam
     return $template
 }
 
-# Example usage:
 Write-Host " PR Template Generator Created!" -ForegroundColor Green
 Write-Host ""
-Write-Host "Usage example:" -ForegroundColor Yellow
-Write-Host 'Generate-PRTemplate -RepoOwner "username" -RepoName "package-name" -PackageDescription "Brief description of what the package does"' -ForegroundColor Cyan
-Write-Host ""
-Write-Host "This will generate a properly formatted PR body with all required links." -ForegroundColor White
+Write-Host "Parameter validation:" -ForegroundColor Magenta
+Write-Host "- RepoOwner: Must be valid GitHub username (alphanumeric, may contain hyphens)" -ForegroundColor Gray
+Write-Host "- RepoName: Must be valid repository name (alphanumeric, dots, underscores, hyphens)" -ForegroundColor Gray
+Write-Host "- CoverageService: Must be 'coveralls' or 'codecov'" -ForegroundColor Gray
