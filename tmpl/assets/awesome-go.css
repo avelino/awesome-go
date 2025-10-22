@@ -118,3 +118,61 @@ h1 > a img {
 td {
   padding: 6px;
 }
+
+/* Tag Styles */
+.tag {
+    display: inline-block;
+    padding: 2px 6px;
+    margin: 0 2px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+}
+
+/* Type Tags */
+.tag-lib {
+    background-color: #2196F3; /* Blue for libraries */
+}
+
+.tag-app {
+    background-color: #FF9800; /* Orange for applications */
+}
+
+/* Status Tags */
+.tag-active {
+    background-color: #4CAF50; /* Green for active */
+}
+
+.tag-stalled {
+    background-color: #FFC107; /* Yellow for stalled */
+    color: #333; /* Dark text for better contrast on yellow */
+}
+
+.tag-unmaintained {
+    background-color: #F44336; /* Red for unmaintained */
+}
+
+.tag-default {
+    background-color: #9E9E9E; /* Gray for unknown */
+}
+
+.tags-container {
+    margin-left: 8px;
+    display: inline;
+}
+
+/* Responsive tag styling */
+@media (max-width: 768px) {
+    .tag {
+        font-size: 10px;
+        padding: 1px 4px;
+    }
+    
+    .tags-container {
+        margin-left: 4px;
+    }
+}

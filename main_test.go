@@ -133,3 +133,103 @@ func checkAlphabeticOrder(t *testing.T, s *goquery.Selection) {
 		t.Logf("expected order is:\n%s", strings.Join(sorted, "\n"))
 	}
 }
+
+// TestTagValidation ensures only valid tags are used
+func TestTagValidation(t *testing.T) {
+	validTypeTags := map[string]bool{"lib": true, "app": true}
+	validStatusTags := map[string]bool{"active": true, "stalled": true, "unmaintained": true}
+
+	doc := goqueryFromReadme(t)
+	doc.Find("body li > a:first-child").Each(func(_ int, s *goquery.Selection) {
+		parent := s.Parent()
+		description := parent.Text()
+
+		// Check for invalid tags
+		tagPattern := regexp.MustCompile(`\[([^\]]+)\]`)
+		matches := tagPattern.FindAllStringSubmatch(description, -1)
+
+		for _, match := range matches {
+			tag := match[1]
+			if !validTypeTags[tag] && !validStatusTags[tag] {
+				t.Errorf("Invalid tag [%s] found in: %s", tag, description)
+			}
+		}
+	})
+}
+
+// TestTagParsing tests the tag parsing functionality
+func TestTagParsing(t *testing.T) {
+	testCases := []struct {
+		name         string
+		input        string
+		expectedTags int
+		expectedDesc string
+	}{
+		{
+			name:         "Library with active status",
+			input:        "Some description [lib] [active] with tags.",
+			expectedTags: 2,
+			expectedDesc: "Some description  with tags.",
+		},
+		{
+			name:         "Application with stalled status",
+			input:        "App description [app] [stalled].",
+			expectedTags: 2,
+			expectedDesc: "App description .",
+		},
+		{
+			name:         "No tags",
+			input:        "No tags here.",
+			expectedTags: 0,
+			expectedDesc: "No tags here.",
+		},
+		{
+			name:         "Only type tag",
+			input:        "Library [lib] without status.",
+			expectedTags: 1,
+			expectedDesc: "Library  without status.",
+		},
+		{
+			name:         "Only status tag",
+			input:        "Project [unmaintained] description.",
+			expectedTags: 1,
+			expectedDesc: "Project  description.",
+		},
+	}
+
+	for _, tc := range testCases {
+		t.Run(tc.name, func(t *testing.T) {
+			tags, desc := parseTagsFromDescription(tc.input)
+			if len(tags) != tc.expectedTags {
+				t.Errorf("Expected %d tags, got %d for input: %s", tc.expectedTags, len(tags), tc.input)
+			}
+			if desc != tc.expectedDesc {
+				t.Errorf("Expected description '%s', got '%s'", tc.expectedDesc, desc)
+			}
+		})
+	}
+}
+
+// TestTagColorAssignment tests proper color class assignment
+func TestTagColorAssignment(t *testing.T) {
+	testCases := []struct {
+		category string
+		value    string
+		expected string
+	}{
+		{"type", "lib", "tag-lib"},
+		{"type", "app", "tag-app"},
+		{"status", "active", "tag-active"},
+		{"status", "stalled", "tag-stalled"},
+		{"status", "unmaintained", "tag-unmaintained"},
+		{"invalid", "test", "tag-default"},
+	}
+
+	for _, tc := range testCases {
+		result := getTagColor(tc.category, tc.value)
+		if result != tc.expected {
+			t.Errorf("Expected color class '%s' for category '%s' value '%s', got '%s'",
+				tc.expected, tc.category, tc.value, result)
+		}
+	}
+}

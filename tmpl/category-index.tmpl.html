@@ -76,7 +76,17 @@
                 <a href=
                 "{{.URL}}?utm_campaign=awesomego&amp;utm_medium=referral&amp;utm_source=awesomego"
                 alt="Go to {{.Title}} link" title=
-                "Go to {{.Title}} link">{{.Description}}</a>
+                "Go to {{.Title}} link">{{.Title}}</a>
+                {{if .Tags}}
+                <span class="tags-container">
+                    {{range .Tags}}
+                    <span class="tag {{.Color}}" title="{{if .Type}}Type: {{.Type}}{{end}}{{if .Status}}Status: {{.Status}}{{end}}">
+                        {{if .Type}}{{.Type}}{{end}}{{if .Status}}{{.Status}}{{end}}
+                    </span>
+                    {{end}}
+                </span>
+                {{end}}
+                {{if .Description}} - {{.Description}}{{end}}
             </li>{{end}}
         </ul><a href="https://bit.ly/awesome-go-netlify"><img src=
         "https://www.netlify.com/img/global/badges/netlify-dark.svg"

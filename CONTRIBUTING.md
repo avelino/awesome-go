@@ -148,6 +148,49 @@ goreportcard.com: https://goreportcard.com/report/github.com/org/project
 Coverage: https://app.codecov.io/gh/org/project
 ```
 
+## Project Tagging System
+
+To help users distinguish between different types of projects and their maintenance status, you can optionally add tags to project descriptions.
+
+### Available Tags
+
+#### Type Tags
+- `[lib]` - For libraries, packages, and frameworks
+- `[app]` - For standalone applications, tools, and command-line utilities
+
+#### Status Tags
+- `[active]` - Projects with recent commits (within the last year)
+- `[stalled]` - Projects with no commits for more than 1 year but still functional
+- `[unmaintained]` - Deprecated, archived, or no longer maintained projects
+
+### Tag Usage Examples
+
+**Good Examples:**
+```md
+- [cobra](https://github.com/spf13/cobra) [lib] [active] - A Commander for modern Go CLI interactions.
+- [hugo](https://github.com/gohugoio/hugo) [app] [active] - Fast and Modern Static Website Engine.
+- [gox](https://github.com/mitchellh/gox) [app] [stalled] - Dead simple, no frills Go cross compile tool.
+```
+
+### Guidelines
+
+- Tags are optional but encouraged for new entries
+- Place tags immediately after the project link, before the description
+- Use square brackets with lowercase text
+- Tags will be visually displayed as colored badges on the website
+- Only use approved tag values (validation enforced in CI)
+- Contributors should verify project status before adding status tags
+
+### Tag Validation
+
+- All tags are validated during continuous integration
+- Invalid tags will cause build failures
+- Maintainers may update status tags during periodic reviews
+
+### Backwards Compatibility
+
+Existing entries without tags will continue to work normally. The tagging system is additive and non-breaking.
+
 ## Congrats, your project got accepted - what now
 
 You are an outstanding project now! Feel encouraged to tell others about it by adding one of these badges:

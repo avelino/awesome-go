@@ -10,6 +10,8 @@ import (
 	"net/url"
 	"os"
 	"path/filepath"
+	"regexp"
+	"strings"
 	"text/template"
 
 	"github.com/avelino/awesome-go/pkg/markdown"
@@ -19,11 +21,19 @@ import (
 	"github.com/avelino/awesome-go/pkg/slug"
 )
 
+// Tag represents a project tag with type, status, and display properties
+type Tag struct {
+	Type   string `json:"type"`   // "lib", "app"
+	Status string `json:"status"` // "active", "stalled", "unmaintained"
+	Color  string `json:"color"`  // CSS class for styling
+}
+
 // Link contains info about awesome url
 type Link struct {
 	Title       string
 	URL         string
 	Description string
+	Tags        []Tag // Add tag support
 }
 
 // Category describe link category
@@ -48,6 +58,58 @@ var staticFiles = []string{
 var tplFs embed.FS
 
 var tpl = template.Must(template.ParseFS(tplFs, "tmpl/*.tmpl.html", "tmpl/*.tmpl.xml"))
+
+// parseTagsFromDescription extracts tags from description and returns clean description
+func parseTagsFromDescription(description string) ([]Tag, string) {
+	var tags []Tag
+	cleanDescription := description
+
+	// Parse type tags
+	typePattern := regexp.MustCompile(`\[(lib|app)\]`)
+	typeMatches := typePattern.FindAllStringSubmatch(description, -1)
+	for _, match := range typeMatches {
+		tags = append(tags, Tag{
+			Type:  match[1],
+			Color: getTagColor("type", match[1]),
+		})
+		cleanDescription = strings.ReplaceAll(cleanDescription, match[0], "")
+	}
+
+	// Parse status tags
+	statusPattern := regexp.MustCompile(`\[(active|stalled|unmaintained)\]`)
+	statusMatches := statusPattern.FindAllStringSubmatch(description, -1)
+	for _, match := range statusMatches {
+		tags = append(tags, Tag{
+			Status: match[1],
+			Color:  getTagColor("status", match[1]),
+		})
+		cleanDescription = strings.ReplaceAll(cleanDescription, match[0], "")
+	}
+
+	return tags, strings.TrimSpace(cleanDescription)
+}
+
+// getTagColor returns CSS class for tag styling
+func getTagColor(category, value string) string {
+	colorMap := map[string]map[string]string{
+		"type": {
+			"lib": "tag-lib",
+			"app": "tag-app",
+		},
+		"status": {
+			"active":      "tag-active",
+			"stalled":     "tag-stalled",
+			"unmaintained": "tag-unmaintained",
+		},
+	}
+
+	if colors, exists := colorMap[category]; exists {
+		if color, exists := colors[value]; exists {
+			return color
+		}
+	}
+	return "tag-default"
+}
 
 // Output files
 const outDir = "out/" // NOTE: trailing slash is required
@@ -251,12 +313,21 @@ func extractCategory(doc *goquery.Document, selector string) (*Category, error) 
 		ul.Find("li").Each(func(_ int, selLi *goquery.Selection) {
 			selLink := selLi.Find("a")
 			url, _ := selLink.Attr("href")
+
+			// Parse tags from description
+			fullText := selLi.Text()
+			titleAndDesc := strings.TrimPrefix(fullText, selLink.Text())
+			titleAndDesc = strings.TrimPrefix(titleAndDesc, " - ")
+
+			tags, cleanDescription := parseTagsFromDescription(titleAndDesc)
+
 			link := Link{
 				Title: selLink.Text(),
 				// FIXME(kazhuravlev): Title contains only title but
 				// 	description contains Title + description
-				Description: selLi.Text(),
+				Description: cleanDescription,
 				URL:         url,
+				Tags:        tags, // Add parsed tags
 			}
 			links = append(links, link)
 		})
