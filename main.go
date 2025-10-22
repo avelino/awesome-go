@@ -59,7 +59,7 @@ var tplFs embed.FS
 
 var tpl = template.Must(template.ParseFS(tplFs, "tmpl/*.tmpl.html", "tmpl/*.tmpl.xml"))
 
-// parseTagsFromDescription extracts tags from description and returns clean description
+// parseTagsFromDescription extracts tags from description and returns (tags, cleanDescription)
 func parseTagsFromDescription(description string) ([]Tag, string) {
 	var tags []Tag
 	cleanDescription := description
@@ -86,7 +86,28 @@ func parseTagsFromDescription(description string) ([]Tag, string) {
 		cleanDescription = strings.ReplaceAll(cleanDescription, match[0], "")
 	}
 
-	return tags, strings.TrimSpace(cleanDescription)
+	// Clean up the description after tag removal
+	cleanDescription = cleanupDescription(cleanDescription)
+
+	return tags, cleanDescription
+}
+
+// cleanupDescription normalizes whitespace and removes stray separators after tag removal
+func cleanupDescription(s string) string {
+	// Remove any leading hyphen with surrounding spaces that may remain after tag removal
+	leadingHyphenPattern := regexp.MustCompile(`^\s*-\s*`)
+	s = leadingHyphenPattern.ReplaceAllString(s, "")
+	
+	// Collapse consecutive spaces into single spaces
+	spacePattern := regexp.MustCompile(`\s+`)
+	s = spacePattern.ReplaceAllString(s, " ")
+	
+	// Remove spaces before punctuation
+	punctPattern := regexp.MustCompile(`\s+([.,:;!?])`)
+	s = punctPattern.ReplaceAllString(s, "$1")
+	
+	// Trim leading and trailing spaces
+	return strings.TrimSpace(s)
 }
 
 // getTagColor returns CSS class for tag styling
@@ -317,7 +338,6 @@ func extractCategory(doc *goquery.Document, selector string) (*Category, error) 
 			// Parse tags from description
 			fullText := selLi.Text()
 			titleAndDesc := strings.TrimPrefix(fullText, selLink.Text())
-			titleAndDesc = strings.TrimPrefix(titleAndDesc, " - ")
 
 			tags, cleanDescription := parseTagsFromDescription(titleAndDesc)
 
