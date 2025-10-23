@@ -3272,7 +3272,8 @@ _Plugin for text editors and IDEs._
 
 ## Go Tools
 
-- [decouple](https://github.com/bobg/decouple) - Find “overspecified” function parameters that could be generalized with interface types.
+- [Dash](https://kapeli.com/dash) - Offline API documentation browser for macOS with instant search for Go docs and 200+ other frameworks.
+- [decouple](https://github.com/bobg/decouple) - Find "overspecified" function parameters that could be generalized with interface types.
 - [docs](https://github.com/go-oas/docs) - Automatically generate RESTful API documentation for GO projects - aligned with Open API Specification standard.
 - [go-callvis](https://github.com/TrueFurby/go-callvis) - Visualize call graph of your Go program using dot format.
 - [go-size-analyzer](https://github.com/Zxilly/go-size-analyzer) - Analyze and visualize the size of dependencies in compiled Golang binaries, providing insight into their impact on the final build.
