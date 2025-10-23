@@ -239,7 +239,13 @@ async function checkCoverage(url) {
  */
 function setOutput(name, value) {
   if (!GITHUB_OUTPUT) return;
-  fs.appendFileSync(GITHUB_OUTPUT, `${name}<<EOF\n${value}\nEOF\n`);
+  
+  // support multiline values
+  if (/\n/.test(String(value))) {
+    fs.appendFileSync(GITHUB_OUTPUT, `${name}<<EOF\n${value}\nEOF\n`);
+  } else {
+    fs.appendFileSync(GITHUB_OUTPUT, `${name}=${value}\n`);
+  }
 }
 
 /**
@@ -255,10 +261,10 @@ function setOutput(name, value) {
 async function main() {
   const event = readEvent();
   const body = (event.pull_request && event.pull_request.body) || '';
-  const repo = capture(body, /forge\s+link[^:]*:\s*(https?:\/\/(?:github\.com|gitlab\.com|bitbucket\.org)\/\S+)/i);
+  const repo = capture(body, /(?:forge\s+link|repo\s+link)[^:]*:\s*(https?:\/\/(?:github\.com|gitlab\.com|bitbucket\.org)\/\S+)/i);
   const pkg = capture(body, /pkg\.go\.dev:\s*(https?:\/\/pkg\.go\.dev\/\S+)/i);
-  const gorep = capture(body, /goreportcard\.com:\s*(https?:\/\/goreportcard\.com\/\S+)/i);
-  const coverage = capture(body, /coverage[^:]*:\s*(https?:\/\/(?:coveralls\.io|codecov\.io)\/\S+)/i);
+  const gorep = capture(body, /goreport(?:card)?(?:\.com)?:\s*(https?:\/\/goreportcard\.com\/\S+)/i);
+  const coverage = capture(body, /coverage[^:]*:\s*(https?:\/\/(?:coveralls\.io|codecov\.io)\/\S+|not\s+available)/i);
 
   const results = [];
   let criticalFail = false;
@@ -294,6 +300,9 @@ async function main() {
   let coverageOk = false;
   if (!coverage) {
     results.push('- coverage: missing');
+  } else if (/not\s+available/i.test(coverage)) {
+    results.push('- coverage: Not available (acceptable)');
+    coverageOk = true;
   } else {
     const r = await checkCoverage(coverage);
     if (!r.ok) { results.push('- coverage: FAIL (unreachable)'); }
