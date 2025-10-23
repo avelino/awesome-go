@@ -1,4 +1,8 @@
-# Awesome Go
+In README.md around lines 2503 to 2506, the list of Testing Frameworks is out of
+alphabetical order because the `tparse` line appears before `testza`; move the
+`tparse` bullet so it comes immediately after the `testza` bullet (preserving
+the same markdown bullet format and spacing) so the sequence is alphabetically
+sorted.# Awesome Go
 
 <a href="https://awesome-go.com/"><img align="right" src="https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png" alt="awesome-go" title="awesome-go" /></a>
 
@@ -2500,8 +2504,8 @@ _Libraries for testing codebases and generating test data._
 - [testfixtures](https://github.com/go-testfixtures/testfixtures) - A helper for Rails' like test fixtures to test database applications.
 - [Testify](https://github.com/stretchr/testify) - Sacred extension to the standard go testing package.
 - [testsql](https://github.com/zhulongcheng/testsql) - Generate test data from SQL files before testing and clear it after finished.
-- [tparse](https://github.com/mfridman/tparse) - CLI tool for parsing and pretty-printing go test output.
 - [testza](https://github.com/MarvinJWendt/testza) - Full-featured test framework with nice colorized output.
+- [tparse](https://github.com/mfridman/tparse) - CLI tool for parsing and pretty-printing go test output.
 - [trial](https://github.com/jgroeneveld/trial) - Quick and easy extendable assertions without introducing much boilerplate.
 - [Tt](https://github.com/vcaesar/tt) - Simple and colorful test tools.
 - [wstest](https://github.com/posener/wstest) - Websocket client for unit-testing a websocket http.Handler.
