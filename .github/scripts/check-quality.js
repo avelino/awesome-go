@@ -47,6 +47,40 @@ function capture(body, regex) {
 }
 
 /**
+ * Extracts URL from both plain and markdown link formats.
+ * Handles: "https://example.com" and "[text](https://example.com)"
+ *
+ * @param {string} body - Input text to match against.
+ * @param {RegExp} regex - Regular expression that captures the URL part.
+ * @param {RegExp} urlPattern - Pattern that the extracted URL should match.
+ * @return {string} The extracted URL, or an empty string if no match.
+ */
+function captureUrl(body, regex, urlPattern) {
+  const match = body.match(regex);
+  if (!match || !match[1]) return '';
+  
+  let captured = match[1].trim();
+  
+  // If it's a markdown link [text](url), extract just the URL
+  const markdownMatch = captured.match(/\[([^\]]*)\]\(([^)]+)\)/);
+  if (markdownMatch) {
+    captured = markdownMatch[2].trim();
+  }
+  
+  // For coverage, handle non-URL values
+  if (urlPattern.source.includes('not\\s+available') && /^(not\s+available|n\/a|none)$/i.test(captured)) {
+    return captured;
+  }
+  
+  // Validate that it contains the expected URL pattern
+  if (urlPattern.test(captured)) {
+    return captured;
+  }
+  
+  return '';
+}
+
+/**
  * Check whether a URL is reachable using an HTTP HEAD request with a GET fallback.
  *
  * Performs a HEAD request to the provided URL and:
@@ -264,10 +298,11 @@ async function main() {
   
   // Improved regex patterns with controlled permissiveness
   // Allow only whitespace, hyphens, and underscores between words and colon
-  const repo = capture(body, /(?:forge|repo)[\s\-_]*link\s*:\s*(https?:\/\/(?:github\.com|gitlab\.com|bitbucket\.org)\/\S+)/i);
-  const pkg = capture(body, /pkg\.go\.dev\s*:\s*(https?:\/\/pkg\.go\.dev\/\S+)/i);
-  const gorep = capture(body, /goreport(?:card)?(?:\.com)?\s*:\s*(https?:\/\/goreportcard\.com\/\S+)/i);
-  const coverage = capture(body, /coverage\s*:\s*(https?:\/\/(?:coveralls\.io|codecov\.io)\/\S+|not\s+available|n\/a|none)/i);
+  // Support both plain URLs and markdown links [text](url)
+  const repo = captureUrl(body, /(?:forge|repo)[\s\-_]*link\s*:\s*(.+)/i, /github\.com|gitlab\.com|bitbucket\.org/);
+  const pkg = captureUrl(body, /pkg\.go\.dev\s*:\s*(.+)/i, /pkg\.go\.dev/);
+  const gorep = captureUrl(body, /goreport(?:card)?(?:\.com)?\s*:\s*(.+)/i, /goreportcard\.com/);
+  const coverage = captureUrl(body, /coverage\s*:\s*(.+)/i, /coveralls\.io|codecov\.io|not\s+available|n\/a|none/i);
 
   const results = [];
   let criticalFail = false;
