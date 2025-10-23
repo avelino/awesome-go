@@ -42,12 +42,27 @@ type IDGenerator struct {
 	used map[string]bool
 }
 
+// ensureInit initializes the internal map if not already.
+func (g *IDGenerator) ensureInit() {
+	if g.used == nil {
+		g.used = make(map[string]bool)
+	}
+}
+
 // Generate an ID
 func (g *IDGenerator) Generate(value []byte, _ ast.NodeKind) []byte {
+	g.ensureInit()
 	return []byte(slug.Generate(string(value)))
 }
 
 // Put an ID to the list of already used IDs
 func (g *IDGenerator) Put(value []byte) {
+	g.ensureInit()
 	g.used[util.BytesToReadOnlyString(value)] = true
+}
+
+// Has checks if the given ID is already used.
+func (g *IDGenerator) Has(value []byte) bool {
+	(g *IDGenerator)
+	return g.used[util.BytesToReadOnlyString(value)]
 }
