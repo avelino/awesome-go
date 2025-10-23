@@ -261,10 +261,13 @@ function setOutput(name, value) {
 async function main() {
   const event = readEvent();
   const body = (event.pull_request && event.pull_request.body) || '';
-  const repo = capture(body, /(?:forge\s+link|repo\s+link)[^:]*:\s*(https?:\/\/(?:github\.com|gitlab\.com|bitbucket\.org)\/\S+)/i);
-  const pkg = capture(body, /pkg\.go\.dev:\s*(https?:\/\/pkg\.go\.dev\/\S+)/i);
-  const gorep = capture(body, /goreport(?:card)?(?:\.com)?:\s*(https?:\/\/goreportcard\.com\/\S+)/i);
-  const coverage = capture(body, /coverage[^:]*:\s*(https?:\/\/(?:coveralls\.io|codecov\.io)\/\S+|not\s+available)/i);
+  
+  // Improved regex patterns with controlled permissiveness
+  // Allow only whitespace, hyphens, and underscores between words and colon
+  const repo = capture(body, /(?:forge|repo)[\s\-_]*link\s*:\s*(https?:\/\/(?:github\.com|gitlab\.com|bitbucket\.org)\/\S+)/i);
+  const pkg = capture(body, /pkg\.go\.dev\s*:\s*(https?:\/\/pkg\.go\.dev\/\S+)/i);
+  const gorep = capture(body, /goreport(?:card)?(?:\.com)?\s*:\s*(https?:\/\/goreportcard\.com\/\S+)/i);
+  const coverage = capture(body, /coverage\s*:\s*(https?:\/\/(?:coveralls\.io|codecov\.io)\/\S+|not\s+available|n\/a|none)/i);
 
   const results = [];
   let criticalFail = false;
@@ -300,7 +303,7 @@ async function main() {
   let coverageOk = false;
   if (!coverage) {
     results.push('- coverage: missing');
-  } else if (/not\s+available/i.test(coverage)) {
+  } else if (/^(not\s+available|n\/a|none)$/i.test(coverage.trim())) {
     results.push('- coverage: Not available (acceptable)');
     coverageOk = true;
   } else {
