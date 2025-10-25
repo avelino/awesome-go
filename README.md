@@ -2307,7 +2307,7 @@ _Libraries that are used to help make your application more secure._
 - [Interpol](https://github.com/avahidi/interpol) - Rule-based data generator for fuzzing and penetration testing.
 - [lego](https://github.com/go-acme/lego) - Pure Go ACME client library and CLI tool (for use with Let's Encrypt).
 - [luks.go](https://github.com/anatol/luks.go) - Pure Golang library to manage LUKS partitions.
-- [meds](https://github.com/cnaize/meds) - Lock-free NFQUEUE-based firewall in Go with real-time filtering, TLS SNI/JA3 inspection, and Prometheus metrics. 
+- [meds](https://github.com/cnaize/meds) - Lock-free NFQUEUE-based firewall in Go with real-time filtering, TLS SNI/JA3 inspection, and Prometheus metrics.
 - [memguard](https://github.com/awnumar/memguard) - A pure Go library for handling sensitive values in memory.
 - [multikey](https://github.com/adrianosela/multikey) - An n-out-of-N keys encryption/decryption framework based on Shamir's Secret Sharing algorithm.
 - [nacl](https://github.com/kevinburke/nacl) - Go implementation of the NaCL set of API's.
