@@ -243,3 +243,14 @@ We don't give this name to people who are allowed to accept the PR.
 If you are a person who is constantly active in reviewing PR and contributing to the project, you will be invited by a maintainer.
 
 > **remember:** if you stop contributing with awesome-go for a long time, you will automatically be removed from the list of maintainers.
+
+### Contribution Tip for Translators
+
+If you speak another language and want to help translate or add localized lists, please:
+
+1. Create a translation file with a clear name (for example: `books-ur.md` for Urdu).
+2. Follow existing file naming conventions and add your file link to the README index.
+3. Make small, focused PRs (one translation file or update per PR).
+4. Include a short note in your PR explaining the translation language and any sources used.
+
+This helps widen accessibility for non-English readers. Thank you for helping make this list globally useful!
