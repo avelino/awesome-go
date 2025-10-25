@@ -243,3 +243,20 @@ We don't give this name to people who are allowed to accept the PR.
 If you are a person who is constantly active in reviewing PR and contributing to the project, you will be invited by a maintainer.
 
 > **remember:** if you stop contributing with awesome-go for a long time, you will automatically be removed from the list of maintainers.
+
+### Summary
+Added a short section in `CONTRIBUTING.md` suggesting how contributors can help translate documentation and guidelines for non-English users.
+
+### Type of change
+- [x] Documentation update
+- [ ] Code or algorithm addition
+- [ ] Bug fix
+- [ ] New resource
+
+### Checklist
+- [x] Follows repository contribution guidelines
+- [x] Clear and descriptive PR title
+- [x] Useful to other contributors
+
+### Notes
+This PR improves the inclusivity and accessibility of the repository by encouraging translation efforts. No code or library structure changes were made.
