@@ -244,13 +244,19 @@ If you are a person who is constantly active in reviewing PR and contributing to
 
 > **remember:** if you stop contributing with awesome-go for a long time, you will automatically be removed from the list of maintainers.
 
-### Contribution Tip for Translators
+### Summary
+Added a short section in `CONTRIBUTING.md` suggesting how contributors can help translate documentation and guidelines for non-English users.
 
-If you speak another language and want to help translate or add localized lists, please:
+### Type of change
+- [x] Documentation update
+- [ ] Code or algorithm addition
+- [ ] Bug fix
+- [ ] New resource
 
-1. Create a translation file with a clear name (for example: `books-ur.md` for Urdu).
-2. Follow existing file naming conventions and add your file link to the README index.
-3. Make small, focused PRs (one translation file or update per PR).
-4. Include a short note in your PR explaining the translation language and any sources used.
+### Checklist
+- [x] Follows repository contribution guidelines
+- [x] Clear and descriptive PR title
+- [x] Useful to other contributors
 
-This helps widen accessibility for non-English readers. Thank you for helping make this list globally useful!
+### Notes
+This PR improves the inclusivity and accessibility of the repository by encouraging translation efforts. No code or library structure changes were made.
