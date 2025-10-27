@@ -30,7 +30,7 @@ _Not every repository (project) will require every option, but most projects sho
 
 _Note that new categories can be added only when there are 3 packages or more._
 
-Packages added a long time ago might not meet the current guidelines anymore. It would be very helpful if you could check 3–5 packages above and below your submission to ensure that they also still meet the Quality Standards.
+Packages added a long time ago might not meet the current guidelines anymore. It would be very helpful if you could check 3-5 packages above and below your submission to ensure that they also still meet the Quality Standards.
 
 Please delete one of the following lines:
 
