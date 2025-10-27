@@ -1,6 +1,6 @@
 # Awesome Go
 
-> Want to propose a new Go library? **Open a pull request** and follow our [CONTRIBUTING guide](CONTRIBUTING.md#how-to-contribute).
+> Want to propose a new Go library? **Open a pull request** and follow our [Contribution Guidelines](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md#how-to-contribute).
 
 <a href="https://awesome-go.com/"><img align="right" src="https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png" alt="awesome-go" title="awesome-go" /></a>
 
