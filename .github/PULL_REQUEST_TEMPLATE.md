@@ -1,3 +1,26 @@
+## Description of changes
+Please describe the changes made in this Pull Request and why they are necessary.
+
+## Related issues
+Fixes #5826
+
+## Screenshots (if applicable)
+_Add screenshots or GIFs here to demonstrate visual changes._
+
+## Type of change
+- [ ] 🐛 Bug fix  
+- [ ] ✨ New feature  
+- [ ] 🧹 Code enhancement / refactor  
+- [ ] 📝 Documentation update  
+
+## Checklist
+- [ ] I have performed a self-review of my code  
+- [ ] I have commented my code where necessary  
+- [ ] I have updated the documentation if applicable  
+- [ ] My changes generate no new warnings  
+
+---
+
 ## We want to ensure high quality of the packages. Make sure that you've checked the boxes below before sending a pull request.
 
 - [ ] I have read the [Contribution Guidelines](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md#contribution-guidelines)
