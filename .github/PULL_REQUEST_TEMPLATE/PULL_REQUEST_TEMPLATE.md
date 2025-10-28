@@ -60,4 +60,4 @@ Please delete one of the following lines:
 - [ ] The packages around my addition still meet the Quality Standards.
 - [ ] I removed the following packages around my addition: (please give a short reason for each removal)
 
-Thanks for your PR, you're awesome! 😎
+Thanks for your PR, you're awesome! :sunglasses:
