@@ -3352,6 +3352,7 @@ _Software written in Go._
 - [k0s](https://github.com/k0sproject/k0s) - Zero Friction Kubernetes distribution.
 - [k3d](https://github.com/k3d-io/k3d) - Little helper to run CNCF's k3s in Docker.
 - [k3s](https://github.com/k3s-io/k3s) - Lightweight Kubernetes.
+- [k9s](https://github.com/derailed/k9s) - Kubernetes CLI to manage your clusters in style.
 - [k6](https://github.com/grafana/k6) - A modern load testing tool, using Go and JavaScript.
 - [kala](https://github.com/ajvb/kala) - Simplistic, modern, and performant job scheduler.
 - [kcli](https://github.com/cswank/kcli) - Command line tool for inspecting kafka topics/partitions/messages.
