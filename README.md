@@ -3026,6 +3026,7 @@ _Libraries for manipulating video._
 
 _Full stack web frameworks._
 - [MyGoLibrary](https://github.com/manikonda-anjali/mygolibrary) - A simple Go package for XYZ.
+- [MyGoLibrary](https://github.com/manikonda-anjali/mygolibrary) - A lightweight Go library for building REST APIs easily.
 
 - [Atreugo](https://github.com/savsgio/atreugo) - High performance and extensible micro web framework with zero memory allocations in hot paths.
 - [Barf](https://github.com/opensaucerer/barf) - Basically, A Remarkable Framework for building JSON-based web APIs. It is entirely unobtrusive and re-invents no wheel. It is crafted such that getting started is easy and quick while being flexible enough for more complex use cases.
