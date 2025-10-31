@@ -3354,6 +3354,7 @@ _Software written in Go._
 - [k3s](https://github.com/k3s-io/k3s) - Lightweight Kubernetes.
 - [k6](https://github.com/grafana/k6) - A modern load testing tool, using Go and JavaScript.
 - [k9s](https://github.com/derailed/k9s) - Kubernetes CLI to manage your clusters in style.
+- [kanvas](https://kanvas.new/) - Kanvas is a web-based application that allows you to create and share orchestratable diagrams of cloud native infrastructure for Kubernetes and public cloud services.
 - [kala](https://github.com/ajvb/kala) - Simplistic, modern, and performant job scheduler.
 - [kcli](https://github.com/cswank/kcli) - Command line tool for inspecting kafka topics/partitions/messages.
 - [kind](https://github.com/kubernetes-sigs/kind) - Kubernetes IN Docker - local clusters for testing Kubernetes.
@@ -3370,6 +3371,7 @@ _Software written in Go._
 - [lwc](https://github.com/timdp/lwc) - A live-updating version of the UNIX wc command.
 - [manssh](https://github.com/xwjdsh/manssh) - manssh is a command line tool for managing your ssh alias config easily.
 - [Mantil](https://github.com/mantil-io/mantil) - Go specific framework for building serverless applications on AWS that enables you to focus on pure Go code while Mantil takes care of the infrastructure.
+- [Meshery](https://github.com/meshery/meshery) - A self-service engineering platform, Meshery, is the open source, cloud native manager that enables the design and management of all Kubernetes-based infrastructure and applications (multi-cloud).
 - [minikube](https://github.com/kubernetes/minikube) - Run Kubernetes locally.
 - [Moby](https://github.com/moby/moby) - Collaborative project for the container ecosystem to assemble container-based systems.
 - [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data.
