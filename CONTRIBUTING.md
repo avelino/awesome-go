@@ -163,7 +163,7 @@ You are an outstanding project now! Feel encouraged to tell others about it by a
 
 To prevent removal from awesome-go, your project must maintain the following quality standards.
 
-- Development should be ongoing and maintain code quality. Official releases should be at least once a year if the project is ongoing.
+- Development should be ongoing and maintain code quality. Official releases should occur at least once a year if the project is ongoing.
 - Or, if development has halted because the project is mature and stable, that can be demonstrated by having no bug reports in the Issues list that are older than 6 months.
 - All links to quality reports should be to the most recent official release or current ongoing development.
 
@@ -226,7 +226,7 @@ awesome-go is an open source project (created and maintained by the community), 
 
 Now that you've read it, let's go!
 
-Go into the pull requests (PR) and look at the following aspects:
+Go through the pull requests (PRs) and review the following aspects:
 
 - **shared links in the body of the PR:** they need to be valid and follow the quality specified above
 - **check that the link added to `README.md`** is the same as the link to the repository mentioned in the body of the PR.
