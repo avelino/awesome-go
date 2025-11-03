@@ -218,7 +218,7 @@ _Libraries for building actor-based programs._
 
 _Libraries for building programs that leverage AI._
 
-- [bifrost](https://github.com/maximhq/bifrost) - Bifrost is the fastest LLM gateway, with just 11μs overhead at 5,000 RPS, making it 50x faster than LiteLLM.
+- [bifrost](https://github.com/maximhq/bifrost) - Bifrost is a high performance LLM gateway, with adaptive load balancer, cluster mode & guardrails.
 - [chromem-go](https://github.com/philippgille/chromem-go) - Embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence.
 - [fun](https://gitlab.com/tozd/go/fun) - The simplest but powerful way to use large language models (LLMs) in Go.
 - [langchaingo](https://github.com/tmc/langchaingo) - LangChainGo is a framework for developing applications powered by language models.
