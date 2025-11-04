@@ -1,33 +1,26 @@
-###  Description of Changes
-Explain what changes you made and why.
+###  Description
+Explain what your PR adds or fixes.
 
 ---
 
-###  Related Issues
-Fixes #5826  
-(Use the “Fixes” keyword so the issue closes automatically.)
-
----
-
-###  Type of Change
-- [ ] Bug fix
-- [ ] New feature
-- [ ] Documentation update
-- [ ] Refactor / Code style improvement
-- [ ] Other (please describe):
-
----
-
-###  Screenshots (if applicable)
-Add screenshots or terminal outputs showing before/after results.
+###  Links (Required for new entries)
+- GitHub Repo: <!-- e.g., https://github.com/user/repo -->
+- Go Report Card: <!-- e.g., https://goreportcard.com/report/github.com/user/repo -->
+- pkg.go.dev: <!-- e.g., https://pkg.go.dev/github.com/user/repo -->
+- Coverage: <!-- e.g., https://coveralls.io/github/user/repo -->
+- Release: <!-- e.g., https://github.com/user/repo/releases -->
 
 ---
 
 ###  Checklist
-Please confirm all the following before submitting:
-- [ ] I have read the **Contribution Guidelines**
-- [ ] I have read the **Maintainers Note** and **Quality Standards**
-- [ ] I verified that this PR meets all quality checks
-- [ ] I confirmed that all added packages are listed alphabetically
-- [ ] I validated that nearby packages meet current quality standards
-- [ ] I have added documentation or tests (if applicable)
+- [ ] The repository is publicly accessible
+- [ ] The project has a valid `go.mod` file
+- [ ] The project follows Semantic Versioning
+- [ ] All links above are valid and active
+- [ ] I’ve read the [Contribution Guidelines](CONTRIBUTING.md)
+
+---
+
+###  Notes
+(If your PR fixes a specific issue, mention it here: `Fixes #issue_number`)
+
