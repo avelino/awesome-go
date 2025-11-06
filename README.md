@@ -443,7 +443,7 @@ _Libraries for building standard or basic Command Line applications._
 - [ops](https://github.com/nanovms/ops) - Unikernel Builder/Orchestrator.
 - [orpheus](https://github.com/agilira/orpheus) - CLI framework with security hardening, plugin storage system, and production observability features.
 - [pflag](https://github.com/spf13/pflag) - Drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags.
-- [promptext](https://github.com/1broseidon/promptext) - Smart code context extractor for AI assistants. CLI tool with intelligent filtering, relevance prioritization, accurate token counting (tiktoken), and multiple output formats (PTX, JSONL, TOON, Markdown, XML).
+- [promptext](https://github.com/1broseidon/promptext) - Extracts and formats code context for AI assistants with token counting.
 - [readline](https://github.com/reeflective/readline) - Shell library with modern and easy to use UI features.
 - [sflags](https://github.com/octago/sflags) - Struct based flags generator for flag, urfave/cli, pflag, cobra, kingpin, and other libraries.
 - [structcli](https://github.com/leodido/structcli) - Eliminate Cobra boilerplate: build powerful, feature-rich CLIs declaratively from Go structs.
