@@ -2485,6 +2485,7 @@ _Libraries for testing codebases and generating test data._
 - [omg.testingtools](https://github.com/dedalqq/omg.testingtools) - The simple library for change a values of private fields for testing.
 - [restit](https://github.com/yookoala/restit) - Go micro framework to help writing RESTful API integration test.
 - [schema](https://github.com/jgroeneveld/schema) - Quick and easy expression matching for JSON schemas used in requests and responses.
+- [should](https://github.com/Kairum-Labs/should) - Testing library with zero dependencies, detailed struct diffs and human-readable error messages.
 - [stop-and-go](https://github.com/elgohr/stop-and-go) - Testing helper for concurrency.
 - [testcase](https://github.com/adamluzsi/testcase) - Idiomatic testing framework for Behavior Driven Development.
 - [testcerts](https://github.com/madflojo/testcerts) - Dynamically generate self-signed certificates and certificate authorities within your test functions.
