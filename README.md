@@ -3058,6 +3058,7 @@ _Full stack web frameworks._
 
 #### Actual middlewares
 
+- [apitally](https://github.com/apitally/apitally-go) - Simple API monitoring & analytics tool using middleware with metrics, logging, and alerts.
 - [client-timing](https://github.com/posener/client-timing) - An HTTP client for Server-Timing header.
 - [CORS](https://github.com/rs/cors) - Easily add CORS capabilities to your API.
 - [echo-middleware](https://github.com/faabiosr/echo-middleware) - Middleware for Echo framework with logging and metrics.
