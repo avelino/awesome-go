@@ -208,6 +208,9 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 **[⬆ back to top](#contents)**
 
+</details>
+
+
 ## Actor Model
 
 _Libraries for building actor-based programs._
@@ -230,8 +233,6 @@ _Libraries for building programs that leverage AI._
 - [OllamaFarm](https://github.com/presbrey/ollamafarm) - Manage, load-balance, and failover packs of Ollamas.
 
 **[⬆ back to top](#contents)**
-
-</details>
 
 ## Audio and Music
 
