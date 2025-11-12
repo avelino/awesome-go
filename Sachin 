@@ -1,0 +1,271 @@
+
+
+import React, { useState } from 'react';
+import { BookOpen, Calculator, Calendar, GraduationCap, Sparkles, MoreVertical } from 'lucide-react';
+import FlashcardApp from '../components/StudyTools/FlashcardApp';
+import ColorfulNotesApp from '../components/StudyTools/ColorfulNotesApp';
+import DataConverter from '../components/DataConverter/DataConverter';
+import DailyTracker from '../components/DailyTracker/DailyTracker';
+import MobileStorageStatus from '../components/MobileStorageStatus';
+import PricingDialog from '../components/PricingDialog';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+
+type MainTab = 'study' | 'converter' | 'tracker';
+type StudySubTab = 'flashcards' | 'notes';
+
+const Index = () => {
+  const [activeTab, setActiveTab] = useState<MainTab>('study');
+  const [activeStudySubTab, setActiveStudySubTab] = useState<StudySubTab>('flashcards');
+  const [termsOpen, setTermsOpen] = useState(false);
+  const [privacyOpen, setPrivacyOpen] = useState(false);
+  const [pricingOpen, setPricingOpen] = useState(false);
+
+  const renderContent = () => {
+    switch (activeTab) {
+      case 'study':
+        return (
+          <div className="tab-enter">
+            {/* Study Tools Sub-Navigation */}
+            <div className="glass rounded-xl p-1 mb-8 w-fit mx-auto">
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={() => setActiveStudySubTab('flashcards')}
+                  className={`px-6 py-3 rounded-lg font-medium transition-all duration-200 flex items-center gap-2 ${
+                    activeStudySubTab === 'flashcards'
+                      ? 'bg-primary text-primary-foreground shadow-md'
+                      : 'text-muted-foreground hover:bg-accent hover:text-foreground'
+                  }`}
+                >
+                  <Sparkles className="w-5 h-5" />
+                  Flashcards
+                </button>
+                <button
+                  onClick={() => setActiveStudySubTab('notes')}
+                  className={`px-6 py-3 rounded-lg font-medium transition-all duration-200 flex items-center gap-2 ${
+                    activeStudySubTab === 'notes'
+                      ? 'bg-primary text-primary-foreground shadow-md'
+                      : 'text-muted-foreground hover:bg-accent hover:text-foreground'
+                  }`}
+                >
+                  <BookOpen className="w-5 h-5" />
+                  Colorful Notes
+                </button>
+              </div>
+            </div>
+
+            {/* Study Tools Content */}
+            {activeStudySubTab === 'flashcards' ? <FlashcardApp /> : <ColorfulNotesApp />}
+          </div>
+        );
+      case 'converter':
+        return <DataConverter />;
+      case 'tracker':
+        return <DailyTracker />;
+      default:
+        return null;
+    }
+  };
+
+  return (
+    <div className="min-h-screen">
+      {/* App Header */}
+      <header className="glass border-b border-border shadow-lg">
+        <div className="max-w-7xl mx-auto px-4 py-4">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-4 relative">
+            {/* Logo/Title */}
+            <div className="flex items-center gap-3">
+              <div className="p-2 bg-primary rounded-xl">
+                <GraduationCap className="w-8 h-8 text-primary-foreground" />
+              </div>
+              <div>
+                <h1 className="text-2xl font-bold gradient-text">
+                  Study Planner
+                </h1>
+                <p className="text-sm text-muted-foreground">
+                  Your complete learning companion
+                </p>
+              </div>
+            </div>
+
+            {/* Main Navigation */}
+            <nav className="flex items-center gap-2 glass rounded-xl p-1 w-full lg:w-auto">
+              <button
+                onClick={() => setActiveTab('study')}
+                className={`flex-1 lg:flex-none px-4 lg:px-6 py-3 rounded-lg font-medium transition-all duration-200 flex items-center justify-center gap-2 text-sm lg:text-base ${
+                  activeTab === 'study'
+                    ? 'bg-primary text-primary-foreground shadow-md'
+                    : 'text-muted-foreground hover:bg-accent hover:text-foreground'
+                }`}
+              >
+                <BookOpen className="w-4 h-4 lg:w-5 lg:h-5" />
+                <span className="hidden sm:inline">Study Tools</span>
+                <span className="sm:hidden">Study</span>
+              </button>
+              <button
+                onClick={() => setActiveTab('converter')}
+                className={`flex-1 lg:flex-none px-4 lg:px-6 py-3 rounded-lg font-medium transition-all duration-200 flex items-center justify-center gap-2 text-sm lg:text-base ${
+                  activeTab === 'converter'
+                    ? 'bg-primary text-primary-foreground shadow-md'
+                    : 'text-muted-foreground hover:bg-accent hover:text-foreground'
+                }`}
+              >
+                <Calculator className="w-4 h-4 lg:w-5 lg:h-5" />
+                <span className="hidden sm:inline">Data Converter</span>
+                <span className="sm:hidden">Convert</span>
+              </button>
+              <button
+                onClick={() => setActiveTab('tracker')}
+                className={`flex-1 lg:flex-none px-4 lg:px-6 py-3 rounded-lg font-medium transition-all duration-200 flex items-center justify-center gap-2 text-sm lg:text-base ${
+                  activeTab === 'tracker'
+                    ? 'bg-primary text-primary-foreground shadow-md'
+                    : 'text-muted-foreground hover:bg-accent hover:text-foreground'
+                }`}
+              >
+                <Calendar className="w-4 h-4 lg:w-5 lg:h-5" />
+                <span className="hidden sm:inline">Daily Tracker</span>
+                <span className="sm:hidden">Track</span>
+              </button>
+            </nav>
+
+            {/* Three Dot Menu - Top Right Corner */}
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <button className="absolute top-0 right-0 lg:relative p-2 rounded-lg hover:bg-accent transition-colors">
+                  <MoreVertical className="w-5 h-5 text-muted-foreground" />
+                </button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent align="end" className="w-48">
+                <DropdownMenuItem onClick={() => setPricingOpen(true)}>
+                  Upgrade Plan
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => setTermsOpen(true)}>
+                  Terms and Conditions
+                </DropdownMenuItem>
+                <DropdownMenuItem onClick={() => setPrivacyOpen(true)}>
+                  Privacy Policy
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </div>
+        </div>
+      </header>
+
+      {/* Main Content */}
+      <main className="pt-4">
+        {renderContent()}
+      </main>
+
+      {/* Mobile Storage Status Indicator */}
+      <MobileStorageStatus />
+
+      {/* Terms and Conditions Dialog */}
+      <Dialog open={termsOpen} onOpenChange={setTermsOpen}>
+        <DialogContent className="max-w-4xl max-h-[80vh] overflow-y-auto">
+          <DialogHeader>
+            <DialogTitle>Terms and Conditions</DialogTitle>
+            <DialogDescription>
+              Please read these terms and conditions carefully before using our Study Planner application.
+            </DialogDescription>
+          </DialogHeader>
+          <div className="space-y-4 text-sm">
+            <div>
+              <h3 className="font-semibold mb-2">1. Acceptance of Terms</h3>
+              <p>By accessing and using this Study Planner application, you accept and agree to be bound by the terms and provision of this agreement.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">2. Use License</h3>
+              <p>Permission is granted to temporarily download one copy of the Study Planner application for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">3. Disclaimer</h3>
+              <p>The materials in Study Planner application are provided on an 'as is' basis. Study Planner makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">4. Limitations</h3>
+              <p>In no event shall Study Planner or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials in Study Planner application.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">5. Privacy Policy</h3>
+              <p>Your privacy is important to us. Our Privacy Policy explains how we collect, use, and protect your information when you use our service.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">6. Revisions</h3>
+              <p>Study Planner may revise these terms of service at any time without notice. By using this application, you are agreeing to be bound by the then current version of these terms of service.</p>
+            </div>
+          </div>
+        </DialogContent>
+      </Dialog>
+
+      {/* Privacy Policy Dialog */}
+      <Dialog open={privacyOpen} onOpenChange={setPrivacyOpen}>
+        <DialogContent className="max-w-4xl max-h-[80vh] overflow-y-auto">
+          <DialogHeader>
+            <DialogTitle>Privacy Policy</DialogTitle>
+            <DialogDescription>
+              This Privacy Policy describes how Study Planner collects, uses, and protects your personal information.
+            </DialogDescription>
+          </DialogHeader>
+          <div className="space-y-4 text-sm">
+            <div>
+              <h3 className="font-semibold mb-2">Information We Collect</h3>
+              <p>We collect information you provide directly to us, such as when you create flashcards, notes, or use our tracking features. This may include:</p>
+              <ul className="list-disc pl-6 mt-2">
+                <li>Study content and notes you create</li>
+                <li>Usage data and preferences</li>
+                <li>Device information for optimal app performance</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">How We Use Your Information</h3>
+              <p>We use the information we collect to:</p>
+              <ul className="list-disc pl-6 mt-2">
+                <li>Provide and maintain our Study Planner service</li>
+                <li>Save your study progress and data locally on your device</li>
+                <li>Improve our application features and user experience</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">Data Storage</h3>
+              <p>Your study data is primarily stored locally on your device. We do not collect or store your personal study content on external servers without your explicit consent.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">Data Security</h3>
+              <p>We implement appropriate security measures to protect your information against unauthorized access, alteration, disclosure, or destruction.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">Your Rights</h3>
+              <p>You have the right to:</p>
+              <ul className="list-disc pl-6 mt-2">
+                <li>Access and update your information</li>
+                <li>Delete your data from the application</li>
+                <li>Export your data in a portable format</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">Contact Us</h3>
+              <p>If you have any questions about this Privacy Policy, please contact us through the application feedback feature.</p>
+            </div>
+          </div>
+        </DialogContent>
+      </Dialog>
+
+      {/* Pricing Dialog */}
+      <PricingDialog open={pricingOpen} onOpenChange={setPricingOpen} />
+    </div>
+  );
+};
+
+export default Index;
