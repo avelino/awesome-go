@@ -960,6 +960,7 @@ _Libraries for working with dates and times._
 - [strftime](https://github.com/awoodbeck/strftime) - C99-compatible strftime formatter.
 - [timespan](https://github.com/SaidinWoT/timespan) - For interacting with intervals of time, defined as a start time and a duration.
 - [timeutil](https://github.com/leekchan/timeutil) - Useful extensions (Timedelta, Strftime, ...) to the golang's time package.
+- [timex](https://github.com/invzhi/timex) - A Go package that extends the standard library time with dedicated date and time-of-day types. 
 - [tuesday](https://github.com/osteele/tuesday) - Ruby-compatible Strftime function.
 
 **[⬆ back to top](#contents)**
