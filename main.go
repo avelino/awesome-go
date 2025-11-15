@@ -1,22 +1,24 @@
-// Package main contains code for generate static site.
+// Package main contains code for generating a static site.
 package main
 
 import (
 	"bytes"
+	"context"
 	"embed"
+	"encoding/json"
 	"errors"
 	"fmt"
 	template2 "html/template"
+	"net/http"
 	"net/url"
 	"os"
 	"path/filepath"
 	"text/template"
 
-	"github.com/avelino/awesome-go/pkg/markdown"
-	cp "github.com/otiai10/copy"
-
 	"github.com/PuerkitoBio/goquery"
+	"github.com/avelino/awesome-go/pkg/markdown"
 	"github.com/avelino/awesome-go/pkg/slug"
+	cp "github.com/otiai10/copy"
 )
 
 // Link contains info about awesome url
@@ -34,10 +36,18 @@ type Category struct {
 	Links       []Link
 }
 
+// Contributor for leaderboard
+type Contributor struct {
+	Login         string `json:"login"`
+	AvatarURL     string `json:"avatar_url"`
+	HTMLURL       string `json:"html_url"`
+	Contributions int    `json:"contributions"`
+}
+
 // Source files
 const readmePath = "README.md"
 
-// This files should be copied 'as is' to outDir directory
+// Static files to copy
 var staticFiles = []string{
 	"tmpl/assets",
 	"tmpl/robots.txt",
@@ -47,13 +57,32 @@ var staticFiles = []string{
 //go:embed tmpl/*.tmpl.html tmpl/*.tmpl.xml
 var tplFs embed.FS
 
-var tpl = template.Must(template.ParseFS(tplFs, "tmpl/*.tmpl.html", "tmpl/*.tmpl.xml"))
+var tpl = template.Must(template.New("").Funcs(template2.FuncMap{
+	"min": func(a, b int) int {
+		if a < b {
+			return a
+		}
+		return b
+	},
+	"add": func(nums ...int) int {
+		sum := 0
+		for _, n := range nums {
+			sum += n
+		}
+		return sum
+	},
+}).ParseFS(tplFs, "tmpl/*.tmpl.html", "tmpl/*.tmpl.xml"))
+
 
 // Output files
-const outDir = "out/" // NOTE: trailing slash is required
+const outDir = "out/"
 
-var outIndexFile = filepath.Join(outDir, "index.html")
-var outSitemapFile = filepath.Join(outDir, "sitemap.xml")
+var (
+	outIndexFile       = filepath.Join(outDir, "index.html")
+	outSitemapFile     = filepath.Join(outDir, "sitemap.xml")
+	outContributorsDir = filepath.Join(outDir, "contributors")
+	leaderboardJSON    = filepath.Join(outDir, "leaderboard.json")
+)
 
 func main() {
 	if err := buildStaticSite(); err != nil {
@@ -97,6 +126,16 @@ func buildStaticSite() error {
 		return fmt.Errorf("render sitemap: %w", err)
 	}
 
+	if err := generateLeaderboardJSON(); err != nil {
+		fmt.Printf("⚠️ Could not generate leaderboard.json: %v\n", err)
+	}
+
+	if err := renderContributorsPage(); err != nil {
+		fmt.Printf("⚠️ Skipping contributors page: %v\n", err)
+	} else {
+		fmt.Println("✅ Contributors page generated successfully.")
+	}
+
 	for _, srcFilename := range staticFiles {
 		dstFilename := filepath.Join(outDir, filepath.Base(srcFilename))
 		fmt.Printf("Copy static file: %s -> %s\n", srcFilename, dstFilename)
@@ -108,36 +147,92 @@ func buildStaticSite() error {
 	return nil
 }
 
-// dropCreateDir drop and create output directory
+// ---------------------- Generate Leaderboard JSON via GitHub API ----------------------
+
+func generateLeaderboardJSON() error {
+	repoOwner := "avelino"
+	repoName := "awesome-go"
+
+	var contributors []Contributor
+	page := 1
+
+	for {
+		apiURL := fmt.Sprintf("https://api.github.com/repos/%s/%s/contributors?per_page=100&anon=1&page=%d", repoOwner, repoName, page)
+		req, _ := http.NewRequestWithContext(context.Background(), "GET", apiURL, nil)
+
+		if token := os.Getenv("GITHUB_TOKEN"); token != "" {
+			req.Header.Set("Authorization", "token "+token)
+		}
+
+		resp, err := http.DefaultClient.Do(req)
+		if err != nil {
+			return fmt.Errorf("fetch contributors: %w", err)
+		}
+		if resp.Body != nil {
+			defer resp.Body.Close()
+		}
+
+		if resp.StatusCode != 200 {
+			return fmt.Errorf("github api error: status %d", resp.StatusCode)
+		}
+
+		var pageContributors []Contributor
+		decoder := json.NewDecoder(resp.Body)
+		if err := decoder.Decode(&pageContributors); err != nil {
+			return fmt.Errorf("decode github contributors: %w", err)
+		}
+
+		if len(pageContributors) == 0 {
+			break
+		}
+
+		for i, c := range pageContributors {
+			if c.Login == "" {
+				pageContributors[i].Login = "Anonymous Contributor"
+				pageContributors[i].HTMLURL = "#"
+			}
+			if c.AvatarURL == "" {
+				// Use GitHub-style default identicon based on login
+				pageContributors[i].AvatarURL = fmt.Sprintf(
+					"https://avatars.githubusercontent.com/%s?v=4",
+					url.PathEscape(pageContributors[i].Login),
+				)
+			}
+		}		
+
+		contributors = append(contributors, pageContributors...)
+		page++
+	}
+
+	if len(contributors) == 0 {
+		return errors.New("no contributors found from GitHub API")
+	}
+
+	data, _ := json.MarshalIndent(contributors, "", "  ")
+	if err := os.WriteFile(leaderboardJSON, data, 0644); err != nil {
+		return fmt.Errorf("write leaderboard.json: %w", err)
+	}
+
+	fmt.Printf("✅ Generated leaderboard.json with %d contributors → %s\n", len(contributors), leaderboardJSON)
+	return nil
+}
+
+// ---------------------- Core Build Steps ----------------------
+
 func dropCreateDir(dir string) error {
 	if err := os.RemoveAll(dir); err != nil {
 		return fmt.Errorf("remove dir: %w", err)
 	}
-
-	if err := mkdirAll(dir); err != nil {
-		return fmt.Errorf("create dir: %w", err)
-	}
-
-	return nil
+	return mkdirAll(dir)
 }
 
 func mkdirAll(path string) error {
-	_, err := os.Stat(path)
-	// directory is exists
-	if err == nil {
+	if _, err := os.Stat(path); err == nil {
 		return nil
 	}
-
-	// unexpected error
-	if !os.IsNotExist(err) {
-		return fmt.Errorf("unexpected result of dir stat: %w", err)
-	}
-
-	// directory is not exists
 	if err := os.MkdirAll(path, 0755); err != nil {
-		return fmt.Errorf("midirAll: %w", err)
+		return fmt.Errorf("mkdirAll: %w", err)
 	}
-
 	return nil
 }
 
@@ -148,7 +243,6 @@ func renderCategories(categories map[string]Category) error {
 			return fmt.Errorf("create category dir `%s`: %w", categoryDir, err)
 		}
 
-		// FIXME: embed templates
 		categoryIndexFilename := filepath.Join(categoryDir, "index.html")
 		fmt.Printf("Write category Index file: %s\n", categoryIndexFilename)
 
@@ -157,25 +251,20 @@ func renderCategories(categories map[string]Category) error {
 			return fmt.Errorf("render category `%s`: %w", categoryDir, err)
 		}
 
-		// Sanitize HTML. This is not necessary, but allows to have content
-		// of all html files in same style.
-		{
-			doc, err := goquery.NewDocumentFromReader(buf)
-			if err != nil {
-				return fmt.Errorf("create goquery instance for `%s`: %w", categoryDir, err)
-			}
+		doc, err := goquery.NewDocumentFromReader(buf)
+		if err != nil {
+			return fmt.Errorf("create goquery instance for `%s`: %w", categoryDir, err)
+		}
 
-			html, err := doc.Html()
-			if err != nil {
-				return fmt.Errorf("render goquery html for `%s`: %w", categoryDir, err)
-			}
+		html, err := doc.Html()
+		if err != nil {
+			return fmt.Errorf("render goquery html for `%s`: %w", categoryDir, err)
+		}
 
-			if err := os.WriteFile(categoryIndexFilename, []byte(html), 0644); err != nil {
-				return fmt.Errorf("write category file `%s`: %w", categoryDir, err)
-			}
+		if err := os.WriteFile(categoryIndexFilename, []byte(html), 0644); err != nil {
+			return fmt.Errorf("write category file `%s`: %w", categoryDir, err)
 		}
 	}
-
 	return nil
 }
 
@@ -184,55 +273,113 @@ func renderSitemap(categories map[string]Category) error {
 	if err != nil {
 		return fmt.Errorf("create sitemap file `%s`: %w", outSitemapFile, err)
 	}
-
 	fmt.Printf("Render Sitemap to: %s\n", outSitemapFile)
+	return tpl.Lookup("sitemap.tmpl.xml").Execute(f, categories)
+}
 
-	if err := tpl.Lookup("sitemap.tmpl.xml").Execute(f, categories); err != nil {
-		return fmt.Errorf("render sitemap: %w", err)
+// ---------------------- Contributors Page ----------------------
+
+func renderContributorsPage() error {
+	// Read leaderboard JSON
+	data, err := os.ReadFile(leaderboardJSON)
+	if err != nil {
+		return fmt.Errorf("read leaderboard.json: %w", err)
 	}
 
-	return nil
+	var contributors []Contributor
+	if err := json.Unmarshal(data, &contributors); err != nil {
+		return fmt.Errorf("parse leaderboard.json: %w", err)
+	}
+
+	if contributors == nil {
+		contributors = []Contributor{}
+	}
+
+	// Split contributors into sections
+	top3 := contributors
+	if len(top3) > 3 {
+		top3 = contributors[:3]
+	}
+
+	top10 := []Contributor{}
+	if len(contributors) > 3 {
+		if len(contributors) > 13 {
+			top10 = contributors[3:13]
+		} else {
+			top10 = contributors[3:]
+		}
+	}
+
+	top100 := []Contributor{}
+	if len(contributors) > 13 {
+		if len(contributors) > 113 {
+			top100 = contributors[13:113]
+		} else {
+			top100 = contributors[13:]
+		}
+	}
+
+	others := []Contributor{}
+	if len(contributors) > 113 {
+		others = contributors[113:]
+	}
+
+	// Ensure output directory exists
+	if err := mkdirAll(outContributorsDir); err != nil {
+		return fmt.Errorf("create contributors dir: %w", err)
+	}
+
+	// Create HTML file
+	outFile := filepath.Join(outContributorsDir, "index.html")
+	f, err := os.Create(outFile)
+	if err != nil {
+		return fmt.Errorf("create contributors file: %w", err)
+	}
+	defer f.Close()
+
+	fmt.Println("Render Contributors Leaderboard →", outFile)
+
+	// Execute template
+	return tpl.Lookup("contributors.tmpl.html").Execute(f, map[string]interface{}{
+		"Top3":    top3,
+		"Top10":   top10,
+		"Top100":  top100,
+		"Others":  others,
+	})
 }
+
+// ---------------------- Category Extraction ----------------------
 
 func extractCategories(doc *goquery.Document) (map[string]Category, error) {
 	categories := make(map[string]Category)
 	var rootErr error
 
-	doc.
-		Find("body #contents").
+	doc.Find("body #contents").
 		NextFiltered("ul").
 		Find("ul").
 		EachWithBreak(func(_ int, selUl *goquery.Selection) bool {
 			if rootErr != nil {
 				return false
 			}
-
-			selUl.
-				Find("li a").
-				EachWithBreak(func(_ int, s *goquery.Selection) bool {
-					selector, exists := s.Attr("href")
-					if !exists {
-						return true
-					}
-
-					category, err := extractCategory(doc, selector)
-					if err != nil {
-						rootErr = fmt.Errorf("extract category: %w", err)
-						return false
-					}
-
-					categories[selector] = *category
-
+			selUl.Find("li a").EachWithBreak(func(_ int, s *goquery.Selection) bool {
+				selector, exists := s.Attr("href")
+				if !exists {
 					return true
-				})
-
+				}
+				category, err := extractCategory(doc, selector)
+				if err != nil {
+					rootErr = fmt.Errorf("extract category: %w", err)
+					return false
+				}
+				categories[selector] = *category
+				return true
+			})
 			return true
 		})
 
 	if rootErr != nil {
-		return nil, fmt.Errorf("extract categories: %w", rootErr)
+		return nil, rootErr
 	}
-
 	return categories, nil
 }
 
@@ -242,9 +389,6 @@ func extractCategory(doc *goquery.Document, selector string) (*Category, error) 
 
 	doc.Find(selector).EachWithBreak(func(_ int, selCatHeader *goquery.Selection) bool {
 		selDescr := selCatHeader.NextFiltered("p")
-		// FIXME: bug. this would select links from all neighboring
-		// sub-categories until the next category. To prevent this we should
-		// find only first ul
 		ul := selCatHeader.NextFilteredUntil("ul", "h2")
 
 		var links []Link
@@ -252,16 +396,13 @@ func extractCategory(doc *goquery.Document, selector string) (*Category, error) 
 			selLink := selLi.Find("a")
 			url, _ := selLink.Attr("href")
 			link := Link{
-				Title: selLink.Text(),
-				// FIXME(kazhuravlev): Title contains only title but
-				// 	description contains Title + description
+				Title:       selLink.Text(),
 				Description: selLi.Text(),
 				URL:         url,
 			}
 			links = append(links, link)
 		})
 
-		// FIXME: In this case we would have an empty category in main index.html with link to 404 page.
 		if len(links) == 0 {
 			err = errors.New("category does not contain links")
 			return false
@@ -273,72 +414,46 @@ func extractCategory(doc *goquery.Document, selector string) (*Category, error) 
 			Description: selDescr.Text(),
 			Links:       links,
 		}
-
 		return true
 	})
 
 	if err != nil {
-		return nil, fmt.Errorf("build a category: %w", err)
+		return nil, err
 	}
-
 	return &category, nil
 }
 
 func rewriteLinksInIndex(doc *goquery.Document, categories map[string]Category) error {
-	var iterErr error
-	doc.
-		Find("body #content ul li ul li a").
-		EachWithBreak(func(_ int, s *goquery.Selection) bool {
-			href, hrefExists := s.Attr("href")
-			if !hrefExists {
-				// FIXME: looks like is an error. Tag `a` in our case always
-				//   	  should have `href` attr.
-				return true
-			}
-
-			// do not replace links if no page has been created for it
-			_, catExists := categories[href]
-			if !catExists {
-				return true
-			}
-
-			linkURL, err := url.Parse(href)
-			if err != nil {
-				iterErr = err
-				return false
-			}
-
-			if linkURL.Fragment != "" && linkURL.Fragment != "contents" {
-				s.SetAttr("href", linkURL.Fragment)
-			}
-
-			return true
-		})
-
-	if iterErr != nil {
-		return iterErr
-	}
+	doc.Find("body #content ul li ul li a").Each(func(_ int, s *goquery.Selection) {
+		href, hrefExists := s.Attr("href")
+		if !hrefExists {
+			return
+		}
+		_, catExists := categories[href]
+		if !catExists {
+			return
+		}
+		linkURL, err := url.Parse(href)
+		if err == nil && linkURL.Fragment != "" && linkURL.Fragment != "contents" {
+			s.SetAttr("href", linkURL.Fragment)
+		}
+	})
 
 	fmt.Printf("Rewrite links in Index file: %s\n", outIndexFile)
 	resultHTML, err := doc.Html()
 	if err != nil {
-		return fmt.Errorf("render html: %w", err)
+		return err
 	}
-
-	if err := os.WriteFile(outIndexFile, []byte(resultHTML), 0644); err != nil {
-		return fmt.Errorf("rewrite index file: %w", err)
-	}
-
-	return nil
+	return os.WriteFile(outIndexFile, []byte(resultHTML), 0644)
 }
 
-// renderIndex generate site html (index.html) from markdown file
+// ---------------------- Markdown Conversion ----------------------
+
 func renderIndex(srcFilename, outFilename string) error {
 	input, err := os.ReadFile(srcFilename)
 	if err != nil {
 		return err
 	}
-
 	body, err := markdown.ToHTML(input)
 	if err != nil {
 		return err
@@ -348,18 +463,16 @@ func renderIndex(srcFilename, outFilename string) error {
 	if err != nil {
 		return err
 	}
-
 	fmt.Printf("Write Index file: %s\n", outIndexFile)
+
+	// Pass an empty Contributors slice to avoid template panics
 	data := map[string]interface{}{
-		"Body": template2.HTML(body),
+		"Body":         template2.HTML(body),
+		"Contributors": []Contributor{},
 	}
+
 	if err := tpl.Lookup("index.tmpl.html").Execute(f, data); err != nil {
 		return err
 	}
-
-	if err := f.Close(); err != nil {
-		return fmt.Errorf("close index file: %w", err)
-	}
-
-	return nil
+	return f.Close()
 }
