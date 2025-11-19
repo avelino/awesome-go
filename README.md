@@ -2408,6 +2408,7 @@ _Libraries and tools for templating and lexing._
 - [htmgo](https://htmgo.dev) - build simple and scalable systems with go + htmx
 - [jet](https://github.com/CloudyKit/jet) - Jet template engine.
 - [liquid](https://github.com/osteele/liquid) - Go implementation of Shopify Liquid templates.
+- [liquidgo](https://github.com/Notifuse/liquidgo) - Full Go implementation of Shopify's Liquid template engine.
 - [maroto](https://github.com/johnfercher/maroto) - A maroto way to create PDFs. Maroto is inspired in Bootstrap and uses gofpdf. Fast and simple.
 - [pongo2](https://github.com/flosch/pongo2) - Django-like template-engine for Go.
 - [quicktemplate](https://github.com/valyala/quicktemplate) - Fast, powerful, yet easy to use template engine. Converts templates into Go code and then compiles it.
