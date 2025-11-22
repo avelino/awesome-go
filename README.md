@@ -452,7 +452,7 @@ _Libraries for building standard or basic Command Line applications._
 - [teris-io/cli](https://github.com/teris-io/cli) - Simple and complete API for building command line interfaces in Go.
 - [urfave/cli](https://github.com/urfave/cli) - Simple, fast, and fun package for building command line apps in Go (formerly codegangsta/cli).
 - [version](https://github.com/mszostok/version) - Collects and displays CLI version information in multiple formats along with upgrade notice.
-- [vibecheck](https://github.com/rshdhere/vibecheck) - A lightweight, cross-platform command line AI-tool that automatically generates meaningful and consistent Git Commit Messages by analyzing your code changes
+- [vibecheck](https://github.com/rshdhere/vibecheck) - Cross-platform CLI that generates Git commit messages automatically from code changes.
 - [wlog](https://github.com/dixonwille/wlog) - Simple logging interface that supports cross-platform color and concurrency.
 - [wmenu](https://github.com/dixonwille/wmenu) - Easy to use menu structure for cli applications that prompt users to make choices.
 
