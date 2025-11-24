@@ -1917,7 +1917,7 @@ _These libraries were placed here because none of the other categories seemed to
 - [xdg](https://github.com/rkoesters/xdg) - FreeDesktop.org (xdg) Specs implemented in Go.
 - [xkg](https://github.com/go-xkg/xkg) - X Keyboard Grabber.
 - [xz](https://github.com/ulikunitz/xz) - Pure golang package for reading and writing xz-compressed files.
-**[⬆ back to top](#contents)**
+  **[⬆ back to top](#contents)**
 
 ## Natural Language Processing
 
@@ -2091,7 +2091,7 @@ _Libraries for making HTTP requests._
 - [go-req](https://github.com/wenerme/go-req) - Declarative golang HTTP client.
 - [go-retryablehttp](https://github.com/hashicorp/go-retryablehttp) - Retryable HTTP client in Go.
 - [go-zoox/fetch](https://github.com/go-zoox/fetch) - A Powerful, Lightweight, Easy Http Client, inspired by Web Fetch API.
-- [Grequest](https://github.com/lib4u/grequest)  - Simple and lightweight golang package for http requests. based on powerful net/http
+- [Grequest](https://github.com/lib4u/grequest) - Simple and lightweight golang package for http requests. based on powerful net/http
 - [grequests](https://github.com/levigross/grequests) - A Go "clone" of the great and famous Requests library.
 - [heimdall](https://github.com/gojektech/heimdall) - An enhanced http client with retry and hystrix capabilities.
 - [httpretry](https://github.com/ybbus/httpretry) - Enriches the default go HTTP client with retry functionality.
@@ -3466,6 +3466,7 @@ _Software written in Go._
 - [woke](https://github.com/get-woke/woke) - Detect non-inclusive language in your source code.
 - [yai](https://github.com/ekkinox/yai) - AI powered terminal assistant.
 - [zs](https://git.mills.io/prologic/zs) - an extremely minimal static site generator.
+- [vikunja](https://github.com/go-vikunja/vikunja) - The to-do app to organize your life.
 
 **[⬆ back to top](#contents)**
 
