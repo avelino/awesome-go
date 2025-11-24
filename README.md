@@ -722,6 +722,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [otter](https://github.com/maypok86/otter) - A high performance lockless cache for Go. Many times faster than Ristretto and friends.
 - [pocache](https://github.com/naughtygopher/pocache) - Pocache is a minimal cache package which focuses on a preemptive optimistic caching strategy.
 - [ristretto](https://github.com/dgraph-io/ristretto) - A high performance memory-bound Go cache.
+- [sfcache](https://github.com/tecnickcom/gogen/tree/main/pkg/sfcache) - Simple, in-memory, thread-safe, fixed-size, single-flight cache for expensive lookups.
 - [sturdyc](https://github.com/viccon/sturdyc) - A caching library with advanced concurrency features designed to make I/O heavy applications robust and highly performant.
 - [theine](https://github.com/Yiling-J/theine-go) - High performance, near optimal in-memory cache with proactive TTL expiration and generics.
 - [timedmap](https://github.com/zekroTJA/timedmap) - Map with expiring key-value pairs.
