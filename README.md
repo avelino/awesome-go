@@ -3492,6 +3492,7 @@ _Where to discover new Go libraries._
 - [kvbench](https://github.com/jimrobinson/kvbench) - Key/Value database benchmark.
 - [skynet](https://github.com/atemerev/skynet) - Skynet 1M threads microbenchmark.
 - [speedtest-resize](https://github.com/fawick/speedtest-resize) - Compare various Image resize algorithms for the Go language.
+- [vizb](https://github.com/goptics/vizb) - A CLI tool to visualize go benchmark data in 4D.
 
 **[⬆ back to top](#contents)**
 
