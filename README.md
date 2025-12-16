@@ -2468,7 +2468,7 @@ _Libraries for testing codebases and generating test data._
 - [gogiven](https://github.com/corbym/gogiven) - YATSPEC-like BDD testing framework for Go.
 - [gomatch](https://github.com/jfilipczyk/gomatch) - library created for testing JSON against patterns.
 - [gomega](https://onsi.github.io/gomega/) - Rspec like matcher/assertion library.
-- [Gont](https://github.com/stv0g/gont) - Go network testing toolkit for testing building complex network topologies using Linux namespaces.
+- [Gont](https://codeberg.org/stv0g/gont) - Go network testing toolkit for testing building complex network topologies using Linux namespaces.
 - [gospecify](https://github.com/stesla/gospecify) - This provides a BDD syntax for testing your Go code. It should be familiar to anybody who has used libraries such as rspec.
 - [gosuite](https://github.com/pavlo/gosuite) - Brings lightweight test suites with setup/teardown facilities to `testing` by leveraging Go1.7's Subtests.
 - [got](https://github.com/ysmood/got) - An enjoyable golang test framework.
