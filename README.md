@@ -1462,6 +1462,7 @@ _Libraries for manipulating images._
 - [govips](https://github.com/davidbyttow/govips) - A lightning fast image processing and resizing library for Go.
 - [gowitness](https://github.com/sensepost/gowitness) - Screenshoting webpages using go and headless chrome on command line.
 - [gridder](https://github.com/shomali11/gridder) - A Grid based 2D Graphics library.
+- [icopy](https://github.com/evijayan2/icopy) - High-performance CLI tool to organize photos and videos by date with checksum validation.
 - [image2ascii](https://github.com/qeesung/image2ascii) - Convert image to ASCII.
 - [imagick](https://github.com/gographics/imagick) - Go binding to ImageMagick's MagickWand C API.
 - [imaginary](https://github.com/h2non/imaginary) - Fast and simple HTTP microservice for image resizing.
