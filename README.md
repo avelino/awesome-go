@@ -768,7 +768,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [rosedb](https://github.com/roseduan/rosedb) - An embedded k-v database based on LSM+WAL, supports string, list, hash, set, zset.
 - [rotom](https://github.com/xgzlucario/rotom) - A tiny Redis server built with Golang, compatible with RESP protocols.
 - [rqlite](https://github.com/rqlite/rqlite) - The lightweight, distributed, relational database built on SQLite.
-- [go-sqlite](https://github.com/glebarez/go-sqlite) – Pure Go SQLite driver without CGO.
+- [sqlite](https://github.com/glebarez/go-sqlite) – Pure Go SQLite driver without CGO.
 - [tempdb](https://github.com/rafaeljesus/tempdb) - Key-value store for temporary items.
 - [tidb](https://github.com/pingcap/tidb) - TiDB is a distributed SQL database. Inspired by the design of Google F1.
 - [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
