@@ -745,6 +745,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [diskv](https://github.com/peterbourgon/diskv) - Home-grown disk-backed key-value store.
 - [dolt](https://github.com/dolthub/dolt) - Dolt – It's Git for Data.
 - [eliasdb](https://github.com/krotik/eliasdb) - Dependency-free, transactional graph database with REST API, phrase search and SQL-like query language.
+- [go-sqlite](https://github.com/glebarez/go-sqlite) – A Pure Golang implemented SQLite driver without CGO.
 - [godis](https://github.com/hdt3213/godis) - A Golang implemented high-performance Redis server and cluster.
 - [goleveldb](https://github.com/syndtr/goleveldb) - Implementation of the [LevelDB](https://github.com/google/leveldb) key/value database in Go.
 - [hare](https://github.com/jameycribbs/hare) - A simple database management system that stores each table as a text file of line-delimited JSON.
@@ -768,7 +769,6 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [rosedb](https://github.com/roseduan/rosedb) - An embedded k-v database based on LSM+WAL, supports string, list, hash, set, zset.
 - [rotom](https://github.com/xgzlucario/rotom) - A tiny Redis server built with Golang, compatible with RESP protocols.
 - [rqlite](https://github.com/rqlite/rqlite) - The lightweight, distributed, relational database built on SQLite.
-- [sqlite](https://github.com/glebarez/go-sqlite) – Pure Go SQLite driver without CGO.
 - [tempdb](https://github.com/rafaeljesus/tempdb) - Key-value store for temporary items.
 - [tidb](https://github.com/pingcap/tidb) - TiDB is a distributed SQL database. Inspired by the design of Google F1.
 - [tiedot](https://github.com/HouzuoGuo/tiedot) - Your NoSQL database powered by Golang.
