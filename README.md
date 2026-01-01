@@ -2293,6 +2293,7 @@ _Libraries that are used to help make your application more secure._
 - [go-yara](https://github.com/hillu/go-yara) - Go Bindings for [YARA](https://github.com/plusvic/yara), the "pattern matching swiss knife for malware researchers (and everyone else)".
 - [goArgonPass](https://github.com/dwin/goArgonPass) - Argon2 password hash and verification designed to be compatible with existing Python and PHP implementations.
 - [goSecretBoxPassword](https://github.com/dwin/goSecretBoxPassword) - A probably paranoid package for securely hashing and encrypting passwords.
+- [HumanMark](https://github.com/vinpatel/humanmark) - Open source AI content detection for text, images, audio, and video. Self-hosted, offline, zero dependencies.
 - [Interpol](https://github.com/avahidi/interpol) - Rule-based data generator for fuzzing and penetration testing.
 - [lego](https://github.com/go-acme/lego) - Pure Go ACME client library and CLI tool (for use with Let's Encrypt).
 - [luks.go](https://github.com/anatol/luks.go) - Pure Golang library to manage LUKS partitions.
