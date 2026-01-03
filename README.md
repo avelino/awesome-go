@@ -2738,6 +2738,7 @@ _Libraries for accessing third party APIs._
 - [TripAdvisor](https://github.com/mrbenosborne/tripadvisor-golang) - Go wrapper for the TripAdvisor API.
 - [tumblr](https://github.com/mattcunningham/gumblr) - Go wrapper for the Tumblr v2 API.
 - [uptimerobot](https://github.com/bitfield/uptimerobot) - Go wrapper and command-line client for the Uptime Robot v2 API.
+- [vedika-go](https://github.com/vedika-ai/vedika-go) - Go client for the Vedika Astrology API, providing Vedic astrology calculations, horoscope, kundali, panchang, and AI-powered astrology chatbot.
 - [vl-go](https://github.com/verifid/vl-go) - Go client library around the VerifID identity verification layer API.
 - [webhooks](https://github.com/go-playground/webhooks) - Webhook receiver for GitHub and Bitbucket.
 - [wit-go](https://github.com/wit-ai/wit-go) - Go client for wit.ai HTTP API.
