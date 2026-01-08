@@ -618,6 +618,7 @@ additional ordered map implementations.
 
 ### Miscellaneous Data Structures and Algorithms
 
+- [combo](https://github.com/bobg/combo) - Combinatorial operations including permutations, combinations, and combinations-with-replacement.
 - [concurrent-writer](https://github.com/free/concurrent-writer) - Highly concurrent drop-in replacement for `bufio.Writer`.
 - [count-min-log](https://github.com/seiflotfy/count-min-log) - Go implementation Count-Min-Log sketch: Approximately counting with approximate counters (Like Count-Min sketch but using less memory).
 - [fsm](https://github.com/cocoonspace/fsm) - Finite-State Machine package.
