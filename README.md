@@ -241,7 +241,7 @@ _Libraries for building programs that leverage AI._
 
 _Libraries for manipulating audio._
 
-- [beep](https://github.com/faiface/beep) - A simple library for playback and audio manipulation.
+- [beep](https://github.com/gopxl/beep) - A simple library for playback and audio manipulation.
 - [flac](https://github.com/mewkiz/flac) - Native Go FLAC encoder/decoder with support for FLAC streams.
 - [gaad](https://github.com/Comcast/gaad) - Native Go AAC bitstream parser.
 - [go-mpris](https://github.com/leberKleber/go-mpris) - Client for mpris dbus interfaces.
@@ -314,6 +314,7 @@ _Tools for building blockchains._
 - [gossamer](https://github.com/ChainSafe/gossamer) - A Go implementation of the Polkadot Host.
 - [kubo](https://github.com/ipfs/kubo) - An IPFS implementation in Go. It provides content-addressable storage which can be used for decentralized storage in DApps. It is based on the IPFS protocol.
 - [lnd](https://github.com/lightningnetwork/lnd) - A complete implementation of a Lightning Network node.
+- [nview](https://github.com/blinklabs-io/nview) - Local monitoring tool for a Cardano Node. It's a TUI (terminal user interface) designed to fit most screens.
 - [solana-go](https://github.com/gagliardetto/solana-go) - Go library to interface with Solana JSON RPC and WebSocket interfaces.
 - [tendermint](https://github.com/tendermint/tendermint) - High-performance middleware for transforming a state machine written in any programming language into a Byzantine Fault Tolerant replicated state machine using the Tendermint consensus and blockchain protocols.
 
@@ -3723,7 +3724,7 @@ _Add the group of your city/country here (send **PR**)_
 
 ### Tutorials
 
-- [50 Shades of Go](https://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/) - Traps, Gotchas, and Common Mistakes for New Golang Devs.
+- [50 Shades of Go](https://golang50shades.github.io/) - Traps, Gotchas, and Common Mistakes for New Golang Devs.
 - [A Comprehensive Guide to Structured Logging in Go](https://betterstack.com/community/guides/logging/logging-in-go/) - Delve deep into the world of structured logging in Go with a specific focus on recently accepted slog proposal which aims to bring high performance structured logging with levels to the standard library.
 - [A Guide to Golang E-Commerce](https://snipcart.com/blog/golang-ecommerce-ponzu-cms-demo?utm_term=golang-ecommerce-ponzu-cms-demo) - Building a Golang site for e-commerce (demo included).
 - [A Tour of Go](https://tour.golang.org/) - Interactive tour of Go.
