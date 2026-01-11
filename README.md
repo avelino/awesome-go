@@ -208,6 +208,10 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 **[⬆ back to top](#contents)**
 
+
+
+</details>
+
 ## Actor Model
 
 _Libraries for building actor-based programs._
@@ -216,7 +220,9 @@ _Libraries for building actor-based programs._
 - [Ergo](https://github.com/ergo-services/ergo) - An actor-based Framework with network transparency for creating event-driven architecture in Golang. Inspired by Erlang.
 - [Goakt](https://github.com/Tochemey/goakt) - Fast and Distributed Actor framework using protocol buffers as message for Golang.
 - [Hollywood](https://github.com/anthdm/hollywood) - Blazingly fast and light-weight Actor engine written in Golang.
-- [ProtoActor](https://github.com/asynkron/protoactor-go) - Proto Actor - Ultra fast distributed actors for Go, C# and Java/Kotlin.
+- [ProtoActor](https://github.com/asynkron/protoactor-go) - Distributed actors for Go, C#, and Java/Kotlin.
+
+**[⬆ back to top](#contents)**
 
 ## Artificial Intelligence
 
@@ -230,8 +236,6 @@ _Libraries for building programs that leverage AI._
 - [OllamaFarm](https://github.com/presbrey/ollamafarm) - Manage, load-balance, and failover packs of Ollamas.
 
 **[⬆ back to top](#contents)**
-
-</details>
 
 ## Audio and Music
 
