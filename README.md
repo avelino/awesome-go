@@ -2920,6 +2920,7 @@ _General utilities and tools to make your life easier._
 - [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package.
 - [sqlz](https://github.com/rfberaldo/sqlz) - Extension for the database/sql package, adding named queries, struct scanning, and batch operations.
 - [sshman](https://github.com/shoobyban/sshman) - SSH Manager for authorized_keys files on multiple remote servers.
+- [stacktower](https://github.com/matzehuels/stacktower) - Visualize dependency graphs as physical tower structures, inspired by XKCD #2347.
 - [statiks](https://github.com/janiltonmaciel/statiks) - Fast, zero-configuration, static HTTP filer server.
 - [Storm](https://github.com/asdine/storm) - Simple and powerful toolkit for BoltDB.
 - [structs](https://github.com/PumpkinSeed/structs) - Implement simple functions to manipulate structs.
