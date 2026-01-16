@@ -3697,6 +3697,7 @@ _Add the group of your city/country here (send **PR**)_
 - [CodinGame](https://www.codingame.com/) - Learn Go by solving interactive tasks using small games as practical examples.
 - [Go Blog](https://blog.golang.org) - The official Go blog.
 - [Go Code Club](https://www.youtube.com/watch?v=nvoIPQYdx9g&list=PLEcwzBXTPUE_YQR7R0BRtHBYJ0LN3Y0i3) - A group of Gophers read and discuss a different Go project every week.
+- [Go Cookbook](https://go-cookbook.com) - Go cookbook with a curated list of ready-to-use snippets.
 - [Go Community on Hashnode](https://hashnode.com/n/go) - Community of Gophers on Hashnode.
 - [Go Forum](https://forum.golangbridge.org) - Forum to discuss Go.
 - [Go Projects](https://github.com/golang/go/wiki/Projects) - List of projects on the Go community wiki.
