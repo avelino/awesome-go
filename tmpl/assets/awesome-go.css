@@ -1,70 +1,75 @@
 * {
-	max-width: 100%;
-	box-sizing: border-box;
-	font-family: "Fira Sans";
-	text-decoration: none;
-	font-weight: 300;
+  max-width: 100%;
+  box-sizing: border-box;
+  font-family: "Fira Sans";
+  text-decoration: none;
+  font-weight: 300;
 }
 .awesome-logo {
-	max-width: 500px;
-	width: 100%;
-	margin: auto;
-	display: block;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  display: block;
 }
 
 a {
-	color: #669;
+  color: #669;
 }
-a:visited, h1, h2, h3, h4 {
-	color: #494368;
-	font-weight: 400;
+a:visited,
+h1,
+h2,
+h3,
+h4 {
+  color: #494368;
+  font-weight: 400;
 }
 h1 > a:nth-child(1) {
-	margin-left: 10px;
+  margin-left: 10px;
 }
 h1 > a img {
-	padding-right: 5px;
+  padding-right: 5px;
 }
 
 #content {
-	width: 100%;
-	padding: 40px 80px;
+  width: 100%;
+  padding: 40px 80px;
 }
 
 @media (max-width: 720px) {
-	#content {
-		padding: 20px 40px;
-	}
+  #content {
+    padding: 20px 40px;
+  }
 }
 @media (max-width: 420px) {
-	#content * {
-		word-wrap: break-word;
-	}
+  #content * {
+    word-wrap: break-word;
+  }
 }
 
 /** ADs
  * */
 #ads {
-    max-width: 330px;
-    width: 100%;
-    margin: auto;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    display: block;
+  max-width: 330px;
+  width: 100%;
+  margin: auto;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  display: block;
 }
 
 #carbonads {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu,
-  Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
 #carbonads {
   display: flex;
   max-width: 330px;
   background-color: hsl(0, 0%, 98%);
-  box-shadow: 0 1px 4px 1px hsla(0, 0%, 0%, .1);
+  box-shadow: 0 1px 4px 1px hsla(0, 0%, 0%, 0.1);
 }
 
 #carbonads a {
@@ -106,10 +111,17 @@ h1 > a img {
 .carbon-poweredby {
   display: block;
   padding: 8px 10px;
-  background: repeating-linear-gradient(-45deg, transparent, transparent 5px, hsla(0, 0%, 0%, .025) 5px, hsla(0, 0%, 0%, .025) 10px) hsla(203, 11%, 95%, .4);
+  background: repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 5px,
+      hsla(0, 0%, 0%, 0.025) 5px,
+      hsla(0, 0%, 0%, 0.025) 10px
+    )
+    hsla(203, 11%, 95%, 0.4);
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   font-weight: 600;
   font-size: 9px;
   line-height: 1;
@@ -117,4 +129,28 @@ h1 > a img {
 
 td {
   padding: 6px;
+}
+
+/* Add this CSS to your awesome-go.css file */
+
+#backToTopBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Keep it in view */
+  bottom: 20px;
+  right: 30px;
+  z-index: 99; /* Make sure it's on top */
+  border: none;
+  outline: none;
+  background-color: #555; /* A dark background */
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  opacity: 0.7; /* Slightly transparent */
+}
+
+#backToTopBtn:hover {
+  background-color: #333; /* Darken on hover */
+  opacity: 1;
 }
