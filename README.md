@@ -251,7 +251,6 @@ _Libraries for manipulating audio._
 - [malgo](https://github.com/gen2brain/malgo) - Mini audio library.
 - [minimp3](https://github.com/tosone/minimp3) - Lightweight MP3 decoder library.
 - [Oto](https://github.com/hajimehoshi/oto) - A low-level library to play sound on multiple platforms.
-- [play](https://github.com/paololazzari/play) - Command-line audio player that supports multiple formats including WAV, MP3, OGG, and FLAC.
 - [PortAudio](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library.
 
 **[⬆ back to top](#contents)**
@@ -2199,6 +2198,7 @@ _Unofficial libraries for package and dependency management._
 - [jsonql](https://github.com/elgs/jsonql) - JSON query expression library in Golang.
 - [jsonslice](https://github.com/bhmj/jsonslice) - Jsonpath queries with advanced filters.
 - [mql](https://github.com/hashicorp/mql) - Model Query Language (mql) is a query language for your database models.
+- [play](https://github.com/paololazzari/play) - A TUI playground to experiment with your favorite programs, such as grep, sed, awk, jq and yq.
 - [rql](https://github.com/a8m/rql) - Resource Query Language for REST API.
 - [rqp](https://github.com/timsolov/rest-query-parser) - Query Parser for REST API. Filtering, validations, both `AND`, `OR` operations are supported directly in the query.
 - [straf](https://github.com/SonicRoshan/straf) - Easily Convert Golang structs to GraphQL objects.
