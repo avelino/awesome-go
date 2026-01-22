@@ -2138,7 +2138,6 @@ _Libraries that implement Object-Relational Mapping or datamapping techniques._
 - [go-firestorm](https://github.com/jschoedt/go-firestorm) - A simple ORM for Google/Firebase Cloud Firestore.
 - [go-sql](https://github.com/rushteam/gosql) - A easy ORM for mysql.
 - [go-sqlbuilder](https://github.com/huandu/go-sqlbuilder) - A flexible and powerful SQL string builder library plus a zero-config ORM.
-- [go-store](https://github.com/gosuri/go-store) - Simple and fast Redis backed key-value store library for Go.
 - [golobby/orm](https://github.com/golobby/orm) - Simple, fast, type-safe, generic orm for developer happiness.
 - [GoooQo](https://github.com/doytowin/goooqo) - A database access framework based on declarative query model.
 - [GORM](https://github.com/go-gorm/gorm) - The fantastic ORM library for Golang, aims to be developer friendly.
