@@ -2286,6 +2286,8 @@ _Libraries that are used to help make your application more secure._
 - [beelzebub](https://github.com/mariocandela/beelzebub) - A secure low code honeypot framework, leveraging AI for System Virtualization.
 - [booster](https://github.com/anatol/booster) - Fast initramfs generator with full-disk encryption support.
 - [Cameradar](https://github.com/Ullaakut/cameradar) - Tool and library to remotely hack RTSP streams from surveillance cameras.
+- [bad-antics/nullsec-kernspy](https://github.com/bad-antics/nullsec-kernspy) - Secure Linux kernel module analyzer with memory-safe inspection, SHA256 hash verification, and concurrent scanning using goroutines.
+- [bad-antics/nullsec-k8sscan](https://github.com/bad-antics/nullsec-k8sscan) - Kubernetes cluster security scanner with pod vulnerability assessment, RBAC analysis, and compliance checking (CIS, PCI-DSS).
 - [certificates](https://github.com/mvmaasakkers/certificates) - An opinionated tool for generating tls certificates.
 - [CertMagic](https://github.com/caddyserver/certmagic) - Mature, robust, and powerful ACME client integration for fully-managed TLS certificate issuance and renewal.
 - [Coraza](https://github.com/corazawaf/coraza) - Enterprise-ready, modsecurity and OWASP CRS compatible WAF library.
