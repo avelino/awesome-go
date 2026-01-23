@@ -2993,6 +2993,7 @@ _Libraries for version control._
 - [froggit-go](https://github.com/jfrog/froggit-go) - Froggit-Go is a Go library, allowing to perform actions on VCS providers.
 - [git2go](https://github.com/libgit2/git2go) - Go bindings for libgit2.
 - [githooks](https://github.com/gabyx/githooks) - Per-repo and shared Git hooks with version control and auto update.
+- [gitch](https://github.com/orzazade/gitch) - Git identity manager with SSH/GPG key management, auto-switching rules, and pre-commit protection.
 - [go-git](https://github.com/go-git/go-git) - highly extensible Git implementation in pure Go.
 - [go-vcs](https://github.com/sourcegraph/go-vcs) - manipulate and inspect VCS repositories in Go.
 - [hercules](https://github.com/src-d/hercules) - gaining advanced insights from Git repository history.
