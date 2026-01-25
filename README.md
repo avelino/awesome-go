@@ -1294,6 +1294,7 @@ _Tools that generate Go code._
 _Geographic tools and servers_
 
 - [borders](https://github.com/kpfaulkner/borders) - Detects image borders and converts to GeoJSON for GIS operations.
+- [geo-engine-go](https://github.com/AlexG695/geo-engine-go) - Idiomatic Go client for the Geo-Engine platform with context support.
 - [geoos](https://github.com/spatial-go/geoos) - A library provides spatial data and geometric algorithms.
 - [geoserver](https://github.com/hishamkaram/geoserver) - geoserver Is a Go Package For Manipulating a GeoServer Instance via the GeoServer REST API.
 - [gismanager](https://github.com/hishamkaram/gismanager) - Publish Your GIS Data(Vector Data) to PostGIS and Geoserver.
