@@ -699,7 +699,6 @@ additional ordered map implementations.
 
 _Data stores with expiring records, in-memory distributed data stores, or in-memory subsets of file-based databases._
 
-- [2q](https://github.com/floatdrop/2q) - 2Q in-memory cache implementation.
 - [bcache](https://github.com/iwanbk/bcache) - Eventually consistent distributed in-memory cache Go library.
 - [BigCache](https://github.com/allegro/bigcache) - Efficient key/value cache for gigabytes of data.
 - [cache2go](https://github.com/muesli/cache2go) - In-memory key:value cache which supports automatic invalidation based on timeouts.
