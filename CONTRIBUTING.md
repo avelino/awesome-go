@@ -12,6 +12,7 @@ We appreciate and recognize [all contributors](https://github.com/avelino/awesom
 - [Quick checklist](#quick-checklist)
 - [Quality standards](#quality-standards)
 - [Preparing for review](#preparing-for-review)
+- [Common reasons pull requests may be closed](#common-reasons-pull-requests-may-be-closed)
 - [Local validations (optional)](#local-validations-optional)
 - [How to add an item to the list](#how-to-add-an-item-to-the-list)
   - [Examples of good and bad entries](#examples-of-good-and-bad-entries)
@@ -79,6 +80,21 @@ One way to accomplish the above is to add badges to your project's README file.
 - Use <https://pkg.go.dev/badge/> to create the pkg.go.dev link.
 - Go to <https://goreportcard.com/> to generate a Go Report Card report, then click on the report badge in the upper-right corner to see details on how to add the badge to your README.
 - Codecov, coveralls, and gocover all offer ways to create badges for code coverage reports. Another option is to generate a badge as part of a continuous integration process. See [Code Coverage](COVERAGE.md) for an example.
+
+## Common reasons pull requests may be closed
+
+To help contributors avoid frustration and speed up reviews, here are some common reasons pull requests may be closed without being merged:
+
+- The project does not meet one or more quality standards listed above (license, documentation, activity, tests, releases).
+- Required links in the PR body (pkg.go.dev, Go Report Card, coverage) are missing, invalid, or do not match the repository being added.
+- The entry is added to the wrong category or is not in alphabetical order.
+- The link text does not exactly match the project or repository name.
+- The description is promotional, vague, overly long, or missing a trailing period.
+- More than one item is added, removed, or modified in a single pull request.
+- The project appears abandoned, with unanswered issues or pull requests older than the allowed timeframes.
+- The contributor does not respond to maintainer feedback within 15 days.
+
+If your pull request is closed, it is not a personal judgment. You are welcome to address the feedback and open a new pull request once the issues are resolved.
 
 ## Local validations (optional)
 
