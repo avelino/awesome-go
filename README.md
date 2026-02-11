@@ -3470,6 +3470,7 @@ _Software written in Go._
 - [vFlow](https://github.com/VerizonDigital/vflow) - High-performance, scalable and reliable IPFIX, sFlow and Netflow collector.
 - [Wave Terminal](https://waveterm.dev) - Wave is an open-source, AI-native terminal built for seamless developer workflows with inline rendering, a modern UI, and persistent sessions.
 - [wellington](https://github.com/wellington/wellington) - Sass project management tool, extends the language with sprite functions (like Compass).
+- [techyons](https://techyons.io) — Unified workspace for projects, meetings, docs, and AI insights.
 - [woke](https://github.com/get-woke/woke) - Detect non-inclusive language in your source code.
 - [yai](https://github.com/ekkinox/yai) - AI powered terminal assistant.
 - [zs](https://git.mills.io/prologic/zs) - an extremely minimal static site generator.
