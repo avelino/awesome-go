@@ -258,7 +258,7 @@ async function main() {
   const repo = capture(body, /forge\s+link[^:]*:\s*(https?:\/\/(?:github\.com|gitlab\.com|bitbucket\.org)\/\S+)/i);
   const pkg = capture(body, /pkg\.go\.dev:\s*(https?:\/\/pkg\.go\.dev\/\S+)/i);
   const gorep = capture(body, /goreportcard\.com:\s*(https?:\/\/goreportcard\.com\/\S+)/i);
-  const coverage = capture(body, /coverage[^:]*:\s*(https?:\/\/(?:coveralls\.io|codecov\.io)\/\S+)/i);
+  const coverage = capture(body, /coverage[^:]*:\s*(https?:\/\/(?:coveralls\.io|(?:app\.)?codecov\.io)\/\S+)/i);
 
   const results = [];
   let criticalFail = false;
