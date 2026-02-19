@@ -49,6 +49,12 @@ _Special thanks to_
 
 Please take a quick gander at the [contribution guidelines](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md) first. Thanks to all [contributors](https://github.com/avelino/awesome-go/graphs/contributors); you rock!
 
+**How to submit a library:**
+1. Read the [contribution guidelines](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md)
+2. Open a pull request adding your library to the appropriate category
+3. Follow the quality standards and checklist
+4. Wait for review from maintainers
+
 > _If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!_
 
 ## Contents
