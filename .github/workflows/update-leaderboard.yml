@@ -1,0 +1,43 @@
+name: "Update Contributors & Leaderboard"
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-site:
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: "1.22"
+
+      - name: Build static site
+        run: go run main.go
+
+      - name: Commit and push leaderboard + contributors page
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: update leaderboard & contributors"
+          file_pattern: |
+            leaderboard.json
+            out/contributors/index.html
+          branch: main
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
