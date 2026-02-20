@@ -2077,6 +2077,7 @@ _Libraries for working with various layers of the network._
 - [webrtc](https://github.com/pions/webrtc) - A pure Go implementation of the WebRTC API.
 - [winrm](https://github.com/masterzen/winrm) - Go WinRM client to remotely execute commands on Windows machines.
 - [xtcp](https://github.com/xfxdev/xtcp) - TCP Server Framework with simultaneous full duplex communication, graceful shutdown, and custom protocol.
+- [cdns](https://github.com/junevm/cdns) - Change DNS servers effortlessly via terminal.
 
 **[⬆ back to top](#contents)**
 
