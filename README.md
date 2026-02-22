@@ -2444,6 +2444,7 @@ _Libraries for testing codebases and generating test data._
 - [dbcleaner](https://github.com/khaiql/dbcleaner) - Clean database for testing purpose, inspired by `database_cleaner` in Ruby.
 - [dft](https://github.com/abecodes/dft) - Lightweight, zero dependency docker containers for testing (or more).
 - [dsunit](https://github.com/viant/dsunit) - Datastore testing for SQL, NoSQL, structured files.
+- [embedded-clickhouse](https://github.com/franchb/embedded-clickhouse) - Run a real ClickHouse database locally on Linux or macOS as part of another Go application or test, without Docker or external dependencies.
 - [embedded-postgres](https://github.com/fergusstrange/embedded-postgres) - Run a real Postgres database locally on Linux, OSX or Windows as part of another Go application or test.
 - [endly](https://github.com/viant/endly) - Declarative end to end functional testing.
 - [envite](https://github.com/PerimeterX/envite) - Dev and testing environment management framework.
