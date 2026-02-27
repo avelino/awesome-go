@@ -66,6 +66,7 @@ func main() {
 
 	if !includesReadme {
 		results = append(results, icon(false)+" **README change**: no changes to README.md detected")
+		results = append(results, fix("Your PR should add or remove an entry in README.md.", "Edit README.md following the format: `- [project-name](url) - Short description.`"))
 		hasFail = true
 		outputResults(results, warnings, hasFail)
 		return
@@ -82,6 +83,7 @@ func main() {
 			}
 		}
 		warnings = append(warnings, fmt.Sprintf("%s **Extra files changed**: %s (expected only README.md for package additions)", warnIcon(false), strings.Join(others, ", ")))
+		warnings = append(warnings, fix("Package addition PRs should only modify README.md.", "If you need other changes, please open a separate PR."))
 	}
 
 	// 2. Parse the diff
@@ -108,6 +110,7 @@ func main() {
 		warnings = append(warnings, warnIcon(false)+" **Entries**: no package entries detected in diff (might be a category or formatting change)")
 	default:
 		results = append(results, fmt.Sprintf("%s **Single item**: %d added, %d removed (expected exactly 1 change per PR)", icon(false), len(added), len(removed)))
+		results = append(results, fix("Each PR should add, remove, or change only **one** package.", "Please split this into separate PRs — one package per PR."))
 		hasFail = true
 	}
 
@@ -119,6 +122,7 @@ func main() {
 				results = append(results, icon(true)+" **Link consistency**: README link matches forge link in PR body")
 			} else {
 				results = append(results, fmt.Sprintf("%s **Link consistency**: README link `%s` does not match forge link `%s`", icon(false), e.url, forgeLink))
+				results = append(results, fix("The URL you added to README.md must match the forge link in your PR description.", fmt.Sprintf("Either update the README entry to use `%s`, or update `Forge link:` in your PR body to `%s`.", forgeLink, e.url)))
 				hasFail = true
 			}
 		}
@@ -129,7 +133,8 @@ func main() {
 			if strings.EqualFold(e.name, repoName) {
 				results = append(results, icon(true)+" **Link text**: matches repository name")
 			} else {
-				warnings = append(warnings, fmt.Sprintf("%s **Link text**: `%s` differs from repo name `%s` (verify this is intentional)", warnIcon(false), e.name, repoName))
+				warnings = append(warnings, fmt.Sprintf("%s **Link text**: `%s` differs from repo name `%s`", warnIcon(false), e.name, repoName))
+				warnings = append(warnings, fix("The link text should be the exact project name.", fmt.Sprintf("If the project name really is `%s`, this is fine. Otherwise change it to: `- [%s](%s) - ...`", e.name, repoName, e.url)))
 			}
 		}
 
@@ -138,6 +143,7 @@ func main() {
 			results = append(results, icon(true)+" **Description**: ends with punctuation")
 		} else {
 			results = append(results, icon(false)+" **Description**: must end with a period")
+			results = append(results, fix("Add a period `.` at the end of the description.", fmt.Sprintf("Change to: `- [%s](%s) - %s.`", e.name, e.url, e.description)))
 			hasFail = true
 		}
 
@@ -151,6 +157,7 @@ func main() {
 		}
 		if len(promoFound) > 0 {
 			warnings = append(warnings, fmt.Sprintf("%s **Promotional language**: description contains: %s", warnIcon(false), strings.Join(promoFound, ", ")))
+			warnings = append(warnings, fix("Descriptions should be factual and neutral, not promotional.", "Remove superlatives and marketing language. Good: `Lightweight HTTP router for Go.` Bad: `The fastest, best HTTP router ever.`"))
 		} else {
 			results = append(results, icon(true)+" **Description tone**: no promotional language detected")
 		}
@@ -161,6 +168,7 @@ func main() {
 			results = append(results, fmt.Sprintf("%s **Category size**: %s has %d items", icon(true), cat, count))
 		} else if count > 0 {
 			results = append(results, fmt.Sprintf("%s **Category size**: %s has only %d item(s) (minimum 3 required)", icon(false), cat, count))
+			results = append(results, fix("Categories must have at least 3 packages.", "Either add more packages to this category in the same PR, or add your package to an existing category that already has 3+ items."))
 			hasFail = true
 		}
 	}
@@ -379,4 +387,8 @@ func boolStr(b bool) string {
 		return "true"
 	}
 	return "false"
+}
+
+func fix(problem, howToFix string) string {
+	return fmt.Sprintf("  > **How to fix:** %s\n  > %s", problem, howToFix)
 }

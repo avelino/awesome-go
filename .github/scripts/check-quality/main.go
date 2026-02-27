@@ -84,11 +84,13 @@ func main() {
 	// --- Repo checks ---
 	if forgeLink == "" {
 		critical = append(critical, icon(false)+" **Repo link**: missing from PR body")
+		critical = append(critical, fix("Add the following to your PR description:", "```\nForge link: https://github.com/your-org/your-project\n```"))
 		criticalFail = true
 	} else {
 		r := checkGithubRepo(forgeLink)
 		if !r.ok {
 			critical = append(critical, fmt.Sprintf("%s **Repo**: %s", icon(false), r.reason))
+			critical = append(critical, repoFixMessage(r.reason, forgeLink))
 			criticalFail = true
 		} else {
 			critical = append(critical, icon(true)+" **Repo**: accessible, has go.mod and SemVer release")
@@ -100,6 +102,7 @@ func main() {
 				warnings = append(warnings, fmt.Sprintf("%s **License**: %s", warnIcon(true), r.licenseName))
 			} else {
 				warnings = append(warnings, warnIcon(false)+" **License**: no open source license detected")
+				warnings = append(warnings, fix("Add a LICENSE file to your repository root.", "Choose one at https://choosealicense.com — common choices for Go projects: MIT, Apache-2.0, BSD-3-Clause."))
 				labels = append(labels, "needs-license")
 			}
 		}
@@ -108,6 +111,7 @@ func main() {
 				warnings = append(warnings, warnIcon(true)+" **Maturity**: repo has 5+ months of history")
 			} else {
 				warnings = append(warnings, warnIcon(false)+" **Maturity**: repo appears to have less than 5 months of history")
+				warnings = append(warnings, fix("Your repository needs at least 5 months of history since the first commit.", "Please resubmit after the repository meets this requirement."))
 				labels = append(labels, "needs-maturity")
 			}
 		}
@@ -115,7 +119,8 @@ func main() {
 			if r.hasCI {
 				warnings = append(warnings, warnIcon(true)+" **CI/CD**: GitHub Actions workflows detected")
 			} else {
-				warnings = append(warnings, warnIcon(false)+" **CI/CD**: no GitHub Actions workflows found (CI is recommended)")
+				warnings = append(warnings, warnIcon(false)+" **CI/CD**: no GitHub Actions workflows found")
+				warnings = append(warnings, fix("Add a CI workflow to run tests automatically.", "Create `.github/workflows/test.yml` — see https://docs.github.com/en/actions/use-cases-and-examples/building-and-testing/building-and-testing-go"))
 			}
 		}
 		if r.readmeChecked {
@@ -123,6 +128,7 @@ func main() {
 				warnings = append(warnings, warnIcon(true)+" **README**: present")
 			} else {
 				warnings = append(warnings, warnIcon(false)+" **README**: not found in repository root")
+				warnings = append(warnings, fix("Add a `README.md` to your repository root.", "It should explain what the project does, how to install it, and how to use it, in English."))
 			}
 		}
 	}
@@ -130,9 +136,11 @@ func main() {
 	// --- pkg.go.dev ---
 	if pkgLink == "" {
 		critical = append(critical, icon(false)+" **pkg.go.dev**: missing from PR body")
+		critical = append(critical, fix("Add the following to your PR description:", "```\npkg.go.dev: https://pkg.go.dev/github.com/your-org/your-project\n```"))
 		criticalFail = true
 	} else if !isReachable(pkgLink) {
 		critical = append(critical, icon(false)+" **pkg.go.dev**: unreachable")
+		critical = append(critical, fix("The pkg.go.dev page could not be reached.", "Ensure your module path in `go.mod` matches the URL. After pushing a tagged release, pkg.go.dev indexes the module automatically — this can take a few minutes. You can trigger it manually by visiting `https://pkg.go.dev/your-module-path`."))
 		criticalFail = true
 	} else {
 		critical = append(critical, icon(true)+" **pkg.go.dev**: OK")
@@ -142,11 +150,21 @@ func main() {
 	// --- Go Report Card ---
 	if gorepLink == "" {
 		critical = append(critical, icon(false)+" **Go Report Card**: missing from PR body")
+		if forgeLink != "" {
+			critical = append(critical, fix("Add the following to your PR description:", fmt.Sprintf("```\ngoreportcard.com: https://goreportcard.com/report/%s\n```", strings.TrimPrefix(strings.TrimPrefix(forgeLink, "https://"), "http://"))))
+		} else {
+			critical = append(critical, fix("Add the following to your PR description:", "```\ngoreportcard.com: https://goreportcard.com/report/github.com/your-org/your-project\n```"))
+		}
 		criticalFail = true
 	} else {
 		grade, ok := checkGoReportCard(gorepLink)
 		if !ok {
 			critical = append(critical, fmt.Sprintf("%s **Go Report Card**: %s", icon(false), grade))
+			if grade == "unreachable" || grade == "fetch error" {
+				critical = append(critical, fix("The Go Report Card page could not be reached.", "Visit https://goreportcard.com and generate a report for your project. Then add the correct link to your PR body."))
+			} else {
+				critical = append(critical, fix(fmt.Sprintf("Your project received grade **%s** — minimum required is **A-**.", grade), "Run `gofmt -s -w .` to fix formatting, `go vet ./...` to fix vet issues, and review the report at "+gorepLink+" for specific problems to address."))
+			}
 			criticalFail = true
 		} else {
 			msg := icon(true) + " **Go Report Card**: OK"
@@ -161,8 +179,10 @@ func main() {
 	// --- Coverage ---
 	if covLink == "" {
 		warnings = append(warnings, warnIcon(false)+" **Coverage**: missing from PR body")
+		warnings = append(warnings, fix("Add a coverage service link to your PR description:", "```\nCoverage: https://app.codecov.io/gh/your-org/your-project\n```\nPopular options: [Codecov](https://codecov.io), [Coveralls](https://coveralls.io). Integrate one with your CI to track coverage automatically."))
 	} else if !isReachable(covLink) {
 		warnings = append(warnings, warnIcon(false)+" **Coverage**: unreachable")
+		warnings = append(warnings, fix("The coverage link could not be reached.", "Ensure the coverage service is configured for your repository and the link is correct. If you just set it up, it may need a CI run to generate the first report."))
 	} else {
 		warnings = append(warnings, warnIcon(true)+" **Coverage**: link accessible")
 		coverageOk = true
@@ -459,4 +479,25 @@ func boolStr(b bool) string {
 		return "true"
 	}
 	return "false"
+}
+
+func fix(problem, howToFix string) string {
+	return fmt.Sprintf("  > **How to fix:** %s\n  > %s", problem, howToFix)
+}
+
+func repoFixMessage(reason, repoURL string) string {
+	switch reason {
+	case "invalid repo url":
+		return fix("The forge link is not a valid repository URL.", "Use the full URL, e.g. `https://github.com/org/project`.")
+	case "repo api not reachable":
+		return fix("Could not reach the repository via GitHub API.", "Ensure the repository is **public** and the URL is correct.")
+	case "repo is archived":
+		return fix("This repository is archived on GitHub.", "Archived repositories are not accepted. The project must be actively maintained or at least open to contributions.")
+	case "missing go.mod":
+		return fix("No `go.mod` file found at the repository root.", "Initialize Go modules in your project:\n  > ```\n  > go mod init github.com/your-org/your-project\n  > go mod tidy\n  > git add go.mod go.sum && git commit -m \"add go module\" && git push\n  > ```")
+	case "missing semver release":
+		return fix("No SemVer release tag (e.g. `v1.0.0`) found.", "Create a tagged release:\n  > ```\n  > git tag v1.0.0\n  > git push origin v1.0.0\n  > ```\n  > Or create a release via GitHub's UI at `"+repoURL+"/releases/new`.")
+	default:
+		return fix(reason, "Review the [quality standards](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md#quality-standards).")
+	}
 }
