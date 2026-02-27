@@ -10,33 +10,53 @@ permissions:
 
 jobs:
   quality:
+    name: Repository quality checks
     runs-on: ubuntu-latest
     environment: action
+    container: golang:latest
     steps:
       - uses: actions/checkout@v6
-      - name: Setup Node
-        uses: actions/setup-node@v6
         with:
-          node-version: 20
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+
+      - name: Fetch base branch
+        run: git fetch origin ${{ github.base_ref }}
+
       - name: Run quality checks
-        id: check
+        id: quality
         continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node .github/scripts/check-quality.js
+        run: go run ./.github/scripts/check-quality/
+
+      - name: Run diff checks
+        id: diff
+        continue-on-error: true
+        env:
+          GITHUB_BASE_REF: ${{ github.base_ref }}
+        run: go run ./.github/scripts/check-pr-diff/
+
       - name: Post quality report comment
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           header: pr-quality-check
-          message: ${{ steps.check.outputs.comment }}
+          message: |
+            ${{ steps.quality.outputs.comment }}
+
+            ---
+
+            ${{ steps.diff.outputs.diff_comment }}
+
       - name: Sync labels
         uses: actions-ecosystem/action-add-labels@v1
-        if: ${{ steps.check.outputs.labels != '' }}
+        if: ${{ steps.quality.outputs.labels != '' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: ${{ join(fromJson(steps.check.outputs.labels), '\n') }}
+          labels: ${{ join(fromJson(steps.quality.outputs.labels), '\n') }}
+
       - name: Fail if critical checks failed
-        if: ${{ steps.check.outputs.fail == 'true' }}
+        if: ${{ steps.quality.outputs.fail == 'true' || steps.diff.outputs.diff_fail == 'true' }}
         run: |
-          echo "Critical quality checks failed."
+          echo "Quality or diff checks failed."
           exit 1
