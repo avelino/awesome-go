@@ -9,8 +9,30 @@ permissions:
   contents: write
 
 jobs:
+  detect:
+    name: Detect PR type
+    runs-on: ubuntu-latest
+    outputs:
+      is_package_pr: ${{ steps.check.outputs.is_package_pr }}
+    steps:
+      - name: Check if README.md is modified
+        id: check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          files=$(gh api repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files --jq '.[].filename' 2>/dev/null || echo "")
+          if echo "$files" | grep -q '^README.md$'; then
+            echo "is_package_pr=true" >> "$GITHUB_OUTPUT"
+            echo "README.md is modified — this is a package PR"
+          else
+            echo "is_package_pr=false" >> "$GITHUB_OUTPUT"
+            echo "README.md not modified — skipping quality checks"
+          fi
+
   quality:
     name: Repository quality checks
+    needs: detect
+    if: needs.detect.outputs.is_package_pr == 'true'
     runs-on: ubuntu-latest
     environment: action
     container: golang:latest
@@ -61,9 +83,27 @@ jobs:
           echo "Quality or diff checks failed."
           exit 1
 
+  skip-notice:
+    name: Skip quality checks (non-package PR)
+    needs: detect
+    if: needs.detect.outputs.is_package_pr == 'false'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post skip notice
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: pr-quality-check
+          message: |
+            ## Automated Quality Checks
+
+            **Skipped** — this PR does not modify `README.md`, so package quality checks do not apply.
+
+            _This is expected for maintenance, documentation, or workflow PRs._
+
   auto-merge:
     name: Enable auto-merge
     needs: quality
+    if: always() && needs.quality.result == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Enable auto-merge via squash
