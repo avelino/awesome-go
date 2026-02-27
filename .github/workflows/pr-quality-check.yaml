@@ -6,7 +6,7 @@ on:
 
 permissions:
   pull-requests: write
-  contents: read
+  contents: write
 
 jobs:
   quality:
@@ -60,3 +60,17 @@ jobs:
         run: |
           echo "Quality or diff checks failed."
           exit 1
+
+  auto-merge:
+    name: Enable auto-merge
+    needs: quality
+    runs-on: ubuntu-latest
+    steps:
+      - name: Enable auto-merge via squash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr merge ${{ github.event.pull_request.number }} \
+            --repo ${{ github.repository }} \
+            --auto \
+            --squash
