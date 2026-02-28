@@ -208,6 +208,10 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 **[⬆ back to top](#contents)**
 
+
+
+</details>
+
 ## Actor Model
 
 _Libraries for building actor-based programs._
@@ -216,7 +220,9 @@ _Libraries for building actor-based programs._
 - [Ergo](https://github.com/ergo-services/ergo) - An actor-based Framework with network transparency for creating event-driven architecture in Golang. Inspired by Erlang.
 - [Goakt](https://github.com/Tochemey/goakt) - Fast and Distributed Actor framework using protocol buffers as message for Golang.
 - [Hollywood](https://github.com/anthdm/hollywood) - Blazingly fast and light-weight Actor engine written in Golang.
-- [ProtoActor](https://github.com/asynkron/protoactor-go) - Proto Actor - Ultra fast distributed actors for Go, C# and Java/Kotlin.
+- [ProtoActor](https://github.com/asynkron/protoactor-go) - Distributed actors for Go, C#, and Java/Kotlin.
+
+**[⬆ back to top](#contents)**
 
 ## Artificial Intelligence
 
@@ -230,8 +236,6 @@ _Libraries for building programs that leverage AI._
 - [OllamaFarm](https://github.com/presbrey/ollamafarm) - Manage, load-balance, and failover packs of Ollamas.
 
 **[⬆ back to top](#contents)**
-
-</details>
 
 ## Audio and Music
 
@@ -247,7 +251,6 @@ _Libraries for manipulating audio._
 - [malgo](https://github.com/gen2brain/malgo) - Mini audio library.
 - [minimp3](https://github.com/tosone/minimp3) - Lightweight MP3 decoder library.
 - [Oto](https://github.com/hajimehoshi/oto) - A low-level library to play sound on multiple platforms.
-- [play](https://github.com/paololazzari/play) - Command-line audio player that supports multiple formats including WAV, MP3, OGG, and FLAC.
 - [PortAudio](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library.
 
 **[⬆ back to top](#contents)**
@@ -365,7 +368,7 @@ _Libraries for building Console Applications and Console User Interfaces._
 
 - [asciigraph](https://github.com/guptarohit/asciigraph) - Go package to make lightweight ASCII line graph ╭┈╯ in command line apps with no other dependencies.
 - [aurora](https://github.com/logrusorgru/aurora) - ANSI terminal colors that support fmt.Printf/Sprintf.
-- [box-cli-maker](https://github.com/Delta456/box-cli-maker) - Make Highly Customized Boxes for your CLI.
+- [box-cli-maker](https://github.com/box-cli-maker/box-cli-maker) - Render highly customizable boxes in the terminal.
 - [bubble-table](https://github.com/Evertras/bubble-table) - An interactive table component for bubbletea.
 - [bubbles](https://github.com/charmbracelet/bubbles) - TUI components for bubbletea.
 - [bubbletea](https://github.com/charmbracelet/bubbletea) - Go framework to build terminal apps, based on The Elm Architecture.
@@ -696,7 +699,6 @@ additional ordered map implementations.
 
 _Data stores with expiring records, in-memory distributed data stores, or in-memory subsets of file-based databases._
 
-- [2q](https://github.com/floatdrop/2q) - 2Q in-memory cache implementation.
 - [bcache](https://github.com/iwanbk/bcache) - Eventually consistent distributed in-memory cache Go library.
 - [BigCache](https://github.com/allegro/bigcache) - Efficient key/value cache for gigabytes of data.
 - [cache2go](https://github.com/muesli/cache2go) - In-memory key:value cache which supports automatic invalidation based on timeouts.
@@ -757,6 +759,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [lotusdb](https://github.com/flower-corp/lotusdb) - Fast k/v database compatible with lsm and b+tree.
 - [Milvus](https://github.com/milvus-io/milvus) - Milvus is a vector database for embedding management, analytics and search.
 - [moss](https://github.com/couchbase/moss) - Moss is a simple LSM key-value storage engine written in 100% Go.
+- [NoKV](https://github.com/feichai0017/NoKV) - High-performance distributed KV storage based on LSM Tree.
 - [nutsdb](https://github.com/xujiajun/nutsdb) - Nutsdb is a simple, fast, embeddable, persistent key/value store written in pure Go. It supports fully serializable transactions and many data structures such as list, set, sorted set.
 - [objectbox-go](https://github.com/objectbox/objectbox-go) - High-performance embedded Object Database (NoSQL) with Go API.
 - [pebble](https://github.com/cockroachdb/pebble) - RocksDB/LevelDB inspired key-value database in Go.
@@ -1571,6 +1574,7 @@ _Libraries for working with JSON._
 - [mp](https://github.com/sanbornm/mp) - Simple cli email parser. It currently takes stdin and outputs JSON.
 - [OjG](https://github.com/ohler55/ojg) - Optimized JSON for Go is a high performance parser with a variety of additional JSON tools including JSONPath.
 - [omg.jsonparser](https://github.com/dedalqq/omg.jsonparser) - Simple JSON parser with validation by condition via golang struct fields tags.
+- [SJSON](https://github.com/tidwall/sjson) - Set a JSON value with one line of code.  
 - [ujson](https://github.com/olvrng/ujson) - Fast and minimal JSON parser and transformer that works on unstructured JSON.
 - [vjson](https://github.com/miladibra10/vjson) - Go package for validating JSON objects with declaring a JSON schema with fluent API.
 
@@ -2053,7 +2057,7 @@ _Libraries for working with various layers of the network._
 - [net](https://golang.org/x/net) - This repository holds supplementary Go networking libraries.
 - [netpoll](https://github.com/cloudwego/netpoll) - A high-performance non-blocking I/O networking framework, which focused on RPC scenarios, developed by ByteDance.
 - [NFF-Go](https://github.com/intel-go/nff-go) - Framework for rapid development of performant network functions for cloud and bare-metal (former YANFF).
-- [nodepass](https://github.com/yosebyte/nodepass) - A secure, efficient TCP/UDP tunneling solution that delivers fast, reliable access across network restrictions using pre-established TLS/TCP connections.
+- [nodepass](https://github.com/NodePassProject/nodepass) - A secure, efficient TCP/UDP tunneling solution that delivers fast, reliable access across network restrictions using pre-established TCP/QUIC/WebSocket or HTTP/2 connections.
 - [peerdiscovery](https://github.com/schollz/peerdiscovery) - Pure Go library for cross-platform local peer discovery using UDP multicast.
 - [portproxy](https://github.com/aybabtme/portproxy) - Simple TCP proxy which adds CORS support to API's which don't support it.
 - [psql-wire](https://github.com/jeroenrinzema/psql-wire) - PostgreSQL server wire protocol. Build your own server and start serving connections..
@@ -2102,6 +2106,7 @@ _Libraries for making HTTP requests._
 - [resty](https://github.com/go-resty/resty) - Simple HTTP and REST client for Go inspired by Ruby rest-client.
 - [rq](https://github.com/ddo/rq) - A nicer interface for golang stdlib HTTP client.
 - [sling](https://github.com/dghubble/sling) - Sling is a Go HTTP client library for creating and sending API requests.
+- [surf](https://github.com/enetx/surf) - Advanced HTTP client with HTTP/1.1, HTTP/2, HTTP/3 (QUIC), SOCKS5 proxy support and browser-grade TLS fingerprinting.
 - [tls-client](https://github.com/bogdanfinn/tls-client) - net/http.Client like HTTP Client with options to select specific client TLS Fingerprints to use for requests.
 
 **[⬆ back to top](#contents)**
@@ -2193,6 +2198,7 @@ _Unofficial libraries for package and dependency management._
 - [jsonql](https://github.com/elgs/jsonql) - JSON query expression library in Golang.
 - [jsonslice](https://github.com/bhmj/jsonslice) - Jsonpath queries with advanced filters.
 - [mql](https://github.com/hashicorp/mql) - Model Query Language (mql) is a query language for your database models.
+- [play](https://github.com/paololazzari/play) - A TUI playground to experiment with your favorite programs, such as grep, sed, awk, jq and yq.
 - [rql](https://github.com/a8m/rql) - Resource Query Language for REST API.
 - [rqp](https://github.com/timsolov/rest-query-parser) - Query Parser for REST API. Filtering, validations, both `AND`, `OR` operations are supported directly in the query.
 - [straf](https://github.com/SonicRoshan/straf) - Easily Convert Golang structs to GraphQL objects.
@@ -2915,6 +2921,7 @@ _General utilities and tools to make your life easier._
 - [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package.
 - [sqlz](https://github.com/rfberaldo/sqlz) - Extension for the database/sql package, adding named queries, struct scanning, and batch operations.
 - [sshman](https://github.com/shoobyban/sshman) - SSH Manager for authorized_keys files on multiple remote servers.
+- [stacktower](https://github.com/matzehuels/stacktower) - Visualize dependency graphs as physical tower structures, inspired by XKCD #2347.
 - [statiks](https://github.com/janiltonmaciel/statiks) - Fast, zero-configuration, static HTTP filer server.
 - [Storm](https://github.com/asdine/storm) - Simple and powerful toolkit for BoltDB.
 - [structs](https://github.com/PumpkinSeed/structs) - Implement simple functions to manipulate structs.
@@ -3501,7 +3508,6 @@ _Where to discover new Go libraries._
 - [GoCon](https://gocon.connpass.com/) - Tokyo, Japan.
 - [GoDays](https://www.godays.io/) - Berlin, Germany.
 - [GoLab](https://golab.io/) - Florence, Italy.
-- [GopherChina](https://gopherchina.org) - Shanghai, China.
 - [GopherCon](https://www.gophercon.com/) - Varied Locations Each Year, USA.
 - [GopherCon Australia](https://gophercon.com.au/) - Sydney, Australia.
 - [GopherCon Brazil](https://gopherconbr.org) - Florianópolis, Brazil.
