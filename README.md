@@ -2589,6 +2589,7 @@ See also [Natural Language Processing](#natural-language-processing) and [Text A
 - [gofeed](https://github.com/mmcdole/gofeed) - Parse RSS and Atom feeds in Go.
 - [gographviz](https://github.com/awalterschulze/gographviz) - Parses the Graphviz DOT language.
 - [gonameparts](https://github.com/polera/gonameparts) - Parses human names into individual name parts.
+- [kreuzberg](https://github.com/kreuzberg-dev/kreuzberg) - Document intelligence library that extracts text, tables, and metadata from 62+ formats including PDF, Office, images with OCR, HTML, email, and archives.
 - [ltsv](https://github.com/Wing924/ltsv) - High performance [LTSV (Labeled Tab Separated Value)](http://ltsv.org/) reader for Go.
 - [normalize](https://github.com/avito-tech/normalize) - Sanitize, normalize and compare fuzzy text.
 - [parseargs-go](https://github.com/nproc/parseargs-go) - string argument parser that understands quotes and backslashes.
