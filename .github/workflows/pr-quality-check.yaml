@@ -6,37 +6,111 @@ on:
 
 permissions:
   pull-requests: write
-  contents: read
+  contents: write
 
 jobs:
+  detect:
+    name: Detect PR type
+    runs-on: ubuntu-latest
+    outputs:
+      is_package_pr: ${{ steps.check.outputs.is_package_pr }}
+    steps:
+      - name: Check if README.md is modified
+        id: check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          files=$(gh api repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files --jq '.[].filename' 2>/dev/null || echo "")
+          if echo "$files" | grep -q '^README.md$'; then
+            echo "is_package_pr=true" >> "$GITHUB_OUTPUT"
+            echo "README.md is modified — this is a package PR"
+          else
+            echo "is_package_pr=false" >> "$GITHUB_OUTPUT"
+            echo "README.md not modified — skipping quality checks"
+          fi
+
   quality:
+    name: Repository quality checks
+    needs: detect
+    if: needs.detect.outputs.is_package_pr == 'true'
     runs-on: ubuntu-latest
     environment: action
+    container: golang:latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v6
         with:
-          node-version: 20
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+
+      - name: Fetch base branch
+        run: git fetch origin ${{ github.base_ref }}
+
       - name: Run quality checks
-        id: check
+        id: quality
         continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node .github/scripts/check-quality.js
+        run: go run ./.github/scripts/check-quality/
+
+      - name: Run diff checks
+        id: diff
+        continue-on-error: true
+        env:
+          GITHUB_BASE_REF: ${{ github.base_ref }}
+        run: go run ./.github/scripts/check-pr-diff/
+
       - name: Post quality report comment
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           header: pr-quality-check
-          message: ${{ steps.check.outputs.comment }}
+          message: |
+            ${{ steps.quality.outputs.comment }}
+
+            ---
+
+            ${{ steps.diff.outputs.diff_comment }}
+
       - name: Sync labels
         uses: actions-ecosystem/action-add-labels@v1
-        if: ${{ steps.check.outputs.labels != '' }}
+        if: ${{ steps.quality.outputs.labels != '' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: ${{ join(fromJson(steps.check.outputs.labels), '\n') }}
+          labels: ${{ join(fromJson(steps.quality.outputs.labels), '\n') }}
+
       - name: Fail if critical checks failed
-        if: ${{ steps.check.outputs.fail == 'true' }}
+        if: ${{ steps.quality.outputs.fail == 'true' || steps.diff.outputs.diff_fail == 'true' }}
         run: |
-          echo "Critical quality checks failed."
+          echo "Quality or diff checks failed."
           exit 1
+
+  skip-notice:
+    name: Skip quality checks (non-package PR)
+    needs: detect
+    if: needs.detect.outputs.is_package_pr == 'false'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post skip notice
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: pr-quality-check
+          message: |
+            ## Automated Quality Checks
+
+            **Skipped** — this PR does not modify `README.md`, so package quality checks do not apply.
+
+            _This is expected for maintenance, documentation, or workflow PRs._
+
+  auto-merge:
+    name: Enable auto-merge
+    needs: quality
+    if: always() && needs.quality.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Enable auto-merge via squash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr merge ${{ github.event.pull_request.number }} \
+            --repo ${{ github.repository }} \
+            --auto \
+            --squash
