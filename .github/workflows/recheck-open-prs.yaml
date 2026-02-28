@@ -11,6 +11,7 @@ jobs:
   recheck:
     name: Re-trigger checks on open PRs
     runs-on: ubuntu-latest
+    environment: action
     steps:
       - name: Re-run quality checks on all open PRs
         env:
