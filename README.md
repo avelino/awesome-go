@@ -593,6 +593,7 @@ _Frameworks for performing ELT / ETL_
 
 ### Iterators
 
+- [glinq](https://github.com/CreateLab/glinq) - LINQ-like lazy evaluation library with type-safe generics, performance optimizations and zero dependencies.
 - [gloop](https://github.com/alvii147/gloop) - Convenient looping using Go's range-over-func feature.
 - [goterator](https://github.com/yaa110/goterator) - Iterator implementation to provide map and reduce functionalities.
 - [iter](https://github.com/disksing/iter) - Go implementation of C++ STL iterators and algorithms.
