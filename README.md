@@ -3708,6 +3708,7 @@ _Add the group of your city/country here (send **PR**)_
 - [Libs.tech](https://libs.tech/go) – Awesome Go libraries and hidden gems
 - [Made with Golang](https://madewithgolang.com/?ref=awesome-go)
 - [pkg.go.dev](https://pkg.go.dev/) - Documentation for open source Go packages.
+- [ReadyToTouch](https://github.com/readytotouch/readytotouch) - Open-source list of [companies](https://readytotouch.com/golang/companies) and [jobs](https://readytotouch.com/golang/jobs) using Go in production.
 - [studygolang](https://studygolang.com) - The community of studygolang in China.
 - [Trending Go repositories on GitHub today](https://github.com/trending?l=go) - Good place to find new Go libraries.
 - [TutorialEdge - Golang](https://tutorialedge.net/course/golang/)
