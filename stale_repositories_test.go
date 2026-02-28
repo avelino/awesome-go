@@ -27,7 +27,7 @@ const issueTemplateContent = `
 var issueTemplate = template.Must(template.New("issue").Parse(issueTemplateContent))
 
 // FIXME: use official github client
-var reGithubRepo = regexp.MustCompile("https://github.com/[a-zA-Z0-9-._]+/[a-zA-Z0-9-._]+$")
+var reGithubRepo = regexp.MustCompile("https://github.com/([a-zA-Z0-9-._]+)/([a-zA-Z0-9-._]+)$")
 var githubGETREPO = "https://api.github.com/repos%s"
 var githubGETCOMMITS = "https://api.github.com/repos%s/commits"
 var githubPOSTISSUES = "https://api.github.com/repos/avelino/awesome-go/issues"
@@ -39,7 +39,7 @@ var awesomeGoGETISSUES = "http://api.github.com/repos/avelino/awesome-go/issues"
 //	time.Hour * ... or change type of variable
 var numberOfYears time.Duration = 1
 var timeNow = time.Now()
-var issueTitle = fmt.Sprintf("Investigate repositories with more than 1 year without update - %s", timeNow.Format("2006-01-02"))
+var issueTitle = fmt.Sprintf("Investigate repositories with more than 1 year without update - %s", timeNow.Format(time.DateOnly))
 
 const deadLinkMessage = " this repository might no longer exist! (status code >= 400 returned)"
 const movedPermanently = " status code 301 received"

@@ -1,22 +1,57 @@
-This resource was made by the Go community and wouldn't be possible without you! 
-We appreciate and recognize [all contributors](https://github.com/avelino/awesome-go/graphs/contributors).
-
 # Contribution Guidelines
+
+This resource was made by the Go community and wouldn't be possible without you!
+We appreciate and recognize [all contributors](https://github.com/avelino/awesome-go/graphs/contributors).
 
 > Please be aware that we want to accept your contribution, but we have **some rules to keep the minimum quality** of the packages listed here. All reviews are **not personal feedback**, even if you are a _developer reviewing your contribution_. **Sorry, if we can't meet your expectations; we do our best**.
 
 - **To add, remove, or change things on the list:** Submit a pull request
 
-To set this list apart from and complement the excellent [Go wiki Projects page](https://golang.org/wiki/Projects), 
+## Table of Contents
+
+- [Quick checklist](#quick-checklist)
+- [Quality standards](#quality-standards)
+- [What is checked automatically](#what-is-checked-automatically)
+- [Preparing for review](#preparing-for-review)
+- [How to add an item to the list](#how-to-add-an-item-to-the-list)
+  - [Entry formatting rules](#entry-formatting-rules)
+  - [PR body example](#pr-body-example)
+- [Congrats, your project got accepted - what now](#congrats-your-project-got-accepted---what-now)
+- [Maintenance expectations for projects listed here](#maintenance-expectations-for-projects-listed-here)
+- [How to remove an item from the list](#how-to-remove-an-item-from-the-list)
+- [Maintainers](#maintainers)
+- [Reporting issues](#reporting-issues)
+- [How decisions are made](#how-decisions-are-made)
+- [How to become a contributor](#how-to-become-a-contributor)
+- [How to become an ~~"official maintainer"~~](#how-to-become-an-official-maintainer)
+
+## Quick checklist
+
+Before opening a pull request, ensure the following:
+
+- [ ] One PR adds, removes, or changes **only one item**.
+- [ ] The item is in the **correct category** and in **alphabetical order**.
+- [ ] The link text is the **exact project/package name**.
+- [ ] The description is **concise, non-promotional, and ends with a period**.
+- [ ] The repository has: at least **5 months of history**, an **open source license**, a `go.mod`, and at least one **SemVer release** (`vX.Y.Z`).
+- [ ] Documentation in English: **README** and **pkg.go.dev doc comments** for public APIs.
+- [ ] Tests meet the coverage guideline (**≥80%** for non-data packages, **≥90%** for data packages) when applicable.
+- [ ] Include links in the PR body to **pkg.go.dev**, **Go Report Card**, and a **coverage report**.
+- [ ] For ongoing development: issues and PRs are responded to within ~2 weeks; or, if the project is mature/stable, there are no bug reports older than 6 months.
+
+To set this list apart from and complement the excellent [Go wiki Projects page](https://go.dev/wiki/Projects),
 and other lists, awesome-go is a specially curated list of high-quality, actively maintained Go packages and resources.
 
 Please contribute links to packages/projects you have used or are familiar with. This will help ensure high-quality entries.
 
+> the maintainers do not work full-time on the project, meaning that we do not have a set periodicity for reviewing contributions - rest assured that we will do our best to review and eventually accept contributions
+
 ## Quality standards
 
-To be on the list, project repositories should adhere to the following quality standards. 
-(https://goreportcard.com/report/github.com/ **github_user** / **github_repo**):
+To be on the list, project repositories should adhere to the following quality standards.
+(<https://goreportcard.com/report/github.com/> **github_user** / **github_repo**):
 
+- have at least 5 months of history since the first commit.
 - have an **open source license**, [see list of allowed licenses](https://opensource.org/licenses/alphabetical);
 - function as documented and expected;
 - be generally useful to the wider community of Go programmers;
@@ -30,6 +65,51 @@ To be on the list, project repositories should adhere to the following quality s
 
 Categories must have at least 3 items.
 
+## What is checked automatically
+
+When you open a PR, the following checks run automatically via CI. Fixing these before submitting saves review time.
+
+### Blocking checks (PR cannot be merged if these fail)
+
+| Check | What it validates |
+|-------|-------------------|
+| **Repo accessible** | Repository URL responds and is not archived |
+| **go.mod present** | `go.mod` exists at the repository root |
+| **SemVer release** | At least one tag matching `vX.Y.Z` exists |
+| **pkg.go.dev reachable** | The provided pkg.go.dev link loads |
+| **Go Report Card grade** | Grade is A-, A, or A+ |
+| **PR body links present** | Forge link, pkg.go.dev, and Go Report Card are provided |
+| **Single item per PR** | Only one package added or removed per PR |
+| **Link consistency** | URL added to README matches the forge link in the PR body |
+| **Description format** | Entry ends with a period |
+| **Alphabetical order** | Entry is in the correct alphabetical position |
+| **No duplicate links** | URL is not already in the list |
+| **Entry format** | Matches `- [name](url) - Description.` pattern |
+| **Category minimum** | Category has at least 3 items |
+
+### Non-blocking checks (reported as warnings)
+
+| Check | What it validates |
+|-------|-------------------|
+| **Open source license** | GitHub detects a recognized OSS license |
+| **Repository maturity** | First commit is at least 5 months old |
+| **CI/CD configured** | GitHub Actions workflows are present |
+| **README present** | Repository has a README file |
+| **Coverage link** | A Codecov or Coveralls link is provided and reachable |
+| **Link text** | Link text matches the repository name |
+| **Non-promotional** | Description avoids superlative/marketing language |
+| **Extra files** | Only README.md is modified (for package additions) |
+
+### Still reviewed manually by maintainers
+
+- Package is in the **correct category** for its functionality
+- Package is **generally useful** to the Go community
+- Description is **accurate and clear**
+- Test coverage is **real** (not just benchmarks)
+- Documentation quality (README detail, pkg.go.dev comments)
+- Package **functions as documented**
+- For surrounding packages: still meet quality standards
+
 ## Preparing for review
 
 Projects listed must have the following in their documentation. When submitting, you will be asked
@@ -40,8 +120,9 @@ to provide them.
 - A link to a code coverage report
 
 One way to accomplish the above is to add badges to your project's README file.
-- Use https://pkg.go.dev/badge/ to create the pkg.go.dev link.
-- Go to https://goreportcard.com/ to generate a Go Report Card report, then click on the report badge in the upper-right corner to see details on how to add the badge to your README.
+
+- Use <https://pkg.go.dev/badge/> to create the pkg.go.dev link.
+- Go to <https://goreportcard.com/> to generate a Go Report Card report, then click on the report badge in the upper-right corner to see details on how to add the badge to your README.
 - Codecov, coveralls, and gocover all offer ways to create badges for code coverage reports. Another option is to generate a badge as part of a continuous integration process. See [Code Coverage](COVERAGE.md) for an example.
 
 ## How to add an item to the list
@@ -60,24 +141,59 @@ that the resulting list has at least 3 projects in every category, and that the 
 
 Fill out the template in your PR with the links asked for. If you accidentally remove the PR template from the submission, you can find it [here](https://github.com/avelino/awesome-go/blob/main/.github/PULL_REQUEST_TEMPLATE.md).
 
+### Entry formatting rules
 
-## Congrats, your project got accepted - what now?
-You are an outstanding project now! Feel encouraged to tell others about it by adding one of these badges:  
-[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)  
+Good:
+
+```md
+- [project-name](https://github.com/org/project) - Short, clear description.
+```
+
+Bad (not alphabetical):
+
+```md
+- [zeta](https://github.com/org/zeta) - ...
+- [alpha](https://github.com/org/alpha) - ...
+```
+
+Bad (promotional, missing period, or mismatched link text):
+
+```md
+- [Awesome Best Project Ever!!!](https://github.com/org/project) - The ultimate, world-class solution
+```
+
+### PR body example
+
+Provide these links in the PR body to speed up review:
+
+```md
+Forge link: https://github.com/org/project
+pkg.go.dev: https://pkg.go.dev/github.com/org/project
+goreportcard.com: https://goreportcard.com/report/github.com/org/project
+Coverage: https://app.codecov.io/gh/org/project
+```
+
+## Congrats, your project got accepted - what now
+
+You are an outstanding project now! Feel encouraged to tell others about it by adding one of these badges:
+[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)
 
 ```md
-[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)  
+[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)
 ```
+
 ## Maintenance expectations for projects listed here
 
 To prevent removal from awesome-go, your project must maintain the following quality standards.
+
 - Development should be ongoing and maintain code quality. Official releases should be at least once a year if the project is ongoing.
 - Or, if development has halted because the project is mature and stable, that can be demonstrated by having no bug reports in the Issues list that are older than 6 months.
 - All links to quality reports should be to the most recent official release or current ongoing development.
 
 Highly recommended but not required:
+
 - A continuous integration process to be part of the ongoing development process
 - That the project uses a pull-request process, and the owners do not commit directly to the repository
 - That the pull-request process requires the continuous-integration tests to pass before a pull request can be merged
@@ -97,14 +213,14 @@ If the project is hosted on GitHub, include a link to the project's submitter an
 that they will be notified of the desire to remove the project and have an opportunity to respond.
 The link should be of the form @githubID.
 
-If the project is not hosted on GitHub, open an issue at the project in question's repository linking to the PR 
+If the project is not hosted on GitHub, open an issue at the project in question's repository linking to the PR
 and stating the following:
 
->This project is currently listed at awesome-go at https://github.com/avelino/awesome-go. 
+>This project is currently listed at awesome-go at <https://github.com/avelino/awesome-go>.
 However, it appears that the project is not maintaining the quality standards required to continue to be listed at the awesome-go project.
 This project is scheduled to be removed within 2 weeks of this posting. To continue to be listed at awesome-go, please respond at:
   -- link to above PR --
-  
+
 Then, comment on your PR at awesome-go with a link to the removal issue at the project.
 
 ## Maintainers
@@ -114,7 +230,6 @@ To make sure every PR is checked, we have [team maintainers](MAINTAINERS). Every
 The maintainers will review your PR and notify you and tag it in case any
 information is still missing. They will wait 15 days for your interaction, after
 that the PR will be closed.
-
 
 ## Reporting issues
 
@@ -127,3 +242,29 @@ Thanks, everyone!
 ## How decisions are made
 
 The official group of maintainers has the final decision on what PRs are accepted. Discussions are made openly in issues. Decisions are made by consensus.
+
+## How to become a contributor
+
+awesome-go is an open source project (created and maintained by the community), we are always open to new people to help us review the contributions (pull requests), **you don't need permission** or _name on the maintainers list_ to review a contribution and mark it as **LGTM**.
+
+> Before you do anything, please read [this topic](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md#quality-standards) very carefully.
+
+Now that you've read it, let's go!
+
+Go into the pull requests (PR) and look at the following aspects:
+
+- **shared links in the body of the PR:** they need to be valid and follow the quality specified above
+- **check that the link added to `README.md`** is the same as the link to the repository mentioned in the body of the PR.
+- **is it in the correct category?**
+
+If everything is OK, mark the PR as approved, [read this documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request#starting-a-review) on how to do it.
+
+**Welcome to awesome-go!**
+
+## How to become an ~~"official maintainer"~~
+
+We don't give this name to people who are allowed to accept the PR.
+
+If you are a person who is constantly active in reviewing PR and contributing to the project, you will be invited by a maintainer.
+
+> **remember:** if you stop contributing with awesome-go for a long time, you will automatically be removed from the list of maintainers.
