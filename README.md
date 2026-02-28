@@ -2157,6 +2157,7 @@ _Official tooling for dependency and package management_
 
 _Unofficial libraries for package and dependency management._
 
+- [go-mod-graph](https://github.com/samber/go-mod-graph) - A web-based visualizer for Go module dependency graphs.
 - [gup](https://github.com/nao1215/gup) - Update binaries installed by "go install".
 - [modup](https://github.com/chaindead/modup) - Terminal UI for Go dependency updates with outdated module detection and selective upgrading.
 - [syft](https://github.com/anchore/syft) - A CLI tool and Go library for generating a Software Bill of Materials (SBOM) from container images and filesystems.
