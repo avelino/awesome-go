@@ -2582,6 +2582,7 @@ See also [Natural Language Processing](#natural-language-processing) and [Text A
 - [editorconfig-core-go](https://github.com/editorconfig/editorconfig-core-go) - Editorconfig file parser and manipulator for Go.
 - [encdec](https://github.com/mickep76/encdec) - Package provides a generic interface to encoders and decoders.
 - [go-fasttld](https://github.com/elliotwutingfeng/go-fasttld) - High performance effective top level domains (eTLD) extraction module.
+- [go-hashtag](https://github.com/itbasis/go-hashtag) - Library for working with hashtags in the text
 - [go-nmea](https://github.com/adrianmo/go-nmea) - NMEA parser library for the Go language.
 - [go-querystring](https://github.com/google/go-querystring) - Go library for encoding structs into URL query parameters.
 - [go-vcard](https://github.com/emersion/go-vcard) - Parse and format vCard.

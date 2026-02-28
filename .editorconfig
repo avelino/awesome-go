@@ -1,0 +1,10 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+tab_width = 4
+indent_size = tab
+indent_style = tab
+insert_final_newline = true
+max_line_length = 120
