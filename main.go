@@ -114,28 +114,8 @@ func dropCreateDir(dir string) error {
 		return fmt.Errorf("remove dir: %w", err)
 	}
 
-	if err := mkdirAll(dir); err != nil {
-		return fmt.Errorf("create dir: %w", err)
-	}
-
-	return nil
-}
-
-func mkdirAll(path string) error {
-	_, err := os.Stat(path)
-	// directory is exists
-	if err == nil {
-		return nil
-	}
-
-	// unexpected error
-	if !os.IsNotExist(err) {
-		return fmt.Errorf("unexpected result of dir stat: %w", err)
-	}
-
-	// directory is not exists
-	if err := os.MkdirAll(path, 0755); err != nil {
-		return fmt.Errorf("midirAll: %w", err)
+	if err := os.MkdirAll(dir, 0755); err != nil {
+		return fmt.Errorf("mkdirAll: %w", err)
 	}
 
 	return nil
