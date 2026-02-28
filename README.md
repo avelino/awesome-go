@@ -3511,6 +3511,7 @@ _Where to discover new Go libraries._
 - [GopherCon](https://www.gophercon.com/) - Varied Locations Each Year, USA.
 - [GopherCon Australia](https://gophercon.com.au/) - Sydney, Australia.
 - [GopherCon Brazil](https://gopherconbr.org) - Florianópolis, Brazil.
+- [GopherCon China](https://gophercon.com.cn) - Shanghai, China.
 - [GopherCon Europe](https://gophercon.eu/) - Berlin, Germany.
 - [GopherCon India](https://gopherconindia.org/) - Pune, India.
 - [GopherCon Israel](https://www.gophercon.org.il/) - Tel Aviv, Israel.
