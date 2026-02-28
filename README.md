@@ -224,6 +224,7 @@ _Libraries for building programs that leverage AI._
 - [LocalAI](https://github.com/mudler/LocalAI) - Open Source OpenAI alternative, self-host AI models.
 - [Ollama](https://github.com/jmorganca/ollama) - Run large language models locally.
 - [OllamaFarm](https://github.com/presbrey/ollamafarm) - Manage, load-balance, and failover packs of Ollamas.
+- [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) - Go framework for building LLM-based multi-agent systems.
 
 **[⬆ back to top](#contents)**
 
