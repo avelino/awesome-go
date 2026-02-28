@@ -628,6 +628,7 @@ additional ordered map implementations.
 - [hyperloglog](https://github.com/axiomhq/hyperloglog) - HyperLogLog implementation with Sparse, LogLog-Beta bias correction and TailCut space reduction.
 - [quadtree](https://github.com/s0rg/quadtree) - Generic, zero-alloc, 100%-test covered quadtree.
 - [slices](https://github.com/twharmon/slices) - Pure, generic functions for slices.
+- [xsync](https://github.com/puzpuzpuz/xsync) - Concurrent scalable data structures like `xsync.Map`, a concurrent generic hash table.
 
 ### Nullable Types
 
