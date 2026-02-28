@@ -18,8 +18,16 @@ jobs:
       - uses: actions/checkout@v6
       - name: Get dependencies
         run: go get -v -t -d ./...
+      - name: Restore GitHub metadata cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/repos
+          key: repo-meta-${{ github.run_id }}
+          restore-keys: repo-meta-
       - name: Make awesome-go.com
         run: go run .
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Setup node
         uses: actions/setup-node@v6
         with:

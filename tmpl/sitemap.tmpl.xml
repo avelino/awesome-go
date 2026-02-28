@@ -11,12 +11,20 @@
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-  {{range .}}
+  {{range .Categories}}
   <url>
     <loc>https://awesome-go.com/{{.Slug}}/</loc>
     <lastmod>{{now}}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  {{end}}
+  {{range .Projects}}
+  <url>
+    <loc>https://awesome-go.com/{{.CategorySlug}}/{{.Slug}}/</loc>
+    <lastmod>{{now}}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   {{end}}
 </urlset>

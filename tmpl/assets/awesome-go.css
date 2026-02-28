@@ -701,7 +701,135 @@ details li a:hover {
   color: var(--color-text-muted);
 }
 
-/* --- 14. Footer ---------------------------------------------------------- */
+/* --- 14. Project Page ---------------------------------------------------- */
+
+.project-hero {
+  background:
+    radial-gradient(ellipse 70% 50% at 30% 0%, var(--color-hero-gradient-1) 0%, var(--color-hero-gradient-3) 100%),
+    radial-gradient(ellipse 50% 40% at 70% 10%, var(--color-hero-gradient-2) 0%, var(--color-hero-gradient-3) 100%);
+  padding: var(--space-3xl) var(--space-xl) var(--space-2xl);
+}
+
+.project-hero-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.project-header h1 {
+  margin: 0 0 var(--space-sm);
+  font-size: 2.25rem;
+  letter-spacing: -0.03em;
+}
+
+.project-header p {
+  font-size: 1.1rem;
+  color: var(--color-text-secondary);
+  margin: 0 0 var(--space-lg);
+  line-height: 1.6;
+}
+
+.repo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: var(--color-accent);
+  padding: var(--space-sm) var(--space-lg);
+  border-radius: var(--radius-full);
+  transition: all var(--transition-base);
+  text-decoration: none;
+}
+
+.repo-link:hover {
+  background-color: var(--color-accent-hover);
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px var(--color-accent-glow);
+}
+
+.repo-link:visited {
+  color: #fff;
+}
+
+.repo-link svg {
+  flex-shrink: 0;
+}
+
+.project-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: var(--space-md);
+  margin-bottom: var(--space-2xl);
+}
+
+.meta-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  padding: var(--space-lg);
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-md);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.meta-card:hover {
+  border-color: var(--color-accent);
+  box-shadow: 0 2px 8px var(--color-card-shadow);
+}
+
+.meta-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-text);
+  letter-spacing: -0.02em;
+}
+
+.meta-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.project-topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-2xl);
+}
+
+.topic-tag {
+  display: inline-block;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-accent);
+  background-color: var(--color-accent-soft);
+  padding: var(--space-xs) var(--space-md);
+  border-radius: var(--radius-full);
+  border: 1px solid transparent;
+  transition: all var(--transition-fast);
+}
+
+.topic-tag:hover {
+  border-color: var(--color-accent);
+  background-color: var(--color-accent-glow);
+}
+
+.related-projects {
+  margin-top: var(--space-3xl);
+  padding-top: var(--space-2xl);
+  border-top: 2px solid var(--color-border-subtle);
+}
+
+.related-projects h2 {
+  margin-top: 0;
+}
+
+/* --- 15. Footer ---------------------------------------------------------- */
 
 .site-footer {
   border-top: 1px solid var(--color-border);
@@ -762,7 +890,7 @@ details li a:hover {
   color: var(--color-text-muted);
 }
 
-/* --- 15. Responsive ------------------------------------------------------ */
+/* --- 16. Responsive ------------------------------------------------------ */
 
 @media (max-width: 768px) {
   :root {
@@ -795,8 +923,13 @@ details li a:hover {
     padding: 0 var(--space-md);
   }
 
-  .category-header h1 {
+  .category-header h1,
+  .project-header h1 {
     font-size: 1.75rem;
+  }
+
+  .project-meta {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   summary {
@@ -846,8 +979,13 @@ details li a:hover {
     padding: var(--space-xs) var(--space-sm);
   }
 
-  .category-header h1 {
+  .category-header h1,
+  .project-header h1 {
     font-size: 1.5rem;
+  }
+
+  .project-meta {
+    grid-template-columns: 1fr 1fr;
   }
 
   table {
@@ -859,7 +997,7 @@ details li a:hover {
   }
 }
 
-/* --- 16. Print ----------------------------------------------------------- */
+/* --- 17. Print ----------------------------------------------------------- */
 
 @media print {
   .site-header,
