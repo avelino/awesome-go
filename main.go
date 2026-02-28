@@ -34,6 +34,9 @@ type Category struct {
 	Links       []Link
 }
 
+// Sentinel errors
+var errCategoryNoLinks = errors.New("category does not contain links")
+
 // Source files
 const readmePath = "README.md"
 
@@ -198,9 +201,12 @@ func extractCategories(doc *goquery.Document) (map[string]Category, error) {
 	categories := make(map[string]Category)
 	var rootErr error
 
-	doc.
-		Find("body #contents").
-		NextFiltered("ul").
+	toc := doc.Find("body #contents").Next().Find("ul").First()
+	if toc.Length() == 0 {
+		toc = doc.Find("body #contents").NextFiltered("ul")
+	}
+
+	toc.
 		Find("ul").
 		EachWithBreak(func(_ int, selUl *goquery.Selection) bool {
 			if rootErr != nil {
@@ -217,6 +223,9 @@ func extractCategories(doc *goquery.Document) (map[string]Category, error) {
 
 					category, err := extractCategory(doc, selector)
 					if err != nil {
+						if errors.Is(err, errCategoryNoLinks) {
+							return true
+						}
 						rootErr = fmt.Errorf("extract category: %w", err)
 						return false
 					}
@@ -242,10 +251,7 @@ func extractCategory(doc *goquery.Document, selector string) (*Category, error) 
 
 	doc.Find(selector).EachWithBreak(func(_ int, selCatHeader *goquery.Selection) bool {
 		selDescr := selCatHeader.NextFiltered("p")
-		// FIXME: bug. this would select links from all neighboring
-		// sub-categories until the next category. To prevent this we should
-		// find only first ul
-		ul := selCatHeader.NextFilteredUntil("ul", "h2")
+		ul := selCatHeader.NextFilteredUntil("ul", "h2, h3")
 
 		var links []Link
 		ul.Find("li").Each(func(_ int, selLi *goquery.Selection) {
@@ -263,7 +269,7 @@ func extractCategory(doc *goquery.Document, selector string) (*Category, error) 
 
 		// FIXME: In this case we would have an empty category in main index.html with link to 404 page.
 		if len(links) == 0 {
-			err = errors.New("category does not contain links")
+			err = errCategoryNoLinks
 			return false
 		}
 
