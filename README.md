@@ -365,6 +365,7 @@ _Libraries for building Console Applications and Console User Interfaces._
 - [bubbletea](https://github.com/charmbracelet/bubbletea) - Go framework to build terminal apps, based on The Elm Architecture.
 - [crab-config-files-templating](https://github.com/alfiankan/crab-config-files-templating) - Dynamic configuration file templating tool for kubernetes manifest or general configuration files.
 - [ctc](https://github.com/wzshiming/ctc) - The non-invasive cross-platform terminal color library does not need to modify the Print method.
+- [drako](https://github.com/lucky7xz/drako) - Grid-based, customizable launcher for commands and terminal UIs.
 - [fx](https://github.com/antonmedv/fx) - Terminal JSON viewer & processor.
 - [go-ataman](https://github.com/workanator/go-ataman) - Go library for rendering ANSI colored text templates in terminals.
 - [go-colorable](https://github.com/mattn/go-colorable) - Colorable writer for windows.
