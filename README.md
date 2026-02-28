@@ -418,6 +418,7 @@ _Libraries for building standard or basic Command Line applications._
 - [elvish](https://github.com/elves/elvish) - An expressive programming language and a versatile interactive shell.
 - [env](https://github.com/codingconcepts/env) - Tag-based environment configuration for structs.
 - [flaggy](https://github.com/integrii/flaggy) - A robust and idiomatic flags package with excellent subcommand support.
+- [flags](https://github.com/reeflective/flags) - Generate cobra command trees from structs. Go-flags compliant tags. Advanced related CLI functionality.
 - [flagvar](https://github.com/sgreben/flagvar) - A collection of flag argument types for Go's standard `flag` package.
 - [flash-flags](https://github.com/agilira/flash-flags) - Ultra-fast, zero-dependency, POSIX-compliant flag parsing library that can be used as drop-in stdlib replacement with security hardening.
 - [getopt](https://github.com/jon-codes/getopt) - An accurate Go `getopt`, validated against the GNU libc implementation.
