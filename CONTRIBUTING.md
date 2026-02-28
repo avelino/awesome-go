@@ -268,3 +268,5 @@ We don't give this name to people who are allowed to accept the PR.
 If you are a person who is constantly active in reviewing PR and contributing to the project, you will be invited by a maintainer.
 
 > **remember:** if you stop contributing with awesome-go for a long time, you will automatically be removed from the list of maintainers.
+
+Minor: doc tip from @ex1234
