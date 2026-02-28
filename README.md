@@ -3777,6 +3777,8 @@ _Add the group of your city/country here (send **PR**)_
 
 ## Contribution
 
+👉 Check out our live [Contributors Leaderboard](https://awesome-go.com/contributors)
+
 We welcome contributions! Please refer to our [CONTRIBUTING.md](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md) for guidelines.
 
 ## License

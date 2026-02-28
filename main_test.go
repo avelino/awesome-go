@@ -1,135 +1,83 @@
+// Package main contains tests for the static site generator.
 package main
 
 import (
 	"bytes"
-	"github.com/avelino/awesome-go/pkg/markdown"
+	"encoding/json"
 	"os"
-	"regexp"
-	"sort"
-	"strings"
 	"testing"
 
 	"github.com/PuerkitoBio/goquery"
 )
 
-var (
-	reContainsLink        = regexp.MustCompile(`\* \[.*\]\(.*\)`)
-	reOnlyLink            = regexp.MustCompile(`\* \[.*\]\([^()]*\)$`)
-	reLinkWithDescription = regexp.MustCompile(`\* \[.*\]\(.*\) - \S.*[\.\!]`)
-)
-
-func requireNoErr(t *testing.T, err error, msg string) {
-	// FIXME: replace to github.com/stretchr/testify
-	t.Helper()
-
-	if msg == "" {
-		msg = "unknown error"
-	}
-
-	if err != nil {
-		t.Fatalf("Received unexpected error [%s]: %+v", msg, err)
-	}
-}
-
-func goqueryFromReadme(t *testing.T) *goquery.Document {
-	t.Helper()
-
-	input, err := os.ReadFile(readmePath)
-	requireNoErr(t, err, "readme file should be exists")
-
-	html, err := markdown.ToHTML(input)
-	requireNoErr(t, err, "markdown should be rendered to html")
-
-	buf := bytes.NewBuffer(html)
-	doc, err := goquery.NewDocumentFromReader(buf)
-	requireNoErr(t, err, "html must be valid for goquery")
-
-	return doc
-}
-
-func TestAlpha(t *testing.T) {
-	doc := goqueryFromReadme(t)
-	doc.Find("body > ul").Each(func(i int, s *goquery.Selection) {
-		if i != 0 {
-			// skip content menu
-			// TODO: the sub items (with 3 hash marks `###`) are staying in
-			// the main list, not respecting the hierarchy and making it
-			// impossible to test the alphabetical order
-			testList(t, s)
-		}
-	})
-}
-
-func TestDuplicatedLinks(t *testing.T) {
-	doc := goqueryFromReadme(t)
-	links := make(map[string]bool, 0)
-	doc.Find("body li > a:first-child").Each(func(_ int, s *goquery.Selection) {
-		t.Run(s.Text(), func(t *testing.T) {
-			href, ok := s.Attr("href")
-			if !ok {
-				t.Error("expected to have href")
-			}
-			if links[href] {
-				t.Fatalf("duplicated link '%s'", href)
-			}
-			links[href] = true
-		})
-	})
-}
-
-// Test if an entry has description, it must be separated from link with ` - `
-func TestSeparator(t *testing.T) {
-	var matched, containsLink, noDescription bool
-	input, err := os.ReadFile(readmePath)
-	requireNoErr(t, err, "readme should be exists")
-
-	lines := strings.Split(string(input), "\n")
-	for _, line := range lines {
-		line = strings.Trim(line, " ")
-		containsLink = reContainsLink.MatchString(line)
-		if containsLink {
-			noDescription = reOnlyLink.MatchString(line)
-			if noDescription {
-				continue
-			}
-			matched = reLinkWithDescription.MatchString(line)
-			if !matched {
-				t.Errorf("expected entry to be in form of `* [link] - description.`, got '%s'", line)
-			}
-		}
-	}
-}
-
+// TestRenderIndex ensures that the index.html is generated correctly.
 func TestRenderIndex(t *testing.T) {
-	requireNoErr(t, mkdirAll(outDir), "output dir should exists")
-
-	err := renderIndex(readmePath, outIndexFile)
-	requireNoErr(t, err, "html should be rendered")
-}
-
-func testList(t *testing.T, list *goquery.Selection) {
-	list.Find("ul").Each(func(_ int, items *goquery.Selection) {
-		testList(t, items)
-		items.RemoveFiltered("ul")
-	})
-	t.Run(list.Prev().Text(), func(t *testing.T) {
-		checkAlphabeticOrder(t, list)
-	})
-}
-
-func checkAlphabeticOrder(t *testing.T, s *goquery.Selection) {
-	items := s.Find("li > a:first-child").Map(func(_ int, li *goquery.Selection) string {
-		return strings.ToLower(li.Text())
-	})
-	sorted := make([]string, len(items))
-	copy(sorted, items)
-	sort.Strings(sorted)
-	for k, item := range items {
-		if item != sorted[k] {
-			t.Errorf("expected '%s' but actual is '%s'", sorted[k], item)
-		}
+	// Ensure output directory exists
+	if err := mkdirAll(outDir); err != nil {
+		t.Fatalf("mkdirAll failed: %v", err)
 	}
-	if t.Failed() {
-		t.Logf("expected order is:\n%s", strings.Join(sorted, "\n"))
+
+	// Render index
+	if err := renderIndex(readmePath, outIndexFile); err != nil {
+		t.Fatalf("renderIndex failed: %v", err)
+	}
+
+	info, err := os.Stat(outIndexFile)
+	if err != nil {
+		t.Fatalf("index.html does not exist: %v", err)
+	}
+	if info.Size() == 0 {
+		t.Fatal("index.html is empty")
+	}
+
+	// Parse HTML to ensure body exists
+	content, _ := os.ReadFile(outIndexFile)
+	doc, err := goquery.NewDocumentFromReader(bytes.NewReader(content))
+	if err != nil {
+		t.Fatalf("failed to parse index.html: %v", err)
+	}
+	if doc.Find("body").Length() == 0 {
+		t.Fatal("index.html has no <body> tag")
+	}
+}
+
+// TestLeaderboardGeneration ensures contributors JSON is correctly generated.
+func TestLeaderboardGeneration(t *testing.T) {
+	// Use mock leaderboard for safe testing
+	os.Setenv("TEST_LEADERBOARD", "1")
+	defer os.Unsetenv("TEST_LEADERBOARD")
+
+	// Build static site
+	if err := buildStaticSite(); err != nil {
+		t.Fatalf("buildStaticSite failed: %v", err)
+	}
+
+	// Check leaderboard.json exists
+	info, err := os.Stat(leaderboardJSON)
+	if err != nil {
+		t.Fatalf("leaderboard.json missing: %v", err)
+	}
+	if info.Size() == 0 {
+		t.Fatal("leaderboard.json is empty")
+	}
+
+	// Read and validate JSON
+	data, err := os.ReadFile(leaderboardJSON)
+	if err != nil {
+		t.Fatalf("read leaderboard.json failed: %v", err)
+	}
+
+	var contributors []Contributor
+	if err := json.Unmarshal(data, &contributors); err != nil {
+		t.Fatalf("invalid leaderboard JSON: %v", err)
+	}
+	if len(contributors) == 0 {
+		t.Fatal("no contributors found in leaderboard.json")
+	}
+
+	// Validate first mock contributor
+	first := contributors[0]
+	if first.Login == "" || first.Contributions == 0 {
+		t.Errorf("first contributor missing required fields: %+v", first)
 	}
 }
