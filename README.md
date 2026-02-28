@@ -3351,6 +3351,7 @@ _Software written in Go._
 - [ko](https://github.com/google/ko) - Command line tool for building and deploying Go applications on Kubernetes
 - [kool](https://github.com/kool-dev/kool) - Command line tool for managing Docker environments as an easy way.
 - [kubeblocks](https://github.com/apecloud/kubeblocks) - KubeBlocks is an open-source control plane that runs and manages databases, message queues and other data infrastructure on K8s.
+- [kubefwd](https://github.com/txn2/kubefwd) - Bulk Kubernetes port forwarding with unique IPs per service for local development.
 - [kubernetes](https://github.com/kubernetes/kubernetes) - Container Cluster Manager from Google.
 - [kubeshark](https://github.com/kubeshark/kubeshark) - API traffic analyzer for Kubernetes, inspired by Wireshark, purposely built for Kubernetes.
 - [KubeVela](https://github.com/kubevela/kubevela) - Cloud native application delivery.
