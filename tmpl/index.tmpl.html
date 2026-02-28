@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width" />
-    <title>A curated list of awesome Go frameworks, libraries and software - Awesome Go / Golang</title>
-    <meta name="description" content="A curated list of awesome Go / Golang frameworks, libraries and software" />
-    <meta name="keywords" content="golang, go, awesome, awesome-go, go framework, golang framework" />
+    <title>
+      A curated list of awesome Go frameworks, libraries and software - Awesome
+      Go / Golang
+    </title>
+    <meta
+      name="description"
+      content="A curated list of awesome Go / Golang frameworks, libraries and software"
+    />
+    <meta
+      name="keywords"
+      content="golang, go, awesome, awesome-go, go framework, golang framework"
+    />
     <meta name="twitter:card" value="summary" />
-    <meta property="og:title" content="A curated list of awesome Go frameworks, libraries and software - Awesome Go" />
+    <meta
+      property="og:title"
+      content="A curated list of awesome Go frameworks, libraries and software - Awesome Go"
+    />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://awesome-go.com/" />
-    <meta property="og:image" content="https://awesome-go.com/assets/logo.png" />
-    <meta property="og:description" content="A curated list of awesome #Golang frameworks, libraries and software" />
+    <meta
+      property="og:image"
+      content="https://awesome-go.com/assets/logo.png"
+    />
+    <meta
+      property="og:description"
+      content="A curated list of awesome #Golang frameworks, libraries and software"
+    />
 
     <link rel="canonical" href="https://awesome-go.com/" />
 
@@ -25,34 +42,81 @@
     <link rel="icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png" />
     <link rel="manifest" href="/assets/favicon/manifest.json" />
-    
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="content">
-        <div>
-            <div id="amzn-assoc-ad-ce1dd292-c6f0-4062-ac99-55bc005bbbf9"></div>
-            <script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=ce1dd292-c6f0-4062-ac99-55bc005bbbf9"></script>
-        </div>
+      <div>
+        <div id="amzn-assoc-ad-ce1dd292-c6f0-4062-ac99-55bc005bbbf9"></div>
+        <script
+          async
+          src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=ce1dd292-c6f0-4062-ac99-55bc005bbbf9"
+        ></script>
+      </div>
 
-        {{.Body}}
+      {{.Body}}
 
-        <a href="https://bit.ly/awesome-go-netlify">
-            <img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" alt="Deploys by Netlify" />
-        </a>
+      <a href="https://bit.ly/awesome-go-netlify">
+        <img
+          src="https://www.netlify.com/img/global/badges/netlify-dark.svg"
+          alt="Deploys by Netlify"
+        />
+      </a>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.0/marked.min.js" integrity="sha512-uggp1jOpxGjqTeS8Fit5x6+lqyJoIuXXn/VziVPlxBRnqZ0FhCaxsUnQsPL5PKylHr0KIoMtNbBIiU6n31dDTg==" crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.0/marked.min.js"
+      integrity="sha512-uggp1jOpxGjqTeS8Fit5x6+lqyJoIuXXn/VziVPlxBRnqZ0FhCaxsUnQsPL5PKylHr0KIoMtNbBIiU6n31dDTg=="
+      crossorigin="anonymous"
+    ></script>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DXZMLYYVYM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-DXZMLYYVYM"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-DXZMLYYVYM');
-</script>
-</body>
+      gtag("config", "G-DXZMLYYVYM");
+    </script>
 
+    <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">
+      ▲
+    </button>
+
+    <script>
+      // Get the button
+      let mybutton = document.getElementById("backToTopBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+  </body>
 </html>
