@@ -43,7 +43,9 @@ jobs:
           fetch-depth: 0
 
       - name: Fetch base branch
-        run: git fetch origin ${{ github.base_ref }}
+        run: |
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git fetch origin ${{ github.base_ref }}
 
       - name: Run quality checks
         id: quality
