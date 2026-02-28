@@ -11,6 +11,7 @@ import (
 	"os"
 	"path/filepath"
 	"text/template"
+	"time"
 
 	"github.com/avelino/awesome-go/pkg/markdown"
 	cp "github.com/otiai10/copy"
@@ -47,7 +48,11 @@ var staticFiles = []string{
 //go:embed tmpl/*.tmpl.html tmpl/*.tmpl.xml
 var tplFs embed.FS
 
-var tpl = template.Must(template.ParseFS(tplFs, "tmpl/*.tmpl.html", "tmpl/*.tmpl.xml"))
+var tpl = template.Must(
+	template.New("").Funcs(template.FuncMap{
+		"now": func() string { return time.Now().Format("2006-01-02") },
+	}).ParseFS(tplFs, "tmpl/*.tmpl.html", "tmpl/*.tmpl.xml"),
+)
 
 // Output files
 const outDir = "out/" // NOTE: trailing slash is required
@@ -198,9 +203,14 @@ func extractCategories(doc *goquery.Document) (map[string]Category, error) {
 	categories := make(map[string]Category)
 	var rootErr error
 
-	doc.
-		Find("body #contents").
-		NextFiltered("ul").
+	contentsHeading := doc.Find("body #contents")
+	// Support both direct <ul> sibling and <ul> wrapped in <details>
+	contentsList := contentsHeading.NextFiltered("ul")
+	if contentsList.Length() == 0 {
+		contentsList = contentsHeading.NextFiltered("details").Find("ul").First()
+	}
+
+	contentsList.
 		Find("ul").
 		EachWithBreak(func(_ int, selUl *goquery.Selection) bool {
 			if rootErr != nil {
@@ -217,8 +227,8 @@ func extractCategories(doc *goquery.Document) (map[string]Category, error) {
 
 					category, err := extractCategory(doc, selector)
 					if err != nil {
-						rootErr = fmt.Errorf("extract category: %w", err)
-						return false
+						// Skip entries without links (e.g. #contents, #awesome-go)
+						return true
 					}
 
 					categories[selector] = *category

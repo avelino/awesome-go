@@ -2,104 +2,138 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width">
-    <title>{{.Title}} - Awesome Go / Golang</title>
-    <meta name="description" content=
-    "{{.Description}} - Awesome Go / Golang">
-    <meta name="keywords" content=
-    "{{.Title}}, golang, go, awesome, awesome-go, go framework, golang framework">
-    <meta name="twitter:card" value="summary">
-    <meta property="og:title" content=
-    "{{.Description}} - Awesome Go">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+
+    <title>{{.Title}} - Awesome Go</title>
+    <meta name="description" content="{{.Description}} - Curated list of awesome Go {{.Title}} libraries and tools.">
+    <meta name="keywords" content="{{.Title}}, golang, go, awesome-go, go libraries">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{.Title}} - Awesome Go">
     <meta property="og:type" content="article">
-    <meta property="og:url" content=
-    "https://awesome-go.com/{{.Slug}}">
-    <meta property="og:image" content=
-    "https://awesome-go.com/assets/logo.png">
-    <meta property="og:description" content=
-    "{{.Description}} - Awesome Go">
-    <link rel="canonical" href="https://awesome-go.com/{{.Slug}}">
-    <link rel="stylesheet" type="text/css" href=
-    "/assets/fonts/firasans.css">
-    <link rel="stylesheet" type="text/css" href=
-    "/assets/normalize.css">
-    <link rel="stylesheet" type="text/css" href=
-    "/assets/awesome-go.css"><!--ICONS-->
-    <link rel="icon" href="/assets/favicon/favicon.ico" type=
-    "image/x-icon">
-    <link rel="apple-touch-icon" href=
-    "/assets/favicon/apple-touch-icon.png">
+    <meta property="og:url" content="https://awesome-go.com/{{.Slug}}/">
+    <meta property="og:image" content="https://awesome-go.com/assets/logo.png">
+    <meta property="og:description" content="{{.Description}} - Awesome Go">
+    <meta property="og:site_name" content="Awesome Go">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{.Title}} - Awesome Go">
+    <meta name="twitter:description" content="{{.Description}}">
+
+    <link rel="canonical" href="https://awesome-go.com/{{.Slug}}/">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/awesome-go.css">
+
+    <!-- Icons -->
+    <link rel="icon" href="/assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png">
     <link rel="manifest" href="/assets/favicon/manifest.json">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "{{.Title}} - Awesome Go",
+        "description": "{{.Description}}",
+        "url": "https://awesome-go.com/{{.Slug}}/",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "Awesome Go",
+            "url": "https://awesome-go.com/"
+        },
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://awesome-go.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "{{.Title}}"
+                }
+            ]
+        }
+    }
+    </script>
 </head>
 <body>
-    <div id="content">
-        <header>
-            <h1><a href="https://awesome-go.com/"><img align=
-            "right" src=
-            "https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png"
-            alt="awesome-go" title="awesome-go"></a> {{.Title}} -
-            <a href="https://awesome-go.com/">Awesome Go</a></h1>
-            <p><em>{{.Description}}</em></p>
-            <p><a href=
-            "https://github.com/avelino/awesome-go/actions/workflows/tests.yaml?query=branch%3Amain"
-            rel="nofollow"><img src=
-            "https://github.com/avelino/awesome-go/actions/workflows/tests.yaml/badge.svg?branch=main"
-            alt="Build Status"></a> <a href=
-            "https://github.com/sindresorhus/awesome" rel=
-            "nofollow"><img src=
-            "https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"
-            alt="Awesome"></a> <a href=
-            "https://gophers.slack.com/messages/awesome" rel=
-            "nofollow"><img src=
-            "https://img.shields.io/badge/join-us%20on%20slack-gray.svg?longCache=true&amp;logo=slack&amp;colorB=red"
-            alt="Slack Widget"></a> <a href=
-            "https://app.netlify.com/sites/awesome-go/deploys" rel=
-            "nofollow"><img src=
-            "https://api.netlify.com/api/v1/badges/83a6dcbe-0da6-433e-b586-f68109286bd5/deploy-status"
-            alt="Netlify Status"></a> <a href=
-            "https://www.trackawesomelist.com/avelino/awesome-go/"
-            rel="nofollow"><img src=
-            "https://www.trackawesomelist.com/badge.svg" alt=
-            "Track Awesome List"></a></p>
-            <p><a href=
-            "https://www.producthunt.com/posts/awesome-go?utm_source=badge-featured&amp;utm_medium=badge&amp;utm_souce=badge-awesome-go"
-            rel="nofollow"><img src=
-            "https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=291535&amp;theme=light"
-            width="250" height="54"></a></p>
-        </header><i><a href="/#contents" alt="back to content menu"
-        title="back to content menu">🗺️ back to content
-        menu</a></i>
-        <ul>
-            {{range .Links}}
-            <li>
-                <a href=
-                "{{.URL}}?utm_campaign=awesomego&amp;utm_medium=referral&amp;utm_source=awesomego"
-                alt="Go to {{.Title}} link" title=
-                "Go to {{.Title}} link">{{.Description}}</a>
-            </li>{{end}}
-        </ul><a href="https://bit.ly/awesome-go-netlify"><img src=
-        "https://www.netlify.com/img/global/badges/netlify-dark.svg"
-        alt="Deploys by Netlify"></a>
-    </div>
-    <script src=
-    "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-    integrity=
-    "sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-    crossorigin="anonymous"></script>
-    <script src=
-    "https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.0/marked.min.js"
-    integrity=
-    "sha512-uggp1jOpxGjqTeS8Fit5x6+lqyJoIuXXn/VziVPlxBRnqZ0FhCaxsUnQsPL5PKylHr0KIoMtNbBIiU6n31dDTg=="
-    crossorigin="anonymous"></script>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DXZMLYYVYM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-DXZMLYYVYM');
-</script>
+    <header class="site-header" role="banner">
+        <div class="header-inner">
+            <a href="/" class="header-brand" aria-label="Awesome Go home">
+                <img src="/assets/logo.png" alt="" width="30" height="30">
+                Awesome Go
+            </a>
+            <nav class="header-nav" role="navigation" aria-label="Main navigation">
+                <a href="/#contents">Categories</a>
+                <a href="https://github.com/avelino/awesome-go" rel="noopener" class="github-link">
+                    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                    GitHub
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="category-hero">
+        <div class="category-hero-inner">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <a href="/">Home</a>
+                <span class="breadcrumb-separator" aria-hidden="true">/</span>
+                <span aria-current="page">{{.Title}}</span>
+            </nav>
+
+            <div class="category-header">
+                <h1>{{.Title}}</h1>
+                <p>{{.Description}}</p>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div id="content">
+            <ul class="category-list">
+                {{range .Links}}
+                <li>
+                    <a href="{{.URL}}?utm_campaign=awesomego&amp;utm_medium=referral&amp;utm_source=awesomego" rel="noopener">{{.Description}}</a>
+                </li>
+                {{end}}
+            </ul>
+
+            <a href="/" class="back-link">&larr; All categories</a>
+        </div>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="footer-inner">
+            <div class="footer-links">
+                <a href="https://github.com/avelino/awesome-go" rel="noopener">GitHub</a>
+                <a href="https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md" rel="noopener">Contributing</a>
+                <a href="https://awesome-go.com/sitemap.xml">Sitemap</a>
+            </div>
+            <p class="footer-credit">Maintained by the <a href="https://github.com/avelino/awesome-go/graphs/contributors" rel="noopener">awesome-go community</a></p>
+        </div>
+    </footer>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DXZMLYYVYM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-DXZMLYYVYM');
+    </script>
 </body>
 </html>
