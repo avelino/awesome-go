@@ -321,6 +321,7 @@ _Libraries for building and working with bots._
 - [go-sarah](https://github.com/oklahomer/go-sarah) - Framework to build a bot for desired chat services including LINE, Slack, Gitter, and more.
 - [go-tg](https://github.com/mr-linch/go-tg) - Generated from official docs Go client library for accessing Telegram Bot API, with batteries for building complex bots included.
 - [go-twitch-irc](https://github.com/gempir/go-twitch-irc) - Library to write bots for twitch.tv chat
+- [lingti-bot](https://github.com/ruilisi/lingti-bot) - OpenClaw-like AI Bot platform with MCP Server capabilities, multi-platform messaging gateway (WeChat, Feishu, DingTalk, Slack, Telegram, Discord), and zero external dependencies.
 - [micha](https://github.com/onrik/micha) - Go Library for Telegram bot api.
 - [slack-bot](https://github.com/innogames/slack-bot) - Ready to use Slack Bot for lazy developers: Custom commands, Jenkins, Jira, Bitbucket, Github...
 - [slacker](https://github.com/slack-io/slacker) - Easy to use framework to create Slack bots.
