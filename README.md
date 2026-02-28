@@ -3060,6 +3060,7 @@ _Full stack web frameworks._
 - [CORS](https://github.com/rs/cors) - Easily add CORS capabilities to your API.
 - [echo-middleware](https://github.com/faabiosr/echo-middleware) - Middleware for Echo framework with logging and metrics.
 - [formjson](https://github.com/rs/formjson) - Transparently handle JSON input as a standard form POST.
+- [Gandalf](https://github.com/Feedback-Frog/gandalf) - Persistent, and concurrent rate limiting functionality for Go. Features local file-based, per-key customizable limits, millisecond to monthly precision, reliable retry logic, and easy integration with Gin or any HTTP mux.
 - [go-fault](https://github.com/github/go-fault) - Fault injection middleware for Go.
 - [Limiter](https://github.com/ulule/limiter) - Dead simple rate limit middleware for Go.
 - [ln-paywall](https://github.com/philippgille/ln-paywall) - Go middleware for monetizing APIs on a per-request basis with the Lightning Network (Bitcoin).
