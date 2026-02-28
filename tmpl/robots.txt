@@ -1,1 +1,4 @@
 User-Agent: *
+Allow: /
+
+Sitemap: https://awesome-go.com/sitemap.xml
