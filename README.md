@@ -2890,6 +2890,7 @@ _General utilities and tools to make your life easier._
 - [rerun](https://github.com/ivpusic/rerun) - Recompiling and rerunning go apps when source changes.
 - [rest-go](https://github.com/edermanoel94/rest-go) - A package that provide many helpful methods for working with rest api.
 - [retro](https://github.com/goioc/retro) - Handy retry-on-error library with extensive flexibility (backoff strategies, caps, etc).
+- [retry](https://github.com/gotidy/retry) - Retry operations with constant, delays and exponential backoff strategies.
 - [retry](https://github.com/kamilsk/retry) - The most advanced functional mechanism to perform actions repetitively until successful.
 - [retry](https://github.com/percolate/retry) - A simple but highly configurable retry package for Go.
 - [retry](https://github.com/thedevsaddam/retry) - Simple and easy retry mechanism package for Go.
