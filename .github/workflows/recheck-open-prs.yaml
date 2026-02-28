@@ -11,10 +11,14 @@ jobs:
   recheck:
     name: Re-trigger checks on open PRs
     runs-on: ubuntu-latest
+    environment: action
     steps:
       - name: Re-run quality checks on all open PRs
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Must use a PAT (not GITHUB_TOKEN) so that close/reopen events
+          # actually trigger other workflows like pr-quality-check.yaml.
+          # GitHub deliberately ignores events created by GITHUB_TOKEN to prevent loops.
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           echo "Fetching all open PR numbers..."
           prs=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --limit 500 --json number --jq '.[].number')
