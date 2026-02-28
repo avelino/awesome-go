@@ -2222,12 +2222,12 @@ _Unofficial libraries for package and dependency management._
 
 _Libraries for scientific computing and data analyzing._
 
-- [assocentity](https://github.com/ndabAP/assocentity) - Package assocentity returns the average distance from words to a given entity.
 - [bradleyterry](https://github.com/seanhagen/bradleyterry) - Provides a Bradley-Terry Model for pairwise comparisons.
 - [calendarheatmap](https://github.com/nikolaydubina/calendarheatmap) - Calendar heatmap in plain Go inspired by Github contribution activity.
 - [chart](https://github.com/vdobler/chart) - Simple Chart Plotting library for Go. Supports many graphs types.
 - [dataframe-go](https://github.com/rocketlaunchr/dataframe-go) - Dataframes for machine-learning and statistics (similar to pandas).
 - [decimal](https://github.com/db47h/decimal) - Package decimal implements arbitrary-precision decimal floating-point arithmetic.
+- [entitydebs](https://github.com/ndabAP/entitydebs) - A social science tool to programmatically analyze entities in non-fictional texts with a built-in dependency parser.
 - [evaler](https://github.com/soniah/evaler) - Simple floating point arithmetic expression evaluator.
 - [ewma](https://github.com/VividCortex/ewma) - Exponentially-weighted moving averages.
 - [geom](https://github.com/skelterjohn/geom) - 2D geometry for golang.
