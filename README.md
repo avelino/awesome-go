@@ -3391,6 +3391,7 @@ _Software written in Go._
 
 ### Other Software
 
+- [Arco](https://github.com/loomi-labs/arco) - Modern GUI-based backup tool based on Borg with encryption, compression, and deduplication.
 - [Better Go Playground](https://goplay.tools) - Go playground with syntax highlight, code completion and other features.
 - [blocky](https://github.com/0xERR0R/blocky) - Fast and lightweight DNS proxy as ad-blocker for local network with many features.
 - [bluetuith](https://github.com/bluetuith-org/bluetuith) - TUI Bluetooth manager for Linux.
