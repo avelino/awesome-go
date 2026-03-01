@@ -27,7 +27,7 @@ const issueTemplateContent = `
 var issueTemplate = template.Must(template.New("issue").Parse(issueTemplateContent))
 
 // FIXME: use official github client
-var reGithubRepo = regexp.MustCompile("https://github.com/[a-zA-Z0-9-._]+/[a-zA-Z0-9-._]+$")
+var reGithubRepo = regexp.MustCompile("https://github.com/([a-zA-Z0-9-._]+)/([a-zA-Z0-9-._]+)$")
 var githubGETREPO = "https://api.github.com/repos%s"
 var githubGETCOMMITS = "https://api.github.com/repos%s/commits"
 var githubPOSTISSUES = "https://api.github.com/repos/avelino/awesome-go/issues"
