@@ -2612,6 +2612,7 @@ See also [Natural Language Processing](#natural-language-processing) and [Text A
 
 ### Regular Expressions
 
+- [coregex](https://github.com/coregx/coregex) - Production regex engine with Rust regex-crate architecture: multi-engine DFA/NFA, SIMD prefilters, drop-in stdlib replacement.
 - [genex](https://github.com/alixaxel/genex) - Count and expand Regular Expressions into all matching Strings.
 - [go-wildcard](https://github.com/IGLOU-EU/go-wildcard) - Simple and lightweight wildcard pattern matching.
 - [goregen](https://github.com/zach-klippenstein/goregen) - Library for generating random strings from regular expressions.
