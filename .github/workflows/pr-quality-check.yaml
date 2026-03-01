@@ -102,10 +102,27 @@ jobs:
 
             _This is expected for maintenance, documentation, or workflow PRs._
 
+  tests:
+    name: Run tests
+    needs: detect
+    if: needs.detect.outputs.is_package_pr == 'true'
+    runs-on: ubuntu-latest
+    container: golang:latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Get dependencies
+        run: go get -v -t -d ./...
+
+      - name: Run tests
+        run: go test main_test.go main.go
+
   auto-merge:
     name: Enable auto-merge
-    needs: quality
-    if: always() && needs.quality.result == 'success'
+    needs: [quality, tests]
+    if: always() && needs.quality.result == 'success' && needs.tests.result == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Enable auto-merge via squash
