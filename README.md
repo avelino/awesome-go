@@ -221,6 +221,7 @@ _Libraries for building programs that leverage AI._
 - [chromem-go](https://github.com/philippgille/chromem-go) - Embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence.
 - [fun](https://gitlab.com/tozd/go/fun) - The simplest but powerful way to use large language models (LLMs) in Go.
 - [langchaingo](https://github.com/tmc/langchaingo) - LangChainGo is a framework for developing applications powered by language models.
+- [langgraphgo](https://github.com/smallnest/langgraphgo) - A Go library for building stateful, multi-actor applications with LLMs, built on the concept of LangGraph，with a lot of builtin Agent architectures.
 - [LocalAI](https://github.com/mudler/LocalAI) - Open Source OpenAI alternative, self-host AI models.
 - [Ollama](https://github.com/jmorganca/ollama) - Run large language models locally.
 - [OllamaFarm](https://github.com/presbrey/ollamafarm) - Manage, load-balance, and failover packs of Ollamas.
@@ -943,6 +944,7 @@ _Libraries for working with dates and times._
 - [feiertage](https://github.com/wlbr/feiertage) - Set of functions to calculate public holidays in Germany, incl. specialization on the states of Germany (Bundesländer). Things like Easter, Pentecost, Thanksgiving...
 - [go-anytime](https://github.com/ijt/go-anytime) - Parse dates/times like "next dec 22nd at 3pm" and ranges like "from today until next thursday" without knowing the format in advance.
 - [go-datebin](https://github.com/deatil/go-datebin) - A simple datetime parse pkg.
+- [go-date-fns](https://github.com/chmenegatti/go-date-fns) - A comprehensive date utility library for Go, inspired by date-fns, with 140+ pure and immutable functions.
 - [go-faketime](https://github.com/harkaitz/go-faketime) - A simple `time.Now()` that honors the faketime(1) utility.
 - [go-persian-calendar](https://github.com/yaa110/go-persian-calendar) - The implementation of the Persian (Solar Hijri) Calendar in Go (golang).
 - [go-str2duration](https://github.com/xhit/go-str2duration) - Convert string to duration. Support time.Duration returned string and more.
@@ -1221,6 +1223,7 @@ _Packages to support functional programming in Go._
 - [fpGo](https://github.com/TeaEntityLab/fpGo) - Monad, Functional Programming features for Golang.
 - [fuego](https://github.com/seborama/fuego) - Functional Experiment in Go.
 - [FuncFrog](https://github.com/koss-null/FuncFrog) - Functional helpers library providing Map, Filter, Reduce and other stream operations on generic slices Go1.18+ with lazy evaluation and error handling mechanisms.
+- [g](https://github.com/enetx/g) - Functional programming framework for Go.
 - [go-functional](https://github.com/BooleanCat/go-functional) - Functional programming in Go using generics
 - [go-underscore](https://github.com/tobyhede/go-underscore) - Useful collection of helpfully functional Go collection utilities.
 - [gofp](https://github.com/rbrahul/gofp) - A lodash like powerful utility library for Golang.
@@ -1575,6 +1578,7 @@ _Libraries for working with JSON._
 
 _Libraries for generating and working with log files._
 
+- [caarlos0/log](https://github.com/caarlos0/log) - Colorful CLI logger.
 - [distillog](https://github.com/amoghe/distillog) - distilled levelled logging (think of it as stdlib + log levels).
 - [glg](https://github.com/kpango/glg) - glg is simple and fast leveled logging library for Go.
 - [glo](https://github.com/lajosbencz/glo) - PHP Monolog inspired logging facility with identical severity levels.
@@ -1645,6 +1649,7 @@ _Libraries for generating and working with log files._
 _Libraries for Machine Learning._
 
 - [bayesian](https://github.com/jbrukh/bayesian) - Naive Bayesian Classification for Golang.
+- [born](https://github.com/born-ml/born) - Deep learning framework inspired by Burn (Rust), with autograd, type-safe tensors, and zero-CGO GPU acceleration.
 - [catboost-cgo](https://github.com/mirecl/catboost-cgo) - Fast, scalable, high performance Gradient Boosting on Decision Trees library. Golang using Cgo for blazing fast inference CatBoost Model.
 - [CloudForest](https://github.com/ryanbressler/CloudForest) - Fast, flexible, multi-threaded ensembles of decision trees for machine learning in pure Go.
 - [ddt](https://github.com/sgrodriguez/ddt) - Dynamic decision tree, create trees defining customizable rules.
@@ -1994,6 +1999,7 @@ _Libraries for working with various layers of the network._
 - [bart](https://github.com/gaissmai/bart) - Package bart provides a Balanced-Routing-Table (BART) for very fast IP to CIDR lookups and more.
 - [buffstreams](https://github.com/stabbycutyou/buffstreams) - Streaming protocolbuffer data over TCP made easy.
 - [canopus](https://github.com/zubairhamed/canopus) - CoAP Client/Server implementation (RFC 7252).
+- [cdns](https://github.com/junevm/cdns) - Change DNS servers effortlessly via terminal.
 - [cidranger](https://github.com/yl2chen/cidranger) - Fast IP to CIDR lookup for Go.
 - [cloudflared](https://github.com/cloudflare/cloudflared) - Cloudflare Tunnel client (formerly Argo Tunnel).
 - [dhcp6](https://github.com/mdlayher/dhcp6) - Package dhcp6 implements a DHCPv6 server, as described in RFC 3315.
@@ -2245,8 +2251,10 @@ _Libraries for scientific computing and data analyzing._
 - [gosl](https://github.com/cpmech/gosl) - Go scientific library for linear algebra, FFT, geometry, NURBS, numerical methods, probabilities, optimisation, differential equations, and more.
 - [GoStats](https://github.com/OGFris/GoStats) - GoStats is an Open Source GoLang library for math statistics mostly used in Machine Learning domains, it covers most of the Statistical measures functions.
 - [graph](https://github.com/yourbasic/graph) - Library of basic graph algorithms.
+- [hdf5](https://github.com/scigolib/hdf5) - Pure Go implementation of the HDF5 file format for scientific data storage and exchange.
 - [insyra](https://github.com/HazelnutParadise/insyra) - Data analysis library with statistics, visualization, Parquet support, and Python integration.
 - [jsonl-graph](https://github.com/nikolaydubina/jsonl-graph) - Tool to manipulate JSONL graphs with graphviz support.
+- [matlab](https://github.com/scigolib/matlab) - Pure Go library for reading and writing MATLAB .mat files (v5-v7.3) without CGO.
 - [MatProInterface.go](https://github.com/MatProGo-dev/MatProInterface.go) - MatProInterface.go is an open source package for defining mathematical programs (e.g., convex optimization problems) in Go.
 - [ode](https://github.com/ChristopherRabotin/ode) - Ordinary differential equation (ODE) solver which supports extended states and channel-based iteration stop conditions.
 - [orb](https://github.com/paulmach/orb) - 2D geometry types with clipping, GeoJSON and Mapbox Vector Tile support.
@@ -2480,6 +2488,7 @@ _Libraries for testing codebases and generating test data._
 - [omg.testingtools](https://github.com/dedalqq/omg.testingtools) - The simple library for change a values of private fields for testing.
 - [restit](https://github.com/yookoala/restit) - Go micro framework to help writing RESTful API integration test.
 - [schema](https://github.com/jgroeneveld/schema) - Quick and easy expression matching for JSON schemas used in requests and responses.
+- [should](https://github.com/Kairum-Labs/should) - Testing library with zero dependencies, detailed struct diffs and human-readable error messages.
 - [stop-and-go](https://github.com/elgohr/stop-and-go) - Testing helper for concurrency.
 - [testcase](https://github.com/adamluzsi/testcase) - Idiomatic testing framework for Behavior Driven Development.
 - [testcerts](https://github.com/madflojo/testcerts) - Dynamically generate self-signed certificates and certificate authorities within your test functions.
@@ -3273,6 +3282,7 @@ _Plugin for text editors and IDEs._
 - [gothanks](https://github.com/psampaz/gothanks) - GoThanks automatically stars your go.mod github dependencies, sending this way some love to their maintainers.
 - [gotutor](https://github.com/ahmedakef/gotutor) - Online Go Debugger & Visualizer.
 - [igo](https://github.com/rocketlaunchr/igo) - An igo to go transpiler (new language features for Go language!)
+- [lensm](https://github.com/loov/lensm) - Go assembly and source viewer.
 - [modver](https://github.com/bobg/modver) - Compare two versions of a Go module to check the version-number change required (major, minor, or patchlevel), according to [semver](https://semver.org/) rules.
 - [MoniGO](https://github.com/iyashjayesh/monigo) - A performance monitoring library for Go applications. It provides real-time insights into application performance! 🚀
 - [OctoLinker](https://github.com/OctoLinker/browser-extension) - Navigate through go files efficiently with the OctoLinker browser extension for GitHub.
@@ -3302,6 +3312,7 @@ _Software written in Go._
 - [bombardier](https://github.com/codesenberg/bombardier) - Fast cross-platform HTTP benchmarking tool.
 - [cassowary](https://github.com/rogerwelin/cassowary) - Modern cross-platform HTTP load-testing tool written in Go.
 - [chaosmonkey](https://github.com/Netflix/chaosmonkey) - A resiliency tool that helps applications tolerate random instance failures.
+- [colima](https://github.com/abiosoft/colima) - Container runtimes on macOS (and Linux) with minimal setup.
 - [Ddosify](https://github.com/ddosify/ddosify) - High-performance load testing tool, written in Golang.
 - [decompose](https://github.com/s0rg/decompose) - tool to generate and process Docker containers connections graphs.
 - [DepCharge](https://github.com/centerorbit/depcharge) - Helps orchestrating the execution of commands across the many dependencies in larger projects.
@@ -3348,6 +3359,7 @@ _Software written in Go._
 - [ko](https://github.com/google/ko) - Command line tool for building and deploying Go applications on Kubernetes
 - [kool](https://github.com/kool-dev/kool) - Command line tool for managing Docker environments as an easy way.
 - [kubeblocks](https://github.com/apecloud/kubeblocks) - KubeBlocks is an open-source control plane that runs and manages databases, message queues and other data infrastructure on K8s.
+- [kubefwd](https://github.com/txn2/kubefwd) - Bulk Kubernetes port forwarding with unique IPs per service for local development.
 - [kubernetes](https://github.com/kubernetes/kubernetes) - Container Cluster Manager from Google.
 - [kubeshark](https://github.com/kubeshark/kubeshark) - API traffic analyzer for Kubernetes, inspired by Wireshark, purposely built for Kubernetes.
 - [KubeVela](https://github.com/kubevela/kubevela) - Cloud native application delivery.
@@ -3394,6 +3406,7 @@ _Software written in Go._
 
 ### Other Software
 
+- [Backrest](https://github.com/garethgeorge/backrest) - Web-based UI and orchestrator for restic backup.
 - [Better Go Playground](https://goplay.tools) - Go playground with syntax highlight, code completion and other features.
 - [blocky](https://github.com/0xERR0R/blocky) - Fast and lightweight DNS proxy as ad-blocker for local network with many features.
 - [bluetuith](https://github.com/bluetuith-org/bluetuith) - TUI Bluetooth manager for Linux.
