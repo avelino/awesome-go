@@ -3309,6 +3309,7 @@ _Software written in Go._
 - [alaz](https://github.com/ddosify/alaz) - Effortless, Low-Overhead, eBPF-based Kubernetes Monitoring.
 - [aptly](https://github.com/aptly-dev/aptly) - aptly is a Debian repository management tool.
 - [aurora](https://github.com/xuri/aurora) - Cross-platform web-based Beanstalkd queue server console.
+- [aws-doctor](https://github.com/elC0mpa/aws-doctor) - Diagnose AWS costs, detect idle resources, and optimize cloud spending directly from your terminal 🩺 ☁️.
 - [awsenv](https://github.com/soniah/awsenv) - Small binary that loads Amazon (AWS) environment variables for a profile.
 - [Balerter](https://github.com/balerter/balerter) - A self-hosted script-based alerting manager.
 - [Blast](https://github.com/dave/blast) - A simple tool for API load testing and batch jobs.
