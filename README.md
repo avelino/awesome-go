@@ -619,6 +619,7 @@ additional ordered map implementations.
 
 - [concurrent-writer](https://github.com/free/concurrent-writer) - Highly concurrent drop-in replacement for `bufio.Writer`.
 - [count-min-log](https://github.com/seiflotfy/count-min-log) - Go implementation Count-Min-Log sketch: Approximately counting with approximate counters (Like Count-Min sketch but using less memory).
+- [FSM](https://github.com/enetx/fsm) - FSM for Go.
 - [fsm](https://github.com/cocoonspace/fsm) - Finite-State Machine package.
 - [genfuncs](https://github.com/nwillc/genfuncs) - Go 1.18+ generics package inspired by Kotlin's Sequence and Map.
 - [go-generics](https://github.com/bobg/go-generics) - Generic slice, map, set, iterator, and goroutine utilities.
