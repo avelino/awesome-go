@@ -5,8 +5,8 @@ on:
     types: [opened, edited, synchronize, reopened]
 
 permissions:
-  pull-requests: write
-  contents: write
+  contents: read
+  pull-requests: read
 
 jobs:
   detect:
@@ -36,16 +36,30 @@ jobs:
     runs-on: ubuntu-latest
     environment: action
     container: golang:latest
+    permissions:
+      contents: read
+      pull-requests: read
+    outputs:
+      comment: ${{ steps.quality.outputs.comment }}
+      labels: ${{ steps.quality.outputs.labels }}
+      fail: ${{ steps.quality.outputs.fail }}
+      diff_comment: ${{ steps.diff.outputs.diff_comment }}
+      diff_fail: ${{ steps.diff.outputs.diff_fail }}
     steps:
       - uses: actions/checkout@v6
         with:
-          ref: ${{ github.event.pull_request.head.sha }}
+          ref: ${{ github.event.pull_request.base.sha }}
+          persist-credentials: false
           fetch-depth: 0
 
-      - name: Fetch base branch
+      - name: Fetch base branch and PR head
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          git fetch origin ${{ github.base_ref }}
+          AUTH="$(printf '%s' "x-access-token:${GITHUB_TOKEN}" | base64 -w0)"
+          git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic ${AUTH}" fetch origin "${{ github.base_ref }}"
+          git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic ${AUTH}" fetch origin "+refs/pull/${{ github.event.pull_request.number }}/head"
 
       - name: Run quality checks
         id: quality
@@ -59,28 +73,38 @@ jobs:
         continue-on-error: true
         env:
           GITHUB_BASE_REF: ${{ github.base_ref }}
+          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
         run: go run ./.github/scripts/check-pr-diff/
 
+  report:
+    name: Post quality report
+    needs: [detect, quality]
+    if: always() && needs.detect.outputs.is_package_pr == 'true' && needs.quality.result != 'cancelled'
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: write
+    steps:
       - name: Post quality report comment
         uses: marocchino/sticky-pull-request-comment@v2
         with:
           header: pr-quality-check
           message: |
-            ${{ steps.quality.outputs.comment }}
+            ${{ needs.quality.outputs.comment }}
 
             ---
 
-            ${{ steps.diff.outputs.diff_comment }}
+            ${{ needs.quality.outputs.diff_comment }}
 
       - name: Sync labels
+        if: needs.quality.outputs.labels != ''
         uses: actions-ecosystem/action-add-labels@v1
-        if: ${{ steps.quality.outputs.labels != '' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: ${{ join(fromJson(steps.quality.outputs.labels), '\n') }}
+          labels: ${{ join(fromJson(needs.quality.outputs.labels), '\n') }}
 
       - name: Fail if critical checks failed
-        if: ${{ steps.quality.outputs.fail == 'true' || steps.diff.outputs.diff_fail == 'true' }}
+        if: needs.quality.outputs.fail == 'true' || needs.quality.outputs.diff_fail == 'true'
         run: |
           echo "Quality or diff checks failed."
           exit 1
@@ -90,6 +114,8 @@ jobs:
     needs: detect
     if: needs.detect.outputs.is_package_pr == 'false'
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
     steps:
       - name: Post skip notice
         uses: marocchino/sticky-pull-request-comment@v2
@@ -104,9 +130,12 @@ jobs:
 
   auto-merge:
     name: Enable auto-merge
-    needs: quality
-    if: always() && needs.quality.result == 'success'
+    needs: [quality, report]
+    if: always() && needs.quality.result == 'success' && needs.report.result == 'success'
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Enable auto-merge via squash
         env:
