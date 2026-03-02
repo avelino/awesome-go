@@ -62,6 +62,15 @@ type workflowsResponse struct {
 }
 
 func main() {
+	// IMPORTANT:
+	// In CI, we may execute this script from a trusted checkout (base branch),
+	// while the PR code lives in a separate directory.
+	// Use PR_WORKSPACE to point to the PR checkout for all git/diff/README reads.
+	workspace := os.Getenv("PR_WORKSPACE")
+	if workspace == "" {
+		workspace = "." // fallback for local development
+	}
+
 	event := readEvent()
 	body := event.PullRequest.Body
 

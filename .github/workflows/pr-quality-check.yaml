@@ -19,8 +19,10 @@ jobs:
         id: check
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
         run: |
-          files=$(gh api repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files --jq '.[].filename' 2>/dev/null || echo "")
+          files=$(gh api "repos/${REPO}/pulls/${PR_NUMBER}/files" --jq '.[].filename' 2>/dev/null || echo "")
           if echo "$files" | grep -q '^README.md$'; then
             echo "is_package_pr=true" >> "$GITHUB_OUTPUT"
             echo "README.md is modified — this is a package PR"
@@ -37,21 +39,50 @@ jobs:
     environment: action
     container: golang:latest
     steps:
-      - uses: actions/checkout@v6
+      # ──────────────────────────────────────────────────────────
+      # SECURITY: Two-checkout strategy
+      #   1. Check out the BASE branch (trusted code — scripts live here)
+      #   2. Check out the PR HEAD into a separate sandboxed directory
+      #      that is NEVER executed, only read/analyzed by trusted scripts
+      # ──────────────────────────────────────────────────────────
+
+      # Trusted checkout: base branch (contains the scripts we execute)
+      - name: Checkout base branch (trusted scripts)
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          fetch-depth: 0
+          path: trusted
+
+      # Untrusted checkout: PR head (code to analyze, never execute)
+      - name: Checkout PR head (untrusted, for analysis only)
+        uses: actions/checkout@v6
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           fetch-depth: 0
+          path: pr-head
 
-      - name: Fetch base branch
+      - name: Fetch base branch for diff
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        working-directory: pr-head
         run: |
-          git config --global --add safe.directory "$GITHUB_WORKSPACE"
-          git fetch origin ${{ github.base_ref }}
+          git config --global --add safe.directory "$PWD"
+          git fetch origin "${BASE_REF}"
+
+      # ──────────────────────────────────────────────────────────
+      # Execute ONLY trusted scripts from the base branch.
+      # Pass the PR checkout path as an environment variable so
+      # the scripts know where to read the untrusted code from.
+      # ──────────────────────────────────────────────────────────
 
       - name: Run quality checks
         id: quality
         continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_WORKSPACE: ${{ github.workspace }}/pr-head
+        working-directory: trusted
         run: go run ./.github/scripts/check-quality/
 
       - name: Run diff checks
@@ -59,6 +90,8 @@ jobs:
         continue-on-error: true
         env:
           GITHUB_BASE_REF: ${{ github.base_ref }}
+          PR_WORKSPACE: ${{ github.workspace }}/pr-head
+        working-directory: trusted
         run: go run ./.github/scripts/check-pr-diff/
 
       - name: Post quality report comment
@@ -74,13 +107,13 @@ jobs:
 
       - name: Sync labels
         uses: actions-ecosystem/action-add-labels@v1
-        if: ${{ steps.quality.outputs.labels != '' }}
+        if: steps.quality.outputs.labels != ''
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           labels: ${{ join(fromJson(steps.quality.outputs.labels), '\n') }}
 
       - name: Fail if critical checks failed
-        if: ${{ steps.quality.outputs.fail == 'true' || steps.diff.outputs.diff_fail == 'true' }}
+        if: steps.quality.outputs.fail == 'true' || steps.diff.outputs.diff_fail == 'true'
         run: |
           echo "Quality or diff checks failed."
           exit 1
@@ -111,8 +144,10 @@ jobs:
       - name: Enable auto-merge via squash
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
         run: |
-          gh pr merge ${{ github.event.pull_request.number }} \
-            --repo ${{ github.repository }} \
+          gh pr merge "${PR_NUMBER}" \
+            --repo "${REPO}" \
             --auto \
             --squash
