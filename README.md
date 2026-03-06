@@ -222,6 +222,7 @@ _Libraries for building programs that leverage AI._
 
 - [chromem-go](https://github.com/philippgille/chromem-go) - Embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence.
 - [fun](https://gitlab.com/tozd/go/fun) - The simplest but powerful way to use large language models (LLMs) in Go.
+- [hotplex](https://github.com/hrygo/hotplex) - AI Agent runtime engine with long-lived sessions for Claude Code, OpenCode, pi-mono and other CLI AI tools. Provides full-duplex streaming, multi-platform integrations, and secure sandbox.
 - [langchaingo](https://github.com/tmc/langchaingo) - LangChainGo is a framework for developing applications powered by language models.
 - [langgraphgo](https://github.com/smallnest/langgraphgo) - A Go library for building stateful, multi-actor applications with LLMs, built on the concept of LangGraph，with a lot of builtin Agent architectures.
 - [LocalAI](https://github.com/mudler/LocalAI) - Open Source OpenAI alternative, self-host AI models.
@@ -384,6 +385,7 @@ _Libraries for building Console Applications and Console User Interfaces._
 - [lipgloss](https://github.com/charmbracelet/lipgloss) - Declaratively define styles for color, format and layout in the terminal.
 - [marker](https://github.com/cyucelen/marker) - Easiest way to match and mark strings for colorful terminal outputs.
 - [mpb](https://github.com/vbauerster/mpb) - Multi progress bar for terminal applications.
+- [phoenix](https://github.com/phoenix-tui/phoenix) - High-performance TUI framework with Elm-inspired architecture, perfect Unicode rendering, and zero-allocation event system.
 - [progressbar](https://github.com/schollz/progressbar) - Basic thread-safe progress bar that works in every OS.
 - [pterm](https://github.com/pterm/pterm) - A library to beautify console output on every platform with many combinable components.
 - [simpletable](https://github.com/alexeyco/simpletable) - Simple tables in a terminal with Go.
@@ -845,6 +847,7 @@ _Libraries for building and using SQL._
 - [ozzo-dbx](https://github.com/go-ozzo/ozzo-dbx) - Powerful data retrieval methods as well as DB-agnostic query building capabilities.
 - [patcher](https://github.com/Jacobbrewer1/patcher) - Powerful SQL Query builder that automatically generates SQL queries from structs.
 - [qry](https://github.com/HnH/qry) - Tool that generates constants from files with raw SQL queries.
+- [relica](https://github.com/coregx/relica) - Type-safe database query builder with zero production dependencies, LRU statement cache, batch operations, and support for JOINs, subqueries, CTEs, and window functions.
 - [sg](https://github.com/go-the-way/sg) - A SQL Gen for generating standard SQLs(supports: CRUD) written in Go.
 - [sq](https://github.com/bokwoon95/go-structured-query) - Type-safe SQL builder and struct mapper for Go.
 - [sqlc](https://github.com/kyleconroy/sqlc) - Generate type-safe code from SQL.
@@ -1529,6 +1532,7 @@ _Libraries for scheduling jobs._
 - [gronx](https://github.com/adhocore/gronx) - Cron expression parser, task runner and daemon consuming crontab like task list.
 - [JobRunner](https://github.com/bamzi/jobrunner) - Smart and featureful cron job scheduler with job queuing and live monitoring built in.
 - [leprechaun](https://github.com/kilgaloon/leprechaun) - Job scheduler that supports webhooks, crons and classic scheduling.
+- [pending](https://github.com/kahoon/pending) - ID-based debounced task scheduler for deferred tasks with cancellation, graceful shutdown, and optional concurrency limits.
 - [sched](https://github.com/romshark/sched) - A job scheduler with the ability to fast-forward time.
 - [scheduler](https://github.com/carlescere/scheduler) - Cronjobs scheduling made easy.
 - [tasks](https://github.com/madflojo/tasks) - An easy to use in-process scheduler for recurring tasks in Go.
