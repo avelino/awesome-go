@@ -987,7 +987,7 @@ _Packages that help with building Distributed Systems._
 - [consistenthash](https://github.com/mbrostami/consistenthash) - Consistent hashing with configurable replicas.
 - [dht](https://github.com/anacrolix/dht) - BitTorrent Kademlia DHT implementation.
 - [digota](https://github.com/digota/digota) - grpc ecommerce microservice.
-- [dot](https://github.com/dotchain/dot/) - distributed sync using operational transformation/OT.
+- [dot](https://github.com/dotchain/dot/) - distributed sync using operational transformation/to.
 - [doublejump](https://github.com/edwingeng/doublejump) - A revamped Google's jump consistent hash.
 - [dragonboat](https://github.com/lni/dragonboat) - A feature complete and high performance multi-group Raft library in Go.
 - [Dragonfly](https://github.com/dragonflyoss/Dragonfly2) - Provide efficient, stable and secure file distribution and image acceleration based on p2p technology to be the best practice and standard solution in cloud native architectures.
