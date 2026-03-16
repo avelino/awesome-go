@@ -1409,6 +1409,7 @@ _Toolkits_
 - [go-gtk](https://mattn.github.io/go-gtk/) - Go bindings for GTK.
 - [go-sciter](https://github.com/sciter-sdk/go-sciter) - Go bindings for Sciter: the Embeddable HTML/CSS/script engine for modern desktop UI development. Cross platform.
 - [Goey](https://bitbucket.org/rj/goey/src/master/) - Cross platform UI toolkit aggregator for Windows / Linux / Mac. GTK, Cocoa, Windows API
+- [gogpu/ui](https://github.com/gogpu/ui) - GPU-accelerated GUI toolkit with 22 widgets, 3 design systems (Material, Fluent, Cupertino), reactive signals, and zero CGO (part of [GoGPU](https://github.com/gogpu) ecosystem).
 - [goradd/html5tag](https://github.com/goradd/html5tag) - Library for outputting HTML5 tags.
 - [gotk3](https://github.com/gotk3/gotk3) - Go bindings for GTK3.
 - [gowd](https://github.com/dtylman/gowd) - Rapid and simple desktop UI development with GO, HTML, CSS and NW.js. Cross platform.
