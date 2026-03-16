@@ -2181,6 +2181,7 @@ _Unofficial libraries for package and dependency management._
 
 - [gup](https://github.com/nao1215/gup) - Update binaries installed by "go install".
 - [modup](https://github.com/chaindead/modup) - Terminal UI for Go dependency updates with outdated module detection and selective upgrading.
+- [ReleaseRun Go Module Health](https://releaserun.com/tools/gomod-health/) - A web-based tool to analyze go.mod files for outdated dependencies, archived modules, and unmaintained packages.
 - [syft](https://github.com/anchore/syft) - A CLI tool and Go library for generating a Software Bill of Materials (SBOM) from container images and filesystems.
 
 **[⬆ back to top](#contents)**
