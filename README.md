@@ -385,6 +385,7 @@ _Libraries for building Console Applications and Console User Interfaces._
 - [gommon/color](https://github.com/labstack/gommon/tree/master/color) - Style terminal text.
 - [gookit/color](https://github.com/gookit/color) - Terminal color rendering tool library, support 16 colors, 256 colors, RGB color rendering output, compatible with Windows.
 - [lipgloss](https://github.com/charmbracelet/lipgloss) - Declaratively define styles for color, format and layout in the terminal.
+- [loom](https://github.com/loom-go/loom) - Signal-based reactive components framework for building TUIs.
 - [marker](https://github.com/cyucelen/marker) - Easiest way to match and mark strings for colorful terminal outputs.
 - [mpb](https://github.com/vbauerster/mpb) - Multi progress bar for terminal applications.
 - [phoenix](https://github.com/phoenix-tui/phoenix) - High-performance TUI framework with Elm-inspired architecture, perfect Unicode rendering, and zero-allocation event system.
