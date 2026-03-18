@@ -1069,6 +1069,7 @@ _Libraries and tools that implement email creation and sending._
 - [email-verifier](https://github.com/AfterShip/email-verifier) - A Go library for email verification without sending any emails.
 - [go-dkim](https://github.com/toorop/go-dkim) - DKIM library, to sign & verify email.
 - [go-email-normalizer](https://github.com/dimuska139/go-email-normalizer) - Golang library for providing a canonical representation of email address.
+- [go-imap](https://github.com/BrianLeishman/go-imap) - Batteries-included IMAP client with auto-reconnect, OAuth2, IDLE support, and built-in MIME parsing.
 - [go-imap](https://github.com/emersion/go-imap) - IMAP library for clients and servers.
 - [go-mail](https://github.com/wneessen/go-mail) - A simple Go library for sending mails in Go.
 - [go-message](https://github.com/emersion/go-message) - Streaming library for the Internet Message Format and mail messages.
