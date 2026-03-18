@@ -2665,6 +2665,7 @@ See also [Natural Language Processing](#natural-language-processing) and [Text A
 
 ### Utility/Miscellaneous
 
+- [ahocorasick](https://github.com/coregx/ahocorasick) - High-performance Aho-Corasick multi-pattern string matching with DFA compilation and SIMD prefilter, up to 7 GB/s throughput (part of [coregx](https://github.com/coregx) ecosystem).
 - [go-runewidth](https://github.com/mattn/go-runewidth) - Functions to get fixed width of the character or string.
 - [kace](https://github.com/codemodus/kace) - Common case conversions covering common initialisms.
 - [lancet](https://github.com/duke-git/lancet) - A comprehensive, Lodash-like utility library for Go
