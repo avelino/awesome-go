@@ -318,7 +318,7 @@ func extractCategory(doc *goquery.Document, selector string) (*Category, error) 
 
 	doc.Find(selector).EachWithBreak(func(_ int, selCatHeader *goquery.Selection) bool {
 		selDescr := selCatHeader.NextFiltered("p")
-		ul := selCatHeader.NextFilteredUntil("ul", "h2, h3")
+		ul := selCatHeader.NextFilteredUntil("ul", "h2, h3, h4")
 
 		var links []Link
 		ul.Find("li").Each(func(_ int, selLi *goquery.Selection) {
