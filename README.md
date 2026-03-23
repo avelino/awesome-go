@@ -229,6 +229,7 @@ _Libraries for building programs that leverage AI._
 - [LocalAI](https://github.com/mudler/LocalAI) - Open Source OpenAI alternative, self-host AI models.
 - [Ollama](https://github.com/jmorganca/ollama) - Run large language models locally.
 - [OllamaFarm](https://github.com/presbrey/ollamafarm) - Manage, load-balance, and failover packs of Ollamas.
+- [Stockyard](https://github.com/stockyard-dev/Stockyard) - Self-hosted LLM proxy and control plane. 66 middleware modules, 16 providers, embedded SQLite, zero external dependencies. Single binary.
 
 **[⬆ back to top](#contents)**
 
