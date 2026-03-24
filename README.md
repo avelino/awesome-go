@@ -1106,6 +1106,7 @@ _Embedding other languages inside your go code._
 - [gentee](https://github.com/gentee/gentee) - Embeddable scripting programming language.
 - [gisp](https://github.com/jcla1/gisp) - Simple LISP in Go.
 - [go-lua](https://github.com/Shopify/go-lua) - Port of the Lua 5.2 VM to pure Go.
+- [go-lua](https://github.com/speedata/go-lua) - Lua 5.4 VM implemented in pure Go.
 - [go-php](https://github.com/deuill/go-php) - PHP bindings for Go.
 - [goal](https://codeberg.org/anaseto/goal) - An embeddable scripting array language.
 - [goja](https://github.com/dop251/goja) - ECMAScript 5.1(+) implementation in Go.
