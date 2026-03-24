@@ -384,6 +384,7 @@ _Libraries for building Console Applications and Console User Interfaces._
 - [gocui](https://github.com/jroimartin/gocui) - Minimalist Go library aimed at creating Console User Interfaces.
 - [gommon/color](https://github.com/labstack/gommon/tree/master/color) - Style terminal text.
 - [gookit/color](https://github.com/gookit/color) - Terminal color rendering tool library, support 16 colors, 256 colors, RGB color rendering output, compatible with Windows.
+- [lazyenv](https://github.com/lazynop/lazyenv) - TUI for browsing, comparing, and editing .env files.
 - [lipgloss](https://github.com/charmbracelet/lipgloss) - Declaratively define styles for color, format and layout in the terminal.
 - [loom](https://github.com/loom-go/loom) - Signal-based reactive components framework for building TUIs.
 - [marker](https://github.com/cyucelen/marker) - Easiest way to match and mark strings for colorful terminal outputs.
@@ -3462,6 +3463,7 @@ _Software written in Go._
 - [confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul.
 - [crawley](https://github.com/s0rg/crawley) - Web scraper/crawler for cli.
 - [croc](https://github.com/schollz/croc) - Easily and securely send files or folders from one computer to another.
+- [CrunchyCleaner](https://github.com/Knuspii/CrunchyCleaner) - A lightweight, software cache cleanup tool for Windows & Linux.
 - [Documize](https://github.com/documize/community) - Modern wiki software that integrates data from SaaS tools.
 - [dp](https://github.com/scryinfo/dp) - Through SDK for data exchange with blockchain, developers can get easy access to DAPP development.
 - [drive](https://github.com/odeke-em/drive) - Google Drive client for the commandline.
