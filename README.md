@@ -1106,6 +1106,7 @@ _Embedding other languages inside your go code._
 - [gentee](https://github.com/gentee/gentee) - Embeddable scripting programming language.
 - [gisp](https://github.com/jcla1/gisp) - Simple LISP in Go.
 - [go-lua](https://github.com/Shopify/go-lua) - Port of the Lua 5.2 VM to pure Go.
+- [go-lua](https://github.com/speedata/go-lua) - Lua 5.4 VM implemented in pure Go.
 - [go-php](https://github.com/deuill/go-php) - PHP bindings for Go.
 - [goal](https://codeberg.org/anaseto/goal) - An embeddable scripting array language.
 - [goja](https://github.com/dop251/goja) - ECMAScript 5.1(+) implementation in Go.
@@ -1592,7 +1593,7 @@ _Libraries for working with JSON._
 - [mp](https://github.com/sanbornm/mp) - Simple cli email parser. It currently takes stdin and outputs JSON.
 - [OjG](https://github.com/ohler55/ojg) - Optimized JSON for Go is a high performance parser with a variety of additional JSON tools including JSONPath.
 - [omg.jsonparser](https://github.com/dedalqq/omg.jsonparser) - Simple JSON parser with validation by condition via golang struct fields tags.
-- [SJSON](https://github.com/tidwall/sjson) - Set a JSON value with one line of code.  
+- [SJSON](https://github.com/tidwall/sjson) - Set a JSON value with one line of code.
 - [ujson](https://github.com/olvrng/ujson) - Fast and minimal JSON parser and transformer that works on unstructured JSON.
 - [vjson](https://github.com/miladibra10/vjson) - Go package for validating JSON objects with declaring a JSON schema with fluent API.
 
