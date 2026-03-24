@@ -3764,7 +3764,6 @@ _Add the group of your city/country here (send **PR**)_
 - [Golang Nugget](https://golangnugget.com) - A weekly roundup of the best Go content, delivered to your inbox every Monday.
 - [Golang Weekly](https://discu.eu/weekly/golang/) - Each monday projects, tutorials and articles about Go.
 - [golang-nuts](https://groups.google.com/forum/#!forum/golang-nuts) - Go mailing list.
-- [Google Plus Community](https://plus.google.com/communities/114112804251407510571) - The Google+ community for #golang enthusiasts.
 - [Gopher Community Chat](https://invite.slack.golangbridge.org) - Join Our New Slack Community For Gophers ([Understand how it came](https://blog.gopheracademy.com/gophers-slack-community/)).
 - [Gophercises](https://gophercises.com/) - Free coding exercises for budding gophers.
 - [json2go](https://m-zajac.github.io/json2go) - Advanced JSON to Go struct conversion - online tool.
