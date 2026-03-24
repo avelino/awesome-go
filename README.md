@@ -1169,6 +1169,7 @@ _Libraries for handling files and file systems._
 - [gofs](https://github.com/no-src/gofs) - A cross-platform real-time file synchronization tool out of the box.
 - [gulter](https://github.com/adelowo/gulter) - A simple HTTP middleware to automatically handle all your file upload needs
 - [gut/yos](https://github.com/1set/gut) - Simple and reliable package for file operations like copy/move/diff/list on files, directories and symbolic links.
+- [gxpdf](https://github.com/coregx/gxpdf) - Modern full-lifecycle PDF library for Go — parse, extract tables, generate, and sign documents with zero CGO dependencies.
 - [higgs](https://github.com/dastoori/higgs) - A tiny cross-platform Go library to hide/unhide files and directories.
 - [iso9660](https://github.com/kdomanski/iso9660) - A package for reading and creating ISO9660 disk images
 - [notify](https://github.com/rjeczalik/notify) - File system event notification library with simple API, similar to os/signal.
