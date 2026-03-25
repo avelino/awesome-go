@@ -1875,6 +1875,7 @@ _Libraries for working with strings._
 - [go-formatter](https://gitlab.com/tymonx/go-formatter) - Implements **replacement fields** surrounded by curly braces `{}` format strings.
 - [gobeam/Stringy](https://github.com/gobeam/Stringy) - String manipulation library to convert string to camel case, snake case, kebab case / slugify etc.
 - [strcase](https://github.com/charlievieth/strcase) - Case-insensitive implementation of the standard library's strings/bytes packages.
+- [stringFormatter](https://github.com/Wissance/stringFormatter) - String formatting like in Python or C# manner with the additional text formatting features.
 - [strutil](https://github.com/ozgio/strutil) - String utilities.
 - [sttr](https://github.com/abhimanyu003/sttr) - cross-platform, cli app to perform various operations on string.
 - [xstrings](https://github.com/huandu/xstrings) - Collection of useful string functions ported from other languages.
