@@ -2470,6 +2470,7 @@ _Libraries and tools for templating and lexing._
 
 _Libraries for testing codebases and generating test data._
 
+
 ### Testing Frameworks
 
 - [apitest](https://apitest.dev) - Simple and extensible behavioural testing library for REST based services or HTTP handlers that supports mocking external http calls and rendering of sequence diagrams.
@@ -2487,6 +2488,7 @@ _Libraries for testing codebases and generating test data._
 - [embedded-postgres](https://github.com/fergusstrange/embedded-postgres) - Run a real Postgres database locally on Linux, OSX or Windows as part of another Go application or test.
 - [endly](https://github.com/viant/endly) - Declarative end to end functional testing.
 - [envite](https://github.com/PerimeterX/envite) - Dev and testing environment management framework.
+- [ezdc](https://github.com/lynchborg/ezdc) - Test harness for running docker compose.
 - [fixenv](https://github.com/rekby/fixenv) - Fixture manage engine, inspired by pytest fixtures.
 - [flute](https://github.com/suzuki-shunsuke/flute) - HTTP client testing framework.
 - [frisby](https://github.com/verdverm/frisby) - REST API testing framework.
