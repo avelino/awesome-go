@@ -836,6 +836,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [vitess](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
 - [wescale](https://github.com/wesql/wescale) - WeScale is a database proxy designed to enhance the scalability, performance, security, and resilience of your applications.
 
+- [ReleaseRun](https://releaserun.com) — Go module health checker and go.mod dependency auditor — checks CVEs and outdated modules in your Go project
 ### SQL Query Builders
 
 _Libraries for building and using SQL._
