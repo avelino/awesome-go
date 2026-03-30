@@ -989,7 +989,6 @@ _Packages that help with building Distributed Systems._
 - [arpc](https://github.com/lesismal/arpc) - More effective network communication, support two-way-calling, notify, broadcast.
 - [bedrock](https://github.com/z5labs/bedrock) - Provides a minimal, modular and composable foundation for quickly developing services and more use case specific frameworks in Go.
 - [capillaries](https://github.com/capillariesio/capillaries) - distributed batch data processing framework.
-- [celeriac](https://github.com/svcavallar/celeriac.v1) - Library for adding support for interacting and monitoring Celery workers, tasks and events in Go.
 - [circuit](https://github.com/schigh/circuit) - Circuit breaker with gradual recovery via probabilistic throttling.
 - [committer](https://github.com/vadiminshakov/committer) - A distributed transactions management system (2PC/3PC implementation).
 - [consistent](https://github.com/buraksezer/consistent) - Consistent hashing with bounded loads.
