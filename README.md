@@ -228,6 +228,7 @@ _Libraries for building programs that leverage AI._
 - [langchaingo](https://github.com/tmc/langchaingo) - LangChainGo is a framework for developing applications powered by language models.
 - [langgraphgo](https://github.com/smallnest/langgraphgo) - A Go library for building stateful, multi-actor applications with LLMs, built on the concept of LangGraph，with a lot of builtin Agent architectures.
 - [LocalAI](https://github.com/mudler/LocalAI) - Open Source OpenAI alternative, self-host AI models.
+- [localaik](https://github.com/harshaneel/localaik) - Local compatibility proxy for the Gemini and OpenAI APIs. Run one container locally and test both SDK protocol shapes on the same port without API keys or network access.
 - [Ollama](https://github.com/jmorganca/ollama) - Run large language models locally.
 - [OllamaFarm](https://github.com/presbrey/ollamafarm) - Manage, load-balance, and failover packs of Ollamas.
 - [otellix](https://github.com/oluwajubelo1/otellix) - OpenTelemetry-native LLM observability and budget guardrails for cost-constrained production environments.
