@@ -3478,6 +3478,7 @@ _Software written in Go._
 - [Chapar](https://github.com/chapar-rest/chapar) - Chapar is a a cross-platform Postman alternative built with go, aims to help developers to test their api endpoints. it support http and grpc protocols.
 - [Cherry](https://github.com/rafael-santiago/cherry) - Tiny webchat server in Go.
 - [Circuit](https://github.com/gocircuit/circuit) - Circuit is a programmable platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS), for management, discovery, synchronization and orchestration of services and hosts comprising cloud applications.
+- [claude-grep](https://github.com/evoleinik/claude-grep) - Search Claude Code session history with regex and semantic (vector) search.
 - [Comcast](https://github.com/tylertreat/Comcast) - Simulate bad network connections.
 - [confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul.
 - [crawley](https://github.com/s0rg/crawley) - Web scraper/crawler for cli.
