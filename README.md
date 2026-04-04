@@ -3367,7 +3367,7 @@ _Software written in Go._
 **[⬆ back to top](#contents)**
 
 ### DevOps Tools
-
+- [gitty](https://github.com/Omibranch/gitty) - Human-friendly Git workflow CLI. Stage, commit, and push in one command. Includes selective line commits, interactive conflict resolution, and permanent history rewriting.
 - [abbreviate](https://github.com/dnnrly/abbreviate) - abbreviate is a tool turning long strings in to shorter ones with configurable separators, for example to embed branch names in to deployment stack IDs.
 - [alaz](https://github.com/ddosify/alaz) - Effortless, Low-Overhead, eBPF-based Kubernetes Monitoring.
 - [aptly](https://github.com/aptly-dev/aptly) - aptly is a Debian repository management tool.
