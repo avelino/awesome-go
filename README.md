@@ -1719,6 +1719,7 @@ _Libraries for Machine Learning._
 - [goscore](https://github.com/asafschers/goscore) - Go Scoring API for PMML.
 - [gosseract](https://github.com/otiai10/gosseract) - Go package for OCR (Optical Character Recognition), by using Tesseract C++ library.
 - [hugot](https://github.com/knights-analytics/hugot) - Huggingface transformer pipelines for golang with onnxruntime.
+- [infergo](https://github.com/ailakshya/infergo) - Go-native LLM, embedding, and object detection inference via llama.cpp and ONNX Runtime. OpenAI-compatible HTTP API, continuous batching, Prometheus metrics, Kubernetes-ready.
 - [libsvm](https://github.com/datastream/libsvm) - libsvm golang version derived work based on LIBSVM 3.14.
 - [m2cgen](https://github.com/BayesWitnesses/m2cgen) - A CLI tool to transpile trained classic ML models into a native Go code with zero dependencies, written in Python with Go language support.
 - [neural-go](https://github.com/schuyler/neural-go) - Multilayer perceptron network implemented in Go, with training via backpropagation.
