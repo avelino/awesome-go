@@ -1467,6 +1467,7 @@ _Libraries, tools, and tutorials for interacting with hardware._
 - [go-rpio](https://github.com/stianeikeland/go-rpio) - GPIO for Go, doesn't require cgo.
 - [goroslib](https://github.com/aler9/goroslib) - Robot Operating System (ROS) library for Go.
 - [joystick](https://github.com/0xcafed00d/joystick) - a polled API to read the state of an attached joystick.
+- [moody](https://github.com/dinakars777/moody) - Hardware event personality daemon for macOS. Monitors USB, charger, lid, and other hardware events and responds with customizable personalities.
 - [sysinfo](https://github.com/zcalusic/sysinfo) - A pure Go library providing Linux OS / kernel / hardware system information.
 
 **[⬆ back to top](#contents)**
