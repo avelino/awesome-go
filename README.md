@@ -3483,6 +3483,7 @@ _Software written in Go._
 - [boxed](https://github.com/tejo/boxed) - Dropbox based blog engine.
 - [Chapar](https://github.com/chapar-rest/chapar) - Chapar is a a cross-platform Postman alternative built with go, aims to help developers to test their api endpoints. it support http and grpc protocols.
 - [Cherry](https://github.com/rafael-santiago/cherry) - Tiny webchat server in Go.
+- [commit-roast](https://github.com/Omibranch/commit-roast) - AI-powered git commit message roaster. Points out what's wrong with your recent commits, one sarcastic line at a time. Offline fallback included.
 - [Circuit](https://github.com/gocircuit/circuit) - Circuit is a programmable platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS), for management, discovery, synchronization and orchestration of services and hosts comprising cloud applications.
 - [Comcast](https://github.com/tylertreat/Comcast) - Simulate bad network connections.
 - [confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul.
@@ -3506,9 +3507,11 @@ _Software written in Go._
 - [GoLand](https://jetbrains.com/go) - Full featured cross-platform Go IDE.
 - [GoNB](https://github.com/janpfeifer/gonb) - Interactive Go programming with Jupyter Notebooks (also works in VSCode, Binder and Google's Colab).
 - [Gor](https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time.
+- [ghostwriter](https://github.com/Omibranch/ghostwriter) - Types realistic-looking code in your terminal at human speed — with typos, thinking pauses, and corrections. For streams, recordings, or looking busy. 6 languages, 4 speed profiles.
 - [Guora](https://github.com/meloalright/guora) - A self-hosted Quora like web application written in Go.
 - [hoofli](https://github.com/dnnrly/hoofli) - Generate PlantUML diagrams from Chrome or Firefox network inspections.
 - [hotswap](https://github.com/edwingeng/hotswap) - A complete solution to reload your go code without restarting your server, interrupting or blocking any ongoing procedure.
+- [hiring](https://github.com/Omibranch/hiring) - Scans a project directory for code files and generates an AI-powered passive-aggressive HR rejection letter critiquing the code quality. Go 1.21+, zero deps.
 - [hugo](https://gohugo.io/) - Fast and Modern Static Website Engine.
 - [ide](https://github.com/thestrukture/ide) - Browser accessible IDE. Designed for Go with Go.
 - [joincap](https://github.com/assafmo/joincap) - Command-line utility for merging multiple pcap files together.
@@ -3524,6 +3527,7 @@ _Software written in Go._
 - [naclpipe](https://github.com/unix4fun/naclpipe) - Simple NaCL EC25519 based crypto pipe tool written in Go.
 - [Neo-cowsay](https://github.com/Code-Hex/Neo-cowsay) - 🐮 cowsay is reborn. for a New Era.
 - [nes](https://github.com/fogleman/nes) - Nintendo Entertainment System (NES) emulator written in Go.
+- [404life](https://github.com/Omibranch/404life) - Terminal idle-time daemon that prints existential messages when you haven't typed anything for a while. Hooks into bash/zsh/fish. Linux only.
 - [onWatch](https://github.com/onllm-dev/onWatch) - Monitor AI API quotas across providers locally with historical tracking, alerts, and a web dashboard to avoid surprise throttling and budget overruns.
 - [Orbit](https://github.com/gulien/orbit) - A simple tool for running commands and generating files from templates.
 - [peg](https://github.com/pointlander/peg) - Peg, Parsing Expression Grammar, is an implementation of a Packrat parser generator.
