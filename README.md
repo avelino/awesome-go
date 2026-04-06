@@ -1798,6 +1798,7 @@ _Libraries that implement messaging systems._
 - [varmq](https://github.com/goptics/varmq) - A storage-agnostic message queue and worker pool for concurrent Go programs.
 - [Watermill](https://github.com/ThreeDotsLabs/watermill) - Working efficiently with message streams. Building event driven applications, enabling event sourcing, RPC over messages, sagas. Can use conventional pub/sub implementations like Kafka or RabbitMQ, but also HTTP or MySQL binlog.
 - [zmq4](https://github.com/pebbe/zmq4) - Go interface to ZeroMQ version 4. Also available for [version 3](https://github.com/pebbe/zmq3) and [version 2](https://github.com/pebbe/zmq2).
+- [hl7](https://github.com/wsyqn6/hl7) - HL7 v2.x 医疗消息解析库，支持解析、编码、验证、MLLP传输、结构体映射和 ACK 生成。纯 Go 实现，无外部依赖。
 
 **[⬆ back to top](#contents)**
 
