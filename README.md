@@ -41,6 +41,7 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 > _If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!_
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for Go development workflow orchestration, automated code review, and multi-agent coordination. MIT licensed.
 ## Contents
 
 <details>
