@@ -3339,6 +3339,7 @@ _Plugin for text editors and IDEs._
 
 ## Go Tools
 
+- [better-fullstack](https://github.com/Marve10s/Better-Fullstack) - End-to-end fullstack scaffolding tool supporting Go (Gin, Echo, GORM, sqlc, gRPC) alongside TypeScript, Rust, and Python — code ready for you or your AI agent.
 - [decouple](https://github.com/bobg/decouple) - Find “overspecified” function parameters that could be generalized with interface types.
 - [docs](https://github.com/go-oas/docs) - Automatically generate RESTful API documentation for GO projects - aligned with Open API Specification standard.
 - [go-callvis](https://github.com/TrueFurby/go-callvis) - Visualize call graph of your Go program using dot format.
