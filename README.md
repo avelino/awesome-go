@@ -2431,6 +2431,7 @@ _Libraries and tools for binary serialization._
 - [gondola](https://github.com/bmf-san/gondola) - A YAML based golang reverse proxy.
 - [Kono](https://github.com/starwalkn/kono) - lightweight extendable API Gateway in Go - parallel fan-out, flexible aggregation, and zero configuration magic.
 - [lets-proxy2](https://github.com/rekby/lets-proxy2) - Reverse proxy for handle https with issue certificates in fly from lets-encrypt.
+- [LightCMS](https://github.com/jonradoff/lightcms) - AI-native CMS built with Go and MongoDB, featuring REST API, MCP integration, templates, asset management, themes, and content versioning.
 - [minio](https://github.com/minio/minio) - Minio is a distributed object storage server.
 - [Moxy](https://github.com/sinhashubham95/moxy) - Moxy is a simple mocker and proxy application server, you can create mock endpoints as well as proxy requests in case no mock exists for the endpoint.
 - [nginx-prometheus](https://github.com/blind-oracle/nginx-prometheus) - Nginx log parser and exporter to Prometheus.
