@@ -1001,6 +1001,7 @@ _Packages that help with building Distributed Systems._
 - [bedrock](https://github.com/z5labs/bedrock) - Provides a minimal, modular and composable foundation for quickly developing services and more use case specific frameworks in Go.
 - [capillaries](https://github.com/capillariesio/capillaries) - distributed batch data processing framework.
 - [circuit](https://github.com/schigh/circuit) - Circuit breaker with gradual recovery via probabilistic throttling.
+- [cmd-stream-go](https://github.com/cmd-stream/cmd-stream-go) - High-performance distributed command pattern library for Go.
 - [committer](https://github.com/vadiminshakov/committer) - A distributed transactions management system (2PC/3PC implementation).
 - [consistent](https://github.com/buraksezer/consistent) - Consistent hashing with bounded loads.
 - [consistenthash](https://github.com/mbrostami/consistenthash) - Consistent hashing with configurable replicas.
