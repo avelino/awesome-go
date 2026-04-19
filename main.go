@@ -196,7 +196,7 @@ func mkdirAll(path string) error {
 
 	// directory is not exists
 	if err := os.MkdirAll(path, 0755); err != nil {
-		return fmt.Errorf("midirAll: %w", err)
+		return fmt.Errorf("mkdirAll: %w", err)
 	}
 
 	return nil

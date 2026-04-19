@@ -62,7 +62,7 @@ func TestAlpha(t *testing.T) {
 
 func TestDuplicatedLinks(t *testing.T) {
 	doc := goqueryFromReadme(t)
-	links := make(map[string]bool, 0)
+	links := make(map[string]bool)
 	doc.Find("body li > a:first-child").Each(func(_ int, s *goquery.Selection) {
 		t.Run(s.Text(), func(t *testing.T) {
 			href, ok := s.Attr("href")
