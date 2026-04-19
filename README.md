@@ -2407,6 +2407,7 @@ _Libraries and tools for binary serialization._
 - [goprotobuf](https://github.com/golang/protobuf) - Go support, in the form of a library and protocol compiler plugin, for Google's protocol buffers.
 - [gotiny](https://github.com/raszia/gotiny) - Efficient Go serialization library, gotiny is almost as fast as serialization libraries that generate code.
 - [jsoniter](https://github.com/json-iterator/go) - High-performance 100% compatible drop-in replacement of "encoding/json".
+- [mus-go](https://github.com/mus-format/mus-go) - MUS format serializer for Go.
 - [php_session_decoder](https://github.com/yvasiyarov/php_session_decoder) - GoLang library for working with PHP session format and PHP Serialize/Unserialize functions.
 - [pletter](https://github.com/vimeda/pletter) - A standard way to wrap a proto message for message brokers.
 - [structomap](https://github.com/tuvistavie/structomap) - Library to easily and dynamically generate maps from static structures.
