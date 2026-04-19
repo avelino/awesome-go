@@ -202,13 +202,27 @@ func captureMatch(s string, re *regexp.Regexp) string {
 
 // --- Git helpers ---
 
+// isValidRef checks if a git ref doesn't contain potentially dangerous characters
+func isValidRef(ref string) bool {
+	if ref == "" {
+		return false
+	}
+	// Only allow alphanumeric, hyphen, underscore, and dot (common in branch names)
+	for _, c := range ref {
+		if !((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9') || c == '-' || c == '_' || c == '.') {
+			return false
+		}
+	}
+	return true
+}
+
 func getDiff() string {
 	base := os.Getenv("GITHUB_BASE_REF")
-	if base == "" {
+	if base == "" || !isValidRef(base) {
 		base = "main"
 	}
 	head := os.Getenv("PR_HEAD_SHA")
-	if head == "" {
+	if head == "" || !isValidRef(head) {
 		head = "HEAD"
 	}
 	out, err := exec.Command("git", "diff", "origin/"+base+"..."+head, "--", "README.md").Output()
@@ -224,11 +238,11 @@ func getDiff() string {
 
 func getChangedFiles() []string {
 	base := os.Getenv("GITHUB_BASE_REF")
-	if base == "" {
+	if base == "" || !isValidRef(base) {
 		base = "main"
 	}
 	head := os.Getenv("PR_HEAD_SHA")
-	if head == "" {
+	if head == "" || !isValidRef(head) {
 		head = "HEAD"
 	}
 	out, err := exec.Command("git", "diff", "--name-only", "origin/"+base+"..."+head).Output()
