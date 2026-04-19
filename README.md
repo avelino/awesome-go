@@ -3306,6 +3306,7 @@ _Software written in Go._
 - [aurora](https://github.com/xuri/aurora) - Cross-platform web-based Beanstalkd queue server console.
 - [awsenv](https://github.com/soniah/awsenv) - Small binary that loads Amazon (AWS) environment variables for a profile.
 - [Balerter](https://github.com/balerter/balerter) - A self-hosted script-based alerting manager.
+- [bindboss](https://github.com/grug-group420/Bindboss) - Pack any directory into a self-extracting executable with dependency checking, integrity hashing, and Ed25519 signing.
 - [Blast](https://github.com/dave/blast) - A simple tool for API load testing and batch jobs.
 - [bombardier](https://github.com/codesenberg/bombardier) - Fast cross-platform HTTP benchmarking tool.
 - [cassowary](https://github.com/rogerwelin/cassowary) - Modern cross-platform HTTP load-testing tool written in Go.
