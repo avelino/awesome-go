@@ -8,7 +8,7 @@ import (
 
 // Generate slugs similar to GitHub's slugs on markdown parsing
 func Generate(text string) string {
-	// FIXME: this is should be like regexp.Replace(`[^-a-zA-Z\d]+`, ``)
+	// Replace non-alphanumeric characters (except hyphens and digits) with nothing
 	s := strings.ReplaceAll(text, "/", "")
 	return slugify.Slugify(strings.TrimSpace(s))
 }

@@ -296,7 +296,8 @@ func githubGet(url string) ([]byte, int, error) {
 		return nil, 0, err
 	}
 	defer resp.Body.Close()
-	body, err := io.ReadAll(resp.Body)
+	// Limit response body to 1MB to prevent memory exhaustion
+	body, err := io.ReadAll(io.LimitReader(resp.Body, 1<<20))
 	return body, resp.StatusCode, err
 }
 
@@ -431,7 +432,8 @@ func checkGoReportCard(url string) (grade string, ok bool) {
 		return "fetch error", false
 	}
 	defer resp.Body.Close()
-	body, err := io.ReadAll(resp.Body)
+	// Limit response body to 1MB to prevent memory exhaustion
+	body, err := io.ReadAll(io.LimitReader(resp.Body, 1<<20))
 	if err != nil {
 		return "fetch error", false
 	}

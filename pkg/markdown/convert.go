@@ -26,7 +26,7 @@ func ToHTML(markdown []byte) ([]byte, error) {
 	)
 
 	ctx := parser.NewContext(
-		parser.WithIDs(&IDGenerator{}), // register custom ID generator
+		parser.WithIDs(NewIDGenerator()), // register custom ID generator
 	)
 
 	var buf bytes.Buffer
@@ -40,6 +40,13 @@ func ToHTML(markdown []byte) ([]byte, error) {
 // IDGenerator for goldmark to provide IDs more similar to GitHub's IDs on markdown parsing
 type IDGenerator struct {
 	used map[string]bool
+}
+
+// NewIDGenerator creates a new IDGenerator with initialized map
+func NewIDGenerator() *IDGenerator {
+	return &IDGenerator{
+		used: make(map[string]bool),
+	}
 }
 
 // Generate an ID
