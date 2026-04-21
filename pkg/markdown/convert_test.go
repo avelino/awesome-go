@@ -5,6 +5,12 @@ import (
 	"testing"
 )
 
+func TestIDGeneratorPutDoesNotPanic(t *testing.T) {
+	g := NewIDGenerator()
+	g.Put([]byte("some-headline"))
+	g.Put([]byte("another-headline"))
+}
+
 func TestToHTML(t *testing.T) {
 	input := []byte(
 		`## some headline
