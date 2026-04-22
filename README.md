@@ -2105,6 +2105,7 @@ _Libraries for working with various layers of the network._
 - [lhttp](https://github.com/fanux/lhttp) - Powerful websocket framework, build your IM server more easily.
 - [linkio](https://github.com/ian-kent/linkio) - Network link speed simulation for Reader/Writer interfaces.
 - [llb](https://github.com/kirillDanshin/llb) - It's a very simple but quick backend for proxy servers. Can be useful for fast redirection to predefined domain with zero memory allocation and fast response.
+- [macwifi](https://github.com/jaisonerick/macwifi) - Wi-Fi scanning and Keychain password retrieval for macOS 13+.
 - [mdns](https://github.com/hashicorp/mdns) - Simple mDNS (Multicast DNS) client/server library in Golang.
 - [mqttPaho](https://eclipse.org/paho/clients/golang/) - The Paho Go Client provides an MQTT client library for connection to MQTT brokers via TCP, TLS or WebSockets.
 - [natiu-mqtt](https://github.com/soypat/natiu-mqtt) - A dead-simple, non-allocating, low level implementation of MQTT well suited for embedded systems.
