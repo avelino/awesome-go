@@ -1106,6 +1106,7 @@ _Libraries and tools that implement email creation and sending._
 - [smtp](https://github.com/mailhog/smtp) - SMTP server protocol state machine.
 - [smtpmock](https://github.com/mocktools/go-smtp-mock) - Lightweight configurable multithreaded fake SMTP server. Mimic any SMTP behaviour for your test environment.
 - [truemail-go](https://github.com/truemail-rb/truemail-go) - Configurable Golang email validator/verifier. Verify email via Regex, DNS, SMTP and even more.
+- [tickstem/verify](https://github.com/tickstem/verify) - Email address verification: syntax, MX lookup, disposable domain detection, and role-based prefix checks.
 
 **[⬆ back to top](#contents)**
 
