@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	template2 "html/template"
+	"html/template"
 	"io"
 	"log"
 	"net/http"
@@ -15,7 +15,6 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-	"text/template"
 	"time"
 
 	"github.com/avelino/awesome-go/pkg/markdown"
@@ -90,7 +89,7 @@ var tplFs embed.FS
 
 var tpl = template.Must(
 	template.New("").Funcs(template.FuncMap{
-		"now": func() string { return time.Now().Format("2006-01-02") },
+		"now":        func() string { return time.Now().Format("2006-01-02") },
 		"jsonEscape": func(s string) string {
 			b, _ := json.Marshal(s)
 			if len(b) < 2 {
@@ -241,9 +240,13 @@ func renderCategories(categories map[string]Category) error {
 }
 
 func renderSitemap(categories map[string]Category, projects []*Project) error {
-	f, err := os.Create(outSitemapFile)
+	safePath := filepath.Clean(outSitemapFile)
+	if !strings.HasPrefix(safePath+string(filepath.Separator), filepath.Clean(outDir)+string(filepath.Separator)) {
+		return fmt.Errorf("sitemap file path %q is outside output directory", safePath)
+	}
+	f, err := os.Create(safePath)
 	if err != nil {
-		return fmt.Errorf("create sitemap file `%s`: %w", outSitemapFile, err)
+		return fmt.Errorf("create sitemap file `%s`: %w", safePath, err)
 	}
 
 	fmt.Printf("Render Sitemap to: %s\n", outSitemapFile)
@@ -410,7 +413,7 @@ func renderIndex(srcFilename, outFilename string) error {
 		return err
 	}
 
-	body, err := markdown.ToHTML(input)
+	body, err := markdown.ToSafeHTML(input)
 	if err != nil {
 		return err
 	}
@@ -422,7 +425,7 @@ func renderIndex(srcFilename, outFilename string) error {
 
 	fmt.Printf("Write Index file: %s\n", outIndexFile)
 	data := map[string]interface{}{
-		"Body": template2.HTML(body),
+		"Body": body,
 	}
 	if err := tpl.Lookup("index.tmpl.html").Execute(f, data); err != nil {
 		return err
