@@ -1573,6 +1573,7 @@ _Libraries for scheduling jobs._
 - [scheduler](https://github.com/yuseferi/scheduler) - Go-native distributed job scheduler with delayed tasks, batched Redis coordination, retries, lease-based recovery, and versioned queue partitioning.
 - [tasks](https://github.com/madflojo/tasks) - An easy to use in-process scheduler for recurring tasks in Go.
 - [tickstem/cron](https://github.com/tickstem/cron) - Go client for scheduling HTTP cron jobs, with execution history, failure alerts, and tsk-local for testing handlers without live credentials.
+- [tickstem/heartbeat](https://github.com/tickstem/heartbeat) - Go client for dead-man's switch heartbeat monitoring: ping a URL after each job run and get alerted by email if pings stop arriving.
 
 **[⬆ back to top](#contents)**
 
@@ -3486,6 +3487,7 @@ _Software written in Go._
 - [sigma](https://github.com/go-sigma/sigma) - OCI-native container image registry, support OCI-native artifact, scan artifact, image build etc.
 - [skm](https://github.com/TimothyYe/skm) - SKM is a simple and powerful SSH Keys Manager, it helps you to manage your multiple SSH keys easily!
 - [StatusOK](https://github.com/sanathp/statusok) - Monitor your Website and REST APIs.Get Notified through Slack, E-mail when your server is down or response time is more than expected.
+- [tickstem/uptime](https://github.com/tickstem/uptime) - Go client for HTTP uptime monitoring with SSL expiry alerts and configurable response assertions.
 - [tau](https://github.com/taubyte/tau) - Easily build Cloud Computing Platforms with features like Serverless WebAssembly Functions, Frontend Hosting, CI/CD, Object Storage, K/V Database, and Pub-Sub Messaging.
 - [terraform-provider-openapi](https://github.com/dikhan/terraform-provider-openapi) - Terraform provider plugin that dynamically configures itself at runtime based on an OpenAPI document (formerly known as swagger file) containing the definitions of the APIs exposed.
 - [tf-profile](https://github.com/datarootsio/tf-profile) - Profiler for Terraform runs. Generate global stats, resource-level stats or visualizations.
