@@ -2424,6 +2424,7 @@ _Libraries and tools for binary serialization._
 - [mus-go](https://github.com/mus-format/mus-go) - MUS format serializer for Go.
 - [php_session_decoder](https://github.com/yvasiyarov/php_session_decoder) - GoLang library for working with PHP session format and PHP Serialize/Unserialize functions.
 - [pletter](https://github.com/vimeda/pletter) - A standard way to wrap a proto message for message brokers.
+- [proto](https://github.com/emicklei/proto) - Parser and writer for Google ProtocolBuffers .proto files.
 - [structomap](https://github.com/tuvistavie/structomap) - Library to easily and dynamically generate maps from static structures.
 - [unitpacking](https://github.com/recolude/unitpacking) - Library to pack unit vectors into as fewest bytes as possible.
 
