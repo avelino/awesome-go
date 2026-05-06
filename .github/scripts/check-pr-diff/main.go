@@ -207,11 +207,15 @@ func getDiff() string {
 	if base == "" {
 		base = "main"
 	}
-	out, err := exec.Command("git", "diff", "origin/"+base+"...HEAD", "--", "README.md").Output()
+	head := os.Getenv("PR_HEAD_SHA")
+	if head == "" {
+		head = "HEAD"
+	}
+	out, err := exec.Command("git", "diff", "origin/"+base+"..."+head, "--", "README.md").Output()
 	if err == nil && len(out) > 0 {
 		return string(out)
 	}
-	out, err = exec.Command("git", "diff", "HEAD~1", "--", "README.md").Output()
+	out, err = exec.Command("git", "diff", head+"~1", "--", "README.md").Output()
 	if err == nil {
 		return string(out)
 	}
@@ -223,11 +227,15 @@ func getChangedFiles() []string {
 	if base == "" {
 		base = "main"
 	}
-	out, err := exec.Command("git", "diff", "--name-only", "origin/"+base+"...HEAD").Output()
+	head := os.Getenv("PR_HEAD_SHA")
+	if head == "" {
+		head = "HEAD"
+	}
+	out, err := exec.Command("git", "diff", "--name-only", "origin/"+base+"..."+head).Output()
 	if err == nil && len(out) > 0 {
 		return splitLines(string(out))
 	}
-	out, err = exec.Command("git", "diff", "--name-only", "HEAD~1").Output()
+	out, err = exec.Command("git", "diff", "--name-only", head+"~1").Output()
 	if err == nil {
 		return splitLines(string(out))
 	}
@@ -291,7 +299,14 @@ func extractRepoName(rawURL string) string {
 // --- README parsing ---
 
 func getCategoryItemCount(readmePath, entryURL string) (category string, count int) {
-	data, err := os.ReadFile(readmePath)
+	var data []byte
+	var err error
+	head := os.Getenv("PR_HEAD_SHA")
+	if head != "" {
+		data, err = exec.Command("git", "show", head+":README.md").Output()
+	} else {
+		data, err = os.ReadFile(readmePath)
+	}
 	if err != nil {
 		return "unknown", -1
 	}
