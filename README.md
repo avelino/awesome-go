@@ -2989,6 +2989,7 @@ _General utilities and tools to make your life easier._
 - [rate](https://github.com/webriots/rate) - High-performance rate limiting library with token bucket and AIMD strategies.
 - [rclient](https://github.com/zpatrick/rclient) - Readable, flexible, simple-to-use client for REST APIs.
 - [release](https://github.com/tomodian/release) - CLI for Keep-a-changelog formatted changelogs.
+- [relimpact](https://github.com/hashmap-kz/relimpact) - Fast API compatibility reports for Go projects.
 - [remote-touchpad](https://github.com/Unrud/remote-touchpad) - Control mouse and keyboard from a smartphone.
 - [repeat](https://github.com/ssgreg/repeat) - Go implementation of different backoff strategies useful for retrying operations and heartbeating.
 - [request](https://github.com/mozillazg/request) - Go HTTP Requests for Humans™.
