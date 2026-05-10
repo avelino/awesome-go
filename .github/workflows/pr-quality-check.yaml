@@ -86,7 +86,7 @@ jobs:
       contents: write
     steps:
       - name: Post quality report comment
-        uses: marocchino/sticky-pull-request-comment@v2
+        uses: marocchino/sticky-pull-request-comment@70d2764d1a7d5d9560b100cbea0077fc8f633987 # v3
         with:
           header: pr-quality-check
           message: |
@@ -98,7 +98,7 @@ jobs:
 
       - name: Sync labels
         if: needs.quality.outputs.labels != ''
-        uses: actions-ecosystem/action-add-labels@v1
+        uses: actions-ecosystem/action-add-labels@18f1af5e3544586314bbe15c0273249c770b2daf # v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           labels: ${{ join(fromJson(needs.quality.outputs.labels), '\n') }}
@@ -118,7 +118,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Post skip notice
-        uses: marocchino/sticky-pull-request-comment@v2
+        uses: marocchino/sticky-pull-request-comment@70d2764d1a7d5d9560b100cbea0077fc8f633987 # v3
         with:
           header: pr-quality-check
           message: |

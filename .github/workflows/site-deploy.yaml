@@ -33,7 +33,7 @@ jobs:
         with:
           node-version: 20
       - name: deploy awesome-go.com
-        uses: nwtgck/actions-netlify@v3.0
+        uses: nwtgck/actions-netlify@4cbaf4c08f1a7bfa537d6113472ef4424e4eb654 # v3.0
         with:
           publish-dir: "./out"
           production-branch: main
