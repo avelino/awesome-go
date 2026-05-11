@@ -1217,7 +1217,7 @@ _Packages for accounting and finance._
 - [currency](https://github.com/naughtygopher/currency) - High performant & accurate currency computation package.
 - [dec128](https://github.com/jokruger/dec128) - High performance 128-bit fixed-point decimal numbers.
 - [decimal](https://github.com/shopspring/decimal) - Arbitrary-precision fixed-point decimal numbers.
-- [decimal](https://github.com/aytechnet/decimal) - Hight performance & low memory decimal numbers partially compatible with shopspring decimal and int64.
+- [decimal](https://github.com/aytechnet/decimal) - High performance & low memory decimal numbers partially compatible with shopspring decimal and int64.
 - [decimal](https://github.com/govalues/decimal) - Immutable decimal numbers with panic-free arithmetic.
 - [fpdecimal](https://github.com/nikolaydubina/fpdecimal) - Fast and precise serialization and arithmetic for small fixed-point decimals
 - [fpmoney](https://github.com/nikolaydubina/fpmoney) - Fast and simple ISO4217 fixed-point decimal money.
