@@ -2059,6 +2059,7 @@ See also [Text Processing](#text-processing) and [Text Analysis](#text-analysis)
 
 ## Networking
 
+- [RustChain](https://github.com/Scottcjn/Rustchain) — Proof-of-Antiquity blockchain with tenure-based mining rewards and decentralized bounties.
 _Libraries for working with various layers of the network._
 
 - [arp](https://github.com/mdlayher/arp) - Package arp implements the ARP protocol, as described in RFC 826.
