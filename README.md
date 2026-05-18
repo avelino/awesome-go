@@ -2916,7 +2916,7 @@ _General utilities and tools to make your life easier._
 - [go-bind-plugin](https://github.com/wendigo/go-bind-plugin) - go:generate tool for wrapping symbols exported by golang plugins (1.8 only).
 - [go-bsdiff](https://github.com/gabstv/go-bsdiff) - Pure Go bsdiff and bspatch libraries and CLI tools.
 - [go-clip](https://github.com/prashantgupta24/go-clip) - A minimalistic clipboard manager for Mac.
-- [Go-Constant](https://github.com/sajjadrabiee/go-constant) - Generic typed constant sets with safe string parsing, filling Go's missing enum type.
+- [Go-Constant](https://github.com/sajjadrabiee/go-constant) - Generic typed constant sets with safe string parsing for Go's missing enum type.
 - [go-convert](https://github.com/Eun/go-convert) - Package go-convert enables you to convert a value into another type.
 - [go-countries](https://github.com/mikekonan/go-countries) - Lightweight lookup over ISO-3166 codes.
 - [go-dry](https://github.com/ungerik/go-dry) - DRY (don't repeat yourself) package for Go.
