@@ -200,8 +200,6 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 **[⬆ back to top](#contents)**
 
-
-
 </details>
 
 ## Actor Model
@@ -257,8 +255,7 @@ _Libraries for manipulating audio and music._
 - [minimp3](https://github.com/tosone/minimp3) - Lightweight MP3 decoder library.
 - [music-theory](https://github.com/go-music-theory/music-theory) - Music theory models in Go.
 - [Oto](https://github.com/hajimehoshi/oto) - A low-level library to play sound on multiple platforms.
-- [PortAudio](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library.
--[voxrai-ai](https://github.com/Voxray-AI/Voxray) - AI voice agents with a JSON configuration,  STT → LLM → TTS pipelines over WebSocket and WebRTC 
+- [PortAudio](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library. -[voxrai-ai](https://github.com/Voxray-AI/Voxray) - AI voice agents with a JSON configuration, STT → LLM → TTS pipelines over WebSocket and WebRTC
 
 **[⬆ back to top](#contents)**
 
@@ -349,7 +346,7 @@ _Libraries for building and working with bots._
 - [TG](https://github.com/enetx/tg) - Telegram Bot Framework for Go.
 - [wayback](https://github.com/wabarc/wayback) - A bot for Telegram, Mastodon, Slack, and other messaging platforms archives webpages.
 - [ymsdk](https://github.com/rekurt/ymsdk) - Go SDK for Yandex Messenger Bot API with type-safe models, automatic retry, and rate-limit handling.
-   - [Wisp](https://github.com/wisp-trading/wisp) - Event-driven trading framework for Go. Spot, perpetual futures, prediction markets. Multi-exchange (Bybit, Hyperliquid, Polymarket).
+  - [Wisp](https://github.com/wisp-trading/wisp) - Event-driven trading framework for Go. Spot, perpetual futures, prediction markets. Multi-exchange (Bybit, Hyperliquid, Polymarket).
 
 **[⬆ back to top](#contents)**
 
@@ -791,7 +788,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [moss](https://github.com/couchbase/moss) - Moss is a simple LSM key-value storage engine written in 100% Go.
 - [nanotdb](https://github.com/aymanhs/nanotdb) - A lightweight, zero-dependency, append-only time-series database optimized for low-power hardware.
 - [NoKV](https://github.com/feichai0017/NoKV) - Native metadata service for distributed filesystems, object storage, and AI dataset workloads.
-- [NornicDB](https://github.com/orneryd/NornicDB) - High performance graph + vector database (Neo4j and qDrant compatible), focused on low latency graph-rag retreival for AI systems. 
+- [NornicDB](https://github.com/orneryd/NornicDB) - High performance graph + vector database (Neo4j and qDrant compatible), focused on low latency graph-rag retreival for AI systems.
 - [nutsdb](https://github.com/xujiajun/nutsdb) - Nutsdb is a simple, fast, embeddable, persistent key/value store written in pure Go. It supports fully serializable transactions and many data structures such as list, set, sorted set.
 - [objectbox-go](https://github.com/objectbox/objectbox-go) - High-performance embedded Object Database (NoSQL) with Go API.
 - [pebble](https://github.com/cockroachdb/pebble) - RocksDB/LevelDB inspired key-value database in Go.
@@ -810,7 +807,8 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [Vasto](https://github.com/chrislusf/vasto) - A distributed high-performance key-value store. On Disk. Eventual consistent. HA. Able to grow or shrink without service interruption.
 - [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) - fast, resource-effective and scalable open source time series database. May be used as long-term remote storage for Prometheus. Supports PromQL.
 - [minisql](https://github.com/RichardKnop/minisql) - Embedded single file SQL database.
-- 
+-
+
 ### Database Schema Migration
 
 - [atlas](https://github.com/ariga/atlas) - A Database Toolkit. A CLI designed to help companies better work with their data.
@@ -1637,7 +1635,7 @@ _Libraries for working with JSON._
 - [mp](https://github.com/sanbornm/mp) - Simple cli email parser. It currently takes stdin and outputs JSON.
 - [OjG](https://github.com/ohler55/ojg) - Optimized JSON for Go is a high performance parser with a variety of additional JSON tools including JSONPath.
 - [omg.jsonparser](https://github.com/dedalqq/omg.jsonparser) - Simple JSON parser with validation by condition via golang struct fields tags.
-- [SJSON](https://github.com/tidwall/sjson) - Set a JSON value with one line of code.  
+- [SJSON](https://github.com/tidwall/sjson) - Set a JSON value with one line of code.
 - [ujson](https://github.com/olvrng/ujson) - Fast and minimal JSON parser and transformer that works on unstructured JSON.
 - [vjson](https://github.com/miladibra10/vjson) - Go package for validating JSON objects with declaring a JSON schema with fluent API.
 
@@ -1993,7 +1991,7 @@ _These libraries were placed here because none of the other categories seemed to
 - [xdg](https://github.com/rkoesters/xdg) - FreeDesktop.org (xdg) Specs implemented in Go.
 - [xkg](https://github.com/go-xkg/xkg) - X Keyboard Grabber.
 - [xz](https://github.com/ulikunitz/xz) - Pure golang package for reading and writing xz-compressed files.
-**[⬆ back to top](#contents)**
+  **[⬆ back to top](#contents)**
 
 ## Natural Language Processing
 
@@ -2171,7 +2169,7 @@ _Libraries for making HTTP requests._
 - [go-req](https://github.com/wenerme/go-req) - Declarative golang HTTP client.
 - [go-retryablehttp](https://github.com/hashicorp/go-retryablehttp) - Retryable HTTP client in Go.
 - [go-zoox/fetch](https://github.com/go-zoox/fetch) - A Powerful, Lightweight, Easy Http Client, inspired by Web Fetch API.
-- [Grequest](https://github.com/lib4u/grequest)  - Simple and lightweight golang package for http requests. based on powerful net/http
+- [Grequest](https://github.com/lib4u/grequest) - Simple and lightweight golang package for http requests. based on powerful net/http
 - [grequests](https://github.com/levigross/grequests) - A Go "clone" of the great and famous Requests library.
 - [hedge](https://github.com/bhope/hedge) - Adaptive hedged requests for Go. Cuts p99 latency with zero configuration, based on Google's "The Tail at Scale" paper.
 - [heimdall](https://github.com/gojektech/heimdall) - An enhanced http client with retry and hystrix capabilities.
@@ -3884,6 +3882,7 @@ _Add the group of your city/country here (send **PR**)_
 - [Games With Go](https://www.youtube.com/watch?v=9D4yH7e_ea8&list=PLDZujg-VgQlZUy1iCqBbe5faZLMkA3g2x) - A video series teaching programming and game development.
 - [Go By Example](https://gobyexample.com/) - Hands-on introduction to Go using annotated example programs.
 - [Go Cheat Sheet](https://github.com/a8m/go-lang-cheat-sheet) - Go's reference card.
+- [Go Modular Monolith Guide](https://github.com/essentialols/go-modular-monolith-guide) - Architecture patterns and pitfalls for structuring large Go modular monoliths, aggregated from real practitioner experiences.
 - [Go database/sql tutorial](http://go-database-sql.org/) - Introduction to database/sql.
 - [Go in 7 days](https://github.com/harrytran103/7_days_of_go) - Learn everything about Go in 7 days (from a Nodejs developer).
 - [Go Language Tutorial](https://www.javatpoint.com/go-tutorial) - Learn Go language Tutorial.
