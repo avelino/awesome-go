@@ -1963,6 +1963,7 @@ _These libraries were placed here because none of the other categories seemed to
 - [goffi](https://github.com/go-webgpu/goffi) - Pure Go FFI with libffi-style typed call interface and structured error handling for calling C libraries without CGO.
 - [gommit](https://github.com/antham/gommit) - Analyze git commit messages to ensure they follow defined patterns.
 - [gopsutil](https://github.com/shirou/gopsutil) - Cross-platform library for retrieving process and system utilization(CPU, Memory, Disks, etc).
+- [goposix](https://github.com/ramayac/GoPOSIX) - A Go-native, single-binary multicall with 77 POSIX tools and >97% BusyBox test compatibility.
 - [gosh](https://github.com/osamingo/gosh) - Provide Go Statistics Handler, Struct, Measure Method.
 - [gosms](https://github.com/haxpax/gosms) - Your own local SMS gateway in Go that can be used to send SMS.
 - [gotoprom](https://github.com/cabify/gotoprom) - Type-safe metrics builder wrapper library for the official Prometheus client.
