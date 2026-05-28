@@ -2257,6 +2257,7 @@ _Unofficial libraries for package and dependency management._
 
 - [ebpf-go](https://github.com/cilium/ebpf) - Provides utilities for loading, compiling, and debugging eBPF programs.
 - [go-instrument](https://github.com/nikolaydubina/go-instrument) - Automatically add spans to all methods and functions.
+- [go-perfstat](https://github.com/go-perfstat/go) - Lightweight performance statistics and execution time aggregation for Go.
 - [jaeger](https://github.com/jaegertracing/jaeger) - A distributed tracing system.
 - [mm-go](https://github.com/joetifa2003/mm-go) - Generic manual memory management for golang.
 - [otelinji](https://github.com/hedhyw/otelinji) - OpenTelemetry auto-instrumentation tool for adding spans to functions.
