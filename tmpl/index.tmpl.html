@@ -1,58 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width" />
-    <title>A curated list of awesome Go frameworks, libraries and software - Awesome Go / Golang</title>
-    <meta name="description" content="A curated list of awesome Go / Golang frameworks, libraries and software" />
-    <meta name="keywords" content="golang, go, awesome, awesome-go, go framework, golang framework" />
-    <meta name="twitter:card" value="summary" />
-    <meta property="og:title" content="A curated list of awesome Go frameworks, libraries and software - Awesome Go" />
-    <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://awesome-go.com/" />
-    <meta property="og:image" content="https://awesome-go.com/assets/logo.png" />
-    <meta property="og:description" content="A curated list of awesome #Golang frameworks, libraries and software" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
 
-    <link rel="canonical" href="https://awesome-go.com/" />
+    <title>Awesome Go - A curated list of awesome Go frameworks, libraries and software</title>
+    <meta name="description" content="A curated list of awesome Go frameworks, libraries and software. Community-driven, regularly updated.">
+    <meta name="keywords" content="golang, go, awesome, awesome-go, go framework, golang framework, go library, go packages">
 
-    <link rel="stylesheet" type="text/css" href="/assets/fonts/firasans.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/awesome-go.css" />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Awesome Go - Curated list of Go frameworks, libraries and software">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://awesome-go.com/">
+    <meta property="og:image" content="https://awesome-go.com/assets/logo.png">
+    <meta property="og:description" content="A curated list of awesome Go frameworks, libraries and software. Community-driven, regularly updated.">
+    <meta property="og:site_name" content="Awesome Go">
 
-    <!--ICONS-->
-    <link rel="icon" href="/assets/favicon/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png" />
-    <link rel="manifest" href="/assets/favicon/manifest.json" />
-    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Awesome Go - Curated Go frameworks, libraries and software">
+    <meta name="twitter:description" content="A curated list of awesome Go frameworks, libraries and software.">
+    <meta name="twitter:image" content="https://awesome-go.com/assets/logo.png">
+
+    <link rel="canonical" href="https://awesome-go.com/">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/awesome-go.css">
+
+    <!-- Icons -->
+    <link rel="icon" href="/assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="/assets/favicon/manifest.json">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Awesome Go",
+        "url": "https://awesome-go.com/",
+        "description": "A curated list of awesome Go frameworks, libraries and software",
+        "publisher": {
+            "@type": "Organization",
+            "name": "Awesome Go",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://awesome-go.com/assets/logo.png"
+            }
+        }
+    }
+    </script>
 </head>
-
 <body>
-    <div id="content">
-        <div>
-            <div id="amzn-assoc-ad-ce1dd292-c6f0-4062-ac99-55bc005bbbf9"></div>
-            <script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=ce1dd292-c6f0-4062-ac99-55bc005bbbf9"></script>
+
+    <header class="site-header" role="banner">
+        <div class="header-inner">
+            <a href="/" class="header-brand" aria-label="Awesome Go home">
+                <img src="/assets/logo.png" alt="" width="30" height="30">
+                Awesome Go
+            </a>
+            <nav class="header-nav" role="navigation" aria-label="Main navigation">
+                <a href="#contents">Categories</a>
+                <a href="https://github.com/avelino/awesome-go" rel="noopener" class="github-link">
+                    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                    GitHub
+                </a>
+            </nav>
         </div>
+    </header>
 
-        {{.Body}}
+    <main>
+        <div id="content">
+            {{.Body}}
+        </div>
+    </main>
 
-        <a href="https://bit.ly/awesome-go-netlify">
-            <img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" alt="Deploys by Netlify" />
-        </a>
-    </div>
+    <footer class="site-footer" role="contentinfo">
+        <div class="footer-inner">
+            <div class="footer-links">
+                <a href="https://github.com/avelino/awesome-go" rel="noopener">GitHub</a>
+                <a href="https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md" rel="noopener">Contributing</a>
+                <a href="https://awesome-go.com/sitemap.xml">Sitemap</a>
+            </div>
+            <p class="footer-credit">Maintained by the <a href="https://github.com/avelino/awesome-go/graphs/contributors" rel="noopener">awesome-go community</a></p>
+        </div>
+    </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.0/marked.min.js" integrity="sha512-uggp1jOpxGjqTeS8Fit5x6+lqyJoIuXXn/VziVPlxBRnqZ0FhCaxsUnQsPL5PKylHr0KIoMtNbBIiU6n31dDTg==" crossorigin="anonymous"></script>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DXZMLYYVYM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-DXZMLYYVYM');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DXZMLYYVYM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-DXZMLYYVYM');
+    </script>
 </body>
-
 </html>
