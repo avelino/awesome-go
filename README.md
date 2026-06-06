@@ -1464,7 +1464,7 @@ _Toolkits_
 - [goradd/html5tag](https://github.com/goradd/html5tag) - Library for outputting HTML5 tags.
 - [gotk3](https://github.com/gotk3/gotk3) - Go bindings for GTK3.
 - [gowd](https://github.com/dtylman/gowd) - Rapid and simple desktop UI development with GO, HTML, CSS and NW.js. Cross platform.
-- [proton](https://github.com) - Pure Go immediate-mode GUI framework built on Gio with zero Cgo dependencies.
+- [proton](https://github.com/CzaxStudio/proton) - Pure Go immediate-mode GUI framework built on Gio with zero Cgo dependencies.
 - [qt](https://github.com/therecipe/qt) - Qt binding for Go (support for Windows / macOS / Linux / Android / iOS / Sailfish OS / Raspberry Pi).
 - [Spot](https://github.com/roblillack/spot) - Reactive, cross-platform desktop GUI toolkit.
 - [ui](https://github.com/andlabs/ui) - Platform-native GUI library for Go. Cross platform.
