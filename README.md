@@ -493,6 +493,7 @@ _Libraries for configuration parsing._
 - [cleanenv](https://github.com/ilyakaznacheev/cleanenv) - Minimalistic configuration reader (from files, ENV, and wherever you want).
 - [config](https://github.com/JeremyLoy/config) - Cloud native application configuration. Bind ENV to structs in only two lines.
 - [config](https://github.com/num30/config) - configure your app using file, environment variables, or flags in two lines of code.
+- [config](https://github.com/andreiavrammsd/config) - Struct-based configuration loader with a dedicated config file parser, supporting env vars, flags, defaults, and validation.
 - [configuration](https://github.com/BoRuDar/configuration) - Library for initializing configuration structs from env variables, files, flags and 'default' tag.
 - [configuro](https://github.com/sherifabdlnaby/configuro) - opinionated configuration loading & validation framework from ENV and Files focused towards 12-Factor compliant applications.
 - [confiq](https://github.com/greencoda/confiq) - Structured data format to config struct decoder library for Go - supporting multiple data formats.
