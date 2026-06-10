@@ -1,5 +1,12 @@
 # Awesome Go
 
+
+<!-- AUTO-PACKAGE-BADGES:START -->
+<!-- Auto-generated package badges -->
+
+![Go Reference](https://img.shields.io/github/v/tag/avelino/awesome-go?style=flat-square&logo=go&label=go.mod&color=00add8) [![Deployed](https://img.shields.io/badge/deployed-latest-blue?style=flat-square)](https://pkg.go.dev/github.com/avelino/awesome-go)
+
+<!-- AUTO-PACKAGE-BADGES:END -->
 <a href="https://awesome-go.com/"><img align="right" src="https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png" alt="awesome-go" title="awesome-go" /></a>
 
 [![Build Status](https://github.com/avelino/awesome-go/actions/workflows/tests.yaml/badge.svg?branch=main)](https://github.com/avelino/awesome-go/actions/workflows/tests.yaml?query=branch%3Amain)
