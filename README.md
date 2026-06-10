@@ -2656,6 +2656,7 @@ _Libraries for testing codebases and generating test data._
 ### Selenium and browser control tools
 
 - [bonk](https://github.com/joakimcarlsson/bonk) - Fast, stealth-first browser automation library using Chrome DevTools Protocol over WebSocket with no external dependencies.
+- [browser-cli](https://github.com/zmysysz/browser-cli) - CLI tool for browser automation and web scraping with stealth mode and state persistence, powered by Playwright.
 - [cdp](https://github.com/mafredri/cdp) - Type-safe bindings for the Chrome Debugging Protocol that can be used with browsers or other debug targets that implement it.
 - [chromedp](https://github.com/knq/chromedp) - a way to drive/test Chrome, Safari, Edge, Android Webviews, and other browsers supporting the Chrome Debugging Protocol.
 - [playwright-go](https://github.com/mxschmitt/playwright-go) - browser automation library to control Chromium, Firefox and WebKit with a single API.
