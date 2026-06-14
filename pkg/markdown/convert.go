@@ -2,6 +2,7 @@ package markdown
 
 import (
 	"bytes"
+	htmltemplate "html/template"
 
 	"github.com/avelino/awesome-go/pkg/slug"
 	"github.com/yuin/goldmark"
@@ -35,6 +36,16 @@ func ToHTML(markdown []byte) ([]byte, error) {
 	}
 
 	return buf.Bytes(), nil
+}
+
+// ToSafeHTML converts a markdown byte slice to html/template.HTML,
+// marking the output as safe for use in html/template rendering.
+func ToSafeHTML(input []byte) (htmltemplate.HTML, error) {
+	body, err := ToHTML(input)
+	if err != nil {
+		return "", err
+	}
+	return htmltemplate.HTML(body), nil
 }
 
 // IDGenerator for goldmark to provide IDs more similar to GitHub's IDs on markdown parsing
