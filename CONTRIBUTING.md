@@ -5,6 +5,16 @@ We appreciate and recognize [all contributors](https://github.com/avelino/awesom
 
 > Please be aware that we want to accept your contribution, but we have **some rules to keep the minimum quality** of the packages listed here. All reviews are **not personal feedback**, even if you are a _developer reviewing your contribution_. **Sorry, if we can't meet your expectations; we do our best**.
 
+## How to Submit a Library
+
+Want to add your Go library or package to awesome-go? Here's how:
+
+1. **Fork this repository** and create a new branch
+2. **Add your entry** to the appropriate category in alphabetical order
+3. **Follow the [Quick checklist](#quick-checklist)** below to ensure quality standards
+4. **Open a pull request** with links to pkg.go.dev, Go Report Card, and coverage
+5. **Wait for review** - maintainers will review when available
+
 - **To add, remove, or change things on the list:** Submit a pull request
 
 ## Table of Contents
