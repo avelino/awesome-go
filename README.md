@@ -2625,6 +2625,7 @@ _Libraries for testing codebases and generating test data._
 - [trial](https://github.com/jgroeneveld/trial) - Quick and easy extendable assertions without introducing much boilerplate.
 - [Tt](https://github.com/vcaesar/tt) - Simple and colorful test tools.
 - [wstest](https://github.com/posener/wstest) - Websocket client for unit-testing a websocket http.Handler.
+- [assay](https://github.com/tushariitr-19/assay) - Framework-agnostic evaluation library for testing Go agents and MCP servers with deterministic checks, CI-ready exit codes, and zero-code YAML-based testing.
 
 ### Mock
 
