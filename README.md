@@ -3829,8 +3829,8 @@ _Add the group of your city/country here (send **PR**)_
 
 ## Style Guides
 
-- [bahlo/go-styleguide](https://github.com/bahlo/go-styleguide)
 - [CockroachDB](https://github.com/cockroachdb/cockroach/blob/master/docs/style.md)
+- [enra/go-styleguide](https://codeberg.org/enra/go-styleguide)
 - [GitLab](https://docs.gitlab.com/ee/development/go_guide/)
 - [Google](https://google.github.io/styleguide/go/)
 - [Hyperledger](https://github.com/hyperledger/fabric/blob/release-1.4/docs/source/style-guides/go-style.rst)
