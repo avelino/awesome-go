@@ -3059,6 +3059,7 @@ _General utilities and tools to make your life easier._
 - [sliceconv](https://github.com/Henry-Sarabia/sliceconv) - Slice conversion between primitive types.
 - [slicer](https://github.com/leaanthony/slicer) - Makes working with slices easier.
 - [sorty](https://github.com/jfcg/sorty) - Fast Concurrent / Parallel Sorting.
+- [sqlex](https://github.com/go-sqlex/sqlex) - Drop-in modernization of jmoiron/sqlx with fixed SQL lexer bugs, automatic IN-clause expansion, pluggable hooks, and unified DB/Tx/Conn interfaces.
 - [sqlx](https://github.com/jmoiron/sqlx) - provides a set of extensions on top of the excellent built-in database/sql package.
 - [sqlz](https://github.com/rfberaldo/sqlz) - Extension for the database/sql package, adding named queries, struct scanning, and batch operations.
 - [sshman](https://github.com/shoobyban/sshman) - SSH Manager for authorized_keys files on multiple remote servers.
