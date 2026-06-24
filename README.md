@@ -3505,6 +3505,7 @@ _Software written in Go._
 - [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
 - [Hey](https://github.com/rakyll/hey) - Hey is a tiny program that sends some load to a web application.
 - [httpref](https://github.com/dnnrly/httpref) - httpref is a handy CLI reference for HTTP methods, status codes, headers, and TCP and UDP ports.
+- [Immortal](https://github.com/Nagendhra-web/Immortal) - Self-healing engine for modern infrastructure. Agentic AI, digital twin simulation, post-quantum signed audit trail. Single binary, 86 packages, Apache 2.0.
 - [jcli](https://github.com/jenkins-zh/jenkins-cli) - Jenkins CLI allows you manage your Jenkins as an easy way.
 - [k0s](https://github.com/k0sproject/k0s) - Zero Friction Kubernetes distribution.
 - [k3d](https://github.com/k3d-io/k3d) - Little helper to run CNCF's k3s in Docker.
