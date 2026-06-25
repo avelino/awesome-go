@@ -2393,6 +2393,7 @@ _Libraries that are used to help make your application more secure._
 - [certificates](https://github.com/mvmaasakkers/certificates) - An opinionated tool for generating tls certificates.
 - [CertMagic](https://github.com/caddyserver/certmagic) - Mature, robust, and powerful ACME client integration for fully-managed TLS certificate issuance and renewal.
 - [Coraza](https://github.com/corazawaf/coraza) - Enterprise-ready, modsecurity and OWASP CRS compatible WAF library.
+- [Cynative](https://github.com/cynative/cynative): Agentic security CLI that runs code in a built-in sandbox to research AWS, GCP, Azure, Kubernetes, GitHub and GitLab. Read-only enforced by default.
 - [dongle](https://github.com/golang-module/dongle) - A simple, semantic and developer-friendly golang package for encoding&decoding and encryption&decryption.
 - [dotlock](https://github.com/ahmadraza100/dotlock) - Encrypted .env vault manager with interactive TUI for managing secrets across multiple environments and profiles.
 - [encid](https://github.com/bobg/encid) - Encode and decode encrypted integer IDs.
