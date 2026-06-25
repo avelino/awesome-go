@@ -1,0 +1,74 @@
+# This is a template CircleCI rollback config
+# that shows how to use deploy markers to track deployments.
+# You can edit this template to add your custom rollback logic.
+
+version: 2.1
+
+jobs:
+  rollback-component:
+    docker:
+      - image: cimg/base:current
+    environment:
+      COMPONENT_NAME: << pipeline.deploy.component_name >>
+      NAMESPACE: << pipeline.deploy.namespace >>
+      ENVIRONMENT_NAME: << pipeline.deploy.environment_name >>
+      TARGET_VERSION: << pipeline.deploy.target_version >>
+    steps:
+      - checkout
+      - attach_workspace:
+          at: . 
+
+      # This step will create a new deploy with PENDING status
+      # that will show up in the deploys tab in the UI                     
+      - run:
+          name: Plan release of deploy release smoke test
+          command: |
+            circleci run release plan  \
+              --environment-name=${ENVIRONMENT_NAME} \
+              --namespace=${NAMESPACE} \
+              --component-name=${COMPONENT_NAME} \
+              --target-version=${TARGET_VERSION} \
+              --rollback
+
+      - run:
+          name: Perform rollback
+          command: echo "Replace this step with your custom rollback logic"
+
+      # These last two steps update the PENDING deployment marker 
+      # to SUCCESS or FAILED, based on the outcome of the job.
+      - run:
+          name: Update planned release to SUCCESS
+          command: |
+            circleci run release update \
+              --status=SUCCESS  
+          when: on_success
+      - run:
+          name: Update planned release to FAILED
+          command: |
+            circleci run release update \
+             --status=FAILED
+          when: on_fail
+
+  # This job handles the cancellation of the rollback deploy marker 
+  # if the rollback job is canceled
+  cancel-rollback:
+    docker:
+      - image: cimg/base:current
+    steps:                 
+      - run:
+          name: Update planned release to CANCELED
+          command: |
+            circleci run release update \
+             --status=CANCELED         
+
+workflows:
+  rollback:
+    jobs:
+      - rollback-component
+      - cancel-rollback:
+          requires:
+            - rollback-component:
+              - canceled
+          filters:
+            branches:
+              only: main
