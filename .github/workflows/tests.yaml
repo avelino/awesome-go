@@ -7,7 +7,8 @@ on:
   pull_request:
 
 permissions:
-  contents: read  #  to fetch code (actions/checkout)
+  pull-requests: write   # required for posting comments (test)
+  contents: write        # required for git push
 
 jobs:
   build:
@@ -19,4 +20,8 @@ jobs:
     - name: Get dependencies
       run: go get -v -t -d ./...
     - name: Run tests
-      run: go test main_test.go main.go
+      run: go test -coverprofile=cover.out main_test.go main.go
+    - name: Install Vim
+      run: apt-get update; apt-get install -y vim;
+    - name: Go Beautiful HTML Coverage
+      uses: gha-common/go-beautiful-html-coverage@v1
