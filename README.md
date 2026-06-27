@@ -325,6 +325,7 @@ _Tools for building blockchains._
 - [kubo](https://github.com/ipfs/kubo) - An IPFS implementation in Go. It provides content-addressable storage which can be used for decentralized storage in DApps. It is based on the IPFS protocol.
 - [lnd](https://github.com/lightningnetwork/lnd) - A complete implementation of a Lightning Network node.
 - [nview](https://github.com/blinklabs-io/nview) - Local monitoring tool for a Cardano Node. It's a TUI (terminal user interface) designed to fit most screens.
+- [pactus](https://github.com/pactus-project/pactus) - A full-node implementation of the Pactus blockchain in Go.
 - [solana-go](https://github.com/gagliardetto/solana-go) - Go library to interface with Solana JSON RPC and WebSocket interfaces.
 - [tendermint](https://github.com/tendermint/tendermint) - High-performance middleware for transforming a state machine written in any programming language into a Byzantine Fault Tolerant replicated state machine using the Tendermint consensus and blockchain protocols.
 - [tronlib](https://github.com/kslamph/tronlib) - A comprehensive, production-ready Go SDK for interacting with the TRON blockchain with TRC20 token support.
