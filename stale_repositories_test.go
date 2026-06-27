@@ -65,6 +65,16 @@ func (t *tokenSource) Token() (*oauth2.Token, error) {
 	}, nil
 }
 
+// String redacts the OAuth token to prevent accidental exposure in logs or error output.
+func (t *tokenSource) String() string {
+	return "tokenSource{AccessToken: [REDACTED]}"
+}
+
+// GoString redacts the OAuth token to prevent accidental exposure via %#v formatting.
+func (t *tokenSource) GoString() string {
+	return "tokenSource{AccessToken: [REDACTED]}"
+}
+
 func getRepositoriesFromBody(body string) []string {
 	links := strings.Split(body, "- ")
 	for i, link := range links {
