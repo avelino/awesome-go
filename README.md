@@ -2400,6 +2400,7 @@ _Libraries that are used to help make your application more secure._
 - [dotlock](https://github.com/ahmadraza100/dotlock) - Encrypted .env vault manager with interactive TUI for managing secrets across multiple environments and profiles.
 - [encid](https://github.com/bobg/encid) - Encode and decode encrypted integer IDs.
 - [entpassgen](https://github.com/andreimerlescu/entpassgen) - Entropy Password Generator with extensive command line arguments to generate random strings securely including digits, passwords, and passwords built using obscure dictionary words mixed with symbols and digits.
+- [FCaptcha](https://github.com/WebDecoy/FCaptcha) - Self-hosted CAPTCHA that detects bots, vision AI agents, and headless browsers through behavioral analysis and SHA-256 proof of work.
 - [firewalld-rest](https://github.com/prashantgupta24/firewalld-rest) - A rest application to dynamically update firewalld rules on a linux server.
 - [fort](https://github.com/djadmin/fort) - Audits macOS security settings across 16 checks, reports a score, and fixes issues where it safely can. Single binary, installable via Homebrew.
 - [go-generate-password](https://github.com/m1/go-generate-password) - Password generator that can be used on the cli or as a library.
