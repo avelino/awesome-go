@@ -2636,6 +2636,7 @@ _Libraries for testing codebases and generating test data._
 ### Mock
 
 - [counterfeiter](https://github.com/maxbrunsfeld/counterfeiter) - Tool for generating self-contained mock objects.
+- [fabricator](https://github.com/Goldziher/fabricator) - Type-safe factories for generating mock and fake data in Go, inspired by factory_boy and interface-forge.
 - [genmock](https://gitlab.com/so_literate/genmock) - Go mocking system with code generator for building calls of the interface methods.
 - [go-localstack](https://github.com/elgohr/go-localstack) - Tool for using localstack in AWS testing.
 - [go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) - Mock SQL driver for testing database interactions.
