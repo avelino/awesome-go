@@ -231,6 +231,7 @@ _Libraries for building programs that leverage AI._
 - [hotplex](https://github.com/hrygo/hotplex) - AI Agent runtime engine with long-lived sessions for Claude Code, OpenCode, pi-mono and other CLI AI tools. Provides full-duplex streaming, multi-platform integrations, and secure sandbox.
 - [langchaingo](https://github.com/tmc/langchaingo) - LangChainGo is a framework for developing applications powered by language models.
 - [langgraphgo](https://github.com/smallnest/langgraphgo) - A Go library for building stateful, multi-actor applications with LLMs, built on the concept of LangGraph，with a lot of builtin Agent architectures.
+- [liter-llm](https://github.com/xberg-io/liter-llm) - Universal LLM API client for 142+ providers with a unified interface and streaming (Go binding over a Rust core).
 - [llm-box](https://github.com/alib8b8/llm-box) - Terminal-based AI workflow engine with YAML-driven pipelines, 20+ LLM providers (DeepSeek, Qwen, GLM, Mistral, etc.), and a TUI for workflow management.
 - [LocalAI](https://github.com/mudler/LocalAI) - Open Source OpenAI alternative, self-host AI models.
 - [localaik](https://github.com/harshaneel/localaik) - LocalStack-style local emulation of OpenAI and Gemini APIs; single Docker container, llama.cpp + Gemma 3 backend.
@@ -709,6 +710,7 @@ additional ordered map implementations.
 - [bleve](https://github.com/blevesearch/bleve) - Modern text indexing library for go.
 - [go-adaptive-radix-tree](https://github.com/plar/go-adaptive-radix-tree) - Go implementation of Adaptive Radix Tree.
 - [go-edlib](https://github.com/hbollon/go-edlib) - Go string comparison and edit distance algorithms library (Levenshtein, LCS, Hamming, Damerau levenshtein, Jaro-Winkler, etc.) compatible with Unicode.
+- [html-to-markdown](https://github.com/xberg-io/html-to-markdown) - Fast, CommonMark-compliant HTML to Markdown converter (Go binding over a Rust core).
 - [levenshtein](https://github.com/agext/levenshtein) - Levenshtein distance and similarity metrics with customizable edit costs and Winkler-like bonus for common prefix.
 - [levenshtein](https://github.com/agnivade/levenshtein) - Implementation to calculate levenshtein distance in Go.
 - [mspm](https://github.com/BlackRabbitt/mspm) - Multi-String Pattern Matching Algorithm for information retrieval.
@@ -716,6 +718,7 @@ additional ordered map implementations.
 - [ptrie](https://github.com/viant/ptrie) - An implementation of prefix tree.
 - [radixtree](https://github.com/gammazero/radixtree) - Adaptive radix tree (prefix-tree or compact-trie).
 - [trie](https://github.com/derekparker/trie) - Trie implementation in Go.
+- [xberg](https://github.com/xberg-io/xberg) - Document intelligence library that extracts text, tables, and metadata from PDFs, Office documents, and 97+ formats with optional OCR (Go binding over a Rust core).
 
 ### Trees
 
@@ -2734,6 +2737,7 @@ See also [Natural Language Processing](#natural-language-processing) and [Text A
 - [prattle](https://github.com/askeladdk/prattle) - Scan and parse LL(1) grammars simply and efficiently.
 - [sh](https://github.com/mvdan/sh) - Shell parser and formatter.
 - [tokenizer](https://github.com/bzick/tokenizer) - Parse any string, slice or infinite buffer to any tokens.
+- [tree-sitter-language-pack](https://github.com/xberg-io/tree-sitter-language-pack) - Pre-built tree-sitter grammars for 300+ languages with a unified parser API (Go binding over a Rust core).
 - [vdf](https://github.com/andygrunwald/vdf) - A Lexer and Parser for Valves Data Format (known as vdf) written in Go.
 - [when](https://github.com/olebedev/when) - Natural EN and RU language date/time parser with pluggable rules.
 - [xj2go](https://github.com/stackerzzq/xj2go) - Convert xml or json to go struct.
@@ -2755,6 +2759,7 @@ See also [Natural Language Processing](#natural-language-processing) and [Text A
 ### Scrapers
 
 - [colly](https://github.com/asciimoo/colly) - Fast and Elegant Scraping Framework for Gophers.
+- [crawlberg](https://github.com/xberg-io/crawlberg) - High-performance web crawling and scraping engine with HTML-to-Markdown conversion and a headless-Chrome fallback (Go binding over a Rust core).
 - [dataflowkit](https://github.com/slotix/dataflowkit) - Web scraping Framework to turn websites into structured data.
 - [go-recipe](https://github.com/kkyr/go-recipe) - A package for scraping recipes from websites.
 - [go-sitemap-parser](https://github.com/aafeher/go-sitemap-parser) - Go language library for parsing Sitemaps.
