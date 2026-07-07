@@ -2232,7 +2232,6 @@ _Libraries for using OpenGL in Go._
 _Libraries that implement Object-Relational Mapping or datamapping techniques._
 
 - [bob](https://github.com/stephenafamo/bob) - SQL query builder and ORM/Factory generator for Go. Successor of SQLBoiler.
-- [Breeze](https://github.com/nelthaarion/breezeorm) - A Go ORM that doesn't make you choose between fast, safe, and readable
 - [bun](https://github.com/uptrace/bun) - SQL-first Golang ORM. Successor of go-pg.
 - [cacheme](https://github.com/Yiling-J/cacheme-go) - Schema based, typed Redis caching/memoize framework for Go.
 - [CQL](https://github.com/FrancoLiberali/cql) - Built on top of GORM, adds compile-time verified queries based on auto-generated code.
