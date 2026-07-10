@@ -8,7 +8,7 @@ require (
 	github.com/PuerkitoBio/goquery v1.8.1
 	github.com/avelino/slugify v0.0.0-20180501145920-855f152bd774
 	github.com/otiai10/copy v1.14.0
-	github.com/yuin/goldmark v1.6.0
+	github.com/yuin/goldmark v1.7.17
 	golang.org/x/oauth2 v0.27.0
 )
 
