@@ -1936,6 +1936,7 @@ _**Unofficial** set of patterns for structuring projects._
 - [pagoda](https://github.com/mikestefanello/pagoda) - Rapid, easy full-stack web development starter kit built in Go.
 - [scaffold](https://github.com/catchplay/scaffold) - Scaffold generates a starter Go project layout. Lets you focus on business logic implemented.
 - [wangyoucao577/go-project-layout](https://github.com/wangyoucao577/go-project-layout) - Set of practices and discussions on how to structure Go project layout.
+- [wick](https://github.com/yogasw/wick) - AI-first Go framework for building internal tools and background jobs — just prompt, AI does the rest.
 
 **[⬆ back to top](#contents)**
 
