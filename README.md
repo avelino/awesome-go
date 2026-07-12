@@ -2727,6 +2727,7 @@ See also [Natural Language Processing](#natural-language-processing) and [Text A
 - [doi](https://github.com/hscells/doi) - Document object identifier (doi) parser in Go.
 - [editorconfig-core-go](https://github.com/editorconfig/editorconfig-core-go) - Editorconfig file parser and manipulator for Go.
 - [go-fasttld](https://github.com/elliotwutingfeng/go-fasttld) - High performance effective top level domains (eTLD) extraction module.
+- [go-hashtag](https://github.com/itbasis/go-hashtag) - Library for working with hashtags in the text
 - [go-nmea](https://github.com/adrianmo/go-nmea) - NMEA parser library for the Go language.
 - [go-querystring](https://github.com/google/go-querystring) - Go library for encoding structs into URL query parameters.
 - [go-vcard](https://github.com/emersion/go-vcard) - Parse and format vCard.
