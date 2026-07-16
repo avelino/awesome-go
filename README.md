@@ -1224,6 +1224,7 @@ _Libraries for handling files and file systems._
 - [gofs](https://github.com/no-src/gofs) - A cross-platform real-time file synchronization tool out of the box.
 - [gopdfrab](https://github.com/voidrab/gopdfrab) - PDF/A processing for Go.
 - [gulter](https://github.com/adelowo/gulter) - A simple HTTP middleware to automatically handle all your file upload needs
+- [tusdfiber](https://github.com/maulanashalihin/tusdfiber) - Native Fiber implementation of the TUS resumable upload protocol with storage backends, hooks, and Prometheus metrics.
 - [gut/yos](https://github.com/1set/gut) - Simple and reliable package for file operations like copy/move/diff/list on files, directories and symbolic links.
 - [gxpdf](https://github.com/coregx/gxpdf) - Modern full-lifecycle PDF library for Go — parse, extract tables, generate, and sign documents with zero CGO dependencies.
 - [higgs](https://github.com/dastoori/higgs) - A tiny cross-platform Go library to hide/unhide files and directories.
