@@ -2891,6 +2891,7 @@ _Libraries for accessing third party APIs._
 - [simples3](https://github.com/rhnvrm/simples3) - Simple no frills AWS S3 Library using REST with V4 Signing written in Go.
 - [slack](https://github.com/slack-go/slack) - Slack API in Go.
 - [smite](https://github.com/sergiotapia/smitego) - Go package to wraps access to the Smite game API.
+- [sonarqube-client-go](https://github.com/BoxBoxJason/sonarqube-client-go) - Go client library and command-line client for the SonarQube Web API.
 - [spec](https://github.com/oaswrap/spec) - Lightweight OpenAPI 3.x builder supporting static generation and popular frameworks like chi, echo, gin, fiber, mux and more.
 - [spotify](https://github.com/rapito/go-spotify) - Go Library to access Spotify WEB API.
 - [steam](https://github.com/sostronk/go-steam) - Go Library to interact with Steam game servers.
