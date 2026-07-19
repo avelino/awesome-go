@@ -2485,8 +2485,6 @@ _Libraries and tools for binary serialization._
 
 **[⬆ back to top](#contents)**
 
-* [relay](https://github.com/valtors/relay) - MCP server with 40 tools for AI agents. Memory, web fetch, search, file ops, screenshots, and multi-agent coordination in one Go binary.
-
 ## Server Applications
 
 - [algernon](https://github.com/xyproto/algernon) - HTTP/2 web server with built-in support for Lua, Markdown, GCSS and Amber.
