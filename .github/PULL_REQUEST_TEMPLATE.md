@@ -1,36 +1,47 @@
-## We want to ensure high quality of the packages. Make sure that you've checked the boxes below before sending a pull request.
+## Required links
+
+_Provide the links below. Our CI will automatically validate them._
+
+- [ ] Forge link (github.com, gitlab.com, etc): <!-- https://github.com/org/project -->
+- [ ] pkg.go.dev: <!-- https://pkg.go.dev/github.com/org/project -->
+- [ ] goreportcard.com: <!-- https://goreportcard.com/report/github.com/org/project -->
+- [ ] Coverage service link ([codecov](https://codecov.io/), [coveralls](https://coveralls.io/), etc.): <!-- https://app.codecov.io/gh/org/project -->
+
+## Pre-submission checklist
 
 - [ ] I have read the [Contribution Guidelines](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md#contribution-guidelines)
-- [ ] I have read the [Maintainers Note](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md#maintainers)
 - [ ] I have read the [Quality Standards](https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md#quality-standards)
 
-_Not every repository (project) will require every option, but most projects should. Check the Contribution Guidelines for details._
+## Repository requirements
 
+_These are validated automatically by CI:_
+
+- [ ] The repo has a `go.mod` file and at least one SemVer release (`vX.Y.Z`).
+- [ ] The repo has an open source license.
 - [ ] The repo documentation has a pkg.go.dev link.
+- [ ] The repo documentation has a goreportcard link (grade A- or better).
 - [ ] The repo documentation has a coverage service link.
-- [ ] The repo documentation has a goreportcard link.
-- [ ] The repo has a version-numbered release and a go.mod file.
-- [ ] The repo has a continuous integration process that automatically runs tests that must pass before new pull requests are merged.
-- [ ] Continuous integration is used to attempt to catch issues prior to releasing this package to end-users.
 
-## Please provide some links to your package to ease the review
+_These are recommended and reported as warnings:_
 
-- [ ] forge link (github.com, gitlab.com, etc):
-- [ ] pkg.go.dev:
-- [ ] goreportcard.com:
-- [ ] coverage service link ([codecov](https://codecov.io/), [coveralls](https://coveralls.io/), etc.):
+- [ ] The repo has a continuous integration process (GitHub Actions, etc.).
+- [ ] CI runs tests that must pass before merging.
 
 ## Pull Request content
 
-- [ ] The package has been added to the list in alphabetical order.
-- [ ] The package has an appropriate description with correct grammar.
-- [ ] As far as I know, the package has not been listed here before.
+_These are validated automatically by CI:_
+
+- [ ] This PR adds/removes/changes **only one** package.
+- [ ] The package has been added in **alphabetical order**.
+- [ ] The link text is the **exact project name**.
+- [ ] The description is clear, concise, non-promotional, and **ends with a period**.
+- [ ] The link in README.md matches the forge link above.
 
 ## Category quality
 
-_Note that new categories can be added only when there are 3 packages or more._
+_Note: new categories require a minimum of 3 packages._
 
-Packages added a long time ago might not meet the current guidelines anymore. It would be very helpful if you could check 3-5 packages above and below your submission to ensure that they also still meet the Quality Standards.
+Packages added a long time ago might not meet the current guidelines anymore. It would be very helpful if you could check 3-5 packages above and below your submission to ensure they still meet the Quality Standards.
 
 Please delete one of the following lines:
 

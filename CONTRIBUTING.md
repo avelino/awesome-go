@@ -11,10 +11,10 @@ We appreciate and recognize [all contributors](https://github.com/avelino/awesom
 
 - [Quick checklist](#quick-checklist)
 - [Quality standards](#quality-standards)
+- [What is checked automatically](#what-is-checked-automatically)
 - [Preparing for review](#preparing-for-review)
-- [Local validations (optional)](#local-validations-optional)
 - [How to add an item to the list](#how-to-add-an-item-to-the-list)
-  - [Examples of good and bad entries](#examples-of-good-and-bad-entries)
+  - [Entry formatting rules](#entry-formatting-rules)
   - [PR body example](#pr-body-example)
 - [Congrats, your project got accepted - what now](#congrats-your-project-got-accepted---what-now)
 - [Maintenance expectations for projects listed here](#maintenance-expectations-for-projects-listed-here)
@@ -27,17 +27,17 @@ We appreciate and recognize [all contributors](https://github.com/avelino/awesom
 
 ## Quick checklist
 
-Before opening a pull request, please ensure the following:
+Before opening a pull request, ensure the following:
 
-- One PR adds, removes, or changes only one item.
-- The item is in the correct category and in alphabetical order.
-- The link text is the exact project/package name.
-- The description is concise, non-promotional, and ends with a period.
-- The repository has: at least 5 months of history, an open source license, a `go.mod`, and at least one SemVer release (vX.Y.Z).
-- Documentation in English: README and pkg.go.dev doc comments for public APIs.
-- Tests meet the coverage guideline (≥80% for non-data packages, ≥90% for data packages) when applicable.
-- Include links in the PR body to pkg.go.dev, Go Report Card, and a coverage report.
-- For ongoing development: issues and PRs are responded to within ~2 weeks; or, if the project is mature/stable, there are no bug reports older than 6 months.
+- [ ] One PR adds, removes, or changes **only one item**.
+- [ ] The item is in the **correct category** and in **alphabetical order**.
+- [ ] The link text is the **exact project/package name**.
+- [ ] The description is **concise, non-promotional, and ends with a period**.
+- [ ] The repository has: at least **5 months of history**, an **open source license**, a `go.mod`, and at least one **SemVer release** (`vX.Y.Z`).
+- [ ] Documentation in English: **README** and **pkg.go.dev doc comments** for public APIs.
+- [ ] Tests meet the coverage guideline (**≥80%** for non-data packages, **≥90%** for data packages) when applicable.
+- [ ] Include links in the PR body to **pkg.go.dev**, **Go Report Card**, and a **coverage report**.
+- [ ] For ongoing development: issues and PRs are responded to within ~2 weeks; or, if the project is mature/stable, there are no bug reports older than 6 months.
 
 To set this list apart from and complement the excellent [Go wiki Projects page](https://go.dev/wiki/Projects),
 and other lists, awesome-go is a specially curated list of high-quality, actively maintained Go packages and resources.
@@ -65,6 +65,51 @@ To be on the list, project repositories should adhere to the following quality s
 
 Categories must have at least 3 items.
 
+## What is checked automatically
+
+When you open a PR, the following checks run automatically via CI. Fixing these before submitting saves review time.
+
+### Blocking checks (PR cannot be merged if these fail)
+
+| Check | What it validates |
+|-------|-------------------|
+| **Repo accessible** | Repository URL responds and is not archived |
+| **go.mod present** | `go.mod` exists at the repository root |
+| **SemVer release** | At least one tag matching `vX.Y.Z` exists |
+| **pkg.go.dev reachable** | The provided pkg.go.dev link loads |
+| **Go Report Card grade** | Grade is A-, A, or A+ |
+| **PR body links present** | Forge link, pkg.go.dev, and Go Report Card are provided |
+| **Single item per PR** | Only one package added or removed per PR |
+| **Link consistency** | URL added to README matches the forge link in the PR body |
+| **Description format** | Entry ends with a period |
+| **Alphabetical order** | Entry is in the correct alphabetical position |
+| **No duplicate links** | URL is not already in the list |
+| **Entry format** | Matches `- [name](url) - Description.` pattern |
+| **Category minimum** | Category has at least 3 items |
+
+### Non-blocking checks (reported as warnings)
+
+| Check | What it validates |
+|-------|-------------------|
+| **Open source license** | GitHub detects a recognized OSS license |
+| **Repository maturity** | First commit is at least 5 months old |
+| **CI/CD configured** | GitHub Actions workflows are present |
+| **README present** | Repository has a README file |
+| **Coverage link** | A Codecov or Coveralls link is provided and reachable |
+| **Link text** | Link text matches the repository name |
+| **Non-promotional** | Description avoids superlative/marketing language |
+| **Extra files** | Only README.md is modified (for package additions) |
+
+### Still reviewed manually by maintainers
+
+- Package is in the **correct category** for its functionality
+- Package is **generally useful** to the Go community
+- Description is **accurate and clear**
+- Test coverage is **real** (not just benchmarks)
+- Documentation quality (README detail, pkg.go.dev comments)
+- Package **functions as documented**
+- For surrounding packages: still meet quality standards
+
 ## Preparing for review
 
 Projects listed must have the following in their documentation. When submitting, you will be asked
@@ -79,26 +124,6 @@ One way to accomplish the above is to add badges to your project's README file.
 - Use <https://pkg.go.dev/badge/> to create the pkg.go.dev link.
 - Go to <https://goreportcard.com/> to generate a Go Report Card report, then click on the report badge in the upper-right corner to see details on how to add the badge to your README.
 - Codecov, coveralls, and gocover all offer ways to create badges for code coverage reports. Another option is to generate a badge as part of a continuous integration process. See [Code Coverage](COVERAGE.md) for an example.
-
-## Local validations (optional)
-
-While automated checks run on pull requests, doing a quick local validation helps speed up reviews:
-
-- Repository readiness
-  - Ensure `go.mod` exists and there is at least one SemVer release (e.g., `v1.2.3`).
-  - Confirm the project has an open source license.
-- Documentation readiness
-  - README is in English and explains what the project does and how to use it.
-  - Public APIs have doc comments and the pkg.go.dev page loads.
-- Quality reports
-  - Go Report Card is reachable with grade A- or better.
-  - Coverage link (Codecov, Coveralls, etc.) is reachable.
-  - Local coverage sanity check (optional):
-    - `go test ./... -coverprofile=coverage.out`
-    - `go tool cover -func=coverage.out` (check percentage)
-- List formatting
-  - Correct category and alphabetical order.
-  - Link text equals the project name; description ends with a period and is non-promotional.
 
 ## How to add an item to the list
 
@@ -116,7 +141,7 @@ that the resulting list has at least 3 projects in every category, and that the 
 
 Fill out the template in your PR with the links asked for. If you accidentally remove the PR template from the submission, you can find it [here](https://github.com/avelino/awesome-go/blob/main/.github/PULL_REQUEST_TEMPLATE.md).
 
-### Examples of good and bad entries
+### Entry formatting rules
 
 Good:
 

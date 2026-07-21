@@ -1,5 +1,7 @@
 out/
 awesome-go
+.cache/
+check-*
 
 # Folders
 .idea
