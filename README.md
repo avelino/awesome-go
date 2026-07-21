@@ -721,6 +721,7 @@ additional ordered map implementations.
 - [ptrie](https://github.com/viant/ptrie) - An implementation of prefix tree.
 - [radixtree](https://github.com/gammazero/radixtree) - Adaptive radix tree (prefix-tree or compact-trie).
 - [trie](https://github.com/derekparker/trie) - Trie implementation in Go.
+- [xberg](https://github.com/xberg-io/xberg) - Document intelligence library that extracts text, tables, and metadata from PDFs, Office documents, and 97+ formats with optional OCR (Go binding over a Rust core).
 
 ### Trees
 
