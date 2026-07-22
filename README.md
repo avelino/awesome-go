@@ -2411,6 +2411,7 @@ _Libraries that are used to help make your application more secure._
 - [CertMagic](https://github.com/caddyserver/certmagic) - Mature, robust, and powerful ACME client integration for fully-managed TLS certificate issuance and renewal.
 - [Coraza](https://github.com/corazawaf/coraza) - Enterprise-ready, modsecurity and OWASP CRS compatible WAF library.
 - [Crenox](https://github.com/crenoxhq/crenox) - Zero-dependency pre-commit secret scanner using Aho-Corasick for high-performance credentials leak detection.
+- [Cynative](https://github.com/cynative/cynative) - Open-source deep security research agent for cloud, code, and runtime infrastructure across GitHub, GitLab, AWS, GCP, Azure, and Kubernetes, with read-only action gate, sandboxed code execution, verification, and audit log.
 - [dongle](https://github.com/golang-module/dongle) - A simple, semantic and developer-friendly golang package for encoding&decoding and encryption&decryption.
 - [dotlock](https://github.com/ahmadraza100/dotlock) - Encrypted .env vault manager with interactive TUI for managing secrets across multiple environments and profiles.
 - [encid](https://github.com/bobg/encid) - Encode and decode encrypted integer IDs.
