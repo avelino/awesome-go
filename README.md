@@ -2111,6 +2111,7 @@ _Libraries for working with various layers of the network._
 - [buffstreams](https://github.com/stabbycutyou/buffstreams) - Streaming protocolbuffer data over TCP made easy.
 - [canopus](https://github.com/zubairhamed/canopus) - CoAP Client/Server implementation (RFC 7252).
 - [cdns](https://github.com/junevm/cdns) - Change DNS servers effortlessly via terminal.
+- [chicha-ip-proxy](https://github.com/matveynator/chicha-ip-proxy) - Zero-configuration TCP/UDP port proxy with autostart, IP-based access control, and OS-level network stack tuning.
 - [cidranger](https://github.com/yl2chen/cidranger) - Fast IP to CIDR lookup for Go.
 - [cloudflared](https://github.com/cloudflare/cloudflared) - Cloudflare Tunnel client (formerly Argo Tunnel).
 - [dhcp6](https://github.com/mdlayher/dhcp6) - Package dhcp6 implements a DHCPv6 server, as described in RFC 3315.
