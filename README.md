@@ -421,6 +421,7 @@ _Libraries for building Console Applications and Console User Interfaces._
 - [simpletable](https://github.com/alexeyco/simpletable) - Simple tables in a terminal with Go.
 - [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
 - [tabby](https://github.com/cheynewallace/tabby) - A tiny library for super simple Golang tables.
+- [Terminas](https://github.com/spiccoaura/Terminas) - A terminal-based text editor and IDE written in Go using Bubble Tea.
 - [table](https://github.com/tomlazar/table) - Small library for terminal color based tables.
 - [termbox-go](https://github.com/nsf/termbox-go) - Termbox is a library for creating cross-platform text-based interfaces.
 - [termdash](https://github.com/mum4k/termdash) - Go terminal dashboard based on **termbox-go** and inspired by [termui](https://github.com/gizak/termui).
