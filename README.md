@@ -2208,6 +2208,7 @@ _Libraries for making HTTP requests._
 - [Grequest](https://github.com/lib4u/grequest)  - Simple and lightweight golang package for http requests. based on powerful net/http
 - [grequests](https://github.com/levigross/grequests) - A Go "clone" of the great and famous Requests library.
 - [hedge](https://github.com/bhope/hedge) - Adaptive hedged requests for Go. Cuts p99 latency with zero configuration, based on Google's "The Tail at Scale" paper.
+- [ambatukam-go](https://github.com/farhanturu/ambatukam-go) - Composable, idiomatic Go HTTP resilience — Retry, Circuit Breaker, Bulkhead, Rate Limiter, Timeout, Fallback, Singleflight, Hooks, Metrics, Health Check. Zero dependencies.
 - [heimdall](https://github.com/gojektech/heimdall) - An enhanced http client with retry and hystrix capabilities.
 - [httpretry](https://github.com/ybbus/httpretry) - Enriches the default go HTTP client with retry functionality.
  - [impersonate-http](https://github.com/North-web-dev/impersonate-http) - Drop-in net/http.Client with a byte-exact browser TLS (JA3/JA4) and HTTP/2 (Akamai) fingerprint.
