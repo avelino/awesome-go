@@ -1342,6 +1342,7 @@ _Awesome game development libraries._
 - [Pixel](https://github.com/gopxl/pixel) - Hand-crafted 2D game library in Go.
 - [prototype](https://github.com/gonutz/prototype) - Cross-platform (Windows/Linux/Mac) library for creating desktop games using a minimal API.
 - [raylib-go](https://github.com/gen2brain/raylib-go) - Go bindings for [raylib](https://www.raylib.com/), a simple and easy-to-use library to learn videogames programming.
+- [sceneCamera](https://github.com/donomii/sceneCamera) - Camera movement and view/projection matrices for museum, FPS, RTS, and stereo rendering modes.
 - [termloop](https://github.com/JoelOtter/termloop) - Terminal-based game engine for Go, built on top of Termbox.
 - [tile](https://github.com/kelindar/tile) - Data-oriented and cache-friendly 2D Grid library (TileMap), includes pathfinding, observers and import/export.
 
