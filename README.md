@@ -3457,6 +3457,7 @@ _Plugin for text editors and IDEs._
 - [gotests](https://github.com/cweill/gotests) - Generate Go tests from your source code.
 - [gounit](https://github.com/hexdigest/gounit) - Generate Go tests using your own templates.
 - [hasgo](https://github.com/DylanMeeus/hasgo) - Generate Haskell inspired functions for your slices.
+- [oapixconstgen](https://github.com/psyb0t/oapixconstgen) - Generate typed Go constants from an OpenAPI spec's x-constants extension.
 - [options-gen](https://github.com/kazhuravlev/options-gen) - Functional options described by Dave Cheney's post "Functional options for friendly APIs".
 - [re2dfa](https://gitlab.com/opennota/re2dfa) - Transform regular expressions into finite state machines and output Go source code.
 - [sqlgen](https://github.com/anqiansong/sqlgen) - Generate gorm, xorm, sqlx, bun, sql code from SQL file or DSN.
