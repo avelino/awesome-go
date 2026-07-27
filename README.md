@@ -1185,6 +1185,7 @@ _Embedding other languages inside your go code._
 
 _Libraries for handling errors._
 
+- [ctxerrors](https://github.com/psyb0t/ctxerrors) - Wrap errors with the file, line, and function name of each call site.
 - [emperror](https://github.com/emperror/emperror) - Error handling tools and best practices for Go libraries and applications.
 - [eris](https://github.com/rotisserie/eris) - A better way to handle, trace, and log errors in Go. Compatible with the standard error library and github.com/pkg/errors.
 - [errlog](https://github.com/snwfdhmp/errlog) - Hackable package that determines responsible source code for an error (and some other fast-debugging features). Pluggable to any logger in-place.
