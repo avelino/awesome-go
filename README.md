@@ -2129,6 +2129,7 @@ _Libraries for working with various layers of the network._
 - [dns](https://github.com/miekg/dns) - Go library for working with DNS.
 - [dnsmonster](https://github.com/mosajjal/dnsmonster) - Passive DNS Capture/Monitoring Framework.
 - [easytcp](https://github.com/DarthPestilane/easytcp) - A light-weight TCP framework written in Go (Golang), built with message router. EasyTCP helps you build a TCP server easily fast and less painful.
+- [E2BGateway](https://github.com/e2bgateway/e2bgateway) - A unified gateway that enables the official E2B client to interoperate with multiple agent runtimes including agent-sandbox and OpenSandbox. Features zero-code migration, multi-backend routing, auth, rate limiting, and OpenTelemetry observability.
 - [ether](https://github.com/songgao/ether) - Cross-platform Go package for sending and receiving ethernet frames.
 - [ethernet](https://github.com/mdlayher/ethernet) - Package ethernet implements marshaling and unmarshalling of IEEE 802.3 Ethernet II frames and IEEE 802.1Q VLAN tags.
 - [event](https://github.com/cheng-zhongliang/event) - Simple I/O event notification library written in Golang.
