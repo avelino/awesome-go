@@ -446,6 +446,7 @@ _Libraries for building standard or basic Command Line applications._
 - [carapace](https://github.com/rsteube/carapace) - Command argument completion generator for spf13/cobra.
 - [carapace-bin](https://github.com/rsteube/carapace-bin) - Multi-shell multi-command argument completer.
 - [carapace-spec](https://github.com/rsteube/carapace-spec) - Define simple completions using a spec file.
+- [cl](https://github.com/spltek/cl) - A tiny personal command launcher. Save commands once with a name, search instantly, run with Enter. Supports parametrized commands with placeholders.
 - [climax](https://github.com/tucnak/climax) - Alternative CLI with "human face", in spirit of Go command.
 - [clîr](https://github.com/leaanthony/clir) - A Simple and Clear CLI library. Dependency free.
 - [cmd](https://github.com/posener/cmd) - Extends the standard `flag` package to support sub commands and more in idiomatic way.
