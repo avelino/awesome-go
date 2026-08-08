@@ -1,16 +1,32 @@
+version: 2
 engines:
   golint:
     enabled: true
+    config:
+      min_confidence: 0.8   # Ignore very low-confidence style warnings
+
   gofmt:
     enabled: true
+    config:
+      simplify: true        # Automatically check for code simplifications
+
   govet:
     enabled: true
+    config:
+      check_shadowing: true # Detect variable shadowing for cleaner logic
+
   duplication:
     enabled: true
     config:
       languages:
-        - go
+        go:
+          threshold: 40     # Minimum token threshold before flagging duplication
 
 ratings:
   paths:
-    - "**.go"
+    - "**/*.go"
+
+exclude_paths:
+  - "vendor/**"             # Ignore dependencies
+  - "testdata/**"           # Ignore test data
+  - "mocks/**"              # Ignore generated mocks
