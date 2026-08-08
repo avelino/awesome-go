@@ -2451,6 +2451,7 @@ _Libraries that are used to help make your application more secure._
 - [memguard](https://github.com/awnumar/memguard) - A pure Go library for handling sensitive values in memory.
 - [multikey](https://github.com/adrianosela/multikey) - An n-out-of-N keys encryption/decryption framework based on Shamir's Secret Sharing algorithm.
 - [nacl](https://github.com/kevinburke/nacl) - Go implementation of the NaCL set of API's.
+- [observer](https://github.com/valtors/observer) - Transparent MCP proxy that logs every tool call to SQLite with metadata-only traces, prompt-injection scanning, and SARIF output.
 - [optimus-go](https://github.com/pjebs/optimus-go) - ID hashing and Obfuscation using Knuth's Algorithm.
 - [passlib](https://github.com/hlandau/passlib) - Futureproof password hashing library.
 - [passwap](https://github.com/zitadel/passwap) - Provides a unified implementation between different password hashing algorithms
