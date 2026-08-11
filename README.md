@@ -1256,6 +1256,7 @@ _Packages for accounting and finance._
 - [accounting](https://github.com/leekchan/accounting) - money and currency formatting for golang.
 - [ach](https://github.com/moov-io/ach) - A reader, writer, and validator for Automated Clearing House (ACH) files.
 - [bbgo](https://github.com/c9s/bbgo) - A crypto trading bot framework written in Go. Including common crypto exchange API, standard indicators, back-testing and many built-in strategies.
+- [cnn-fear-and-greed-parse](https://github.com/wildsurfer/cnn-fear-and-greed-parse) - Client for CNN's Fear & Greed Index with the seven component indicators and about a year of daily history.
 - [currency](https://github.com/bojanz/currency) - Handles currency amounts, provides currency information and formatting.
 - [currency](https://github.com/naughtygopher/currency) - High performant & accurate currency computation package.
 - [dec128](https://github.com/jokruger/dec128) - High performance 128-bit fixed-point decimal numbers.
