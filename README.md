@@ -886,6 +886,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [pREST](https://github.com/prest/prest) - Simplify and accelerate development, ⚡ instant, realtime, high-performance on any Postgres application, existing or new.
 - [rdb](https://github.com/HDT3213/rdb) - Redis RDB file parser for secondary development and memory analysis.
 - [rwdb](https://github.com/andizzle/rwdb) - rwdb provides read replica capability for multiple database servers setup.
+- [sqly](https://github.com/nao1215/sqly) - Execute SQL against CSV, TSV, LTSV, JSON, Parquet, and Excel files in an interactive shell, backed by in-memory SQLite.
 - [vitess](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
 - [wescale](https://github.com/wesql/wescale) - WeScale is a database proxy designed to enhance the scalability, performance, security, and resilience of your applications.
 - [xsql](https://github.com/zx06/xsql) - AI-first cross-database CLI tool with read-only protection and structured JSON output.
