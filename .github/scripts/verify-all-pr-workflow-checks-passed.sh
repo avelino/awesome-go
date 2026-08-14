@@ -21,7 +21,7 @@ fi
 NON_PASSING_CHECKS=$(gh pr checks "${gh_pr_number}" \
 	--repo "${gh_repository}" \
 	--json workflow,name,state,link |
-	jq --compact --arg current_run_id "${gh_current_run_id}" \
+	jq -c --arg current_run_id "${gh_current_run_id}" \
 		'.[] | select(
        (.link | contains($current_run_id) | not)
        and
@@ -30,6 +30,6 @@ NON_PASSING_CHECKS=$(gh pr checks "${gh_pr_number}" \
 
 if [ -n "${NON_PASSING_CHECKS}" ]; then
 	echo "Cannot auto-merge. The following checks are not passing:"
-	echo "${NON_PASSING_CHECKS}" | jq -r '"workflow: \(.workflow), name: \(.name), state: \(.state)""'
+	echo "${NON_PASSING_CHECKS}" | jq -r '"workflow: \(.workflow), name: \(.name), state: \(.state)"'
 	exit 1
 fi
