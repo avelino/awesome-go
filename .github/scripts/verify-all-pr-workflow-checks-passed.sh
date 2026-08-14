@@ -1,35 +1,43 @@
 #!/bin/bash
+
 set -eu -o pipefail
 
-declare -r expected_sha="${1:?missing expected_sha}"
-declare -r gh_pr_number="${2:?missing gh_pr_number}"
-declare -r gh_repository="${3:?missing gh_repository}"
-declare -r gh_current_run_id="${4:?missing gh_current_run_id}"
+declare -r EXPECTED_SHA="${1:?missing EXPECTED_SHA}"
+declare -r GH_PR_NUMBER="${2:?missing GH_PR_NUMBER}"
+declare -r GH_REPOSITORY="${3:?missing GH_REPOSITORY}"
+declare -r GH_CURRENT_RUN_ID="${4:?missing GH_CURRENT_RUN_ID}"
 
 # 1. Fetch current PR HEAD SHA to ensure no new commit was pushed while this ran
-CURRENT_SHA=$(gh pr view "${gh_pr_number}" \
-	--repo "${gh_repository}" \
+current_sha=$(gh pr view "${GH_PR_NUMBER}" \
+	--repo "${GH_REPOSITORY}" \
 	--json headRefOid --jq '.headRefOid')
 
-if [ "${CURRENT_SHA}" != "${expected_sha}" ]; then
-	echo "A new commit (${CURRENT_SHA}) was pushed after this run started (${expected_sha}). Aborting auto-merge."
+if [ "${current_sha}" != "${EXPECTED_SHA}" ]; then
+	echo "A new commit (${current_sha}) was pushed after this run started (${EXPECTED_SHA}). Aborting auto-merge."
 	exit 1
 fi
 
 # 2. Allowlist filter: select any check whose state is NOT in [SUCCESS, SKIPPED, NEUTRAL],
-#   filtering out the current workflow run by checking if its link contains gh_current_run_id.
-NON_PASSING_CHECKS=$(gh pr checks "${gh_pr_number}" \
-	--repo "${gh_repository}" \
-	--json workflow,name,state,link |
-	jq -c --arg current_run_id "${gh_current_run_id}" \
+#   filtering out the current workflow run by checking if its link contains GH_CURRENT_RUN_ID.
+pr_checks=$(gh pr checks "${GH_PR_NUMBER}" \
+	--repo "${GH_REPOSITORY}" \
+	--json workflow,name,state,link
+)
+non_passing_checks=$(echo "${pr_checks}" |
+	jq -c --arg current_run_id "${GH_CURRENT_RUN_ID}" \
 		'.[] | select(
        (.link | contains($current_run_id) | not)
        and
        (.state | test("^(SUCCESS|SKIPPED|NEUTRAL)$") | not)
      )')
 
-if [ -n "${NON_PASSING_CHECKS}" ]; then
+# helpful for debugging
+printf >&2 "# GH_CURRENT_RUN_ID: %s
+# pr_checks: %s
+# non_passing_checks: %s" "${GH_CURRENT_RUN_ID}" "${pr_checks}" "${non_passing_checks}"
+
+if [ -n "${non_passing_checks}" ]; then
 	echo "Cannot auto-merge. The following checks are not passing:"
-	echo "${NON_PASSING_CHECKS}" | jq -r '"workflow: \(.workflow), name: \(.name), state: \(.state)"'
+	echo "${non_passing_checks}" | jq -c '{workflow,name,state}'
 	exit 1
 fi
