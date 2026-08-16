@@ -2187,6 +2187,7 @@ _Libraries for working with various layers of the network._
 - [nbio](https://github.com/lesismal/nbio) - Pure Go 1000k+ connections solution, support tls/http1.x/websocket and basically compatible with net/http, with high-performance and low memory cost, non-blocking, event-driven, easy-to-use.
 - [net](https://golang.org/x/net) - This repository holds supplementary Go networking libraries.
 - [nethawk](https://github.com/Flowtriq/nethawk) - Terminal UI for real-time network traffic capture, analysis, and attack detection with JSON output mode.
+- [netchan](https://github.com/matveynator/netchan) - Extends Go channel semantics across processes and machines, including values, reply channels, and session channels.
 - [netpoll](https://github.com/cloudwego/netpoll) - A high-performance non-blocking I/O networking framework, which focused on RPC scenarios, developed by ByteDance.
 - [NFF-Go](https://github.com/intel-go/nff-go) - Framework for rapid development of performant network functions for cloud and bare-metal (former YANFF).
 - [nodepass](https://github.com/NodePassProject/nodepass) - A secure, efficient TCP/UDP tunneling solution that delivers fast, reliable access across network restrictions using pre-established TCP/QUIC/WebSocket or HTTP/2 connections.
