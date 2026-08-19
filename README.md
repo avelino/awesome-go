@@ -2414,6 +2414,7 @@ _Libraries for scientific computing and data analyzing._
 - [PiHex](https://github.com/claygod/PiHex) - Implementation of the "Bailey-Borwein-Plouffe" algorithm for the hexadecimal number Pi.
 - [Poly](https://github.com/bebop/poly) - A Go package for engineering organisms.
 - [rootfinding](https://github.com/khezen/rootfinding) - root-finding algorithms library for finding roots of quadratic functions.
+- [simd](https://github.com/tphakala/simd) - Native Go vector and SIMD operations on slices with multi-architecture assembly acceleration.
 - [sparse](https://github.com/james-bowman/sparse) - Go Sparse matrix formats for linear algebra supporting scientific and machine learning applications, compatible with gonum matrix libraries.
 - [stats](https://github.com/montanaflynn/stats) - Statistics package with common functions missing from the Golang standard library.
 - [streamtools](https://github.com/nytlabs/streamtools) - general purpose, graphical tool for dealing with streams of data.
