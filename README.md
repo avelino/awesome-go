@@ -261,6 +261,7 @@ _Libraries for manipulating audio and music._
 - [flac](https://github.com/mewkiz/flac) - Native Go FLAC encoder/decoder with support for FLAC streams.
 - [gaad](https://github.com/Comcast/gaad) - Native Go AAC bitstream parser.
 - [go-aac](https://github.com/tphakala/go-aac) - Pure-Go AAC-LC encoder and decoder ported from FFmpeg.
+- [go-audio-resampler](https://github.com/tphakala/go-audio-resampler) - Pure-Go, high-quality audio resampler with SIMD acceleration.
 - [go-flac](https://github.com/tphakala/go-flac) - Native Go FLAC encoder and decoder with SIMD acceleration.
 - [go-mpris](https://github.com/leberKleber/go-mpris) - Client for mpris dbus interfaces.
 - [go-opus](https://github.com/tphakala/go-opus) - Native Go implementation of the Opus audio codec (RFC 6716) with RFC-compliant decoder.
