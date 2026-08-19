@@ -2541,8 +2541,8 @@ _Libraries and tools for binary serialization._
 - [flipt](https://github.com/markphelps/flipt) - A self contained feature flag solution written in Go and Vue.js
 - [go-feature-flag](https://github.com/thomaspoignant/go-feature-flag) - A simple, complete and lightweight self-hosted feature flag solution 100% Open Source.
 - [go-proxy-cache](https://github.com/fabiocicerchia/go-proxy-cache) - Simple Reverse Proxy with Caching, written in Go, using Redis.
-- [gondola](https://github.com/bmf-san/gondola) - A YAML based golang reverse proxy.
 - [Govard](https://github.com/ddtcorex/govard) - Go-based local development orchestrator for PHP and web projects with Docker SDK, automatic framework discovery, and first-class Magento/Laravel/Symfony support.
+- [gondola](https://github.com/bmf-san/gondola) - A YAML based golang reverse proxy.
 - [goshs](https://github.com/patrickhener/goshs) - SimpleHTTPServer replacement with file upload/download, WebDAV, SFTP, SMB, TLS, authentication, and share links.
 - [Kono](https://github.com/starwalkn/kono) - lightweight extendable API Gateway in Go - parallel fan-out, flexible aggregation, and zero configuration magic.
 - [lets-proxy2](https://github.com/rekby/lets-proxy2) - Reverse proxy for handle https with issue certificates in fly from lets-encrypt.
