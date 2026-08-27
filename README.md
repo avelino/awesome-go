@@ -3541,6 +3541,7 @@ _Software written in Go._
 
 ### DevOps Tools
 
+  - [caddy-analyzer](https://github.com/lenny-ts/caddy-analyzer) - Security-focused log analyzer for Caddy v2 with 26 attack categories, dual-pass detection engine, and real-time iptables blocking.
 - [abbreviate](https://github.com/dnnrly/abbreviate) - abbreviate is a tool turning long strings in to shorter ones with configurable separators, for example to embed branch names in to deployment stack IDs.
 - [alaz](https://github.com/ddosify/alaz) - Effortless, Low-Overhead, eBPF-based Kubernetes Monitoring.
 - [aptly](https://github.com/aptly-dev/aptly) - aptly is a Debian repository management tool.
