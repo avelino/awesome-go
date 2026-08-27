@@ -3541,7 +3541,6 @@ _Software written in Go._
 
 ### DevOps Tools
 
-  - [caddy-analyzer](https://github.com/lenny-ts/caddy-analyzer) - Security-focused log analyzer for Caddy v2 with 26 attack categories, dual-pass detection engine, and real-time iptables blocking.
 - [abbreviate](https://github.com/dnnrly/abbreviate) - abbreviate is a tool turning long strings in to shorter ones with configurable separators, for example to embed branch names in to deployment stack IDs.
 - [alaz](https://github.com/ddosify/alaz) - Effortless, Low-Overhead, eBPF-based Kubernetes Monitoring.
 - [aptly](https://github.com/aptly-dev/aptly) - aptly is a Debian repository management tool.
@@ -3551,6 +3550,7 @@ _Software written in Go._
 - [Balerter](https://github.com/balerter/balerter) - A self-hosted script-based alerting manager.
 - [Blast](https://github.com/dave/blast) - A simple tool for API load testing and batch jobs.
 - [bombardier](https://github.com/codesenberg/bombardier) - Fast cross-platform HTTP benchmarking tool.
+- [caddy-analyzer](https://github.com/lenny-ts/caddy-analyzer) - Security-focused log analyzer for Caddy v2 with 26 attack categories, dual-pass detection engine, and real-time iptables blocking.
 - [cassowary](https://github.com/rogerwelin/cassowary) - Modern cross-platform HTTP load-testing tool written in Go.
 - [chaosmonkey](https://github.com/Netflix/chaosmonkey) - A resiliency tool that helps applications tolerate random instance failures.
 - [colima](https://github.com/abiosoft/colima) - Container runtimes on macOS (and Linux) with minimal setup.
