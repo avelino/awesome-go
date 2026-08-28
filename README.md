@@ -1190,10 +1190,12 @@ _Embedding other languages inside your go code._
 - [golua](https://github.com/aarzilli/golua) - Go bindings for Lua C API.
 - [gopher-lua](https://github.com/yuin/gopher-lua) - Lua 5.1 VM and compiler written in Go.
 - [gval](https://github.com/PaesslerAG/gval) - A highly customizable expression language written in Go.
+- [let-go](https://github.com/nooga/let-go) - Mostly complete Clojure implementation with Go interop support and thorough test suite.
 - [metacall](https://github.com/metacall/core) - Cross-platform Polyglot Runtime which supports NodeJS, JavaScript, TypeScript, Python, Ruby, C#, WebAssembly, Java, Cobol and more.
 - [ngaro](https://github.com/db47h/ngaro) - Embeddable Ngaro VM implementation enabling scripting in Retro.
 - [prolog](https://github.com/ichiban/prolog) - Embeddable Prolog.
 - [purl](https://github.com/ian-kent/purl) - Perl 5.18.2 embedded in Go.
+- [Rye](https://github.com/refaktor/rye) - REBOL-inspired homoiconic scripting language with first-class sandboxing and security features, as well as purity checking and a validation 'dialect' included.
 - [starlark-go](https://github.com/google/starlark-go) - Go implementation of Starlark: Python-like language with deterministic evaluation and hermetic execution.
 - [starlet](https://github.com/1set/starlet) - Go wrapper for [starlark-go](https://github.com/google/starlark-go) that simplifies script execution, offers data conversion, and useful Starlark libraries and extensions.
 - [tengo](https://github.com/d5/tengo) - Bytecode compiled script language for Go.
