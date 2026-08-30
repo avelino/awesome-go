@@ -2230,6 +2230,7 @@ _Libraries for working with various layers of the network._
 - [water](https://github.com/songgao/water) - Simple TUN/TAP library.
 - [webrtc](https://github.com/pions/webrtc) - A pure Go implementation of the WebRTC API.
 - [winrm](https://github.com/masterzen/winrm) - Go WinRM client to remotely execute commands on Windows machines.
+- [ws-reconnect](https://github.com/sing198/ws-reconnect) - Resilient WebSocket client with automatic reconnection, exponential backoff, and heartbeat management.
 - [xtcp](https://github.com/xfxdev/xtcp) - TCP Server Framework with simultaneous full duplex communication, graceful shutdown, and custom protocol.
 
 **[⬆ back to top](#contents)**
