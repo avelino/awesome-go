@@ -3684,6 +3684,7 @@ _Software written in Go._
 - [crawley](https://github.com/s0rg/crawley) - Web scraper/crawler for cli.
 - [croc](https://github.com/schollz/croc) - Easily and securely send files or folders from one computer to another.
 - [CrunchyCleaner](https://github.com/Knuspii/CrunchyCleaner) - A lightweight, software cache cleanup tool for Windows & Linux.
+- [dispositio](https://github.com/tsraveling/dispositio) - Terminal tool for planning large projects in simple markdown.
 - [Documize](https://github.com/documize/community) - Modern wiki software that integrates data from SaaS tools.
 - [dp](https://github.com/scryinfo/dp) - Through SDK for data exchange with blockchain, developers can get easy access to DAPP development.
 - [drive](https://github.com/odeke-em/drive) - Google Drive client for the commandline.
