@@ -1767,6 +1767,7 @@ _Libraries for generating and working with log files._
 - [slog-formatter](https://github.com/samber/slog-formatter) - Common formatters for slog and helpers to build your own.
 - [slog-loki](https://github.com/samber/slog-loki) - A slog handler for Grafana Loki.
 - [slog-multi](https://github.com/samber/slog-multi) - Chain of slog.Handler (pipeline, fanout...).
+- [slog-sentry](https://github.com/samber/slog-sentry) - A slog handler for Sentry.
 - [slog-slack](https://github.com/samber/slog-slack) - A slog handler for Slack.
 - [slog-zap](https://github.com/samber/slog-zap) - A slog handler for Zap.
 - [slogor](https://gitlab.com/greyxor/slogor) - A colorful slog handler.
