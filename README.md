@@ -1770,6 +1770,7 @@ _Libraries for generating and working with log files._
 - [slog-sentry](https://github.com/samber/slog-sentry) - A slog handler for Sentry.
 - [slog-slack](https://github.com/samber/slog-slack) - A slog handler for Slack.
 - [slog-zap](https://github.com/samber/slog-zap) - A slog handler for Zap.
+- [slog-zerolog](https://github.com/samber/slog-zerolog) - A slog handler for Zerolog.
 - [slogor](https://gitlab.com/greyxor/slogor) - A colorful slog handler.
 - [spew](https://github.com/davecgh/go-spew) - Implements a deep pretty printer for Go data structures to aid in debugging.
 - [sqldb-logger](https://github.com/simukti/sqldb-logger) - A logger for Go SQL database driver without modify existing \*sql.DB stdlib usage.
