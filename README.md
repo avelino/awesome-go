@@ -1765,6 +1765,7 @@ _Libraries for generating and working with log files._
 - [slog-configurator](https://github.com/psyb0t/slog-configurator) - Configures the standard library log/slog logger from environment variables: level, format, source location, and stdout/stderr split.
 - [slog-datadog](https://github.com/samber/slog-datadog) - A slog handler for Datadog.
 - [slog-formatter](https://github.com/samber/slog-formatter) - Common formatters for slog and helpers to build your own.
+- [slog-logrus](https://github.com/samber/slog-logrus) - A slog handler for Logrus.
 - [slog-loki](https://github.com/samber/slog-loki) - A slog handler for Grafana Loki.
 - [slog-multi](https://github.com/samber/slog-multi) - Chain of slog.Handler (pipeline, fanout...).
 - [slog-sentry](https://github.com/samber/slog-sentry) - A slog handler for Sentry.
