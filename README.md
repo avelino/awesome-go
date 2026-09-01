@@ -1344,6 +1344,7 @@ _Packages to support functional programming in Go._
 - [go-underscore](https://github.com/tobyhede/go-underscore) - Useful collection of helpfully functional Go collection utilities.
 - [gofp](https://github.com/rbrahul/gofp) - A lodash like powerful utility library for Golang.
 - [mo](https://github.com/samber/mo) - Monads and popular FP abstractions, based on Go 1.18+ Generics (Option, Result, Either...).
+- [steams](https://codeberg.org/caskstrength/steams) - Go functional programming library using iterators. Requires Go 1.27 for generic methods.
 - [underscore](https://github.com/rjNemo/underscore) - Functional programming helpers for Go 1.18 and beyond.
 - [valor](https://github.com/phelmkamp/valor) - Generic option and result types that optionally contain a value.
 
@@ -3166,6 +3167,7 @@ _General utilities and tools to make your life easier._
 - [usql](https://github.com/knq/usql) - usql is a universal command-line interface for SQL databases.
 - [util](https://github.com/shomali11/util) - Collection of useful utility functions. (strings, concurrency, manipulations, ...).
 - [watchhttp](https://github.com/nikolaydubina/watchhttp) - Run command periodically and expose latest STDOUT or its rich delta as HTTP endpoint.
+- [whisql](https://codeberg.org/caskstrength/whisql) - Go database/sql adapter influenced by Spring Jdbc Template. Requires Go 1.27.
 - [wifiqr](https://github.com/reugn/wifiqr) - Wi-Fi QR Code Generator.
 - [wuzz](https://github.com/asciimoo/wuzz) - Interactive cli tool for HTTP inspection.
 - [xferspdy](https://github.com/monmohan/xferspdy) - Xferspdy provides binary diff and patch library in golang.
