@@ -2728,6 +2728,7 @@ _Libraries for testing codebases and generating test data._
 - [moxie](https://lesiw.io/moxie) - Generate mock methods on embedded structs.
 - [pgxmock](https://github.com/pashagolub/pgxmock) - A mock library implementing [pgx - PostgreSQL Driver and Toolkit](https://github.com/jackc/pgx/).
 - [timex](https://github.com/cabify/timex) - A test-friendly replacement for the native `time` package.
+- [wsmock](https://github.com/sing198/wsmock) - Expressive, zero-boilerplate WebSocket mock server for testing with fault injection and assertions.
 - [xgo](https://github.com/xhd2015/xgo) - A general pureposed function mocking library.
 
 ### Fuzzing and delta-debugging/reducing/shrinking
