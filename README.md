@@ -862,7 +862,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [go-pg-migrate](https://github.com/lawzava/go-pg-migrate) - CLI-friendly package for go-pg migrations management.
 - [go-pg-migrations](https://github.com/robinjoseph08/go-pg-migrations) - A Go package to help write migrations with go-pg/pg.
 - [goavro](https://github.com/linkedin/goavro) - A Go package that encodes and decodes Avro data.
-- [godfish](https://github.com/rafaelespinoza/godfish) - Database migration manager, works with native query language. Support for cassandra, mysql, postgres, sqlite3.
+- [godfish](https://github.com/rafaelespinoza/godfish) - Database migration CLI and library, works with native query language. Support for cassandra, mysql, postgres, sqlite3, sqlserver.
 - [goose](https://github.com/pressly/goose) - Database migration tool. You can manage your database's evolution by creating incremental SQL or Go scripts.
 - [gorm-seeder](https://github.com/Kachit/gorm-seeder) - Simple database seeder for Gorm ORM.
 - [gormigrate](https://github.com/go-gormigrate/gormigrate) - Database schema migration helper for Gorm ORM.
