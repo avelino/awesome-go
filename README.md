@@ -1688,8 +1688,7 @@ _Libraries for working with JSON._
 - [JayDiff](https://github.com/yazgazan/jaydiff) - JSON diff utility written in Go.
 - [jettison](https://github.com/wI2L/jettison) - Fast and flexible JSON encoder for Go.
 - [jscan](https://github.com/romshark/jscan) - High performance zero-allocation JSON iterator.
-- [JSON-to-Go](https://mholt.github.io/json-to-go/) - Convert JSON to Go struct.
-- [JSON-to-Proto](https://json-to-proto.github.io/) - Convert JSON to Protobuf online.
+- [jseq](https://github.com/bobg/jseq) - Streaming JSON parser.
 - [json2go](https://github.com/m-zajac/json2go) - Advanced JSON to Go struct conversion. Provides package that can parse multiple JSON documents and create struct to fit them all.
 - [jsonapi-errors](https://github.com/AmuzaTkts/jsonapi-errors) - Go bindings based on the JSON API errors reference.
 - [jsoncolor](https://github.com/neilotoole/jsoncolor) - Drop-in replacement for `encoding/json` that outputs colorized JSON.
