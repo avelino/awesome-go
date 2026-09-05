@@ -2908,7 +2908,7 @@ _Libraries for accessing third party APIs._
 - [go-marathon](https://github.com/gambol99/go-marathon) - Go library for interacting with Mesosphere's Marathon PAAS.
 - [go-myanimelist](https://github.com/nstratos/go-myanimelist) - Go client library for accessing the [MyAnimeList API](https://myanimelist.net/apiconfig/references/api/v2).
 - [go-openai](https://github.com/sashabaranov/go-openai) - OpenAI ChatGPT, DALL·E, Whisper API library for Go.
-- [go-openproject](https://github.com/manuelbcd/go-openproject) - Go client library for interacting with [OpenProject](https://docs.openproject.org/api/) API.
+- [go-openproject](https://github.com/manuelbcd/go-openproject) - Go client library for interacting with [OpenProject](https://www.openproject.org/docs/api/) API.
 - [go-postman-collection](https://github.com/rbretecher/go-postman-collection) - Go module to work with [Postman Collections](https://learning.getpostman.com/docs/postman/collections/creating-collections/) (compatible with Insomnia).
 - [go-redoc](https://github.com/mvrilo/go-redoc) - Embedded OpenAPI/Swagger documentation ui for Go using [ReDoc](https://redocly.com/).
 - [go-restcountries](https://github.com/chriscross0/go-restcountries) - Go library for the [REST Countries API](https://countrylayer.com/).
@@ -3810,8 +3810,7 @@ _Where to discover new Go libraries._
 - [GopherCon Russia](https://www.gophercon-russia.ru) - Moscow, Russia.
 - [GopherCon Singapore](https://gophercon.sg) - Mapletree Business City, Singapore.
 - [GopherCon UK](https://www.gophercon.co.uk/) - London, UK.
-- [GopherCon Vietnam](https://gophercon.vn/) - Ho Chi Minh City, Vietnam.
-- [GoWest Conference](https://www.gowestconf.com/) - Lehi, USA.
+- [GoWest Conference](https://gowestconf.com/) - Lehi, USA.
 
 **[⬆ back to top](#contents)**
 
@@ -3838,7 +3837,7 @@ _Where to discover new Go libraries._
 ### Free e-books
 
 - [A Go Developer's Notebook](https://leanpub.com/GoNotebook/read)
-- [An Introduction to Programming in Go](http://www.golang-book.com/)
+- [An Introduction to Programming in Go](https://web.archive.org/web/20231228173204/https://www.golang-book.com/books/intro)
 - [Build a blockchain from scratch in Go with gRPC](https://github.com/volodymyrprokopyuk/go-blockchain) - The foundational and practical guide for effectively learning and progressively building a blockchain from scratch in Go with gRPC.
 - [Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/)
 - [Building Web Apps With Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/)
@@ -4036,7 +4035,7 @@ _Add the group of your city/country here (send **PR**)_
 - [Go Cheat Sheet](https://github.com/a8m/go-lang-cheat-sheet) - Go's reference card.
 - [Go database/sql tutorial](http://go-database-sql.org/) - Introduction to database/sql.
 - [Go in 7 days](https://github.com/harrytran103/7_days_of_go) - Learn everything about Go in 7 days (from a Nodejs developer).
-- [Go Language Tutorial](https://www.javatpoint.com/go-tutorial) - Learn Go language Tutorial.
+- [Go Language Tutorial](https://www.tpointtech.com/go-tutorial) - Learn Go language Tutorial.
 - [Go Tutorial](https://www.tutorialspoint.com/go/index.htm) - Learn Go programming.
 - [Go WebAssembly Tutorial - Building a Simple Calculator](https://tutorialedge.net/golang/go-webassembly-tutorial/)
 - [go-clean-template](https://github.com/evrone/go-clean-template) - Clean Architecture template for Golang services.
