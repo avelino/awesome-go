@@ -3576,6 +3576,7 @@ _Software written in Go._
 - [Balerter](https://github.com/balerter/balerter) - A self-hosted script-based alerting manager.
 - [Blast](https://github.com/dave/blast) - A simple tool for API load testing and batch jobs.
 - [bombardier](https://github.com/codesenberg/bombardier) - Fast cross-platform HTTP benchmarking tool.
+- [caddy-analyzer](https://github.com/lenny-ts/caddy-analyzer) - Security-focused log analyzer for Caddy v2 with 26 attack categories, dual-pass detection engine, and real-time iptables blocking.
 - [cassowary](https://github.com/rogerwelin/cassowary) - Modern cross-platform HTTP load-testing tool written in Go.
 - [chaosmonkey](https://github.com/Netflix/chaosmonkey) - A resiliency tool that helps applications tolerate random instance failures.
 - [colima](https://github.com/abiosoft/colima) - Container runtimes on macOS (and Linux) with minimal setup.
