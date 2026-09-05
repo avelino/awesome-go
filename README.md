@@ -285,7 +285,6 @@ _Libraries for manipulating audio and music._
 _Libraries for implementing authentication and authorization._
 
 - [authboss](https://github.com/volatiletech/authboss) - Modular authentication system for the web. It tries to remove as much boilerplate and "hard things" as possible so that each time you start a new web project in Go, you can plug it in, configure it, and start building your app without having to build an authentication system each time.
-- [authgate](https://github.com/go-authgate/authgate) - A lightweight OAuth 2.0 Authorization Server supporting Device Authorization Grant ([RFC 8628](https://datatracker.ietf.org/doc/html/rfc8628)), Authorization Code Flow with PKCE ([RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749) + [RFC 7636](https://datatracker.ietf.org/doc/html/rfc7636)), and Client Credentials Grant for machine-to-machine authentication.
 - [branca](https://github.com/essentialkaos/branca) - branca token [specification implementation](https://github.com/tuupola/branca-spec) for Golang 1.15+.
 - [casbin](https://github.com/hsluoyz/casbin) - Authorization library that supports access control models like ACL, RBAC, and ABAC.
 - [cookiestxt](https://github.com/mengzhuo/cookiestxt) - provides a parser of cookies.txt file format.
@@ -383,7 +382,6 @@ _Libraries and tools help with build automation._
 - [anko](https://github.com/GuilhermeCaruso/anko) - Simple application watcher for multiple programming languages.
 - [gaper](https://github.com/maxclaus/gaper) - Builds and restarts a Go project when it crashes or some watched file changes.
 - [gilbert](https://go-gilbert.github.io) - Build system and task runner for Go projects.
-- [gob](https://github.com/kcmvp/gob) - [Gradle](https://docs.gradle.org/)/[Maven](https://maven.apache.org/) like build tool for Go projects.
 - [goyek](https://github.com/goyek/goyek) - Create build pipelines in Go.
 - [mage](https://github.com/magefile/mage) - Mage is a make/rake-like build tool using Go.
 - [mmake](https://github.com/tj/mmake) - Modern Make.
@@ -1824,7 +1822,7 @@ _Libraries for Machine Learning._
 - [Goptuna](https://github.com/c-bata/goptuna) - Bayesian optimization framework for black-box functions written in Go. Everything will be optimized.
 - [goRecommend](https://github.com/timkaye11/goRecommend) - Recommendation Algorithms library written in Go.
 - [gorgonia](https://github.com/gorgonia/gorgonia) - graph-based computational library like Theano for Go that provides primitives for building various machine learning and neural network algorithms.
-- [gorse](https://github.com/zhenghaoz/gorse) - An offline recommender system backend based on collaborative filtering written in Go.
+- [gorse](https://github.com/gorse-io/gorse) - An offline recommender system backend based on collaborative filtering written in Go.
 - [goscore](https://github.com/asafschers/goscore) - Go Scoring API for PMML.
 - [gosseract](https://github.com/otiai10/gosseract) - Go package for OCR (Optical Character Recognition), by using Tesseract C++ library.
 - [hugot](https://github.com/knights-analytics/hugot) - Huggingface transformer pipelines for golang with onnxruntime.
@@ -2908,7 +2906,7 @@ _Libraries for accessing third party APIs._
 - [go-marathon](https://github.com/gambol99/go-marathon) - Go library for interacting with Mesosphere's Marathon PAAS.
 - [go-myanimelist](https://github.com/nstratos/go-myanimelist) - Go client library for accessing the [MyAnimeList API](https://myanimelist.net/apiconfig/references/api/v2).
 - [go-openai](https://github.com/sashabaranov/go-openai) - OpenAI ChatGPT, DALL·E, Whisper API library for Go.
-- [go-openproject](https://github.com/manuelbcd/go-openproject) - Go client library for interacting with [OpenProject](https://docs.openproject.org/api/) API.
+- [go-openproject](https://github.com/manuelbcd/go-openproject) - Go client library for interacting with [OpenProject](https://www.openproject.org/docs/api/) API.
 - [go-postman-collection](https://github.com/rbretecher/go-postman-collection) - Go module to work with [Postman Collections](https://learning.getpostman.com/docs/postman/collections/creating-collections/) (compatible with Insomnia).
 - [go-redoc](https://github.com/mvrilo/go-redoc) - Embedded OpenAPI/Swagger documentation ui for Go using [ReDoc](https://redocly.com/).
 - [go-restcountries](https://github.com/chriscross0/go-restcountries) - Go library for the [REST Countries API](https://countrylayer.com/).
@@ -2938,7 +2936,7 @@ _Libraries for accessing third party APIs._
 - [hipchat](https://github.com/andybons/hipchat) - This project implements a golang client library for the Hipchat API.
 - [hipchat (xmpp)](https://github.com/daneharrigan/hipchat) - A golang package to communicate with HipChat over XMPP.
 - [httpsms-go](https://github.com/NdoleStudio/httpsms-go) - Go client for the httpSMS API.
-- [igdb](https://github.com/Henry-Sarabia/igdb) - Go client for the [Internet Game Database API](https://api.igdb.com/).
+- [igdb](https://github.com/Henry-Sarabia/igdb) - Go client for the [Internet Game Database API](https://api-docs.igdb.com/).
 - [ip2location-io-go](https://github.com/ip2location/ip2location-io-go) - Go wrapper for the IP2Location.io API [IP2Location.io](https://www.ip2location.io/).
 - [jokeapi-go](https://github.com/icelain/jokeapi) - Go client for [JokeAPI](https://sv443.net/jokeapi/v2/).
 - [lark](https://github.com/chyroc/lark) - [Feishu](https://open.feishu.cn/)/[Lark](https://open.larksuite.com/) Open API Go SDK, Support ALL Open API and Event Callback.
@@ -3501,7 +3499,6 @@ _Plugin for text editors and IDEs._
 - [go-mode](https://github.com/dominikh/go-mode.el) - Go mode for GNU/Emacs.
 - [gocode](https://github.com/nsf/gocode) - Autocompletion daemon for the Go programming language.
 - [goimports-reviser](https://github.com/incu6us/goimports-reviser) - Formatting tool for imports.
-- [goprofiling](https://marketplace.visualstudio.com/items?itemName=MaxMedia.go-prof) - This extension adds benchmark profiling support for the Go language to VS Code.
 - [GoSublime](https://github.com/DisposaBoy/GoSublime) - Golang plugin collection for the text editor SublimeText 3 providing code completion and other IDE-like features.
 - [gounit-vim](https://github.com/hexdigest/gounit-vim) - Vim plugin for generating Go tests based on the function's or method's signature.
 - [vim-compiler-go](https://github.com/rjohnsondev/vim-compiler-go) - Vim plugin to highlight syntax errors on save.
@@ -3599,7 +3596,6 @@ _Software written in Go._
 - [gaia](https://github.com/gaia-pipeline/gaia) - Build powerful pipelines in any programming language.
 - [ghorg](https://github.com/gabrie30/ghorg) - Quickly clone an entire org/users repositories into one directory - Supports GitHub, GitLab, Gitea, and Bitbucket.
 - [Gitea](https://github.com/go-gitea/gitea) - Fork of Gogs, entirely community driven.
-- [gitea-github-migrator](https://git.jonasfranz.software/JonasFranzDEV/gitea-github-migrator) - Migrate all your GitHub repositories, issues, milestones and labels to your Gitea instance.
 - [gitl](https://github.com/akomyagin/gitl) - AI review of git commit ranges with risk scoring (low/medium/high), changelog generation, and multi-repo activity digest. GitHub Action included.
 - [go-furnace](https://github.com/go-furnace/go-furnace) - Hosting solution written in Go. Deploy your Application with ease on AWS, GCP or DigitalOcean.
 - [go-rocket-update](https://github.com/mouuff/go-rocket-update) - A simple way to make self updating Go applications - Supports Github and Gitlab.
@@ -3623,7 +3619,6 @@ _Software written in Go._
 - [k9s](https://github.com/derailed/k9s) - Kubernetes CLI to manage your clusters in style.
 - [kala](https://github.com/ajvb/kala) - Simplistic, modern, and performant job scheduler.
 - [kcli](https://github.com/cswank/kcli) - Command line tool for inspecting kafka topics/partitions/messages.
-- [kepfi](https://github.com/Knuspii/kepfi) - A smart alternative to rm with a recovery bin and storage tracking.
 - [kind](https://github.com/kubernetes-sigs/kind) - Kubernetes IN Docker - local clusters for testing Kubernetes.
 - [ko](https://github.com/google/ko) - Command line tool for building and deploying Go applications on Kubernetes
 - [kool](https://github.com/kool-dev/kool) - Command line tool for managing Docker environments as an easy way.
@@ -3805,14 +3800,11 @@ _Where to discover new Go libraries._
 - [GopherCon Australia](https://gophercon.com.au/) - Sydney, Australia.
 - [GopherCon Brazil](https://gopherconbr.org) - Florianópolis, Brazil.
 - [GopherCon China](https://gophercon.com.cn) - Shanghai, China.
-- [GopherCon Europe](https://gophercon.eu/) - Berlin, Germany.
 - [GopherCon India](https://gopherconindia.org/) - Pune, India.
 - [GopherCon Israel](https://www.gophercon.org.il/) - Tel Aviv, Israel.
 - [GopherCon Russia](https://www.gophercon-russia.ru) - Moscow, Russia.
 - [GopherCon Singapore](https://gophercon.sg) - Mapletree Business City, Singapore.
 - [GopherCon UK](https://www.gophercon.co.uk/) - London, UK.
-- [GopherCon Vietnam](https://gophercon.vn/) - Ho Chi Minh City, Vietnam.
-- [GoWest Conference](https://www.gowestconf.com/) - Lehi, USA.
 
 **[⬆ back to top](#contents)**
 
@@ -3839,7 +3831,6 @@ _Where to discover new Go libraries._
 ### Free e-books
 
 - [A Go Developer's Notebook](https://leanpub.com/GoNotebook/read)
-- [An Introduction to Programming in Go](http://www.golang-book.com/)
 - [Build a blockchain from scratch in Go with gRPC](https://github.com/volodymyrprokopyuk/go-blockchain) - The foundational and practical guide for effectively learning and progressively building a blockchain from scratch in Go with gRPC.
 - [Build Web Application with Golang](https://astaxie.gitbooks.io/build-web-application-with-golang/content/en/)
 - [Building Web Apps With Go](https://codegangsta.gitbooks.io/building-web-apps-with-go/content/)
@@ -4008,7 +3999,6 @@ _Add the group of your city/country here (send **PR**)_
 - [Gophercises](https://gophercises.com/) - Free coding exercises for budding gophers.
 - [json2go](https://m-zajac.github.io/json2go) - Advanced JSON to Go struct conversion - online tool.
 - [justforfunc](https://www.youtube.com/c/justforfunc) - Youtube channel dedicated to Go programming language tips and tricks, hosted by Francesc Campoy [@francesc](https://twitter.com/francesc).
-- [Learn Go Programming](https://blog.learngoprogramming.com) - Learn Go concepts with illustrations.
 - [Libs.tech](https://libs.tech/go) – Awesome Go libraries and hidden gems
 - [Made with Golang](https://madewithgolang.com/?ref=awesome-go)
 - [pkg.go.dev](https://pkg.go.dev/) - Documentation for open source Go packages.
@@ -4037,7 +4027,6 @@ _Add the group of your city/country here (send **PR**)_
 - [Go Cheat Sheet](https://github.com/a8m/go-lang-cheat-sheet) - Go's reference card.
 - [Go database/sql tutorial](http://go-database-sql.org/) - Introduction to database/sql.
 - [Go in 7 days](https://github.com/harrytran103/7_days_of_go) - Learn everything about Go in 7 days (from a Nodejs developer).
-- [Go Language Tutorial](https://www.javatpoint.com/go-tutorial) - Learn Go language Tutorial.
 - [Go Tutorial](https://www.tutorialspoint.com/go/index.htm) - Learn Go programming.
 - [Go WebAssembly Tutorial - Building a Simple Calculator](https://tutorialedge.net/golang/go-webassembly-tutorial/)
 - [go-clean-template](https://github.com/evrone/go-clean-template) - Clean Architecture template for Golang services.
@@ -4065,7 +4054,6 @@ _Add the group of your city/country here (send **PR**)_
 - [Scaling Go Applications](https://betterstack.com/community/guides/scaling-go/) - Everything about building, deploying and scaling Go applications in production.
 - [The world’s easiest introduction to WebAssembly with Golang](https://medium.com/@martinolsansky/webassembly-with-golang-is-fun-b243c0e34f02)
 - [Understanding Go in a visual way](https://dev.to/aurelievache/series/26234) - Learn Go visually
-- [W3basic Go Tutorials](https://www.w3basic.com/golang/) - W3Basic provides an in-depth tutorial and well-organized content to learn Golang programming.
 - [Your basic Go](https://yourbasic.org/golang) - Huge collection of tutorials and how to's.
 
 **[⬆ back to top](#contents)**
