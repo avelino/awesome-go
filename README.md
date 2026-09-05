@@ -3702,6 +3702,7 @@ _Software written in Go._
 - [fjira](https://github.com/mk-5/fjira) - A fuzzy-search based terminal UI application for Attlasian Jira
 - [Gebug](https://github.com/moshebe/gebug) - A tool that makes debugging of Dockerized Go applications super easy by enabling Debugger and Hot-Reload features, seamlessly.
 - [gfile](https://github.com/Antonito/gfile) - Securely transfer files between two computers, without any third party, over WebRTC.
+- [GAIA](https://github.com/SalvucciFacundo/gaia) - Programming-first autonomous AI agent with Spec-Driven Development, 19 LLM providers, Cyberpunk TUI, and Web UI.
 - [Go Package Store](https://github.com/shurcooL/Go-Package-Store) - App that displays updates for the Go packages in your GOPATH.
 - [go-peerflix](https://github.com/Sioro-Neoku/go-peerflix) - Video streaming torrent client.
 - [goblin](https://goblin.run) - Cloud builder for CLI's written in go lang
