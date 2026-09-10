@@ -1950,6 +1950,7 @@ _Libraries for working with dependency injection._
 - [dig](https://github.com/uber-go/dig) - A reflection based dependency injection toolkit for Go.
 - [dingo](https://github.com/i-love-flamingo/dingo) - A dependency injection toolkit for Go, based on Guice.
 - [do](https://github.com/samber/do) - A dependency injection framework based on Generics.
+- [floatdrop/di](https://github.com/floatdrop/di) - Dependency injection container built on generic methods, with child scopes, lifecycle hooks and graph validation before anything is built.
 - [fx](https://github.com/uber-go/fx) - A dependency injection based application framework for Go (built on top of dig).
 - [go-beans](https://github.com/go-beans/go) - Spring-inspired dependency injection and application lifecycle framework for Go.
 - [Go-Spring](https://github.com/go-spring/spring-core) - A high-performance Go framework inspired by Spring Boot, offering DI, auto-configuration, and lifecycle management while maintaining Go's simplicity and efficiency.
