@@ -1957,7 +1957,6 @@ _Libraries for working with dependency injection._
 - [gocontainer](https://github.com/vardius/gocontainer) - Simple Dependency Injection Container.
 - [godi](https://github.com/junioryono/godi) - Microsoft-style dependency injection for Go with scoped lifetimes and generics.
 - [goioc/di](https://github.com/goioc/di) - Spring-inspired Dependency Injection Container.
-- [GoLobby/Container](https://github.com/golobby/container) - GoLobby Container is a lightweight yet powerful IoC dependency injection container for the Go programming language.
 - [gontainer](https://github.com/NVIDIA/gontainer) - A dependency injection service container for Go projects.
 - [gontainer/gontainer](https://github.com/gontainer/gontainer) - A YAML-based Dependency Injection container for GO. It supports dependencies' scopes, and auto-detection of circular dependencies. Gontainer is concurrent-safe.
 - [HnH/di](https://github.com/HnH/di) - DI container library that is focused on clean API and flexibility.
