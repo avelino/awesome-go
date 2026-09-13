@@ -136,7 +136,19 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      checks: read
     steps:
+      - name: Verify all PR workflow checks passed
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EXPECTED_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          ${{ github.workspace }}/.github/scripts/verify-all-pr-workflow-checks-passed.sh \
+            '${{ github.event.pull_request.head.sha }}' \
+            '${{ github.event.pull_request.number }}' \
+            '${{ github.repository }}' \
+            '${{ github.run_id }}'
+
       - name: Enable auto-merge via squash
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
