@@ -1,0 +1,50 @@
+name: Re-check all open PRs
+
+on:
+  workflow_dispatch:
+
+permissions:
+  pull-requests: write
+  contents: read
+
+jobs:
+  recheck:
+    name: Re-trigger checks on open PRs
+    runs-on: ubuntu-latest
+    environment: action
+    steps:
+      - name: Re-run quality checks on all open PRs
+        env:
+          # Must use a PAT (not GITHUB_TOKEN) so that close/reopen events
+          # actually trigger other workflows like pr-quality-check.yaml.
+          # GitHub deliberately ignores events created by GITHUB_TOKEN to prevent loops.
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          echo "Fetching all open PR numbers..."
+          prs=$(gh pr list --repo "$GITHUB_REPOSITORY" --state open --limit 500 --json number --jq '.[].number')
+          total=$(echo "$prs" | wc -w)
+          echo "Found $total open PRs"
+
+          count=0
+          failed=0
+          for pr in $prs; do
+            count=$((count + 1))
+            echo "[$count/$total] Re-triggering PR #$pr..."
+
+            # Close and reopen to trigger the 'reopened' event,
+            # which re-runs pr-quality-check.yaml
+            if gh pr close "$pr" --repo "$GITHUB_REPOSITORY" 2>/dev/null && \
+               gh pr reopen "$pr" --repo "$GITHUB_REPOSITORY" 2>/dev/null; then
+              echo "  OK"
+            else
+              echo "  FAILED (PR #$pr may be a draft or have restrictions)"
+              failed=$((failed + 1))
+            fi
+
+            # Respect GitHub API rate limits (30 requests/min for mutations)
+            # Each PR uses 2 calls (close + reopen), so ~2s delay keeps us safe
+            sleep 2
+          done
+
+          echo ""
+          echo "Done: $((count - failed))/$total PRs re-triggered, $failed failed"
