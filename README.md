@@ -204,6 +204,11 @@ Please take a quick gander at the [contribution guidelines](https://github.com/a
 
 </details>
 
+### All-in-one PAAS + BAAS Tools
+
+- [arcops](https://github.com/Parthtiw710/Arcops_1.0) - Open-source developer infrastructure platform with auth, database proxy with all database type supported, object storage, edge deployments, and AI sandbox isolation.
+
+
 ## Actor Model
 
 _Libraries for building actor-based programs._
