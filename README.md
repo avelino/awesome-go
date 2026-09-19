@@ -4061,6 +4061,7 @@ _Add the group of your city/country here (send **PR**)_
 - [go-patterns](https://github.com/tmrts/go-patterns) - Curated list of Go design patterns, recipes and idioms.
 - [Golang for Node.js Developers](https://github.com/miguelmota/golang-for-nodejs-developers) - Examples of Golang compared to Node.js for learning.
 - [Golang Tutorial Guide](https://www.freecodecamp.org/news/golang-tutorial-list-free-courses-learn-go-programming-language/) - A List of Free Courses to Learn the Go Programming Language.
+- [golang-bootcamp](https://academy.vivasoftltd.com/en/course-overview/golang-bootcamp) - Master Go Programming in English with interactive sessions and a capstone project!
 - [golang-examples](https://github.com/SimonWaldherr/golang-examples) - Many examples to learn Golang.
 - [Golangbot](https://golangbot.com/learn-golang-series/) - Tutorials to get started with programming in Go.
 - [GopherCoding](https://gophercoding.com/) - Collection of code snippets and tutorials to help tackle every day issues.
@@ -4082,7 +4083,6 @@ _Add the group of your city/country here (send **PR**)_
 - [Scaling Go Applications](https://betterstack.com/community/guides/scaling-go/) - Everything about building, deploying and scaling Go applications in production.
 - [The world’s easiest introduction to WebAssembly with Golang](https://medium.com/@martinolsansky/webassembly-with-golang-is-fun-b243c0e34f02)
 - [Understanding Go in a visual way](https://dev.to/aurelievache/series/26234) - Learn Go visually
-- [Vivasoft Golang BootCamp](https://academy.vivasoftltd.com/en/course-overview/golang-bootcamp) - Master Go Programming in English with interactive sessions and a capstone project!
 - [W3basic Go Tutorials](https://www.w3basic.com/golang/) - W3Basic provides an in-depth tutorial and well-organized content to learn Golang programming.
 - [Your basic Go](https://yourbasic.org/golang) - Huge collection of tutorials and how to's.
 
