@@ -899,6 +899,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [onedump](https://github.com/liweiyi88/onedump) - Database backup from different drivers to different destinations with one command and configuration.
 - [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable) - Advanced scheduling for PostgreSQL.
 - [pgrwl](https://github.com/pgrwl/pgrwl) - Cloud-native continuous backup for PostgreSQL.
+- [pgwd](https://github.com/hrodrig/pgwd) - CLI that monitors PostgreSQL connection counts (total, active, idle, stale) and notifies via Slack and/or Loki when thresholds are exceeded. Supports Kubernetes (kubectl port-forward) and optional run context in notifications.
 - [pgweb](https://github.com/sosedoff/pgweb) - Web-based PostgreSQL database browser.
 - [pgxcli](https://github.com/Balaji01-4D/pgxcli) - PostgreSQL CLI client written in Go, inspired by pgcli.
 - [prep](https://github.com/hexdigest/prep) - Use prepared SQL statements without changing your code.
