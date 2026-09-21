@@ -899,6 +899,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [onedump](https://github.com/liweiyi88/onedump) - Database backup from different drivers to different destinations with one command and configuration.
 - [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable) - Advanced scheduling for PostgreSQL.
 - [pgrwl](https://github.com/pgrwl/pgrwl) - Cloud-native continuous backup for PostgreSQL.
+- [pgwd](https://github.com/hrodrig/pgwd) - CLI that monitors PostgreSQL connection counts (total, active, idle, stale) and notifies via Slack and/or Loki when thresholds are exceeded. Supports Kubernetes (kubectl port-forward) and optional run context in notifications.
 - [pgweb](https://github.com/sosedoff/pgweb) - Web-based PostgreSQL database browser.
 - [pgxcli](https://github.com/Balaji01-4D/pgxcli) - PostgreSQL CLI client written in Go, inspired by pgcli.
 - [prep](https://github.com/hexdigest/prep) - Use prepared SQL statements without changing your code.
@@ -1416,6 +1417,7 @@ _Tools that generate Go code._
 _Geographic tools and servers_
 
 - [borders](https://github.com/kpfaulkner/borders) - Detects image borders and converts to GeoJSON for GIS operations.
+* [geo-engine-go](https://github.com/AlexG695/geo-engine-go) - Official Go SDK for GeoEngine, offering high-performance geospatial data ingestion with single-digit millisecond latency.
 - [geoos](https://github.com/spatial-go/geoos) - A library provides spatial data and geometric algorithms.
 - [geoserver](https://github.com/hishamkaram/geoserver) - geoserver Is a Go Package For Manipulating a GeoServer Instance via the GeoServer REST API.
 - [gismanager](https://github.com/hishamkaram/gismanager) - Publish Your GIS Data(Vector Data) to PostGIS and Geoserver.
@@ -3675,6 +3677,7 @@ _Software written in Go._
 - [sg](https://github.com/ChristopherRabotin/sg) - Benchmarks a set of HTTP endpoints (like ab), with possibility to use the response code and data between each call for specific server stress based on its previous response.
 - [sigma](https://github.com/go-sigma/sigma) - OCI-native container image registry, support OCI-native artifact, scan artifact, image build etc.
 - [skm](https://github.com/TimothyYe/skm) - SKM is a simple and powerful SSH Keys Manager, it helps you to manage your multiple SSH keys easily!
+- [sortie](https://github.com/sortie-ai/sortie) - Turn tracker tickets into autonomous coding agent sessions.
 - [StatusOK](https://github.com/sanathp/statusok) - Monitor your Website and REST APIs.Get Notified through Slack, E-mail when your server is down or response time is more than expected.
 - [tau](https://github.com/taubyte/tau) - Easily build Cloud Computing Platforms with features like Serverless WebAssembly Functions, Frontend Hosting, CI/CD, Object Storage, K/V Database, and Pub-Sub Messaging.
 - [terraform-provider-openapi](https://github.com/dikhan/terraform-provider-openapi) - Terraform provider plugin that dynamically configures itself at runtime based on an OpenAPI document (formerly known as swagger file) containing the definitions of the APIs exposed.
