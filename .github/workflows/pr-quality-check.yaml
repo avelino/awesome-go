@@ -98,7 +98,7 @@ jobs:
 
       - name: Sync labels
         if: needs.quality.outputs.labels != ''
-        uses: actions-ecosystem/action-add-labels@18f1af5e3544586314bbe15c0273249c770b2daf # v1
+        uses: step-security/action-add-labels@7f7665088f060f0acf3619469ce85d680df45f3e # v1.1.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           labels: ${{ join(fromJson(needs.quality.outputs.labels), '\n') }}
