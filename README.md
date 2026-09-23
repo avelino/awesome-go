@@ -2178,6 +2178,7 @@ _Libraries for working with various layers of the network._
 - [dhcp6](https://github.com/mdlayher/dhcp6) - Package dhcp6 implements a DHCPv6 server, as described in RFC 3315.
 - [dns](https://github.com/miekg/dns) - Go library for working with DNS.
 - [dnsmonster](https://github.com/mosajjal/dnsmonster) - Passive DNS Capture/Monitoring Framework.
+- [drainwatch](https://github.com/jaynirmal15/drainwatch) - Measures what actually happens to established TCP and UDP connections when a Kubernetes pod terminates.
 - [easytcp](https://github.com/DarthPestilane/easytcp) - A light-weight TCP framework written in Go (Golang), built with message router. EasyTCP helps you build a TCP server easily fast and less painful.
 - [ether](https://github.com/songgao/ether) - Cross-platform Go package for sending and receiving ethernet frames.
 - [ethernet](https://github.com/mdlayher/ethernet) - Package ethernet implements marshaling and unmarshalling of IEEE 802.3 Ethernet II frames and IEEE 802.1Q VLAN tags.
