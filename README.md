@@ -1367,6 +1367,7 @@ _Packages to support functional programming in Go._
 _Awesome game development libraries._
 
 - [Ark](https://github.com/mlange-42/ark) - Archetype-based Entity Component System (ECS) for Go.
+- [due](https://github.com/dobyte/due) - Distributed game server framework with a modular component design, providing tcp, kcp, ws and quic gateways.
 - [Ebitengine](https://github.com/hajimehoshi/ebiten) - dead simple 2D game engine in Go.
 - [ecs](https://github.com/andygeiss/ecs) - Build your own Game-Engine based on the Entity Component System concept in Golang.
 - [engo](https://github.com/EngoEngine/engo) - Engo is an open-source 2D game engine written in Go. It follows the Entity-Component-System paradigm.
