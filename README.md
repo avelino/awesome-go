@@ -3252,6 +3252,7 @@ _Libraries for validation._
 - [Validator](https://github.com/go-the-way/validator) - A lightweight model validator written in Go.Contains VFs:Min, Max, MinLength, MaxLength, Length, Enum, Regex.
 - [valix](https://github.com/marrow16/valix) Go package for validating requests
 - [Zog](https://github.com/Oudwins/zog) - A [Zod](https://github.com/colinhacks/zod) inspired schema builder for runtime value parsing and validation.
+- [vx](https://github.com/sevlyar/vx) - Validation built from small, composable checks with zero dependencies and a reconstructable error path.
   **[⬆ back to top](#contents)**
 
 ## Version Control
