@@ -2735,6 +2735,7 @@ _Libraries for testing codebases and generating test data._
 - [testsql](https://github.com/zhulongcheng/testsql) - Generate test data from SQL files before testing and clear it after finished.
 - [testza](https://github.com/MarvinJWendt/testza) - Full-featured test framework with nice colorized output.
 - [tparse](https://github.com/mfridman/tparse) - CLI tool for summarizing go test output. Pipe friendly. Compatible with go test flags.
+- [traftest](https://github.com/eyejdev/traftest) - Lightweight traffic simulation and load testing sandbox with real-time Web UI and TUI.
 - [trial](https://github.com/jgroeneveld/trial) - Quick and easy extendable assertions without introducing much boilerplate.
 - [Tt](https://github.com/vcaesar/tt) - Simple and colorful test tools.
 - [wstest](https://github.com/posener/wstest) - Websocket client for unit-testing a websocket http.Handler.
