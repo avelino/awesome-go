@@ -2678,6 +2678,7 @@ _Libraries for testing codebases and generating test data._
 - [arch-go](https://github.com/arch-go/arch-go) - Architecture testing tool for Go projects.
 - [assay](https://github.com/tushariitr-19/assay) - Framework-agnostic evaluation library for testing Go agents and MCP servers with deterministic checks, CI-ready exit codes, and zero-code YAML-based testing.
 - [assert](https://github.com/go-playground/assert) - Basic Assertion Library used along side native go testing, with building blocks for custom assertions.
+- [axiom](https://github.com/Nikita-Filonov/axiom) - Composable Go test framework with fixtures, hooks, retries, metadata, plugins, and parallel execution.
 - [baloo](https://github.com/h2non/baloo) - Expressive and versatile end-to-end HTTP API testing made easy.
 - [be](https://github.com/carlmjohnson/be) - The minimalist generic test assertion library.
 - [biff](https://github.com/fulldump/biff) - Bifurcation testing framework, BDD compatible.
