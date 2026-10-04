@@ -4,7 +4,6 @@ _Provide the links below. Our CI will automatically validate them._
 
 - [ ] Forge link (github.com, gitlab.com, etc): <!-- https://github.com/org/project -->
 - [ ] pkg.go.dev: <!-- https://pkg.go.dev/github.com/org/project -->
-- [ ] goreportcard.com: <!-- https://goreportcard.com/report/github.com/org/project -->
 - [ ] Coverage service link ([codecov](https://codecov.io/), [coveralls](https://coveralls.io/), etc.): <!-- https://app.codecov.io/gh/org/project -->
 
 ## Pre-submission checklist
@@ -19,7 +18,6 @@ _These are validated automatically by CI:_
 - [ ] The repo has a `go.mod` file and at least one SemVer release (`vX.Y.Z`).
 - [ ] The repo has an open source license.
 - [ ] The repo documentation has a pkg.go.dev link.
-- [ ] The repo documentation has a goreportcard link (grade A- or better).
 - [ ] The repo documentation has a coverage service link.
 
 _These are recommended and reported as warnings:_

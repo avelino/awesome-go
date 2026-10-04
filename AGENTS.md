@@ -40,7 +40,7 @@ This document summarizes the project context and the conventions that language m
 ## CI Overview
 
 - `tests.yaml`: runs `go test main_test.go main.go` on pushes/PRs.
-- `pr-quality-check.yaml`: validates PR metadata (forge link, pkg.go.dev, Go Report Card, coverage).
+- `pr-quality-check.yaml`: validates PR metadata (forge link, pkg.go.dev, coverage).
 - `run-check.yaml`: scheduled stale repository audit via `go test -run ^TestStaleRepository$`.
 - `site-deploy.yaml`: builds and deploys the static site to Netlify on `main` pushes.
 
