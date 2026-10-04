@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: close issue
-        uses: balevine/mark-as-spam@v1.0
+        uses: balevine/mark-as-spam@9f9b68e6eaf35c84c5487b397182e792920039ba # v1.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -15,17 +15,25 @@ jobs:
     environment: netlify
     container: golang:latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Get dependencies
         run: go get -v -t -d ./...
+      - name: Restore GitHub metadata cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/repos
+          key: repo-meta-${{ github.run_id }}
+          restore-keys: repo-meta-
       - name: Make awesome-go.com
         run: go run .
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Setup node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 20
       - name: deploy awesome-go.com
-        uses: nwtgck/actions-netlify@v3.0
+        uses: nwtgck/actions-netlify@4cbaf4c08f1a7bfa537d6113472ef4424e4eb654 # v3.0
         with:
           publish-dir: "./out"
           production-branch: main
@@ -37,4 +45,4 @@ jobs:
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-        timeout-minutes: 1
+        timeout-minutes: 10
