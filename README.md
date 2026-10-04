@@ -1239,6 +1239,7 @@ _Libraries for handling errors._
 - [exception](https://github.com/rbrahul/exception) - A simple utility package for exception handling with try-catch in Golang.
 - [Falcon](https://github.com/SonicRoshan/falcon) - A Simple Yet Highly Powerful Package For Error Handling.
 - [Fault](https://github.com/Southclaws/fault) - An ergonomic mechanism for wrapping errors in order to facilitate structured metadata and context for error values.
+- [go-bruh](https://github.com/aisbergg/go-bruh) - Error handling with stack traces, custom formatting, and observability integration.
 - [go-errr](https://github.com/go-errr/go) - Error handling library with Catch/Recover semantics, wrapped error chains, and stack traces for Go.
 - [go-multierror](https://github.com/hashicorp/go-multierror) - Go (golang) package for representing a list of errors as a single error.
 - [metaerr](https://github.com/quantumcycle/metaerr) - A library to create your custom error builders producing structured errors with metadata from different sources and optional stacktraces.
