@@ -1848,7 +1848,7 @@ _Libraries for Machine Learning._
 - [Goptuna](https://github.com/c-bata/goptuna) - Bayesian optimization framework for black-box functions written in Go. Everything will be optimized.
 - [goRecommend](https://github.com/timkaye11/goRecommend) - Recommendation Algorithms library written in Go.
 - [gorgonia](https://github.com/gorgonia/gorgonia) - graph-based computational library like Theano for Go that provides primitives for building various machine learning and neural network algorithms.
-- [gorse](https://github.com/zhenghaoz/gorse) - An offline recommender system backend based on collaborative filtering written in Go.
+- [gorse](https://github.com/gorse-io/gorse) - An offline recommender system backend based on collaborative filtering written in Go.
 - [goscore](https://github.com/asafschers/goscore) - Go Scoring API for PMML.
 - [gosseract](https://github.com/otiai10/gosseract) - Go package for OCR (Optical Character Recognition), by using Tesseract C++ library.
 - [hugot](https://github.com/knights-analytics/hugot) - Huggingface transformer pipelines for golang with onnxruntime.
