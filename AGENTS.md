@@ -5,7 +5,7 @@ This document summarizes the project context and the conventions that language m
 ## Project Snapshot
 
 - Purpose: maintain the curated `README.md` list of Go resources and generate the static site via `go run .`.
-- Primary language: Go 1.23 (see `go.mod`). Supporting JavaScript exists only for the GitHub Action in `.github/scripts`.
+- Primary language: Go 1.25.0 (see `go.mod`). Supporting JavaScript exists only for the GitHub Action in `.github/scripts`.
 - Key entry points:
   - `main.go`: reads `README.md`, builds category pages, and writes artifacts to `out/` using templates in `tmpl/`.
   - `pkg/markdown` and `pkg/slug`: helper packages used by the generator.
