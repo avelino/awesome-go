@@ -4,12 +4,17 @@
 //   - Added link matches the forge link declared in PR body
 //   - Link text matches the repository/project name
 //   - Description ends with a period and is non-promotional
+//   - Added name and description contain no raw HTML, event attributes, or javascript/data/vbscript URLs
+//   - Added entry URL uses http or https
 //   - Category has minimum 3 items after the change
 package main
 
 import (
+	"crypto/rand"
+	"encoding/hex"
 	"encoding/json"
 	"fmt"
+	"net/url"
 	"os"
 	"os/exec"
 	"regexp"
@@ -18,8 +23,15 @@ import (
 
 var (
 	reForgeLink = regexp.MustCompile(`(?i)forge\s+link[^:]*:\s*(https?://(?:github\.com|gitlab\.com|bitbucket\.org)/\S+)`)
-	reEntry     = regexp.MustCompile(`^- \[([^\]]+)\]\(([^)]+)\)\s+-\s+(.+)$`)
 	reHeading   = regexp.MustCompile(`^#{2,3}\s+(.+)`)
+	reDescSep   = regexp.MustCompile(`^\s+-\s+(.+)$`)
+	// Raw HTML tags. The tag name must follow "<" or "</" immediately so a
+	// comparison ("a < b") is left alone. A colon after the name keeps
+	// autolinks such as "<https://example.com>" from matching.
+	reHTMLTag = regexp.MustCompile(`(?i)</?[a-z][a-z0-9-]*(?:\s[^<>]*|/[^<>]*)?>`)
+	// HTML event handler attributes: onclick=, onerror=, onload=, and the rest.
+	reEventAttr = regexp.MustCompile(`(?i)(?:^|[^a-z0-9])on[a-z]{3,}\s*=`)
+	reBadScheme = regexp.MustCompile(`(?i)(?:^|[^a-z0-9])(?:javascript|data|vbscript)\s*:`)
 )
 
 // Words that indicate promotional language in descriptions.
@@ -116,6 +128,13 @@ func main() {
 
 	// 4. Validate added entries
 	for _, e := range added {
+		if lines, bad := reviewEntrySafety(e); bad {
+			results = append(results, lines...)
+			hasFail = true
+		} else {
+			results = append(results, lines...)
+		}
+
 		// 4a. Link matches forge link in PR body
 		if forgeLink != "" {
 			if normalizeURL(e.url) == normalizeURL(forgeLink) {
@@ -274,11 +293,47 @@ func parseDiffEntries(diff string) (added, removed []entry) {
 }
 
 func parseEntry(line string) (entry, bool) {
-	m := reEntry.FindStringSubmatch(line)
+	line = strings.TrimSpace(line)
+	var rest string
+	switch {
+	case strings.HasPrefix(line, "- ["):
+		rest = line[len("- ["):]
+	case strings.HasPrefix(line, "* ["):
+		rest = line[len("* ["):]
+	default:
+		return entry{}, false
+	}
+	name, rest, ok := strings.Cut(rest, "](")
+	if !ok || name == "" || strings.Contains(name, "]") {
+		return entry{}, false
+	}
+	// The link destination may contain balanced parentheses, as in
+	// javascript:alert(1) or a Wikipedia title.
+	depth := 1
+	urlEnd := -1
+	for i := 0; i < len(rest); i++ {
+		switch rest[i] {
+		case '(':
+			depth++
+		case ')':
+			depth--
+			if depth == 0 {
+				urlEnd = i
+			}
+		}
+		if urlEnd >= 0 {
+			break
+		}
+	}
+	if urlEnd < 0 {
+		return entry{}, false
+	}
+	rawURL := rest[:urlEnd]
+	m := reDescSep.FindStringSubmatch(rest[urlEnd+1:])
 	if m == nil {
 		return entry{}, false
 	}
-	return entry{name: m[1], url: m[2], description: m[3], raw: line}, true
+	return entry{name: name, url: rawURL, description: m[1], raw: line}, true
 }
 
 // --- URL helpers ---
@@ -324,7 +379,7 @@ func getCategoryItemCount(readmePath, entryURL string) (category string, count i
 			currentCat = m[1]
 			catItems = 0
 		}
-		if reEntry.MatchString(trimmed) {
+		if _, ok := parseEntry(trimmed); ok {
 			catItems++
 			if strings.Contains(trimmed, entryURL) {
 				foundCat = currentCat
@@ -380,7 +435,94 @@ func setOutput(name, value string) {
 		return
 	}
 	defer f.Close()
-	fmt.Fprintf(f, "%s<<EOF\n%s\nEOF\n", name, value)
+	delimiter := githubOutputDelimiter(value)
+	fmt.Fprintf(f, "%s<<%s\n%s\n%s\n", name, delimiter, value, delimiter)
+}
+
+// githubOutputDelimiter returns a per-call heredoc delimiter that is not a
+// line of its own inside value. GitHub Actions ends a multiline GITHUB_OUTPUT
+// value at the first line equal to the delimiter, so a fixed word such as EOF
+// lets that line inject another step output.
+func githubOutputDelimiter(value string) string {
+	for range 5 {
+		buf := make([]byte, 16)
+		if _, err := rand.Read(buf); err != nil {
+			break
+		}
+		delimiter := "ghadelim_" + hex.EncodeToString(buf)
+		if !outputLineEquals(value, delimiter) {
+			return delimiter
+		}
+	}
+	return "ghadelim_fallback"
+}
+
+func outputLineEquals(value, delimiter string) bool {
+	rest := value
+	for {
+		line, after, found := strings.Cut(rest, "\n")
+		if line == delimiter {
+			return true
+		}
+		if !found {
+			return false
+		}
+		rest = after
+	}
+}
+
+// reviewEntrySafety fails an added README entry whose name or description
+// contains raw HTML, an event handler attribute, or a javascript/data/vbscript
+// URL, and fails an entry URL that is not http(s).
+func reviewEntrySafety(e entry) (lines []string, fail bool) {
+	var problems []string
+	if !isHTTPURL(e.url) {
+		problems = append(problems, fmt.Sprintf("URL must use http or https, got `%s`", e.url))
+	}
+	problems = append(problems, textSafetyProblems("name", e.name)...)
+	problems = append(problems, textSafetyProblems("description", e.description)...)
+	if len(problems) == 0 {
+		return []string{icon(true) + " **Entry safety**: name, description, and URL are plain http(s) content"}, false
+	}
+	for _, problem := range problems {
+		lines = append(lines, icon(false)+" **Entry safety**: "+problem)
+	}
+	lines = append(lines, fix(
+		"Names and descriptions cannot contain raw HTML, event handler attributes (onerror=, onclick=, ...), or javascript:, data:, or vbscript: URLs. The entry URL must be http or https.",
+		"Use a plain project name, an http(s) link, and a text description. Example: `- [project](https://github.com/org/project) - Short description.`",
+	))
+	return lines, true
+}
+
+func textSafetyProblems(label, value string) []string {
+	var problems []string
+	if reHTMLTag.MatchString(value) {
+		problems = append(problems, label+" contains a raw HTML tag")
+	}
+	if reBadScheme.MatchString(value) {
+		problems = append(problems, label+" contains a javascript:, data:, or vbscript: URL")
+	}
+	if reEventAttr.MatchString(value) {
+		problems = append(problems, label+" contains an HTML event attribute")
+	}
+	return problems
+}
+
+func isHTTPURL(raw string) bool {
+	raw = strings.TrimSpace(raw)
+	if raw == "" || strings.ContainsAny(raw, " \t\r\n") {
+		return false
+	}
+	u, err := url.Parse(raw)
+	if err != nil || u.Host == "" {
+		return false
+	}
+	switch strings.ToLower(u.Scheme) {
+	case "http", "https":
+		return true
+	default:
+		return false
+	}
 }
 
 func icon(ok bool) string {

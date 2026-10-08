@@ -13,6 +13,8 @@
 package main
 
 import (
+	"crypto/rand"
+	"encoding/hex"
 	"encoding/json"
 	"fmt"
 	"io"
@@ -395,7 +397,40 @@ func setOutput(name, value string) {
 		return
 	}
 	defer f.Close()
-	fmt.Fprintf(f, "%s<<EOF\n%s\nEOF\n", name, value)
+	delimiter := githubOutputDelimiter(value)
+	fmt.Fprintf(f, "%s<<%s\n%s\n%s\n", name, delimiter, value, delimiter)
+}
+
+// githubOutputDelimiter returns a per-call heredoc delimiter that is not a
+// line of its own inside value. GitHub Actions ends a multiline GITHUB_OUTPUT
+// value at the first line equal to the delimiter, so a fixed word such as EOF
+// lets that line inject another step output.
+func githubOutputDelimiter(value string) string {
+	for range 5 {
+		buf := make([]byte, 16)
+		if _, err := rand.Read(buf); err != nil {
+			break
+		}
+		delimiter := "ghadelim_" + hex.EncodeToString(buf)
+		if !outputLineEquals(value, delimiter) {
+			return delimiter
+		}
+	}
+	return "ghadelim_fallback"
+}
+
+func outputLineEquals(value, delimiter string) bool {
+	rest := value
+	for {
+		line, after, found := strings.Cut(rest, "\n")
+		if line == delimiter {
+			return true
+		}
+		if !found {
+			return false
+		}
+		rest = after
+	}
 }
 
 func icon(ok bool) string {
