@@ -15,15 +15,25 @@ jobs:
     outputs:
       is_package_pr: ${{ steps.check.outputs.is_package_pr }}
     steps:
-      - name: Check if README.md is modified
+      - name: Check if package entries are modified
         id: check
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           files=$(gh api repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files --jq '.[].filename' 2>/dev/null || echo "")
           if echo "$files" | grep -q '^README.md$'; then
-            echo "is_package_pr=true" >> "$GITHUB_OUTPUT"
-            echo "README.md is modified — this is a package PR"
+            readme_patch=$(gh api repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files --jq '.[] | select(.filename == "README.md") | .patch // ""' 2>/dev/null || echo "")
+
+            # A pure reorder has the same package entries on both sides of the diff.
+            added_entries=$(printf '%s\n' "$readme_patch" | awk '/^\+- \[/{print substr($0, 2)}' | sort)
+            removed_entries=$(printf '%s\n' "$readme_patch" | awk '/^-- \[/{print substr($0, 2)}' | sort)
+            if [ -n "$added_entries" ] && [ "$added_entries" = "$removed_entries" ]; then
+              echo "is_package_pr=false" >> "$GITHUB_OUTPUT"
+              echo "README.md only reorders existing package entries — skipping quality checks"
+            else
+              echo "is_package_pr=true" >> "$GITHUB_OUTPUT"
+              echo "README.md changes package entries — this is a package PR"
+            fi
           else
             echo "is_package_pr=false" >> "$GITHUB_OUTPUT"
             echo "README.md not modified — skipping quality checks"
