@@ -4,7 +4,7 @@
 //   - Added link matches the forge link declared in PR body
 //   - Link text matches the repository/project name
 //   - Description ends with a period and is non-promotional
-//   - Added name and description contain no raw HTML, event attributes, or javascript/data/vbscript URLs
+//   - Added name and description contain no raw HTML outside inline code, and no javascript:, vbscript:, or data: URI
 //   - Added entry URL uses http or https
 //   - Category has minimum 3 items after the change
 package main
@@ -13,6 +13,7 @@ import (
 	"crypto/rand"
 	"encoding/hex"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"net/url"
 	"os"
@@ -29,10 +30,16 @@ var (
 	// comparison ("a < b") is left alone. A colon after the name keeps
 	// autolinks such as "<https://example.com>" from matching.
 	reHTMLTag = regexp.MustCompile(`(?i)</?[a-z][a-z0-9-]*(?:\s[^<>]*|/[^<>]*)?>`)
-	// HTML event handler attributes: onclick=, onerror=, onload=, and the rest.
-	reEventAttr = regexp.MustCompile(`(?i)(?:^|[^a-z0-9])on[a-z]{3,}\s*=`)
-	reBadScheme = regexp.MustCompile(`(?i)(?:^|[^a-z0-9])(?:javascript|data|vbscript)\s*:`)
+	// javascript: and vbscript:, case-insensitive. Whitespace or a colon
+	// entity may sit between the scheme name and the colon.
+	reScriptScheme = regexp.MustCompile(`(?i)(?:^|[^a-z0-9])(?:javascript|vbscript)(?:\s|&colon;|&#0*58;|&#x0*3a;)*(?::|&colon;|&#0*58;|&#x0*3a;)`)
+	// data: is a URI only when the character after the colon is not whitespace.
+	// "Store data: fast" stays prose. "data:text/html" and "data:image/png;base64" do not.
+	reDataURI = regexp.MustCompile(`(?i)(?:^|[^a-z0-9])data:[^\s]`)
 )
+
+// readRandom is crypto/rand.Read, split out so tests can simulate failure.
+var readRandom = rand.Read
 
 // Words that indicate promotional language in descriptions.
 var promotionalWords = []string{
@@ -435,26 +442,34 @@ func setOutput(name, value string) {
 		return
 	}
 	defer f.Close()
-	delimiter := githubOutputDelimiter(value)
+	delimiter, err := githubOutputDelimiter(value)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "setOutput: %s\n", err)
+		os.Exit(1)
+	}
 	fmt.Fprintf(f, "%s<<%s\n%s\n%s\n", name, delimiter, value, delimiter)
 }
 
 // githubOutputDelimiter returns a per-call heredoc delimiter that is not a
 // line of its own inside value. GitHub Actions ends a multiline GITHUB_OUTPUT
 // value at the first line equal to the delimiter, so a fixed word such as EOF
-// lets that line inject another step output.
-func githubOutputDelimiter(value string) string {
-	for range 5 {
+// lets that line inject another step output. A crypto/rand failure returns
+// an error instead of a predictable delimiter.
+func githubOutputDelimiter(value string) (string, error) {
+	randFailures := 0
+	for randFailures < 5 {
 		buf := make([]byte, 16)
-		if _, err := rand.Read(buf); err != nil {
-			break
+		n, err := readRandom(buf)
+		if err != nil || n != len(buf) {
+			randFailures++
+			continue
 		}
 		delimiter := "ghadelim_" + hex.EncodeToString(buf)
 		if !outputLineEquals(value, delimiter) {
-			return delimiter
+			return delimiter, nil
 		}
 	}
-	return "ghadelim_fallback"
+	return "", errors.New("crypto/rand failed 5 times; refusing to write a predictable GITHUB_OUTPUT delimiter")
 }
 
 func outputLineEquals(value, delimiter string) bool {
@@ -472,8 +487,13 @@ func outputLineEquals(value, delimiter string) bool {
 }
 
 // reviewEntrySafety fails an added README entry whose name or description
-// contains raw HTML, an event handler attribute, or a javascript/data/vbscript
-// URL, and fails an entry URL that is not http(s).
+// contains raw HTML outside an inline code span, or a javascript:, vbscript:,
+// or data: URI, and fails an entry URL that is not http(s).
+//
+// Event handler attributes are not scanned on their own. They only become
+// markup inside a tag, and a raw tag already fails reHTMLTag, including
+// <img src=x onerror=alert(1)>. A separate onxxx= check also flags ordinary
+// prose such as "online=true".
 func reviewEntrySafety(e entry) (lines []string, fail bool) {
 	var problems []string
 	if !isHTTPURL(e.url) {
@@ -488,24 +508,67 @@ func reviewEntrySafety(e entry) (lines []string, fail bool) {
 		lines = append(lines, icon(false)+" **Entry safety**: "+problem)
 	}
 	lines = append(lines, fix(
-		"Names and descriptions cannot contain raw HTML, event handler attributes (onerror=, onclick=, ...), or javascript:, data:, or vbscript: URLs. The entry URL must be http or https.",
-		"Use a plain project name, an http(s) link, and a text description. Example: `- [project](https://github.com/org/project) - Short description.`",
+		"Names and descriptions cannot contain raw HTML or javascript:, vbscript:, or data: URIs. The entry URL must be http or https.",
+		"Wrap type parameters or HTML in backticks, for example `Option<T>`. Otherwise use a plain project name, an http(s) link, and a text description: `- [project](https://github.com/org/project) - Short description.`",
 	))
 	return lines, true
 }
 
 func textSafetyProblems(label, value string) []string {
 	var problems []string
-	if reHTMLTag.MatchString(value) {
+	// goldmark escapes inline code spans, so angle brackets there are not raw HTML.
+	if reHTMLTag.MatchString(stripInlineCodeSpans(value)) {
 		problems = append(problems, label+" contains a raw HTML tag")
 	}
-	if reBadScheme.MatchString(value) {
-		problems = append(problems, label+" contains a javascript:, data:, or vbscript: URL")
-	}
-	if reEventAttr.MatchString(value) {
-		problems = append(problems, label+" contains an HTML event attribute")
+	if reScriptScheme.MatchString(value) || reDataURI.MatchString(value) {
+		problems = append(problems, label+" contains a javascript:, vbscript:, or data: URI")
 	}
 	return problems
+}
+
+// stripInlineCodeSpans removes CommonMark inline code spans, including their
+// backtick delimiters. A backtick run opens a span and the next run of the
+// same length closes it. An unmatched run stays as literal text.
+func stripInlineCodeSpans(s string) string {
+	var b strings.Builder
+	i := 0
+	for i < len(s) {
+		if s[i] != '`' {
+			b.WriteByte(s[i])
+			i++
+			continue
+		}
+		n := 1
+		for i+n < len(s) && s[i+n] == '`' {
+			n++
+		}
+		closer := indexBacktickRun(s[i+n:], n)
+		if closer < 0 {
+			b.WriteString(s[i : i+n])
+			i += n
+			continue
+		}
+		i += n + closer + n
+	}
+	return b.String()
+}
+
+func indexBacktickRun(s string, n int) int {
+	for j := 0; j < len(s); {
+		if s[j] != '`' {
+			j++
+			continue
+		}
+		m := 1
+		for j+m < len(s) && s[j+m] == '`' {
+			m++
+		}
+		if m == n {
+			return j
+		}
+		j += m
+	}
+	return -1
 }
 
 func isHTTPURL(raw string) bool {

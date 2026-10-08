@@ -1,8 +1,11 @@
 package main
 
 import (
+	"bytes"
+	"errors"
 	"fmt"
 	"os"
+	"os/exec"
 	"path/filepath"
 	"strings"
 	"testing"
@@ -150,4 +153,55 @@ func heredocDelimiters(text string) []string {
 		}
 	}
 	return delims
+}
+
+func TestGitHubOutputDelimiterRandFailure(t *testing.T) {
+	orig := readRandom
+	t.Cleanup(func() { readRandom = orig })
+	calls := 0
+	readRandom = func([]byte) (int, error) {
+		calls++
+		return 0, errors.New("no entropy")
+	}
+	got, err := githubOutputDelimiter("payload")
+	if err == nil {
+		t.Fatalf("delimiter %q, want error", got)
+	}
+	if got != "" {
+		t.Fatalf("predictable delimiter %q", got)
+	}
+	if !strings.Contains(err.Error(), "crypto/rand failed 5 times") {
+		t.Fatalf("err = %v", err)
+	}
+	if calls != 5 {
+		t.Fatalf("rand calls = %d, want 5", calls)
+	}
+}
+
+func TestSetOutputExitsWhenRandFails(t *testing.T) {
+	if os.Getenv("TEST_RAND_FAIL") == "1" {
+		readRandom = func([]byte) (int, error) {
+			return 0, errors.New("no entropy")
+		}
+		setOutput("k", "v")
+		fmt.Fprintln(os.Stderr, "setOutput returned")
+		os.Exit(0)
+	}
+
+	out := filepath.Join(t.TempDir(), "github_output")
+	if err := os.WriteFile(out, nil, 0o644); err != nil {
+		t.Fatal(err)
+	}
+	cmd := exec.Command(os.Args[0], "-test.run=^TestSetOutputExitsWhenRandFails$")
+	cmd.Env = append(os.Environ(), "TEST_RAND_FAIL=1", "GITHUB_OUTPUT="+out)
+	var stderr bytes.Buffer
+	cmd.Stderr = &stderr
+	err := cmd.Run()
+	var exitErr *exec.ExitError
+	if !errors.As(err, &exitErr) || exitErr.ExitCode() == 0 {
+		t.Fatalf("exit err=%v stderr=%s", err, stderr.String())
+	}
+	if !strings.Contains(stderr.String(), "crypto/rand failed 5 times") {
+		t.Fatalf("stderr=%s", stderr.String())
+	}
 }

@@ -108,6 +108,11 @@ func TestEntrySafety(t *testing.T) {
 			fail: true,
 		},
 		{
+			name: "javascript colon entity fails",
+			line: "- [project](https://github.com/org/project) - Open javascript&#58;alert(1) here.",
+			fail: true,
+		},
+		{
 			name: "data url in description fails",
 			line: "- [project](https://github.com/org/project) - Loads data:text/html,hi.",
 			fail: true,
@@ -118,18 +123,63 @@ func TestEntrySafety(t *testing.T) {
 			fail: true,
 		},
 		{
-			name: "onclick attribute fails",
+			name: "prose data colon passes",
+			line: "- [project](https://github.com/org/project) - Store data: fast and safe.",
+			fail: false,
+		},
+		{
+			name: "data image uri fails",
+			line: "- [project](https://github.com/org/project) - Icon data:image/png;base64,aaaa.",
+			fail: true,
+		},
+		{
+			name: "backtick option type passes",
+			line: "- [project](https://github.com/org/project) - Generic `Option<T>` types.",
+			fail: false,
+		},
+		{
+			name: "double backtick option type passes",
+			line: "- [project](https://github.com/org/project) - Generic ``Option<T>`` types.",
+			fail: false,
+		},
+		{
+			name: "code span does not hide a later tag",
+			line: "- [project](https://github.com/org/project) - See `Option<T>` and <script>alert(1)</script>.",
+			fail: true,
+		},
+		{
+			name: "unmatched backtick does not hide a tag",
+			line: "- [project](https://github.com/org/project) - See `Option<T> types.",
+			fail: true,
+		},
+		{
+			name: "bare option type fails",
+			line: "- [project](https://github.com/org/project) - Generic Option<T> types.",
+			fail: true,
+		},
+		{
+			name: "online equals passes",
+			line: "- [project](https://github.com/org/project) - Run on any OS; online=true config.",
+			fail: false,
+		},
+		{
+			name: "onclick outside a tag passes",
 			line: "- [project](https://github.com/org/project) - Fires onclick=alert(1) now.",
-			fail: true,
+			fail: false,
 		},
 		{
-			name: "onerror with space before equals fails",
+			name: "onerror outside a tag passes",
 			line: "- [project](https://github.com/org/project) - Fires onerror =alert(1) now.",
-			fail: true,
+			fail: false,
 		},
 		{
-			name: "mixed case onload in name fails",
+			name: "onload outside a tag passes",
 			line: "- [widget OnLoad=alert(1)](https://github.com/org/project) - Short description.",
+			fail: false,
+		},
+		{
+			name: "event attribute inside tag fails",
+			line: "- [project](https://github.com/org/project) - Click <span onclick=alert(1)>here</span>.",
 			fail: true,
 		},
 		{
@@ -186,6 +236,11 @@ func TestEntrySafety(t *testing.T) {
 				}
 			}
 			lines, failed := reviewEntrySafety(e)
+			if tt.name == "bare option type fails" {
+				if !strings.Contains(strings.ToLower(strings.Join(lines, "\n")), "backtick") {
+					t.Fatalf("fix hint must tell contributors to wrap type parameters or HTML in backticks, lines=%v", lines)
+				}
+			}
 			if failed != tt.fail {
 				t.Fatalf("reviewEntrySafety fail=%v, want %v, lines=%v", failed, tt.fail, lines)
 			}
@@ -204,7 +259,7 @@ func TestCurrentReadmeEntriesPassSafety(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	checked := 0
+	checked, flagged := 0, 0
 	for _, line := range strings.Split(string(data), "\n") {
 		e, ok := parseEntry(line)
 		if !ok || !isHTTPURL(e.url) {
@@ -213,10 +268,15 @@ func TestCurrentReadmeEntriesPassSafety(t *testing.T) {
 		checked++
 		lines, failed := reviewEntrySafety(e)
 		if failed {
+			flagged++
 			t.Errorf("current entry failed safety: %s\n%v", line, lines)
 		}
 	}
+	t.Logf("README entries checked: %d, flagged: %d", checked, flagged)
 	if checked < 1000 {
 		t.Fatalf("checked %d http(s) entries, expected the curated list", checked)
+	}
+	if flagged != 0 {
+		t.Fatalf("flagged %d current README entries", flagged)
 	}
 }

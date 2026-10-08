@@ -16,6 +16,7 @@ import (
 	"crypto/rand"
 	"encoding/hex"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"net/http"
@@ -397,26 +398,37 @@ func setOutput(name, value string) {
 		return
 	}
 	defer f.Close()
-	delimiter := githubOutputDelimiter(value)
+	delimiter, err := githubOutputDelimiter(value)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "setOutput: %s\n", err)
+		os.Exit(1)
+	}
 	fmt.Fprintf(f, "%s<<%s\n%s\n%s\n", name, delimiter, value, delimiter)
 }
+
+// readRandom is crypto/rand.Read, split out so tests can simulate failure.
+var readRandom = rand.Read
 
 // githubOutputDelimiter returns a per-call heredoc delimiter that is not a
 // line of its own inside value. GitHub Actions ends a multiline GITHUB_OUTPUT
 // value at the first line equal to the delimiter, so a fixed word such as EOF
-// lets that line inject another step output.
-func githubOutputDelimiter(value string) string {
-	for range 5 {
+// lets that line inject another step output. A crypto/rand failure returns
+// an error instead of a predictable delimiter.
+func githubOutputDelimiter(value string) (string, error) {
+	randFailures := 0
+	for randFailures < 5 {
 		buf := make([]byte, 16)
-		if _, err := rand.Read(buf); err != nil {
-			break
+		n, err := readRandom(buf)
+		if err != nil || n != len(buf) {
+			randFailures++
+			continue
 		}
 		delimiter := "ghadelim_" + hex.EncodeToString(buf)
 		if !outputLineEquals(value, delimiter) {
-			return delimiter
+			return delimiter, nil
 		}
 	}
-	return "ghadelim_fallback"
+	return "", errors.New("crypto/rand failed 5 times; refusing to write a predictable GITHUB_OUTPUT delimiter")
 }
 
 func outputLineEquals(value, delimiter string) bool {
