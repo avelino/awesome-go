@@ -19,4 +19,4 @@ jobs:
     - name: Get dependencies
       run: go mod download
     - name: Run tests
-      run: go test main_test.go main.go
+      run: go test main_test.go main.go && go test ./pkg/...
