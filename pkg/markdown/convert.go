@@ -34,7 +34,14 @@ func ToHTML(markdown []byte) ([]byte, error) {
 		return nil, err
 	}
 
-	return buf.Bytes(), nil
+	// WithUnsafe keeps README badges, but it also skips goldmark's scheme
+	// filter. Drop javascript:/data: (including entity-encoded) destinations
+	// before the fragment is marked as trusted HTML.
+	safe, err := sanitizeURLs(buf.Bytes())
+	if err != nil {
+		return nil, err
+	}
+	return safe, nil
 }
 
 // IDGenerator for goldmark to provide IDs more similar to GitHub's IDs on markdown parsing
