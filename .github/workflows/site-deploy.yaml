@@ -13,13 +13,13 @@ jobs:
     name: Make and Deploy site
     runs-on: ubuntu-latest
     environment: netlify
-    container: golang:latest
+    container: golang:1.27
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
       - name: Get dependencies
-        run: go get -v -t -d ./...
+        run: go mod download
       - name: Restore GitHub metadata cache
-        uses: actions/cache@v4
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
         with:
           path: .cache/repos
           key: repo-meta-${{ github.run_id }}
@@ -28,10 +28,6 @@ jobs:
         run: go run .
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Setup node
-        uses: actions/setup-node@v6
-        with:
-          node-version: 20
       - name: deploy awesome-go.com
         uses: nwtgck/actions-netlify@4cbaf4c08f1a7bfa537d6113472ef4424e4eb654 # v3.0
         with:

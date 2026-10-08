@@ -39,10 +39,11 @@ This document summarizes the project context and the conventions that language m
 
 ## CI Overview
 
-- `tests.yaml`: runs `go test main_test.go main.go` on pushes/PRs.
+- `tests.yaml`: runs `go test main_test.go main.go` on pushes/PRs. The job uses the `golang:1.27` container.
 - `pr-quality-check.yaml`: validates PR metadata (forge link, pkg.go.dev, coverage).
-- `run-check.yaml`: scheduled stale repository audit via `go test -run ^TestStaleRepository$`.
-- `site-deploy.yaml`: builds and deploys the static site to Netlify on `main` pushes.
+- `run-check.yaml`: scheduled stale repository audit via `go test -run ^TestStaleRepository$`. The job uses the `golang:1.27` container.
+- `site-deploy.yaml`: builds and deploys the static site to Netlify on `main` pushes. The job uses the `golang:1.27` container.
+- Third-party actions are pinned to a full commit SHA. `.github/dependabot.yml` opens grouped weekly pull requests for `github-actions` and `gomod`.
 
 ## Documentation & Housekeeping
 

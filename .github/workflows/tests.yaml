@@ -13,10 +13,10 @@ jobs:
   build:
     name: Running test
     runs-on: ubuntu-latest
-    container: golang:latest
+    container: golang:1.27
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
     - name: Get dependencies
-      run: go get -v -t -d ./...
+      run: go mod download
     - name: Run tests
       run: go test main_test.go main.go
