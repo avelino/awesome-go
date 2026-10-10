@@ -2268,6 +2268,7 @@ _Libraries for working with various layers of the network._
 - [sslb](https://github.com/eduardonunesp/sslb) - It's a Super Simples Load Balancer, just a little project to achieve some kind of performance.
 - [stun](https://github.com/go-rtc/stun) - Go implementation of RFC 5389 STUN protocol.
 - [tcpack](https://github.com/lim-yoona/tcpack) - tcpack is an application protocol based on TCP to Pack and Unpack bytes stream in go program.
+- [telepath](https://github.com/tech-thinker/telepath) - telepath is a powerful CLI tool for secure port forwarding with support for multiple jump hosts and flexible authentication.
 - [tspool](https://github.com/two/tspool) - A TCP Library use worker pool to improve performance and protect your server.
 - [tun2socks](https://github.com/xjasonlyu/tun2socks) - A pure go implementation of tun2socks powered by [gVisor](https://gvisor.dev/) TCP/IP stack.
 - [utp](https://github.com/anacrolix/utp) - Go uTP micro transport protocol implementation.
