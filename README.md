@@ -3317,6 +3317,7 @@ _Libraries for manipulating video._
 - [mp4ff](https://github.com/Eyevinn/mp4ff) - Library and tools for working with MP4 files containing video, audio, subtitles, or metadata.
 - [mpeg-ts-analyzer](https://github.com/small-teton/mpeg-ts-analyzer) - Analyzer for MPEG-2 Transport Streams that checks PCR timing compliance and dumps low-level TS, PSI, and PES structures.
 - [onvif-go](https://github.com/0x524a/onvif-go) - ONVIF client, WS-Discovery and virtual camera server for IP cameras.
+- [rtspeek](https://github.com/0x524a/rtspeek) - Library and CLI for probing RTSP streams and reporting reachability, latency, codecs, and resolutions.
 - [v4l](https://github.com/korandiz/v4l) - Video capture library for Linux, written in Go.
 
 **[⬆ back to top](#contents)**
