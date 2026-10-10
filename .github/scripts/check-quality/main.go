@@ -29,7 +29,7 @@ import (
 var (
 	reForgeLink  = regexp.MustCompile(`(?i)forge\s+link[^:]*:\s*(https?://(?:github\.com|gitlab\.com|bitbucket\.org)/\S+)`)
 	rePkgGoDev   = regexp.MustCompile(`(?i)pkg\.go\.dev:\s*(https?://pkg\.go\.dev/\S+)`)
-	reCoverage   = regexp.MustCompile(`(?i)coverage[^:]*:\s*(https?://(?:coveralls\.io|(?:app\.)?codecov\.io)/\S+)`)
+	reCoverage   = regexp.MustCompile(`(?im)coverage.*:\s*(?:<!--\s*)?(https?://(?:coveralls\.io|(?:app\.)?codecov\.io)/\S+)(?:\s*-->)?`)
 	reGithubRepo = regexp.MustCompile(`^https?://github\.com/([^/]+)/([^/]+?)(?:\.git)?/?$`)
 	reSemver     = regexp.MustCompile(`^v\d+\.\d+\.\d+`)
 )
