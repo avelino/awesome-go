@@ -393,7 +393,6 @@ _Libraries for building Console Applications and Console User Interfaces._
 - [go-ataman](https://github.com/workanator/go-ataman) - Go library for rendering ANSI colored text templates in terminals.
 - [go-colorable](https://github.com/mattn/go-colorable) - Colorable writer for windows.
 - [go-colortext](https://github.com/daviddengcn/go-colortext) - Go library for color output in terminals.
-- [go-finder](https://github.com/SREsAreHumanToo/go-finder) - Cross-platform terminal file/folder picker with fuzzy search, multi-select, and a preview pane.
 - [go-isatty](https://github.com/mattn/go-isatty) - isatty for golang.
 - [go-palette](https://github.com/abusomani/go-palette) - Go library that provides elegant and convenient style definitions using ANSI colors. Fully compatible & wraps the [fmt library](https://pkg.go.dev/fmt) for nice terminal layouts.
 - [go-prompt](https://github.com/c-bata/go-prompt) - Library for building a powerful interactive prompt, inspired by [python-prompt-toolkit](https://github.com/jonathanslenders/python-prompt-toolkit).
@@ -408,6 +407,7 @@ _Libraries for building Console Applications and Console User Interfaces._
 - [phoenix](https://github.com/phoenix-tui/phoenix) - High-performance TUI framework with Elm-inspired architecture, perfect Unicode rendering, and zero-allocation event system.
 - [progressbar](https://github.com/schollz/progressbar) - Basic thread-safe progress bar that works in every OS.
 - [pterm](https://github.com/pterm/pterm) - A library to beautify console output on every platform with many combinable components.
+- [rummage](https://github.com/rummage-dev/rummage) - Cross-platform terminal file/folder picker with fuzzy search, multi-select, and a preview pane.
 - [simpletable](https://github.com/alexeyco/simpletable) - Simple tables in a terminal with Go.
 - [spinner](https://github.com/briandowns/spinner) - Go package to easily provide a terminal spinner with options.
 - [tabby](https://github.com/cheynewallace/tabby) - A tiny library for super simple Golang tables.
