@@ -20,3 +20,5 @@ jobs:
       run: go mod download
     - name: Run tests
       run: go test main_test.go main.go
+    - name: Run CI script tests
+      run: go test ./.github/scripts/...

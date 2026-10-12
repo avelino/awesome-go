@@ -137,21 +137,3 @@ jobs:
             **Skipped** — this PR does not modify `README.md`, so package quality checks do not apply.
 
             _This is expected for maintenance, documentation, or workflow PRs._
-
-  auto-merge:
-    name: Enable auto-merge
-    needs: [quality, report]
-    if: always() && needs.quality.result == 'success' && needs.report.result == 'success'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
-    steps:
-      - name: Enable auto-merge via squash
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh pr merge ${{ github.event.pull_request.number }} \
-            --repo ${{ github.repository }} \
-            --auto \
-            --squash
