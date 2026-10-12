@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - "main"
+  # Auto-merged PRs land with GITHUB_TOKEN, which does not fire push.
+  workflow_dispatch:
 
 permissions:
   contents: read #  to fetch code (actions/checkout)
