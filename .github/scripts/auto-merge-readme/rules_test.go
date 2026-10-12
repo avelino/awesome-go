@@ -74,6 +74,32 @@ func TestOldEnough(t *testing.T) {
 	}
 }
 
+func TestOldEnoughMonthEnd(t *testing.T) {
+	d := func(y int, m time.Month, day int) time.Time { return time.Date(y, m, day, 0, 0, 0, 0, time.UTC) }
+	cases := []struct {
+		created, now time.Time
+		want         bool
+	}{
+		// Plain subtraction from Jul 31 lands on Mar 3 and would accept these.
+		{d(2026, 3, 1), d(2026, 7, 31), false},
+		{d(2026, 3, 2), d(2026, 7, 31), false},
+		{d(2026, 3, 3), d(2026, 7, 31), false},
+		{d(2026, 3, 1), d(2026, 8, 1), true},
+		{d(2026, 3, 31), d(2026, 8, 30), false},
+		{d(2026, 3, 31), d(2026, 8, 31), true},
+		// Sep 30 + 5 months clamps to the end of February.
+		{d(2025, 9, 30), d(2026, 2, 27), false},
+		{d(2025, 9, 30), d(2026, 2, 28), true},
+		{d(2027, 9, 30), d(2028, 2, 29), true},
+		{d(2027, 9, 30), d(2028, 2, 28), false},
+	}
+	for _, c := range cases {
+		if got := oldEnough(c.created, c.now); got != c.want {
+			t.Errorf("oldEnough(%v, %v) = %v, want %v", c.created, c.now, got, c.want)
+		}
+	}
+}
+
 func TestApprovalStatus(t *testing.T) {
 	maint := func(u string) (bool, error) { return u == "avelino" || u == "ceriath", nil }
 	r := func(u, s, c string) review { return review{u, s, c} }

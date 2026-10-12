@@ -35,7 +35,9 @@ concurrency:
 jobs:
   merge:
     name: Auto-merge README PRs
-    if: github.repository == 'avelino/awesome-go'
+    if: >-
+      github.repository == 'avelino/awesome-go' &&
+      (github.event_name != 'workflow_run' || github.event.workflow_run.event == 'pull_request' || github.event.workflow_run.event == 'pull_request_target')
     runs-on: ubuntu-latest
     container: golang:1.27
     permissions:
@@ -53,6 +55,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_NUMBERS: ${{ inputs.pr_numbers }}
+          # workflow_run lists no PRs for forks, so match the run's head SHA
+          # instead of scanning every open PR on each check completion.
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'true' || 'false' }}
         run: go run ./.github/scripts/auto-merge-readme/
 

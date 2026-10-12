@@ -12,6 +12,7 @@
 //	GITHUB_REPOSITORY  owner/repo
 //	DRY_RUN            "false" to merge; anything else only reports
 //	PR_NUMBERS         optional space separated list; defaults to all open PRs
+//	HEAD_SHA           optional; only the open PR with this head is evaluated
 //	REPLAY             "true" (dry run only) evaluates already merged PRs as of
 //	                   their merge time, to check the rules against history
 package main
@@ -29,7 +30,9 @@ import (
 	"time"
 )
 
-var requiredChecks = []string{"Running test"}
+// "Post quality report" carries the blocking quality and diff checks from
+// PR Quality Checks, so it must have run and passed, not just be absent.
+var requiredChecks = []string{"Running test", "Post quality report"}
 
 const selfCheck = "Auto-merge README PRs"
 
@@ -89,7 +92,7 @@ type pull struct {
 	Head         struct{ SHA string } `json:"head"`
 }
 
-func (c *client) pulls() ([]int, error) {
+func (c *client) pulls(head string) ([]int, error) {
 	var nums []int
 	for page := 1; page <= 10; page++ {
 		var ps []pull
@@ -97,6 +100,9 @@ func (c *client) pulls() ([]int, error) {
 			return nil, err
 		}
 		for _, p := range ps {
+			if head != "" && p.Head.SHA != head {
+				continue
+			}
 			nums = append(nums, p.Number)
 		}
 		if len(ps) < 100 {
@@ -276,7 +282,7 @@ func main() {
 		}
 	} else {
 		var err error
-		if nums, err = c.pulls(); err != nil {
+		if nums, err = c.pulls(os.Getenv("HEAD_SHA")); err != nil {
 			fmt.Fprintln(os.Stderr, err)
 			os.Exit(1)
 		}

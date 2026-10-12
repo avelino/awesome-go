@@ -74,7 +74,19 @@ func oldEnough(createdAt, now time.Time) bool {
 	if createdAt.IsZero() || createdAt.After(now) {
 		return false
 	}
-	return !createdAt.After(now.AddDate(0, -minRepoAgeMonths, 0))
+	return !now.Before(addMonthsClamped(createdAt, minRepoAgeMonths))
+}
+
+// addMonthsClamped adds calendar months to t, clamping to the last day of the
+// target month instead of rolling over (Sep 30 + 5 months is Feb 28, not Mar 2).
+func addMonthsClamped(t time.Time, months int) time.Time {
+	y, m, d := t.Date()
+	first := time.Date(y, m+time.Month(months), 1, t.Hour(), t.Minute(), t.Second(), t.Nanosecond(), t.Location())
+	last := first.AddDate(0, 1, -1).Day()
+	if d > last {
+		d = last
+	}
+	return first.AddDate(0, 0, d-1)
 }
 
 type review struct {
