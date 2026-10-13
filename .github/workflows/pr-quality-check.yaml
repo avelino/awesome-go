@@ -45,7 +45,7 @@ jobs:
     if: needs.detect.outputs.is_package_pr == 'true'
     runs-on: ubuntu-latest
     environment: action
-    container: golang:latest
+    container: golang:1.27.2
     permissions:
       contents: read
       pull-requests: read

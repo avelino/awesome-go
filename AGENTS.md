@@ -5,7 +5,7 @@ This document summarizes the project context and the conventions that language m
 ## Project Snapshot
 
 - Purpose: maintain the curated `README.md` list of Go resources and generate the static site via `go run .`.
-- Primary language: Go 1.23 (see `go.mod`). Supporting JavaScript exists only for the GitHub Action in `.github/scripts`.
+- Primary language: Go 1.26 (`go 1.26.0` in `go.mod`, toolchain `go1.27.2`). Supporting JavaScript exists only for the GitHub Action in `.github/scripts`.
 - Key entry points:
   - `main.go`: reads `README.md`, builds category pages, and writes artifacts to `out/` using templates in `tmpl/`.
   - `pkg/markdown` and `pkg/slug`: helper packages used by the generator.
@@ -39,10 +39,10 @@ This document summarizes the project context and the conventions that language m
 
 ## CI Overview
 
-- `tests.yaml`: runs `go test main_test.go main.go` on pushes/PRs. The job uses the `golang:1.27` container.
-- `pr-quality-check.yaml`: validates PR metadata (forge link, pkg.go.dev, coverage).
-- `run-check.yaml`: scheduled stale repository audit via `go test -run ^TestStaleRepository$`. The job uses the `golang:1.27` container.
-- `site-deploy.yaml`: builds and deploys the static site to Netlify on `main` pushes. The job uses the `golang:1.27` container.
+- `tests.yaml`: runs `go test main_test.go main.go` on pushes/PRs. The job uses the `golang:1.27.2` container.
+- `pr-quality-check.yaml`: validates PR metadata (forge link, pkg.go.dev, coverage). The quality job uses the `golang:1.27.2` container.
+- `run-check.yaml`: scheduled stale repository audit via `go test -run ^TestStaleRepository$`. The job uses the `golang:1.27.2` container.
+- `site-deploy.yaml`: builds and deploys the static site to Netlify on `main` pushes. The job uses the `golang:1.27.2` container.
 - Third-party actions are pinned to a full commit SHA. `.github/dependabot.yml` opens grouped weekly pull requests for `github-actions` and `gomod`.
 
 ## Documentation & Housekeeping

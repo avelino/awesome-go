@@ -1,6 +1,8 @@
 module github.com/avelino/awesome-go
 
-go 1.25.0
+go 1.26.0
+
+toolchain go1.27.2
 
 require (
 	github.com/PuerkitoBio/goquery v1.8.1

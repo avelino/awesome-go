@@ -13,7 +13,7 @@ jobs:
   build:
     name: Running test
     runs-on: ubuntu-latest
-    container: golang:1.27
+    container: golang:1.27.2
     steps:
     - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
     - name: Get dependencies
