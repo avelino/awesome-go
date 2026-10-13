@@ -56,7 +56,7 @@ jobs:
       diff_comment: ${{ steps.diff.outputs.diff_comment }}
       diff_fail: ${{ steps.diff.outputs.diff_fail }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           ref: ${{ github.event.pull_request.base.sha }}
           persist-credentials: false
@@ -96,7 +96,7 @@ jobs:
       contents: write
     steps:
       - name: Post quality report comment
-        uses: marocchino/sticky-pull-request-comment@70d2764d1a7d5d9560b100cbea0077fc8f633987 # v3
+        uses: marocchino/sticky-pull-request-comment@5770ad5eb8f42dd2c4f34da00c94c5381e49af88 # v3
         with:
           header: pr-quality-check
           message: |
@@ -128,7 +128,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Post skip notice
-        uses: marocchino/sticky-pull-request-comment@70d2764d1a7d5d9560b100cbea0077fc8f633987 # v3
+        uses: marocchino/sticky-pull-request-comment@5770ad5eb8f42dd2c4f34da00c94c5381e49af88 # v3
         with:
           header: pr-quality-check
           message: |
