@@ -95,7 +95,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Post quality report comment
-        uses: marocchino/sticky-pull-request-comment@70d2764d1a7d5d9560b100cbea0077fc8f633987 # v3
+        uses: marocchino/sticky-pull-request-comment@5770ad5eb8f42dd2c4f34da00c94c5381e49af88 # v3
         with:
           header: pr-quality-check
           message: |
@@ -127,7 +127,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Post skip notice
-        uses: marocchino/sticky-pull-request-comment@70d2764d1a7d5d9560b100cbea0077fc8f633987 # v3
+        uses: marocchino/sticky-pull-request-comment@5770ad5eb8f42dd2c4f34da00c94c5381e49af88 # v3
         with:
           header: pr-quality-check
           message: |
