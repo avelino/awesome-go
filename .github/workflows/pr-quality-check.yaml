@@ -45,7 +45,7 @@ jobs:
     if: needs.detect.outputs.is_package_pr == 'true'
     runs-on: ubuntu-latest
     environment: action
-    container: golang:latest
+    container: golang:1.27.2
     permissions:
       contents: read
       pull-requests: read
@@ -56,7 +56,7 @@ jobs:
       diff_comment: ${{ steps.diff.outputs.diff_comment }}
       diff_fail: ${{ steps.diff.outputs.diff_fail }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: ${{ github.event.pull_request.base.sha }}
           persist-credentials: false
@@ -93,10 +93,9 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
-      contents: write
     steps:
       - name: Post quality report comment
-        uses: marocchino/sticky-pull-request-comment@70d2764d1a7d5d9560b100cbea0077fc8f633987 # v3
+        uses: marocchino/sticky-pull-request-comment@5770ad5eb8f42dd2c4f34da00c94c5381e49af88 # v3
         with:
           header: pr-quality-check
           message: |
@@ -128,7 +127,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Post skip notice
-        uses: marocchino/sticky-pull-request-comment@70d2764d1a7d5d9560b100cbea0077fc8f633987 # v3
+        uses: marocchino/sticky-pull-request-comment@5770ad5eb8f42dd2c4f34da00c94c5381e49af88 # v3
         with:
           header: pr-quality-check
           message: |
@@ -137,21 +136,3 @@ jobs:
             **Skipped** — this PR does not modify `README.md`, so package quality checks do not apply.
 
             _This is expected for maintenance, documentation, or workflow PRs._
-
-  auto-merge:
-    name: Enable auto-merge
-    needs: [quality, report]
-    if: always() && needs.quality.result == 'success' && needs.report.result == 'success'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
-    steps:
-      - name: Enable auto-merge via squash
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh pr merge ${{ github.event.pull_request.number }} \
-            --repo ${{ github.repository }} \
-            --auto \
-            --squash

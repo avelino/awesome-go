@@ -1,0 +1,75 @@
+name: Auto-merge README PRs
+
+# Squash merges PRs that only add packages to README.md once a maintainer
+# approved the head commit, all checks are green and every added repository
+# is at least 5 months old. See .github/scripts/auto-merge-readme.
+#
+# This never checks out or runs PR code: it checks out main and reads the PR
+# through the API. pull_request_review is not used because fork PRs get a
+# read-only token there, so approvals are picked up by the schedule and by
+# the workflow_run hook when the PR checks finish.
+
+on:
+  schedule:
+    - cron: "17,47 * * * *"
+  workflow_run:
+    workflows: ["tests", "PR Quality Checks"]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      pr_numbers:
+        description: "PR numbers, space separated (empty = all open PRs)"
+        required: false
+        default: ""
+      dry_run:
+        description: "Only report, do not merge"
+        type: boolean
+        default: true
+
+permissions: {}
+
+concurrency:
+  group: auto-merge-readme
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    name: Auto-merge README PRs
+    if: >-
+      github.repository == 'avelino/awesome-go' &&
+      (github.event_name != 'workflow_run' || github.event.workflow_run.event == 'pull_request' || github.event.workflow_run.event == 'pull_request_target')
+    runs-on: ubuntu-latest
+    container: golang:1.27.2
+    permissions:
+      contents: write
+      pull-requests: write
+      actions: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          persist-credentials: false
+
+      - name: Merge eligible PRs
+        id: merge
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBERS: ${{ inputs.pr_numbers }}
+          # workflow_run lists no PRs for forks, so match the run's head SHA
+          # instead of scanning every open PR on each check completion.
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run && 'true' || 'false' }}
+        run: go run ./.github/scripts/auto-merge-readme/
+
+      # Merges made with GITHUB_TOKEN do not fire push workflows, so the site
+      # has to be deployed explicitly.
+      - name: Deploy the site
+        if: always() && steps.merge.outputs.merged != '' && steps.merge.outputs.merged != '0'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -fsS -X POST \
+            -H "Authorization: Bearer ${GITHUB_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/site-deploy.yaml/dispatches" \
+            -d '{"ref":"main"}'

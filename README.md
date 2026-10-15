@@ -227,13 +227,14 @@ _Libraries for building programs that leverage AI._
 - [ai](https://github.com/joakimcarlsson/ai) - A Go toolkit for building AI agents and applications across multiple providers with unified LLM, embeddings, tool calling, and MCP integration.
 - [ai-gateway](https://github.com/ferro-labs/ai-gateway) - OpenAI-compatible LLM gateway that routes requests across 30 providers with fallback, rate limiting, budgets, guardrails, and observability.
 - [chromem-go](https://github.com/philippgille/chromem-go) - Embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence.
+- [clai](https://github.com/baalimago/clai) - Agentic harness focused on terminal workflows, following UNIX principles. No external dependencies, ideal for scripting/prototyping agentic apps, engine is also exposed as a package. 
 - [claude-code-go](https://github.com/lancekrogers/claude-code-go) - Go library for driving the Claude Code CLI non-interactive prompt surface from Go programs.
 - [crewai-go](https://github.com/rhgs/crewai-go) - Idiomatic Go port of CrewAI (multi-agent orchestration). Zero dependencies, stdlib only.
 - [Cynative](https://github.com/cynative/cynative) - Framework for building security engineering AI agents in Go. Read-only by construction, built-in sandbox, 45 agent blueprints for AWS, GCP, Azure, K8s, GitHub & GitLab deep research.
 - [dakera-go](https://github.com/dakera-ai/dakera-go) - Official Go client SDK for the Dakera self-hosted agent memory server, providing typed interfaces for memory store/recall, session management, namespace operations, and decay configuration.
-- [fun](https://gitlab.com/tozd/go/fun) - The simplest but powerful way to use large language models (LLMs) in Go.
 - [Genkit](https://github.com/firebase/genkit) - Framework created by Google for building AI-powered and agentic applications in idiomatic Go.
 - [goai](https://github.com/zendev-sh/goai) - Go SDK for building AI applications. One SDK, 20+ providers. Inspired by Vercel AI SDK.
+- [golem](https://github.com/abubakarsiddik31/golem) - Framework for building dependable AI agents with typed dependencies, zero external dependencies, and native MCP support.
 - [GoModel](https://github.com/ENTERPILOT/GoModel) - AI gateway exposing a unified OpenAI-compatible API across OpenAI, Anthropic, Gemini, Groq, xAI, Ollama and other providers, with routing, usage tracking, rate limits, and guardrails.
 - [hotplex](https://github.com/hrygo/hotplex) - AI Agent runtime engine with long-lived sessions for Claude Code, OpenCode, pi-mono and other CLI AI tools. Provides full-duplex streaming, multi-platform integrations, and secure sandbox.
 - [jargo](https://github.com/gojargo/jargo) - Framework for building real-time voice AI agents over WebRTC, wiring speech-to-text, LLMs, and text-to-speech into a streaming pipeline.
@@ -416,7 +417,9 @@ _Libraries for building Console Applications and Console User Interfaces._
 - [chroma16](https://github.com/arceus-7/chroma16) - Generate a harmonious 16-color terminal palette from a single seed color or string.
 - [crab-config-files-templating](https://github.com/alfiankan/crab-config-files-templating) - Dynamic configuration file templating tool for kubernetes manifest or general configuration files.
 - [ctc](https://github.com/wzshiming/ctc) - The non-invasive cross-platform terminal color library does not need to modify the Print method.
+- [eyez](https://github.com/tech-thinker/eyez) - eyez is a handy CLI tool that lets you view images directly in your terminal, with support for most terminal emulators.
 - [fx](https://github.com/antonmedv/fx) - Terminal JSON viewer & processor.
+- [glamour](https://github.com/charmbracelet/glamour) - Stylesheet-based markdown rendering for terminal applications.
 - [go-ataman](https://github.com/workanator/go-ataman) - Go library for rendering ANSI colored text templates in terminals.
 - [go-colorable](https://github.com/mattn/go-colorable) - Colorable writer for windows.
 - [go-colortext](https://github.com/daviddengcn/go-colortext) - Go library for color output in terminals.
@@ -428,6 +431,7 @@ _Libraries for building Console Applications and Console User Interfaces._
 - [gommon/color](https://github.com/labstack/gommon/tree/master/color) - Style terminal text.
 - [gookit/color](https://github.com/gookit/color) - Terminal color rendering tool library, support 16 colors, 256 colors, RGB color rendering output, compatible with Windows.
 - [goscaf](https://github.com/iyashjayesh/goscaf) - goscaf generates opinionated, production-quality Go project boilerplate via an interactive CLI. Stop copy-pasting skeleton code between projects.
+- [huh](https://github.com/charmbracelet/huh) - Lightweight library for building interactive forms and prompts in the terminal.
 - [lazyenv](https://github.com/lazynop/lazyenv) - TUI for browsing, comparing, and editing .env files.
 - [lazyteams](https://github.com/agmonetti/lazyteams) - Keyboard-driven terminal user interface for Microsoft Teams.
 - [lipgloss](https://github.com/charmbracelet/lipgloss) - Declaratively define styles for color, format and layout in the terminal.
@@ -489,6 +493,7 @@ _Libraries for building standard or basic Command Line applications._
 - [gocmd](https://github.com/devfacet/gocmd) - Go library for building command line applications.
 - [goopt](https://github.com/napalu/goopt) - A declarative, struct-tag based CLI framework for Go, with a broad feature set such as hierarchical commands/flags, i18n, shell completion, and validation.
 - [GoPOSIX](https://github.com/ramayac/GoPOSIX) - A Go-native, single-binary multicall with 77 POSIX tools and >97% BusyBox test compatibility.
+- [gozen](https://github.com/tech-thinker/gozen) - gozen is a simplified golang MVC framework to generate projects and components with Support of REST, gRPC etc. Higly customizable and easy to add any api layer or worker.
 - [hashicorp/cli](https://github.com/hashicorp/cli) - Go library for implementing command-line interfaces.
 - [hiboot cli](https://github.com/hidevopsio/hiboot/tree/master/pkg/app/cli) - cli application framework with auto configuration and dependency injection.
 - [job](https://github.com/liujianping/job) - JOB, make your short-term command as a long-term job.
@@ -511,6 +516,7 @@ _Libraries for building standard or basic Command Line applications._
 - [teris-io/cli](https://github.com/teris-io/cli) - Simple and complete API for building command line interfaces in Go.
 - [urfave/cli](https://github.com/urfave/cli) - Simple, fast, and fun package for building command line apps in Go (formerly codegangsta/cli).
 - [version](https://github.com/mszostok/version) - Collects and displays CLI version information in multiple formats along with upgrade notice.
+- [vibecheck](https://github.com/rshdhere/vibecheck) - Cross-platform CLI that generates Git commit messages automatically from code changes.
 - [wlog](https://github.com/dixonwille/wlog) - Simple logging interface that supports cross-platform color and concurrency.
 - [wmenu](https://github.com/dixonwille/wmenu) - Easy to use menu structure for cli applications that prompt users to make choices.
 
@@ -1680,6 +1686,7 @@ _Libraries for scheduling jobs._
 - [leprechaun](https://github.com/kilgaloon/leprechaun) - Job scheduler that supports webhooks, crons and classic scheduling.
 - [ofelia](https://github.com/netresearch/ofelia) - Docker job scheduler (crontab for Docker); fork of mcuadros/ofelia that adds a web UI, job dependencies, retries, and job persistence.
 - [pending](https://github.com/kahoon/pending) - ID-based debounced task scheduler for deferred tasks with cancellation, graceful shutdown, and optional concurrency limits.
+- [RunWisp](https://github.com/runwisp/runwisp) - Single-binary replacement for cron and supervisord that keeps the exit code and output of every run, with a web UI and a TUI.
 - [sched](https://github.com/romshark/sched) - A job scheduler with the ability to fast-forward time.
 - [scheduler](https://github.com/carlescere/scheduler) - Cronjobs scheduling made easy.
 - [scheduler](https://github.com/yuseferi/scheduler) - Go-native distributed job scheduler with delayed tasks, batched Redis coordination, retries, lease-based recovery, and versioned queue partitioning.
@@ -1711,6 +1718,7 @@ _Libraries for working with JSON._
 - [JayDiff](https://github.com/yazgazan/jaydiff) - JSON diff utility written in Go.
 - [jettison](https://github.com/wI2L/jettison) - Fast and flexible JSON encoder for Go.
 - [jscan](https://github.com/romshark/jscan) - High performance zero-allocation JSON iterator.
+- [jseq](https://github.com/bobg/jseq) - Streaming JSON parser.
 - [JSON-to-Go](https://mholt.github.io/json-to-go/) - Convert JSON to Go struct.
 - [JSON-to-Proto](https://json-to-proto.github.io/) - Convert JSON to Protobuf online.
 - [json2go](https://github.com/m-zajac/json2go) - Advanced JSON to Go struct conversion. Provides package that can parse multiple JSON documents and create struct to fit them all.
@@ -1848,7 +1856,7 @@ _Libraries for Machine Learning._
 - [Goptuna](https://github.com/c-bata/goptuna) - Bayesian optimization framework for black-box functions written in Go. Everything will be optimized.
 - [goRecommend](https://github.com/timkaye11/goRecommend) - Recommendation Algorithms library written in Go.
 - [gorgonia](https://github.com/gorgonia/gorgonia) - graph-based computational library like Theano for Go that provides primitives for building various machine learning and neural network algorithms.
-- [gorse](https://github.com/zhenghaoz/gorse) - An offline recommender system backend based on collaborative filtering written in Go.
+- [gorse](https://github.com/gorse-io/gorse) - An offline recommender system backend based on collaborative filtering written in Go.
 - [goscore](https://github.com/asafschers/goscore) - Go Scoring API for PMML.
 - [gosseract](https://github.com/otiai10/gosseract) - Go package for OCR (Optical Character Recognition), by using Tesseract C++ library.
 - [hugot](https://github.com/knights-analytics/hugot) - Huggingface transformer pipelines for golang with onnxruntime.
@@ -2262,6 +2270,7 @@ _Libraries for working with various layers of the network._
 - [sslb](https://github.com/eduardonunesp/sslb) - It's a Super Simples Load Balancer, just a little project to achieve some kind of performance.
 - [stun](https://github.com/go-rtc/stun) - Go implementation of RFC 5389 STUN protocol.
 - [tcpack](https://github.com/lim-yoona/tcpack) - tcpack is an application protocol based on TCP to Pack and Unpack bytes stream in go program.
+- [telepath](https://github.com/tech-thinker/telepath) - telepath is a powerful CLI tool for secure port forwarding with support for multiple jump hosts and flexible authentication.
 - [tspool](https://github.com/two/tspool) - A TCP Library use worker pool to improve performance and protect your server.
 - [tun2socks](https://github.com/xjasonlyu/tun2socks) - A pure go implementation of tun2socks powered by [gVisor](https://gvisor.dev/) TCP/IP stack.
 - [utp](https://github.com/anacrolix/utp) - Go uTP micro transport protocol implementation.
@@ -2497,6 +2506,7 @@ _Libraries that are used to help make your application more secure._
 - [Cameradar](https://github.com/Ullaakut/cameradar) - Tool and library to remotely hack RTSP streams from surveillance cameras.
 - [canery](https://github.com/rluders/canery) - Minimal, stateless authorization engine with a pluggable evaluation model.
 - [certificates](https://github.com/mvmaasakkers/certificates) - An opinionated tool for generating tls certificates.
+- [certifier](https://github.com/0x524a/certifier) - Library and CLI for generating and validating X.509 certificates, certificate authorities, CRLs, and OCSP responses.
 - [CertMagic](https://github.com/caddyserver/certmagic) - Mature, robust, and powerful ACME client integration for fully-managed TLS certificate issuance and renewal.
 - [Coraza](https://github.com/corazawaf/coraza) - Enterprise-ready, modsecurity and OWASP CRS compatible WAF library.
 - [coraza-rule-validator](https://github.com/stardothosting/coraza-rule-validator) - Standalone CLI tool to validate ModSecurity and Coraza SecLang WAF rules before production deployment.
@@ -2536,6 +2546,7 @@ _Libraries that are used to help make your application more secure._
 - [pii-shield](https://github.com/pii-shield/pii-shield) - Zero-code log sanitization sidecar for Kubernetes that redacts PII from logs.
 - [pm](https://github.com/nicola-strappazzon/password-manager) - Unix-style password manager written in Go to save your data with OpenPGP encryption.
 - [procscope](https://github.com/Mutasem-mk4/procscope) - Process-scoped runtime investigator using eBPF to trace process lifecycle, file activity, and network connections.
+- [PwnedCheck](https://github.com/mohamedation/PwnedCheck) - Command-line tool to check passwords against Have I Been Pwned breaches, with Bitwarden export support.
 - [qrand](https://github.com/bitfield/qrand) - Client for the ANU Quantum Numbers (AQN) API, providing quantum-mechanically secure random data.
 - [Razify](https://github.com/Hossiy21/razify) - CLI to scan, validate and audit .env files for leaked secrets and environment drift.
 - [redact](https://github.com/alesr/redact) - Redact sensitive information from slog-based logs using a configurable pipeline.
@@ -2735,6 +2746,7 @@ _Libraries for testing codebases and generating test data._
 - [jsonassert](https://github.com/kinbiko/jsonassert) - Package for verifying that your JSON payloads are serialized correctly.
 - [keploy](https://github.com/keploy/keploy) - Generate Testcase and Data Mocks from API calls automatically.
 - [omg.testingtools](https://github.com/dedalqq/omg.testingtools) - The simple library for change a values of private fields for testing.
+- [prettycov](https://github.com/screwyprof/prettycov) - Draws a Go coverage profile as a package tree with a total on every row.
 - [restit](https://github.com/yookoala/restit) - Go micro framework to help writing RESTful API integration test.
 - [schema](https://github.com/jgroeneveld/schema) - Quick and easy expression matching for JSON schemas used in requests and responses.
 - [should](https://github.com/Kairum-Labs/should) - Testing library with zero dependencies, detailed struct diffs and human-readable error messages.
@@ -2936,6 +2948,7 @@ _Libraries for accessing third party APIs._
 - [gads](https://github.com/emiddleton/gads) - Google Adwords Unofficial API.
 - [gcm](https://github.com/Aorioli/gcm) - Go library for Google Cloud Messaging.
 - [geo-golang](https://github.com/codingsince1985/geo-golang) - Go Library to access [Google Maps](https://developers.google.com/maps/documentation/geocoding/intro), [MapQuest](https://developer.mapquest.com/documentation/api/geocoding/), [Nominatim](https://nominatim.org/release-docs/latest/api/Overview/), [OpenCage](https://opencagedata.com/api), [Bing](https://msdn.microsoft.com/en-us/library/ff701715.aspx), [Mapbox](https://www.mapbox.com/developers/api/geocoding/), and [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Nominatim) geocoding / reverse geocoding APIs.
+- [gghstats](https://github.com/hrodrig/gghstats) - Self-hosted GitHub traffic dashboard that stores clones and views in SQLite beyond the 14-day API window.
 - [github](https://github.com/google/go-github) - Go library for accessing the GitHub REST API v3.
 - [githubql](https://github.com/shurcooL/githubql) - Go library for accessing the GitHub GraphQL API v4.
 - [go-atlassian](https://github.com/ctreminiom/go-atlassian) - Go library for accessing the [Atlassian Cloud](https://www.atlassian.com/enterprise/cloud) services (Jira, Jira Service Management, Jira Agile, Confluence, Admin Cloud)
@@ -2997,6 +3010,7 @@ _Libraries for accessing third party APIs._
 - [nansen-go](https://github.com/tigusigalpa/nansen-go) - Go client for Nansen AI API with Smart Money analytics, token screener, profiler, and zero dependencies.
 - [newsapi-go](https://github.com/jellydator/newsapi-go) - Go client for [NewsAPI](https://newsapi.org/).
 - [openaigo](https://github.com/otiai10/openaigo) - OpenAI GPT3/GPT3.5 ChatGPT API client library for Go.
+- [openapi](https://github.com/speakeasy-api/openapi) - Parse, validate, and manipulate OpenAPI, Swagger, Arazzo, and OpenAPI Overlay documents.
 - [patreon-go](https://github.com/mxpv/patreon-go) - Go library for Patreon API.
 - [paypal](https://github.com/logpacker/PayPal-Go-SDK) - Wrapper for PayPal payment API.
 - [playlyfe](https://github.com/playlyfe/playlyfe-go-sdk) - The Playlyfe Rest API Go SDK.
@@ -3306,6 +3320,8 @@ _Libraries for manipulating video._
 * [mosaic](https://github.com/farshidrezaei/mosaic) - Predictable, production-ready Adaptive Bitrate (ABR) video packaging for Go (HLS & DASH CMAF).
 - [mp4ff](https://github.com/Eyevinn/mp4ff) - Library and tools for working with MP4 files containing video, audio, subtitles, or metadata.
 - [mpeg-ts-analyzer](https://github.com/small-teton/mpeg-ts-analyzer) - Analyzer for MPEG-2 Transport Streams that checks PCR timing compliance and dumps low-level TS, PSI, and PES structures.
+- [onvif-go](https://github.com/0x524a/onvif-go) - ONVIF client, WS-Discovery and virtual camera server for IP cameras.
+- [rtspeek](https://github.com/0x524a/rtspeek) - Library and CLI for probing RTSP streams and reporting reachability, latency, codecs, and resolutions.
 - [v4l](https://github.com/korandiz/v4l) - Video capture library for Linux, written in Go.
 
 **[⬆ back to top](#contents)**
@@ -3515,6 +3531,7 @@ _Source code analysis tools, also known as Static Application Security Testing (
 - [go-critic](https://github.com/go-critic/go-critic) - source code linter that brings checks that are currently not implemented in other linters.
 - [go-mod-outdated](https://github.com/psampaz/go-mod-outdated) - An easy way to find outdated dependencies of your Go projects.
 - [goast-viewer](https://github.com/yuroyoro/goast-viewer) - Web based Golang AST visualizer.
+- [gocondense](https://github.com/abemedia/gocondense) - A gofmt-compatible formatter that condenses multi-line constructs onto single lines where they fit.
 - [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports) - Tool to fix (add, remove) your Go imports automatically.
 - [golang-ifood-sdk](https://github.com/arxdsilva/golang-ifood-sdk) - iFood API SDK.
 - [golangci-lint](https://github.com/golangci/golangci-lint) – A fast Go linters runner. It runs linters in parallel, uses caching, supports `yaml` config, has integrations with all major IDE and has dozens of linters included.
@@ -3712,6 +3729,7 @@ _Software written in Go._
 - [sigma](https://github.com/go-sigma/sigma) - OCI-native container image registry, support OCI-native artifact, scan artifact, image build etc.
 - [skm](https://github.com/TimothyYe/skm) - SKM is a simple and powerful SSH Keys Manager, it helps you to manage your multiple SSH keys easily!
 - [sortie](https://github.com/sortie-ai/sortie) - Turn tracker tickets into autonomous coding agent sessions.
+- [Spinifex](https://github.com/mulgadc/spinifex) - Self-hosted, AWS-compatible cloud platform providing EC2, EBS, S3, VPC and IAM APIs for bare-metal, edge and on-premises infrastructure.
 - [StatusOK](https://github.com/sanathp/statusok) - Monitor your Website and REST APIs.Get Notified through Slack, E-mail when your server is down or response time is more than expected.
 - [tau](https://github.com/taubyte/tau) - Easily build Cloud Computing Platforms with features like Serverless WebAssembly Functions, Frontend Hosting, CI/CD, Object Storage, K/V Database, and Pub-Sub Messaging.
 - [terraform-provider-openapi](https://github.com/dikhan/terraform-provider-openapi) - Terraform provider plugin that dynamically configures itself at runtime based on an OpenAPI document (formerly known as swagger file) containing the definitions of the APIs exposed.
@@ -3767,6 +3785,7 @@ _Software written in Go._
 - [GoNB](https://github.com/janpfeifer/gonb) - Interactive Go programming with Jupyter Notebooks (also works in VSCode, Binder and Google's Colab).
 - [GooseForum](https://github.com/leancodebox/GooseForum) - Self-hosted forum platform built with Go, Vue, and Tailwind CSS.
 - [Gor](https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time.
+- [gotermfx](https://github.com/mohamedation/gotermfx) - Zero-dependency terminal animation CLI with built-in effects and a small API for custom animations.
 - [Guora](https://github.com/meloalright/guora) - A self-hosted Quora like web application written in Go.
 - [GURL](https://github.com/matveynator/gurl) - When CURL says your SSL library is too old — use GURL. One file. Zero SSL dependencies.
 - [hoofli](https://github.com/dnnrly/hoofli) - Generate PlantUML diagrams from Chrome or Firefox network inspections.
