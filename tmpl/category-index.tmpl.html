@@ -42,8 +42,8 @@
     {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
-        "name": "{{.Title}} - Awesome Go",
-        "description": "{{.Description}}",
+        "name": "{{jsonEscape .Title}} - Awesome Go",
+        "description": "{{jsonEscape .Description}}",
         "url": "https://awesome-go.com/{{.Slug}}/",
         "isPartOf": {
             "@type": "WebSite",
@@ -62,7 +62,7 @@
                 {
                     "@type": "ListItem",
                     "position": 2,
-                    "name": "{{.Title}}"
+                    "name": "{{jsonEscape .Title}}"
                 }
             ]
         }
