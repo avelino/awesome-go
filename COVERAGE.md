@@ -1,15 +1,10 @@
 # Code Coverage
 
-While we recommend using one of the free websites available for monitoring code coverage
-during your continuous integration process, below is an example of how you can incorporate
-code coverage during the continuous integration process provided by github actions and 
-generate a code coverage report without one of those services.
+While we recommend using one of the free websites available for monitoring code coverage during your continuous integration process, below is an example of how you can incorporate code coverage during the continuous integration process provided by GitHub actions and generate a code coverage report without one of those services.
 
-This yaml file will run tests on multiple system configurations, but will produce
-a code coverage report on only one of those. It will then create a code coverage badge
-and add it to the README file.
+This `yaml` file will run tests on multiple system configurations, but will produce a code coverage report on only one of those. It will then create a code coverage badge and add it to the README file.
 
-This file should be put in the `.github/workflows` directory of your repo. 
+This file should be put in the `.github/workflows` directory of your repo:
 
 ```yaml
 name: Go  # The name of the workflow that will appear on Github

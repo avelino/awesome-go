@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+
+    <title>{{.Title}} - Awesome Go</title>
+    <meta name="description" content="{{.Description}} - Curated list of awesome Go {{.Title}} libraries and tools.">
+    <meta name="keywords" content="{{.Title}}, golang, go, awesome-go, go libraries">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{.Title}} - Awesome Go">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://awesome-go.com/{{.Slug}}/">
+    <meta property="og:image" content="https://awesome-go.com/assets/logo.png">
+    <meta property="og:description" content="{{.Description}} - Awesome Go">
+    <meta property="og:site_name" content="Awesome Go">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{.Title}} - Awesome Go">
+    <meta name="twitter:description" content="{{.Description}}">
+
+    <link rel="canonical" href="https://awesome-go.com/{{.Slug}}/">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/awesome-go.css">
+
+    <!-- Icons -->
+    <link rel="icon" href="/assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="/assets/favicon/manifest.json">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "{{.Title}} - Awesome Go",
+        "description": "{{.Description}}",
+        "url": "https://awesome-go.com/{{.Slug}}/",
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "Awesome Go",
+            "url": "https://awesome-go.com/"
+        },
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://awesome-go.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "{{.Title}}"
+                }
+            ]
+        }
+    }
+    </script>
+</head>
+<body>
+
+    <header class="site-header" role="banner">
+        <div class="header-inner">
+            <a href="/" class="header-brand" aria-label="Awesome Go home">
+                <img src="/assets/logo.png" alt="" width="30" height="30">
+                Awesome Go
+            </a>
+            <nav class="header-nav" role="navigation" aria-label="Main navigation">
+                <a href="/#contents">Categories</a>
+                <a href="https://github.com/avelino/awesome-go" rel="noopener" class="github-link">
+                    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                    GitHub
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="category-hero">
+        <div class="category-hero-inner">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <a href="/">Home</a>
+                <span class="breadcrumb-separator" aria-hidden="true">/</span>
+                <span aria-current="page">{{.Title}}</span>
+            </nav>
+
+            <div class="category-header">
+                <h1>{{.Title}}</h1>
+                <p>{{.Description}}</p>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div id="content">
+            <ul class="category-list">
+                {{range .Links}}
+                <li>
+                    {{if .ProjectSlug}}
+                    <a href="/{{$.Slug}}/{{.ProjectSlug}}/">{{.Description}}</a>
+                    {{else}}
+                    <a href="{{.URL}}?utm_campaign=awesomego&amp;utm_medium=referral&amp;utm_source=awesomego" rel="noopener nofollow">{{.Description}}</a>
+                    {{end}}
+                </li>
+                {{end}}
+            </ul>
+
+            <a href="/" class="back-link">&larr; All categories</a>
+        </div>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="footer-inner">
+            <div class="footer-links">
+                <a href="https://github.com/avelino/awesome-go" rel="noopener">GitHub</a>
+                <a href="https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md" rel="noopener">Contributing</a>
+                <a href="https://awesome-go.com/sitemap.xml">Sitemap</a>
+            </div>
+            <p class="footer-credit">Maintained by the <a href="https://github.com/avelino/awesome-go/graphs/contributors" rel="noopener">awesome-go community</a></p>
+        </div>
+    </footer>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DXZMLYYVYM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-DXZMLYYVYM');
+    </script>
+</body>
+</html>
