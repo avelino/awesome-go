@@ -3294,6 +3294,7 @@ _Libraries for version control._
 - [ggc](https://github.com/bmf-san/ggc) - A Git CLI tool with both traditional command-line and interactive incremental-search UI, workflow support, and configurable keybindings.
 - [git-courer](https://github.com/Alejandro-M-P/git-courer) - Local MCP server for Git operations using Ollama to save tokens and prevent secret leakage.
 - [git2go](https://github.com/libgit2/git2go) - Go bindings for libgit2.
+- [gitbrella](https://github.com/aliyilmazco/gitbrella) - Detect and repair the damage cloud sync (iCloud Drive, Dropbox, OneDrive, Google Drive, Syncthing) does to Git repositories.
 - [githooks](https://github.com/gabyx/githooks) - Per-repo and shared Git hooks with version control and auto update.
 - [gitty](https://github.com/Omibranch/gitty) - Single-binary Git/GitHub CLI that replaces add→commit→push with one command; human-readable syntax, no external dependencies.
 - [go-git](https://github.com/go-git/go-git) - highly extensible Git implementation in pure Go.
