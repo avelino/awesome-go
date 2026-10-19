@@ -4067,7 +4067,6 @@ _Add the group of your city/country here (send **PR**)_
 - [Go Forum](https://forum.golangbridge.org) - Forum to discuss Go.
 - [Go Projects](https://github.com/golang/go/wiki/Projects) - List of projects on the Go community wiki.
 - [Go Proverbs](https://go-proverbs.github.io/) - Go Proverbs by Rob Pike.
-- [Go Report Card](https://goreportcard.com) - A report card for your Go package.
 - [go.dev](https://go.dev/) - A hub for Go developers.
 - [gocryforhelp](https://github.com/ninedraft/gocryforhelp) - Collection of Go projects that needs help. Good place to start your open-source way in Go.
 - [Golang Developer Jobs](https://golangjob.xyz) - Developer Jobs exclusively for Golang related Roles.
