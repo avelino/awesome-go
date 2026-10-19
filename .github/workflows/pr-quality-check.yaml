@@ -12,32 +12,24 @@ jobs:
   detect:
     name: Detect PR type
     runs-on: ubuntu-latest
+    container: golang:1.27.2
     outputs:
       is_package_pr: ${{ steps.check.outputs.is_package_pr }}
     steps:
-      - name: Check if package entries are modified
+      # Base branch code only. The script reads the PR diff through the API and
+      # never checks out or runs anything from the PR.
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+
+      # Only PRs that add a new link to README.md are package PRs. Removals and
+      # formatting fixes skip the repository checks.
+      - name: Check if README.md adds package entries
         id: check
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          files=$(gh api repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files --jq '.[].filename' 2>/dev/null || echo "")
-          if echo "$files" | grep -q '^README.md$'; then
-            readme_patch=$(gh api repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files --jq '.[] | select(.filename == "README.md") | .patch // ""' 2>/dev/null || echo "")
-
-            # A pure reorder has the same package entries on both sides of the diff.
-            added_entries=$(printf '%s\n' "$readme_patch" | awk '/^\+- \[/{print substr($0, 2)}' | sort)
-            removed_entries=$(printf '%s\n' "$readme_patch" | awk '/^-- \[/{print substr($0, 2)}' | sort)
-            if [ -n "$added_entries" ] && [ "$added_entries" = "$removed_entries" ]; then
-              echo "is_package_pr=false" >> "$GITHUB_OUTPUT"
-              echo "README.md only reorders existing package entries — skipping quality checks"
-            else
-              echo "is_package_pr=true" >> "$GITHUB_OUTPUT"
-              echo "README.md changes package entries — this is a package PR"
-            fi
-          else
-            echo "is_package_pr=false" >> "$GITHUB_OUTPUT"
-            echo "README.md not modified — skipping quality checks"
-          fi
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: go run ./.github/scripts/detect-pr-type/
 
   quality:
     name: Repository quality checks
@@ -133,6 +125,6 @@ jobs:
           message: |
             ## Automated Quality Checks
 
-            **Skipped** — this PR does not modify `README.md`, so package quality checks do not apply.
+            **Skipped** — this PR does not add a new link to `README.md` (no README change, a removal, or a formatting fix), so package quality checks do not apply.
 
             _This is expected for maintenance, documentation, or workflow PRs._
