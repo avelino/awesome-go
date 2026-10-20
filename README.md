@@ -2441,6 +2441,7 @@ _Libraries for scientific computing and data analyzing._
 
 - [bradleyterry](https://github.com/seanhagen/bradleyterry) - Provides a Bradley-Terry Model for pairwise comparisons.
 - [calendarheatmap](https://github.com/nikolaydubina/calendarheatmap) - Calendar heatmap in plain Go inspired by Github contribution activity.
+- [capigraph](https://github.com/capillariesio/capigraph) - Go library for visualizing DAGs using Sugiyama-style (layered, hierarchical) tehcnique.
 - [chart](https://github.com/vdobler/chart) - Simple Chart Plotting library for Go. Supports many graphs types.
 - [dataframe-go](https://github.com/rocketlaunchr/dataframe-go) - Dataframes for machine-learning and statistics (similar to pandas).
 - [decimal](https://github.com/db47h/decimal) - Package decimal implements arbitrary-precision decimal floating-point arithmetic.
