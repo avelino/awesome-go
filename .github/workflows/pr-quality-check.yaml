@@ -58,7 +58,10 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          ref: ${{ github.event.pull_request.base.sha }}
+          # Run the scripts from the current base branch, not the PR's fork point.
+          # pull_request.base.sha does not follow main as it moves, so older PRs
+          # kept running checks that were already removed (e.g. Go Report Card).
+          ref: ${{ github.sha }}
           persist-credentials: false
           fetch-depth: 0
 
