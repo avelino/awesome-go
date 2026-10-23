@@ -1951,6 +1951,7 @@ _Libraries for working with Microsoft Excel._
 - [excelize](https://github.com/xuri/excelize) - Golang library for reading and writing Microsoft Excel&trade; (XLSX) files.
 - [exl](https://github.com/go-the-way/exl) - Excel binding to struct written in Go.(Only supports Go1.18+)
 - [go-excel](https://github.com/szyhf/go-excel) - A simple and light reader to read a relate-db-like excel as a table.
+- [go-xls](https://github.com/b0r1ssh/go-xls) - Reads legacy Microsoft Excel `.xls` (BIFF8) workbooks and streams worksheet rows.
 - [xlsx](https://github.com/tealeg/xlsx) - Library to simplify reading the XML format used by recent version of Microsoft Excel in Go programs.
 - [xlsx](https://github.com/plandem/xlsx) - Fast and safe way to read/update your existing Microsoft Excel files in Go programs.
 
