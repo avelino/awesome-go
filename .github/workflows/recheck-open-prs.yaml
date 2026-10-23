@@ -3,8 +3,9 @@ name: Re-check all open PRs
 on:
   workflow_dispatch:
 
+# Close/reopen uses the GH_TOKEN PAT below. GITHUB_TOKEN stays read-only
+# so this workflow cannot approve or mutate pull requests on its own.
 permissions:
-  pull-requests: write
   contents: read
 
 jobs:
