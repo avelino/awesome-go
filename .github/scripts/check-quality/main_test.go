@@ -83,8 +83,12 @@ func TestSetOutputMultilineLabels(t *testing.T) {
 	if err != nil {
 		t.Fatalf("ReadFile() error = %v", err)
 	}
-	want := "labels<<EOF\nneeds-coverage\nquality:ok\nEOF\n"
-	if string(data) != want {
-		t.Fatalf("GITHUB_OUTPUT = %q, want %q", string(data), want)
+	outputs, err := parseGitHubOutput(string(data))
+	if err != nil {
+		t.Fatalf("parseGitHubOutput() error = %v", err)
+	}
+	want := "needs-coverage\nquality:ok"
+	if outputs["labels"] != want {
+		t.Fatalf("outputs[\"labels\"] = %q, want %q", outputs["labels"], want)
 	}
 }
