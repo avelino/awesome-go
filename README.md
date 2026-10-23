@@ -390,8 +390,8 @@ _Libraries and tools help with build automation._
 - [gilbert](https://go-gilbert.github.io) - Build system and task runner for Go projects.
 - [gob](https://github.com/kcmvp/gob) - [Gradle](https://docs.gradle.org/)/[Maven](https://maven.apache.org/) like build tool for Go projects.
 - [goyek](https://github.com/goyek/goyek) - Create build pipelines in Go.
+- [grog](https://github.com/chrismatix/grog) - Language-agnostic monorepo build tool with caching and parallel execution.
 - [mage](https://github.com/magefile/mage) - Mage is a make/rake-like build tool using Go.
-- [mmake](https://github.com/tj/mmake) - Modern Make.
 - [realize](https://github.com/tockins/realize) - Go build a system with file watchers and live to reload. Run, build and watch file changes with custom paths.
 - [rex](https://github.com/rexrun-dev/rex) - Zero-config universal project runner. Detects your stack (Go, Node, Python, Rust, PHP, Zig, Elixir) and runs the right command.
 - [Task](https://github.com/go-task/task) - simple "Make" alternative.
