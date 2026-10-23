@@ -3133,6 +3133,7 @@ _General utilities and tools to make your life easier._
 - [gostrutils](https://github.com/ik5/gostrutils) - Collections of string manipulation and conversion functions.
 - [gotenv](https://github.com/subosito/gotenv) - Load environment variables from `.env` or any `io.Reader` in Go.
 - [goval](https://github.com/maja42/goval) - Evaluate arbitrary expressions in Go.
+- [graceful](https://github.com/parsaaftabi/graceful) - Production-grade HTTP server lifecycle for Go with sane timeout defaults, signal handling, in-flight request draining, and ordered shutdown hooks.
 - [graterm](https://github.com/skovtunenko/graterm) - Provides primitives to perform ordered (sequential/concurrent) GRAceful TERMination (aka shutdown) in Go application.
 - [grofer](https://github.com/pesos/grofer) - A system and resource monitoring tool written in Golang!
 - [gubrak](https://github.com/novalagung/gubrak) - Golang utility library with syntactic sugar. It's like lodash, but for golang.
