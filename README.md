@@ -2614,6 +2614,7 @@ _Libraries and tools for binary serialization._
 - [go-proxy-cache](https://github.com/fabiocicerchia/go-proxy-cache) - Simple Reverse Proxy with Caching, written in Go, using Redis.
 - [gondola](https://github.com/bmf-san/gondola) - A YAML based golang reverse proxy.
 - [goshs](https://github.com/patrickhener/goshs) - SimpleHTTPServer replacement with file upload/download, WebDAV, SFTP, SMB, TLS, authentication, and share links.
+- [kavach-engine](https://github.com/l72683876-beep/kavach-engine) - Booking and inventory HTTP engine that prevents overselling under high concurrency, with log-replay crash recovery, rate limiting and multi-node sharding.
 - [Kono](https://github.com/starwalkn/kono) - lightweight extendable API Gateway in Go - parallel fan-out, flexible aggregation, and zero configuration magic.
 - [lets-proxy2](https://github.com/rekby/lets-proxy2) - Reverse proxy for handle https with issue certificates in fly from lets-encrypt.
 - [minio](https://github.com/pgsty/minio) - Community Maintained Fork of minio (Object Storage Service).
