@@ -1148,6 +1148,7 @@ _Packages that help with building Distributed Systems._
 - [Temporal](https://github.com/temporalio/sdk-go) - Durable execution system for making code fault-tolerant and simple.
 - [torrent](https://github.com/anacrolix/torrent) - BitTorrent client package.
 - [trpc-go](https://github.com/trpc-group/trpc-go) - The Go language implementation of tRPC, which is a pluggable, high-performance RPC framework.
+- [ygo](https://github.com/Deln0r/ygo) - Pure Go port of the Yjs CRDT, wire-compatible with JavaScript yjs clients.
 
 **[⬆ back to top](#contents)**
 
