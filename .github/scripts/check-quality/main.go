@@ -24,11 +24,12 @@ import (
 )
 
 var (
-	reForgeLink  = regexp.MustCompile(`(?i)forge\s+link[^:]*:\s*(https?://(?:github\.com|gitlab\.com|bitbucket\.org)/\S+)`)
-	rePkgGoDev   = regexp.MustCompile(`(?i)pkg\.go\.dev:\s*(https?://pkg\.go\.dev/\S+)`)
-	reCoverage   = regexp.MustCompile(`(?i)coverage[^:]*:\s*(https?://(?:coveralls\.io|(?:app\.)?codecov\.io)/\S+)`)
-	reGithubRepo = regexp.MustCompile(`^https?://github\.com/([^/]+)/([^/]+?)(?:\.git)?/?$`)
-	reSemver     = regexp.MustCompile(`^v\d+\.\d+\.\d+`)
+	reForgeLink   = regexp.MustCompile(`(?i)forge\s+link[^:]*:\s*(https?://(?:github\.com|gitlab\.com|bitbucket\.org)/\S+)`)
+	rePkgGoDev    = regexp.MustCompile(`(?i)pkg\.go\.dev:\s*(https?://pkg\.go\.dev/\S+)`)
+	reCoverage    = regexp.MustCompile(`(?im)coverage.*:\s*(https?://(?:coveralls\.io|(?:app\.)?codecov\.io)/[^\s)<>]+)`)
+	reHTMLComment = regexp.MustCompile(`(?s)<!--.*?-->|-->`)
+	reGithubRepo  = regexp.MustCompile(`^https?://github\.com/([^/]+)/([^/]+?)(?:\.git)?/?$`)
+	reSemver      = regexp.MustCompile(`^v\d+\.\d+\.\d+`)
 )
 
 type prEvent struct {
@@ -187,11 +188,9 @@ func main() {
 		labels = append(labels, "quality:ok")
 	}
 
-	labelsJSON, _ := json.Marshal(labels)
-
 	setOutput("comment", comment)
 	setOutput("fail", boolStr(criticalFail))
-	setOutput("labels", string(labelsJSON))
+	setOutput("labels", strings.Join(labels, "\n"))
 }
 
 // --- Event reading ---
@@ -213,6 +212,7 @@ func readEvent() prEvent {
 // --- Regex helpers ---
 
 func captureMatch(s string, re *regexp.Regexp) string {
+	s = reHTMLComment.ReplaceAllString(s, "")
 	m := re.FindStringSubmatch(s)
 	if len(m) < 2 {
 		return ""
