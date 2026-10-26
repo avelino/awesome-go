@@ -15,7 +15,7 @@ jobs:
     name: Make and Deploy site
     runs-on: ubuntu-latest
     environment: netlify
-    container: golang:1.27.2
+    container: golang:1.27.3
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Get dependencies
