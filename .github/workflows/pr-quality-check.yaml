@@ -12,7 +12,7 @@ jobs:
   detect:
     name: Detect PR type
     runs-on: ubuntu-latest
-    container: golang:1.27.2
+    container: golang:1.27.3
     outputs:
       is_package_pr: ${{ steps.check.outputs.is_package_pr }}
     steps:
@@ -37,7 +37,7 @@ jobs:
     if: needs.detect.outputs.is_package_pr == 'true'
     runs-on: ubuntu-latest
     environment: action
-    container: golang:1.27.2
+    container: golang:1.27.3
     permissions:
       contents: read
       pull-requests: read
