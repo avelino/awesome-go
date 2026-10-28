@@ -3747,6 +3747,7 @@ _Software written in Go._
 
 ### Other Software
 
+- [agy-swap](https://github.com/aklkbqx/agy-swap) - TUI and CLI switcher for Google Antigravity accounts and live model quota.
 - [Backrest](https://github.com/garethgeorge/backrest) - Web-based UI and orchestrator for restic backup.
 - [Better Go Playground](https://goplay.tools) - Go playground with syntax highlight, code completion and other features.
 - [blocky](https://github.com/0xERR0R/blocky) - Fast and lightweight DNS proxy as ad-blocker for local network with many features.
