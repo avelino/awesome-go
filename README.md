@@ -3162,6 +3162,7 @@ _General utilities and tools to make your life easier._
 - [mimetype](https://github.com/gabriel-vasile/mimetype) - Package for MIME type detection based on magic numbers.
 - [minify](https://github.com/tdewolff/minify) - Fast minifiers for HTML, CSS, JS, XML, JSON and SVG file formats.
 - [minquery](https://github.com/icza/minquery) - MongoDB / mgo.v2 query that supports efficient pagination (cursors to continue listing documents where we left off).
+- [miro-cli](https://github.com/olgasafonova/miro-cli) - CLI for the Miro REST API with JSON output, dry-run mode, and a local SQLite mirror for offline board search.
 - [moldova](https://github.com/StabbyCutyou/moldova) - Utility for generating random data based on an input template.
 - [mole](https://github.com/davrodpin/mole) - cli app to easily create ssh tunnels.
 - [mongo-go-pagination](https://github.com/gobeam/mongo-go-pagination) - Mongodb Pagination for official mongodb/mongo-go-driver package which supports both normal queries and Aggregation pipelines.
