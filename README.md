@@ -3411,6 +3411,7 @@ _Full stack web frameworks._
 ### Routers
 
 - [alien](https://github.com/gernest/alien) - Lightweight and fast http router from outer space.
+- [apex](https://github.com/vroomy/apex) - High-performance, zero-allocation HTTP router with trie-based routing and SIMD-accelerated path matching.
 - [bellt](https://github.com/GuilhermeCaruso/bellt) - A simple Go HTTP router.
 - [Bone](https://github.com/go-zoo/bone) - Lightning Fast HTTP Multiplexer.
 - [Bxog](https://github.com/claygod/Bxog) - Simple and fast HTTP router for Go. It works with routes of varying difficulty, length and nesting. And he knows how to create a URL from the received parameters.
