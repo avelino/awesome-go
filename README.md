@@ -2977,6 +2977,7 @@ _Libraries for accessing third party APIs._
 - [goami2](https://github.com/staskobzar/goami2) - AMI v2 library for Asterisk PBX.
 - [GoFreeDB](https://github.com/FreeLeh/GoFreeDB) - Golang library providing common and simple database abstractions on top of Google Sheets.
 - [gogtrends](https://github.com/groovili/gogtrends) - Google Trends Unofficial API.
+- [goipa](https://github.com/neverlless/goipa) - Go client library for the [FreeIPA](https://www.freeipa.org/) JSON-RPC API.
 - [golang-tmdb](https://github.com/cyruzin/golang-tmdb) - Golang wrapper for The Movie Database API v3.
 - [golyrics](https://github.com/mamal72/golyrics) - Golyrics is a Go library to fetch music lyrics data from the Wikia website.
 - [gomalshare](https://github.com/MonaxGT/gomalshare) - Go library MalShare API [malshare.com](https://www.malshare.com/)
