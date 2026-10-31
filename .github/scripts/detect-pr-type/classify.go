@@ -1,6 +1,7 @@
 package main
 
 import (
+	"net/url"
 	"regexp"
 	"sort"
 	"strings"
@@ -79,7 +80,20 @@ func links(s string) []string {
 	return out
 }
 
-// normalizeLink makes cosmetic URL edits compare equal.
+// normalizeLink makes cosmetic URL edits compare equal without folding
+// case-sensitive paths, queries, or fragments.
 func normalizeLink(u string) string {
-	return strings.ToLower(strings.TrimRight(strings.TrimSpace(u), "/"))
+	u = strings.TrimRight(strings.TrimSpace(u), "/")
+	parsed, err := url.Parse(u)
+	if err != nil {
+		return u
+	}
+	parsed.Scheme = strings.ToLower(parsed.Scheme)
+	parsed.Host = strings.ToLower(parsed.Host)
+	// GitHub repository names are case-insensitive, unlike files within them.
+	if parsed.Hostname() == "github.com" && parsed.RawPath == "" &&
+		len(strings.Split(strings.Trim(parsed.Path, "/"), "/")) == 2 {
+		parsed.Path = strings.ToLower(parsed.Path)
+	}
+	return parsed.String()
 }
