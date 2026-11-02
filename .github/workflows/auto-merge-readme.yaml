@@ -39,7 +39,7 @@ jobs:
       github.repository == 'avelino/awesome-go' &&
       (github.event_name != 'workflow_run' || github.event.workflow_run.event == 'pull_request' || github.event.workflow_run.event == 'pull_request_target')
     runs-on: ubuntu-latest
-    container: golang:1.27.2
+    container: golang:1.27.3
     permissions:
       contents: write
       pull-requests: write

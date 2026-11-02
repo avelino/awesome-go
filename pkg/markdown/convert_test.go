@@ -55,3 +55,38 @@ and some list:</p>
 		t.Errorf("ToHTML() got = %v, want %v", string(got), string(expected))
 	}
 }
+
+// TestToHTMLSanitizesInlineHTML guards the allow-list: inline HTML in the source
+// is rendered, but scripts, event handlers and executable URL schemes are stripped.
+func TestToHTMLSanitizesInlineHTML(t *testing.T) {
+	input := []byte(`## headline
+
+<script>alert("xss")</script>
+
+<img src="https://example.local/x.png" onerror="alert(1)">
+
+<a href="javascript:alert(1)">executable</a>
+
+<a href="https://example.local/">safe</a>
+`)
+
+	got, err := ToHTML(input)
+	if err != nil {
+		t.Fatalf("ToHTML() error = %v", err)
+	}
+
+	for _, dangerous := range []string{"<script", "onerror", "javascript:"} {
+		if strings.Contains(string(got), dangerous) {
+			t.Errorf("ToHTML() kept %q in the output:\n%s", dangerous, got)
+		}
+	}
+
+	for _, want := range []string{
+		`<img src="https://example.local/x.png"`,
+		`<a href="https://example.local/">safe</a>`,
+	} {
+		if !strings.Contains(string(got), want) {
+			t.Errorf("ToHTML() dropped %q from the output:\n%s", want, got)
+		}
+	}
+}
