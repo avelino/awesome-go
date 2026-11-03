@@ -1992,6 +1992,7 @@ _Libraries for working with dependency injection._
 - [nject](https://github.com/muir/nject) - A type safe, reflective framework for libraries, tests, http endpoints, and service startup.
 - [ore](https://github.com/firasdarwish/ore) - Lightweight, generic & simple dependency injection (DI) container.
 - [parsley](https://github.com/matzefriedrich/parsley) - A flexible and modular reflection-based DI library with advanced features like scoped contexts and proxy generation, designed for large-scale Go applications.
+- [vessel](https://github.com/xraph/vessel) - Generics-based dependency injection container with constructor injection, value groups, scopes and service lifecycle management.
 - [wire](https://github.com/Fs02/wire) - Strict Runtime Dependency Injection for Golang.
 - [yama](https://github.com/livetribe/yama) - Compile-time dependency injection and lifecycle framework that generates start, quiesce, and stop code for Google Wire graphs.
 
