@@ -3417,6 +3417,7 @@ _Full stack web frameworks._
 - [FastRouter](https://github.com/razonyang/fastrouter) - a fast, flexible HTTP router written in Go.
 - [Fox](https://github.com/fox-toolkit/fox) - A high-performance HTTP router for building reverse proxies and API gateways, with first-class support for mutating routes at runtime.
 - [fursy](https://github.com/coregx/fursy) - HTTP router with type-safe generic handlers, automatic OpenAPI 3.1 generation from code, and RFC 9457 error responses.
+- [go-router](https://github.com/donseba/go-router) - Router on top of net/http's ServeMux with named routes, groups, mounts, host routing and middleware.
 - [goblin](https://github.com/bmf-san/goblin) - A golang http router based on trie tree.
 - [gocraft/web](https://github.com/gocraft/web) - Mux and middleware package in Go.
 - [Goji](https://github.com/goji/goji) - Goji is a minimalistic and flexible HTTP request multiplexer with support for `net/context`.
