@@ -909,6 +909,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [hasql](https://golang.yandex/hasql) - Library for accessing multi-host SQL database installations.
 - [octillery](https://github.com/knocknote/octillery) - Go package for sharding databases ( Supports every ORM or raw SQL ).
 - [onedump](https://github.com/liweiyi88/onedump) - Database backup from different drivers to different destinations with one command and configuration.
+- [mydml](https://github.com/jackiesre721/mydml) - Batch DELETE/UPDATE/INSERT_SELECT for MySQL with adaptive throttling and replication lag control.
 - [pg_timetable](https://github.com/cybertec-postgresql/pg_timetable) - Advanced scheduling for PostgreSQL.
 - [pgrwl](https://github.com/pgrwl/pgrwl) - Cloud-native continuous backup for PostgreSQL.
 - [pgwd](https://github.com/hrodrig/pgwd) - CLI that monitors PostgreSQL connection counts (total, active, idle, stale) and notifies via Slack and/or Loki when thresholds are exceeded. Supports Kubernetes (kubectl port-forward) and optional run context in notifications.
