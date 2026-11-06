@@ -1579,6 +1579,7 @@ _Interaction_
 _Libraries, tools, and tutorials for interacting with hardware._
 
 - [arduino-cli](https://github.com/arduino/arduino-cli) - Official Arduino CLI and library. Can run standalone, or be incorporated into larger Go projects.
+- [ctm](https://github.com/chicks-net/ctm) - Control Time Machines Corp. PoE network clocks from the command line: status, timers, colors, and brightness over UDP.
 - [emgo](https://github.com/ziutek/emgo) - Go-like language for programming embedded systems (e.g. STM32 MCU).
 - [ghw](https://github.com/jaypipes/ghw) - Golang hardware discovery/inspection library.
 - [go-osc](https://github.com/hypebeast/go-osc) - Open Sound Control (OSC) bindings for Go.
