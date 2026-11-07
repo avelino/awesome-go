@@ -1785,6 +1785,7 @@ _Libraries for generating and working with log files._
 - [noodlog](https://github.com/gyozatech/noodlog) - Parametrized JSON logging library which lets you obfuscate sensitive data and marshal any kind of content. No more printed pointers instead of values, nor escape chars for the JSON strings.
 - [onelog](https://github.com/francoispqt/onelog) - Onelog is a dead simple but very efficient JSON logger. It is the fastest JSON logger out there in all scenarios. Also, it is one of the logger with the lowest allocation.
 - [ozzo-log](https://github.com/go-ozzo/ozzo-log) - High performance logging supporting log severity, categorization, and filtering. Can send filtered log messages to various targets (e.g. console, network, mail).
+- [pattyGraph](https://github.com/jwminton/pattyGraph) - Real-time NGINX log processing engine with an interactive TUI, token-efficient JSONL state-interval output and a TypeScript companion (PattyView) for human-AI telemetry synchronization and summary incident reporting.
 - [phuslu/log](https://github.com/phuslu/log) - High performance structured logging.
 - [pp](https://github.com/k0kubun/pp) - Colored pretty printer for Go language.
 - [rollingwriter](https://github.com/arthurkiller/rollingWriter) - RollingWriter is an auto-rotate `io.Writer` implementation with multi policies to provide log file rotation.
