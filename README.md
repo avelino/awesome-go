@@ -739,6 +739,7 @@ additional ordered map implementations.
 - [dsu](https://github.com/ihebu/dsu) - Disjoint Set data structure implementation in Go.
 - [golang-set](https://github.com/deckarep/golang-set) - Thread-Safe and Non-Thread-Safe high-performance sets for Go.
 - [goset](https://github.com/zoumo/goset) - A useful Set collection implementation for Go.
+- [readyset](https://github.com/kastolars/readyset) - Generic sets, including sets of records identified by a key, with an opt-in thread-safe variant.
 - [set](https://github.com/StudioSol/set) - Simple set data structure implementation in Go using LinkedHashMap.
 
 ### Text Analysis
