@@ -1265,6 +1265,7 @@ _Libraries for handling files and file systems._
 - [fastwalk](https://github.com/charlievieth/fastwalk) - Fast parallel directory traversal library (used by [fzf](https://github.com/junegunn/fzf)).
 - [flop](https://github.com/homedepot/flop) - File operations library which aims to mirror feature parity with [GNU cp](https://www.gnu.org/software/coreutils/manual/html_node/cp-invocation.html).
 - [gdu](https://github.com/dundee/gdu) - Disk usage analyzer with console interface.
+- [go-cabinet](https://github.com/abemedia/go-cabinet) - Read, write and extract Microsoft Cabinet (.cab) files, with MSZIP and LZX compression and io/fs support.
 - [go-csv-tag](https://github.com/artonge/go-csv-tag) - Load csv file using tag.
 - [go-decent-copy](https://github.com/hugocarreira/go-decent-copy) - Copy files for humans.
 - [go-exiftool](https://github.com/barasher/go-exiftool) - Go bindings for ExifTool, the well-known library used to extract as much metadata as possible (EXIF, IPTC, ...) from files (pictures, PDF, office, ...).
