@@ -745,23 +745,18 @@ func renderProjects(projects []*Project) error {
 
 		projectFile := filepath.Join(projectDir, "index.html")
 
-		buf := bytes.NewBuffer(nil)
-		if err := tpl.Lookup("project.tmpl.html").Execute(buf, p); err != nil {
-			return fmt.Errorf("render project %s: %w", p.Slug, err)
-		}
-
-		doc, err := goquery.NewDocumentFromReader(buf)
+		f, err := os.Create(projectFile)
 		if err != nil {
-			return fmt.Errorf("goquery for project %s: %w", p.Slug, err)
+			return fmt.Errorf("create project file %s: %w", projectFile, err)
 		}
 
-		html, err := doc.Html()
-		if err != nil {
-			return fmt.Errorf("html for project %s: %w", p.Slug, err)
+		renderErr := tpl.Lookup("project.tmpl.html").Execute(f, p)
+		closeErr := f.Close()
+		if renderErr != nil {
+			return fmt.Errorf("render project %s: %w", p.Slug, renderErr)
 		}
-
-		if err := os.WriteFile(projectFile, []byte(html), 0644); err != nil {
-			return fmt.Errorf("write project file %s: %w", p.Slug, err)
+		if closeErr != nil {
+			return fmt.Errorf("close project file %s: %w", projectFile, closeErr)
 		}
 	}
 
