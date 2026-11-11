@@ -3747,6 +3747,7 @@ _Software written in Go._
 
 - [Backrest](https://github.com/garethgeorge/backrest) - Web-based UI and orchestrator for restic backup.
 - [Better Go Playground](https://goplay.tools) - Go playground with syntax highlight, code completion and other features.
+- [bitmagnet](https://github.com/bitmagnet-io/bitmagnet) - Self-hosted BitTorrent indexer, DHT crawler, and torrent search engine.
 - [blocky](https://github.com/0xERR0R/blocky) - Fast and lightweight DNS proxy as ad-blocker for local network with many features.
 - [bluetuith](https://github.com/bluetuith-org/bluetuith) - TUI Bluetooth manager for Linux.
 - [borg](https://github.com/crufter/borg) - Terminal based search engine for bash snippets.
