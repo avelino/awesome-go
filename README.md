@@ -2761,6 +2761,7 @@ _Libraries for testing codebases and generating test data._
 
 ### Mock
 
+- [auth0-mock](https://github.com/sergiught/auth0-mock) - Mock Auth0 server for tests and local development, with signed JWTs, OIDC login flows and the Management API.
 - [counterfeiter](https://github.com/maxbrunsfeld/counterfeiter) - Tool for generating self-contained mock objects.
 - [fabricator](https://github.com/Goldziher/fabricator) - Type-safe factories for generating mock and fake data in Go, inspired by factory_boy and interface-forge.
 - [genmock](https://gitlab.com/so_literate/genmock) - Go mocking system with code generator for building calls of the interface methods.
