@@ -3047,6 +3047,7 @@ _General utilities and tools to make your life easier._
 - [bleep](https://github.com/sinhashubham95/bleep) - Perform any number of actions on any set of OS signals in Go.
 - [boilr](https://github.com/tmrts/boilr) - Blazingly fast CLI tool for creating projects from boilerplate templates.
 - [boring](https://github.com/alebeck/boring) - Simple command-line SSH tunnel manager.
+- [cast](https://github.com/spf13/cast) - Safe and easy casting from one type to another in Go.
 - [changie](https://github.com/miniscruff/changie) - Automated changelog tool for preparing releases with lots of customization options.
 - [chyle](https://github.com/antham/chyle) - Changelog generator using a git repository with multiple configuration possibilities.
 - [circuit](https://github.com/cep21/circuit) - An efficient and feature complete Hystrix like Go implementation of the circuit breaker pattern.
