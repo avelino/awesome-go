@@ -967,6 +967,7 @@ _Libraries for building and using SQL._
 ### Interfaces to Multiple Backends
 
 - [cayley](https://github.com/google/cayley) - Graph database with support for multiple backends.
+- [dalgo](https://github.com/dal-go/dalgo) - Database abstraction layer with one API for records, queries and transactions across SQL and NoSQL backends, including Firestore, SQLite, filesystem and in-memory adapters.
 - [dsc](https://github.com/viant/dsc) - Datastore connectivity for SQL, NoSQL, structured files.
 - [dynamo](https://github.com/fogfish/dynamo) - A simple key-value abstraction to store algebraic and linked-data data types at AWS storage services: AWS DynamoDB and AWS S3.
 - [go-transaction-manager](https://github.com/avito-tech/go-transaction-manager) - Transaction manager with multiple adapters (sql, sqlx, gorm, mongo, ...) controls transaction boundaries.
