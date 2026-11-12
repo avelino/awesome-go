@@ -3712,6 +3712,7 @@ _Software written in Go._
 - [mq-studio](https://github.com/amigoer/mq-studio) - Cross-platform desktop client for managing and monitoring RocketMQ, RabbitMQ, Kafka, Pulsar, Redis Stream, MQTT, NATS, and ActiveMQ clusters.
 - [ostent](https://github.com/ostrost/ostent) - collects and displays system metrics and optionally relays to Graphite and/or InfluxDB.
 - [Packer](https://github.com/mitchellh/packer) - Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.
+- [pattyGraph](https://github.com/jwminton/pattyGraph) - Real-time NGINX log analyzer with an interactive TUI and JSONL output.
 - [Pewpew](https://github.com/bengadbois/pewpew) - Flexible HTTP command line stress tester.
 - [pingtower](https://github.com/crleonard/pingtower) - Lightweight self-hosted uptime monitor for websites and APIs.
 - [PipeCD](https://github.com/pipe-cd/pipecd) - A GitOps-style continuous delivery platform that provides consistent deployment and operations experience for any applications.
