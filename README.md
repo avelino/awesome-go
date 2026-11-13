@@ -2734,6 +2734,7 @@ _Libraries for testing codebases and generating test data._
 - [godog](https://github.com/cucumber/godog) - Cucumber BDD framework for Go.
 - [gofight](https://github.com/appleboy/gofight) - API Handler Testing for Golang Router framework.
 - [gogiven](https://github.com/corbym/gogiven) - YATSPEC-like BDD testing framework for Go.
+- [goleak](https://github.com/uber-go/goleak) - Goroutine leak detector to avoid leaks in concurrent code.
 - [gomatch](https://github.com/jfilipczyk/gomatch) - library created for testing JSON against patterns.
 - [gomega](https://onsi.github.io/gomega/) - Rspec like matcher/assertion library.
 - [gospecify](https://github.com/stesla/gospecify) - This provides a BDD syntax for testing your Go code. It should be familiar to anybody who has used libraries such as rspec.
