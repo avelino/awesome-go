@@ -552,6 +552,7 @@ _Libraries for configuration parsing._
 - [go-cfg](https://github.com/dsbasko/go-cfg) - The library provides a unified way to read configuration data into a structure from various sources, such as env, flags, and configuration files (.json, .yaml, .toml, .env).
 - [go-conf](https://github.com/ThomasObenaus/go-conf) - Simple library for application configuration based on annotated structs. It supports reading the configuration from environment variables, config files and command line parameters.
 - [go-config](https://github.com/MordaTeam/go-config) - Simple and convenient library for working with app configurations.
+- [go-env](https://github.com/Netflix/go-env) - Manage environment variables into Go structures.
 - [go-external-config](https://github.com/go-external-config/go) - Spring-inspired configuration management library for Go.
 - [go-external-config/aws](https://github.com/go-external-config/aws) - AWS property source support for go-external-config.
 - [go-external-config/consul](https://github.com/go-external-config/consul) - Consul property source support for go-external-config.
