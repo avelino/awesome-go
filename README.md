@@ -3741,6 +3741,7 @@ _Software written in Go._
 - [tickstem/uptime](https://github.com/tickstem/uptime) - Go client for HTTP uptime monitoring with SSL expiry alerts and configurable response assertions.
 - [tlm](https://github.com/yusufcanb/tlm) - Local cli copilot, powered by CodeLLaMa
 - [traefik](https://github.com/containous/traefik) - Reverse proxy and load balancer with support for multiple backends.
+- [trivy](https://github.com/aquasecurity/trivy) - Vulnerability and security scanner for containers and other artifacts.
 - [trubka](https://github.com/xitonix/trubka) - A CLI tool to manage and troubleshoot Apache Kafka clusters with the ability of generically publishing/consuming protocol buffer and plain text events to/from Kafka.
 - [Updatecli](https://github.com/updatecli/updatecli) - A universal declarative update policy engine.
 - [uTask](https://github.com/ovh/utask) - Automation engine that models and executes business processes declared in yaml.
