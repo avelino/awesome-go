@@ -3714,6 +3714,7 @@ _Software written in Go._
 - [Moby](https://github.com/moby/moby) - Collaborative project for the container ecosystem to assemble container-based systems.
 - [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data.
 - [mq-studio](https://github.com/amigoer/mq-studio) - Cross-platform desktop client for managing and monitoring RocketMQ, RabbitMQ, Kafka, Pulsar, Redis Stream, MQTT, NATS, and ActiveMQ clusters.
+- [nightingale](https://github.com/ccfos/nightingale) - Self-hosted monitoring and alerting platform for metrics, logs, and databases.
 - [ostent](https://github.com/ostrost/ostent) - collects and displays system metrics and optionally relays to Graphite and/or InfluxDB.
 - [Packer](https://github.com/mitchellh/packer) - Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.
 - [pattyGraph](https://github.com/jwminton/pattyGraph) - Real-time NGINX log analyzer with an interactive TUI and JSONL output.
