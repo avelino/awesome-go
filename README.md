@@ -417,6 +417,7 @@ _Libraries for building Console Applications and Console User Interfaces._
 - [eyez](https://github.com/tech-thinker/eyez) - eyez is a handy CLI tool that lets you view images directly in your terminal, with support for most terminal emulators.
 - [fx](https://github.com/antonmedv/fx) - Terminal JSON viewer & processor.
 - [glamour](https://github.com/charmbracelet/glamour) - Stylesheet-based markdown rendering for terminal applications.
+- [glow](https://github.com/charmbracelet/glow) - Terminal-based markdown reader designed for the CLI.
 - [go-ataman](https://github.com/workanator/go-ataman) - Go library for rendering ANSI colored text templates in terminals.
 - [go-colorable](https://github.com/mattn/go-colorable) - Colorable writer for windows.
 - [go-colortext](https://github.com/daviddengcn/go-colortext) - Go library for color output in terminals.
