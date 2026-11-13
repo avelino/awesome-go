@@ -829,6 +829,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [diskv](https://github.com/peterbourgon/diskv) - Home-grown disk-backed key-value store.
 - [dolt](https://github.com/dolthub/dolt) - Dolt – It's Git for Data.
 - [eliasdb](https://github.com/krotik/eliasdb) - Dependency-free, transactional graph database with REST API, phrase search and SQL-like query language.
+- [fraise](https://github.com/FraiseHQ/fraise) - Memory database for AI agents with a two-verb query language (remember/recall), hybrid full-text, graph, and vector retrieval, and recency-aware ranking. Single binary, zero dependencies.
 - [gedb](https://github.com/vinicius-lino-figueiredo/gedb) - MongoDB-like embedded database, written in pure-go. Supports indexing and complex queries.
 - [go-sqlite](https://github.com/glebarez/go-sqlite) – A Pure Golang implemented SQLite driver without CGO.
 - [godis](https://github.com/hdt3213/godis) - A Golang implemented high-performance Redis server and cluster.
