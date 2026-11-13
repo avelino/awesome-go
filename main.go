@@ -15,7 +15,6 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-	"text/template"
 	"time"
 
 	"github.com/avelino/awesome-go/pkg/markdown"
@@ -88,8 +87,8 @@ var staticFiles = []string{
 //go:embed tmpl/*.tmpl.html tmpl/*.tmpl.xml
 var tplFs embed.FS
 
-var tpl = template.Must(
-	template.New("").Funcs(template.FuncMap{
+var tpl = template2.Must(
+	template2.New("").Funcs(template2.FuncMap{
 		"now": func() string { return time.Now().Format("2006-01-02") },
 		"jsonEscape": func(s string) string {
 			b, _ := json.Marshal(s)
@@ -97,6 +96,18 @@ var tpl = template.Must(
 				return ""
 			}
 			return string(b[1 : len(b)-1])
+		},
+		"safeHTML": func(v interface{}) template2.HTML {
+			switch s := v.(type) {
+			case []byte:
+				return template2.HTML(s)
+			case string:
+				return template2.HTML(s)
+			case template2.HTML:
+				return s
+			default:
+				return template2.HTML(fmt.Sprint(v))
+			}
 		},
 	}).ParseFS(tplFs, "tmpl/*.tmpl.html", "tmpl/*.tmpl.xml"),
 )

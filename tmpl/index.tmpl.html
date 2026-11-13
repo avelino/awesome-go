@@ -77,7 +77,7 @@
 
     <main>
         <div id="content">
-            {{.Body}}
+            {{.Body | safeHTML}}
         </div>
     </main>
 
