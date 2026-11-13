@@ -1605,6 +1605,7 @@ _Libraries for manipulating images._
 - [color-extractor](https://github.com/marekm4/color-extractor) - Dominant color extractor with no external dependencies.
 - [darkroom](https://github.com/gojek/darkroom) - An image proxy with changeable storage backends and image processing engines with focus on speed and resiliency.
 - [eagle-image-api](https://github.com/nicobistolfi/eagle-image-api) - Image optimization and transformation API using libvips, deployable to AWS Lambda and CloudFront.
+- [freeze](https://github.com/charmbracelet/freeze) - Generate images of code and terminal output.
 - [geopattern](https://github.com/pravj/geopattern) - Create beautiful generative image patterns from a string.
 - [gg](https://github.com/fogleman/gg) - 2D rendering in pure Go.
 - [gift](https://github.com/disintegration/gift) - Package of image processing filters.
