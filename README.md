@@ -1871,6 +1871,7 @@ _Libraries for Machine Learning._
 - [shield](https://github.com/eaigner/shield) - Bayesian text classifier with flexible tokenizers and storage backends for Go.
 - [tfgo](https://github.com/galeone/tfgo) - Easy to use Tensorflow bindings: simplifies the usage of the official Tensorflow Go bindings. Define computational graphs in Go, load and execute models trained in Python.
 - [Varis](https://github.com/Xamber/Varis) - Golang Neural Network.
+- [welvet](https://github.com/openfluke/welvet) - Multi-backend AI engine for running, training, and benchmarking neural networks with WebGPU, SIMD, and C++ support.
 
 **[⬆ back to top](#contents)**
 
