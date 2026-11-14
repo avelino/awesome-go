@@ -3233,6 +3233,7 @@ _General utilities and tools to make your life easier._
 - [tik](https://github.com/andy2046/tik) - Simple and easy timing wheel package for Go.
 - [tome](https://github.com/cyruzin/tome) - Tome was designed to paginate simple RESTful APIs.
 - [toolbox](https://github.com/viant/toolbox) - Slice, map, multimap, struct, function, data conversion utilities. Service router, macro evaluator, tokenizer.
+- [topic](https://github.com/yurirocha15/topic) - Top-like terminal monitor for containers that shows CPU, memory, GPU and process usage against the container's cgroup limits.
 - [UNIS](https://github.com/esemplastic/unis) - Common Architecture™ for String Utilities in Go.
 - [upterm](https://github.com/owenthereal/upterm) - A tool for developers to share terminal/tmux sessions securely over the web. It’s perfect for remote pair programming, accessing computers behind NATs/firewalls, remote debugging, and more.
 - [usql](https://github.com/knq/usql) - usql is a universal command-line interface for SQL databases.
