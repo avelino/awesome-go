@@ -1,6 +1,7 @@
 package markdown
 
 import (
+	"html/template"
 	"strings"
 	"testing"
 )
@@ -88,5 +89,30 @@ func TestToHTMLSanitizesInlineHTML(t *testing.T) {
 		if !strings.Contains(string(got), want) {
 			t.Errorf("ToHTML() dropped %q from the output:\n%s", want, got)
 		}
+	}
+}
+
+// TestToHTMLIsTrustedByHTMLTemplate checks that the sanitized output is already
+// template.HTML, so html/template emits it verbatim instead of escaping it again.
+func TestToHTMLIsTrustedByHTMLTemplate(t *testing.T) {
+	got, err := ToHTML([]byte("[safe](https://example.local/) <script>alert(1)</script>"))
+	if err != nil {
+		t.Fatalf("ToHTML() error = %v", err)
+	}
+
+	var out strings.Builder
+	tpl := template.Must(template.New("body").Parse("{{.Body}}"))
+	if err := tpl.Execute(&out, map[string]any{"Body": got}); err != nil {
+		t.Fatalf("Execute() error = %v", err)
+	}
+
+	if out.String() != string(got) {
+		t.Errorf("template re-escaped the body:\n got %s\nwant %s", out.String(), got)
+	}
+	if !strings.Contains(out.String(), `<a href="https://example.local/">safe</a>`) {
+		t.Errorf("link was not rendered as markup: %s", out.String())
+	}
+	if strings.Contains(out.String(), "<script") {
+		t.Errorf("sanitizer let a script through: %s", out.String())
 	}
 }
