@@ -42,8 +42,8 @@
     {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
-        "name": "{{jsonEscape .Title}}",
-        "description": "{{jsonEscape .Description}}",
+        "name": "{{.Title}}",
+        "description": "{{.Description}}",
         "url": "https://awesome-go.com/{{.CategorySlug}}/{{.Slug}}/",
         "applicationCategory": "DeveloperApplication",
         "operatingSystem": "Cross-platform",
@@ -65,13 +65,13 @@
                 {
                     "@type": "ListItem",
                     "position": 2,
-                    "name": "{{jsonEscape .CategoryTitle}}",
+                    "name": "{{.CategoryTitle}}",
                     "item": "https://awesome-go.com/{{.CategorySlug}}/"
                 },
                 {
                     "@type": "ListItem",
                     "position": 3,
-                    "name": "{{jsonEscape .Title}}"
+                    "name": "{{.Title}}"
                 }
             ]
         }

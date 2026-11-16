@@ -5,9 +5,10 @@ import (
 	"bytes"
 	"embed"
 	"encoding/json"
+	"encoding/xml"
 	"errors"
 	"fmt"
-	template2 "html/template"
+	"html/template"
 	"io"
 	"log"
 	"net/http"
@@ -15,7 +16,7 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-	"text/template"
+	texttemplate "text/template"
 	"time"
 
 	"github.com/avelino/awesome-go/pkg/markdown"
@@ -88,18 +89,29 @@ var staticFiles = []string{
 //go:embed tmpl/*.tmpl.html tmpl/*.tmpl.xml
 var tplFs embed.FS
 
-var tpl = template.Must(
-	template.New("").Funcs(template.FuncMap{
+// HTML pages are parsed with html/template so values taken from README.md are
+// escaped for the context (text, attribute, URL, script) they are written to.
+var tpl = template.Must(template.ParseFS(tplFs, "tmpl/*.tmpl.html"))
+
+// The sitemap is kept out of the html/template set: html/template reads the XML
+// declaration as a bogus HTML comment and would not emit it as is, which makes
+// the file invalid XML. The `xml` func escapes every interpolated value.
+var sitemapTpl = texttemplate.Must(
+	texttemplate.New("sitemap.tmpl.xml").Funcs(texttemplate.FuncMap{
 		"now": func() string { return time.Now().Format("2006-01-02") },
-		"jsonEscape": func(s string) string {
-			b, _ := json.Marshal(s)
-			if len(b) < 2 {
-				return ""
-			}
-			return string(b[1 : len(b)-1])
-		},
-	}).ParseFS(tplFs, "tmpl/*.tmpl.html", "tmpl/*.tmpl.xml"),
+		"xml": escapeXML,
+	}).ParseFS(tplFs, "tmpl/sitemap.tmpl.xml"),
 )
+
+// escapeXML escapes s for use as XML character data.
+func escapeXML(s string) (string, error) {
+	var buf strings.Builder
+	if err := xml.EscapeText(&buf, []byte(s)); err != nil {
+		return "", err
+	}
+
+	return buf.String(), nil
+}
 
 // Output files
 const outDir = "out/" // NOTE: trailing slash is required
@@ -213,31 +225,39 @@ func renderCategories(categories map[string]Category) error {
 		categoryIndexFilename := filepath.Join(categoryDir, "index.html")
 		fmt.Printf("Write category Index file: %s\n", categoryIndexFilename)
 
-		buf := bytes.NewBuffer(nil)
-		if err := tpl.Lookup("category-index.tmpl.html").Execute(buf, category); err != nil {
+		html, err := renderCategory(category)
+		if err != nil {
 			return fmt.Errorf("render category `%s`: %w", categoryDir, err)
 		}
 
-		// Sanitize HTML. This is not necessary, but allows to have content
-		// of all html files in same style.
-		{
-			doc, err := goquery.NewDocumentFromReader(buf)
-			if err != nil {
-				return fmt.Errorf("create goquery instance for `%s`: %w", categoryDir, err)
-			}
-
-			html, err := doc.Html()
-			if err != nil {
-				return fmt.Errorf("render goquery html for `%s`: %w", categoryDir, err)
-			}
-
-			if err := os.WriteFile(categoryIndexFilename, []byte(html), 0644); err != nil {
-				return fmt.Errorf("write category file `%s`: %w", categoryDir, err)
-			}
+		if err := os.WriteFile(categoryIndexFilename, []byte(html), 0644); err != nil {
+			return fmt.Errorf("write category file `%s`: %w", categoryDir, err)
 		}
 	}
 
 	return nil
+}
+
+// renderCategory renders the category page and normalizes it through goquery.
+func renderCategory(category Category) (string, error) {
+	buf := bytes.NewBuffer(nil)
+	if err := tpl.Lookup("category-index.tmpl.html").Execute(buf, category); err != nil {
+		return "", err
+	}
+
+	// Sanitize HTML. This is not necessary, but allows to have content
+	// of all html files in same style.
+	doc, err := goquery.NewDocumentFromReader(buf)
+	if err != nil {
+		return "", fmt.Errorf("create goquery instance: %w", err)
+	}
+
+	html, err := doc.Html()
+	if err != nil {
+		return "", fmt.Errorf("render goquery html: %w", err)
+	}
+
+	return html, nil
 }
 
 func renderSitemap(categories map[string]Category, projects []*Project) error {
@@ -248,16 +268,26 @@ func renderSitemap(categories map[string]Category, projects []*Project) error {
 
 	fmt.Printf("Render Sitemap to: %s\n", outSitemapFile)
 
+	renderErr := writeSitemap(f, categories, projects)
+	closeErr := f.Close()
+	if renderErr != nil {
+		return fmt.Errorf("render sitemap: %w", renderErr)
+	}
+	if closeErr != nil {
+		return fmt.Errorf("close sitemap file `%s`: %w", outSitemapFile, closeErr)
+	}
+
+	return nil
+}
+
+// writeSitemap renders the sitemap template to w.
+func writeSitemap(w io.Writer, categories map[string]Category, projects []*Project) error {
 	data := SitemapData{
 		Categories: categories,
 		Projects:   projects,
 	}
 
-	if err := tpl.Lookup("sitemap.tmpl.xml").Execute(f, data); err != nil {
-		return fmt.Errorf("render sitemap: %w", err)
-	}
-
-	return nil
+	return sitemapTpl.Execute(w, data)
 }
 
 func extractCategories(doc *goquery.Document) (map[string]Category, error) {
@@ -410,6 +440,7 @@ func renderIndex(srcFilename, outFilename string) error {
 		return err
 	}
 
+	// body is already sanitized and typed as template.HTML by pkg/markdown.
 	body, err := markdown.ToHTML(input)
 	if err != nil {
 		return err
@@ -422,7 +453,7 @@ func renderIndex(srcFilename, outFilename string) error {
 
 	fmt.Printf("Write Index file: %s\n", outIndexFile)
 	data := map[string]interface{}{
-		"Body": template2.HTML(body),
+		"Body": body,
 	}
 	if err := tpl.Lookup("index.tmpl.html").Execute(f, data); err != nil {
 		return err
@@ -736,6 +767,11 @@ func fetchGitLabMeta(client *http.Client, projectURL string) *RepoMeta {
 	}
 }
 
+// renderProject renders the project page to w.
+func renderProject(w io.Writer, p *Project) error {
+	return tpl.Lookup("project.tmpl.html").Execute(w, p)
+}
+
 func renderProjects(projects []*Project) error {
 	for _, p := range projects {
 		projectDir := filepath.Join(outDir, p.CategorySlug, p.Slug)
@@ -750,7 +786,7 @@ func renderProjects(projects []*Project) error {
 			return fmt.Errorf("create project file %s: %w", projectFile, err)
 		}
 
-		renderErr := tpl.Lookup("project.tmpl.html").Execute(f, p)
+		renderErr := renderProject(f, p)
 		closeErr := f.Close()
 		if renderErr != nil {
 			return fmt.Errorf("render project %s: %w", p.Slug, renderErr)
