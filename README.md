@@ -3351,7 +3351,7 @@ _Full stack web frameworks._
 - [Beego](https://github.com/beego/beego) - beego is an open-source, high-performance web framework for the Go programming language.
 - [BunGo](https://github.com/piotr-nierobisz/BunGo) - Full-stack framework pairing Go handlers with React (JSX/TSX) views compiled by an embedded esbuild, with no Node.js toolchain required.
 - [Confetti Framework](https://confetti-framework.github.io/docs/) - Confetti is a Go web application framework with an expressive, elegant syntax. Confetti combines the elegance of Laravel and the simplicity of Go.
-- [Datapages](https://github.com/romshark/datapages) - A Templ + Datastar web frontend framework.
+- [Datapages](https://github.com/romshark/datapages) - A Templ + Datastar web frontend meta-framework, code generator and linter.
 - [Don](https://github.com/abemedia/go-don) - A highly performant and simple to use API framework.
 - [doors](https://github.com/doors-dev/doors) - Server-driven framework for building stateful, reactive web applications entirely in Go.
 - [Echo](https://github.com/labstack/echo) - High performance, minimalist Go web framework.
