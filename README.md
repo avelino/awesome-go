@@ -1912,6 +1912,7 @@ _Libraries that implement messaging systems._
 - [GoEventBus](https://github.com/Raezil/GoEventBus) - A blazing‑fast, in‑memory, lock‑free event bus library
 - [Gollum](https://github.com/trivago/gollum) - A n:m multiplexer that gathers messages from different sources and broadcasts them to a set of destinations.
 - [golongpoll](https://github.com/jcuga/golongpoll) - HTTP longpoll server library that makes web pub-sub simple.
+- [goncordia](https://github.com/kirimatt/goncordia) - Background job queue on Postgres, MySQL, SQLite, MongoDB, Redis, DynamoDB, Firestore, Cassandra, or ClickHouse, with transactional enqueue and typed futures to await job results.
 - [gopush-cluster](https://github.com/Terry-Mao/gopush-cluster) - gopush-cluster is a go push server cluster.
 - [gorush](https://github.com/appleboy/gorush) - Push notification server using [APNs2](https://github.com/sideshow/apns2) and google [GCM](https://github.com/google/go-gcm).
 - [gosd](https://github.com/alexsniffin/gosd) - A library for scheduling when to dispatch a message to a channel.
