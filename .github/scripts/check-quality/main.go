@@ -8,13 +8,15 @@
 //   - Repository age >= 5 months
 //   - CI/CD (GitHub Actions) configured
 //   - README exists
-//   - Go Report Card grade A- or better
 //   - pkg.go.dev page reachable
 //   - Coverage link reachable
 package main
 
 import (
+	"crypto/rand"
+	"encoding/hex"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"net/http"
@@ -27,9 +29,7 @@ import (
 var (
 	reForgeLink  = regexp.MustCompile(`(?i)forge\s+link[^:]*:\s*(https?://(?:github\.com|gitlab\.com|bitbucket\.org)/\S+)`)
 	rePkgGoDev   = regexp.MustCompile(`(?i)pkg\.go\.dev:\s*(https?://pkg\.go\.dev/\S+)`)
-	reGoReport   = regexp.MustCompile(`(?i)goreportcard\.com:\s*(https?://goreportcard\.com/\S+)`)
 	reCoverage   = regexp.MustCompile(`(?i)coverage[^:]*:\s*(https?://(?:coveralls\.io|(?:app\.)?codecov\.io)/\S+)`)
-	reGrade      = regexp.MustCompile(`(?i)Grade:\s*([A-F][+-]?)`)
 	reGithubRepo = regexp.MustCompile(`^https?://github\.com/([^/]+)/([^/]+?)(?:\.git)?/?$`)
 	reSemver     = regexp.MustCompile(`^v\d+\.\d+\.\d+`)
 )
@@ -67,7 +67,6 @@ func main() {
 
 	forgeLink := captureMatch(body, reForgeLink)
 	pkgLink := captureMatch(body, rePkgGoDev)
-	gorepLink := captureMatch(body, reGoReport)
 	covLink := captureMatch(body, reCoverage)
 
 	var (
@@ -76,7 +75,6 @@ func main() {
 		criticalFail bool
 		repoOk       bool
 		pkgOk        bool
-		gorepOk      bool
 		coverageOk   bool
 		labels       []string
 	)
@@ -147,35 +145,6 @@ func main() {
 		pkgOk = true
 	}
 
-	// --- Go Report Card ---
-	if gorepLink == "" {
-		critical = append(critical, icon(false)+" **Go Report Card**: missing from PR body")
-		if forgeLink != "" {
-			critical = append(critical, fix("Add the following to your PR description:", fmt.Sprintf("```\ngoreportcard.com: https://goreportcard.com/report/%s\n```", strings.TrimPrefix(strings.TrimPrefix(forgeLink, "https://"), "http://"))))
-		} else {
-			critical = append(critical, fix("Add the following to your PR description:", "```\ngoreportcard.com: https://goreportcard.com/report/github.com/your-org/your-project\n```"))
-		}
-		criticalFail = true
-	} else {
-		grade, ok := checkGoReportCard(gorepLink)
-		if !ok {
-			critical = append(critical, fmt.Sprintf("%s **Go Report Card**: %s", icon(false), grade))
-			if grade == "unreachable" || grade == "fetch error" {
-				critical = append(critical, fix("The Go Report Card page could not be reached.", "Visit https://goreportcard.com and generate a report for your project. Then add the correct link to your PR body."))
-			} else {
-				critical = append(critical, fix(fmt.Sprintf("Your project received grade **%s** — minimum required is **A-**.", grade), "Run `gofmt -s -w .` to fix formatting, `go vet ./...` to fix vet issues, and review the report at "+gorepLink+" for specific problems to address."))
-			}
-			criticalFail = true
-		} else {
-			msg := icon(true) + " **Go Report Card**: OK"
-			if grade != "" {
-				msg += fmt.Sprintf(" (grade %s)", grade)
-			}
-			critical = append(critical, msg)
-			gorepOk = true
-		}
-	}
-
 	// --- Coverage ---
 	if covLink == "" {
 		warnings = append(warnings, warnIcon(false)+" **Coverage**: missing from PR body")
@@ -208,7 +177,7 @@ func main() {
 	comment := strings.Join(lines, "\n")
 
 	// --- Labels ---
-	if forgeLink == "" || pkgLink == "" || gorepLink == "" {
+	if forgeLink == "" || pkgLink == "" {
 		labels = append(labels, "needs-info")
 	}
 	if !coverageOk {
@@ -217,7 +186,7 @@ func main() {
 	if criticalFail {
 		labels = append(labels, "quality:fail")
 	}
-	if !criticalFail && repoOk && pkgOk && gorepOk {
+	if !criticalFail && repoOk && pkgOk {
 		labels = append(labels, "quality:ok")
 	}
 
@@ -416,34 +385,6 @@ func checkGithubRepo(repoURL string) repoCheckResult {
 	return result
 }
 
-// --- Go Report Card ---
-
-func checkGoReportCard(url string) (grade string, ok bool) {
-	if !isReachable(url) {
-		return "unreachable", false
-	}
-	req, err := http.NewRequest(http.MethodGet, url, nil)
-	if err != nil {
-		return "fetch error", false
-	}
-	resp, err := httpClient.Do(req)
-	if err != nil {
-		return "fetch error", false
-	}
-	defer resp.Body.Close()
-	body, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return "fetch error", false
-	}
-	m := reGrade.FindSubmatch(body)
-	if m == nil {
-		return "unknown", true // reachable but no grade found
-	}
-	g := strings.ToUpper(string(m[1]))
-	pass := g == "A" || g == "A+" || g == "A-"
-	return g, pass
-}
-
 // --- Output helpers ---
 
 func setOutput(name, value string) {
@@ -457,7 +398,51 @@ func setOutput(name, value string) {
 		return
 	}
 	defer f.Close()
-	fmt.Fprintf(f, "%s<<EOF\n%s\nEOF\n", name, value)
+	delimiter, err := githubOutputDelimiter(value)
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "setOutput: %s\n", err)
+		os.Exit(1)
+	}
+	fmt.Fprintf(f, "%s<<%s\n%s\n%s\n", name, delimiter, value, delimiter)
+}
+
+// readRandom is crypto/rand.Read, split out so tests can simulate failure.
+var readRandom = rand.Read
+
+// githubOutputDelimiter returns a per-call heredoc delimiter that is not a
+// line of its own inside value. GitHub Actions ends a multiline GITHUB_OUTPUT
+// value at the first line equal to the delimiter, so a fixed word such as EOF
+// lets that line inject another step output. A crypto/rand failure returns
+// an error instead of a predictable delimiter.
+func githubOutputDelimiter(value string) (string, error) {
+	randFailures := 0
+	for randFailures < 5 {
+		buf := make([]byte, 16)
+		n, err := readRandom(buf)
+		if err != nil || n != len(buf) {
+			randFailures++
+			continue
+		}
+		delimiter := "ghadelim_" + hex.EncodeToString(buf)
+		if !outputLineEquals(value, delimiter) {
+			return delimiter, nil
+		}
+	}
+	return "", errors.New("crypto/rand failed 5 times; refusing to write a predictable GITHUB_OUTPUT delimiter")
+}
+
+func outputLineEquals(value, delimiter string) bool {
+	rest := value
+	for {
+		line, after, found := strings.Cut(rest, "\n")
+		if line == delimiter {
+			return true
+		}
+		if !found {
+			return false
+		}
+		rest = after
+	}
 }
 
 func icon(ok bool) string {

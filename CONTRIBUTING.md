@@ -36,7 +36,7 @@ Before opening a pull request, ensure the following:
 - [ ] The repository has: at least **5 months of history**, an **open source license**, a `go.mod`, and at least one **SemVer release** (`vX.Y.Z`).
 - [ ] Documentation in English: **README** and **pkg.go.dev doc comments** for public APIs.
 - [ ] Tests meet the coverage guideline (**≥80%** for non-data packages, **≥90%** for data packages) when applicable.
-- [ ] Include links in the PR body to **pkg.go.dev**, **Go Report Card**, and a **coverage report**.
+- [ ] Include links in the PR body to **pkg.go.dev** and a **coverage report**.
 - [ ] For ongoing development: issues and PRs are responded to within ~2 weeks; or, if the project is mature/stable, there are no bug reports older than 6 months.
 
 To set this list apart from and complement the excellent [Go wiki Projects page](https://go.dev/wiki/Projects),
@@ -48,8 +48,7 @@ Please contribute links to packages/projects you have used or are familiar with.
 
 ## Quality standards
 
-To be on the list, project repositories should adhere to the following quality standards.
-(<https://goreportcard.com/report/github.com/> **github_user** / **github_repo**):
+To be on the list, project repositories should adhere to the following quality standards:
 
 - have at least 5 months of history since the first commit.
 - have an **open source license**, [see list of allowed licenses](https://opensource.org/licenses/alphabetical);
@@ -77,8 +76,7 @@ When you open a PR, the following checks run automatically via CI. Fixing these 
 | **go.mod present** | `go.mod` exists at the repository root |
 | **SemVer release** | At least one tag matching `vX.Y.Z` exists |
 | **pkg.go.dev reachable** | The provided pkg.go.dev link loads |
-| **Go Report Card grade** | Grade is A-, A, or A+ |
-| **PR body links present** | Forge link, pkg.go.dev, and Go Report Card are provided |
+| **PR body links present** | Forge link and pkg.go.dev are provided |
 | **Single item per PR** | Only one package added or removed per PR |
 | **Link consistency** | URL added to README matches the forge link in the PR body |
 | **Description format** | Entry ends with a period |
@@ -116,14 +114,14 @@ Projects listed must have the following in their documentation. When submitting,
 to provide them.
 
 - A link to the project's pkg.go.dev page
-- A link to the project's Go Report Card report
 - A link to a code coverage report
 
 One way to accomplish the above is to add badges to your project's README file.
 
 - Use <https://pkg.go.dev/badge/> to create the pkg.go.dev link.
-- Go to <https://goreportcard.com/> to generate a Go Report Card report, then click on the report badge in the upper-right corner to see details on how to add the badge to your README.
 - Codecov, coveralls, and gocover all offer ways to create badges for code coverage reports. Another option is to generate a badge as part of a continuous integration process. See [Code Coverage](COVERAGE.md) for an example.
+
+Optional: running `go vet ./...` and [staticcheck](https://staticcheck.dev/) before submitting catches most of the issues reviewers would point out.
 
 ## How to add an item to the list
 
@@ -169,7 +167,6 @@ Provide these links in the PR body to speed up review:
 ```md
 Forge link: https://github.com/org/project
 pkg.go.dev: https://pkg.go.dev/github.com/org/project
-goreportcard.com: https://goreportcard.com/report/github.com/org/project
 Coverage: https://app.codecov.io/gh/org/project
 ```
 
@@ -204,7 +201,7 @@ Highly recommended but not required:
 - Delete the submission template and substitute a description of which criteria the project is not meeting. It should be a combination of the following.
   - The project has not made an official release within the last year and has open issues.
   - The project is not responding to bug reports issued within 6 months of submission.
-  - The project is not meeting quality standards as indicated by the Go Report Card or Code Coverage tests.
+  - The project is not meeting quality standards as indicated by its code coverage report.
   - The quality standard links have been removed from the documentation.
   - The project is no longer open-sourced.
   - The project is incompatible with any Go version issued within the last year (there is hopefully an open PR about this at the project).

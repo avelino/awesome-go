@@ -2,8 +2,10 @@ package markdown
 
 import (
 	"bytes"
+	"html/template"
 
 	"github.com/avelino/awesome-go/pkg/slug"
+	"github.com/microcosm-cc/bluemonday"
 	"github.com/yuin/goldmark"
 	"github.com/yuin/goldmark/ast"
 	"github.com/yuin/goldmark/extension"
@@ -12,8 +14,18 @@ import (
 	"github.com/yuin/goldmark/util"
 )
 
-// ToHTML converts markdown byte slice to a HTML byte slice
-func ToHTML(markdown []byte) ([]byte, error) {
+// sanitizer is shared by ToHTML; bluemonday policies are safe for concurrent use.
+var sanitizer = newSanitizer()
+
+// ToHTML converts a markdown byte slice to sanitized HTML.
+//
+// README.md relies on inline HTML (the logo, the sponsors table, the collapsible
+// contents list), so the renderer runs with html.WithUnsafe and the raw output is
+// untrusted. It is passed through an allow-list sanitizer before being returned.
+//
+// This is the only place where unsanitized markup becomes template.HTML, so
+// html/template renders the result as is, without escaping it again.
+func ToHTML(markdown []byte) (template.HTML, error) {
 	md := goldmark.New(
 		goldmark.WithExtensions(extension.GFM),
 		goldmark.WithParserOptions(
@@ -31,10 +43,28 @@ func ToHTML(markdown []byte) ([]byte, error) {
 
 	var buf bytes.Buffer
 	if err := md.Convert(markdown, &buf, parser.WithContext(ctx)); err != nil {
-		return nil, err
+		return "", err
 	}
 
-	return buf.Bytes(), nil
+	return template.HTML(sanitizer.SanitizeBytes(buf.Bytes())), nil
+}
+
+// newSanitizer builds the allow-list used on the rendered markdown.
+//
+// The starting point is bluemonday's user-generated-content policy, which keeps
+// the list's real markup (links, headings, lists, tables, images) and strips
+// scripts, event handlers and dangerous URL schemes. The additions below restore
+// the presentational attributes README.md already uses, so the homepage markup
+// does not change.
+func newSanitizer() *bluemonday.Policy {
+	p := bluemonday.UGCPolicy()
+	// UGCPolicy appends rel="nofollow" to every link; the list's own links keep
+	// their original form.
+	p.RequireNoFollowOnLinks(false)
+	p.AllowAttrs("align").Globally()
+	p.AllowAttrs("colspan", "rowspan").OnElements("td", "th")
+	p.AllowAttrs("cellpadding", "cellspacing", "border").OnElements("table")
+	return p
 }
 
 // IDGenerator for goldmark to provide IDs more similar to GitHub's IDs on markdown parsing
