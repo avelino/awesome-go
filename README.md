@@ -1044,6 +1044,7 @@ _Libraries for building and using SQL._
 - [go-elasticsearch](https://github.com/elastic/go-elasticsearch) - Official Elasticsearch client for Go.
 - [goes](https://github.com/OwnLocal/goes) - Library to interact with Elasticsearch.
 - [skizze](https://github.com/skizzehq/skizze) - A probabilistic data structure service and storage.
+- [zedsearch](https://github.com/vcaesar/zedsearch) - Faster lightweight hybrid search engine with Elasticsearch-compatible ingestion APIs and an embedded web UI.
 - [zoekt](https://github.com/sourcegraph/zoekt) - Fast trigram based code search.
 
 **[⬆ back to top](#contents)**
