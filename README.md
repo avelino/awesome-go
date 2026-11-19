@@ -1043,6 +1043,7 @@ _Libraries for building and using SQL._
 - [elastigo](https://github.com/mattbaird/elastigo) - Elasticsearch client library.
 - [go-elasticsearch](https://github.com/elastic/go-elasticsearch) - Official Elasticsearch client for Go.
 - [goes](https://github.com/OwnLocal/goes) - Library to interact with Elasticsearch.
+- [riot](https://github.com/vcaesar/riot) - Simple and fast text and vector index engine.
 - [skizze](https://github.com/skizzehq/skizze) - A probabilistic data structure service and storage.
 - [zoekt](https://github.com/sourcegraph/zoekt) - Fast trigram based code search.
 
