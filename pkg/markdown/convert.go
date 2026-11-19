@@ -2,6 +2,7 @@ package markdown
 
 import (
 	"bytes"
+	"html/template"
 
 	"github.com/avelino/awesome-go/pkg/slug"
 	"github.com/microcosm-cc/bluemonday"
@@ -16,12 +17,15 @@ import (
 // sanitizer is shared by ToHTML; bluemonday policies are safe for concurrent use.
 var sanitizer = newSanitizer()
 
-// ToHTML converts markdown byte slice to a HTML byte slice.
+// ToHTML converts a markdown byte slice to sanitized HTML.
 //
 // README.md relies on inline HTML (the logo, the sponsors table, the collapsible
-// contents list), so the renderer runs with html.WithUnsafe and the output is
+// contents list), so the renderer runs with html.WithUnsafe and the raw output is
 // untrusted. It is passed through an allow-list sanitizer before being returned.
-func ToHTML(markdown []byte) ([]byte, error) {
+//
+// This is the only place where unsanitized markup becomes template.HTML, so
+// html/template renders the result as is, without escaping it again.
+func ToHTML(markdown []byte) (template.HTML, error) {
 	md := goldmark.New(
 		goldmark.WithExtensions(extension.GFM),
 		goldmark.WithParserOptions(
@@ -39,10 +43,10 @@ func ToHTML(markdown []byte) ([]byte, error) {
 
 	var buf bytes.Buffer
 	if err := md.Convert(markdown, &buf, parser.WithContext(ctx)); err != nil {
-		return nil, err
+		return "", err
 	}
 
-	return sanitizer.SanitizeBytes(buf.Bytes()), nil
+	return template.HTML(sanitizer.SanitizeBytes(buf.Bytes())), nil
 }
 
 // newSanitizer builds the allow-list used on the rendered markdown.
