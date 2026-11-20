@@ -2223,7 +2223,6 @@ _Libraries for working with various layers of the network._
 - [go-multiproxy](https://github.com/presbrey/go-multiproxy) - Library for making HTTP requests through a pool of proxies offering fault tolerance, load balancing, automatic retries, cookie management, and more, via http.Get/Post replacement or http.Client RoundTripper drop-in
 - [go-pcaplite](https://github.com/alexcfv/go-pcaplite) - Lightweight live packet capture library with HTTPS SNI extraction.
 - [go-powerdns](https://github.com/joeig/go-powerdns) - PowerDNS API bindings for Golang.
-- [go-smart-proxy](https://github.com/apeironlab/go-smart-proxy) - Local HTTP/HTTPS and SOCKS5 proxy with network-aware route selection, proxy chains, ad and malware blocking, and an encrypted relay to reach contacts' networks.
 - [go-sse](https://github.com/lampctl/go-sse) - Go client and server implementation of HTML server-sent events.
 - [go-stun](https://github.com/ccding/go-stun) - Go implementation of the STUN client (RFC 3489 and RFC 5389).
 - [gobgp](https://github.com/osrg/gobgp) - BGP implemented in the Go Programming Language.
@@ -3771,6 +3770,7 @@ _Software written in Go._
 - [gfile](https://github.com/Antonito/gfile) - Securely transfer files between two computers, without any third party, over WebRTC.
 - [Go Package Store](https://github.com/shurcooL/Go-Package-Store) - App that displays updates for the Go packages in your GOPATH.
 - [go-peerflix](https://github.com/Sioro-Neoku/go-peerflix) - Video streaming torrent client.
+- [go-smart-proxy](https://github.com/apeironlab/go-smart-proxy) - Local HTTP and SOCKS5 proxy that picks the upstream route by network, destination rules, proxy chains and much more mainly intended to confortably work behind NTLM proxies.
 - [goblin](https://goblin.run) - Cloud builder for CLI's written in go lang
 - [GoBoy](https://github.com/Humpheh/goboy) - Nintendo Game Boy Color emulator written in Go.
 - [gocc](https://github.com/goccmack/gocc) - Gocc is a compiler kit for Go written in Go.
