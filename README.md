@@ -921,7 +921,7 @@ _Data stores with expiring records, in-memory distributed data stores, or in-mem
 - [pREST](https://github.com/prest/prest) - Simplify and accelerate development, ⚡ instant, realtime, high-performance on any Postgres application, existing or new.
 - [rdb](https://github.com/HDT3213/rdb) - Redis RDB file parser for secondary development and memory analysis.
 - [rwdb](https://github.com/andizzle/rwdb) - rwdb provides read replica capability for multiple database servers setup.
-- [sqlfox](https://github.com/herliansyah/sqlfox) - High-performance, lightweight database manager and viewer with an embedded web UI, safety guard, visual ERD, and BYOK AI copilot.
+- [sqlfox](https://github.com/herliansyah/sqlfox) - Lightweight database manager with an embedded web UI and visual ERD.
 - [sqly](https://github.com/nao1215/sqly) - Execute SQL against CSV, TSV, LTSV, JSON, Parquet, and Excel files in an interactive shell, backed by in-memory SQLite.
 - [vitess](https://github.com/youtube/vitess) - vitess provides servers and tools which facilitate scaling of MySQL databases for large scale web services.
 - [wescale](https://github.com/wesql/wescale) - WeScale is a database proxy designed to enhance the scalability, performance, security, and resilience of your applications.
@@ -3730,7 +3730,6 @@ _Software written in Go._
 - [nightingale](https://github.com/ccfos/nightingale) - Self-hosted monitoring and alerting platform for metrics, logs, and databases.
 - [ostent](https://github.com/ostrost/ostent) - collects and displays system metrics and optionally relays to Graphite and/or InfluxDB.
 - [Packer](https://github.com/mitchellh/packer) - Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.
-- [pantau](https://github.com/herliansyah/pantau) - Agentless Linux and Windows server monitoring and management over SSH, with drift detection, web terminal, SFTP, Docker control, and network security observability.
 - [pattyGraph](https://github.com/jwminton/pattyGraph) - Real-time NGINX log analyzer with an interactive TUI and JSONL output.
 - [Pewpew](https://github.com/bengadbois/pewpew) - Flexible HTTP command line stress tester.
 - [pingtower](https://github.com/crleonard/pingtower) - Lightweight self-hosted uptime monitor for websites and APIs.
