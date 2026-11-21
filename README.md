@@ -350,6 +350,7 @@ _Tools for building blockchains._
 - [kubo](https://github.com/ipfs/kubo) - An IPFS implementation in Go. It provides content-addressable storage which can be used for decentralized storage in DApps. It is based on the IPFS protocol.
 - [lnd](https://github.com/lightningnetwork/lnd) - A complete implementation of a Lightning Network node.
 - [nview](https://github.com/blinklabs-io/nview) - Local monitoring tool for a Cardano Node. It's a TUI (terminal user interface) designed to fit most screens.
+- [OpenChainBench](https://github.com/ChainBench/OpenChainBench) - Open-source blockchain infrastructure benchmark harnesses: RPC latency, L1/L2 finality, bridge fees, oracle deviation, and perp DEX costs across 20+ chains.
 - [pactus](https://github.com/pactus-project/pactus) - A full-node implementation of the Pactus blockchain in Go.
 - [seed-poet](https://github.com/abkvme/seed-poet) - BIP39 mnemonic generator that arranges 12 or 24-word seed phrases as rhyming couplets, with a JavaScript port that produces identical output.
 - [solana-go](https://github.com/gagliardetto/solana-go) - Go library to interface with Solana JSON RPC and WebSocket interfaces.
