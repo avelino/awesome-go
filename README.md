@@ -1046,6 +1046,7 @@ _Libraries for building and using SQL._
 - [goes](https://github.com/OwnLocal/goes) - Library to interact with Elasticsearch.
 - [riot](https://github.com/vcaesar/riot) - Simple and fast text and vector index engine.
 - [skizze](https://github.com/skizzehq/skizze) - A probabilistic data structure service and storage.
+- [zedsearch](https://github.com/vcaesar/zedsearch) - Faster lightweight hybrid search engine with Elasticsearch-compatible ingestion APIs and an embedded web UI.
 - [zoekt](https://github.com/sourcegraph/zoekt) - Fast trigram based code search.
 
 **[⬆ back to top](#contents)**
