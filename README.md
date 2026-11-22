@@ -227,6 +227,7 @@ _Libraries for building programs that leverage AI._
 - [chromem-go](https://github.com/philippgille/chromem-go) - Embeddable vector database for Go with Chroma-like interface and zero third-party dependencies. In-memory with optional persistence.
 - [clai](https://github.com/baalimago/clai) - Agentic harness focused on terminal workflows, following UNIX principles. No external dependencies, ideal for scripting/prototyping agentic apps, engine is also exposed as a package.
 - [claude-code-go](https://github.com/lancekrogers/claude-code-go) - Go library for driving the Claude Code CLI non-interactive prompt surface from Go programs.
+- [codex-sdk-go](https://github.com/pmenglund/codex-sdk-go) - Go SDK for the OpenAI Codex app-server with streaming, approval callbacks, and structured output.
 - [crewai-go](https://github.com/rhgs/crewai-go) - Idiomatic Go port of CrewAI (multi-agent orchestration). Zero dependencies, stdlib only.
 - [Cynative](https://github.com/cynative/cynative) - Framework for building security engineering AI agents in Go. Read-only by construction, built-in sandbox, 45 agent blueprints for AWS, GCP, Azure, K8s, GitHub & GitLab deep research.
 - [dakera-go](https://github.com/dakera-ai/dakera-go) - Official Go client SDK for the Dakera self-hosted agent memory server, providing typed interfaces for memory store/recall, session management, namespace operations, and decay configuration.
