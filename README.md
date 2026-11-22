@@ -2770,6 +2770,7 @@ _Libraries for testing codebases and generating test data._
 - [schema](https://github.com/jgroeneveld/schema) - Quick and easy expression matching for JSON schemas used in requests and responses.
 - [should](https://github.com/Kairum-Labs/should) - Testing library with zero dependencies, detailed struct diffs and human-readable error messages.
 - [stop-and-go](https://github.com/elgohr/stop-and-go) - Testing helper for concurrency.
+- [tensgo](https://github.com/Errtu0/tensgo) - Zero-dependency API load and stress testing CLI/TUI with OpenAPI auto-discovery, chaos profiles, and CI/CD latency gates.
 - [testcase](https://github.com/adamluzsi/testcase) - Idiomatic testing framework for Behavior Driven Development.
 - [testcerts](https://github.com/madflojo/testcerts) - Dynamically generate self-signed certificates and certificate authorities within your test functions.
 - [testcontainers-go](https://github.com/testcontainers/testcontainers-go) - A Go package that makes it simple to create and clean up container-based dependencies for automated integration/smoke tests. The clean, easy-to-use API enables developers to programmatically define containers that should be run as part of a test and clean up those resources when the test is done.
