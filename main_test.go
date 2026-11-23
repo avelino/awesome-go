@@ -376,3 +376,46 @@ func TestSitemapIsWellFormedXML(t *testing.T) {
 		t.Errorf("loc values after decoding:\n got %q\nwant %q", locs, want)
 	}
 }
+
+func TestParseRepoURLKeepsGitLabNamespace(t *testing.T) {
+	tests := []struct {
+		url                           string
+		wantHost, wantOwner, wantRepo string
+	}{
+		{"https://github.com/foo/bar", "github", "foo", "bar"},
+		{"https://gitlab.com/foo/bar", "gitlab", "foo", "bar"},
+		{"https://gitlab.com/group/sub/bar", "gitlab", "group/sub", "bar"},
+		{"https://gitlab.com/group/sub/bar/-/tree/main", "gitlab", "group/sub", "bar"},
+	}
+	for _, tt := range tests {
+		host, owner, repo, ok := parseRepoURL(tt.url)
+		if !ok {
+			t.Errorf("parseRepoURL(%q) not ok", tt.url)
+			continue
+		}
+		if host != tt.wantHost || owner != tt.wantOwner || repo != tt.wantRepo {
+			t.Errorf("parseRepoURL(%q) = (%q, %q, %q), want (%q, %q, %q)",
+				tt.url, host, owner, repo, tt.wantHost, tt.wantOwner, tt.wantRepo)
+		}
+	}
+}
+
+func TestCacheFilePathDoesNotCollide(t *testing.T) {
+	pairs := [][2]string{
+		{"https://github.com/foo/bar", "https://gitlab.com/foo/bar"},
+		{"https://gitlab.com/group/a/bar", "https://gitlab.com/group/b/bar"},
+	}
+	for _, pair := range pairs {
+		var paths [2]string
+		for i, u := range pair {
+			host, owner, repo, ok := parseRepoURL(u)
+			if !ok {
+				t.Fatalf("parseRepoURL(%q) not ok", u)
+			}
+			paths[i] = cacheFilePath(&Project{Host: host, Owner: owner, Repo: repo})
+		}
+		if paths[0] == paths[1] {
+			t.Errorf("cache paths collide for %q and %q: %s", pair[0], pair[1], paths[0])
+		}
+	}
+}
