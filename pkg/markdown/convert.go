@@ -3,6 +3,7 @@ package markdown
 import (
 	"bytes"
 	"html/template"
+	"strconv"
 
 	"github.com/avelino/awesome-go/pkg/slug"
 	"github.com/microcosm-cc/bluemonday"
@@ -72,12 +73,28 @@ type IDGenerator struct {
 	used map[string]bool
 }
 
-// Generate an ID
+// Generate an ID. Like GitHub, a heading whose slug was already used gets a
+// numeric suffix: "tools", "tools-1", "tools-2".
 func (g *IDGenerator) Generate(value []byte, _ ast.NodeKind) []byte {
-	return []byte(slug.Generate(string(value)))
+	id := slug.Generate(string(value))
+	if id == "" {
+		return nil
+	}
+	if g.used == nil {
+		g.used = map[string]bool{}
+	}
+	unique := id
+	for i := 1; g.used[unique]; i++ {
+		unique = id + "-" + strconv.Itoa(i)
+	}
+	g.used[unique] = true
+	return []byte(unique)
 }
 
 // Put an ID to the list of already used IDs
 func (g *IDGenerator) Put(value []byte) {
+	if g.used == nil {
+		g.used = map[string]bool{}
+	}
 	g.used[util.BytesToReadOnlyString(value)] = true
 }
