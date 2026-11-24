@@ -2084,6 +2084,7 @@ _These libraries were placed here because none of the other categories seemed to
 - [datacounter](https://github.com/miolini/datacounter) - Go counters for readers/writer/http.ResponseWriter.
 - [fake-useragent](https://github.com/lib4u/fake-useragent) - Up-to-date simple useragent faker with real world database in Golang
 - [faker](https://github.com/pioz/faker) - Random fake data and struct generator for Go.
+- [fejkdata](https://github.com/larvit/fejkdata) - CLI and library that render fake test data from JSON templates, with related values that match.
 - [ffmt](https://github.com/go-ffmt/ffmt) - Beautify data display for Humans.
 - [gatus](https://github.com/TwinProduction/gatus) - Automated service health dashboard.
 - [go-commandbus](https://github.com/lana/go-commandbus) - A slight and pluggable command-bus for Go.
