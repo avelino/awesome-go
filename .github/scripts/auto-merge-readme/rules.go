@@ -105,6 +105,10 @@ func approvalStatus(reviews []review, head string, isMaintainer func(string) (bo
 		if r.State == "COMMENTED" || r.State == "PENDING" {
 			continue
 		}
+		// A deleted account has no login; there is nobody to look up.
+		if r.User == "" {
+			continue
+		}
 		if _, ok := latest[r.User]; !ok {
 			order = append(order, r.User)
 		}

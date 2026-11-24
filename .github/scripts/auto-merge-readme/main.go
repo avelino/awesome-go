@@ -4,7 +4,10 @@
 //
 // It never checks out or runs pull request code. Everything it knows comes
 // from the GitHub API. Any doubt (unexpected diff, API error, missing data)
-// means the pull request is skipped and left for a human.
+// means the pull request is skipped and left for a human. A merge refused
+// with 403 (the workflow token cannot merge it) is also reported as a skip
+// that needs a manual merge and does not fail the run; any other merge
+// error does.
 //
 // Environment:
 //
@@ -20,6 +23,7 @@ package main
 import (
 	"bytes"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"net/http"
@@ -39,6 +43,24 @@ const selfCheck = "Auto-merge README PRs"
 type client struct {
 	token, repo string
 	http        *http.Client
+}
+
+// apiError is a non-2xx answer from the GitHub API.
+type apiError struct {
+	Method, Path string
+	Status       int
+	Body         string
+}
+
+func (e *apiError) Error() string {
+	return fmt.Sprintf("%s %s: %d %s", e.Method, e.Path, e.Status, e.Body)
+}
+
+// mergeSkippable reports whether a merge error is a 403, meaning the token
+// is not allowed to merge and a maintainer has to do it.
+func mergeSkippable(err error) bool {
+	var ae *apiError
+	return errors.As(err, &ae) && ae.Status == http.StatusForbidden
 }
 
 func (c *client) do(method, path string, body, out any) error {
@@ -73,7 +95,7 @@ func (c *client) do(method, path string, body, out any) error {
 		return err
 	}
 	if resp.StatusCode/100 != 2 {
-		return fmt.Errorf("%s %s: %d %s", method, path, resp.StatusCode, strings.TrimSpace(string(data)))
+		return &apiError{method, path, resp.StatusCode, strings.TrimSpace(string(data))}
 	}
 	if out != nil {
 		return json.Unmarshal(data, out)
@@ -303,6 +325,10 @@ func main() {
 		// Passing sha makes GitHub refuse the merge if a new commit landed
 		// after the checks above.
 		if err := c.do("PUT", fmt.Sprintf("/repos/%s/pulls/%d/merge", c.repo, n), map[string]string{"sha": head, "merge_method": "squash"}, nil); err != nil {
+			if mergeSkippable(err) {
+				fmt.Printf("#%d: skipped, needs a manual merge (the workflow token cannot merge this PR: %v)\n", n, err)
+				continue
+			}
 			fmt.Printf("#%d: merge failed, %v\n", n, err)
 			failed = true
 			continue
