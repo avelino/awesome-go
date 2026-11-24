@@ -2,6 +2,9 @@ package main
 
 import (
 	"errors"
+	"fmt"
+	"net/http"
+	"net/http/httptest"
 	"testing"
 	"time"
 )
@@ -122,6 +125,22 @@ func TestApprovalStatus(t *testing.T) {
 	if _, err := approvalStatus([]review{r("avelino", "APPROVED", "h"), r("ceriath", "CHANGES_REQUESTED", "h")}, "h", maint); err == nil {
 		t.Error("changes requested should block")
 	}
+	for _, state := range []string{"APPROVED", "CHANGES_REQUESTED"} {
+		called := false
+		spy := func(u string) (bool, error) {
+			if u == "" {
+				called = true
+			}
+			return u == "avelino", nil
+		}
+		a, err := approvalStatus([]review{r("", state, "h"), r("avelino", "APPROVED", "h")}, "h", spy)
+		if err != nil || len(a) != 1 || a[0] != "avelino" {
+			t.Errorf("empty login %s: %v %v", state, a, err)
+		}
+		if called {
+			t.Errorf("empty login %s: isMaintainer called with empty user", state)
+		}
+	}
 	fail := func(string) (bool, error) { return false, errors.New("api down") }
 	if _, err := approvalStatus([]review{r("avelino", "APPROVED", "h")}, "h", fail); err == nil {
 		t.Error("permission lookup error should block")
@@ -143,5 +162,39 @@ func TestChecksGreen(t *testing.T) {
 		if err := checksGreen(runs, req, "Auto merge"); err == nil {
 			t.Errorf("%s: want error", name)
 		}
+	}
+}
+
+func TestMergeSkippable(t *testing.T) {
+	for status, want := range map[int]bool{403: true, 404: false, 405: false, 409: false, 422: false, 500: false} {
+		err := &apiError{"PUT", "/x", status, "body"}
+		if got := mergeSkippable(err); got != want {
+			t.Errorf("status %d: got %v, want %v", status, got, want)
+		}
+		if got := mergeSkippable(fmt.Errorf("wrapped: %w", err)); got != want {
+			t.Errorf("wrapped status %d: got %v, want %v", status, got, want)
+		}
+	}
+	if mergeSkippable(errors.New("network down")) || mergeSkippable(nil) {
+		t.Error("plain errors must not be skippable")
+	}
+}
+
+func TestDoReturnsAPIError(t *testing.T) {
+	srv := httptest.NewTLSServer(http.HandlerFunc(func(w http.ResponseWriter, _ *http.Request) {
+		http.Error(w, "Resource not accessible by integration", http.StatusForbidden)
+	}))
+	defer srv.Close()
+	c := &client{http: srv.Client()}
+	err := c.do("PUT", srv.URL+"/merge", nil, nil)
+	var ae *apiError
+	if !errors.As(err, &ae) || ae.Status != 403 {
+		t.Fatalf("want apiError 403, got %v", err)
+	}
+	if !mergeSkippable(err) {
+		t.Error("403 should be skippable")
+	}
+	if want := "PUT " + srv.URL + "/merge: 403 Resource not accessible by integration"; err.Error() != want {
+		t.Errorf("message = %q, want %q", err.Error(), want)
 	}
 }
