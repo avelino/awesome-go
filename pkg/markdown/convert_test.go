@@ -116,3 +116,23 @@ func TestToHTMLIsTrustedByHTMLTemplate(t *testing.T) {
 		t.Errorf("sanitizer let a script through: %s", out.String())
 	}
 }
+
+func TestToHTMLDuplicateHeadingIDs(t *testing.T) {
+	got, err := ToHTML([]byte("## Tools\n\n## Tools\n\n## Tools\n"))
+	if err != nil {
+		t.Fatalf("ToHTML() error = %v", err)
+	}
+	for _, id := range []string{`id="tools"`, `id="tools-1"`, `id="tools-2"`} {
+		if !strings.Contains(string(got), id) {
+			t.Errorf("ToHTML() = %v, want it to contain %s", string(got), id)
+		}
+	}
+}
+
+func TestIDGeneratorPutOnZeroValue(t *testing.T) {
+	g := &IDGenerator{}
+	g.Put([]byte("tools"))
+	if got := string(g.Generate([]byte("Tools"), 0)); got != "tools-1" {
+		t.Errorf("Generate() after Put = %q, want %q", got, "tools-1")
+	}
+}
