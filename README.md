@@ -1211,6 +1211,7 @@ _Embedding other languages inside your go code._
 - [binder](https://github.com/alexeyco/binder) - Go to Lua binding library, based on [gopher-lua](https://github.com/yuin/gopher-lua).
 - [cel-go](https://github.com/google/cel-go) - Fast, portable, non-Turing complete expression evaluation with gradual typing.
 - [ecal](https://github.com/krotik/ecal) - A simple embeddable scripting language which supports concurrent event processing.
+- [evie](https://github.com/hxkhan/evie) - Embeddable scripting language with classes, fibers and per-engine sandboxing.
 - [expr](https://github.com/antonmedv/expr) - Expression evaluation engine for Go: fast, non-Turing complete, dynamic typing, static typing.
 - [FrankenPHP](https://github.com/dunglas/frankenphp) - PHP embedded in Go, with a `net/http` handler.
 - [gentee](https://github.com/gentee/gentee) - Embeddable scripting programming language.
