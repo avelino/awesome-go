@@ -1109,6 +1109,7 @@ _Packages that help with building Distributed Systems._
 - [evans](https://github.com/ktr0731/evans) - Evans: more expressive universal gRPC client.
 - [failured](https://github.com/andy2046/failured) - adaptive accrual failure detector for distributed systems.
 - [flowgraph](https://github.com/vectaport/flowgraph) - flow-based programming package.
+- [ghoti](https://github.com/dankomiocevic/ghoti) - Centralized server for shared state across distributed instances: rate limiters, leases, atomic counters and broadcast signals.
 - [gleam](https://github.com/chrislusf/gleam) - Fast and scalable distributed map/reduce system written in pure Go and Luajit, combining Go's high concurrency with Luajit's high performance, runs standalone or distributed.
 - [glow](https://github.com/chrislusf/glow) - Easy-to-Use scalable distributed big data processing, Map-Reduce, DAG execution, all in pure Go.
 - [gmsec](https://github.com/gmsec/micro) - A Go distributed systems development framework.
