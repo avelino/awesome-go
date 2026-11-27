@@ -1628,7 +1628,7 @@ _Libraries for manipulating images._
 - [go-nude](https://github.com/koyachi/go-nude) - Nudity detection with Go.
 - [go-qrcode](https://github.com/yeqown/go-qrcode) - Generate QR codes with personalized styles, allowing adjustments to color, block size, shape, and icons.
 - [go-webcolors](https://github.com/jyotiska/go-webcolors) - Port of webcolors library from Python to Go.
-- [go-webp](https://github.com/kolesa-team/go-webp) - Library for encode and decode webp pictures, using libwebp.
+- [go-webp](https://github.com/kolesa-team/go-webp) - Pure Go WebP encoder and decoder (lossy, lossless, alpha) with SIMD for amd64 and arm64.
 - [gocv](https://github.com/hybridgroup/gocv) - Go package for computer vision using OpenCV 3.3+.
 - [gogpu/gg](https://github.com/gogpu/gg) - GPU-accelerated 2D rendering with Canvas-like API, zero CGO (part of [GoGPU](https://github.com/gogpu) pure Go graphics ecosystem).
 - [goimagehash](https://github.com/corona10/goimagehash) - Go Perceptual image hashing package.
