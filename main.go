@@ -466,26 +466,34 @@ func renderIndex(srcFilename, outFilename string) error {
 	return nil
 }
 
-// parseRepoURL extracts host, owner, and repo from a GitHub or GitLab URL
+// parseRepoURL extracts host, owner, and repo from a GitHub or GitLab URL.
+// For GitLab, owner is the full namespace (e.g. "group/subgroup") so that
+// projects in different subgroups do not collide.
 func parseRepoURL(rawURL string) (host, owner, repo string, ok bool) {
 	u, err := url.Parse(rawURL)
 	if err != nil {
 		return "", "", "", false
 	}
 
-	parts := strings.Split(strings.Trim(u.Path, "/"), "/")
+	path := strings.Trim(u.Path, "/")
 
 	switch u.Hostname() {
 	case "github.com":
+		parts := strings.Split(path, "/")
 		if len(parts) < 2 {
 			return "", "", "", false
 		}
 		return "github", parts[0], parts[1], true
 	case "gitlab.com":
+		// Remove tree/branch paths (e.g., /-/tree/main/...)
+		if idx := strings.Index(path, "/-/"); idx != -1 {
+			path = path[:idx]
+		}
+		parts := strings.Split(path, "/")
 		if len(parts) < 2 {
 			return "", "", "", false
 		}
-		return "gitlab", parts[0], parts[len(parts)-1], true
+		return "gitlab", strings.Join(parts[:len(parts)-1], "/"), parts[len(parts)-1], true
 	}
 
 	return "", "", "", false
@@ -592,7 +600,7 @@ func fetchProjectMeta(projects []*Project) error {
 }
 
 func cacheFilePath(p *Project) string {
-	return filepath.Join(".cache", "repos", p.Owner, p.Repo+".json")
+	return filepath.Join(".cache", "repos", p.Host, filepath.FromSlash(p.Owner), p.Repo+".json")
 }
 
 func readCachedMeta(p *Project) (*RepoMeta, error) {
