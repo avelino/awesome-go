@@ -2572,6 +2572,7 @@ _Libraries that are used to help make your application more secure._
 - [osv-scanner](https://github.com/google/osv-scanner) - Vulnerability scanner written in Go which uses the data provided by OSV.
 - [passlib](https://github.com/hlandau/passlib) - Futureproof password hashing library.
 - [passwap](https://github.com/zitadel/passwap) - Provides a unified implementation between different password hashing algorithms
+- [pgveil](https://github.com/duhanguler/pgveil) - PostgreSQL wire-protocol proxy with dynamic PII masking, SQL firewall and virtual row-level security.
 - [pii-shield](https://github.com/pii-shield/pii-shield) - Zero-code log sanitization sidecar for Kubernetes that redacts PII from logs.
 - [pm](https://github.com/nicola-strappazzon/password-manager) - Unix-style password manager written in Go to save your data with OpenPGP encryption.
 - [procscope](https://github.com/Mutasem-mk4/procscope) - Process-scoped runtime investigator using eBPF to trace process lifecycle, file activity, and network connections.
