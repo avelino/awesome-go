@@ -128,6 +128,38 @@ func TestClassifyRealPRs(t *testing.T) {
 	}
 }
 
+func TestClassifyURLCase(t *testing.T) {
+	tests := []struct {
+		name   string
+		before string
+		after  string
+		kind   prKind
+	}{
+		{"path", "https://example.com/Alpha", "https://example.com/alpha", kindPackage},
+		{"query", "https://example.com/?module=Alpha", "https://example.com/?module=alpha", kindPackage},
+		{"fragment", "https://example.com/#Alpha", "https://example.com/#alpha", kindPackage},
+		{"GitHub file", "https://github.com/org/repo/blob/main/Alpha.go", "https://github.com/org/repo/blob/main/alpha.go", kindPackage},
+		{"GitHub repository", "https://github.com/Org/Repo", "https://github.com/org/repo", kindFormatting},
+		{"host", "https://EXAMPLE.COM/Alpha", "https://example.com/Alpha", kindFormatting},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			patch := "-- [entry](" + tt.before + ") - Example.\n+- [entry](" + tt.after + ") - Example."
+			got := classify(patch)
+			if got.Kind != tt.kind {
+				t.Fatalf("kind = %s, want %s", got.Kind, tt.kind)
+			}
+			if tt.kind == kindPackage && (!reflect.DeepEqual(got.Added, []string{tt.after}) || !reflect.DeepEqual(got.Removed, []string{tt.before})) {
+				t.Fatalf("added = %v, removed = %v; want %q, %q", got.Added, got.Removed, tt.after, tt.before)
+			}
+			isPackage, reason := decide([]prFile{{Filename: "README.md", Patch: patch}})
+			if isPackage != (tt.kind == kindPackage) {
+				t.Fatalf("decide = %t (%s), want %t", isPackage, reason, tt.kind == kindPackage)
+			}
+		})
+	}
+}
+
 func TestDecide(t *testing.T) {
 	addPatch := "@@ -1 +1,2 @@\n a\n+- [beta](https://github.com/org/beta) - Beta.\n"
 	removePatch := "@@ -1,2 +1 @@\n a\n-- [beta](https://github.com/org/beta) - Beta.\n"
